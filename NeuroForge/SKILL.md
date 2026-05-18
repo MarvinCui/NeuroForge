@@ -15,12 +15,10 @@ The package can be used as a complete routed collection, or a single `skills/<to
 
 1. Read this top-level `SKILL.md`.
 2. If the user provides a file or folder, run `scripts/inspect_input.py`.
-3. Use `scripts/route_workflow.py` or `graph/skill_graph_summary.tsv` to pick relevant workflows and skills.
-4. Check `workflows/` for an end-to-end workflow template.
-5. Check `skills/<tool>/SKILL.md` for tool-specific guidance.
-6. Check `skills/<tool>/references` only when more detail is needed.
-7. Generate a plan.
-8. Ask before running heavy processing commands unless the user explicitly requested execution.
+3. Check `skills/<tool>/SKILL.md` for tool-specific guidance.
+4. Check `skills/<tool>/references` only when more detail is needed.
+5. Generate a plan.
+6. Ask before running heavy processing commands unless the user explicitly requested execution.
 
 ## Supported Input Types
 
