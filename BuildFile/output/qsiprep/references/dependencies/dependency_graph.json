@@ -1,0 +1,369 @@
+{
+  "nodes": [
+    {
+      "file": ".circleci/get_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "docs/conf.py",
+      "language": "Python"
+    },
+    {
+      "file": "docs/sphinxext/github_link.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/_warnings.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/cli/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/cli/parser.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/cli/run.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/cli/version.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/cli/workflow.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/config.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/anatomical.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/ants.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/bids.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/confounds.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/denoise.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/dipy.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/dsi_studio.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/dwi_merge.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/eddy.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/epi_fmap.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/fmap.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/freesurfer.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/gradients.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/images.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/itk.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/mrtrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/nilearn.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/niworkflows.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/qc.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/reports.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/shoreline.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/tortoise.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/interfaces/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/reports/core.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/run_local_tests.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/test_cli.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/test_cli_run.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/test_interfaces_dipy.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/test_interfaces_freesurfer.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/test_interfaces_gradients.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/test_interfaces_mrtrix3.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/test_utils_grouping.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/tests.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/tests/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/utils/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/utils/bids.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/utils/brainsuite_shore.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/utils/bspline.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/utils/debug.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/utils/grouping.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/utils/misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/utils/resources.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/utils/sentry.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/utils/shm.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/utils/testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/viz/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/viz/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/anatomical/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/anatomical/volume.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/confounds.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/derivatives.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/distortion_group_merge.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/finalize.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/fsl.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/hmc.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/hmc_sdc.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/intramodal_template.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/merge.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/pre_hmc.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/qc.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/resampling.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/dwi/util.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/fieldmap/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/fieldmap/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/fieldmap/drbuddi.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/fieldmap/fmap.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/fieldmap/pepolar.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/fieldmap/phdiff.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/fieldmap/syn.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/fieldmap/unwarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "qsiprep/workflows/fieldmap/utils.py",
+      "language": "Python"
+    }
+  ],
+  "edges": []
+}

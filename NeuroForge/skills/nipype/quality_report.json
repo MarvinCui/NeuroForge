@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-05-18T16:35:51.512324",
+  "skill_name": "nipype",
+  "overall_score": {
+    "total_score": 87.0,
+    "completeness": 80.0,
+    "accuracy": 100.0,
+    "coverage": 80.0,
+    "health": 90.0,
+    "grade": "A-"
+  },
+  "metrics": [
+    {
+      "name": "Completeness",
+      "value": 80.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation completeness: 80.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Accuracy",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation accuracy: 100.0%",
+      "suggestions": []
+    },
+    {
+      "name": "Coverage",
+      "value": 80.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation coverage: 80.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Health",
+      "value": 90.0,
+      "level": "MetricLevel.INFO",
+      "description": "Skill health: 90.0%",
+      "suggestions": [
+        "Very large file: test_examples.md"
+      ]
+    }
+  ],
+  "statistics": {
+    "total_files": 900,
+    "total_size_bytes": 3426953,
+    "markdown_files": 900,
+    "reference_files": 899,
+    "total_characters": 3426921,
+    "total_words": 256074
+  },
+  "recommendations": [],
+  "history": []
+}

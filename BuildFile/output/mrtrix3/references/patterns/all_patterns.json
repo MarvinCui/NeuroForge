@@ -1,0 +1,1246 @@
+[
+  {
+    "file_path": "mrtrix3/cmd/5tt2gmwmi.cpp",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/cmd/5tt2gmwmi.cpp",
+        "class_name": "Processor",
+        "method_name": null,
+        "line_number": 60,
+        "evidence": [
+          "Class name suggests handler chain: Processor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 7,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/cmd/dirflip.cpp",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/cmd/dirflip.cpp",
+        "class_name": "Processor",
+        "method_name": null,
+        "line_number": 110,
+        "evidence": [
+          "Class name suggests handler chain: Processor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/cmd/dwi2fod.cpp",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/cmd/dwi2fod.cpp",
+        "class_name": "CSD_Processor",
+        "method_name": null,
+        "line_number": 120,
+        "evidence": [
+          "Class name suggests handler chain: CSD_Processor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/cmd/dwi2fod.cpp",
+        "class_name": "MSMT_Processor",
+        "method_name": null,
+        "line_number": 181,
+        "evidence": [
+          "Class name suggests handler chain: MSMT_Processor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 18,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 2
+    }
+  },
+  {
+    "file_path": "mrtrix3/cmd/dwi2tensor.cpp",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/cmd/dwi2tensor.cpp",
+        "class_name": "Processor",
+        "method_name": null,
+        "line_number": 111,
+        "evidence": [
+          "Class name suggests handler chain: Processor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/cmd/mrcalc.cpp",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/cmd/mrcalc.cpp",
+        "class_name": "OpBase",
+        "method_name": null,
+        "line_number": 862,
+        "evidence": [
+          "Abstract base with subclasses: OpUnary, OpBinary"
+        ],
+        "related_classes": [
+          "OpUnary",
+          "OpBinary",
+          "OpTernary"
+        ]
+      }
+    ],
+    "total_classes": 12,
+    "total_functions": 122,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/cmd/mrmath.cpp",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/cmd/mrmath.cpp",
+        "class_name": "ImageKernelBase",
+        "method_name": null,
+        "line_number": 298,
+        "evidence": [
+          "Abstract base with subclasses: ImageKernel"
+        ],
+        "related_classes": [
+          "ImageKernel"
+        ]
+      }
+    ],
+    "total_classes": 18,
+    "total_functions": 48,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/cmd/sh2peaks.cpp",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/cmd/sh2peaks.cpp",
+        "class_name": "Processor",
+        "method_name": null,
+        "line_number": 164,
+        "evidence": [
+          "Class name suggests handler chain: Processor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 15,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/cmd/tck2fixel.cpp",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/cmd/tck2fixel.cpp",
+        "class_name": "TrackProcessor",
+        "method_name": null,
+        "line_number": 40,
+        "evidence": [
+          "Class name suggests handler chain: TrackProcessor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 14,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/cmd/tensor2metric.cpp",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/cmd/tensor2metric.cpp",
+        "class_name": "Processor",
+        "method_name": null,
+        "line_number": 107,
+        "evidence": [
+          "Class name suggests handler chain: Processor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 21,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/cmd/transformcompose.cpp",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/cmd/transformcompose.cpp",
+        "class_name": "TransformBase",
+        "method_name": null,
+        "line_number": 26,
+        "evidence": [
+          "Abstract base with subclasses: Warp, Linear"
+        ],
+        "related_classes": [
+          "Warp",
+          "Linear"
+        ]
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 22,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/core/file/json.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "mrtrix3/core/file/json.h",
+        "class_name": "output_adapter",
+        "method_name": null,
+        "line_number": 6699,
+        "evidence": [
+          "Class name suggests Adapter: output_adapter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "mrtrix3/core/file/json.h",
+        "class_name": "iteration_proxy",
+        "method_name": null,
+        "line_number": 8011,
+        "evidence": [
+          "Class name suggests Decorator: iteration_proxy"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "mrtrix3/core/file/json.h",
+        "class_name": "iteration_proxy_internal",
+        "method_name": null,
+        "line_number": 8015,
+        "evidence": [
+          "Class name suggests Decorator: iteration_proxy_internal"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "mrtrix3/core/file/json.h",
+        "class_name": "input_adapter",
+        "method_name": null,
+        "line_number": 8831,
+        "evidence": [
+          "Class name suggests Adapter: input_adapter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "mrtrix3/core/file/json.h",
+        "class_name": "cached_input_stream_adapter",
+        "method_name": null,
+        "line_number": 8922,
+        "evidence": [
+          "Class name suggests Adapter: cached_input_stream_adapter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "mrtrix3/core/file/json.h",
+        "class_name": "input_buffer_adapter",
+        "method_name": null,
+        "line_number": 9035,
+        "evidence": [
+          "Class name suggests Adapter: input_buffer_adapter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mrtrix3/core/file/json.h",
+        "class_name": "patch_operations",
+        "method_name": null,
+        "line_number": 14039,
+        "evidence": [
+          "Class name suggests Command: patch_operations"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 21,
+    "total_functions": 1027,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Adapter": 4,
+      "Decorator": 2,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/core/formats/list.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/core/formats/list.h",
+        "class_name": "Base",
+        "method_name": null,
+        "line_number": 42,
+        "evidence": [
+          "Abstract base with subclasses: format"
+        ],
+        "related_classes": [
+          "format"
+        ]
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/core/header.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "mrtrix3/core/header.h",
+        "class_name": "NDimProxy",
+        "method_name": null,
+        "line_number": 239,
+        "evidence": [
+          "Class name suggests Decorator: NDimProxy"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "mrtrix3/core/header.h",
+        "class_name": "DataTypeProxy",
+        "method_name": null,
+        "line_number": 277,
+        "evidence": [
+          "Class name suggests Decorator: DataTypeProxy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 71,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "mrtrix3/core/math/SH.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mrtrix3/core/math/SH.h",
+        "class_name": "PrecomputedFraction",
+        "method_name": null,
+        "line_number": 389,
+        "evidence": [
+          "Class name suggests Command: PrecomputedFraction"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 58,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/core/math/stats/glm.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/core/math/stats/glm.h",
+        "class_name": "TestBase",
+        "method_name": null,
+        "line_number": 212,
+        "evidence": [
+          "Abstract base with subclasses: TestFixedHomoscedastic, TestVariableHomoscedastic"
+        ],
+        "related_classes": [
+          "TestFixedHomoscedastic",
+          "TestVariableHomoscedastic"
+        ]
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 63,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/core/math/zstatistic.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/core/math/zstatistic.h",
+        "class_name": "LookupBase",
+        "method_name": null,
+        "line_number": 63,
+        "evidence": [
+          "Abstract base with subclasses: Lookup_t2z, Lookup_F2z"
+        ],
+        "related_classes": [
+          "Lookup_t2z",
+          "Lookup_F2z"
+        ]
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/core/stride.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "mrtrix3/core/stride.h",
+        "class_name": "Wrapper",
+        "method_name": null,
+        "line_number": 88,
+        "evidence": [
+          "Class name suggests Decorator: Wrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "mrtrix3/core/stride.h",
+        "class_name": "Wrapper",
+        "method_name": null,
+        "line_number": 88,
+        "evidence": [
+          "Class name suggests Adapter: Wrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "mrtrix3/core/stride.h",
+        "class_name": "InfoWrapper",
+        "method_name": null,
+        "line_number": 105,
+        "evidence": [
+          "Class name suggests Decorator: InfoWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "mrtrix3/core/stride.h",
+        "class_name": "InfoWrapper",
+        "method_name": null,
+        "line_number": 105,
+        "evidence": [
+          "Class name suggests Adapter: InfoWrapper"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 58,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Adapter": 2
+    }
+  },
+  {
+    "file_path": "mrtrix3/core/thread.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/core/thread.h",
+        "class_name": "__thread_base",
+        "method_name": null,
+        "line_number": 99,
+        "evidence": [
+          "Abstract base with subclasses: __single_thread, __multi_thread"
+        ],
+        "related_classes": [
+          "__single_thread",
+          "__multi_thread"
+        ]
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 33,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/lib/mrtrix3/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/lib/mrtrix3/__init__.py",
+        "class_name": "MRtrixBaseError",
+        "method_name": null,
+        "line_number": 29,
+        "evidence": [
+          "Abstract base with subclasses: MRtrixError"
+        ],
+        "related_classes": [
+          "MRtrixError"
+        ]
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/lib/mrtrix3/app.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mrtrix3/lib/mrtrix3/app.py",
+        "class_name": "ProgressBar",
+        "method_name": "_update",
+        "line_number": 536,
+        "evidence": [
+          "Observer method detected: _update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 21,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/dwi/tractography/SIFT2/coeff_optimiser.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/dwi/tractography/SIFT2/coeff_optimiser.h",
+        "class_name": "CoefficientOptimiserBase",
+        "method_name": null,
+        "line_number": 45,
+        "evidence": [
+          "Abstract base with subclasses: CoefficientOptimiserGSS, CoefficientOptimiserQLS"
+        ],
+        "related_classes": [
+          "CoefficientOptimiserGSS",
+          "CoefficientOptimiserQLS",
+          "CoefficientOptimiserIterative"
+        ]
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 7,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/dwi/tractography/connectome/extract.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mrtrix3/src/dwi/tractography/connectome/extract.h",
+        "class_name": "WriterExtraction",
+        "method_name": null,
+        "line_number": 103,
+        "evidence": [
+          "Class name suggests Command: WriterExtraction"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 17,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/dwi/tractography/connectome/mapped_track.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/dwi/tractography/connectome/mapped_track.h",
+        "class_name": "Mapped_track_base",
+        "method_name": null,
+        "line_number": 30,
+        "evidence": [
+          "Abstract base with subclasses: Mapped_track_nodepair, Mapped_track_nodelist"
+        ],
+        "related_classes": [
+          "Mapped_track_nodepair",
+          "Mapped_track_nodelist"
+        ]
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 15,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/dwi/tractography/connectome/tck2nodes.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/dwi/tractography/connectome/tck2nodes.h",
+        "class_name": "Tck2nodes_base",
+        "method_name": null,
+        "line_number": 41,
+        "evidence": [
+          "Abstract base with subclasses: Tck2nodes_end_voxels, Tck2nodes_radial"
+        ],
+        "related_classes": [
+          "Tck2nodes_end_voxels",
+          "Tck2nodes_radial",
+          "Tck2nodes_revsearch",
+          "Tck2nodes_forwardsearch",
+          "Tck2nodes_all_voxels"
+        ]
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 16,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/dwi/tractography/mapping/mapper.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/dwi/tractography/mapping/mapper.h",
+        "class_name": "TrackMapperBase",
+        "method_name": null,
+        "line_number": 55,
+        "evidence": [
+          "Abstract base with subclasses: TrackMapperTWI"
+        ],
+        "related_classes": [
+          "TrackMapperTWI"
+        ]
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 38,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/dwi/tractography/mapping/mapper_plugins.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/dwi/tractography/mapping/mapper_plugins.h",
+        "class_name": "TWIImagePluginBase",
+        "method_name": null,
+        "line_number": 70,
+        "evidence": [
+          "Abstract base with subclasses: TWIScalarImagePlugin, TWIFODImagePlugin"
+        ],
+        "related_classes": [
+          "TWIScalarImagePlugin",
+          "TWIFODImagePlugin",
+          "TWDFCStaticImagePlugin",
+          "TWDFCDynamicImagePlugin"
+        ]
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 21,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/dwi/tractography/mapping/writer.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/dwi/tractography/mapping/writer.h",
+        "class_name": "MapWriterBase",
+        "method_name": null,
+        "line_number": 48,
+        "evidence": [
+          "Abstract base with subclasses: MapWriter"
+        ],
+        "related_classes": [
+          "MapWriter"
+        ]
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 44,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/dwi/tractography/resampling/resampling.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/dwi/tractography/resampling/resampling.h",
+        "class_name": "Base",
+        "method_name": null,
+        "line_number": 46,
+        "evidence": [
+          "Abstract base with subclasses: BaseCRTP"
+        ],
+        "related_classes": [
+          "BaseCRTP"
+        ]
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 7,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/dwi/tractography/roi.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/dwi/tractography/roi.h",
+        "class_name": "ROISetBase",
+        "method_name": null,
+        "line_number": 140,
+        "evidence": [
+          "Abstract base with subclasses: ROIUnorderedSet, ROIOrderedSet"
+        ],
+        "related_classes": [
+          "ROIUnorderedSet",
+          "ROIOrderedSet"
+        ]
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 24,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/dwi/tractography/seeding/gmwmi.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "mrtrix3/src/dwi/tractography/seeding/gmwmi.h",
+        "class_name": "GMWMI_5TT_Wrapper",
+        "method_name": null,
+        "line_number": 41,
+        "evidence": [
+          "Class name suggests Decorator: GMWMI_5TT_Wrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "mrtrix3/src/dwi/tractography/seeding/gmwmi.h",
+        "class_name": "GMWMI_5TT_Wrapper",
+        "method_name": null,
+        "line_number": 41,
+        "evidence": [
+          "Class name suggests Adapter: GMWMI_5TT_Wrapper"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Adapter": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/fixel/matrix.cpp",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/fixel/matrix.cpp",
+        "class_name": "TrackProcessor",
+        "method_name": null,
+        "line_number": 133,
+        "evidence": [
+          "Class name suggests handler chain: TrackProcessor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 30,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/gui/dwi/renderer.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/gui/dwi/renderer.h",
+        "class_name": "ModeBase",
+        "method_name": null,
+        "line_number": 122,
+        "evidence": [
+          "Abstract base with subclasses: SH, Tensor"
+        ],
+        "related_classes": [
+          "SH",
+          "Tensor",
+          "Dixel"
+        ]
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 39,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/gui/mrview/colourmap_button.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/gui/mrview/colourmap_button.h",
+        "class_name": "ColourMapButtonObserver",
+        "method_name": null,
+        "line_number": 34,
+        "evidence": [
+          "Class name suggests Observer: ColourMapButtonObserver"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 21,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/gui/mrview/gui_image.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/gui/mrview/gui_image.h",
+        "class_name": "ImageBase",
+        "method_name": null,
+        "line_number": 50,
+        "evidence": [
+          "Abstract base with subclasses: Image"
+        ],
+        "related_classes": [
+          "Image"
+        ]
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 19,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/gui/mrview/mode/base.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mrtrix3/src/gui/mrview/mode/base.h",
+        "class_name": "__Action__",
+        "method_name": null,
+        "line_number": 218,
+        "evidence": [
+          "Class name suggests Command: __Action__"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mrtrix3/src/gui/mrview/mode/base.h",
+        "class_name": "Action",
+        "method_name": null,
+        "line_number": 237,
+        "evidence": [
+          "Class name suggests Command: Action"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 81,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 2
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/gui/mrview/tool/base.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mrtrix3/src/gui/mrview/tool/base.h",
+        "class_name": "__Action__",
+        "method_name": null,
+        "line_number": 187,
+        "evidence": [
+          "Class name suggests Command: __Action__"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mrtrix3/src/gui/mrview/tool/base.h",
+        "class_name": "Action",
+        "method_name": null,
+        "line_number": 221,
+        "evidence": [
+          "Class name suggests Command: Action"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 40,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 2
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/gui/mrview/tool/connectome/colourmap_observers.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/gui/mrview/tool/connectome/colourmap_observers.h",
+        "class_name": "NodeColourObserver",
+        "method_name": null,
+        "line_number": 35,
+        "evidence": [
+          "Class name suggests Observer: NodeColourObserver"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/gui/mrview/tool/connectome/colourmap_observers.h",
+        "class_name": "EdgeColourObserver",
+        "method_name": null,
+        "line_number": 47,
+        "evidence": [
+          "Class name suggests Observer: EdgeColourObserver"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 2
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/gui/mrview/tool/fixel/base_fixel.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/gui/mrview/tool/fixel/base_fixel.h",
+        "class_name": "BaseFixel",
+        "method_name": null,
+        "line_number": 46,
+        "evidence": [
+          "Abstract base with subclasses: FixelType"
+        ],
+        "related_classes": [
+          "FixelType"
+        ]
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 50,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mrtrix3/src/stats/permtest.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/stats/permtest.h",
+        "class_name": "PreProcessor",
+        "method_name": null,
+        "line_number": 57,
+        "evidence": [
+          "Class name suggests handler chain: PreProcessor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mrtrix3/src/stats/permtest.h",
+        "class_name": "Processor",
+        "method_name": null,
+        "line_number": 86,
+        "evidence": [
+          "Class name suggests handler chain: Processor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 2
+    }
+  }
+]

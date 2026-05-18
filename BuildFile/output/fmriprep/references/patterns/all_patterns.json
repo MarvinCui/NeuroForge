@@ -1,0 +1,194 @@
+[
+  {
+    "file_path": "fmriprep/fmriprep/cli/parser.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "fmriprep/fmriprep/cli/parser.py",
+        "class_name": "DeprecatedAction",
+        "method_name": null,
+        "line_number": 57,
+        "evidence": [
+          "Class name suggests Command: DeprecatedAction"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 11,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "fmriprep/fmriprep/config.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "fmriprep/fmriprep/config.py",
+        "class_name": "_Config",
+        "method_name": "load",
+        "line_number": 221,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "fmriprep/fmriprep/config.py",
+        "class_name": "nipype",
+        "method_name": "get_plugin",
+        "line_number": 337,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "fmriprep/fmriprep/config.py",
+        "class_name": "execution",
+        "method_name": "init",
+        "line_number": 478,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "fmriprep/fmriprep/config.py",
+        "class_name": "loggers",
+        "method_name": "init",
+        "line_number": 665,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "fmriprep/fmriprep/config.py",
+        "class_name": "seeds",
+        "method_name": "init",
+        "line_number": 702,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 15,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 5
+    }
+  },
+  {
+    "file_path": "fmriprep/fmriprep/interfaces/confounds.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "fmriprep/fmriprep/interfaces/confounds.py",
+        "class_name": "_FilterDroppedInputSpec",
+        "method_name": null,
+        "line_number": 232,
+        "evidence": [
+          "Class name suggests handler chain: _FilterDroppedInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "fmriprep/fmriprep/interfaces/confounds.py",
+        "class_name": "_FilterDroppedOutputSpec",
+        "method_name": null,
+        "line_number": 236,
+        "evidence": [
+          "Class name suggests handler chain: _FilterDroppedOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "fmriprep/fmriprep/interfaces/confounds.py",
+        "class_name": "FilterDropped",
+        "method_name": null,
+        "line_number": 240,
+        "evidence": [
+          "Class name suggests handler chain: FilterDropped"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 24,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "fmriprep/fmriprep/interfaces/workbench.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "fmriprep/fmriprep/interfaces/workbench.py",
+        "class_name": "OpenMPCommandMixin",
+        "method_name": "_num_threads_update",
+        "line_number": 39,
+        "evidence": [
+          "Observer method detected: _num_threads_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "fmriprep/fmriprep/interfaces/workbench.py",
+        "class_name": "OpenMPCommandMixin",
+        "method_name": null,
+        "line_number": 25,
+        "evidence": [
+          "Class name suggests Command: OpenMPCommandMixin"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 20,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1,
+      "Command": 1
+    }
+  }
+]

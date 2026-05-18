@@ -1,0 +1,5401 @@
+{
+  "nodes": [
+    {
+      "file": "doc/conf.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/devel/matlab_example1.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/devel/matlab_example2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/confounds.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/icc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/mesh.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/metrics.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/modelgen.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/rapidart.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/stats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_CompCor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_ErrorMap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_Overlap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_TSNR.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_ACompCor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_ActivationCount.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_AddCSVColumn.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_AddCSVRow.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_AddNoise.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_ArtifactDetect.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_CalculateMedian.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_CalculateNormalizedMoments.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_ComputeDVARS.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_ComputeMeshWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_CreateNifti.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_Distance.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_FramewiseDisplacement.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_FuzzyOverlap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_Gunzip.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_Gzip.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_ICC.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_Matlab2CSV.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_MergeCSVFiles.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_MergeROIs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_MeshWarpMaths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_ModifyAffine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_NonSteadyStateDetector.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_NormalizeProbabilityMapSet.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_P2PDistance.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_PickAtlas.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_Similarity.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_SimpleThreshold.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_SpecifyModel.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_SpecifySPMModel.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_SpecifySparseModel.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_SplitROIs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_StimulusCorrelation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_TCompCor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_TVTKBaseInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_auto_WarpPoints.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_confounds.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_icc_anova.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_mesh_ops.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_metrics.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_modelgen.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_moments.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_normalize_tpms.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_rapidart.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_splitmerge.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/algorithms/tests/test_stats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/caching/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/caching/memory.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/caching/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/caching/tests/test_memory.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/external/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/external/cloghandler.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/external/d3.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "nipype/external/due.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/external/fsl_imglob.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/info.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/model.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/svm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_ABoverlap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_AFNICommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_AFNICommandBase.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_AFNIPythonCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_AFNItoNIFTI.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_AlignEpiAnatPy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Allineate.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_AutoTLRC.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_AutoTcorrelate.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Autobox.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Automask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Axialize.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Bandpass.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_BlurInMask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_BlurToFWHM.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_BrickStat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Bucket.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Calc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Cat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_CatMatvec.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_CenterMass.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_ClipLevel.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_ConvertDset.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Copy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Deconvolve.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_DegreeCentrality.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Despike.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Detrend.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Dot.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_ECM.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Edge3.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Eval.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_FWHMx.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Fim.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Fourier.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_GCOR.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Hist.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_LFCD.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_LocalBistat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Localstat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_MaskTool.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Maskave.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Means.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Merge.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_NetCorr.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Notes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_NwarpAdjust.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_NwarpApply.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_NwarpCat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_OneDToolPy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_OutlierCount.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_QualityIndex.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Qwarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_QwarpPlusMinus.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_ROIStats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_ReHo.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Refit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Remlfit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Resample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Retroicor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_SVMTest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_SVMTrain.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Seg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_SkullStrip.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Synthesize.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_TCat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_TCatSubBrick.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_TCorr1D.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_TCorrMap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_TCorrelate.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_TNorm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_TProject.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_TShift.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_TSmooth.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_TStat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_To3D.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Undump.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Unifize.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Volreg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Warp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_ZCutUp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Zcat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_auto_Zeropad.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/tests/test_extra_Deconvolve.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/afni/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/legacy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/resampling.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/segmentation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_AI.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_ANTS.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_ANTSCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_AffineInitializer.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_ApplyTransforms.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_ApplyTransformsToPoints.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_Atropos.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_AverageAffineTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_AverageImages.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_BrainExtraction.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_ComposeMultiTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_CompositeTransformUtil.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_ConvertScalarImageToRGB.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_CorticalThickness.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_CreateJacobianDeterminantImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_CreateTiledMosaic.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_DenoiseImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_GenWarpFields.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_ImageMath.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_JointFusion.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_KellyKapowski.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_LabelGeometry.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_LaplacianThickness.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_MeasureImageSimilarity.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_MultiplyImages.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_N4BiasFieldCorrection.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_Registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_RegistrationSynQuick.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_ResampleImageBySpacing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_ThresholdImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_WarpImageMultiTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_WarpTimeSeriesImageMultiTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_antsIntroduction.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_auto_buildtemplateparallel.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_extra_Registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_resampling.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/tests/test_segmentation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/ants/visualization.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/core.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/specs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/support.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_auto_BaseInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_auto_CommandLine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_auto_LibraryBaseInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_auto_MpiCommandLine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_auto_SEMLikeCommandLine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_auto_SimpleInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_auto_StdOutCommandLine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_core.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_resource_monitor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_specs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_support.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/tests/test_traits_extension.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/base/traits_extension.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/brainsuite.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_BDP.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Bfc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Bse.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Cerebro.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Cortex.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Dewisp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Dfs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Hemisplit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Pialmesh.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Pvc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_SVReg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Scrubmask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Skullfinder.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_Tca.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/brainsuite/tests/test_auto_ThicknessPVC.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/bru2nii.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/c3.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/calib.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/connectivity.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/convert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/dti.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/odf.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_AnalyzeHeader.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_ComputeEigensystem.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_ComputeFractionalAnisotropy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_ComputeMeanDiffusivity.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_ComputeTensorTrace.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_Conmat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_DT2NIfTI.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_DTIFit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_DTLUTGen.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_DTMetric.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_FSL2Scheme.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_Image2Voxel.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_ImageStats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_LinRecon.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_MESD.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_ModelFit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_NIfTIDT2Camino.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_PicoPDFs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_ProcStreamlines.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_QBallMX.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_SFLUTGen.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_SFPICOCalibData.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_SFPeaks.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_Shredder.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_Track.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_TrackBallStick.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_TrackBayesDirac.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_TrackBedpostxDeter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_TrackBedpostxProba.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_TrackBootstrap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_TrackDT.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_TrackPICo.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_TractShredder.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/tests/test_auto_VtkStreamlines.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino2trackvis/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino2trackvis/convert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino2trackvis/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino2trackvis/tests/test_auto_Camino2Trackvis.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/camino2trackvis/tests/test_auto_Trackvis2Camino.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cat12/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cat12/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cat12/preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cat12/surface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cat12/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cat12/tests/test_auto_CAT12SANLMDenoising.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cat12/tests/test_auto_CAT12Segment.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cat12/tests/test_auto_ExtractAdditionalSurfaceParameters.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cat12/tests/test_auto_ExtractROIBasedSurfaceMeasures.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/cmtk.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/convert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/nbs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/nx.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/parcellation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/test_auto_AverageNetworks.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/test_auto_CFFBaseInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/test_auto_CFFConverter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/test_auto_CreateMatrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/test_auto_CreateNodes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/test_auto_MergeCNetworks.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/test_auto_NetworkBasedStatistic.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/test_auto_NetworkXMetrics.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/test_auto_Parcellate.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/test_auto_ROIGen.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/cmtk/tests/test_nbs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dcm2nii.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dcmstack.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/dti.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/odf.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/postproc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/tests/test_auto_DTIRecon.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/tests/test_auto_DTITracker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/tests/test_auto_HARDIMat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/tests/test_auto_ODFRecon.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/tests/test_auto_ODFTracker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/tests/test_auto_SplineFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/diffusion_toolkit/tests/test_auto_TrackMerge.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/anisotropic_power.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/reconstruction.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/setup.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/simulate.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/stats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tensors.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_APMQball.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_CSD.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_DTI.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_Denoise.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_DipyBaseInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_DipyDiffusionInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_EstimateResponseSH.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_RESTORE.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_Resample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_SimulateMultiTensor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_StreamlineTractography.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_TensorMode.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_auto_TrackDensityMap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tests/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dipy/tracks.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_AffScalarVol.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_AffSymTensor3DVol.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_Affine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_AffineTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_BinThresh.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_BinThreshTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_CommandLineDtitk.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_ComposeXfm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_ComposeXfmTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_Diffeo.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_DiffeoScalarVol.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_DiffeoSymTensor3DVol.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_DiffeoTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_Rigid.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_RigidTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_SVAdjustVoxSp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_SVAdjustVoxSpTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_SVResample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_SVResampleTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_TVAdjustOriginTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_TVAdjustVoxSp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_TVAdjustVoxSpTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_TVResample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_TVResampleTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_TVtool.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_TVtoolTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_affScalarVolTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_affSymTensor3DVolTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_diffeoScalarVolTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/tests/test_auto_diffeoSymTensor3DVolTask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dtitk/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/dynamic_slicer.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/elastix/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/elastix/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/elastix/registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/elastix/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/elastix/tests/test_auto_AnalyzeWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/elastix/tests/test_auto_ApplyWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/elastix/tests/test_auto_EditTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/elastix/tests/test_auto_PointsWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/elastix/tests/test_auto_Registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/elastix/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/longitudinal.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/model.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/petsurfer.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_BBRegister.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_FSSurfaceCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_AddXFormToHeader.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Aparc2Aseg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Apas2Aseg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_ApplyMask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_ApplyVolTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Binarize.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_CALabel.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_CANormalize.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_CARegister.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_CheckTalairachAlignment.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Concatenate.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_ConcatenateLTA.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Contrast.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Curvature.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_CurvatureStats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_DICOMConvert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_EMRegister.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_EditWMwithAseg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_EulerNumber.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_ExtractMainComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_FSCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_FSCommandOpenMP.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_FSScriptCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_FitMSParams.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_FixTopology.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_FuseSegmentations.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_GLMFit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_GTMPVC.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_GTMSeg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_ImageInfo.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Jacobian.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_LTAConvert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Label2Annot.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Label2Label.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Label2Vol.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Logan.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MNIBiasCorrection.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MPRtoMNI305.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRIConvert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRICoreg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRIFill.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRIMarchingCubes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRIPretess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRISPreproc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRISPreprocReconAll.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRITessellate.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRIsCALabel.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRIsCalc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRIsCombine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRIsConvert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRIsExpand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRIsInflate.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRTM1.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MRTM2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MS_LDA.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MakeAverageSubject.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_MakeSurfaces.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Normalize.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_OneSampleTTest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Paint.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_ParcellationStats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_ParseDICOMDir.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_ReconAll.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Register.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_RegisterAVItoTalairach.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_RelabelHypointensities.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_RemoveIntersection.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_RemoveNeck.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Resample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_RobustRegister.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_RobustTemplate.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_SampleToSurface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_SegStats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_SegStatsReconAll.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_SegmentCC.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_SegmentWM.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Smooth.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_SmoothTessellation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Sphere.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_SphericalAverage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Surface2VolTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_SurfaceSmooth.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_SurfaceSnapshots.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_SurfaceTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_SynthesizeFLASH.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_TalairachAVI.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_TalairachQC.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_Tkregister2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_UnpackSDICOMDir.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_VolumeMask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_auto_WatershedSkullStrip.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_model.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/freesurfer/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/aroma.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/dti.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/epi.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/fix.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/maths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/model.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/possum.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_FILMGLS.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_Level1Design_functions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_AR1Image.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_AccuracyTester.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ApplyMask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ApplyTOPUP.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ApplyWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ApplyXFM.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_AvScale.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_B0Calc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_BEDPOSTX5.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_BET.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_BinaryMaths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ChangeDataType.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Classifier.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Cleaner.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Cluster.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Complex.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ContrastMgr.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ConvertWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ConvertXFM.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_CopyGeom.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_DTIFit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_DilateImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_DistanceMap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_DualRegression.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_EPIDeWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Eddy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_EddyCorrect.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_EddyQuad.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_EpiReg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ErodeImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ExtractROI.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FAST.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FEAT.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FEATModel.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FEATRegister.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FIRST.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FLAMEO.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FLIRT.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FNIRT.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FSLCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FSLXCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FUGUE.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FeatureExtractor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FilterRegressor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_FindTheBiggest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_GLM.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ICA_AROMA.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ImageMaths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ImageMeants.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ImageStats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_InvWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_IsotropicSmooth.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_L2Model.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Level1Design.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MCFLIRT.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MELODIC.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MakeDyadicVectors.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MathsCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MaxImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MaxnImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MeanImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MedianImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Merge.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MinImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MotionOutliers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MultiImageMaths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_MultipleRegressDesign.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Overlay.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_PRELUDE.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_PercentileImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_PlotMotionParams.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_PlotTimeSeries.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_PowerSpectrum.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_PrepareFieldmap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ProbTrackX.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ProbTrackX2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_ProjThresh.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Randomise.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Reorient2Std.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_RobustFOV.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_SMM.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_SUSAN.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_SigLoss.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Slice.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_SliceTimer.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Slicer.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Smooth.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_SmoothEstimate.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_SpatialFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Split.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_StdImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_SwapDimensions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_TOPUP.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_TemporalFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Text2Vest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Threshold.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_TractSkeleton.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Training.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_TrainingSetCreator.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_UnaryMaths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_VecReg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_Vest2Text.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_WarpPoints.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_WarpPointsFromStd.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_WarpPointsToStd.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_WarpUtils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_auto_XFibres5.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_dti.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_epi.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_maths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_model.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/fsl/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/image.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/io.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/matlab.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/meshfix.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/minc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/testdata.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Average.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_BBox.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Beast.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_BestLinReg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_BigAverage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Blob.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Blur.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Calc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Convert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Copy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Dump.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Extract.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Gennlxfm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Math.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_NlpFit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Norm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Pik.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Resample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Reshape.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_ToEcat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_ToRaw.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_VolSymm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Volcentre.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Voliso.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_Volpad.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_XfmAvg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_XfmConcat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/minc/tests/test_auto_XfmInvert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/developer.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/generate_classes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_JistBrainMgdmSegmentation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_JistBrainMp2rageDuraEstimation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_JistBrainMp2rageSkullStripping.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_JistBrainPartialVolumeFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_JistCortexSurfaceMeshInflation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_JistIntensityMp2rageMasking.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_JistLaminarProfileCalculator.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_JistLaminarProfileGeometry.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_JistLaminarProfileSampling.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_JistLaminarROIAveraging.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_JistLaminarVolumetricLayering.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_MedicAlgorithmImageCalculator.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_MedicAlgorithmLesionToads.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_MedicAlgorithmMipavReorient.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_MedicAlgorithmN3.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_MedicAlgorithmSPECTRE2010.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_MedicAlgorithmThresholdToBinaryMask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mipav/tests/test_auto_RandomVol.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mixins/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mixins/fixheader.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mixins/reporting.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mixins/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mixins/tests/test_auto_CopyHeaderInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mixins/tests/test_auto_ReportCapableInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mne/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mne/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mne/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mne/tests/test_auto_WatershedBEM.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/convert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tensors.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_ConstrainedSphericalDeconvolution.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_DWI2SphericalHarmonicsImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_DWI2Tensor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_DiffusionTensorStreamlineTrack.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_Directions2Amplitude.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_Erode.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_EstimateResponseForSH.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_FSL2MRTrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_FilterTracks.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_FindShPeaks.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_GenerateDirections.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_GenerateWhiteMatterMask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_MRConvert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_MRMultiply.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_MRTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_MRTrix2TrackVis.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_MRTrixInfo.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_MRTrixViewer.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_MedianFilter3D.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_ProbabilisticSphericallyDeconvolutedStreamlineTrack.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_SphericallyDeconvolutedStreamlineTrack.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_StreamlineTrack.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_Tensor2ApparentDiffusion.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_Tensor2FractionalAnisotropy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_Tensor2Vector.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_Threshold.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tests/test_auto_Tracks2Prob.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix/tracking.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/connectivity.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/reconst.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_ACTPrepareFSL.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_BrainMask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_BuildConnectome.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_ComputeTDI.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_ConstrainedSphericalDeconvolution.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_DWIBiasCorrect.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_DWIDenoise.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_DWIExtract.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_DWIPreproc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_EstimateFOD.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_FitTensor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_Generate5tt.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_Generate5tt2gmwmi.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_LabelConfig.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_LabelConvert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_MRCat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_MRConvert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_MRDeGibbs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_MRMath.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_MRResize.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_MRTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_MRTrix3Base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_MTNormalise.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_MaskFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_Mesh2PVE.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_ReplaceFSwithFIRST.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_ResponseSD.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_SH2Amp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_SHConv.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_TCK2VTK.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_TensorMetrics.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_Tractography.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tests/test_auto_TransformFSLConvert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/tracking.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/mrtrix3/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/asl.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/dwi.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/qt1.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/tests/test_asl.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/tests/test_auto_DwiTool.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/tests/test_auto_FitAsl.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/tests/test_auto_FitDwi.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/tests/test_auto_FitQt1.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/tests/test_auto_NiftyFitCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/tests/test_dwi.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyfit/tests/test_qt1.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/reg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/regutils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/test_auto_NiftyRegCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/test_auto_RegAladin.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/test_auto_RegAverage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/test_auto_RegF3D.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/test_auto_RegJacobian.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/test_auto_RegMeasure.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/test_auto_RegResample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/test_auto_RegTools.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/test_auto_RegTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/test_reg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyreg/tests/test_regutils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/em.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/label_fusion.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/lesions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/maths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/patchmatch.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/stats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_BinaryMaths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_BinaryMathsInteger.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_BinaryStats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_CalcTopNCC.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_EM.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_FillLesions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_LabelFusion.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_MathsCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_Merge.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_NiftySegCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_PatchMatch.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_StatsCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_TupleMaths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_UnaryMaths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_auto_UnaryStats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_em_interfaces.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_extra_PatchMatch.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_label_fusion.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_lesions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_maths.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/niftyseg/tests/test_stats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nilearn.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/model.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/tests/test_auto_ComputeMask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/tests/test_auto_EstimateContrast.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/tests/test_auto_FitGLM.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/tests/test_auto_NipyBaseInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/tests/test_auto_Similarity.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/tests/test_auto_SpaceTimeRealigner.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/tests/test_auto_Trim.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nipy/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nitime/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nitime/analysis.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nitime/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nitime/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nitime/tests/test_auto_CoherenceAnalyzer.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nitime/tests/test_auto_NitimeBaseInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/nitime/tests/test_nitime.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/petpvc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/quickshear.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/r.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/robex/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/robex/preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/robex/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/robex/tests/test_auto_RobexSegment.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/classify.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/segmentation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/tests/test_auto_BRAINSPosteriorToContinuousClass.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/tests/test_auto_BRAINSTalairach.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/tests/test_auto_BRAINSTalairachMask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/tests/test_auto_GenerateEdgeMapImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/tests/test_auto_GeneratePurePlugMask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/tests/test_auto_HistogramMatchingFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/tests/test_auto_SimilarityIndex.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/brains/utilities.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/converters.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/diffusion.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/gtract.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/maxcurvature.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_DWIConvert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_compareTractInclusion.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_dtiaverage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_dtiestim.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_dtiprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_extractNrrdVectorIndex.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractAnisotropyMap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractAverageBvalues.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractClipAnisotropy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractCoRegAnatomy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractConcatDwi.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractCopyImageOrientation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractCoregBvalues.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractCostFastMarching.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractCreateGuideFiber.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractFastMarchingTracking.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractFiberTracking.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractImageConformity.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractInvertBSplineTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractInvertDisplacementField.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractInvertRigidTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractResampleAnisotropy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractResampleB0.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractResampleCodeImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractResampleDWIInPlace.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractResampleFibers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractTensor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_gtractTransformToDisplacementField.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tests/test_auto_maxcurvature.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tractography/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tractography/commandlineonly.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tractography/fiberprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tractography/fibertrack.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tractography/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tractography/tests/test_auto_UKFTractography.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tractography/tests/test_auto_fiberprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tractography/tests/test_auto_fiberstats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tractography/tests/test_auto_fibertrack.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/diffusion/tractography/ukftractography.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/featurecreator.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/denoising.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/featuredetection.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_CannyEdge.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_CannySegmentationLevelSetImageFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_DilateImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_DilateMask.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_DistanceMaps.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_DumpBinaryTrainingVectors.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_ErodeImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_FlippedDifference.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_GenerateBrainClippedImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_GenerateSummedGradientImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_GenerateTestImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_GradientAnisotropicDiffusionImageFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_HammerAttributeCreator.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_NeighborhoodMean.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_NeighborhoodMedian.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_STAPLEAnalysis.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_TextureFromNoiseImageFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_TextureMeasureFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/filtering/tests/test_auto_UnbiasedNonLocalMeans.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/legacy/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/legacy/registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/legacy/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/legacy/tests/test_auto_scalartransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/brainsfit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/brainsresample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/brainsresize.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/specialized.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/tests/test_auto_BRAINSDemonWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/tests/test_auto_BRAINSFit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/tests/test_auto_BRAINSResample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/tests/test_auto_BRAINSResize.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/tests/test_auto_BRAINSTransformFromFiducials.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/registration/tests/test_auto_VBRAINSDemonWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/segmentation/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/segmentation/specialized.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/segmentation/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/segmentation/tests/test_auto_BRAINSABC.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/segmentation/tests/test_auto_BRAINSConstellationDetector.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/segmentation/tests/test_auto_BRAINSCreateLabelMapFromProbabilityMaps.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/segmentation/tests/test_auto_BRAINSCut.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/segmentation/tests/test_auto_BRAINSMultiSTAPLE.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/segmentation/tests/test_auto_BRAINSROIAuto.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/segmentation/tests/test_auto_BinaryMaskEditorBasedOnLandmarks.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/segmentation/tests/test_auto_ESLR.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/testing/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/testing/featuredetection.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/testing/generateaveragelmkfile.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/testing/landmarkscompare.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/tests/test_auto_DWICompare.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/tests/test_auto_DWISimpleCompare.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/tests/test_auto_GenerateCsfClippedFromClassifiedImage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/brains.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSAlignMSP.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSClipInferior.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSConstellationModeler.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSEyeDetector.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSInitializedControlPoints.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSLandmarkInitializer.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSLinearModelerEPCA.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSLmkTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSMush.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSSnapShotWriter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSTransformConvert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_BRAINSTrimForegroundInDirection.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_CleanUpOverlapLabels.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_FindCenterOfBrain.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_GenerateLabelMapFromProbabilityMap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_ImageRegionPlotter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_JointHistogram.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_ShuffleVectorsModule.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_fcsv_to_hdf5.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_insertMidACPCpoint.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_landmarksConstellationAligner.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/semtools/utilities/tests/test_auto_landmarksConstellationWeights.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/converters.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/diffusion.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/tests/test_auto_DTIexport.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/tests/test_auto_DTIimport.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/tests/test_auto_DWIJointRicianLMMSEFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/tests/test_auto_DWIRicianLMMSEFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/tests/test_auto_DWIToDTIEstimation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/tests/test_auto_DiffusionTensorScalarMeasurements.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/tests/test_auto_DiffusionWeightedVolumeMasking.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/tests/test_auto_ResampleDTIVolume.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/diffusion/tests/test_auto_TractographyLabelMapSeeding.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/arithmetic.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/checkerboardfilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/denoising.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/extractskeleton.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/histogrammatching.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/imagelabelcombine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/morphology.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/n4itkbiasfieldcorrection.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/resamplescalarvectordwivolume.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_AddScalarVolumes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_CastScalarVolume.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_CheckerBoardFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_CurvatureAnisotropicDiffusion.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_ExtractSkeleton.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_GaussianBlurImageFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_GradientAnisotropicDiffusion.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_GrayscaleFillHoleImageFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_GrayscaleGrindPeakImageFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_HistogramMatching.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_ImageLabelCombine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_MaskScalarVolume.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_MedianImageFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_MultiplyScalarVolumes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_N4ITKBiasFieldCorrection.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_ResampleScalarVectorDWIVolume.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_SubtractScalarVolumes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_ThresholdScalarVolume.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/tests/test_auto_VotingBinaryHoleFillingImageFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/thresholdscalarvolume.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/filtering/votingbinaryholefillingimagefilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/generate_classes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/converters.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/diffusion/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/diffusion/denoising.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/diffusion/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/diffusion/tests/test_auto_DWIUnbiasedNonLocalMeansFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/filtering.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/segmentation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/tests/test_auto_AffineRegistration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/tests/test_auto_BSplineDeformableRegistration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/tests/test_auto_BSplineToDeformationField.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/tests/test_auto_ExpertAutomatedRegistration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/tests/test_auto_LinearRegistration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/tests/test_auto_MultiResolutionAffineRegistration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/tests/test_auto_OtsuThresholdImageFilter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/tests/test_auto_OtsuThresholdSegmentation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/tests/test_auto_ResampleScalarVolume.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/legacy/tests/test_auto_RigidRegistration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/quantification/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/quantification/changequantification.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/quantification/petstandarduptakevaluecomputation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/quantification/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/quantification/tests/test_auto_IntensityDifferenceMetric.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/quantification/tests/test_auto_PETStandardUptakeValueComputation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/registration/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/registration/brainsfit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/registration/brainsresample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/registration/specialized.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/registration/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/registration/tests/test_auto_ACPCTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/registration/tests/test_auto_BRAINSDemonWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/registration/tests/test_auto_BRAINSFit.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/registration/tests/test_auto_BRAINSResample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/registration/tests/test_auto_FiducialRegistration.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/registration/tests/test_auto_VBRAINSDemonWarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/segmentation/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/segmentation/simpleregiongrowingsegmentation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/segmentation/specialized.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/segmentation/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/segmentation/tests/test_auto_BRAINSROIAuto.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/segmentation/tests/test_auto_EMSegmentCommandLine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/segmentation/tests/test_auto_RobustStatisticsSegmenter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/segmentation/tests/test_auto_SimpleRegionGrowingSegmentation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/surface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/tests/test_auto_DicomToNrrdConverter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/tests/test_auto_EMSegmentTransformToNewFormat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/tests/test_auto_GrayscaleModelMaker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/tests/test_auto_LabelMapSmoothing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/tests/test_auto_MergeModels.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/tests/test_auto_ModelMaker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/tests/test_auto_ModelToLabelMap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/tests/test_auto_OrientScalarVolume.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/tests/test_auto_ProbeVolumeWithModel.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/tests/test_auto_SlicerCommandLine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/slicer/utilities.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/model.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_Analyze2nii.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_ApplyDeformations.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_ApplyInverseDeformation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_ApplyTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_ApplyVDM.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_CalcCoregAffine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_Coregister.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_CreateWarped.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_DARTEL.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_DARTELNorm2MNI.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_DicomImport.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_EstimateContrast.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_EstimateModel.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_FactorialDesign.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_FieldMap.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_Level1Design.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_MultiChannelNewSegment.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_MultipleRegressionDesign.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_NewSegment.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_Normalize.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_Normalize12.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_OneSampleTTestDesign.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_PairedTTestDesign.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_Realign.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_RealignUnwarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_Reslice.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_ResliceToReference.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_SPMCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_Segment.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_SliceTiming.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_Smooth.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_Threshold.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_ThresholdStatistics.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_TwoSampleTTestDesign.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_auto_VBMSegment.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_model.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_preprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/spm/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_BIDSDataGrabber.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_Bru2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_C3d.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_C3dAffineTool.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_CopyMeta.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_DataFinder.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_DataGrabber.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_DataSink.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_Dcm2nii.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_Dcm2niix.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_DcmStack.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_ExportFile.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_FreeSurferSource.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_GroupAndStack.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_IOBase.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_JSONFileGrabber.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_JSONFileSink.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_LookupMeta.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_MatlabCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_MergeNifti.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_MeshFix.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_MySQLSink.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_NiftiGeneratorBase.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_NilearnBaseInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_PETPVC.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_Quickshear.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_RCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_Reorient.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_Rescale.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_S3DataGrabber.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_SQLiteSink.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_SSHDataGrabber.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_SelectFiles.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_SignalExtraction.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_SlicerCommandLine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_SplitNifti.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_XNATSink.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_auto_XNATSource.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_dcm2nii.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_extra_dcm2nii.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_image.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_io.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_matlab.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_nilearn.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/tests/test_r.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/csv.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/test_auto_AssertEqual.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/test_auto_CSVReader.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/test_auto_Function.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/test_auto_IdentityInterface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/test_auto_Merge.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/test_auto_Rename.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/test_auto_Select.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/test_auto_Split.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/test_csv.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/tests/test_wrappers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/utility/wrappers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/vista/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/vista/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/vista/tests/test_auto_Vnifti2Image.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/vista/tests/test_auto_VtoMat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/vista/vista.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/vtkbase.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/workbench/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/workbench/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/workbench/cifti.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/workbench/metric.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/workbench/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/workbench/tests/test_auto_CiftiSmooth.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/workbench/tests/test_auto_MetricResample.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/interfaces/workbench/tests/test_auto_WBCommand.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/nodes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/tests/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/tests/test_engine.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/tests/test_join.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/tests/test_nodes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/tests/test_workflows.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/engine/workflows.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/condor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/dagman.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/debug.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/ipython.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/legacymultiproc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/linear.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/lsf.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/multiproc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/oar.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/pbs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/pbsgraph.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/semaphore_singleton.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/sge.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/sgegraph.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/slurm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/slurmgraph.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/somaflow.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/test_callback.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/test_debug.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/test_legacymultiproc_nondaemon.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/test_linear.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/test_multiproc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/test_oar.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/test_pbs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/test_sgelike.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/test_somaflow.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tests/test_tools.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pipeline/plugins/tools.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/pkg_info.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/refs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/scripts/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/scripts/cli.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/scripts/crash_files.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/scripts/instance.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/scripts/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/sphinxext/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/sphinxext/apidoc/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/sphinxext/apidoc/docstring.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/sphinxext/documenter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/sphinxext/gh.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/sphinxext/plot_workflow.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/testing/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/testing/fixtures.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/testing/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/testing/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/tests/test_nipype.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/config.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/datetime.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/docparse.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/draw_gantt_chart.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/filemanip.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/functions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/gpu_count.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/imagemanip.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/logger.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/matlabtools.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/nipype2boutiques.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/nipype_cmd.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/onetime.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/profiler.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/provenance.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/ram_estimator.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/spm_docs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/subprocess.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/tests/test_cmd.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/tests/test_config.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/tests/test_docparse.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/tests/test_filemanip.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/tests/test_functions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/tests/test_imagemanip.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/tests/test_misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/tests/test_nipype2boutiques.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/tests/test_provenance.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/utils/tmpdirs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nipype/workflows/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/checkspecs.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/gitwash_dumper.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/run_examples.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/update_requirements.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/update_zenodo.py",
+      "language": "Python"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "file": "pdf_build_src/check_pandoc_log.py",
+      "language": "Python"
+    },
+    {
+      "file": "pdf_build_src/pandoc_script.py",
+      "language": "Python"
+    },
+    {
+      "file": "pdf_build_src/process_markdowns.py",
+      "language": "Python"
+    },
+    {
+      "file": "pdf_build_src/remove_admonitions.py",
+      "language": "Python"
+    },
+    {
+      "file": "pdf_build_src/test_remove_admonitions.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/js/jquery-3.6.0.min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "tools/add_contributors.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/check_contributor.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/check_embedded_json.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/entities_order.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/examplecode/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/examplecode/example.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/make_changelog.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/mkdocs_macros_bids/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/mkdocs_macros_bids/macros.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/mkdocs_macros_bids/main.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/no-bad-latin.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/parse_contributors.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/print_contributors.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/pull_files.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/docs/conf.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/pdm_build.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/__main__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/_lazytypes.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/_version.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/data/tests/test_rules.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/expressions.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/render/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/render/tables.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/render/text.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/render/tsv.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/render/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/rules.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/schema.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/tests/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/tests/test_expressions.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/tests/test_make_testdata.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/tests/test_render_tables.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/tests/test_render_text.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/tests/test_render_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/tests/test_rules.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/tests/test_schema.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/tests/test_validator.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/types/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/types/_generator.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/types/context.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/types/namespace.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/types/protocols.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/src/bidsschematools/validator.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/schemacode/tests/test_context_types.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/typescript/build-schema-types.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "tools/typescript/generate.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "tools/typescript/generate.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "tools/validate_citation.py",
+      "language": "Python"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,524 @@
+{
+  "total_files": 73,
+  "categories": {
+    "other": [
+      ".github/CODE_OF_CONDUCT.md",
+      ".github/CONTRIBUTING.md",
+      "doc/README.rst",
+      "doc/source/api.rst",
+      "doc/source/changelog.rst",
+      "doc/source/coordinate_systems.rst",
+      "doc/source/devel/add_image_format.rst",
+      "doc/source/devel/add_test_data.rst",
+      "doc/source/devel/advanced_testing.rst",
+      "doc/source/devel/biaps/biap_0000.rst",
+      "doc/source/devel/biaps/biap_0001.rst",
+      "doc/source/devel/biaps/biap_0002.rst",
+      "doc/source/devel/biaps/biap_0003.rst",
+      "doc/source/devel/biaps/biap_0004.rst",
+      "doc/source/devel/biaps/biap_0005.rst",
+      "doc/source/devel/biaps/biap_0006.rst",
+      "doc/source/devel/biaps/biap_0007.rst",
+      "doc/source/devel/biaps/biap_0008.rst",
+      "doc/source/devel/biaps/biap_0009.rst",
+      "doc/source/devel/biaps/biap_template.rst",
+      "doc/source/devel/biaps/index.rst",
+      "doc/source/devel/bv_formats.rst",
+      "doc/source/devel/core_developer.rst",
+      "doc/source/devel/data_pkg_discuss.rst",
+      "doc/source/devel/devdiscuss.rst",
+      "doc/source/devel/devguide.rst",
+      "doc/source/devel/governance.rst",
+      "doc/source/devel/image_design.rst",
+      "doc/source/devel/index.rst",
+      "doc/source/devel/make_release.rst",
+      "doc/source/devel/modified_images.rst",
+      "doc/source/devel/roadmap.rst",
+      "doc/source/devel/scaling.rst",
+      "doc/source/devel/spm_use.rst",
+      "doc/source/dicom/dcm2nii_algorithms.rst",
+      "doc/source/dicom/dicom.rst",
+      "doc/source/dicom/dicom_fields.rst",
+      "doc/source/dicom/dicom_info.rst",
+      "doc/source/dicom/dicom_intro.rst",
+      "doc/source/dicom/dicom_mosaic.rst",
+      "doc/source/dicom/dicom_niftiheader.rst",
+      "doc/source/dicom/dicom_orientation.rst",
+      "doc/source/dicom/siemens_csa.rst",
+      "doc/source/dicom/spm_dicom.rst",
+      "doc/source/gettingstarted.rst",
+      "doc/source/gitwash/configure_git.rst",
+      "doc/source/gitwash/development_workflow.rst",
+      "doc/source/gitwash/following_latest.rst",
+      "doc/source/gitwash/forking_hell.rst",
+      "doc/source/gitwash/git_development.rst",
+      "doc/source/gitwash/git_install.rst",
+      "doc/source/gitwash/git_intro.rst",
+      "doc/source/gitwash/git_resources.rst",
+      "doc/source/gitwash/index.rst",
+      "doc/source/gitwash/maintainer_workflow.rst",
+      "doc/source/gitwash/patching.rst",
+      "doc/source/gitwash/set_up_fork.rst",
+      "doc/source/image_orientation.rst",
+      "doc/source/images_and_memory.rst",
+      "doc/source/index.rst",
+      "doc/source/installation.rst",
+      "doc/source/legal.rst",
+      "doc/source/manual.rst",
+      "doc/source/neuro_radio_conventions.rst",
+      "doc/source/nibabel_images.rst",
+      "doc/source/nifti_images.rst",
+      "doc/source/notebooks/index.rst",
+      "doc/source/old/ioimplementation.rst",
+      "doc/source/tutorials.rst",
+      "nibabel/tests/data/README.rst",
+      "nibabel-data/README.rst"
+    ],
+    "workflows": [
+      ".github/workflows/workflow_failure.md"
+    ],
+    "overview": [
+      "README.rst"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "filename": "CODE_OF_CONDUCT.md",
+      "category": "other",
+      "size_bytes": 5309
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "other",
+      "size_bytes": 635
+    },
+    {
+      "path": ".github/workflows/workflow_failure.md",
+      "filename": "workflow_failure.md",
+      "category": "workflows",
+      "size_bytes": 238
+    },
+    {
+      "path": "README.rst",
+      "filename": "README.rst",
+      "category": "overview",
+      "size_bytes": 6429
+    },
+    {
+      "path": "doc/README.rst",
+      "filename": "README.rst",
+      "category": "other",
+      "size_bytes": 242
+    },
+    {
+      "path": "doc/source/api.rst",
+      "filename": "api.rst",
+      "category": "other",
+      "size_bytes": 1253
+    },
+    {
+      "path": "doc/source/changelog.rst",
+      "filename": "changelog.rst",
+      "category": "other",
+      "size_bytes": 74706
+    },
+    {
+      "path": "doc/source/coordinate_systems.rst",
+      "filename": "coordinate_systems.rst",
+      "category": "other",
+      "size_bytes": 33562
+    },
+    {
+      "path": "doc/source/devel/add_image_format.rst",
+      "filename": "add_image_format.rst",
+      "category": "other",
+      "size_bytes": 6885
+    },
+    {
+      "path": "doc/source/devel/add_test_data.rst",
+      "filename": "add_test_data.rst",
+      "category": "other",
+      "size_bytes": 5141
+    },
+    {
+      "path": "doc/source/devel/advanced_testing.rst",
+      "filename": "advanced_testing.rst",
+      "category": "other",
+      "size_bytes": 849
+    },
+    {
+      "path": "doc/source/devel/biaps/biap_0000.rst",
+      "filename": "biap_0000.rst",
+      "category": "other",
+      "size_bytes": 11515
+    },
+    {
+      "path": "doc/source/devel/biaps/biap_0001.rst",
+      "filename": "biap_0001.rst",
+      "category": "other",
+      "size_bytes": 10478
+    },
+    {
+      "path": "doc/source/devel/biaps/biap_0002.rst",
+      "filename": "biap_0002.rst",
+      "category": "other",
+      "size_bytes": 5825
+    },
+    {
+      "path": "doc/source/devel/biaps/biap_0003.rst",
+      "filename": "biap_0003.rst",
+      "category": "other",
+      "size_bytes": 33651
+    },
+    {
+      "path": "doc/source/devel/biaps/biap_0004.rst",
+      "filename": "biap_0004.rst",
+      "category": "other",
+      "size_bytes": 10230
+    },
+    {
+      "path": "doc/source/devel/biaps/biap_0005.rst",
+      "filename": "biap_0005.rst",
+      "category": "other",
+      "size_bytes": 6505
+    },
+    {
+      "path": "doc/source/devel/biaps/biap_0006.rst",
+      "filename": "biap_0006.rst",
+      "category": "other",
+      "size_bytes": 12186
+    },
+    {
+      "path": "doc/source/devel/biaps/biap_0007.rst",
+      "filename": "biap_0007.rst",
+      "category": "other",
+      "size_bytes": 4377
+    },
+    {
+      "path": "doc/source/devel/biaps/biap_0008.rst",
+      "filename": "biap_0008.rst",
+      "category": "other",
+      "size_bytes": 5618
+    },
+    {
+      "path": "doc/source/devel/biaps/biap_0009.rst",
+      "filename": "biap_0009.rst",
+      "category": "other",
+      "size_bytes": 11906
+    },
+    {
+      "path": "doc/source/devel/biaps/biap_template.rst",
+      "filename": "biap_template.rst",
+      "category": "other",
+      "size_bytes": 3196
+    },
+    {
+      "path": "doc/source/devel/biaps/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 325
+    },
+    {
+      "path": "doc/source/devel/bv_formats.rst",
+      "filename": "bv_formats.rst",
+      "category": "other",
+      "size_bytes": 4657
+    },
+    {
+      "path": "doc/source/devel/core_developer.rst",
+      "filename": "core_developer.rst",
+      "category": "other",
+      "size_bytes": 6490
+    },
+    {
+      "path": "doc/source/devel/data_pkg_discuss.rst",
+      "filename": "data_pkg_discuss.rst",
+      "category": "other",
+      "size_bytes": 15673
+    },
+    {
+      "path": "doc/source/devel/devdiscuss.rst",
+      "filename": "devdiscuss.rst",
+      "category": "other",
+      "size_bytes": 614
+    },
+    {
+      "path": "doc/source/devel/devguide.rst",
+      "filename": "devguide.rst",
+      "category": "other",
+      "size_bytes": 7185
+    },
+    {
+      "path": "doc/source/devel/governance.rst",
+      "filename": "governance.rst",
+      "category": "other",
+      "size_bytes": 7651
+    },
+    {
+      "path": "doc/source/devel/image_design.rst",
+      "filename": "image_design.rst",
+      "category": "other",
+      "size_bytes": 154
+    },
+    {
+      "path": "doc/source/devel/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 305
+    },
+    {
+      "path": "doc/source/devel/make_release.rst",
+      "filename": "make_release.rst",
+      "category": "other",
+      "size_bytes": 5005
+    },
+    {
+      "path": "doc/source/devel/modified_images.rst",
+      "filename": "modified_images.rst",
+      "category": "other",
+      "size_bytes": 4745
+    },
+    {
+      "path": "doc/source/devel/roadmap.rst",
+      "filename": "roadmap.rst",
+      "category": "other",
+      "size_bytes": 3711
+    },
+    {
+      "path": "doc/source/devel/scaling.rst",
+      "filename": "scaling.rst",
+      "category": "other",
+      "size_bytes": 2509
+    },
+    {
+      "path": "doc/source/devel/spm_use.rst",
+      "filename": "spm_use.rst",
+      "category": "other",
+      "size_bytes": 7959
+    },
+    {
+      "path": "doc/source/dicom/dcm2nii_algorithms.rst",
+      "filename": "dcm2nii_algorithms.rst",
+      "category": "other",
+      "size_bytes": 3493
+    },
+    {
+      "path": "doc/source/dicom/dicom.rst",
+      "filename": "dicom.rst",
+      "category": "other",
+      "size_bytes": 340
+    },
+    {
+      "path": "doc/source/dicom/dicom_fields.rst",
+      "filename": "dicom_fields.rst",
+      "category": "other",
+      "size_bytes": 2446
+    },
+    {
+      "path": "doc/source/dicom/dicom_info.rst",
+      "filename": "dicom_info.rst",
+      "category": "other",
+      "size_bytes": 2263
+    },
+    {
+      "path": "doc/source/dicom/dicom_intro.rst",
+      "filename": "dicom_intro.rst",
+      "category": "other",
+      "size_bytes": 45190
+    },
+    {
+      "path": "doc/source/dicom/dicom_mosaic.rst",
+      "filename": "dicom_mosaic.rst",
+      "category": "other",
+      "size_bytes": 6101
+    },
+    {
+      "path": "doc/source/dicom/dicom_niftiheader.rst",
+      "filename": "dicom_niftiheader.rst",
+      "category": "other",
+      "size_bytes": 3810
+    },
+    {
+      "path": "doc/source/dicom/dicom_orientation.rst",
+      "filename": "dicom_orientation.rst",
+      "category": "other",
+      "size_bytes": 17223
+    },
+    {
+      "path": "doc/source/dicom/siemens_csa.rst",
+      "filename": "siemens_csa.rst",
+      "category": "other",
+      "size_bytes": 4266
+    },
+    {
+      "path": "doc/source/dicom/spm_dicom.rst",
+      "filename": "spm_dicom.rst",
+      "category": "other",
+      "size_bytes": 12220
+    },
+    {
+      "path": "doc/source/gettingstarted.rst",
+      "filename": "gettingstarted.rst",
+      "category": "other",
+      "size_bytes": 3933
+    },
+    {
+      "path": "doc/source/gitwash/configure_git.rst",
+      "filename": "configure_git.rst",
+      "category": "other",
+      "size_bytes": 4792
+    },
+    {
+      "path": "doc/source/gitwash/development_workflow.rst",
+      "filename": "development_workflow.rst",
+      "category": "other",
+      "size_bytes": 13833
+    },
+    {
+      "path": "doc/source/gitwash/following_latest.rst",
+      "filename": "following_latest.rst",
+      "category": "other",
+      "size_bytes": 834
+    },
+    {
+      "path": "doc/source/gitwash/forking_hell.rst",
+      "filename": "forking_hell.rst",
+      "category": "other",
+      "size_bytes": 1139
+    },
+    {
+      "path": "doc/source/gitwash/git_development.rst",
+      "filename": "git_development.rst",
+      "category": "other",
+      "size_bytes": 224
+    },
+    {
+      "path": "doc/source/gitwash/git_install.rst",
+      "filename": "git_install.rst",
+      "category": "other",
+      "size_bytes": 599
+    },
+    {
+      "path": "doc/source/gitwash/git_intro.rst",
+      "filename": "git_intro.rst",
+      "category": "other",
+      "size_bytes": 541
+    },
+    {
+      "path": "doc/source/gitwash/git_resources.rst",
+      "filename": "git_resources.rst",
+      "category": "other",
+      "size_bytes": 1808
+    },
+    {
+      "path": "doc/source/gitwash/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 228
+    },
+    {
+      "path": "doc/source/gitwash/maintainer_workflow.rst",
+      "filename": "maintainer_workflow.rst",
+      "category": "other",
+      "size_bytes": 3078
+    },
+    {
+      "path": "doc/source/gitwash/patching.rst",
+      "filename": "patching.rst",
+      "category": "other",
+      "size_bytes": 4029
+    },
+    {
+      "path": "doc/source/gitwash/set_up_fork.rst",
+      "filename": "set_up_fork.rst",
+      "category": "other",
+      "size_bytes": 1992
+    },
+    {
+      "path": "doc/source/image_orientation.rst",
+      "filename": "image_orientation.rst",
+      "category": "other",
+      "size_bytes": 3039
+    },
+    {
+      "path": "doc/source/images_and_memory.rst",
+      "filename": "images_and_memory.rst",
+      "category": "other",
+      "size_bytes": 6817
+    },
+    {
+      "path": "doc/source/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 6406
+    },
+    {
+      "path": "doc/source/installation.rst",
+      "filename": "installation.rst",
+      "category": "other",
+      "size_bytes": 4329
+    },
+    {
+      "path": "doc/source/legal.rst",
+      "filename": "legal.rst",
+      "category": "other",
+      "size_bytes": 9829
+    },
+    {
+      "path": "doc/source/manual.rst",
+      "filename": "manual.rst",
+      "category": "other",
+      "size_bytes": 173
+    },
+    {
+      "path": "doc/source/neuro_radio_conventions.rst",
+      "filename": "neuro_radio_conventions.rst",
+      "category": "other",
+      "size_bytes": 7049
+    },
+    {
+      "path": "doc/source/nibabel_images.rst",
+      "filename": "nibabel_images.rst",
+      "category": "other",
+      "size_bytes": 12770
+    },
+    {
+      "path": "doc/source/nifti_images.rst",
+      "filename": "nifti_images.rst",
+      "category": "other",
+      "size_bytes": 16126
+    },
+    {
+      "path": "doc/source/notebooks/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 499
+    },
+    {
+      "path": "doc/source/old/ioimplementation.rst",
+      "filename": "ioimplementation.rst",
+      "category": "other",
+      "size_bytes": 3664
+    },
+    {
+      "path": "doc/source/tutorials.rst",
+      "filename": "tutorials.rst",
+      "category": "other",
+      "size_bytes": 134
+    },
+    {
+      "path": "nibabel/tests/data/README.rst",
+      "filename": "README.rst",
+      "category": "other",
+      "size_bytes": 345
+    },
+    {
+      "path": "nibabel-data/README.rst",
+      "filename": "README.rst",
+      "category": "other",
+      "size_bytes": 608
+    }
+  ]
+}

@@ -1,0 +1,823 @@
+{
+  "total_files": 6,
+  "total_settings": 83,
+  "detected_patterns": {},
+  "config_files": [
+    {
+      "file_path": "eeglab/sample_data/test_data/BIDS_test/dataset_description.json",
+      "relative_path": "sample_data/test_data/BIDS_test/dataset_description.json",
+      "type": "json",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 5,
+      "settings": [
+        {
+          "key": "Name",
+          "value": "",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "License",
+          "value": "CC0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Authors",
+          "value": [
+            ""
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "ReferencesAndLinks",
+          "value": [
+            ""
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "BIDSVersion",
+          "value": "1.1.1",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "eeglab/sample_data/test_data/BIDS_test/participants.json",
+      "relative_path": "sample_data/test_data/BIDS_test/participants.json",
+      "type": "json",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 6,
+      "settings": [
+        {
+          "key": "participant_id.Description",
+          "value": "Unique participant label",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Gender.Description",
+          "value": "Participant gender",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Gender.Levels.M",
+          "value": "Male",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Gender.Levels.MF",
+          "value": "Female",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Age.Description",
+          "value": "Participant age (years)",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Age.Units",
+          "value": "years",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "eeglab/sample_data/test_data/BIDS_test/sub-S1/ses-01/eeg/sub-S1_ses-01_task-Experiment_run-01_eeg.json",
+      "relative_path": "sample_data/test_data/BIDS_test/sub-S1/ses-01/eeg/sub-S1_ses-01_task-Experiment_run-01_eeg.json",
+      "type": "json",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 14,
+      "settings": [
+        {
+          "key": "Instructions",
+          "value": "test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "TaskDescription",
+          "value": "test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "TaskName",
+          "value": "Experiment",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "EEGChannelCount",
+          "value": 64,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "MiscChannelCount",
+          "value": 11,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "EEGReference",
+          "value": "common",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "RecordingType",
+          "value": "continuous",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "RecordingDuration",
+          "value": 758,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "SamplingFrequency",
+          "value": 32,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "EOGChannelCount",
+          "value": 0,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "ECGChannelCount",
+          "value": 0,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "EMGChannelCount",
+          "value": 0,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "PowerLineFrequency",
+          "value": 0,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "SoftwareFilters",
+          "value": "n/a",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "eeglab/.github/workflows/test.yml",
+      "relative_path": ".github/workflows/test.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 13,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Tests",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "master",
+            "develop"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "master",
+            "develop"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.octave-smoke.name",
+          "value": "Octave smoke test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.octave-smoke.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.octave-smoke.steps",
+          "value": [
+            {
+              "name": "Checkout repository",
+              "uses": "actions/checkout@v4",
+              "with": {
+                "submodules": "recursive"
+              }
+            },
+            {
+              "name": "Install Octave",
+              "run": "sudo apt-get update\nsudo apt-get install -y octave\n"
+            },
+            {
+              "name": "Load EEGLAB sample data",
+              "run": "octave --quiet --eval \"cd('$GITHUB_WORKSPACE'); eeglab('nogui'); EEG = pop_loadset('filename', 'eeglab_data.set', 'filepath', 'sample_data/'); EEG = eeg_checkset(EEG); assert(EEG.nbchan == size(EEG.data, 1)); assert(EEG.pnts == size(EEG.data, 2));\"\n"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.matlab-smoke.name",
+          "value": "MATLAB smoke test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.matlab-smoke.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.matlab-smoke.env.MLM_LICENSE_TOKEN",
+          "value": "${{ secrets.MATLAB_BATCH_TOKEN }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.matlab-smoke.steps",
+          "value": [
+            {
+              "name": "Checkout repository",
+              "uses": "actions/checkout@v4",
+              "with": {
+                "submodules": "recursive"
+              }
+            },
+            {
+              "name": "Determine MATLAB availability",
+              "id": "matlab",
+              "shell": "bash",
+              "run": "if [ -n \"$MLM_LICENSE_TOKEN\" ]; then\n  echo \"available=true\" >> \"$GITHUB_OUTPUT\"\nelse\n  echo \"available=false\" >> \"$GITHUB_OUTPUT\"\nfi\n"
+            },
+            {
+              "name": "Set up MATLAB",
+              "if": "steps.matlab.outputs.available == 'true'",
+              "uses": "matlab-actions/setup-matlab@v2",
+              "with": {
+                "release": "R2024b",
+                "products": "MATLAB"
+              }
+            },
+            {
+              "name": "Load EEGLAB sample data",
+              "if": "steps.matlab.outputs.available == 'true'",
+              "uses": "matlab-actions/run-command@v2",
+              "with": {
+                "command": "cd(getenv('GITHUB_WORKSPACE'));\neeglab('nogui');\nEEG = pop_loadset('filename', 'eeglab_data.set', 'filepath', 'sample_data/');\nEEG = eeg_checkset(EEG);\nassert(EEG.nbchan == size(EEG.data, 1));\nassert(EEG.pnts == size(EEG.data, 2));\n"
+              }
+            },
+            {
+              "name": "Skip MATLAB smoke",
+              "if": "steps.matlab.outputs.available != 'true'",
+              "run": "echo \"MATLAB smoke skipped because MATLAB_BATCH_TOKEN is not configured.\"\n"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "eeglab/.github/workflows/claude-code-review.yml",
+      "relative_path": ".github/workflows/claude-code-review.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 13,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Claude PR Review",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.types",
+          "value": [
+            "opened",
+            "ready_for_review",
+            "reopened"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.issue_comment.types",
+          "value": [
+            "created"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "${{ github.workflow }}-${{ github.event.pull_request.number || github.event.issue.number }}-${{ github.event_name }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.review.if",
+          "value": "(\n  github.event_name == 'pull_request' &&\n  (\n    github.event.pull_request.author_association == 'OWNER' ||\n    github.event.pull_request.author_association == 'MEMBER' ||\n    github.event.pull_request.author_association == 'COLLABORATOR'\n  )\n) || (\n  github.event_name == 'issue_comment' &&\n  github.event.issue.pull_request &&\n  contains(github.event.comment.body, 'claude review this') &&\n  (\n    github.event.comment.author_association == 'OWNER' ||\n    github.event.comment.author_association == 'MEMBER' ||\n    github.event.comment.author_association == 'COLLABORATOR'\n  )\n)",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.review.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.review.timeout-minutes",
+          "value": 20,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.review.permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.review.permissions.pull-requests",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.review.permissions.issues",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.review.permissions.id-token",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.review.steps",
+          "value": [
+            {
+              "name": "Checkout repository",
+              "uses": "actions/checkout@v4",
+              "with": {
+                "fetch-depth": 1,
+                "submodules": "recursive"
+              }
+            },
+            {
+              "name": "Run Claude Review",
+              "uses": "anthropics/claude-code-action@v1",
+              "with": {
+                "claude_code_oauth_token": "${{ secrets.CLAUDE_CODE_OAUTH_TOKEN || secrets.CLAUDE_MAX_OAUTH_TOKEN }}",
+                "track_progress": "${{ github.event_name == 'pull_request' }}",
+                "prompt": "/github-pr-review --comment ${{ github.event.pull_request.number || github.event.issue.number }}\n\n${{ github.event_name == 'issue_comment' && format('EXTRA INSTRUCTIONS FROM COMMENT:\\n{0}', github.event.comment.body) || '' }}\n",
+                "claude_args": "--model opus\n--max-turns 200\n--allowedTools \"mcp__github_inline_comment__create_inline_comment,Bash(gh issue view:*),Bash(gh search:*),Bash(gh issue list:*),Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr list:*),Bash(gh pr review:*),Bash(git rev-parse:*),Bash(find:*),Bash(rg:*),Bash(sed:*)\"\n",
+                "allowed_bots": "claude[bot]"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "eeglab/.github/workflows/claude.yml",
+      "relative_path": ".github/workflows/claude.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 32,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Claude Code",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.issue_comment.types",
+          "value": [
+            "created"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request_review_comment.types",
+          "value": [
+            "created"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.issues.types",
+          "value": [
+            "opened",
+            "assigned"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request_review.types",
+          "value": [
+            "submitted"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.claude.if",
+          "value": "(github.event_name == 'issue_comment' &&\n (github.event.comment.author_association == 'OWNER' ||\n  github.event.comment.author_association == 'MEMBER' ||\n  github.event.comment.author_association == 'COLLABORATOR') &&\n contains(github.event.comment.body, '@claude')) ||\n(github.event_name == 'pull_request_review_comment' &&\n (github.event.comment.author_association == 'OWNER' ||\n  github.event.comment.author_association == 'MEMBER' ||\n  github.event.comment.author_association == 'COLLABORATOR') &&\n contains(github.event.comment.body, '@claude')) ||\n(github.event_name == 'pull_request_review' &&\n (github.event.review.author_association == 'OWNER' ||\n  github.event.review.author_association == 'MEMBER' ||\n  github.event.review.author_association == 'COLLABORATOR') &&\n contains(github.event.review.body, '@claude')) ||\n(github.event_name == 'issues' &&\n (github.event.issue.author_association == 'OWNER' ||\n  github.event.issue.author_association == 'MEMBER' ||\n  github.event.issue.author_association == 'COLLABORATOR') &&\n (contains(github.event.issue.body, '@claude') || contains(github.event.issue.title, '@claude')))\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.claude.timeout-minutes",
+          "value": 45,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.claude.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.claude.permissions.contents",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.claude.permissions.pull-requests",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.claude.permissions.issues",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.claude.permissions.id-token",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.claude.permissions.actions",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.claude.steps",
+          "value": [
+            {
+              "name": "Checkout repository",
+              "uses": "actions/checkout@v4",
+              "with": {
+                "fetch-depth": 0,
+                "submodules": "recursive"
+              }
+            },
+            {
+              "name": "Install Octave",
+              "run": "sudo apt-get update\nsudo apt-get install -y octave\n"
+            },
+            {
+              "name": "Run Claude Code",
+              "uses": "anthropics/claude-code-action@v1",
+              "with": {
+                "claude_code_oauth_token": "${{ secrets.CLAUDE_CODE_OAUTH_TOKEN || secrets.CLAUDE_MAX_OAUTH_TOKEN }}",
+                "allowed_bots": "claude[bot]",
+                "additional_permissions": "actions: read\n",
+                "claude_args": "--model claude-opus-4-7\n--max-turns 250\n--allowedTools \"Bash(git:*),Bash(gh:*),Bash(matlab:*),Bash(octave:*),Bash(find:*),Bash(rg:*),Bash(sed:*),Bash(ls:*),Bash(pwd:*),Bash(cat:*)\"\n--system-prompt \"Always read and follow AGENTS.md before starting work. Keep changes small, MATLAB-native, and consistent with existing EEGLAB helpers. You can commit and push changes. Before submitting changes, run the narrowest relevant MATLAB or Octave validation command; report exactly what passed or failed. Always commit and push changes, even if validation cannot run or fails.\"\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.triage.if",
+          "value": "github.event_name == 'issues' &&\ngithub.event.action == 'opened' &&\n(github.event.issue.author_association == 'OWNER' ||\n github.event.issue.author_association == 'MEMBER' ||\n github.event.issue.author_association == 'COLLABORATOR') &&\n!contains(github.event.issue.body, '@claude') &&\n!contains(github.event.issue.title, '@claude')\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.triage.timeout-minutes",
+          "value": 60,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.triage.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.triage.permissions.contents",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.triage.permissions.pull-requests",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.triage.permissions.issues",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.triage.permissions.id-token",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.triage.permissions.actions",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.triage.steps",
+          "value": [
+            {
+              "name": "Checkout repository",
+              "uses": "actions/checkout@v4",
+              "with": {
+                "fetch-depth": 0,
+                "submodules": "recursive"
+              }
+            },
+            {
+              "name": "Install Octave",
+              "run": "sudo apt-get update\nsudo apt-get install -y octave\n"
+            },
+            {
+              "name": "Triage Issue",
+              "uses": "anthropics/claude-code-action@v1",
+              "with": {
+                "claude_code_oauth_token": "${{ secrets.CLAUDE_CODE_OAUTH_TOKEN || secrets.CLAUDE_MAX_OAUTH_TOKEN }}",
+                "allowed_bots": "claude[bot]",
+                "additional_permissions": "actions: read\n",
+                "prompt": "Read AGENTS.md, .agents/skills/fix-issue/SKILL.md, and .agents/skills/pull-request/SKILL.md.\nThen analyze issue #${{ github.event.issue.number }}.\n\nBefore doing anything else, decide whether the issue is actionable.\nAn actionable issue states what is broken or requested in concrete\nterms, names the affected area or workflow, and gives enough detail\nto reproduce or identify the relevant source. If it is vague, post\none comment listing the exact missing details and stop.\n\nUse a single issue comment for progress. Post it once, then use\ngh issue comment --edit-last for updates.\n\nFor small, self-contained bug fixes under about 100 changed lines,\nfollow the fix-issue workflow and open a PR. For larger changes,\nnew features, design questions, GUI redesigns, plugin architecture,\nor anything with unclear acceptance criteria, do not open a PR.\nInstead, update the issue with root-cause analysis, relevant code\nreferences, and a proposed approach for maintainer review.\n\nAlways produce output: a PR for a small actionable fix, or an\nanalysis comment explaining what is needed next.\n",
+                "claude_args": "--model claude-opus-4-7\n--max-turns 250\n--permission-mode acceptEdits\n--allowedTools \"Bash(git:*),Bash(gh:*),Bash(matlab:*),Bash(octave:*),Bash(find:*),Bash(rg:*),Bash(sed:*),Bash(ls:*),Bash(pwd:*),Bash(cat:*)\"\n--system-prompt \"You can commit and push changes. Use MATLAB or Octave validation when possible. Keep EEGLAB changes small and aligned with existing MATLAB helpers. Never post multiple progress comments; post one comment, then use --edit-last for all updates.\"\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.autofix.if",
+          "value": "github.event_name == 'pull_request_review' &&\n(github.event.review.author_association == 'OWNER' ||\n github.event.review.author_association == 'MEMBER' ||\n github.event.review.author_association == 'COLLABORATOR') &&\ncontains(github.event.review.body, 'autofix') &&\n!contains(github.event.review.body, '@claude')\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.autofix.timeout-minutes",
+          "value": 45,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.autofix.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.autofix.permissions.contents",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.autofix.permissions.pull-requests",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.autofix.permissions.issues",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.autofix.permissions.id-token",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.autofix.permissions.actions",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.autofix.steps",
+          "value": [
+            {
+              "name": "Checkout PR branch",
+              "uses": "actions/checkout@v4",
+              "with": {
+                "fetch-depth": 0,
+                "submodules": "recursive",
+                "ref": "${{ github.event.pull_request.head.ref }}"
+              }
+            },
+            {
+              "name": "Install Octave",
+              "run": "sudo apt-get update\nsudo apt-get install -y octave\n"
+            },
+            {
+              "name": "Apply Autofix",
+              "uses": "anthropics/claude-code-action@v1",
+              "with": {
+                "claude_code_oauth_token": "${{ secrets.CLAUDE_CODE_OAUTH_TOKEN || secrets.CLAUDE_MAX_OAUTH_TOKEN }}",
+                "allowed_bots": "claude[bot]",
+                "prompt": "PR: #${{ github.event.pull_request.number }}\nREVIEW: ${{ github.event.review.body }}\n\nA maintainer requested autofix. Read AGENTS.md.\n1. Fetch the full review with inline comments.\n2. Apply all actionable review comments to the PR branch.\n3. Keep changes small and consistent with EEGLAB MATLAB conventions.\n4. Run relevant MATLAB or Octave validation.\n5. Commit and push changes to the PR branch.\n6. Post a comment summarizing what changed and what validation ran, prefixed with \"Autofix:\".\n",
+                "claude_args": "--model claude-opus-4-7\n--max-turns 150\n--allowedTools \"Bash(git:*),Bash(gh:*),Bash(matlab:*),Bash(octave:*),Bash(find:*),Bash(rg:*),Bash(sed:*),Bash(ls:*),Bash(pwd:*),Bash(cat:*)\"\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    }
+  ],
+  "errors": []
+}

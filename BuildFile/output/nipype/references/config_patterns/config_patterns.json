@@ -1,0 +1,4627 @@
+{
+  "total_files": 20,
+  "total_settings": 283,
+  "detected_patterns": {},
+  "config_files": [
+    {
+      "file_path": "nipype/codecov.yml",
+      "relative_path": "codecov.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 14,
+      "settings": [
+        {
+          "key": "coverage.range",
+          "value": "0...100",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.patch.default.target",
+          "value": 0,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.patch.default.threshold",
+          "value": 100,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.default.target",
+          "value": 0,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.default.threshold",
+          "value": 100,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.patch.target",
+          "value": 0,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.patch.threshold",
+          "value": 100,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.unittests.target",
+          "value": 0,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.unittests.threshold",
+          "value": 100,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.unittests.flags",
+          "value": [
+            "unittests"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.smoketests.target",
+          "value": 0,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.smoketests.threshold",
+          "value": 100,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.smoketests.flags",
+          "value": [
+            "smoketests"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.ignore",
+          "value": [
+            "nipype/external",
+            "tools",
+            "doc",
+            "**/tests",
+            "examples"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/.pre-commit-config.yaml",
+      "relative_path": ".pre-commit-config.yaml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 1,
+      "settings": [
+        {
+          "key": "repos",
+          "value": [
+            {
+              "repo": "https://github.com/pre-commit/pre-commit-hooks",
+              "rev": "v4.5.0",
+              "hooks": [
+                {
+                  "id": "trailing-whitespace"
+                },
+                {
+                  "id": "end-of-file-fixer"
+                },
+                {
+                  "id": "check-yaml"
+                },
+                {
+                  "id": "check-added-large-files"
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/psf/black",
+              "rev": "24.2.0",
+              "hooks": [
+                {
+                  "id": "black"
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/codespell-project/codespell",
+              "rev": "v2.2.6",
+              "hooks": [
+                {
+                  "id": "codespell"
+                }
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/pyproject.toml",
+      "relative_path": "pyproject.toml",
+      "type": "toml",
+      "purpose": "package_configuration",
+      "patterns": [],
+      "settings_count": 45,
+      "settings": [
+        {
+          "key": "build-system.requires",
+          "value": [
+            "hatchling",
+            "hatch-vcs"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build-system.build-backend",
+          "value": "hatchling.build",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.name",
+          "value": "nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.dynamic",
+          "value": [
+            "version"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.description",
+          "value": "Neuroimaging in Python: Pipelines and Interfaces",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.readme",
+          "value": "README.rst",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.requires-python",
+          "value": ">=3.10",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.license",
+          "value": "Apache-2.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.authors",
+          "value": [
+            {
+              "name": "nipype developers",
+              "email": "neuroimaging@python.org"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.maintainers",
+          "value": [
+            {
+              "name": "nipype developers",
+              "email": "neuroimaging@python.org"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.classifiers",
+          "value": [
+            "Development Status :: 5 - Production/Stable",
+            "Environment :: Console",
+            "Intended Audience :: Science/Research",
+            "License :: OSI Approved :: Apache Software License",
+            "Operating System :: MacOS :: MacOS X",
+            "Operating System :: POSIX :: Linux",
+            "Programming Language :: Python :: 3.10",
+            "Programming Language :: Python :: 3.11",
+            "Programming Language :: Python :: 3.12",
+            "Programming Language :: Python :: 3.13",
+            "Topic :: Scientific/Engineering"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.dependencies",
+          "value": [
+            "click>=6.6.0",
+            "networkx>=2.5",
+            "nibabel>=3.0",
+            "numpy>=1.21",
+            "packaging>=21.0",
+            "prov>=1.5.2",
+            "pydot>=1.2.3",
+            "python-dateutil>=2.2",
+            "rdflib>=5.0.0",
+            "scipy>=1.8",
+            "simplejson>=3.8.0",
+            "traits>=6.2",
+            "filelock>=3.0.0",
+            "acres>=0.3.0",
+            "etelemetry>=0.3.1",
+            "looseversion!=1.2,>=1.0.1",
+            "lxml>=4.9.1",
+            "puremagic>=1.15"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.data",
+          "value": [
+            "datalad"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.doc",
+          "value": [
+            "dipy",
+            "ipython",
+            "matplotlib",
+            "nbsphinx",
+            "sphinx-argparse",
+            "sphinx>=2.1.2",
+            "sphinxcontrib-apidoc",
+            "niflow-nipype1-workflows"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.duecredit",
+          "value": [
+            "duecredit"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.maint",
+          "value": [
+            "GitPython",
+            "fuzzywuzzy"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.nipy",
+          "value": [
+            "nitime",
+            "nilearn",
+            "dipy",
+            "nipy",
+            "matplotlib"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.profiler",
+          "value": [
+            "psutil>=5.0"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.pybids",
+          "value": [
+            "pybids>=0.7.0"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.specs",
+          "value": [
+            "black"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.ssh",
+          "value": [
+            "paramiko"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.tests",
+          "value": [
+            "coverage >= 5.2.1",
+            "pandas >= 1.5.0",
+            "pytest >= 6",
+            "pytest-cov >=2.13",
+            "pytest-timeout >=1.4",
+            "pytest-doctestplus>=1.1.0",
+            "pytest-env>=1.1.0",
+            "pytest-xdist >= 2.5",
+            "sphinx >=7"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.xvfbwrapper",
+          "value": [
+            "xvfbwrapper"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.dev",
+          "value": [
+            "nipype[doc,specs,tests,xvfbwrapper]"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.all",
+          "value": [
+            "nipype[dev,data,duecredit,maint,nipy,profiler,pybids,ssh]"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.urls.Homepage",
+          "value": "http://nipy.org/nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.urls.Documentation",
+          "value": "http://nipy.org/nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.urls.Source",
+          "value": "http://github.com/nipy/nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.urls.Download",
+          "value": "http://github.com/nipy/nipype/archives/master",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.nipypecli",
+          "value": "nipype.scripts.cli:cli",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.version.source",
+          "value": "vcs",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.build.hooks.vcs.version-file",
+          "value": "nipype/_version.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.build.targets.sdist.include",
+          "value": [
+            "/nipype",
+            "/doc",
+            "/tools",
+            "/CODE_OF_CONDUCT.md",
+            "/CONTRIBUTING.md",
+            "/LICENSE",
+            "/README.rst",
+            "/THANKS.rst",
+            "/Makefile"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.build.targets.wheel.packages",
+          "value": [
+            "nipype"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.black.skip-string-normalization",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.minversion",
+          "value": "6",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.testpaths",
+          "value": [
+            "nipype"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.log_cli_level",
+          "value": "INFO",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.xfail_strict",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.norecursedirs",
+          "value": [
+            ".git"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.addopts",
+          "value": [
+            "-svx",
+            "-ra",
+            "--strict-config",
+            "--strict-markers",
+            "--doctest-modules",
+            "--cov=nipype",
+            "--cov-report=xml",
+            "--cov-config=pyproject.toml"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.doctest_optionflags",
+          "value": "ALLOW_UNICODE NORMALIZE_WHITESPACE ELLIPSIS",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.env",
+          "value": "PYTHONHASHSEED=0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.filterwarnings",
+          "value": [
+            "ignore::DeprecationWarning"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.junit_family",
+          "value": "xunit2",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/.readthedocs.yml",
+      "relative_path": ".readthedocs.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 8,
+      "settings": [
+        {
+          "key": "version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.os",
+          "value": "ubuntu-lts-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.tools.python",
+          "value": "3.13",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.jobs.pre_create_environment",
+          "value": [
+            "asdf plugin add uv",
+            "asdf install uv latest",
+            "asdf global uv latest"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.jobs.create_environment",
+          "value": [
+            "uv venv $READTHEDOCS_VIRTUALENV_PATH"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.jobs.install",
+          "value": [
+            "VIRTUAL_ENV=$READTHEDOCS_VIRTUALENV_PATH UV_CACHE_DIR=$READTHEDOCS_VIRTUALENV_PATH/../../uv_cache uv sync --active --extra=doc\n"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "sphinx.configuration",
+          "value": "doc/conf.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "formats",
+          "value": [
+            "htmlzip"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/tox.ini",
+      "relative_path": "tox.ini",
+      "type": "ini",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 21,
+      "settings": [
+        {
+          "key": "tox.requires",
+          "value": "\ntox>=4",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tox.envlist",
+          "value": "\npy3{10,11,12,13}-none # Test nipype functionality on all versions\npy3{10,12,13}-full       # Test with extra dependencies on oldest and two newest\npy311-min                # Test with minimal dependencies\npy3{11,12,13}-pre       # Test with pre-release on SPEC0-supported Python",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tox.skip_missing_interpreters",
+          "value": "true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "gh-actions.python",
+          "value": "\n3.10: py310\n3.11: py311\n3.12: py312\n3.13: py313",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "gh-actions:env.depends",
+          "value": "\nmin: min\nnone: none\nfull: full\npre: pre",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.description",
+          "value": "Pytest with coverage",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.labels",
+          "value": "test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.pip_pre",
+          "value": "\npre: true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.pass_env",
+          "value": "\nNIPYPE_NO_ET\nNO_ET\nANTSPATH\nCI_SKIP_TEST\nFREESURFER_HOME\nUSER\nFSLDIR\nFSLOUTPUTTYPE\nFSL_COURSE_DATA\nNIPYPE_NO_MATLAB\nOMP_NUM_THREADS\nNIPYPE_NO_R\nSPMMCRCMD\nFORCE_SPMMCR\nLOGNAME\nAWS_ACCESS_KEY_ID\nAWS_SECRET_ACCESS_KEY\nMATLABCMD\nMRTRIX3_HOME\nRCMD\nETS_TOOLKIT\nNIPYPE_CONFIG_DIR\nDISPLAY\nPATHEXT\nLOGNAME\nUSER\nLNAME\nUSERNAME\nPY_COLORS\nFORCE_COLOR\nNO_COLOR\nCLICOLOR\nCLICOLOR_FORCE\nPYTHON_GIL",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.extras",
+          "value": "\ntests\nfull: doc\nfull: profiler\nfull: duecredit\nfull: ssh\nfull: nipy",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.setenv",
+          "value": "\nNO_ET=1\nFSLOUTPUTTYPE=NIFTI_GZ\npre: PIP_EXTRA_INDEX_URL=https://pypi.anaconda.org/scientific-python-nightly-wheels/simple\npre: UV_EXTRA_INDEX_URL=https://pypi.anaconda.org/scientific-python-nightly-wheels/simple\npre: UV_INDEX_STRATEGY=unsafe-best-match",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.uv_resolution",
+          "value": "\nmin: lowest-direct",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.commands",
+          "value": "\npython -c \"import nipype; print(nipype.__version__)\"\npytest --durations=20 --durations-min=1.0 --cov-report term-missing {posargs:-n auto}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:specs.description",
+          "value": "Rebuild spec tests",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:specs.deps",
+          "value": "\nblack\ndipy\nnumpy<2",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:specs.commands",
+          "value": "\npython tools/checkspecs.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:style.description",
+          "value": "Check our style guide",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:style.labels",
+          "value": "check",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:style.deps",
+          "value": "\nblack",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:style.skip_install",
+          "value": "true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:style.commands",
+          "value": "\nblack --check --diff nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/.wci.yml",
+      "relative_path": ".wci.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 8,
+      "settings": [
+        {
+          "key": "name",
+          "value": "nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "headline",
+          "value": "Neuroimaging in Python: Pipelines and Interfaces",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "Nipype, an open-source, community-developed initiative under the umbrella of NiPy, is a Python project that\nprovides a uniform interface to existing neuroimaging software and facilitates interaction between these\npackages within a single workflow. Nipype provides an environment that encourages interactive exploration of\nalgorithms from different packages (e.g., SPM, FSL, FreeSurfer, AFNI, Slicer, ANTS), eases the design of\nworkflows within and between packages, and reduces the learning curve necessary to use different packages.\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "language",
+          "value": "Python3",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "documentation.general",
+          "value": "https://nipype.readthedocs.io/en/latest/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "documentation.installation",
+          "value": "https://nipype.readthedocs.io/en/latest/users/install.html",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "documentation.tutorial",
+          "value": "https://miykael.github.io/nipype_tutorial/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "execution_environment.resource_managers",
+          "value": [
+            "SLURM",
+            "Condor",
+            "DAGMan",
+            "LSF",
+            "OAR",
+            "PBS",
+            "SGE",
+            "Soma-workflow"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/.zenodo.json",
+      "relative_path": ".zenodo.json",
+      "type": "json",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "creators",
+          "value": [
+            {
+              "affiliation": "Department of Psychology, Stanford University",
+              "name": "Esteban, Oscar",
+              "orcid": "0000-0001-8435-6191"
+            },
+            {
+              "affiliation": "Stanford University",
+              "name": "Markiewicz, Christopher J.",
+              "orcid": "0000-0002-6533-164X"
+            },
+            {
+              "name": "Burns, Christopher"
+            },
+            {
+              "affiliation": "MIT",
+              "name": "Goncalves, Mathias",
+              "orcid": "0000-0002-7252-7771"
+            },
+            {
+              "affiliation": "MIT",
+              "name": "Jarecka, Dorota",
+              "orcid": "0000-0001-8282-2988"
+            },
+            {
+              "affiliation": "Independent",
+              "name": "Ziegler, Erik",
+              "orcid": "0000-0003-1857-8129"
+            },
+            {
+              "name": "Berleant, Shoshana"
+            },
+            {
+              "affiliation": "The University of Iowa",
+              "name": "Ellis, David Gage",
+              "orcid": "0000-0002-3718-6836"
+            },
+            {
+              "name": "Pinsard, Basile"
+            },
+            {
+              "name": "Madison, Cindee"
+            },
+            {
+              "affiliation": "Department of Psychology, Stanford University",
+              "name": "Waskom, Michael"
+            },
+            {
+              "affiliation": "The Laboratory for Investigative Neurophysiology (The LINE), Department of Radiology and Department of Clinical Neurosciences, Lausanne, Switzerland; Center for Biomedical Imaging (CIBM), Lausanne, Switzerland",
+              "name": "Notter, Michael Philipp",
+              "orcid": "0000-0002-5866-047X"
+            },
+            {
+              "affiliation": "Developer",
+              "name": "Clark, Daniel",
+              "orcid": "0000-0002-8121-8954"
+            },
+            {
+              "affiliation": "Klinikum rechts der Isar, TUM. ACPySS",
+              "name": "Manh\u00e3es-Savio, Alexandre",
+              "orcid": "0000-0002-6608-6885"
+            },
+            {
+              "affiliation": "Dartmouth College: Hanover, NH, United States",
+              "name": "Halchenko, Yaroslav O.",
+              "orcid": "0000-0003-3456-2493"
+            },
+            {
+              "affiliation": "UC Berkeley",
+              "name": "Clark, Dav",
+              "orcid": "0000-0002-3982-4416"
+            },
+            {
+              "affiliation": "University of California, San Francisco",
+              "name": "Jordan, Kesshi",
+              "orcid": "0000-0001-6313-0580"
+            },
+            {
+              "affiliation": "Mayo Clinic, Neurology, Rochester, MN, USA",
+              "name": "Dayan, Michael",
+              "orcid": "0000-0002-2666-0969"
+            },
+            {
+              "affiliation": "Department of Psychology, Stanford University",
+              "name": "Norgaard, Martin",
+              "orcid": "0000-0003-2131-5688"
+            },
+            {
+              "name": "Loney, Fred"
+            },
+            {
+              "affiliation": "CEA",
+              "name": "Papadopoulos Orfanos, Dimitri",
+              "orcid": "0000-0002-1242-8990"
+            },
+            {
+              "affiliation": "Florida International University",
+              "name": "Salo, Taylor",
+              "orcid": "0000-0001-9813-3167"
+            },
+            {
+              "affiliation": "University of Iowa",
+              "name": "Johnson, Hans",
+              "orcid": "0000-0001-9513-2660"
+            },
+            {
+              "affiliation": "Department of Electrical and Computer Engineering, Johns Hopkins University",
+              "name": "Dewey, Blake E",
+              "orcid": "0000-0003-4554-5058"
+            },
+            {
+              "affiliation": "Molecular Imaging Research Center, CEA, France",
+              "name": "Bougacha, Salma"
+            },
+            {
+              "affiliation": "UC Berkeley - UCSF Graduate Program in Bioengineering",
+              "name": "Keshavan, Anisha",
+              "orcid": "0000-0003-3554-043X"
+            },
+            {
+              "name": "Yvernault, Benjamin"
+            },
+            {
+              "affiliation": "Institute for Biomedical Engineering, ETH and University of Zurich",
+              "name": "Christian, Horea",
+              "orcid": "0000-0001-7037-2449"
+            },
+            {
+              "name": "Hamalainen, Carlo",
+              "orcid": "0000-0001-7655-3830"
+            },
+            {
+              "affiliation": "Stanford University",
+              "name": "\u0106iri\u0107 , Rastko",
+              "orcid": "0000-0001-6347-7939"
+            },
+            {
+              "name": "Dubois, Mathieu"
+            },
+            {
+              "affiliation": "The Centre for Addiction and Mental Health",
+              "name": "Joseph, Michael",
+              "orcid": "0000-0002-0068-230X"
+            },
+            {
+              "affiliation": "UC San Diego",
+              "name": "Cipollini, Ben",
+              "orcid": "0000-0002-7782-0790"
+            },
+            {
+              "affiliation": "Holland Bloorview Kids Rehabilitation Hospital",
+              "name": "Tilley II, Steven",
+              "orcid": "0000-0003-4853-5082"
+            },
+            {
+              "affiliation": "Dartmouth College",
+              "name": "Visconti di Oleggio Castello, Matteo",
+              "orcid": "0000-0001-7931-5272"
+            },
+            {
+              "affiliation": "University of Texas at Austin",
+              "name": "De La Vega, Alejandro",
+              "orcid": "0000-0001-9062-3778"
+            },
+            {
+              "affiliation": "Shattuck Lab, UCLA Brain Mapping Center",
+              "name": "Wong, Jason"
+            },
+            {
+              "affiliation": "MIT",
+              "name": "Kaczmarzyk, Jakub",
+              "orcid": "0000-0002-5544-7577"
+            },
+            {
+              "affiliation": "Research Group Neuroanatomy and Connectivity, Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany",
+              "name": "Huntenburg, Julia M.",
+              "orcid": "0000-0003-0579-9811"
+            },
+            {
+              "affiliation": "National Institutes of Health",
+              "name": "Clark, Michael G. "
+            },
+            {
+              "affiliation": "Neuroscience Program, University of Iowa",
+              "name": "Kent, James D.",
+              "orcid": "0000-0002-4892-2659"
+            },
+            {
+              "affiliation": "Concordia University",
+              "name": "Benderoff, Erin"
+            },
+            {
+              "name": "Erickson, Drew"
+            },
+            {
+              "affiliation": "CIBIT, UC",
+              "name": "Dias, Maria de Fatima",
+              "orcid": "0000-0001-8878-1750"
+            },
+            {
+              "name": "Moloney, Brendan"
+            },
+            {
+              "affiliation": "Azienda Ospedaliero-Universitaria di Modena",
+              "name": "Genovese, Maurilio",
+              "orcid": "0000-0002-8154-8224"
+            },
+            {
+              "affiliation": "Otto-von-Guericke-University Magdeburg, Germany",
+              "name": "Hanke, Michael",
+              "orcid": "0000-0001-6398-6370"
+            },
+            {
+              "affiliation": "Child Mind Institute",
+              "name": "Giavasis, Steven"
+            },
+            {
+              "affiliation": "SRI International",
+              "name": "Nichols, B. Nolan",
+              "orcid": "0000-0003-1099-3328"
+            },
+            {
+              "name": "Tungaraza, Rosalia"
+            },
+            {
+              "affiliation": "Charit\u00e8 Universit\u00e4tsmedizin Berlin, Germany",
+              "name": "Dell'Orco, Andrea",
+              "orcid": "0000-0002-3964-8360"
+            },
+            {
+              "affiliation": "Child Mind Institute",
+              "name": "Frohlich, Caroline"
+            },
+            {
+              "affiliation": "Athena EPI, Inria Sophia-Antipolis",
+              "name": "Wassermann, Demian",
+              "orcid": "0000-0001-5194-6056"
+            },
+            {
+              "affiliation": "Vrije Universiteit, Amsterdam",
+              "name": "de Hollander, Gilles",
+              "orcid": "0000-0003-1988-5091"
+            },
+            {
+              "affiliation": "Sagol School of Neuroscience, Tel Aviv University",
+              "name": "Kepler, Gal",
+              "orcid": "0000-0002-5655-9423"
+            },
+            {
+              "affiliation": "Indiana University, IN, USA",
+              "name": "Koudoro, Serge"
+            },
+            {
+              "affiliation": "University College London",
+              "name": "Eshaghi, Arman",
+              "orcid": "0000-0002-6652-3512"
+            },
+            {
+              "name": "Millman, Jarrod"
+            },
+            {
+              "affiliation": "University College London",
+              "name": "Mancini, Matteo",
+              "orcid": "0000-0001-7194-4568"
+            },
+            {
+              "affiliation": "University of Sydney",
+              "name": "Close, Thomas",
+              "orcid": "0000-0002-4160-2134"
+            },
+            {
+              "affiliation": "National Institute of Mental Health",
+              "name": "Nielson, Dylan M.",
+              "orcid": "0000-0003-4613-6643"
+            },
+            {
+              "affiliation": "INRIA",
+              "name": "Varoquaux, Gael",
+              "orcid": "0000-0003-1076-5122"
+            },
+            {
+              "affiliation": "Charite Universitatsmedizin Berlin, Germany",
+              "name": "Waller, Lea",
+              "orcid": "0000-0002-3239-6957"
+            },
+            {
+              "name": "Watanabe, Aimi"
+            },
+            {
+              "name": "Mordom, David"
+            },
+            {
+              "affiliation": "Child Mind Institute",
+              "name": "Cluce, Jon",
+              "orcid": "0000-0001-7590-5806"
+            },
+            {
+              "affiliation": "ARAMIS LAB, Brain and Spine Institute (ICM), Paris, France.",
+              "name": "Guillon, Je\u0301re\u0301my",
+              "orcid": "0000-0002-2672-7510"
+            },
+            {
+              "affiliation": "Penn Statistics in Imaging and Visualization Endeavor, University of Pennsylvania",
+              "name": "Robert-Fitzgerald, Timothy",
+              "orcid": "0000-0001-8303-8001"
+            },
+            {
+              "affiliation": "Donders Institute for Brain, Cognition and Behavior, Center for Cognitive Neuroimaging",
+              "name": "Chetverikov, Andrey",
+              "orcid": "0000-0003-2767-6310"
+            },
+            {
+              "affiliation": "The University of Washington eScience Institute",
+              "name": "Rokem, Ariel",
+              "orcid": "0000-0003-0679-1985"
+            },
+            {
+              "affiliation": "Washington University in St Louis",
+              "name": "Acland, Benjamin",
+              "orcid": "0000-0001-6392-6634"
+            },
+            {
+              "affiliation": "Division of Psychological and Social Medicine and Developmental Neuroscience, Faculty of Medicine, Technische Universit\u00e4t Dresden, Dresden, Germany",
+              "name": "Bernardoni, Fabio",
+              "orcid": "0000-0002-5112-405X"
+            },
+            {
+              "name": "Forbes, Jessica"
+            },
+            {
+              "affiliation": "Montreal Neurological Institute and Hospital",
+              "name": "Markello, Ross",
+              "orcid": "0000-0003-1057-1336"
+            },
+            {
+              "affiliation": "Australian eHealth Research Centre, Commonwealth Scientific and Industrial Research Organisation; University of Queensland",
+              "name": "Gillman, Ashley",
+              "orcid": "0000-0001-9130-1092"
+            },
+            {
+              "affiliation": "State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern Institute for Brain Research, Beijing Normal University, Beijing, China; Max Planck Institute for Psycholinguistics, Nijmegen, the Netherlands",
+              "name": "Kong, Xiang-Zhen",
+              "orcid": "0000-0002-0805-1350"
+            },
+            {
+              "affiliation": "Division of Psychological and Social Medicine and Developmental Neuroscience, Faculty of Medicine, Technische Universit\u00e4t Dresden, Dresden, Germany",
+              "name": "Geisler, Daniel",
+              "orcid": "0000-0003-2076-5329"
+            },
+            {
+              "name": "Salvatore, John"
+            },
+            {
+              "affiliation": "Medical College of Wisconsin",
+              "name": "Espana, Lezlie",
+              "orcid": "0000-0002-6466-4653"
+            },
+            {
+              "affiliation": "CNRS LTCI, Telecom ParisTech, Universit\u00e9 Paris-Saclay",
+              "name": "Gramfort, Alexandre",
+              "orcid": "0000-0001-9791-4404"
+            },
+            {
+              "affiliation": "Department of Psychology, University of Bielefeld, Bielefeld, Germany.",
+              "name": "Doll, Anna",
+              "orcid": "0000-0002-0799-0831"
+            },
+            {
+              "name": "Buchanan, Colin"
+            },
+            {
+              "affiliation": "Montreal Neurological Institute and Hospital",
+              "name": "DuPre, Elizabeth",
+              "orcid": "0000-0003-1358-196X"
+            },
+            {
+              "affiliation": "The University of Sydney",
+              "name": "Liu, Siqi"
+            },
+            {
+              "affiliation": "National University Singapore",
+              "name": "Schaefer, Alexander",
+              "orcid": "0000-0001-6488-4739"
+            },
+            {
+              "affiliation": "UniversityHospital Heidelberg, Germany",
+              "name": "Kleesiek, Jens"
+            },
+            {
+              "affiliation": "Department of Neurology, BG-University Hospital Bergmannsheil Bochum, Germany",
+              "name": "Butry, Lionel"
+            },
+            {
+              "affiliation": "Nathan s Kline institute for psychiatric research",
+              "name": "Sikka, Sharad"
+            },
+            {
+              "name": "Schwartz, Yannick"
+            },
+            {
+              "affiliation": "The University of Iowa",
+              "name": "Ghayoor, Ali",
+              "orcid": "0000-0002-8858-1254"
+            },
+            {
+              "affiliation": "ARAMIS Lab, Paris Brain Institute",
+              "name": "Vaillant, Ghislain",
+              "orcid": "0000-0003-0267-3033"
+            },
+            {
+              "affiliation": "NIMH IRP",
+              "name": "Lee, John A.",
+              "orcid": "0000-0001-5884-4247"
+            },
+            {
+              "name": "Mattfeld, Aaron"
+            },
+            {
+              "affiliation": "University of Washington",
+              "name": "Richie-Halford, Adam",
+              "orcid": "0000-0001-9276-9084"
+            },
+            {
+              "affiliation": "University of Zurich",
+              "name": "Liem, Franz",
+              "orcid": "0000-0003-0646-4810"
+            },
+            {
+              "affiliation": "Neurospin/Unicog/Inserm/CEA",
+              "name": "Perez-Guevara, Martin Felipe",
+              "orcid": "0000-0003-4497-861X"
+            },
+            {
+              "name": "Heinsfeld, Anibal S\u00f3lon",
+              "orcid": "0000-0002-2050-0614"
+            },
+            {
+              "name": "Haselgrove, Christian"
+            },
+            {
+              "affiliation": "Department of Psychology, Stanford University; Parietal, INRIA",
+              "name": "Durnez, Joke",
+              "orcid": "0000-0001-9030-2202"
+            },
+            {
+              "affiliation": "MPI CBS Leipzig, Germany",
+              "name": "Lampe, Leonie"
+            },
+            {
+              "name": "Poldrack, Russell"
+            },
+            {
+              "affiliation": "1 McGill Centre for Integrative Neuroscience (MCIN), Ludmer Centre for Neuroinformatics and Mental Health, Montreal Neurological Institute (MNI), McGill University, Montr\u00e9al, 3801 University Street, WB-208, H3A 2B4, Qu\u00e9bec, Canada. 2 University of Lyon, CNRS, INSERM, CREATIS., Villeurbanne, 7, avenue Jean Capelle, 69621, France.",
+              "name": "Glatard, Tristan",
+              "orcid": "0000-0003-2620-5883"
+            },
+            {
+              "affiliation": "Sagol School of Neuroscience, Tel Aviv University",
+              "name": "Baratz, Zvi",
+              "orcid": "0000-0001-7159-1387"
+            },
+            {
+              "affiliation": "Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany.",
+              "name": "Tabas, Alejandro",
+              "orcid": "0000-0002-8643-1543"
+            },
+            {
+              "name": "Cumba, Chad"
+            },
+            {
+              "affiliation": "University College London",
+              "name": "P\u00e9rez-Garc\u00eda, Fernando",
+              "orcid": "0000-0001-9090-3024"
+            },
+            {
+              "name": "Blair, Ross"
+            },
+            {
+              "affiliation": "Duke University",
+              "name": "Iqbal, Shariq",
+              "orcid": "0000-0003-2766-8425"
+            },
+            {
+              "affiliation": "University of Iowa",
+              "name": "Welch, David"
+            },
+            {
+              "affiliation": "CNRS, UMS3552 IRMaGe",
+              "name": "Condamine, Eric",
+              "orcid": "0000-0002-9533-3769"
+            },
+            {
+              "affiliation": "Max Planck Institute for Human Cognitive and Brain Sciences",
+              "name": "Contier, Oliver",
+              "orcid": "0000-0002-2983-4709"
+            },
+            {
+              "affiliation": "Department of Psychology, Stanford University",
+              "name": "Triplett, William",
+              "orcid": "0000-0002-9546-1306"
+            },
+            {
+              "affiliation": "Child Mind Institute",
+              "name": "Craddock, R. Cameron",
+              "orcid": "0000-0002-4950-1303"
+            },
+            {
+              "name": "Correa, Carlos"
+            },
+            {
+              "affiliation": "Leibniz Institute for Neurobiology",
+              "name": "Stadler, J\u00f6rg",
+              "orcid": "0000-0003-4313-129X"
+            },
+            {
+              "affiliation": "Mayo Clinic",
+              "name": "Warner, Joshua",
+              "orcid": "0000-0003-3579-4835"
+            },
+            {
+              "affiliation": "Yale University; New Haven, CT, United States",
+              "name": "Sisk, Lucinda M.",
+              "orcid": "0000-0003-4900-9770"
+            },
+            {
+              "name": "Falkiewicz, Marcel"
+            },
+            {
+              "affiliation": "University of Illinois Urbana Champaign",
+              "name": "Sharp, Paul"
+            },
+            {
+              "name": "Rothmei, Simon"
+            },
+            {
+              "affiliation": "Korea Advanced Institute of Science and Technology",
+              "name": "Kim, Sin",
+              "orcid": "0000-0003-4652-3758"
+            },
+            {
+              "name": "Weinstein, Alejandro"
+            },
+            {
+              "affiliation": "University of Pennsylvania",
+              "name": "Kahn, Ari E.",
+              "orcid": "0000-0002-2127-0507"
+            },
+            {
+              "affiliation": "Harvard University - Psychology",
+              "name": "Kastman, Erik",
+              "orcid": "0000-0001-7221-9042"
+            },
+            {
+              "affiliation": "Florida International University",
+              "name": "Bottenhorn, Katherine",
+              "orcid": "0000-0002-7796-8795"
+            },
+            {
+              "affiliation": "GIGA Institute",
+              "name": "Grignard, Martin",
+              "orcid": "0000-0001-5549-1861"
+            },
+            {
+              "affiliation": "Boston University",
+              "name": "Perkins, L. Nathan"
+            },
+            {
+              "affiliation": "Lund University",
+              "name": "Anij\u00e4rv, Toomas Erik",
+              "orcid": "0000-0002-3650-4230"
+            },
+            {
+              "name": "Zhou, Dale"
+            },
+            {
+              "name": "Bielievtsov, Dmytro",
+              "orcid": "0000-0003-3846-7696"
+            },
+            {
+              "affiliation": "University of Newcastle, Australia",
+              "name": "Cooper, Gavin",
+              "orcid": "0000-0002-7186-5293"
+            },
+            {
+              "affiliation": "Max Planck UCL Centre for Computational Psychiatry and Ageing Research, University College London",
+              "name": "Stojic, Hrvoje",
+              "orcid": "0000-0002-9699-9052"
+            },
+            {
+              "name": "Hui Qian, Tan"
+            },
+            {
+              "affiliation": "German Institute for International Educational Research",
+              "name": "Linkersd\u00f6rfer, Janosch",
+              "orcid": "0000-0002-1577-1233"
+            },
+            {
+              "name": "Renfro, Mandy"
+            },
+            {
+              "name": "Hinds, Oliver"
+            },
+            {
+              "affiliation": "Dept of Medical Biophysics, Univeristy of Western Ontario",
+              "name": "Stanley, Olivia"
+            },
+            {
+              "affiliation": "Flywheel.io, Minneapolis, MN, USA.",
+              "name": "Velasco, Pablo",
+              "orcid": "0000-0002-5749-6049"
+            },
+            {
+              "name": "K\u00fcttner, Ren\u00e9"
+            },
+            {
+              "affiliation": "California Institute of Technology",
+              "name": "Pauli, Wolfgang M.",
+              "orcid": "0000-0002-0966-0254"
+            },
+            {
+              "affiliation": "Research Centre Juelich",
+              "name": "Wu, Jianxiao",
+              "orcid": "0000-0002-4866-272X"
+            },
+            {
+              "affiliation": "Weill Cornell Medicine",
+              "name": "Xie, Xihe",
+              "orcid": "0000-0001-6595-2473"
+            },
+            {
+              "affiliation": "NIMH, Scientific and Statistical Computing Core",
+              "name": "Glen, Daniel",
+              "orcid": "0000-0001-8456-5647"
+            },
+            {
+              "affiliation": "Florida International University",
+              "name": "Kimbler, Adam",
+              "orcid": "0000-0001-5885-9596"
+            },
+            {
+              "affiliation": "University of Pittsburgh",
+              "name": "Meyers, Benjamin",
+              "orcid": "0000-0001-9137-4363"
+            },
+            {
+              "name": "Tarbert, Claire"
+            },
+            {
+              "name": "Ginsburg, Daniel"
+            },
+            {
+              "name": "Haehn, Daniel"
+            },
+            {
+              "affiliation": "Max Planck Research Group for Neuroanatomy & Connectivity, Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany",
+              "name": "Margulies, Daniel S.",
+              "orcid": "0000-0002-8880-9204"
+            },
+            {
+              "affiliation": "Dartmouth College",
+              "name": "Ma, Feilong",
+              "orcid": "0000-0002-6838-3971"
+            },
+            {
+              "affiliation": "University College London",
+              "name": "Malone, Ian B.",
+              "orcid": "0000-0001-7512-7856"
+            },
+            {
+              "affiliation": "University of Amsterdam",
+              "name": "Snoek, Lukas",
+              "orcid": "0000-0001-8972-204X"
+            },
+            {
+              "name": "Brett, Matthew"
+            },
+            {
+              "affiliation": "Department of Neuropsychiatry, University of Pennsylvania",
+              "name": "Cieslak, Matthew",
+              "orcid": "0000-0002-1931-4734"
+            },
+            {
+              "name": "Hallquist, Michael"
+            },
+            {
+              "affiliation": "Technical University Munich",
+              "name": "Molina-Romero, Miguel",
+              "orcid": "0000-0001-8054-0426"
+            },
+            {
+              "affiliation": "National Institute on Aging, Baltimore, MD, USA",
+              "name": "Bilgel, Murat",
+              "orcid": "0000-0001-5042-7422"
+            },
+            {
+              "name": "Lee, Nat",
+              "orcid": "0000-0001-9308-9988"
+            },
+            {
+              "affiliation": "Insitiute and Polyclinc for Diagnostic and Interventional Neuroradiology, University Hospital Carl Gustav Carus, Dresden, Germany",
+              "name": "Kuntke, Paul",
+              "orcid": "0000-0003-1838-2230"
+            },
+            {
+              "name": "Jalan, Raunak"
+            },
+            {
+              "name": "Inati, Souheil"
+            },
+            {
+              "affiliation": "Institute of Neuroinformatics, ETH/University of Zurich",
+              "name": "Gerhard, Stephan",
+              "orcid": "0000-0003-4454-6171"
+            },
+            {
+              "affiliation": "Enigma Biomedical Group",
+              "name": "Mathotaarachchi, Sulantha"
+            },
+            {
+              "name": "Saase, Victor"
+            },
+            {
+              "affiliation": "Washington University in St Louis",
+              "name": "Van, Andrew",
+              "orcid": "0000-0002-8787-0943"
+            },
+            {
+              "affiliation": "Department of Psychological and Brain Sciences, Dartmouth College",
+              "name": "Petre, Bogdan",
+              "orcid": "0000-0002-8437-168X"
+            },
+            {
+              "affiliation": "MPI-CBS; McGill University",
+              "name": "Steele, Christopher John",
+              "orcid": "0000-0003-1656-7928"
+            },
+            {
+              "affiliation": "Vrije Universiteit Amsterdam",
+              "name": "Ort, Eduard"
+            },
+            {
+              "affiliation": "Stanford University",
+              "name": "Lerma-Usabiaga, Garikoitz",
+              "orcid": "0000-0001-9800-4816"
+            },
+            {
+              "name": "Schwabacher, Isaac"
+            },
+            {
+              "name": "Arias, Jaime"
+            },
+            {
+              "name": "Lai, Jeff"
+            },
+            {
+              "affiliation": "Child Mind Institute / Nathan Kline Institute",
+              "name": "Pellman, John",
+              "orcid": "0000-0001-6810-4461"
+            },
+            {
+              "affiliation": "BarcelonaBeta Brain Research Center",
+              "name": "Huguet, Jordi",
+              "orcid": "0000-0001-8420-4833"
+            },
+            {
+              "affiliation": "University of Pennsylvania",
+              "name": "Junhao WEN",
+              "orcid": "0000-0003-2077-3070"
+            },
+            {
+              "affiliation": "TIB \u2013 Leibniz Information Centre for Science and Technology and University Library, Hannover, Germany",
+              "name": "Leinweber, Katrin",
+              "orcid": "0000-0001-5135-5758"
+            },
+            {
+              "affiliation": "INRIA-Saclay, Team Parietal",
+              "name": "Chawla, Kshitij",
+              "orcid": "0000-0002-7517-6321"
+            },
+            {
+              "affiliation": "Institute of Imaging & Computer Vision, RWTH Aachen University, Germany",
+              "name": "Weninger, Leon"
+            },
+            {
+              "name": "Modat, Marc"
+            },
+            {
+              "affiliation": "University of T\u00fcbingen and MPI for Biological Cybernertics",
+              "name": "Bannert, Michael M.",
+              "orcid": "0000-0003-1010-7517"
+            },
+            {
+              "affiliation": "University of Waterloo",
+              "name": "Mukhometzianov, Rinat",
+              "orcid": "0000-0003-1274-4827"
+            },
+            {
+              "name": "Harms, Robbert"
+            },
+            {
+              "affiliation": "University of Helsinki",
+              "name": "Andberg, Sami Kristian",
+              "orcid": "0000-0002-5650-3964"
+            },
+            {
+              "name": "Matsubara, K"
+            },
+            {
+              "affiliation": "Universidad de Guadalajara",
+              "name": "Gonz\u00e1lez Orozco, Abel A."
+            },
+            {
+              "affiliation": "ARAMIS Lab",
+              "name": "Routier, Alexandre",
+              "orcid": "0000-0003-1603-8049"
+            },
+            {
+              "name": "Marina, Ana"
+            },
+            {
+              "name": "Davison, Andrew"
+            },
+            {
+              "affiliation": "The University of Texas at Austin",
+              "name": "Floren, Andrew",
+              "orcid": "0000-0003-3618-2056"
+            },
+            {
+              "name": "Park, Anne"
+            },
+            {
+              "affiliation": "Consolidated Department of Psychiatry, Harvard Medical School",
+              "name": "Frederick, Blaise",
+              "orcid": "0000-0001-5832-5279"
+            },
+            {
+              "name": "Cheung, Brian"
+            },
+            {
+              "name": "McDermottroe, Conor"
+            },
+            {
+              "affiliation": "University of Cambridge",
+              "name": "McNamee, Daniel",
+              "orcid": "0000-0001-9928-4960"
+            },
+            {
+              "name": "Shachnev, Dmitry"
+            },
+            {
+              "affiliation": "University of Applied Sciences and Arts Northwestern Switzerland",
+              "name": "Vogel, Dorian",
+              "orcid": "0000-0003-3445-576X"
+            },
+            {
+              "name": "Flandin, Guillaume"
+            },
+            {
+              "affiliation": "Stanford University and the University of Chicago",
+              "name": "Jones, Henry",
+              "orcid": "0000-0001-7719-3646"
+            },
+            {
+              "affiliation": "Athinoula A. Martinos Center for Biomedical Imaging, Department of Radiology, Massachusetts General Hospital, Charlestown, MA, USA",
+              "name": "Gonzalez, Ivan",
+              "orcid": "0000-0002-6451-6909"
+            },
+            {
+              "name": "Varada, Jan"
+            },
+            {
+              "name": "Schlamp, Kai"
+            },
+            {
+              "name": "Podranski, Kornelius"
+            },
+            {
+              "affiliation": "State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern Institute for Brain Research, Beijing Normal University, Beijing, China",
+              "name": "Huang, Lijie",
+              "orcid": "0000-0002-9910-5069"
+            },
+            {
+              "name": "Noel, Maxime"
+            },
+            {
+              "affiliation": "Medical Imaging & Biomarkers, Bioclinica, Newark, CA, USA.",
+              "name": "Pannetier, Nicolas",
+              "orcid": "0000-0002-0744-5155"
+            },
+            {
+              "affiliation": "Max Planck Institute for Human Cognitive and Brain Sciences",
+              "name": "Numssen, Ole",
+              "orcid": "0000-0001-7164-2682"
+            },
+            {
+              "name": "Khanuja, Ranjeet"
+            },
+            {
+              "name": "Urchs, Sebastian"
+            },
+            {
+              "affiliation": "Department of Psychology, Stanford University",
+              "name": "Shim, Sunjae",
+              "orcid": "0000-0003-2773-0807"
+            },
+            {
+              "name": "Nickson, Thomas"
+            },
+            {
+              "affiliation": "State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern Institute for Brain Research, Beijing Normal University, Beijing, China",
+              "name": "Huang, Lijie",
+              "orcid": "0000-0002-9910-5069"
+            },
+            {
+              "affiliation": "Duke University",
+              "name": "Broderick, William",
+              "orcid": "0000-0002-8999-9003"
+            },
+            {
+              "name": "Tambini, Arielle"
+            },
+            {
+              "affiliation": "Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany.",
+              "name": "Mihai, Paul Glad",
+              "orcid": "0000-0001-5715-6442"
+            },
+            {
+              "affiliation": "Department of Psychology, Stanford University",
+              "name": "Gorgolewski, Krzysztof J.",
+              "orcid": "0000-0003-3321-7583"
+            },
+            {
+              "affiliation": "MIT, HMS",
+              "name": "Ghosh, Satrajit",
+              "orcid": "0000-0002-5312-6729"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "keywords",
+          "value": [
+            "neuroimaging",
+            "workflow",
+            "pipeline"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "license",
+          "value": "Apache-2.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "upload_type",
+          "value": "software",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/.github/release-drafter.yml",
+      "relative_path": ".github/release-drafter.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 1,
+      "settings": [
+        {
+          "key": "template",
+          "value": "## What's Changed\n\n$CHANGES\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/.github/dependabot.yml",
+      "relative_path": ".github/dependabot.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 2,
+      "settings": [
+        {
+          "key": "version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "updates",
+          "value": [
+            {
+              "package-ecosystem": "github-actions",
+              "directory": "/",
+              "schedule": {
+                "interval": "weekly"
+              },
+              "groups": {
+                "actions-infrastructure": {
+                  "patterns": [
+                    "actions/*"
+                  ]
+                }
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/nipype/pytest.ini",
+      "relative_path": "nipype/pytest.ini",
+      "type": "ini",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 5,
+      "settings": [
+        {
+          "key": "pytest.norecursedirs",
+          "value": ".git build dist doc nipype/external tools examples src",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "pytest.addopts",
+          "value": "--doctest-modules",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "pytest.doctest_optionflags",
+          "value": "ALLOW_UNICODE NORMALIZE_WHITESPACE",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "pytest.env",
+          "value": "\nPYTHONHASHSEED=0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "pytest.junit_family",
+          "value": "xunit2",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/.circleci/config.yml",
+      "relative_path": ".circleci/config.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 51,
+      "settings": [
+        {
+          "key": "_machine_kwds.image",
+          "value": "ubuntu-2004:202107-02",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_store_artifacts_kwds.path",
+          "value": "/home/circleci/work/tests",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_test_environment.WORKDIR",
+          "value": "/home/circleci/work",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_test_environment.DOCKER_IMAGE",
+          "value": "nipype/nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_set_pr_number.name",
+          "value": "Set PR number",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_set_pr_number.command",
+          "value": "echo 'export CIRCLE_PR_NUMBER=\"${CIRCLE_PR_NUMBER:-${CIRCLE_PULL_REQUEST##*/}}\"' >> $BASH_ENV\nsource $BASH_ENV\necho $CIRCLE_PR_NUMBER\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_generate_dockerfiles.name",
+          "value": "Generate Dockerfiles",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_generate_dockerfiles.command",
+          "value": "make gen-dockerfiles\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_modify_nipype_version.name",
+          "value": "Modify Nipype version if necessary",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_modify_nipype_version.command",
+          "value": "if [ \"$CIRCLE_TAG\" != \"\" ]; then\n  sed -i -E \"s/(__version__ = )'[A-Za-z0-9.-]+'/\\1'$CIRCLE_TAG'/\" nipype/info.py\nfi\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_get_base_image.name",
+          "value": "Get base image (pull or build)",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_get_base_image.no_output_timeout",
+          "value": "60m",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_get_base_image.command",
+          "value": "source /tmp/docker/get_base_image.sh\nif [ \"$GET_BASE\" == \"PULL\" ]; then\n  echo \"Pulling base image ...\"\n  docker pull nipype/nipype:base\nelif [ \"$GET_BASE\" == \"BUILD\" ]; then\n  tools/retry_cmd.sh -n 5 -s 15 \\\n    docker build -t nipype/nipype:base - < docker/Dockerfile.base\nelse\n  echo \"Error: method to get base image not understood\"\n  exit 1\nfi\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_build_main_image_py38.name",
+          "value": "Build main image (py38)",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_build_main_image_py38.no_output_timeout",
+          "value": "60m",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_build_main_image_py38.command",
+          "value": "tools/retry_cmd.sh -n 5 -s 15 \\\n  docker build \\\n    --rm=false \\\n    --tag nipype/nipype:latest \\\n    --tag nipype/nipype:py38 \\\n    $(test -z \"${CIRCLE_TAG}\" || echo --tag nipype/nipype:\"${CIRCLE_TAG}\") \\\n    --build-arg BUILD_DATE=\"$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")\" \\\n    --build-arg VCS_REF=\"$(git rev-parse --short HEAD)\" \\\n    --build-arg VERSION=\"${CIRCLE_TAG}\" /home/circleci/nipype\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_download_test_data.name",
+          "value": "Download test data",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_download_test_data.no_output_timeout",
+          "value": "20m",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_download_test_data.working_directory",
+          "value": "/home/circleci/examples",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_download_test_data.environment.OSF_NIPYPE_URL",
+          "value": "https://files.osf.io/v1/resources/nefdp/providers/osfstorage",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_download_test_data.command",
+          "value": "set -x\nexport DATA_NIPYPE_TUTORIAL_URL=\"${OSF_NIPYPE_URL}/57f4739cb83f6901ed94bf21\"\nif [[ ! -d nipype-tutorial ]]; then\n    curl -sSL --retry 5 --connect-timeout 15 \"$DATA_NIPYPE_TUTORIAL_URL\" | tar xjv\nfi\n\nexport DATA_NIPYPE_FSL_COURSE=\"${OSF_NIPYPE_URL}/57f472cf9ad5a101f977ecfe\"\nif [[ ! -d nipype-fsl_course_data ]]; then\n    curl -sSL --retry 5 --connect-timeout 15 \"$DATA_NIPYPE_FSL_COURSE\" | tar xzv\nfi\n\nexport DATA_NIPYPE_FSL_FEEDS=\"${OSF_NIPYPE_URL}/57f473066c613b01f113e7af\"\nif [[ ! -d feeds ]]; then\n    curl -sSL --retry 5 --connect-timeout 15 \"$DATA_NIPYPE_FSL_FEEDS\" | tar xzv\nfi\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_prepare_working_directory.name",
+          "value": "Prepare working directory",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_prepare_working_directory.environment.WORKDIR",
+          "value": "/home/circleci/work",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_prepare_working_directory.environment.DOCKER_IMAGE",
+          "value": "nipype/nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_prepare_working_directory.command",
+          "value": "mkdir -p \"$WORKDIR\"\nchmod -R 777 \"$WORKDIR\"\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_get_codecov.name",
+          "value": "Get codecov",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_get_codecov.command",
+          "value": "pip install --no-cache-dir codecov\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_run_codecov_coverage.name",
+          "value": "Run codecov (coverage)",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_run_codecov_coverage.environment.WORKDIR",
+          "value": "/home/circleci/work",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_run_codecov_coverage.environment.DOCKER_IMAGE",
+          "value": "nipype/nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_run_codecov_coverage.command",
+          "value": "codecov --file $WORKDIR/tests/coverage*.xml --root \"$HOME/nipype\" --flags unittests -e CIRCLE_JOB\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_run_codecov_smoke.name",
+          "value": "Run codecov (smoke tests)",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_run_codecov_smoke.environment.WORKDIR",
+          "value": "/home/circleci/work",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_run_codecov_smoke.environment.DOCKER_IMAGE",
+          "value": "nipype/nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "_run_codecov_smoke.command",
+          "value": "codecov --file $WORKDIR/tests/smoketest*.xml --root \"$HOME/nipype\" --flags smoketests -e CIRCLE_JOB\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.compare_base_dockerfiles.docker",
+          "value": [
+            {
+              "image": "cimg/base:2022.04"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.compare_base_dockerfiles.steps",
+          "value": [
+            {
+              "checkout": {
+                "path": "/home/circleci/nipype"
+              }
+            },
+            "setup_remote_docker",
+            {
+              "run": {
+                "name": "Generate and prune base Dockerfile in preparation for cache check",
+                "working_directory": "/home/circleci/nipype/docker",
+                "command": "mkdir -p /tmp/docker\nbash ./generate_dockerfiles.sh -b\n\n# Use the sha256 sum of the pruned Dockerfile as the cache key.\nbash prune_dockerfile.sh Dockerfile.base > /tmp/docker/Dockerfile.base-pruned\n"
+              }
+            },
+            {
+              "restore_cache": {
+                "key": "dockerfile-cache-v1-master-{{ checksum \"/tmp/docker/Dockerfile.base-pruned\" }}"
+              }
+            },
+            {
+              "run": {
+                "name": "Determine how to get base image",
+                "command": "if [ -f /tmp/docker/cache/Dockerfile.base-pruned ]; then\n  echo \"Cache found. Will pull base image.\"\n  echo 'export GET_BASE=PULL' > /tmp/docker/get_base_image.sh\nelse\n  echo \"Cache not found. Will build base image.\"\n  echo 'export GET_BASE=BUILD' > /tmp/docker/get_base_image.sh\nfi\n"
+              }
+            },
+            {
+              "persist_to_workspace": {
+                "root": "/tmp",
+                "paths": [
+                  "docker/Dockerfile.base-pruned",
+                  "docker/get_base_image.sh"
+                ]
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.get_test_data.machine.image",
+          "value": "ubuntu-2004:202107-02",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.get_test_data.working_directory",
+          "value": "/home/circleci/nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.get_test_data.steps",
+          "value": [
+            {
+              "restore_cache": {
+                "keys": [
+                  "data-v0-{{ .Branch }}-{{ .Revision }}",
+                  "data-v0--{{ .Revision }}",
+                  "data-v0-{{ .Branch }}-",
+                  "data-v0-master-",
+                  "data-v0-"
+                ]
+              }
+            },
+            {
+              "run": {
+                "name": "Download test data",
+                "no_output_timeout": "20m",
+                "working_directory": "/home/circleci/examples",
+                "environment": {
+                  "OSF_NIPYPE_URL": "https://files.osf.io/v1/resources/nefdp/providers/osfstorage"
+                },
+                "command": "set -x\nexport DATA_NIPYPE_TUTORIAL_URL=\"${OSF_NIPYPE_URL}/57f4739cb83f6901ed94bf21\"\nif [[ ! -d nipype-tutorial ]]; then\n    curl -sSL --retry 5 --connect-timeout 15 \"$DATA_NIPYPE_TUTORIAL_URL\" | tar xjv\nfi\n\nexport DATA_NIPYPE_FSL_COURSE=\"${OSF_NIPYPE_URL}/57f472cf9ad5a101f977ecfe\"\nif [[ ! -d nipype-fsl_course_data ]]; then\n    curl -sSL --retry 5 --connect-timeout 15 \"$DATA_NIPYPE_FSL_COURSE\" | tar xzv\nfi\n\nexport DATA_NIPYPE_FSL_FEEDS=\"${OSF_NIPYPE_URL}/57f473066c613b01f113e7af\"\nif [[ ! -d feeds ]]; then\n    curl -sSL --retry 5 --connect-timeout 15 \"$DATA_NIPYPE_FSL_FEEDS\" | tar xzv\nfi\n"
+              }
+            },
+            {
+              "save_cache": {
+                "key": "data-v0-{{ .Branch }}-{{ .Revision }}",
+                "paths": [
+                  "/home/circleci/examples"
+                ]
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test_pytest.machine.image",
+          "value": "ubuntu-2004:202107-02",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test_pytest.working_directory",
+          "value": "/home/circleci/nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test_pytest.steps",
+          "value": [
+            {
+              "checkout": {
+                "path": "/home/circleci/nipype"
+              }
+            },
+            {
+              "attach_workspace": {
+                "at": "/tmp"
+              }
+            },
+            {
+              "restore_cache": {
+                "keys": [
+                  "data-v0-{{ .Branch }}-{{ .Revision }}"
+                ]
+              }
+            },
+            {
+              "run": {
+                "name": "Set PR number",
+                "command": "echo 'export CIRCLE_PR_NUMBER=\"${CIRCLE_PR_NUMBER:-${CIRCLE_PULL_REQUEST##*/}}\"' >> $BASH_ENV\nsource $BASH_ENV\necho $CIRCLE_PR_NUMBER\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Generate Dockerfiles",
+                "command": "make gen-dockerfiles\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Modify Nipype version if necessary",
+                "command": "if [ \"$CIRCLE_TAG\" != \"\" ]; then\n  sed -i -E \"s/(__version__ = )'[A-Za-z0-9.-]+'/\\1'$CIRCLE_TAG'/\" nipype/info.py\nfi\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Get base image (pull or build)",
+                "no_output_timeout": "60m",
+                "command": "source /tmp/docker/get_base_image.sh\nif [ \"$GET_BASE\" == \"PULL\" ]; then\n  echo \"Pulling base image ...\"\n  docker pull nipype/nipype:base\nelif [ \"$GET_BASE\" == \"BUILD\" ]; then\n  tools/retry_cmd.sh -n 5 -s 15 \\\n    docker build -t nipype/nipype:base - < docker/Dockerfile.base\nelse\n  echo \"Error: method to get base image not understood\"\n  exit 1\nfi\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Build main image (py38)",
+                "no_output_timeout": "60m",
+                "command": "tools/retry_cmd.sh -n 5 -s 15 \\\n  docker build \\\n    --rm=false \\\n    --tag nipype/nipype:latest \\\n    --tag nipype/nipype:py38 \\\n    $(test -z \"${CIRCLE_TAG}\" || echo --tag nipype/nipype:\"${CIRCLE_TAG}\") \\\n    --build-arg BUILD_DATE=\"$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")\" \\\n    --build-arg VCS_REF=\"$(git rev-parse --short HEAD)\" \\\n    --build-arg VERSION=\"${CIRCLE_TAG}\" /home/circleci/nipype\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Get codecov",
+                "command": "pip install --no-cache-dir codecov\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Prepare working directory",
+                "environment": {
+                  "WORKDIR": "/home/circleci/work",
+                  "DOCKER_IMAGE": "nipype/nipype"
+                },
+                "command": "mkdir -p \"$WORKDIR\"\nchmod -R 777 \"$WORKDIR\"\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Run pytests",
+                "no_output_timeout": "30m",
+                "environment": {
+                  "WORKDIR": "/home/circleci/work",
+                  "DOCKER_IMAGE": "nipype/nipype"
+                },
+                "command": "bash -ux /home/circleci/nipype/.circleci/test_pytest.sh"
+              }
+            },
+            {
+              "run": {
+                "name": "Run codecov (coverage)",
+                "environment": {
+                  "WORKDIR": "/home/circleci/work",
+                  "DOCKER_IMAGE": "nipype/nipype"
+                },
+                "command": "codecov --file $WORKDIR/tests/coverage*.xml --root \"$HOME/nipype\" --flags unittests -e CIRCLE_JOB\n"
+              }
+            },
+            {
+              "store_artifacts": {
+                "path": "/home/circleci/work/tests"
+              }
+            },
+            {
+              "store_test_results": {
+                "path": "/home/circleci/work/tests"
+              }
+            },
+            {
+              "run": {
+                "name": "Save Docker images to workspace if on master",
+                "no_output_timeout": "60m",
+                "command": "if [ \"$CIRCLE_BRANCH\" = \"master\" -a -z \"$CIRCLE_PULL_REQUEST\" ]; then\n  docker save nipype/nipype:base \\\n              nipype/nipype:latest \\\n              nipype/nipype:py38 | gzip -1 > /tmp/docker/nipype-base-latest-py38.tar.gz \\\n  && du -h /tmp/docker/nipype-base-latest-py38.tar.gz\nfi\n"
+              }
+            },
+            {
+              "persist_to_workspace": {
+                "root": "/tmp",
+                "paths": [
+                  "docker"
+                ]
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.deploy_dockerhub.docker",
+          "value": [
+            {
+              "image": "docker:17.10.0-ce-git"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.deploy_dockerhub.steps",
+          "value": [
+            "setup_remote_docker",
+            {
+              "attach_workspace": {
+                "at": "/tmp"
+              }
+            },
+            {
+              "run": {
+                "name": "Load saved Docker images.",
+                "no_output_timeout": "60m",
+                "command": "docker load < /tmp/docker/nipype-base-latest-py38.tar.gz\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Push to DockerHub",
+                "no_output_timeout": "120m",
+                "command": "echo \"$DOCKER_PASS\" | docker login -u \"$DOCKER_USER\" --password-stdin\ndocker push nipype/nipype:base\ndocker push nipype/nipype:latest\ndocker push nipype/nipype:py38\ntest -z \"${CIRCLE_TAG}\" || docker push nipype/nipype:\"${CIRCLE_TAG}\"\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Move pruned Dockerfile to /tmp/docker/cache directory",
+                "command": "mkdir -p /tmp/docker/cache/\nmv /tmp/docker/Dockerfile.base-pruned /tmp/docker/cache/Dockerfile.base-pruned\n"
+              }
+            },
+            {
+              "save_cache": {
+                "paths": [
+                  "/tmp/docker/cache/Dockerfile.base-pruned"
+                ],
+                "key": "dockerfile-cache-v1-{{ .Branch }}-{{ checksum \"/tmp/docker/cache/Dockerfile.base-pruned\" }}"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.update_feedstock.machine.image",
+          "value": "ubuntu-2004:202107-02",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.update_feedstock.working_directory",
+          "value": "/home/circleci/nipype",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.update_feedstock.steps",
+          "value": [
+            {
+              "checkout": {
+                "path": "/home/circleci/nipype"
+              }
+            },
+            {
+              "run": {
+                "name": "Install hub",
+                "command": "curl -sSL https://github.com/github/hub/releases/download/v2.14.2/hub-linux-amd64-2.14.2.tgz | \\\ntar zxv -C /tmp\nsudo /tmp/hub-linux-amd64-2.14.2/install\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Expand SSH Key",
+                "command": "(echo \"-----BEGIN OPENSSH PRIVATE KEY-----\";\n echo $GITHUB_ED25519 | fold -w 71;\n echo \"-----END OPENSSH PRIVATE KEY-----\") > ~/.ssh/id_ed25519\nchmod go-rwx ~/.ssh/id_ed25519\nssh-keygen -y -f ~/.ssh/id_ed25519 > ~/.ssh/id_ed25519.pub\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Set git/hub configuration",
+                "command": "git config --global user.name \"nipybot\"\ngit config --global user.email \"nipybot@gmail.com\"\ngit config --global hub.protocol ssh\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Update feedstock",
+                "command": "ssh-add -D\nssh-add ~/.ssh/id_ed25519\n/home/circleci/nipype/tools/feedstock.sh\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "workflows.version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "workflows.build_test_deploy.jobs",
+          "value": [],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/.github/workflows/tutorials.yml",
+      "relative_path": ".github/workflows/tutorials.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 7,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Test tutorials",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "rel/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "tutorials-${{ github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tutorial.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tutorial.env.BRANCH_NAME",
+          "value": "${{ github.ref_name }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tutorial.steps",
+          "value": [
+            {
+              "name": "Start time",
+              "id": "start",
+              "run": "echo start_time=$(date +'%Y-%m-%dT%H:%M:%S%z') >> $GITHUB_OUTPUT"
+            },
+            {
+              "name": "Trigger Nipype tutorial Github Action",
+              "run": "set -x\ncurl -X POST \\\n-H \"Authorization: Bearer ${{ secrets.TUTORIAL_ACCESS_TOKEN }}\" \\\n-H \"Accept: application/vnd.github+json\" \\\nhttps://api.github.com/repos/miykael/nipype_tutorial/actions/workflows/testing.yml/dispatches \\\n-d '{\"ref\": \"master\", \"inputs\": {\"nipype_branch\": \"'${BRANCH_NAME}'\"}}'\nsleep 10\n"
+            },
+            {
+              "name": "Check Action was successfully dispatched",
+              "id": "dispatched",
+              "run": "START=${{ steps.start.outputs.start_time }}\nRUN_ID=$(curl -s -H \"Accept: application/vnd.github+json\" \\\n  'https://api.github.com/repos/miykael/nipype_tutorial/actions/runs?created=>'${START}'&per_page=1' \\\n  | jq -r '.workflow_runs[0].id')\n\n# fail if not extracted\n[[ -n $RUN_ID ]] || exit 1\necho run_id=$RUN_ID >> $GITHUB_OUTPUT\n"
+            },
+            {
+              "name": "Check if action completed",
+              "timeout-minutes": 120,
+              "run": "RUN_ID=${{ steps.dispatched.outputs.run_id }}\nwhile :\ndo\n  TIMESTAMP=$(date +'%Y-%m-%dT%H:%M:%S%z')\n  # check status every 5 minutes\n  STATUS=$(curl -s -H \"Accept: application/vnd.github+json\" \\\n  https://api.github.com/repos/miykael/nipype_tutorial/actions/runs/${RUN_ID} \\\n  | jq -r '.conclusion')\n  case $STATUS in\n  success)\n    echo \"[$TIMESTAMP] Tutorial run $RUN_ID completed successfully.\"\n    exit 0\n    ;;\n  failure)\n    echo \"[$TIMESTAMP] Tutorial run $RUN_ID failed.\"\n    exit 1\n    ;;\n  *)\n    echo \"[$TIMESTAMP] Conclusion ($STATUS) is not yet complete\"\n    sleep 300\n  esac\ndone\n"
+            },
+            {
+              "name": "Cancel ongoing run if cancelled or failed",
+              "if": "${{ failure() || cancelled() }}",
+              "run": "set -x\nRUN_ID=${{ steps.dispatched.outputs.run_id }}\necho \"Something went wrong, cancelling dispatched run\"\ncurl -s -X POST \\\n  -H \"Accept: application/vnd.github+json\" \\\n  -H \"Authorization: Bearer ${{ secrets.TUTORIAL_ACCESS_TOKEN }}\" \\\n  https://api.github.com/repos/miykael/nipype_tutorial/actions/runs/${RUN_ID}/cancel\n"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/.github/workflows/codespell.yml",
+      "relative_path": ".github/workflows/codespell.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 6,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Codespell",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.codespell.name",
+          "value": "Check for spelling errors",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.codespell.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.codespell.steps",
+          "value": [
+            {
+              "name": "Checkout",
+              "uses": "actions/checkout@v6"
+            },
+            {
+              "name": "Codespell",
+              "uses": "codespell-project/actions-codespell@v2"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/.github/workflows/tests.yml",
+      "relative_path": ".github/workflows/tests.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 33,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Tox",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "master",
+            "main",
+            "maint/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.tags",
+          "value": [
+            "*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "master",
+            "main",
+            "maint/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.schedule",
+          "value": [
+            {
+              "cron": "0 13 * * 1"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "defaults.run.shell",
+          "value": "bash",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "${{ github.workflow }}-${{ github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.FORCE_COLOR",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v6",
+              "with": {
+                "fetch-depth": 0
+              }
+            },
+            {
+              "name": "Install the latest version of uv",
+              "uses": "astral-sh/setup-uv@v7"
+            },
+            {
+              "run": "uv build"
+            },
+            {
+              "run": "uvx twine check dist/*"
+            },
+            {
+              "uses": "actions/upload-artifact@v7",
+              "with": {
+                "name": "dist",
+                "path": "dist/"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test-package.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test-package.needs",
+          "value": [
+            "build"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test-package.strategy.matrix.package",
+          "value": [
+            "wheel",
+            "sdist"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test-package.steps",
+          "value": [
+            {
+              "uses": "actions/download-artifact@v8",
+              "with": {
+                "name": "dist",
+                "path": "dist/"
+              }
+            },
+            {
+              "name": "Verify artifacts are present",
+              "run": "ls -l . dist/\nwheel_file=$(find dist -name 'nipype-*.whl' | head -n 1)\ntar_file=$(find dist -name 'nipype-*.tar.gz' | head -n 1)\n\necho \"WHEEL=$wheel_file\" >> $GITHUB_ENV\necho \"SDIST=$tar_file\" >> $GITHUB_ENV\n"
+            },
+            {
+              "name": "Install Python",
+              "uses": "actions/setup-python@v6",
+              "with": {
+                "python-version": "3.13"
+              }
+            },
+            {
+              "name": "Display Python version",
+              "run": "python -c \"import sys; print(sys.version)\""
+            },
+            {
+              "name": "Install wheel",
+              "run": "pip install $WHEEL[tests]",
+              "if": "matrix.package == 'wheel'"
+            },
+            {
+              "name": "Install sdist",
+              "run": "pip install $SDIST[tests]",
+              "if": "matrix.package == 'sdist'"
+            },
+            {
+              "name": "Display nipype version",
+              "run": "python -c 'import nipype; print(nipype.__version__)'"
+            },
+            {
+              "name": "Run tests",
+              "run": "pytest --doctest-modules -v --pyargs nipype"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.matrix.os",
+          "value": [
+            "ubuntu-latest"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.matrix.python-version",
+          "value": [
+            "3.10",
+            "3.11",
+            "3.12",
+            "3.13"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.matrix.dependencies",
+          "value": [
+            "none",
+            "full"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.matrix.include",
+          "value": [
+            {
+              "os": "ubuntu-latest",
+              "python-version": "3.10",
+              "dependencies": "min"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.matrix.exclude",
+          "value": [
+            {
+              "python-version": "3.11",
+              "dependencies": "full"
+            },
+            {
+              "python-version": "3.12",
+              "dependencies": "full"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.env.DEPENDS",
+          "value": "${{ matrix.dependencies }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v6",
+              "with": {
+                "fetch-depth": 0
+              }
+            },
+            {
+              "name": "Install the latest version of uv",
+              "uses": "astral-sh/setup-uv@v7",
+              "with": {
+                "python-version": "${{ matrix.python-version }}"
+              }
+            },
+            {
+              "name": "Display Python version",
+              "run": "python -c \"import sys; print(sys.version)\""
+            },
+            {
+              "name": "Install tox",
+              "run": "uv tool install --with=tox-uv --with=tox-gh-actions tox\n"
+            },
+            {
+              "name": "Show tox config",
+              "run": "tox c"
+            },
+            {
+              "name": "Setup test suite",
+              "run": "tox run -vv --notest"
+            },
+            {
+              "name": "Run tox",
+              "run": "tox -v --skip-pkg-install --exit-and-dump-after 1200"
+            },
+            {
+              "uses": "codecov/codecov-action@v6",
+              "with": {
+                "token": "${{ secrets.CODECOV_TOKEN }}"
+              },
+              "if": "${{ always() }}"
+            },
+            {
+              "name": "Upload pytest test results",
+              "uses": "actions/upload-artifact@v7",
+              "with": {
+                "name": "pytest-results-${{ matrix.os }}-${{ matrix.python-version }}-${{ matrix.dependencies }}",
+                "path": "test-results.xml"
+              },
+              "if": "always()"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish.environment",
+          "value": "Package deployment",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish.needs",
+          "value": [
+            "test",
+            "test-package"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish.if",
+          "value": "github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish.steps",
+          "value": [
+            {
+              "uses": "actions/download-artifact@v8",
+              "with": {
+                "name": "dist",
+                "path": "dist/"
+              }
+            },
+            {
+              "uses": "pypa/gh-action-pypi-publish@release/v1",
+              "with": {
+                "user": "__token__",
+                "password": "${{ secrets.PYPI_API_TOKEN }}"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.checks.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.checks.continue-on-error",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.checks.strategy.matrix.check",
+          "value": [
+            "specs",
+            "style"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.checks.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v6"
+            },
+            {
+              "name": "Install the latest version of uv",
+              "uses": "astral-sh/setup-uv@v7"
+            },
+            {
+              "name": "Install tox",
+              "run": "uv tool install --with=tox-uv tox"
+            },
+            {
+              "name": "Show tox config (this call)",
+              "run": "tox c -e ${{ matrix.check }}"
+            },
+            {
+              "name": "Run check",
+              "run": "tox -e ${{ matrix.check }}"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/.github/workflows/prerelease.yml",
+      "relative_path": ".github/workflows/prerelease.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 16,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Prerelease tests",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "ci/prerelease"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.schedule",
+          "value": [
+            {
+              "cron": "0 13 * * 1"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "defaults.run.shell",
+          "value": "bash",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "${{ github.workflow }}-${{ github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.FORCE_COLOR",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.matrix.os",
+          "value": [
+            "ubuntu-latest"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.matrix.python-version",
+          "value": [
+            "3.12",
+            "3.13"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.matrix.dependencies",
+          "value": [
+            "pre"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.env.DEPENDS",
+          "value": "${{ matrix.dependencies }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v6",
+              "with": {
+                "fetch-depth": 0
+              }
+            },
+            {
+              "name": "Install the latest version of uv",
+              "uses": "astral-sh/setup-uv@v7",
+              "with": {
+                "python-version": "${{ matrix.python-version }}"
+              }
+            },
+            {
+              "name": "Display Python version",
+              "run": "python -c \"import sys; print(sys.version)\""
+            },
+            {
+              "name": "Install tox",
+              "run": "uv tool install --with=tox-uv --with=tox-gh-actions tox\n"
+            },
+            {
+              "name": "Show tox config",
+              "run": "tox c"
+            },
+            {
+              "name": "Setup test suite",
+              "run": "tox run -vv --notest"
+            },
+            {
+              "name": "Run tox",
+              "id": "pre",
+              "run": "tox -v --skip-pkg-install --exit-and-dump-after 1200"
+            },
+            {
+              "uses": "codecov/codecov-action@v6",
+              "with": {
+                "token": "${{ secrets.CODECOV_TOKEN }}"
+              },
+              "if": "${{ always() }}"
+            },
+            {
+              "name": "Upload pytest test results",
+              "uses": "actions/upload-artifact@v7",
+              "with": {
+                "name": "pytest-results-${{ matrix.os }}-${{ matrix.python-version }}-${{ matrix.dependencies }}",
+                "path": "test-results.xml"
+              },
+              "if": "always()"
+            },
+            {
+              "name": "Create issue",
+              "if": "${{ steps.pre.outcome != 'success' }}",
+              "uses": "JasonEtco/create-an-issue@v2.9.2",
+              "env": {
+                "GITHUB_TOKEN": "${{ secrets.GITHUB_TOKEN }}",
+                "run_id": "${{ github.run_id }}",
+                "repository": "${{ github.repository }}",
+                "workflow_name": "PRE-RELEASE TESTS"
+              },
+              "with": {
+                "filename": ".github/workflow_failure.md",
+                "update_existing": true,
+                "search_existing": "open"
+              }
+            },
+            {
+              "name": "Return failure",
+              "if": "${{ steps.pre.outcome != 'success' }}",
+              "run": "exit 1"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/nipype/utils/config.py",
+      "relative_path": "nipype/utils/config.py",
+      "type": "python",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "CONFIG_DEPRECATIONS",
+          "value": {
+            "profile_runtime": [
+              "monitoring.enabled",
+              "1.0"
+            ],
+            "filemanip_level": [
+              "logging.utils_level",
+              "1.0"
+            ]
+          },
+          "type": "object",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "DEFAULT_CONFIG_TPL",
+          "value": "[logging]\nworkflow_level = INFO\nutils_level = INFO\ninterface_level = INFO\nlog_to_file = false\nlog_directory = {log_dir}\nlog_size = 16384000\nlog_rotate = 4\n\n[execution]\ncreate_report = true\ncrashdump_dir = {crashdump_dir}\nhash_method = timestamp\njob_finished_timeout = 5\nkeep_inputs = false\nlocal_hash_check = true\nmatplotlib_backend = Agg\nplugin = Linear\nremove_node_directories = false\nremove_unnecessary_outputs = true\ntry_hard_link_datasink = true\nsingle_thread_matlab = true\ncrashfile_format = pklz\nstop_on_first_crash = false\nstop_on_first_rerun = false\nuse_relative_paths = false\nstop_on_unknown_version = false\nwrite_provenance = false\nparameterize_dirs = true\npoll_sleep_duration = 2\nxvfb_max_wait = 10\ncheck_version = true\n\n[monitoring]\nenabled = false\nsample_frequency = 1\nsummary_append = true\n\n[check]\ninterval = 1209600\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "datadict",
+          "value": {},
+          "type": "object",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "sysdisplay",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/nipype/testing/data/smri_ants_registration_settings.json",
+      "relative_path": "nipype/testing/data/smri_ants_registration_settings.json",
+      "type": "json",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 27,
+      "settings": [
+        {
+          "key": "convergence_window_size",
+          "value": [
+            20,
+            20,
+            20,
+            5
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "winsorize_lower_quantile",
+          "value": 0.0,
+          "type": "number",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "output_transform_prefix",
+          "value": "output_",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "transforms",
+          "value": [
+            "Translation",
+            "Rigid",
+            "Affine",
+            "SyN"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "initial_moving_transform_com",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "metric_weight",
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            [
+              0.5,
+              0.5
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "sigma_units",
+          "value": [
+            "vox",
+            "vox",
+            "vox",
+            "vox"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "convergence_threshold",
+          "value": [
+            1e-08,
+            1e-08,
+            1e-08,
+            -0.01
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "sampling_strategy",
+          "value": [
+            "Regular",
+            "Regular",
+            "Regular",
+            [
+              null,
+              null
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "shrink_factors",
+          "value": [
+            [
+              6,
+              4,
+              2
+            ],
+            [
+              3,
+              2,
+              1
+            ],
+            [
+              3,
+              2,
+              1
+            ],
+            [
+              4,
+              2,
+              1
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "winsorize_upper_quantile",
+          "value": 1.0,
+          "type": "number",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "metric",
+          "value": [
+            "Mattes",
+            "Mattes",
+            "Mattes",
+            [
+              "Mattes",
+              "CC"
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "interpolation",
+          "value": "Linear",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "use_estimate_learning_rate_once",
+          "value": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "write_composite_transform",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "initialize_transforms_per_stage",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "num_threads",
+          "value": 1,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "output_warped_image",
+          "value": "INTERNAL_WARPED.nii.gz",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "sampling_percentage",
+          "value": [
+            0.3,
+            0.3,
+            0.3,
+            [
+              null,
+              null
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "number_of_iterations",
+          "value": [
+            [
+              10000,
+              111110,
+              11110
+            ],
+            [
+              10000,
+              111110,
+              11110
+            ],
+            [
+              10000,
+              111110,
+              11110
+            ],
+            [
+              100,
+              50,
+              30
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "radius_or_number_of_bins",
+          "value": [
+            32,
+            32,
+            32,
+            [
+              32,
+              4
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "environ.NSLOTS",
+          "value": "1",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "smoothing_sigmas",
+          "value": [
+            [
+              4.0,
+              2.0,
+              1.0
+            ],
+            [
+              4.0,
+              2.0,
+              1.0
+            ],
+            [
+              4.0,
+              2.0,
+              1.0
+            ],
+            [
+              1.0,
+              0.5,
+              0.0
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "use_histogram_matching",
+          "value": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "transform_parameters",
+          "value": [
+            [
+              0.1
+            ],
+            [
+              0.1
+            ],
+            [
+              0.1
+            ],
+            [
+              0.2,
+              3.0,
+              0.0
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dimension",
+          "value": 3,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "collapse_output_transforms",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/nipype/testing/data/config.ini",
+      "relative_path": "nipype/testing/data/config.ini",
+      "type": "ini",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 1,
+      "settings": [
+        {
+          "key": "BOOL.manualnifticonv",
+          "value": "0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/nipype/testing/data/nipype2boutiques_example.json",
+      "relative_path": "nipype/testing/data/nipype2boutiques_example.json",
+      "type": "json",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 14,
+      "settings": [
+        {
+          "key": "name",
+          "value": "FLIRT",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "command-line",
+          "value": "FLIRT [IN_FILE] [REFERENCE] [OUT_FILE] [OUT_MATRIX_FILE] [ANGLE_REP] [APPLY_ISOXFM] [APPLY_XFM] [BBRSLOPE] [BBRTYPE] [BGVALUE] [BINS] [COARSE_SEARCH] [COST] [COST_FUNC] [DATATYPE] [DISPLAY_INIT] [DOF] [ECHOSPACING] [FIELDMAP] [FIELDMAPMASK] [FINE_SEARCH] [FORCE_SCALING] [IN_MATRIX_FILE] [IN_WEIGHT] [INTERP] [MIN_SAMPLING] [NO_CLAMP] [NO_RESAMPLE] [NO_RESAMPLE_BLUR] [NO_SEARCH] [OUT_LOG] [PADDING_SIZE] [PEDIR] [REF_WEIGHT] [RIGID2D] [SAVE_LOG] [SCHEDULE] [SEARCHR_X] [SEARCHR_Y] [SEARCHR_Z] [SINC_WIDTH] [SINC_WINDOW] [USES_QFORM] [VERBOSE] [WM_SEG] [WMCOORDS] [WMNORMS]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "author",
+          "value": "Nipype (interface), Oxford Centre for Functional MRI of the Brain (FMRIB) (tool)",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "FLIRT, as implemented in Nipype (module: nipype.interfaces.fsl, interface: FLIRT).",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "inputs",
+          "value": [
+            {
+              "id": "angle_rep",
+              "name": "Angle rep",
+              "type": "String",
+              "value-key": "[ANGLE_REP]",
+              "command-line-flag": "-anglerep",
+              "description": "'quaternion' or 'euler'. Representation of rotation angles.",
+              "optional": true,
+              "value-choices": [
+                "quaternion",
+                "euler"
+              ]
+            },
+            {
+              "id": "apply_isoxfm",
+              "name": "Apply isoxfm",
+              "type": "Number",
+              "value-key": "[APPLY_ISOXFM]",
+              "command-line-flag": "-applyisoxfm",
+              "description": "A float. As applyxfm but forces isotropic resampling.",
+              "optional": true
+            },
+            {
+              "id": "apply_xfm",
+              "name": "Apply xfm",
+              "type": "Flag",
+              "value-key": "[APPLY_XFM]",
+              "command-line-flag": "-applyxfm",
+              "description": "A boolean. Apply transformation supplied by in_matrix_file or uses_qform to use the affine matrix stored in the reference header.",
+              "optional": true
+            },
+            {
+              "id": "bbrslope",
+              "name": "Bbrslope",
+              "type": "Number",
+              "value-key": "[BBRSLOPE]",
+              "command-line-flag": "-bbrslope",
+              "description": "A float. Value of bbr slope.",
+              "optional": true
+            },
+            {
+              "id": "bbrtype",
+              "name": "Bbrtype",
+              "type": "String",
+              "value-key": "[BBRTYPE]",
+              "command-line-flag": "-bbrtype",
+              "description": "'signed' or 'global_abs' or 'local_abs'. Type of bbr cost function: signed [default], global_abs, local_abs.",
+              "optional": true,
+              "value-choices": [
+                "signed",
+                "global_abs",
+                "local_abs"
+              ]
+            },
+            {
+              "id": "bgvalue",
+              "name": "Bgvalue",
+              "type": "Number",
+              "value-key": "[BGVALUE]",
+              "command-line-flag": "-setbackground",
+              "description": "A float. Use specified background value for points outside fov.",
+              "optional": true
+            },
+            {
+              "id": "bins",
+              "name": "Bins",
+              "type": "Number",
+              "integer": true,
+              "value-key": "[BINS]",
+              "command-line-flag": "-bins",
+              "description": "An integer (int or long). Number of histogram bins.",
+              "optional": true
+            },
+            {
+              "id": "coarse_search",
+              "name": "Coarse search",
+              "type": "Number",
+              "integer": true,
+              "value-key": "[COARSE_SEARCH]",
+              "command-line-flag": "-coarsesearch",
+              "description": "An integer (int or long). Coarse search delta angle.",
+              "optional": true
+            },
+            {
+              "id": "cost",
+              "name": "Cost",
+              "type": "String",
+              "value-key": "[COST]",
+              "command-line-flag": "-cost",
+              "description": "'mutualinfo' or 'corratio' or 'normcorr' or 'normmi' or 'leastsq' or 'labeldiff' or 'bbr'. Cost function.",
+              "optional": true,
+              "value-choices": [
+                "mutualinfo",
+                "corratio",
+                "normcorr",
+                "normmi",
+                "leastsq",
+                "labeldiff",
+                "bbr"
+              ]
+            },
+            {
+              "id": "cost_func",
+              "name": "Cost func",
+              "type": "String",
+              "value-key": "[COST_FUNC]",
+              "command-line-flag": "-searchcost",
+              "description": "'mutualinfo' or 'corratio' or 'normcorr' or 'normmi' or 'leastsq' or 'labeldiff' or 'bbr'. Cost function.",
+              "optional": true,
+              "value-choices": [
+                "mutualinfo",
+                "corratio",
+                "normcorr",
+                "normmi",
+                "leastsq",
+                "labeldiff",
+                "bbr"
+              ]
+            },
+            {
+              "id": "datatype",
+              "name": "Datatype",
+              "type": "String",
+              "value-key": "[DATATYPE]",
+              "command-line-flag": "-datatype",
+              "description": "'char' or 'short' or 'int' or 'float' or 'double'. Force output data type.",
+              "optional": true,
+              "value-choices": [
+                "char",
+                "short",
+                "int",
+                "float",
+                "double"
+              ]
+            },
+            {
+              "id": "display_init",
+              "name": "Display init",
+              "type": "Flag",
+              "value-key": "[DISPLAY_INIT]",
+              "command-line-flag": "-displayinit",
+              "description": "A boolean. Display initial matrix.",
+              "optional": true
+            },
+            {
+              "id": "dof",
+              "name": "Dof",
+              "type": "Number",
+              "integer": true,
+              "value-key": "[DOF]",
+              "command-line-flag": "-dof",
+              "description": "An integer (int or long). Number of transform degrees of freedom.",
+              "optional": true
+            },
+            {
+              "id": "echospacing",
+              "name": "Echospacing",
+              "type": "Number",
+              "value-key": "[ECHOSPACING]",
+              "command-line-flag": "-echospacing",
+              "description": "A float. Value of epi echo spacing - units of seconds.",
+              "optional": true
+            },
+            {
+              "id": "fieldmap",
+              "name": "Fieldmap",
+              "type": "File",
+              "value-key": "[FIELDMAP]",
+              "command-line-flag": "-fieldmap",
+              "description": "A file name. Fieldmap image in rads/s - must be already registered to the reference image.",
+              "optional": true
+            },
+            {
+              "id": "fieldmapmask",
+              "name": "Fieldmapmask",
+              "type": "File",
+              "value-key": "[FIELDMAPMASK]",
+              "command-line-flag": "-fieldmapmask",
+              "description": "A file name. Mask for fieldmap image.",
+              "optional": true
+            },
+            {
+              "id": "fine_search",
+              "name": "Fine search",
+              "type": "Number",
+              "integer": true,
+              "value-key": "[FINE_SEARCH]",
+              "command-line-flag": "-finesearch",
+              "description": "An integer (int or long). Fine search delta angle.",
+              "optional": true
+            },
+            {
+              "id": "force_scaling",
+              "name": "Force scaling",
+              "type": "Flag",
+              "value-key": "[FORCE_SCALING]",
+              "command-line-flag": "-forcescaling",
+              "description": "A boolean. Force rescaling even for low-res images.",
+              "optional": true
+            },
+            {
+              "id": "in_file",
+              "name": "In file",
+              "type": "File",
+              "value-key": "[IN_FILE]",
+              "command-line-flag": "-in",
+              "description": "An existing file name. Input file.",
+              "optional": false
+            },
+            {
+              "id": "in_matrix_file",
+              "name": "In matrix file",
+              "type": "File",
+              "value-key": "[IN_MATRIX_FILE]",
+              "command-line-flag": "-init",
+              "description": "A file name. Input 4x4 affine matrix.",
+              "optional": true
+            },
+            {
+              "id": "in_weight",
+              "name": "In weight",
+              "type": "File",
+              "value-key": "[IN_WEIGHT]",
+              "command-line-flag": "-inweight",
+              "description": "An existing file name. File for input weighting volume.",
+              "optional": true
+            },
+            {
+              "id": "interp",
+              "name": "Interp",
+              "type": "String",
+              "value-key": "[INTERP]",
+              "command-line-flag": "-interp",
+              "description": "'trilinear' or 'nearestneighbour' or 'sinc' or 'spline'. Final interpolation method used in reslicing.",
+              "optional": true,
+              "value-choices": [
+                "trilinear",
+                "nearestneighbour",
+                "sinc",
+                "spline"
+              ]
+            },
+            {
+              "id": "min_sampling",
+              "name": "Min sampling",
+              "type": "Number",
+              "value-key": "[MIN_SAMPLING]",
+              "command-line-flag": "-minsampling",
+              "description": "A float. Set minimum voxel dimension for sampling.",
+              "optional": true
+            },
+            {
+              "id": "no_clamp",
+              "name": "No clamp",
+              "type": "Flag",
+              "value-key": "[NO_CLAMP]",
+              "command-line-flag": "-noclamp",
+              "description": "A boolean. Do not use intensity clamping.",
+              "optional": true
+            },
+            {
+              "id": "no_resample",
+              "name": "No resample",
+              "type": "Flag",
+              "value-key": "[NO_RESAMPLE]",
+              "command-line-flag": "-noresample",
+              "description": "A boolean. Do not change input sampling.",
+              "optional": true
+            },
+            {
+              "id": "no_resample_blur",
+              "name": "No resample blur",
+              "type": "Flag",
+              "value-key": "[NO_RESAMPLE_BLUR]",
+              "command-line-flag": "-noresampblur",
+              "description": "A boolean. Do not use blurring on downsampling.",
+              "optional": true
+            },
+            {
+              "id": "no_search",
+              "name": "No search",
+              "type": "Flag",
+              "value-key": "[NO_SEARCH]",
+              "command-line-flag": "-nosearch",
+              "description": "A boolean. Set all angular searches to ranges 0 to 0.",
+              "optional": true
+            },
+            {
+              "id": "padding_size",
+              "name": "Padding size",
+              "type": "Number",
+              "integer": true,
+              "value-key": "[PADDING_SIZE]",
+              "command-line-flag": "-paddingsize",
+              "description": "An integer (int or long). For applyxfm: interpolates outside image by size.",
+              "optional": true
+            },
+            {
+              "id": "pedir",
+              "name": "Pedir",
+              "type": "Number",
+              "integer": true,
+              "value-key": "[PEDIR]",
+              "command-line-flag": "-pedir",
+              "description": "An integer (int or long). Phase encode direction of epi - 1/2/3=x/y/z & -1/-2/-3=-x/-y/-z.",
+              "optional": true
+            },
+            {
+              "id": "ref_weight",
+              "name": "Ref weight",
+              "type": "File",
+              "value-key": "[REF_WEIGHT]",
+              "command-line-flag": "-refweight",
+              "description": "An existing file name. File for reference weighting volume.",
+              "optional": true
+            },
+            {
+              "id": "reference",
+              "name": "Reference",
+              "type": "File",
+              "value-key": "[REFERENCE]",
+              "command-line-flag": "-ref",
+              "description": "An existing file name. Reference file.",
+              "optional": false
+            },
+            {
+              "id": "rigid2D",
+              "name": "Rigid2d",
+              "type": "Flag",
+              "value-key": "[RIGID2D]",
+              "command-line-flag": "-2D",
+              "description": "A boolean. Use 2d rigid body mode - ignores dof.",
+              "optional": true
+            },
+            {
+              "id": "save_log",
+              "name": "Save log",
+              "type": "Flag",
+              "value-key": "[SAVE_LOG]",
+              "command-line-flag": "--save_log",
+              "description": "A boolean. Save to log file.",
+              "optional": true
+            },
+            {
+              "id": "schedule",
+              "name": "Schedule",
+              "type": "File",
+              "value-key": "[SCHEDULE]",
+              "command-line-flag": "-schedule",
+              "description": "An existing file name. Replaces default schedule.",
+              "optional": true
+            },
+            {
+              "id": "searchr_x",
+              "name": "Searchr x",
+              "type": "Number",
+              "list": true,
+              "integer": true,
+              "min-list-entries": 2,
+              "max-list-entries": 2,
+              "value-key": "[SEARCHR_X]",
+              "command-line-flag": "-searchrx",
+              "description": "A list of from 2 to 2 items which are an integer (int or long). Search angles along x-axis, in degrees.",
+              "optional": true
+            },
+            {
+              "id": "searchr_y",
+              "name": "Searchr y",
+              "type": "Number",
+              "list": true,
+              "integer": true,
+              "min-list-entries": 2,
+              "max-list-entries": 2,
+              "value-key": "[SEARCHR_Y]",
+              "command-line-flag": "-searchry",
+              "description": "A list of from 2 to 2 items which are an integer (int or long). Search angles along y-axis, in degrees.",
+              "optional": true
+            },
+            {
+              "id": "searchr_z",
+              "name": "Searchr z",
+              "type": "Number",
+              "list": true,
+              "integer": true,
+              "min-list-entries": 2,
+              "max-list-entries": 2,
+              "value-key": "[SEARCHR_Z]",
+              "command-line-flag": "-searchrz",
+              "description": "A list of from 2 to 2 items which are an integer (int or long). Search angles along z-axis, in degrees.",
+              "optional": true
+            },
+            {
+              "id": "sinc_width",
+              "name": "Sinc width",
+              "type": "Number",
+              "integer": true,
+              "value-key": "[SINC_WIDTH]",
+              "command-line-flag": "-sincwidth",
+              "description": "An integer (int or long). Full-width in voxels.",
+              "optional": true
+            },
+            {
+              "id": "sinc_window",
+              "name": "Sinc window",
+              "type": "String",
+              "value-key": "[SINC_WINDOW]",
+              "command-line-flag": "-sincwindow",
+              "description": "'rectangular' or 'hanning' or 'blackman'. Sinc window.",
+              "optional": true,
+              "value-choices": [
+                "rectangular",
+                "hanning",
+                "blackman"
+              ]
+            },
+            {
+              "id": "uses_qform",
+              "name": "Uses qform",
+              "type": "Flag",
+              "value-key": "[USES_QFORM]",
+              "command-line-flag": "-usesqform",
+              "description": "A boolean. Initialize using sform or qform.",
+              "optional": true
+            },
+            {
+              "id": "verbose",
+              "name": "Verbose",
+              "type": "Number",
+              "integer": true,
+              "value-key": "[VERBOSE]",
+              "command-line-flag": "-verbose",
+              "description": "An integer (int or long). Verbose mode, 0 is least.",
+              "optional": true
+            },
+            {
+              "id": "wm_seg",
+              "name": "Wm seg",
+              "type": "File",
+              "value-key": "[WM_SEG]",
+              "command-line-flag": "-wmseg",
+              "description": "A file name. White matter segmentation volume needed by bbr cost function.",
+              "optional": true
+            },
+            {
+              "id": "wmcoords",
+              "name": "Wmcoords",
+              "type": "File",
+              "value-key": "[WMCOORDS]",
+              "command-line-flag": "-wmcoords",
+              "description": "A file name. White matter boundary coordinates for bbr cost function.",
+              "optional": true
+            },
+            {
+              "id": "wmnorms",
+              "name": "Wmnorms",
+              "type": "File",
+              "value-key": "[WMNORMS]",
+              "command-line-flag": "-wmnorms",
+              "description": "A file name. White matter boundary normals for bbr cost function.",
+              "optional": true
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "output-files",
+          "value": [
+            {
+              "name": "Out file",
+              "id": "out_file",
+              "optional": true,
+              "description": "A file name. Registered output file.",
+              "path-template": "[IN_FILE]_flirt",
+              "value-key": "[OUT_FILE]",
+              "command-line-flag": "-out"
+            },
+            {
+              "name": "Out log",
+              "id": "out_log",
+              "optional": true,
+              "description": "A file name. Output log.",
+              "path-template": "[IN_FILE]_flirt.log",
+              "value-key": "[OUT_LOG]"
+            },
+            {
+              "name": "Out matrix file",
+              "id": "out_matrix_file",
+              "optional": true,
+              "description": "A file name. Output affine matrix in 4x4 asciii format.",
+              "path-template": "[IN_FILE]_flirt.mat",
+              "value-key": "[OUT_MATRIX_FILE]",
+              "command-line-flag": "-omat"
+            },
+            {
+              "name": "Out file",
+              "id": "out_file",
+              "path-template": "out_file",
+              "optional": true,
+              "description": "An existing file name. Path/name of registered file (if generated)."
+            },
+            {
+              "name": "Out log",
+              "id": "out_log",
+              "path-template": "out_log",
+              "optional": true,
+              "description": "A file name. Path/name of output log (if generated)."
+            },
+            {
+              "name": "Out matrix file",
+              "id": "out_matrix_file",
+              "path-template": "out_matrix_file",
+              "optional": true,
+              "description": "An existing file name. Path/name of calculated affine transform (if generated)."
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "groups",
+          "value": [
+            {
+              "id": "all_or_none_group",
+              "name": "All or none group",
+              "members": [
+                "save_log",
+                "out_log"
+              ],
+              "all-or-none": true
+            },
+            {
+              "id": "mutex_group",
+              "name": "Mutex group",
+              "members": [
+                "apply_isoxfm",
+                "apply_xfm"
+              ],
+              "mutually-exclusive": true
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool-version",
+          "value": "1.0.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "schema-version",
+          "value": "0.5",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "container-image.image",
+          "value": "mcin/docker-fsl:latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "container-image.type",
+          "value": "docker",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "container-image.index",
+          "value": "index.docker.io",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tags.domain",
+          "value": "neuroinformatics",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tags.source",
+          "value": "nipype-interface",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nipype/nipype/testing/data/realign_json.json",
+      "relative_path": "nipype/testing/data/realign_json.json",
+      "type": "json",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 15,
+      "settings": [
+        {
+          "key": "cwd",
+          "value": "/home/cburns/data/nipype-tutorial/workingdir/_subject_id_s1/Realign.spm",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "flags",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "fwhm",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "infile",
+          "value": [
+            [
+              "/home/cburns/data/nipype-tutorial/data/s1/f3.nii",
+              "a3c80eb0260e7501b1458c462f51c77f"
+            ],
+            [
+              "/home/cburns/data/nipype-tutorial/data/s1/f5.nii",
+              "9d6931fbd1b295fef475a2fe1eba5b5d"
+            ],
+            [
+              "/home/cburns/data/nipype-tutorial/data/s1/f7.nii",
+              "bddcecd01af1cd16bcda369e685c8c89"
+            ],
+            [
+              "/home/cburns/data/nipype-tutorial/data/s1/f10.nii",
+              "d75253b6ec33489adb72daa7b5b3bf31"
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "interp",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "quality",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "register_to_mean",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "separation",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "weight_img",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "wrap",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "write",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "write_interp",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "write_mask",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "write_which",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "write_wrap",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    }
+  ],
+  "errors": []
+}

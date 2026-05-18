@@ -1,0 +1,3417 @@
+{
+  "nodes": [
+    {
+      "file": "cmd/5tt2gmwmi.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/5tt2vis.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/5ttcheck.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/5ttedit.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/afdconnectivity.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/amp2response.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/amp2sh.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/connectome2tck.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/connectomeedit.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/connectomestats.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dcmedit.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dcminfo.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dirflip.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dirgen.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dirmerge.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dirorder.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dirsplit.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dirstat.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dwi2adc.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dwi2fod.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dwi2mask.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dwi2tensor.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dwidenoise.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/dwiextract.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fixel2peaks.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fixel2sh.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fixel2tsf.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fixel2voxel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fixelcfestats.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fixelconnectivity.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fixelconvert.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fixelcorrespondence.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fixelcrop.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fixelfilter.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fixelreorient.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fod2dec.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/fod2fixel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/label2colour.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/label2mesh.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/labelconvert.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/labelstats.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/maskdump.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/maskfilter.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mesh2voxel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/meshconvert.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/meshfilter.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mraverageheader.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrcalc.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrcat.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrcentroid.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrcheckerboardmask.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrclusterstats.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrcolour.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrconvert.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrdegibbs.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrdump.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mredit.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrfilter.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrgrid.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrhistmatch.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrhistogram.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrinfo.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrmath.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrmetric.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrregister.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrstats.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrthreshold.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrtransform.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mrview.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/mtnormalise.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/peaks2amp.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/peaks2fixel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/sh2amp.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/sh2peaks.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/sh2power.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/sh2response.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/shbasis.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/shconv.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/shview.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tck2connectome.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tck2fixel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tckconvert.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tckdfc.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tckedit.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tckgen.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tckglobal.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tckinfo.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tckmap.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tckresample.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tcksample.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tcksift.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tcksift2.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tckstats.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tcktransform.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tensor2metric.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/transformcalc.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/transformcompose.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/transformconvert.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tsfdivide.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tsfinfo.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tsfmult.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tsfsmooth.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tsfthreshold.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/tsfvalidate.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/vectorstats.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/voxel2fixel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/voxel2mesh.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/warp2metric.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/warpconvert.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/warpcorrect.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/warpinit.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "cmd/warpinvert.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/base.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/extract.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/gaussian1D.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/gradient1D.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/gradient3D.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/jacobian.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/median.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/neighbourhood3D.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/normalise3D.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/permute_axes.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/regrid.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/replicate.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/reslice.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/reslice.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/subset.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/adapter/warp.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/copy.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/histogram.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/histogram.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/iterator.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/loop.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/min_max.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/neighbourhooditerator.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/random_loop.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/random_threaded_loop.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/stochastic_threaded_loop.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/threaded_copy.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/algo/threaded_loop.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/app.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/app.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/apply.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/axes.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/axes.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/cmdline_option.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/command.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/datatype.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/datatype.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/debug.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/dwi/gradient.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/dwi/gradient.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/dwi/shells.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/dwi/shells.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/eigen_plugins/array.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/eigen_plugins/dense_base.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/eigen_plugins/matrix.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/exception.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/exception.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/config.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/config.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/copy.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/csa_entry.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/definitions.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/dict.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/element.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/element.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/image.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/image.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/mapper.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/mapper.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/patient.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/patient.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/quick_scan.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/quick_scan.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/select_cmdline.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/series.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/series.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/study.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/study.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/tree.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/dicom/tree.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/entry.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/gz.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/json.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/json_utils.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/json_utils.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/key_value.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/key_value.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/mgh.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/mgh.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/mmap.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/mmap.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/name_parser.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/name_parser.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/nifti1.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/nifti2.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/nifti_utils.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/nifti_utils.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/ofstream.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/ofstream.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/path.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/png.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/png.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/tiff.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/tiff.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/file/utils.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/base.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/connected_components.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/connected_components.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/dilate.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/dwi_brain_mask.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/erode.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/fft.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/gradient.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/mask_clean.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/median.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/normalise.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/optimal_threshold.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/resize.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/reslice.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/smooth.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/warp.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/filter/zclean.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/fixel/helpers.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/fixel/keys.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/fixel/legacy/fixel_metric.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/fixel/legacy/image.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/fixel/legacy/keys.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/fixel/loop.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/fixel/types.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/dicom.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/list.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/list.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/mgh.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/mgz.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/mri.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/mrtrix.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/mrtrix_gz.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/mrtrix_sparse_legacy.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/mrtrix_utils.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/mrtrix_utils.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/nifti1.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/nifti1_gz.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/nifti2.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/nifti2_gz.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/par.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/pipe.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/png.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/ram.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/tiff.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/formats/xds.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/header.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/header.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_diff.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_helpers.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/base.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/base.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/default.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/default.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/fetch_store.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/fetch_store.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/gz.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/gz.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/mosaic.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/mosaic.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/null.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/null.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/pipe.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/pipe.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/png.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/png.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/ram.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/ram.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/scratch.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/scratch.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/sparse.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/sparse.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/tiff.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/tiff.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/variable_scaling.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/image_io/variable_scaling.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/interp/base.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/interp/cubic.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/interp/linear.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/interp/masked.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/interp/nearest.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/interp/sinc.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/SH.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/SH.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/Sn_scale_estimator.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/ZSH.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/average_space.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/average_space.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/bessel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/bessel.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/betainc.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/betainc.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/cauchy.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/chebyshev.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/check_gradient.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/condition_number.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/constrained_least_squares.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/cubic_spline.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/erfinv.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/erfinv.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/factorial.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/gaussian.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/golden_section_search.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/gradient_descent.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/gradient_descent_bb.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/hermite.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/least_squares.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/legendre.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/math.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/median.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/polynomial.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/quadratic_line_search.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/rician.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/rng.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/sech.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/sinc.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/sphere.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/stats/fwe.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/stats/fwe.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/stats/glm.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/stats/glm.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/stats/import.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/stats/import.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/stats/shuffle.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/stats/shuffle.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/stats/typedefs.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/welch_satterthwaite.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/zstatistic.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/math/zstatistic.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/memory.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/metadata/bids.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/metadata/bids.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/metadata/phase_encoding.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/metadata/phase_encoding.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/metadata/slice_encoding.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/metadata/slice_encoding.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/misc/bitset.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/misc/bitset.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/misc/voxel2vector.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/mrtrix.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/mrtrix.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/ordered_thread_queue.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/progressbar.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/progressbar.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/raw.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/signal_handler.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/signal_handler.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/signals.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/spinlock.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/stats.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/stats.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/stride.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/stride.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/thread.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "core/thread.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/thread_queue.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/timer.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/transform.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/types.h",
+      "language": "C++"
+    },
+    {
+      "file": "core/version.h",
+      "language": "C++"
+    },
+    {
+      "file": "docs/conf.py",
+      "language": "Python"
+    },
+    {
+      "file": "generate_bash_completion.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/_5ttgen/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/_5ttgen/freesurfer.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/_5ttgen/fsl.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/_5ttgen/gif.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/_5ttgen/hsvs.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/algorithm.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/app.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwi2response/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwi2response/dhollander.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwi2response/fa.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwi2response/manual.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwi2response/msmt_5tt.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwi2response/tax.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwi2response/tournier.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwibiascorrect/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwibiascorrect/ants.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwibiascorrect/fsl.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwinormalise/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwinormalise/group.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/dwinormalise/individual.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/fsl.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/image.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/matrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/path.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/phaseencoding.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/run.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/sh.py",
+      "language": "Python"
+    },
+    {
+      "file": "lib/mrtrix3/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/colourmap.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/colourmap.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/connectome/connectome.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/connectome/connectome.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/connectome/enhance.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/connectome/enhance.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/connectome/lut.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/connectome/lut.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/connectome/mat2vec.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/bootstrap.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/directions/file.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/directions/file.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/directions/mask.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/directions/mask.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/directions/predefined.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/directions/predefined.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/directions/set.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/directions/set.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/fixel_map.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/fmls.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/fmls.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/noise_estimator.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/sdeconv/csd.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/sdeconv/csd.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/sdeconv/msmt_csd.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/sdeconv/msmt_csd.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tensor.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/ACT/act.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/ACT/act.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/ACT/gmwmi.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/ACT/gmwmi.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/ACT/method.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/ACT/shared.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/ACT/tissues.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/energy.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/externalenergy.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/externalenergy.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/gt.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/gt.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/internalenergy.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/internalenergy.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/mhsampler.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/mhsampler.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/particle.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/particle.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/particlegrid.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/particlegrid.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/particlepool.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/GT/spatiallock.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/fixel.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/gradient_sort.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/gradient_sort.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/model.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/model_base.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/output.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/proc_mask.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/proc_mask.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/sift.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/sift.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/sifter.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/sifter.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/track_contribution.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/track_contribution.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/track_index_range.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/track_index_range.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT/types.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/coeff_optimiser.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/coeff_optimiser.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/fixel.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/fixel_updater.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/fixel_updater.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/line_search.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/line_search.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/reg_calculator.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/reg_calculator.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/regularisation.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/streamline_stats.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/streamline_stats.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/tckfactor.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/SIFT2/tckfactor.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/algorithms/calibrator.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/algorithms/fact.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/algorithms/iFOD1.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/algorithms/iFOD1.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/algorithms/iFOD2.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/algorithms/iFOD2.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/algorithms/nulldist.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/algorithms/sd_stream.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/algorithms/seedtest.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/algorithms/tensor_det.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/algorithms/tensor_prob.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/connectome.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/connectome.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/exemplar.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/exemplar.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/extract.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/extract.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/mapped_track.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/mapper.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/matrix.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/matrix.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/metric.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/streamline.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/tck2nodes.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/connectome/tck2nodes.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/editing/editing.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/editing/editing.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/editing/loader.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/editing/receiver.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/editing/receiver.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/editing/worker.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/editing/worker.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/file.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/file_base.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/file_base.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/buffer_scratch_dump.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/fixel_td_map.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/fixel_td_map.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/gaussian/mapper.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/gaussian/mapper.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/gaussian/voxel.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/loader.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/mapper.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/mapper.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/mapper_plugins.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/mapper_plugins.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/mapping.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/mapping.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/twi_stats.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/twi_stats.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/voxel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/voxel.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/writer.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/mapping/writer.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/properties.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/properties.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/arc.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/arc.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/downsampler.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/downsampler.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/endpoints.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/endpoints.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/fixed_num_points.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/fixed_num_points.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/fixed_step_size.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/fixed_step_size.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/resampling.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/resampling.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/upsampler.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/resampling/upsampler.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/rng.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/rng.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/roi.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/roi.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/scalar_file.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/seeding/base.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/seeding/basic.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/seeding/basic.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/seeding/dynamic.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/seeding/dynamic.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/seeding/gmwmi.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/seeding/gmwmi.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/seeding/list.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/seeding/list.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/seeding/seeding.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/seeding/seeding.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/streamline.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/early_exit.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/early_exit.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/exec.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/generated_track.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/method.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/method.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/shared.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/shared.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/tractography.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/tractography.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/types.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/write_kernel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/tracking/write_kernel.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/weights.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/dwi/tractography/weights.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/exec_version.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/fixel/filter/base.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/fixel/filter/connect.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/fixel/filter/connect.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/fixel/filter/smooth.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/fixel/filter/smooth.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/fixel/index_remapper.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/fixel/index_remapper.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/fixel/matrix.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/fixel/matrix.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/color_button.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/color_button.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/crosshair.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/crosshair.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/cursor.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/cursor.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/dialog.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/dialog.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/dicom.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/dicom.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/file.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/file.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/image_properties.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/image_properties.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/list.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/list.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/opengl.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/opengl.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/progress.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/progress.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/report_exception.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dialog/report_exception.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dwi/render_frame.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dwi/render_frame.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dwi/renderer.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/dwi/renderer.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/gui.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/gui.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/lighting_dock.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/lighting_dock.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/adjust_button.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/adjust_button.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/colourbars.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/colourbars.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/colourmap_button.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/colourmap_button.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/combo_box_error.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/combo_box_error.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/displayable.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/displayable.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/file_open.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/file_open.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/gui_image.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/gui_image.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/icons.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/base.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/base.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/lightbox.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/lightbox.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/lightbox_gui.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/list.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/ortho.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/ortho.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/slice.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/slice.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/volume.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/mode/volume.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/spin_box.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/sync/client.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/sync/client.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/sync/enums.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/sync/interprocesscommunicator.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/sync/interprocesscommunicator.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/sync/localsocketreader.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/sync/localsocketreader.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/sync/processlock.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/sync/processlock.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/sync/syncmanager.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/sync/syncmanager.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/base.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/base.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/colourmap_observers.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/colourmap_observers.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/connectome.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/connectome.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/edge.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/edge.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/file_data_vector.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/file_data_vector.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/matrix_list.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/matrix_list.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/node.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/node.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/node_list.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/node_list.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/node_overlay.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/node_overlay.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/selection.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/selection.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/shaders.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/shaders.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/connectome/types.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/fixel/base_fixel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/fixel/base_fixel.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/fixel/directory.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/fixel/directory.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/fixel/fixel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/fixel/fixel.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/fixel/image4D.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/fixel/image4D.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/fixel/legacy.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/fixel/legacy.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/fixel/vector_structs.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/list.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/list_model_base.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/odf/item.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/odf/item.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/odf/model.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/odf/model.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/odf/odf.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/odf/odf.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/odf/preview.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/odf/preview.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/odf/type.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/overlay.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/overlay.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/roi_editor/item.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/roi_editor/item.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/roi_editor/model.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/roi_editor/model.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/roi_editor/roi.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/roi_editor/roi.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/roi_editor/undoentry.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/roi_editor/undoentry.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/screen_capture.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/screen_capture.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/tractography/track_scalar_file.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/tractography/track_scalar_file.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/tractography/tractogram.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/tractography/tractogram.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/tractography/tractogram_enums.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/tractography/tractography.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/tractography/tractography.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/transform.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/transform.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/view.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/tool/view.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/volume.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/volume.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/window.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/mrview/window.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/opengl/font.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/opengl/font.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/opengl/gl.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/opengl/gl.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/opengl/gl_core_3_3.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/opengl/gl_core_3_3.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/opengl/lighting.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/opengl/lighting.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/opengl/shader.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/opengl/shader.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/opengl/transformation.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/projection.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/projection.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shapes/cube.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shapes/cube.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shapes/cylinder.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shapes/cylinder.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shapes/halfsphere.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shapes/halfsphere.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shapes/sphere.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shapes/sphere.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shview/file_open.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shview/file_open.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shview/icons.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shview/render_window.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/gui/shview/render_window.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/min_mem_array.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/linear.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/linear.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/cc_helper.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/cross_correlation.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/demons.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/demons4D.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/demons_cc.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/difference_robust.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/evaluate.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/linear_base.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/local_cross_correlation.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/mean_squared.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/params.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/robust_estimators.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/metric/thread_kernel.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/multi_contrast.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/multi_contrast.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/multi_resolution_lmax.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/nonlinear.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/nonlinear.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/shared.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/affine.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/affine.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/base.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/convergence_check.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/convergence_check.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/initialiser.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/initialiser.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/initialiser_helpers.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/initialiser_helpers.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/reorient.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/rigid.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/rigid.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/robust.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/transform/search.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/warp/compose.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/warp/convert.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/warp/helpers.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/registration/warp/invert.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/stats/cfe.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/stats/cfe.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/stats/cluster.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/stats/cluster.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/stats/enhance.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/stats/permstack.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/stats/permstack.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/stats/permtest.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/stats/permtest.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/stats/tfce.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/stats/tfce.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/algo/image2mesh.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/algo/mesh2image.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/algo/mesh2image.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/filter/base.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/filter/base.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/filter/smooth.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/filter/smooth.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/filter/vertex_transform.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/filter/vertex_transform.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/freesurfer.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/freesurfer.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/mesh.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/mesh.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/mesh_multi.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/mesh_multi.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/polygon.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/polygon.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/scalar.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/scalar.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/types.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/surface/utils.h",
+      "language": "C++"
+    },
+    {
+      "file": "src/wrap_r.h",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_diff_dir.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_diff_fixel.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_diff_fixel_old.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_diff_header.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_diff_image.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_diff_matrix.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_diff_mesh.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_diff_peaks.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_diff_tck.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_diff_tsf.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_gen_data.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_unit_tests_bitset.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_unit_tests_erfinv.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_unit_tests_icls.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_unit_tests_ordered_include.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_unit_tests_ordered_queue.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_unit_tests_parse_ints.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_unit_tests_sh_precomputer.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_unit_tests_shuffle.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/cmd/testing_unit_tests_to.cpp",
+      "language": "C++"
+    },
+    {
+      "file": "testing/src/diff_images.h",
+      "language": "C++"
+    },
+    {
+      "file": "testing/src/unit_tests/tractography/roi_unit_tests.h",
+      "language": "C++"
+    },
+    {
+      "file": "testing/src/unit_tests/unit_test.h",
+      "language": "C++"
+    }
+  ],
+  "edges": []
+}

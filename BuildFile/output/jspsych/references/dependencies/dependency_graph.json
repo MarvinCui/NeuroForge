@@ -1,0 +1,733 @@
+{
+  "nodes": [
+    {
+      "file": "docs/demos/docs-demo-timeline.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "docs/demos/js/snap.svg-min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "docs/demos/js/webgazer/webgazer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "docs/demos/js/webgazer/worker_scripts/mat.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "docs/demos/js/webgazer/worker_scripts/util.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "examples/js/snap.svg-min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "examples/js/webgazer/webgazer.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "examples/js/webgazer/worker_scripts/mat.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "examples/js/webgazer/worker_scripts/util.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "gulpfile.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/config/generateCitations.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/config/gulp.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/config/rollup.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/config/tests/generateCitations.test.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/extension-mouse-tracking/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/extension-mouse-tracking/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/extension-record-video/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/extension-webgazer/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/ExtensionManager.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/ExtensionManager.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/JsPsych.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/ProgressBar.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/ProgressBar.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/migration.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/data/DataCollection.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/data/DataColumn.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/data/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/data/utils.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/extensions.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/plugin-api/AudioPlayer.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/plugin-api/KeyboardListenerAPI.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/plugin-api/MediaAPI.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/plugin-api/SimulationAPI.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/plugin-api/TimeoutAPI.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/plugin-api/__mocks__/AudioPlayer.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/plugin-api/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/plugins.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/randomization.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/turk.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/modules/utils.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/timeline/Timeline.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/timeline/Timeline.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/timeline/TimelineNode.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/timeline/Trial.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/timeline/Trial.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/timeline/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/timeline/util.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/src/timeline/util.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/TestPlugin.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/citations/citations.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/abortexperiment.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/case-sensitive-responses.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/css-classes-parameter.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/default-iti.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/default-parameters.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/events.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/functions-as-parameters.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/min-rt.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/progressbar.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/run.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/simulation-mode.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/test-complex-plugin.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/timeline-variables.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/core/timelines.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/data/data-csv-conversion.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/data/data-json-conversion.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/data/datacollection.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/data/datacolumn.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/data/datamodule.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/data/dataparameter.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/data/interactions.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/data/recorddataparameter.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/data/trialparameters.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/extensions/TestExtension.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/extensions/extensions.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/pluginAPI/pluginapi.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/pluginAPI/preloads.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/randomization/randomization.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/randomization/setseed.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/test-utils.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/jspsych/tests/timing-tests/calibration-timeline.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/jspsych/tests/utils/utils.test.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-animation/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-animation/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-audio-button-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-audio-button-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-audio-keyboard-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-audio-keyboard-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-audio-slider-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-audio-slider-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-browser-check/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-browser-check/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-call-function/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-call-function/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-canvas-button-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-canvas-button-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-canvas-keyboard-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-canvas-keyboard-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-canvas-slider-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-canvas-slider-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-categorize-animation/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-categorize-animation/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-categorize-html/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-categorize-html/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-categorize-image/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-categorize-image/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-cloze/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-cloze/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-external-html/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-external-html/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-free-sort/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-free-sort/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-free-sort/src/utils.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-fullscreen/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-fullscreen/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-html-audio-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-html-button-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-html-button-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-html-keyboard-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-html-keyboard-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-html-slider-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-html-slider-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-html-video-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-iat-html/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-iat-html/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-iat-image/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-iat-image/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-image-button-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-image-button-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-image-keyboard-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-image-keyboard-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-image-slider-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-image-slider-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-initialize-camera/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-initialize-microphone/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-instructions/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-instructions/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-maxdiff/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-maxdiff/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-mirror-camera/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-preload/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-preload/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-reconstruction/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-reconstruction/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-resize/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-same-different-html/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-same-different-html/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-same-different-image/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-same-different-image/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-serial-reaction-time/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-serial-reaction-time/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-serial-reaction-time-mouse/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-serial-reaction-time-mouse/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-sketchpad/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-sketchpad/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey/jest.resizeObserverMock.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "packages/plugin-survey/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey-html-form/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey-html-form/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey-likert/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey-likert/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey-multi-choice/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey-multi-choice/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey-multi-select/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey-multi-select/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey-text/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-survey-text/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-video-button-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-video-button-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-video-keyboard-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-video-keyboard-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-video-slider-response/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-video-slider-response/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-virtual-chinrest/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-visual-search-circle/src/index.spec.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-visual-search-circle/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-webgazer-calibrate/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-webgazer-init-camera/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/plugin-webgazer-validate/src/index.ts",
+      "language": "TypeScript"
+    },
+    {
+      "file": "packages/test-utils/src/index.ts",
+      "language": "TypeScript"
+    }
+  ],
+  "edges": []
+}

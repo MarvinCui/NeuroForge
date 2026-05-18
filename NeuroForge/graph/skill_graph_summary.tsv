@@ -1,0 +1,306 @@
+tool	concept	weight	top_files
+mne-python	EEG preprocessing	5311	mne-python/references/tutorials/index.md, mne-python/references/tutorials/fnirs-check-bads/fnirs-check-bads.md, mne-python/references/tutorials/ica-ctf/ica-ctf.md
+pymc	Bayesian modeling	4183	pymc/references/documentation/other/developer_guide.md, pymc/references/documentation/overview/README.rst, pymc/references/documentation/overview/GOVERNANCE.md
+bids-specification	BIDS	3772	bids-specification/references/documentation/overview/README.md, bids-specification/references/documentation/other/common-principles.md, bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md
+jspsych	browser experiment	3739	jspsych/references/documentation/guides/rt-task.md, jspsych/references/documentation/guides/hello-world.md, jspsych/references/documentation/api/jspsych.md
+snakemake	workflow management	3039	snakemake/references/documentation/other/rules.rst, snakemake/references/documentation/other/deployment.rst, snakemake/references/documentation/guides/basics.rst
+mne-python	epoching	3038	mne-python/references/tutorials/index.md, mne-python/references/tutorials/own-data/own-data.md, mne-python/references/tutorials/continuous-regression-no-overlap/continuous-regression-no-overlap.md
+nipype	workflow management	2399	nipype/references/documentation/other/interfaces.rst, nipype/references/documentation/overview/README.rst, nipype/references/documentation/other/interface_specs.rst
+mne-python	reproducibility	2279	mne-python/references/documentation/other/contributing.rst, mne-python/references/tutorials/incomplete-file-suite/incomplete-file-suite.md, mne-python/references/documentation/other/advanced.rst
+mne-python	workflow management	2104	mne-python/SKILL.md, mne-python/references/tutorials/find-events-backward-compatibility/find-events-backward-compatibility.md, mne-python/references/documentation/other/cookbook.rst
+jspsych	behavioral data	2000	jspsych/references/documentation/guides/rt-task.md, jspsych/references/documentation/other/plugins.md, jspsych/references/documentation/other/plugin-development.md
+nilearn	reproducibility	1765	nilearn/references/documentation/contributing/CONTRIBUTING.rst, nilearn/references/tutorials/fetch-atlas-aal/fetch-atlas-aal.md, nilearn/SKILL.md
+mrtrix3	containerization	1712	mrtrix3/references/documentation/other/image_data.rst, mrtrix3/references/documentation/other/pe_scheme.rst, mrtrix3/references/documentation/other/image_access.md
+nipype	reproducibility	1694	nipype/references/tutorials/index.md, nipype/references/tutorials/expansion/expansion.md, nipype/references/tutorials/clone-node-iterables/clone-node-iterables.md
+nilearn	workflow management	1609	nilearn/SKILL.md, nilearn/references/tutorials/3d-images/3d-images.md, nilearn/references/tutorials/3x3-affine-bbox/3x3-affine-bbox.md
+dipy	reproducibility	1603	dipy/references/tutorials/validate-patch-radius-and-version/validate-patch-radius-and-version.md, dipy/references/tutorials/patch2self-random-noise/patch2self-random-noise.md, dipy/references/documentation/other/installation_from_source.rst
+dipy	workflow management	1468	dipy/SKILL.md, dipy/references/documentation/other/buan_flow.rst, dipy/references/documentation/other/development_workflow.rst
+pymc	reproducibility	1343	pymc/references/documentation/other/using_gitpod.md, pymc/SKILL.md, pymc/references/tutorials/index.md
+pymc	workflow management	1273	pymc/SKILL.md, pymc/references/tutorials/censored-workflow/censored-workflow.md, pymc/references/tutorials/index.md
+nilearn	registration	1078	nilearn/references/tutorials/index.md, nilearn/references/tutorials/resample-stat-map/resample-stat-map.md, nilearn/references/tutorials/nifti-labels-masker-resampling-to-clipped-labels/nifti-labels-masker-resampling-to-clipped-labels.md
+nibabel	image IO	1076	nibabel/references/documentation/overview/README.rst, nibabel/references/documentation/other/nifti_images.rst, nibabel/references/tutorials/index.md
+psychopy	experiment design	1047	psychopy/references/tutorials/plugin-stub-links/plugin-stub-links.md, psychopy/references/documentation/overview/README.md, psychopy/SKILL.md
+nibabel	reproducibility	948	nibabel/references/documentation/other/data_pkg_discuss.rst, nibabel/SKILL.md, nibabel/references/tutorials/load-trk-version-1/load-trk-version-1.md
+nilearn	containerization	915	nilearn/references/documentation/other/index.rst, nilearn/references/documentation/other/masker_objects.rst, nilearn/references/documentation/other/manipulating_images.rst
+jspsych	experiment design	892	jspsych/references/documentation/guides/rt-task.md, jspsych/references/documentation/other/style.md, jspsych/references/documentation/guides/hello-world.md
+nilearn	surface reconstruction	890	nilearn/references/tutorials/index.md, nilearn/references/documentation/other/index.rst, nilearn/references/documentation/other/0.11.0.rst
+snakemake	reproducibility	841	snakemake/references/documentation/other/deployment.rst, snakemake/references/documentation/other/rules.rst, snakemake/references/documentation/other/cli.rst
+nibabel	workflow management	823	nibabel/SKILL.md, nibabel/references/documentation/other/development_workflow.rst, nibabel/references/documentation/other/maintainer_workflow.rst
+freesurfer	surface reconstruction	788	freesurfer/references/documentation/overview/ReconAllTableStableV6.0.md, freesurfer/references/documentation/overview/FAQ.md, freesurfer/SKILL.md
+afni	reproducibility	774	afni/references/documentation/other/README.rst, afni/references/tutorials/index.md, afni/references/tutorials/chown-extra/chown-extra.md
+nilearn	image IO	773	nilearn/references/tutorials/index.md, nilearn/references/documentation/other/input_output.rst, nilearn/references/tutorials/repr-niimgs-force-long-names/repr-niimgs-force-long-names.md
+qsiprep	diffusion preprocessing	753	qsiprep/references/documentation/other/preprocessing.rst, qsiprep/SKILL.md, qsiprep/references/documentation/other/usage.rst
+afni	workflow management	718	afni/SKILL.md, afni/references/documentation/overview/README.rst, afni/references/tutorials/-check-hdr-points-space/-check-hdr-points-space.md
+nibabel	containerization	694	nibabel/references/documentation/other/nibabel_images.rst, nibabel/references/documentation/other/coordinate_systems.rst, nibabel/references/documentation/other/biap_0003.rst
+jspsych	events	686	jspsych/references/documentation/guides/rt-task.md, jspsych/references/documentation/other/timeline.md, jspsych/references/documentation/other/style.md
+mrtrix3	tractography	651	mrtrix3/references/documentation/api/5ttgen.rst, mrtrix3/references/documentation/api/tckgen.rst, mrtrix3/references/documentation/other/image_data.rst
+dipy	registration	603	dipy/references/tutorials/index.md, dipy/references/tutorials/check-img-shapes/check-img-shapes.md, dipy/references/documentation/other/registration_flow.rst
+fmriprep	BIDS	578	fmriprep/references/tutorials/bidsuri/bidsuri.md, fmriprep/references/documentation/other/outputs.rst, fmriprep/SKILL.md
+nilearn	connectome	577	nilearn/references/tutorials/index.md, nilearn/references/documentation/other/functional_connectomes.rst, nilearn/references/documentation/other/connectome_extraction.rst
+mne-python	source localization	570	mne-python/references/tutorials/index.md, mne-python/references/documentation/other/cookbook.rst, mne-python/references/documentation/other/forward.rst
+fmriprep	fMRI preprocessing	555	fmriprep/references/documentation/other/workflows.rst, fmriprep/references/documentation/other/outputs.rst, fmriprep/references/documentation/other/faq.rst
+nilearn	fMRI preprocessing	552	nilearn/references/tutorials/index.md, nilearn/references/tutorials/check-parameters-transform/check-parameters-transform.md, nilearn/references/tutorials/clean-confounds-inputs/clean-confounds-inputs.md
+mrtrix3	reproducibility	527	mrtrix3/references/documentation/api/dwi2response.rst, mrtrix3/references/documentation/other/build_from_source.rst, mrtrix3/references/documentation/other/using_containers.rst
+nilearn	GLM	527	nilearn/references/tutorials/index.md, nilearn/references/tutorials/save-glm-to-bids-contrast-definitions/save-glm-to-bids-contrast-definitions.md, nilearn/references/tutorials/save-glm-to-bids-second-level/save-glm-to-bids-second-level.md
+psychopy	reproducibility	501	psychopy/SKILL.md, psychopy/references/tutorials/writing/writing.md, psychopy/references/tutorials/default/default.md
+nilearn	BIDS	497	nilearn/references/tutorials/index.md, nilearn/references/tutorials/save-glm-to-bids-infer-filenames/save-glm-to-bids-infer-filenames.md, nilearn/references/tutorials/select-from-index/select-from-index.md
+psychopy	workflow management	481	psychopy/SKILL.md, psychopy/references/tutorials/add-args-and-kwargs/add-args-and-kwargs.md, psychopy/references/tutorials/add-invalid-modifiers/add-invalid-modifiers.md
+nibabel	registration	459	nibabel/references/documentation/other/coordinate_systems.rst, nibabel/references/documentation/other/nifti_images.rst, nibabel/references/tutorials/index.md
+qsiprep	BIDS	431	qsiprep/references/documentation/other/preprocessing.rst, qsiprep/references/documentation/other/usage.rst, qsiprep/references/tutorials/group-dwi-scans-with-complex-b0fields/group-dwi-scans-with-complex-b0fields.md
+mne-python	events	424	mne-python/references/tutorials/crop-more/crop-more.md, mne-python/references/tutorials/read-vhdr-annotations-and-events/read-vhdr-annotations-and-events.md, mne-python/references/tutorials/export-edf-annotations/export-edf-annotations.md
+mne-python	surface reconstruction	421	mne-python/references/tutorials/index.md, mne-python/references/documentation/other/forward.rst, mne-python/references/documentation/other/cookbook.rst
+nilearn	confounds	420	nilearn/references/tutorials/index.md, nilearn/references/tutorials/check-parameters-transform/check-parameters-transform.md, nilearn/references/tutorials/clean-confounds-inputs/clean-confounds-inputs.md
+pymc	registration	354	pymc/references/tutorials/index.md, pymc/references/tutorials/interdependent-transformed-rvs/interdependent-transformed-rvs.md, pymc/references/documentation/api/transforms.rst
+jspsych	containerization	337	jspsych/references/documentation/other/image-keyboard-response.md, jspsych/references/documentation/other/image-button-response.md, jspsych/references/documentation/guides/rt-task.md
+bids-specification	derivatives	334	bids-specification/references/documentation/other/imaging.md, bids-specification/references/documentation/other/atlas.md, bids-specification/references/documentation/other/common-principles.md
+mrtrix3	diffusion preprocessing	311	mrtrix3/references/documentation/api/dwifslpreproc.rst, mrtrix3/references/documentation/other/batch_processing_with_foreach.rst, mrtrix3/references/documentation/other/dw_scheme.rst
+nipype	registration	278	nipype/references/tutorials/index.md, nipype/references/tutorials/ants-mand/ants-mand.md, nipype/references/tutorials/reorientation-backport/reorientation-backport.md
+mne-python	quality control	275	mne-python/references/tutorials/multiple-figs/multiple-figs.md, mne-python/references/tutorials/add-custom-js/add-custom-js.md, mne-python/references/tutorials/render-mri/render-mri.md
+mrtrix3	connectome	267	mrtrix3/references/documentation/other/connectome_tool.rst, mrtrix3/references/documentation/other/structural_connectome.rst, mrtrix3/references/documentation/other/labelconvert_tutorial.rst
+mne-python	time-frequency analysis	261	mne-python/references/tutorials/index.md, mne-python/references/tutorials/tfr-decim-and-shift-time/tfr-decim-and-shift-time.md, mne-python/references/tutorials/add-channels/add-channels.md
+bids-specification	EEG preprocessing	258	bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md, bids-specification/references/documentation/other/common-principles.md, bids-specification/references/documentation/other/description.md
+jspsych	reproducibility	258	jspsych/references/documentation/other/plugin-development.md, jspsych/references/documentation/other/migration-v8.md, jspsych/references/documentation/other/extension-development.md
+nilearn	epoching	254	nilearn/references/tutorials/check-events-warnings/check-events-warnings.md, nilearn/references/tutorials/index.md, nilearn/references/tutorials/check-events/check-events.md
+fmriprep	reproducibility	250	fmriprep/references/documentation/other/workflows.rst, fmriprep/SKILL.md, fmriprep/references/documentation/other/installation.rst
+fmriprep	derivatives	245	fmriprep/references/documentation/other/outputs.rst, fmriprep/SKILL.md, fmriprep/references/tutorials/derivatives/derivatives.md
+mrtrix3	behavioral data	228	mrtrix3/references/documentation/other/response_function_estimation.rst, mrtrix3/references/documentation/api/dwi2response.rst, mrtrix3/references/documentation/other/mt_fibre_density_cross-section.rst
+dipy	containerization	227	dipy/references/documentation/other/denoise_flow.rst, dipy/references/documentation/other/registration_flow.rst, dipy/references/tutorials/classify/classify.md
+fmriprep	workflow management	223	fmriprep/references/documentation/other/workflows.rst, fmriprep/SKILL.md, fmriprep/references/tutorials/config-spaces/config-spaces.md
+dipy	behavioral data	212	dipy/references/tutorials/index.md, dipy/references/tutorials/multi-shell-fiber-response/multi-shell-fiber-response.md, dipy/SKILL.md
+qsiprep	reproducibility	212	qsiprep/references/documentation/overview/AGENTS.md, qsiprep/references/documentation/other/preprocessing.rst, qsiprep/references/tutorials/dscsdsi/dscsdsi.md
+mne-python	registration	209	mne-python/references/tutorials/xdawn-apply-transform/xdawn-apply-transform.md, mne-python/references/tutorials/tps/tps.md, mne-python/references/tutorials/index.md
+qsiprep	workflow management	209	qsiprep/references/documentation/overview/AGENTS.md, qsiprep/references/documentation/other/preprocessing.rst, qsiprep/references/tutorials/dscsdsi/dscsdsi.md
+snakemake	containerization	207	snakemake/references/documentation/other/deployment.rst, snakemake/references/documentation/other/migration.rst, snakemake/references/documentation/other/index.rst
+dipy	diffusion preprocessing	197	dipy/references/documentation/other/basic_flow.rst, dipy/references/tutorials/msdki-predict/msdki-predict.md, dipy/references/tutorials/dki-predict/dki-predict.md
+mrtrix3	registration	193	mrtrix3/references/documentation/api/mrtransform.rst, mrtrix3/references/documentation/api/mrregister.rst, mrtrix3/references/documentation/other/image_data.rst
+nilearn	EEG preprocessing	170	nilearn/references/tutorials/index.md, nilearn/references/documentation/other/introduction.rst, nilearn/references/documentation/other/resting_state_networks.rst
+nipype	surface reconstruction	169	nipype/references/tutorials/freesurfersource-outputs/freesurfersource-outputs.md, nipype/references/tutorials/reconall-outputs/reconall-outputs.md, nipype/references/tutorials/surfxfm/surfxfm.md
+qsiprep	containerization	166	qsiprep/references/documentation/other/preprocessing.rst, qsiprep/references/documentation/other/installation.rst, qsiprep/references/documentation/other/contributors.rst
+snakemake	browser experiment	165	snakemake/references/documentation/other/codebase.rst, snakemake/references/documentation/other/migration.rst, snakemake/references/tutorials/plugin/plugin.md
+mne-python	image IO	164	mne-python/references/tutorials/save-stc-as-gifti/save-stc-as-gifti.md, mne-python/references/tutorials/save-vol-stc-as-nifti/save-vol-stc-as-nifti.md, mne-python/references/tutorials/index.md
+fmriprep	surface reconstruction	155	fmriprep/references/documentation/other/workflows.rst, fmriprep/references/documentation/other/faq.rst, fmriprep/references/documentation/other/outputs.rst
+nilearn	quality control	151	nilearn/references/tutorials/index.md, nilearn/references/tutorials/save-glm-to-bids-glm-report-no-contrast/save-glm-to-bids-glm-report-no-contrast.md, nilearn/references/tutorials/masker-reporting-true/masker-reporting-true.md
+bids-specification	reproducibility	148	bids-specification/references/documentation/contributing/CONTRIBUTING.md, bids-specification/references/documentation/other/hed.md, bids-specification/SKILL.md
+nilearn	statistics	147	nilearn/references/documentation/other/estimator_choice.rst, nilearn/references/documentation/other/searchlight.rst, nilearn/references/tutorials/index.md
+bids-specification	events	145	bids-specification/references/documentation/other/events.md, bids-specification/references/documentation/other/hed.md, bids-specification/references/documentation/specifications/physiological-recordings.md
+nilearn	behavioral data	145	nilearn/references/tutorials/index.md, nilearn/references/tutorials/sample-condition-1/sample-condition-1.md, nilearn/references/tutorials/sample-condition-3/sample-condition-3.md
+nilearn	events	139	nilearn/references/tutorials/check-events-warnings/check-events-warnings.md, nilearn/references/tutorials/design-matrix-fir-column-1-3-and-11/design-matrix-fir-column-1-3-and-11.md, nilearn/references/tutorials/plot-event-error/plot-event-error.md
+snakemake	quality control	138	snakemake/references/documentation/other/reporting.rst, snakemake/references/documentation/api/snakemake.report.html_reporter.data.rst, snakemake/references/documentation/other/rules.rst
+nipype	containerization	129	nipype/references/documentation/other/testing_nipype.rst, nipype/references/tutorials/generate/generate.md, nipype/references/tutorials/datasink-localcopy/datasink-localcopy.md
+bids-specification	workflow management	126	bids-specification/references/documentation/other/description.md, bids-specification/references/tutorials/entity-rule/entity-rule.md, bids-specification/SKILL.md
+nilearn	derivatives	126	nilearn/references/tutorials/save-glm-to-bids-infer-filenames/save-glm-to-bids-infer-filenames.md, nilearn/references/tutorials/index.md, nilearn/references/tutorials/get-bids-files-fmriprep/get-bids-files-fmriprep.md
+nipype	diffusion preprocessing	124	nipype/references/tutorials/index.md, nipype/references/tutorials/eddy-correct2/eddy-correct2.md, nipype/references/tutorials/dwi-tool/dwi-tool.md
+bids-specification	containerization	122	bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md, bids-specification/references/documentation/other/imaging.md, bids-specification/references/documentation/other/qmri.md
+mne-python	containerization	118	mne-python/references/tutorials/index.md, mne-python/references/documentation/other/funding.rst, mne-python/references/documentation/overview/README.rst
+fmriprep	containerization	112	fmriprep/references/documentation/other/installation.rst, fmriprep/references/documentation/other/faq.rst, fmriprep/references/documentation/other/workflows.rst
+mrtrix3	image IO	111	mrtrix3/references/documentation/other/image_data.rst, mrtrix3/references/documentation/api/mrconvert.rst, mrtrix3/references/documentation/other/dw_scheme.rst
+dipy	image IO	107	dipy/references/documentation/other/api_changes.rst, dipy/references/documentation/other/faq.rst, dipy/references/tutorials/ascm-accuracy/ascm-accuracy.md
+psychopy	events	103	psychopy/references/tutorials/audioclip-synth/audioclip-synth.md, psychopy/references/tutorials/blank-timing/blank-timing.md, psychopy/references/tutorials/audioclip-attrib/audioclip-attrib.md
+bids-specification	diffusion preprocessing	99	bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md, bids-specification/references/tutorials/assignability/assignability.md, bids-specification/SKILL.md
+bids-specification	epoching	98	bids-specification/references/documentation/other/events.md, bids-specification/references/documentation/other/hed.md, bids-specification/references/documentation/other/description.md
+mne-python	behavioral data	94	mne-python/references/documentation/other/datasets.rst, mne-python/references/documentation/other/forward.rst, mne-python/references/tutorials/correction/correction.md
+afni	registration	92	afni/references/tutorials/index.md, afni/references/tutorials/concat/concat.md, afni/references/tutorials/save-load-endian/save-load-endian.md
+bids-specification	connectome	90	bids-specification/references/documentation/other/atlas.md, bids-specification/references/documentation/other/imaging.md, bids-specification/references/documentation/other/common-principles.md
+fmriprep	confounds	90	fmriprep/references/documentation/other/outputs.rst, fmriprep/references/documentation/other/workflows.rst, fmriprep/references/documentation/overview/REFERENCES.md
+mrtrix3	GLM	87	mrtrix3/references/documentation/api/fixelcfestats.rst, mrtrix3/references/documentation/api/tckmap.rst, mrtrix3/references/documentation/api/connectomestats.rst
+dipy	epoching	84	dipy/references/tutorials/orthogonality-temporal-basis-functions/orthogonality-temporal-basis-functions.md, dipy/references/tutorials/normalization-time/normalization-time.md, dipy/references/tutorials/default-cnn1ddenoiser-flow/default-cnn1ddenoiser-flow.md
+mne-python	experiment design	77	mne-python/references/tutorials/plot-heatmap/plot-heatmap.md, mne-python/references/tutorials/read-vhdr-annotations-and-events/read-vhdr-annotations-and-events.md, mne-python/references/tutorials/ignore-marker-types/ignore-marker-types.md
+nipype	browser experiment	75	nipype/references/tutorials/outputs-removal-wf/outputs-removal-wf.md, nipype/references/tutorials/callback-gantt/callback-gantt.md, nipype/references/tutorials/callback-exception/callback-exception.md
+mrtrix3	EEG preprocessing	74	mrtrix3/references/documentation/api/mrfilter.rst, mrtrix3/references/documentation/other/image_access.md, mrtrix3/references/documentation/api/maskfilter.rst
+mne-python	BIDS	68	mne-python/references/tutorials/bids-split-files/bids-split-files.md, mne-python/references/tutorials/fil-bad-channel-spec/fil-bad-channel-spec.md, mne-python/references/tutorials/fil-complete/fil-complete.md
+psychopy	containerization	66	psychopy/references/tutorials/background-image-fit/background-image-fit.md, psychopy/references/tutorials/index.md, psychopy/references/tutorials/imageandgauss/imageandgauss.md
+afni	containerization	62	afni/references/tutorials/files-interface/files-interface.md, afni/references/documentation/overview/README.rst, afni/references/documentation/other/README.rst
+qsiprep	fMRI preprocessing	61	qsiprep/references/documentation/other/preprocessing.rst, qsiprep/references/documentation/other/quickstart.rst, qsiprep/references/documentation/overview/AGENTS.md
+freesurfer	reproducibility	59	freesurfer/references/documentation/overview/FAQ.md, freesurfer/SKILL.md, freesurfer/references/documentation/overview/DownloadAndInstall.md
+jspsych	epoching	59	jspsych/references/documentation/api/jspsych-data.md, jspsych/references/documentation/other/mouse-tracking.md, jspsych/references/documentation/other/plugin-development.md
+nibabel	surface reconstruction	59	nibabel/references/documentation/other/biap_0009.rst, nibabel/references/tutorials/annot/annot.md, nibabel/references/documentation/other/roadmap.rst
+bids-specification	surface reconstruction	58	bids-specification/references/documentation/other/coordinate-systems.md, bids-specification/references/documentation/other/imaging.md, bids-specification/references/documentation/specifications/electromyography.md
+mrtrix3	surface reconstruction	56	mrtrix3/references/documentation/api/5ttgen.rst, mrtrix3/references/documentation/other/labelconvert_tutorial.rst, mrtrix3/references/documentation/other/ismrm_hcp_tutorial.rst
+qsiprep	registration	55	qsiprep/references/documentation/other/preprocessing.rst, qsiprep/references/documentation/other/comparisons.md, qsiprep/references/documentation/other/quickstart.rst
+fmriprep	EEG preprocessing	52	fmriprep/references/tutorials/bidsuri/bidsuri.md, fmriprep/SKILL.md, fmriprep/references/tutorials/bids-filter-file/bids-filter-file.md
+mrtrix3	Bayesian modeling	52	mrtrix3/references/documentation/other/image_data.rst, mrtrix3/references/documentation/other/pe_scheme.rst, mrtrix3/references/documentation/other/response_function_estimation.rst
+psychopy	behavioral data	52	psychopy/references/tutorials/loaded-namespace/loaded-namespace.md, psychopy/references/tutorials/getfuturetrials/getfuturetrials.md, psychopy/references/tutorials/questplus/questplus.md
+pymc	containerization	50	pymc/references/documentation/overview/README.rst, pymc/references/documentation/other/docker_container.md, pymc/references/documentation/other/pr_tutorial.md
+qsiprep	derivatives	49	qsiprep/references/documentation/other/preprocessing.rst, qsiprep/references/documentation/other/quickstart.rst, qsiprep/references/documentation/overview/AGENTS.md
+bids-specification	image IO	48	bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md, bids-specification/references/documentation/other/common-principles.md, bids-specification/references/documentation/other/coordinate-systems.md
+dipy	EEG preprocessing	48	dipy/references/documentation/other/denoise_flow.rst, dipy/references/documentation/other/basic_flow.rst, dipy/references/documentation/other/buan_flow.rst
+bids-specification	fMRI preprocessing	47	bids-specification/references/tutorials/dereferencing/dereferencing.md, bids-specification/SKILL.md, bids-specification/references/documentation/other/common-principles.md
+dipy	surface reconstruction	41	dipy/references/tutorials/index.md, dipy/references/tutorials/freesurfer-density-operation/freesurfer-density-operation.md, dipy/references/tutorials/surface-seeds/surface-seeds.md
+mne-python	statistics	41	mne-python/references/tutorials/index.md, mne-python/references/tutorials/continuous-regression-no-overlap/continuous-regression-no-overlap.md, mne-python/references/tutorials/continuous-regression-with-overlap/continuous-regression-with-overlap.md
+pymc	behavioral data	41	pymc/references/tutorials/simple-model/simple-model.md, pymc/references/tutorials/index.md, pymc/references/tutorials/observed-data-also-constant/observed-data-also-constant.md
+dipy	connectome	40	dipy/references/documentation/guides/dataset_list.rst, dipy/references/documentation/other/bundle_segmentation_flow.rst, dipy/references/tutorials/index.md
+eeglab	EEG preprocessing	40	eeglab/references/documentation/overview/AGENTS.md, eeglab/references/documentation/overview/README.md
+nipype	image IO	40	nipype/references/tutorials/fslmerge/fslmerge.md, nipype/references/tutorials/netcorr-inputs/netcorr-inputs.md, nipype/references/documentation/other/interfaces.rst
+fmriprep	registration	39	fmriprep/references/documentation/other/workflows.rst, fmriprep/references/documentation/other/outputs.rst, fmriprep/references/documentation/overview/REFERENCES.md
+jspsych	EEG preprocessing	38	jspsych/references/documentation/api/jspsych-data.md, jspsych/references/documentation/guides/rt-task.md, jspsych/references/documentation/other/data.md
+qsiprep	surface reconstruction	36	qsiprep/references/documentation/other/installation.rst, qsiprep/SKILL.md, qsiprep/references/tutorials/synthseg-interface/synthseg-interface.md
+fmriprep	image IO	35	fmriprep/references/documentation/other/outputs.rst, fmriprep/references/documentation/other/workflows.rst, fmriprep/references/documentation/other/benchmarks.rst
+freesurfer	connectome	33	freesurfer/SKILL.md, freesurfer/references/documentation/overview/FAQ.md, freesurfer/references/documentation/overview/FreeSurferMethodsCitation.md
+freesurfer	EEG preprocessing	31	freesurfer/references/documentation/overview/Glossary.md, freesurfer/references/documentation/overview/CoordinateSystems.md, freesurfer/references/documentation/overview/DownloadAndInstall.md
+mne-python	connectome	31	mne-python/references/tutorials/index.md, mne-python/references/tutorials/random-parcellation/random-parcellation.md, mne-python/references/documentation/api/connectivity.rst
+freesurfer	registration	29	freesurfer/references/documentation/overview/FreeSurferCommandsRegistration.md, freesurfer/references/documentation/overview/FAQ.md, freesurfer/references/documentation/overview/ReconAllTableStableV6.0.md
+bids-specification	browser experiment	28	bids-specification/references/documentation/overview/README.md, bids-specification/references/documentation/contributing/CONTRIBUTING.md, bids-specification/references/documentation/overview/macros_doc.md
+dipy	GLM	28	dipy/references/tutorials/index.md, dipy/references/tutorials/design-matrix/design-matrix.md, dipy/references/tutorials/bspline-design-matrix-row-sums/bspline-design-matrix-row-sums.md
+pymc	statistics	28	pymc/references/documentation/other/glossary.md, pymc/references/tutorials/index.md, pymc/references/tutorials/multiple-minibatch-variables/multiple-minibatch-variables.md
+mrtrix3	BIDS	27	mrtrix3/references/documentation/other/pe_scheme.rst, mrtrix3/references/documentation/api/5ttgen.rst, mrtrix3/references/documentation/api/labelsgmfix.rst
+nipype	Bayesian modeling	27	nipype/references/tutorials/blob-inputs/blob-inputs.md, nipype/references/tutorials/calabel-inputs/calabel-inputs.md, nipype/references/tutorials/dtlutgen-inputs/dtlutgen-inputs.md
+nipype	BIDS	26	nipype/references/tutorials/dvars/dvars.md, nipype/references/tutorials/clone-node-iterables/clone-node-iterables.md, nipype/references/tutorials/dcm2niix-dti/dcm2niix-dti.md
+psychopy	fMRI preprocessing	26	psychopy/references/tutorials/formatting/formatting.md
+qsiprep	tractography	25	qsiprep/references/documentation/other/links.rst, qsiprep/references/tutorials/dwidenoise/dwidenoise.md, qsiprep/references/documentation/other/preprocessing.rst
+snakemake	EEG preprocessing	25	snakemake/references/documentation/other/deployment.rst, snakemake/references/tutorials/plugin/plugin.md, snakemake/SKILL.md
+mne-python	Bayesian modeling	24	mne-python/references/documentation/other/inverse.rst, mne-python/references/tutorials/index.md, mne-python/references/tutorials/plot-spectrum-db/plot-spectrum-db.md
+bids-specification	Bayesian modeling	23	bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md, bids-specification/references/documentation/other/coordinate-systems.md, bids-specification/references/documentation/other/common-principles.md
+bids-specification	behavioral data	23	bids-specification/references/documentation/specifications/behavioral-experiments.md, bids-specification/references/documentation/specifications/electroencephalography.md, bids-specification/references/documentation/specifications/magnetoencephalography.md
+eeglab	browser experiment	23	eeglab/references/documentation/overview/AGENTS.md, eeglab/references/documentation/templates/new-plugin-or-plugin-update.md, eeglab/SKILL.md
+freesurfer	containerization	23	freesurfer/references/documentation/overview/Glossary.md, freesurfer/references/documentation/overview/FAQ.md, freesurfer/references/documentation/overview/FreeSurferMethodsCitation.md
+mrtrix3	quality control	23	mrtrix3/references/documentation/api/mrconvert.rst, mrtrix3/references/documentation/templates/bug_report.md, mrtrix3/references/documentation/api/dirstat.rst
+nibabel	Bayesian modeling	23	nibabel/references/documentation/other/coordinate_systems.rst, nibabel/references/documentation/other/image_orientation.rst, nibabel/references/documentation/other/legal.rst
+afni	image IO	22	afni/references/documentation/overview/README.rst, afni/references/tutorials/index.md, afni/references/documentation/other/Demonstrations.md
+nipype	connectome	22	nipype/references/documentation/other/interfaces.rst, nipype/references/tutorials/cluster-inputs/cluster-inputs.md, nipype/references/tutorials/talairachavi-inputs/talairachavi-inputs.md
+psychopy	GLM	22	psychopy/references/tutorials/greyscaleimage/greyscaleimage.md, psychopy/references/tutorials/contrast/contrast.md, psychopy/references/tutorials/index.md
+dipy	quality control	21	dipy/references/documentation/other/developers.rst, dipy/references/tutorials/roi-images/roi-images.md, dipy/references/tutorials/slicer/slicer.md
+fmriprep	quality control	21	fmriprep/references/documentation/other/outputs.rst, fmriprep/references/documentation/other/README.rst, fmriprep/references/documentation/overview/README.rst
+nilearn	Bayesian modeling	21	nilearn/references/tutorials/index.md, nilearn/references/tutorials/decoder-dummy-classifier-strategy-prior/decoder-dummy-classifier-strategy-prior.md, nilearn/references/documentation/other/connectome_extraction.rst
+qsiprep	quality control	21	qsiprep/references/documentation/other/preprocessing.rst, qsiprep/references/documentation/other/comparisons.md, qsiprep/references/documentation/overview/AGENTS.md
+fmriprep	connectome	20	fmriprep/references/documentation/other/outputs.rst, fmriprep/references/documentation/other/workflows.rst, fmriprep/references/documentation/other/installation.rst
+nipype	fMRI preprocessing	20	nipype/references/tutorials/s3datagrabber-communication/s3datagrabber-communication.md, nipype/references/tutorials/compcor-bad-input-shapes/compcor-bad-input-shapes.md, nipype/references/tutorials/computedvars-inputs/computedvars-inputs.md
+qsiprep	image IO	20	qsiprep/references/tutorials/synthseg-interface/synthseg-interface.md, qsiprep/references/tutorials/synthstrip-interface/synthstrip-interface.md, qsiprep/references/documentation/other/preprocessing.rst
+afni	diffusion preprocessing	19	afni/references/tutorials/index.md, afni/references/tutorials/1ddw-grad-o-mat-plus-plus-colmat/1ddw-grad-o-mat-plus-plus-colmat.md, afni/references/documentation/overview/README.rst
+bids-specification	experiment design	19	bids-specification/references/documentation/other/events.md, bids-specification/references/documentation/other/hed.md, bids-specification/references/documentation/other/common-principles.md
+dipy	Bayesian modeling	18	dipy/references/tutorials/diffusivities/diffusivities.md, dipy/references/documentation/other/api_changes.rst, dipy/references/documentation/other/b_and_q.rst
+nipype	EEG preprocessing	18	nipype/references/tutorials/index.md, nipype/references/tutorials/extract-inputs/extract-inputs.md, nipype/references/tutorials/ica-aroma-inputs/ica-aroma-inputs.md
+afni	BIDS	17	afni/references/tutorials/index.md, afni/references/tutorials/retrots-bids-basic/retrots-bids-basic.md, afni/references/tutorials/retrots-bids-custom-slice-order/retrots-bids-custom-slice-order.md
+nibabel	EEG preprocessing	17	nibabel/references/tutorials/a2f-upscale/a2f-upscale.md, nibabel/references/documentation/other/bv_formats.rst, nibabel/references/documentation/other/gettingstarted.rst
+nibabel	fMRI preprocessing	17	nibabel/references/documentation/other/biap_0009.rst, nibabel/references/documentation/other/biap_0003.rst, nibabel/references/documentation/other/CONTRIBUTING.md
+nibabel	quality control	17	nibabel/references/tutorials/checks/checks.md, nibabel/references/tutorials/logging/logging.md, nibabel/references/documentation/other/dcm2nii_algorithms.rst
+mne-python	browser experiment	16	mne-python/references/tutorials/index.md, mne-python/references/tutorials/qt-scraper/qt-scraper.md, mne-python/references/tutorials/raw-plot-theme/raw-plot-theme.md
+bids-specification	quality control	15	bids-specification/references/tutorials/index.md, bids-specification/references/documentation/overview/Maintainers_Guide.md, bids-specification/references/tutorials/write-report/write-report.md
+eeglab	epoching	15	eeglab/references/documentation/overview/AGENTS.md
+nibabel	epoching	14	nibabel/references/tutorials/fillpositive-plus-minus-epsilon/fillpositive-plus-minus-epsilon.md, nibabel/references/documentation/other/dicom_intro.rst
+qsiprep	EEG preprocessing	14	qsiprep/references/documentation/other/preprocessing.rst, qsiprep/references/documentation/other/quickstart.rst, qsiprep/references/documentation/overview/AGENTS.md
+eeglab	reproducibility	13	eeglab/references/documentation/community/CODE_OF_CONDUCT.md, eeglab/references/documentation/templates/bug_report.md, eeglab/references/documentation/templates/new-plugin-or-plugin-update.md
+nilearn	browser experiment	13	nilearn/references/documentation/other/index.rst, nilearn/references/documentation/other/0.5.0.rst, nilearn/references/documentation/other/0.6.0.rst
+nipype	quality control	13	nipype/references/tutorials/melodic-inputs/melodic-inputs.md, nipype/references/documentation/other/quickstart.rst, nipype/references/tutorials/cat12segment-outputs/cat12segment-outputs.md
+psychopy	registration	13	psychopy/references/tutorials/transform/transform.md, psychopy/references/tutorials/index.md
+qsiprep	confounds	13	qsiprep/references/documentation/other/preprocessing.rst, qsiprep/references/documentation/overview/AGENTS.md, qsiprep/references/documentation/other/contributors.rst
+snakemake	behavioral data	13	snakemake/references/documentation/other/rules.rst, snakemake/references/documentation/other/configuration.rst, snakemake/references/documentation/community/CODE_OF_CONDUCT.md
+fmriprep	GLM	12	fmriprep/references/documentation/other/outputs.rst, fmriprep/references/documentation/other/workflows.rst, fmriprep/references/documentation/other/faq.rst
+jspsych	Bayesian modeling	12	jspsych/references/documentation/other/eye-tracking.md, jspsych/references/documentation/other/html-audio-response.md, jspsych/references/documentation/guides/hello-world.md
+jspsych	quality control	12	jspsych/references/documentation/community/code-of-conduct.md, jspsych/references/documentation/other/browser-device-support.md, jspsych/references/documentation/other/virtual-chinrest.md
+nipype	behavioral data	12	nipype/references/tutorials/modify-paths-bug/modify-paths-bug.md, nipype/references/documentation/community/CODE_OF_CONDUCT.md, nipype/references/tutorials/csd-inputs/csd-inputs.md
+nipype	source localization	12	nipype/references/tutorials/watershedbem-outputs/watershedbem-outputs.md
+pymc	EEG preprocessing	12	pymc/references/documentation/overview/README.rst, pymc/references/documentation/other/jupyter_style.md, pymc/SKILL.md
+pymc	quality control	12	pymc/references/tutorials/sample-return-lengths/sample-return-lengths.md, pymc/references/documentation/other/running_the_test_suite.md, pymc/references/tutorials/marginal-likelihood/marginal-likelihood.md
+nipype	GLM	10	nipype/references/tutorials/index.md, nipype/references/tutorials/computetdi-inputs/computetdi-inputs.md, nipype/references/tutorials/contrast-inputs/contrast-inputs.md
+nibabel	BIDS	9	nibabel/references/documentation/other/biap_0009.rst, nibabel/references/documentation/other/add_image_format.rst, nibabel/references/documentation/other/spm_use.rst
+nipype	confounds	9	nipype/references/tutorials/multipleregressdesign/multipleregressdesign.md, nipype/references/tutorials/compcor-bad-input-shapes/compcor-bad-input-shapes.md, nipype/references/tutorials/computedvars-inputs/computedvars-inputs.md
+nipype	epoching	9	nipype/references/tutorials/maximage/maximage.md, nipype/references/tutorials/datasink-to-s3/datasink-to-s3.md, nipype/references/tutorials/simulatemultitensor-inputs/simulatemultitensor-inputs.md
+snakemake	BIDS	9	snakemake/references/documentation/other/rules.rst, snakemake/references/documentation/guides/additional_features.rst, snakemake/references/documentation/other/codebase.rst
+afni	connectome	8	afni/references/documentation/other/cover.rst, afni/references/documentation/other/index.rst, afni/references/documentation/other/ROI_45a.rst
+bids-specification	GLM	8	bids-specification/references/documentation/other/common-principles.md, bids-specification/references/documentation/other/common-data-types.md, bids-specification/references/documentation/other/dataset-description.md
+dipy	derivatives	8	dipy/references/documentation/other/buan_flow.rst, dipy/references/tutorials/index.md
+dipy	fMRI preprocessing	8	dipy/references/documentation/other/motion_flow.rst, dipy/references/documentation/other/coding_style_guideline.rst, dipy/references/documentation/other/configure_git.rst
+dipy	statistics	8	dipy/references/tutorials/sh-to-bingham-handles-empty-voxels/sh-to-bingham-handles-empty-voxels.md, dipy/references/documentation/other/buan_flow.rst, dipy/references/documentation/other/denoise_flow.rst
+dipy	tractography	8	dipy/references/tutorials/convert-tensor/convert-tensor.md, dipy/references/documentation/other/api_changes.rst, dipy/references/documentation/other/faq.rst
+fmriprep	statistics	8	fmriprep/references/documentation/other/outputs.rst, fmriprep/references/documentation/other/workflows.rst
+mrtrix3	derivatives	8	mrtrix3/references/documentation/api/dirstat.rst, mrtrix3/references/documentation/other/dw_scheme.rst, mrtrix3/references/documentation/other/build_from_source.rst
+mrtrix3	statistics	8	mrtrix3/references/documentation/other/displaying_results_with_streamlines.rst, mrtrix3/references/documentation/api/connectomestats.rst, mrtrix3/references/documentation/api/fixelcfestats.rst
+psychopy	browser experiment	8	psychopy/references/tutorials/index.md, psychopy/references/tutorials/plugin-stub-links/plugin-stub-links.md, psychopy/references/documentation/other/2024.1.0.md
+fmriprep	epoching	7	fmriprep/references/tutorials/index.md, fmriprep/references/tutorials/baseline-found-as-str/baseline-found-as-str.md
+mne-python	fMRI preprocessing	7	mne-python/references/documentation/other/installers.rst, mne-python/references/documentation/other/contributing.rst
+nibabel	diffusion preprocessing	7	nibabel/references/tutorials/index.md, nibabel/references/tutorials/dwi-params/dwi-params.md
+nibabel	statistics	7	nibabel/references/tutorials/index.md, nibabel/references/tutorials/io-orientation-column-strength-regression/io-orientation-column-strength-regression.md
+nipype	statistics	7	nipype/references/tutorials/index.md, nipype/references/tutorials/icc-rep-anova/icc-rep-anova.md
+pymc	BIDS	7	pymc/references/tutorials/gradients/gradients.md, pymc/references/documentation/guides/Probability_Distributions.rst, pymc/references/documentation/other/glossary.md
+pymc	derivatives	7	pymc/references/tutorials/gradients/gradients.md, pymc/references/documentation/other/using_gitpod.md, pymc/references/documentation/other/glossary.md
+bids-specification	registration	6	bids-specification/references/documentation/specifications/microscopy.md, bids-specification/references/documentation/specifications/magnetic-resonance-spectroscopy.md, bids-specification/references/documentation/other/coordinate-systems.md
+dipy	BIDS	6	dipy/references/documentation/other/buan_flow.rst, dipy/references/documentation/other/reconstruction_models_list.rst
+dipy	experiment design	6	dipy/references/tutorials/normalization/normalization.md, dipy/references/documentation/other/toolchain.rst
+eeglab	BIDS	6	eeglab/references/documentation/overview/AGENTS.md, eeglab/references/documentation/overview/README.md
+fmriprep	Bayesian modeling	6	fmriprep/references/documentation/other/workflows.rst, fmriprep/references/documentation/other/outputs.rst, fmriprep/references/documentation/other/spaces.rst
+freesurfer	Bayesian modeling	6	freesurfer/references/documentation/overview/ReconAllTableStableV6.0.md, freesurfer/references/documentation/overview/FAQ.md, freesurfer/references/documentation/overview/FreeSurferMethodsCitation.md
+freesurfer	workflow management	6	freesurfer/SKILL.md, freesurfer/references/documentation/overview/DownloadAndInstall.md
+jspsych	workflow management	6	jspsych/references/documentation/other/style.md, jspsych/references/documentation/guides/community-tutorials.md
+mrtrix3	fMRI preprocessing	6	mrtrix3/references/documentation/api/dwifslpreproc.rst, mrtrix3/references/documentation/api/mrdegibbs.rst, mrtrix3/references/documentation/other/pe_scheme.rst
+nibabel	experiment design	6	nibabel/references/documentation/other/biap_0001.rst, nibabel/references/documentation/other/data_pkg_discuss.rst, nibabel/references/documentation/other/dicom_niftiheader.rst
+nipype	events	6	nipype/references/tutorials/level1design/level1design.md, nipype/references/tutorials/callback-gantt/callback-gantt.md
+nipype	tractography	6	nipype/references/documentation/other/interfaces.rst, nipype/references/tutorials/tractography-inputs/tractography-inputs.md, nipype/references/documentation/overview/README.rst
+qsiprep	GLM	6	qsiprep/references/documentation/other/preprocessing.rst, qsiprep/references/documentation/other/quickstart.rst
+snakemake	GLM	6	snakemake/references/documentation/other/modularization.rst, snakemake/references/documentation/other/rules.rst, snakemake/references/documentation/guides/advanced.rst
+snakemake	epoching	6	snakemake/references/tutorials/index.md, snakemake/references/tutorials/log-events/log-events.md
+afni	Bayesian modeling	5	afni/references/tutorials/unparse-args-for-container/unparse-args-for-container.md
+afni	EEG preprocessing	5	afni/references/tutorials/a2f-upscale/a2f-upscale.md
+afni	fMRI preprocessing	5	afni/references/documentation/overview/README.rst, afni/references/tutorials/retrots-bids-custom-slice-order/retrots-bids-custom-slice-order.md
+afni	quality control	5	afni/references/tutorials/logging/logging.md, afni/references/documentation/overview/README.rst
+afni	surface reconstruction	5	afni/references/documentation/overview/README.rst, afni/SKILL.md, afni/references/documentation/other/glossary.rst
+jspsych	fMRI preprocessing	5	jspsych/references/documentation/other/style.md, jspsych/references/documentation/other/eye-tracking.md, jspsych/references/documentation/other/plugins.md
+mne-python	derivatives	5	mne-python/references/tutorials/index.md
+nibabel	GLM	5	nibabel/references/documentation/other/dicom_intro.rst, nibabel/references/documentation/other/biap_0003.rst, nibabel/references/documentation/other/biap_0009.rst
+nibabel	behavioral data	5	nibabel/references/documentation/other/dicom_intro.rst
+nibabel	connectome	5	nibabel/references/documentation/other/nifti_images.rst, nibabel/references/tutorials/read-labels/read-labels.md, nibabel/references/documentation/other/coordinate_systems.rst
+nilearn	experiment design	5	nilearn/references/documentation/other/glm_intro.rst, nilearn/references/tutorials/design-warnings/design-warnings.md, nilearn/references/documentation/other/index.rst
+nilearn	tractography	5	nilearn/references/tutorials/second-level-input-as-3d-images/second-level-input-as-3d-images.md, nilearn/references/documentation/other/glossary.rst
+pymc	epoching	5	pymc/references/documentation/other/glossary.md, pymc/references/documentation/overview/GOVERNANCE.md, pymc/references/documentation/overview/README.rst
+afni	derivatives	4	afni/references/tutorials/index.md
+eeglab	events	4	eeglab/references/documentation/overview/AGENTS.md
+freesurfer	GLM	4	freesurfer/references/documentation/overview/FAQ.md, freesurfer/references/documentation/overview/Glossary.md
+freesurfer	fMRI preprocessing	4	freesurfer/references/documentation/overview/Glossary.md, freesurfer/references/documentation/overview/FreeSurferCommandsRegistration.md, freesurfer/references/documentation/overview/FreeSurferMethodsCitation.md
+mrtrix3	experiment design	4	mrtrix3/references/documentation/api/dwidenoise.rst, mrtrix3/references/documentation/other/external_modules.rst, mrtrix3/references/documentation/other/module.md
+nibabel	tractography	4	nibabel/references/documentation/other/biap_0005.rst
+psychopy	EEG preprocessing	4	psychopy/references/tutorials/formatting/formatting.md
+pymc	tractography	4	pymc/references/documentation/overview/GOVERNANCE.md, pymc/references/documentation/guides/Gaussian_Processes.rst, pymc/references/documentation/other/Gaussian_Processes.rst
+eeglab	quality control	3	eeglab/references/documentation/templates/bug_report.md, eeglab/references/documentation/contributing/CONTRIBUTING.md
+fmriprep	behavioral data	3	fmriprep/references/documentation/other/faq.rst, fmriprep/references/documentation/other/outputs.rst, fmriprep/references/documentation/overview/README.rst
+freesurfer	quality control	3	freesurfer/references/documentation/overview/CoordinateSystems.md, freesurfer/references/documentation/overview/FAQ.md, freesurfer/references/documentation/overview/FreeSurferSupport.md
+jspsych	BIDS	3	jspsych/references/documentation/guides/rt-task.md, jspsych/references/documentation/other/plugins.md, jspsych/references/documentation/other/style.md
+jspsych	registration	3	jspsych/references/documentation/other/record-video.md
+mne-python	GLM	3	mne-python/references/documentation/other/datasets.rst, mne-python/references/documentation/other/migrating.rst, mne-python/references/documentation/other/roadmap.rst
+psychopy	tractography	3	psychopy/references/documentation/community/code-of-conduct.md, psychopy/references/documentation/features/readme.md, psychopy/references/documentation/other/readme.md
+pymc	browser experiment	3	pymc/references/documentation/other/using_gitpod.md, pymc/references/documentation/other/build_docs.md
+afni	experiment design	2	afni/references/documentation/other/README.md, afni/references/documentation/overview/README.rst
+dipy	browser experiment	2	dipy/references/documentation/other/CONTRIBUTING.md, dipy/references/documentation/other/README.rst
+dipy	events	2	dipy/references/documentation/other/faq.rst, dipy/references/documentation/other/reconstruction_flow.rst
+eeglab	Bayesian modeling	2	eeglab/references/documentation/contributing/CONTRIBUTING.md, eeglab/references/documentation/overview/AGENTS.md
+eeglab	behavioral data	2	eeglab/references/documentation/community/CODE_OF_CONDUCT.md, eeglab/references/documentation/overview/README.md
+eeglab	statistics	2	eeglab/references/documentation/contributing/CONTRIBUTING.md, eeglab/references/documentation/other/SKILL.md
+eeglab	tractography	2	eeglab/references/documentation/community/CODE_OF_CONDUCT.md, eeglab/references/documentation/contributing/CONTRIBUTING.md
+eeglab	workflow management	2	eeglab/references/documentation/contributing/CONTRIBUTING.md, eeglab/references/documentation/overview/AGENTS.md
+jspsych	statistics	2	jspsych/references/documentation/other/eye-tracking.md, jspsych/references/documentation/other/webgazer.md
+mne-python	tractography	2	mne-python/references/documentation/other/design_philosophy.rst, mne-python/references/documentation/other/glossary.rst
+mrtrix3	confounds	2	mrtrix3/references/documentation/other/computing_effect_size_wrt_controls.rst
+mrtrix3	workflow management	2	mrtrix3/references/documentation/contributing/CONTRIBUTING.md, mrtrix3/references/documentation/other/sift.rst
+nibabel	derivatives	2	nibabel/references/documentation/other/spm_use.rst
+psychopy	derivatives	2	psychopy/references/tutorials/index.md
+snakemake	Bayesian modeling	2	snakemake/references/documentation/guides/advanced.rst, snakemake/references/documentation/other/codebase.rst
+snakemake	derivatives	2	snakemake/references/documentation/other/rules.rst
+snakemake	statistics	2	snakemake/references/documentation/other/README.md, snakemake/references/documentation/other/contributing.rst
+snakemake	tractography	2	snakemake/references/documentation/community/CODE_OF_CONDUCT.md, snakemake/references/documentation/other/rules.rst
+afni	statistics	1	afni/references/documentation/overview/README.rst
+bids-specification	tractography	1	bids-specification/references/documentation/overview/README.md
+eeglab	containerization	1	eeglab/references/documentation/overview/AGENTS.md
+eeglab	experiment design	1	eeglab/references/documentation/overview/AGENTS.md
+eeglab	surface reconstruction	1	eeglab/SKILL.md
+fmriprep	diffusion preprocessing	1	fmriprep/references/documentation/other/outputs.rst
+fmriprep	events	1	fmriprep/references/documentation/other/outputs.rst
+fmriprep	experiment design	1	fmriprep/references/documentation/other/workflows.rst
+freesurfer	BIDS	1	freesurfer/references/documentation/overview/Glossary.md
+freesurfer	behavioral data	1	freesurfer/references/documentation/overview/FAQ.md
+freesurfer	browser experiment	1	freesurfer/references/documentation/overview/Tutorials.md
+freesurfer	diffusion preprocessing	1	freesurfer/references/documentation/overview/FreeSurferMethodsCitation.md
+freesurfer	epoching	1	freesurfer/references/documentation/overview/FAQ.md
+freesurfer	image IO	1	freesurfer/SKILL.md
+jspsych	surface reconstruction	1	jspsych/SKILL.md
+jspsych	tractography	1	jspsych/references/documentation/other/simulation.md
+mrtrix3	epoching	1	mrtrix3/references/documentation/api/tckgen.rst
+nibabel	events	1	nibabel/references/documentation/other/dicom_niftiheader.rst
+nipype	derivatives	1	nipype/references/tutorials/index.md
+nipype	experiment design	1	nipype/references/documentation/other/cmd_interface_devel.rst
+psychopy	quality control	1	psychopy/references/documentation/other/readme.md
+psychopy	surface reconstruction	1	psychopy/SKILL.md
+pymc	GLM	1	pymc/references/documentation/other/glossary.md
+pymc	surface reconstruction	1	pymc/SKILL.md
+qsiprep	Bayesian modeling	1	qsiprep/references/documentation/other/preprocessing.rst
+qsiprep	connectome	1	qsiprep/references/documentation/overview/README.rst
+snakemake	connectome	1	snakemake/references/documentation/other/contributing.rst
+snakemake	events	1	snakemake/references/documentation/other/faq.rst
+snakemake	surface reconstruction	1	snakemake/SKILL.md

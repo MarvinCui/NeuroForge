@@ -1,0 +1,30 @@
+[
+  {
+    "pattern_type": "Builder",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "psychopy/psychopy/event.py",
+    "class_name": "BuilderKeyResponse",
+    "method_name": null,
+    "line_number": 968,
+    "evidence": [
+      "Class name contains \"Builder\": BuilderKeyResponse"
+    ],
+    "related_classes": [],
+    "file_path": "psychopy/psychopy/event.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "psychopy/psychopy/platform_specific/darwin.py",
+    "class_name": "_timeConstraintThreadPolicy",
+    "method_name": null,
+    "line_number": 70,
+    "evidence": [
+      "Class name suggests Strategy: _timeConstraintThreadPolicy"
+    ],
+    "related_classes": [],
+    "file_path": "psychopy/psychopy/platform_specific/darwin.py"
+  }
+]

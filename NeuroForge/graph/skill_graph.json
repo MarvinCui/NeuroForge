@@ -1,0 +1,3124 @@
+{
+  "nodes": [
+    {
+      "id": "afni",
+      "type": "tool",
+      "file_count": 257,
+      "total_bytes": 3854689
+    },
+    {
+      "id": "bids-specification",
+      "type": "tool",
+      "file_count": 84,
+      "total_bytes": 1438037
+    },
+    {
+      "id": "dipy",
+      "type": "tool",
+      "file_count": 578,
+      "total_bytes": 9877385
+    },
+    {
+      "id": "eeglab",
+      "type": "tool",
+      "file_count": 11,
+      "total_bytes": 41826
+    },
+    {
+      "id": "fmriprep",
+      "type": "tool",
+      "file_count": 60,
+      "total_bytes": 803066
+    },
+    {
+      "id": "freesurfer",
+      "type": "tool",
+      "file_count": 19,
+      "total_bytes": 344568
+    },
+    {
+      "id": "jspsych",
+      "type": "tool",
+      "file_count": 109,
+      "total_bytes": 905800
+    },
+    {
+      "id": "mne-python",
+      "type": "tool",
+      "file_count": 783,
+      "total_bytes": 14612760
+    },
+    {
+      "id": "mrtrix3",
+      "type": "tool",
+      "file_count": 201,
+      "total_bytes": 1163712
+    },
+    {
+      "id": "nibabel",
+      "type": "tool",
+      "file_count": 338,
+      "total_bytes": 4891719
+    },
+    {
+      "id": "nilearn",
+      "type": "tool",
+      "file_count": 690,
+      "total_bytes": 9595536
+    },
+    {
+      "id": "nipype",
+      "type": "tool",
+      "file_count": 934,
+      "total_bytes": 9704375
+    },
+    {
+      "id": "psychopy",
+      "type": "tool",
+      "file_count": 174,
+      "total_bytes": 2727669
+    },
+    {
+      "id": "pymc",
+      "type": "tool",
+      "file_count": 497,
+      "total_bytes": 7149463
+    },
+    {
+      "id": "qsiprep",
+      "type": "tool",
+      "file_count": 51,
+      "total_bytes": 594525
+    },
+    {
+      "id": "snakemake",
+      "type": "tool",
+      "file_count": 99,
+      "total_bytes": 1147909
+    },
+    {
+      "id": "BIDS",
+      "type": "concept"
+    },
+    {
+      "id": "fMRI preprocessing",
+      "type": "concept"
+    },
+    {
+      "id": "diffusion preprocessing",
+      "type": "concept"
+    },
+    {
+      "id": "tractography",
+      "type": "concept"
+    },
+    {
+      "id": "connectome",
+      "type": "concept"
+    },
+    {
+      "id": "image IO",
+      "type": "concept"
+    },
+    {
+      "id": "GLM",
+      "type": "concept"
+    },
+    {
+      "id": "EEG preprocessing",
+      "type": "concept"
+    },
+    {
+      "id": "epoching",
+      "type": "concept"
+    },
+    {
+      "id": "time-frequency analysis",
+      "type": "concept"
+    },
+    {
+      "id": "source localization",
+      "type": "concept"
+    },
+    {
+      "id": "experiment design",
+      "type": "concept"
+    },
+    {
+      "id": "browser experiment",
+      "type": "concept"
+    },
+    {
+      "id": "Bayesian modeling",
+      "type": "concept"
+    },
+    {
+      "id": "statistics",
+      "type": "concept"
+    },
+    {
+      "id": "workflow management",
+      "type": "concept"
+    },
+    {
+      "id": "containerization",
+      "type": "concept"
+    },
+    {
+      "id": "registration",
+      "type": "concept"
+    },
+    {
+      "id": "surface reconstruction",
+      "type": "concept"
+    },
+    {
+      "id": "quality control",
+      "type": "concept"
+    },
+    {
+      "id": "derivatives",
+      "type": "concept"
+    },
+    {
+      "id": "confounds",
+      "type": "concept"
+    },
+    {
+      "id": "events",
+      "type": "concept"
+    },
+    {
+      "id": "behavioral data",
+      "type": "concept"
+    },
+    {
+      "id": "reproducibility",
+      "type": "concept"
+    }
+  ],
+  "edges": [
+    {
+      "source": "mne-python",
+      "target": "EEG preprocessing",
+      "weight": 5311,
+      "top_files": [
+        "mne-python/references/tutorials/index.md",
+        "mne-python/references/tutorials/fnirs-check-bads/fnirs-check-bads.md",
+        "mne-python/references/tutorials/ica-ctf/ica-ctf.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "Bayesian modeling",
+      "weight": 4183,
+      "top_files": [
+        "pymc/references/documentation/other/developer_guide.md",
+        "pymc/references/documentation/overview/README.rst",
+        "pymc/references/documentation/overview/GOVERNANCE.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "BIDS",
+      "weight": 3772,
+      "top_files": [
+        "bids-specification/references/documentation/overview/README.md",
+        "bids-specification/references/documentation/other/common-principles.md",
+        "bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "browser experiment",
+      "weight": 3739,
+      "top_files": [
+        "jspsych/references/documentation/guides/rt-task.md",
+        "jspsych/references/documentation/guides/hello-world.md",
+        "jspsych/references/documentation/api/jspsych.md"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "workflow management",
+      "weight": 3039,
+      "top_files": [
+        "snakemake/references/documentation/other/rules.rst",
+        "snakemake/references/documentation/other/deployment.rst",
+        "snakemake/references/documentation/guides/basics.rst"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "epoching",
+      "weight": 3038,
+      "top_files": [
+        "mne-python/references/tutorials/index.md",
+        "mne-python/references/tutorials/own-data/own-data.md",
+        "mne-python/references/tutorials/continuous-regression-no-overlap/continuous-regression-no-overlap.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "workflow management",
+      "weight": 2399,
+      "top_files": [
+        "nipype/references/documentation/other/interfaces.rst",
+        "nipype/references/documentation/overview/README.rst",
+        "nipype/references/documentation/other/interface_specs.rst"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "reproducibility",
+      "weight": 2279,
+      "top_files": [
+        "mne-python/references/documentation/other/contributing.rst",
+        "mne-python/references/tutorials/incomplete-file-suite/incomplete-file-suite.md",
+        "mne-python/references/documentation/other/advanced.rst"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "workflow management",
+      "weight": 2104,
+      "top_files": [
+        "mne-python/SKILL.md",
+        "mne-python/references/tutorials/find-events-backward-compatibility/find-events-backward-compatibility.md",
+        "mne-python/references/documentation/other/cookbook.rst"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "behavioral data",
+      "weight": 2000,
+      "top_files": [
+        "jspsych/references/documentation/guides/rt-task.md",
+        "jspsych/references/documentation/other/plugins.md",
+        "jspsych/references/documentation/other/plugin-development.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "reproducibility",
+      "weight": 1765,
+      "top_files": [
+        "nilearn/references/documentation/contributing/CONTRIBUTING.rst",
+        "nilearn/references/tutorials/fetch-atlas-aal/fetch-atlas-aal.md",
+        "nilearn/SKILL.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "containerization",
+      "weight": 1712,
+      "top_files": [
+        "mrtrix3/references/documentation/other/image_data.rst",
+        "mrtrix3/references/documentation/other/pe_scheme.rst",
+        "mrtrix3/references/documentation/other/image_access.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "reproducibility",
+      "weight": 1694,
+      "top_files": [
+        "nipype/references/tutorials/index.md",
+        "nipype/references/tutorials/expansion/expansion.md",
+        "nipype/references/tutorials/clone-node-iterables/clone-node-iterables.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "workflow management",
+      "weight": 1609,
+      "top_files": [
+        "nilearn/SKILL.md",
+        "nilearn/references/tutorials/3d-images/3d-images.md",
+        "nilearn/references/tutorials/3x3-affine-bbox/3x3-affine-bbox.md"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "reproducibility",
+      "weight": 1603,
+      "top_files": [
+        "dipy/references/tutorials/validate-patch-radius-and-version/validate-patch-radius-and-version.md",
+        "dipy/references/tutorials/patch2self-random-noise/patch2self-random-noise.md",
+        "dipy/references/documentation/other/installation_from_source.rst"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "workflow management",
+      "weight": 1468,
+      "top_files": [
+        "dipy/SKILL.md",
+        "dipy/references/documentation/other/buan_flow.rst",
+        "dipy/references/documentation/other/development_workflow.rst"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "reproducibility",
+      "weight": 1343,
+      "top_files": [
+        "pymc/references/documentation/other/using_gitpod.md",
+        "pymc/SKILL.md",
+        "pymc/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "workflow management",
+      "weight": 1273,
+      "top_files": [
+        "pymc/SKILL.md",
+        "pymc/references/tutorials/censored-workflow/censored-workflow.md",
+        "pymc/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "registration",
+      "weight": 1078,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/tutorials/resample-stat-map/resample-stat-map.md",
+        "nilearn/references/tutorials/nifti-labels-masker-resampling-to-clipped-labels/nifti-labels-masker-resampling-to-clipped-labels.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "image IO",
+      "weight": 1076,
+      "top_files": [
+        "nibabel/references/documentation/overview/README.rst",
+        "nibabel/references/documentation/other/nifti_images.rst",
+        "nibabel/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "experiment design",
+      "weight": 1047,
+      "top_files": [
+        "psychopy/references/tutorials/plugin-stub-links/plugin-stub-links.md",
+        "psychopy/references/documentation/overview/README.md",
+        "psychopy/SKILL.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "reproducibility",
+      "weight": 948,
+      "top_files": [
+        "nibabel/references/documentation/other/data_pkg_discuss.rst",
+        "nibabel/SKILL.md",
+        "nibabel/references/tutorials/load-trk-version-1/load-trk-version-1.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "containerization",
+      "weight": 915,
+      "top_files": [
+        "nilearn/references/documentation/other/index.rst",
+        "nilearn/references/documentation/other/masker_objects.rst",
+        "nilearn/references/documentation/other/manipulating_images.rst"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "experiment design",
+      "weight": 892,
+      "top_files": [
+        "jspsych/references/documentation/guides/rt-task.md",
+        "jspsych/references/documentation/other/style.md",
+        "jspsych/references/documentation/guides/hello-world.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "surface reconstruction",
+      "weight": 890,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/documentation/other/index.rst",
+        "nilearn/references/documentation/other/0.11.0.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "reproducibility",
+      "weight": 841,
+      "top_files": [
+        "snakemake/references/documentation/other/deployment.rst",
+        "snakemake/references/documentation/other/rules.rst",
+        "snakemake/references/documentation/other/cli.rst"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "workflow management",
+      "weight": 823,
+      "top_files": [
+        "nibabel/SKILL.md",
+        "nibabel/references/documentation/other/development_workflow.rst",
+        "nibabel/references/documentation/other/maintainer_workflow.rst"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "surface reconstruction",
+      "weight": 788,
+      "top_files": [
+        "freesurfer/references/documentation/overview/ReconAllTableStableV6.0.md",
+        "freesurfer/references/documentation/overview/FAQ.md",
+        "freesurfer/SKILL.md"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "reproducibility",
+      "weight": 774,
+      "top_files": [
+        "afni/references/documentation/other/README.rst",
+        "afni/references/tutorials/index.md",
+        "afni/references/tutorials/chown-extra/chown-extra.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "image IO",
+      "weight": 773,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/documentation/other/input_output.rst",
+        "nilearn/references/tutorials/repr-niimgs-force-long-names/repr-niimgs-force-long-names.md"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "diffusion preprocessing",
+      "weight": 753,
+      "top_files": [
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/SKILL.md",
+        "qsiprep/references/documentation/other/usage.rst"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "workflow management",
+      "weight": 718,
+      "top_files": [
+        "afni/SKILL.md",
+        "afni/references/documentation/overview/README.rst",
+        "afni/references/tutorials/-check-hdr-points-space/-check-hdr-points-space.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "containerization",
+      "weight": 694,
+      "top_files": [
+        "nibabel/references/documentation/other/nibabel_images.rst",
+        "nibabel/references/documentation/other/coordinate_systems.rst",
+        "nibabel/references/documentation/other/biap_0003.rst"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "events",
+      "weight": 686,
+      "top_files": [
+        "jspsych/references/documentation/guides/rt-task.md",
+        "jspsych/references/documentation/other/timeline.md",
+        "jspsych/references/documentation/other/style.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "tractography",
+      "weight": 651,
+      "top_files": [
+        "mrtrix3/references/documentation/api/5ttgen.rst",
+        "mrtrix3/references/documentation/api/tckgen.rst",
+        "mrtrix3/references/documentation/other/image_data.rst"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "registration",
+      "weight": 603,
+      "top_files": [
+        "dipy/references/tutorials/index.md",
+        "dipy/references/tutorials/check-img-shapes/check-img-shapes.md",
+        "dipy/references/documentation/other/registration_flow.rst"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "BIDS",
+      "weight": 578,
+      "top_files": [
+        "fmriprep/references/tutorials/bidsuri/bidsuri.md",
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/SKILL.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "connectome",
+      "weight": 577,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/documentation/other/functional_connectomes.rst",
+        "nilearn/references/documentation/other/connectome_extraction.rst"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "source localization",
+      "weight": 570,
+      "top_files": [
+        "mne-python/references/tutorials/index.md",
+        "mne-python/references/documentation/other/cookbook.rst",
+        "mne-python/references/documentation/other/forward.rst"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "fMRI preprocessing",
+      "weight": 555,
+      "top_files": [
+        "fmriprep/references/documentation/other/workflows.rst",
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/references/documentation/other/faq.rst"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "fMRI preprocessing",
+      "weight": 552,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/tutorials/check-parameters-transform/check-parameters-transform.md",
+        "nilearn/references/tutorials/clean-confounds-inputs/clean-confounds-inputs.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "reproducibility",
+      "weight": 527,
+      "top_files": [
+        "mrtrix3/references/documentation/api/dwi2response.rst",
+        "mrtrix3/references/documentation/other/build_from_source.rst",
+        "mrtrix3/references/documentation/other/using_containers.rst"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "GLM",
+      "weight": 527,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/tutorials/save-glm-to-bids-contrast-definitions/save-glm-to-bids-contrast-definitions.md",
+        "nilearn/references/tutorials/save-glm-to-bids-second-level/save-glm-to-bids-second-level.md"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "reproducibility",
+      "weight": 501,
+      "top_files": [
+        "psychopy/SKILL.md",
+        "psychopy/references/tutorials/writing/writing.md",
+        "psychopy/references/tutorials/default/default.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "BIDS",
+      "weight": 497,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/tutorials/save-glm-to-bids-infer-filenames/save-glm-to-bids-infer-filenames.md",
+        "nilearn/references/tutorials/select-from-index/select-from-index.md"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "workflow management",
+      "weight": 481,
+      "top_files": [
+        "psychopy/SKILL.md",
+        "psychopy/references/tutorials/add-args-and-kwargs/add-args-and-kwargs.md",
+        "psychopy/references/tutorials/add-invalid-modifiers/add-invalid-modifiers.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "registration",
+      "weight": 459,
+      "top_files": [
+        "nibabel/references/documentation/other/coordinate_systems.rst",
+        "nibabel/references/documentation/other/nifti_images.rst",
+        "nibabel/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "BIDS",
+      "weight": 431,
+      "top_files": [
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/references/documentation/other/usage.rst",
+        "qsiprep/references/tutorials/group-dwi-scans-with-complex-b0fields/group-dwi-scans-with-complex-b0fields.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "events",
+      "weight": 424,
+      "top_files": [
+        "mne-python/references/tutorials/crop-more/crop-more.md",
+        "mne-python/references/tutorials/read-vhdr-annotations-and-events/read-vhdr-annotations-and-events.md",
+        "mne-python/references/tutorials/export-edf-annotations/export-edf-annotations.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "surface reconstruction",
+      "weight": 421,
+      "top_files": [
+        "mne-python/references/tutorials/index.md",
+        "mne-python/references/documentation/other/forward.rst",
+        "mne-python/references/documentation/other/cookbook.rst"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "confounds",
+      "weight": 420,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/tutorials/check-parameters-transform/check-parameters-transform.md",
+        "nilearn/references/tutorials/clean-confounds-inputs/clean-confounds-inputs.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "registration",
+      "weight": 354,
+      "top_files": [
+        "pymc/references/tutorials/index.md",
+        "pymc/references/tutorials/interdependent-transformed-rvs/interdependent-transformed-rvs.md",
+        "pymc/references/documentation/api/transforms.rst"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "containerization",
+      "weight": 337,
+      "top_files": [
+        "jspsych/references/documentation/other/image-keyboard-response.md",
+        "jspsych/references/documentation/other/image-button-response.md",
+        "jspsych/references/documentation/guides/rt-task.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "derivatives",
+      "weight": 334,
+      "top_files": [
+        "bids-specification/references/documentation/other/imaging.md",
+        "bids-specification/references/documentation/other/atlas.md",
+        "bids-specification/references/documentation/other/common-principles.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "diffusion preprocessing",
+      "weight": 311,
+      "top_files": [
+        "mrtrix3/references/documentation/api/dwifslpreproc.rst",
+        "mrtrix3/references/documentation/other/batch_processing_with_foreach.rst",
+        "mrtrix3/references/documentation/other/dw_scheme.rst"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "registration",
+      "weight": 278,
+      "top_files": [
+        "nipype/references/tutorials/index.md",
+        "nipype/references/tutorials/ants-mand/ants-mand.md",
+        "nipype/references/tutorials/reorientation-backport/reorientation-backport.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "quality control",
+      "weight": 275,
+      "top_files": [
+        "mne-python/references/tutorials/multiple-figs/multiple-figs.md",
+        "mne-python/references/tutorials/add-custom-js/add-custom-js.md",
+        "mne-python/references/tutorials/render-mri/render-mri.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "connectome",
+      "weight": 267,
+      "top_files": [
+        "mrtrix3/references/documentation/other/connectome_tool.rst",
+        "mrtrix3/references/documentation/other/structural_connectome.rst",
+        "mrtrix3/references/documentation/other/labelconvert_tutorial.rst"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "time-frequency analysis",
+      "weight": 261,
+      "top_files": [
+        "mne-python/references/tutorials/index.md",
+        "mne-python/references/tutorials/tfr-decim-and-shift-time/tfr-decim-and-shift-time.md",
+        "mne-python/references/tutorials/add-channels/add-channels.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "EEG preprocessing",
+      "weight": 258,
+      "top_files": [
+        "bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md",
+        "bids-specification/references/documentation/other/common-principles.md",
+        "bids-specification/references/documentation/other/description.md"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "reproducibility",
+      "weight": 258,
+      "top_files": [
+        "jspsych/references/documentation/other/plugin-development.md",
+        "jspsych/references/documentation/other/migration-v8.md",
+        "jspsych/references/documentation/other/extension-development.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "epoching",
+      "weight": 254,
+      "top_files": [
+        "nilearn/references/tutorials/check-events-warnings/check-events-warnings.md",
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/tutorials/check-events/check-events.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "reproducibility",
+      "weight": 250,
+      "top_files": [
+        "fmriprep/references/documentation/other/workflows.rst",
+        "fmriprep/SKILL.md",
+        "fmriprep/references/documentation/other/installation.rst"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "derivatives",
+      "weight": 245,
+      "top_files": [
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/SKILL.md",
+        "fmriprep/references/tutorials/derivatives/derivatives.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "behavioral data",
+      "weight": 228,
+      "top_files": [
+        "mrtrix3/references/documentation/other/response_function_estimation.rst",
+        "mrtrix3/references/documentation/api/dwi2response.rst",
+        "mrtrix3/references/documentation/other/mt_fibre_density_cross-section.rst"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "containerization",
+      "weight": 227,
+      "top_files": [
+        "dipy/references/documentation/other/denoise_flow.rst",
+        "dipy/references/documentation/other/registration_flow.rst",
+        "dipy/references/tutorials/classify/classify.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "workflow management",
+      "weight": 223,
+      "top_files": [
+        "fmriprep/references/documentation/other/workflows.rst",
+        "fmriprep/SKILL.md",
+        "fmriprep/references/tutorials/config-spaces/config-spaces.md"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "behavioral data",
+      "weight": 212,
+      "top_files": [
+        "dipy/references/tutorials/index.md",
+        "dipy/references/tutorials/multi-shell-fiber-response/multi-shell-fiber-response.md",
+        "dipy/SKILL.md"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "reproducibility",
+      "weight": 212,
+      "top_files": [
+        "qsiprep/references/documentation/overview/AGENTS.md",
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/references/tutorials/dscsdsi/dscsdsi.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "registration",
+      "weight": 209,
+      "top_files": [
+        "mne-python/references/tutorials/xdawn-apply-transform/xdawn-apply-transform.md",
+        "mne-python/references/tutorials/tps/tps.md",
+        "mne-python/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "workflow management",
+      "weight": 209,
+      "top_files": [
+        "qsiprep/references/documentation/overview/AGENTS.md",
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/references/tutorials/dscsdsi/dscsdsi.md"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "containerization",
+      "weight": 207,
+      "top_files": [
+        "snakemake/references/documentation/other/deployment.rst",
+        "snakemake/references/documentation/other/migration.rst",
+        "snakemake/references/documentation/other/index.rst"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "diffusion preprocessing",
+      "weight": 197,
+      "top_files": [
+        "dipy/references/documentation/other/basic_flow.rst",
+        "dipy/references/tutorials/msdki-predict/msdki-predict.md",
+        "dipy/references/tutorials/dki-predict/dki-predict.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "registration",
+      "weight": 193,
+      "top_files": [
+        "mrtrix3/references/documentation/api/mrtransform.rst",
+        "mrtrix3/references/documentation/api/mrregister.rst",
+        "mrtrix3/references/documentation/other/image_data.rst"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "EEG preprocessing",
+      "weight": 170,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/documentation/other/introduction.rst",
+        "nilearn/references/documentation/other/resting_state_networks.rst"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "surface reconstruction",
+      "weight": 169,
+      "top_files": [
+        "nipype/references/tutorials/freesurfersource-outputs/freesurfersource-outputs.md",
+        "nipype/references/tutorials/reconall-outputs/reconall-outputs.md",
+        "nipype/references/tutorials/surfxfm/surfxfm.md"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "containerization",
+      "weight": 166,
+      "top_files": [
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/references/documentation/other/installation.rst",
+        "qsiprep/references/documentation/other/contributors.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "browser experiment",
+      "weight": 165,
+      "top_files": [
+        "snakemake/references/documentation/other/codebase.rst",
+        "snakemake/references/documentation/other/migration.rst",
+        "snakemake/references/tutorials/plugin/plugin.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "image IO",
+      "weight": 164,
+      "top_files": [
+        "mne-python/references/tutorials/save-stc-as-gifti/save-stc-as-gifti.md",
+        "mne-python/references/tutorials/save-vol-stc-as-nifti/save-vol-stc-as-nifti.md",
+        "mne-python/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "surface reconstruction",
+      "weight": 155,
+      "top_files": [
+        "fmriprep/references/documentation/other/workflows.rst",
+        "fmriprep/references/documentation/other/faq.rst",
+        "fmriprep/references/documentation/other/outputs.rst"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "quality control",
+      "weight": 151,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/tutorials/save-glm-to-bids-glm-report-no-contrast/save-glm-to-bids-glm-report-no-contrast.md",
+        "nilearn/references/tutorials/masker-reporting-true/masker-reporting-true.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "reproducibility",
+      "weight": 148,
+      "top_files": [
+        "bids-specification/references/documentation/contributing/CONTRIBUTING.md",
+        "bids-specification/references/documentation/other/hed.md",
+        "bids-specification/SKILL.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "statistics",
+      "weight": 147,
+      "top_files": [
+        "nilearn/references/documentation/other/estimator_choice.rst",
+        "nilearn/references/documentation/other/searchlight.rst",
+        "nilearn/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "events",
+      "weight": 145,
+      "top_files": [
+        "bids-specification/references/documentation/other/events.md",
+        "bids-specification/references/documentation/other/hed.md",
+        "bids-specification/references/documentation/specifications/physiological-recordings.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "behavioral data",
+      "weight": 145,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/tutorials/sample-condition-1/sample-condition-1.md",
+        "nilearn/references/tutorials/sample-condition-3/sample-condition-3.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "events",
+      "weight": 139,
+      "top_files": [
+        "nilearn/references/tutorials/check-events-warnings/check-events-warnings.md",
+        "nilearn/references/tutorials/design-matrix-fir-column-1-3-and-11/design-matrix-fir-column-1-3-and-11.md",
+        "nilearn/references/tutorials/plot-event-error/plot-event-error.md"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "quality control",
+      "weight": 138,
+      "top_files": [
+        "snakemake/references/documentation/other/reporting.rst",
+        "snakemake/references/documentation/api/snakemake.report.html_reporter.data.rst",
+        "snakemake/references/documentation/other/rules.rst"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "containerization",
+      "weight": 129,
+      "top_files": [
+        "nipype/references/documentation/other/testing_nipype.rst",
+        "nipype/references/tutorials/generate/generate.md",
+        "nipype/references/tutorials/datasink-localcopy/datasink-localcopy.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "workflow management",
+      "weight": 126,
+      "top_files": [
+        "bids-specification/references/documentation/other/description.md",
+        "bids-specification/references/tutorials/entity-rule/entity-rule.md",
+        "bids-specification/SKILL.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "derivatives",
+      "weight": 126,
+      "top_files": [
+        "nilearn/references/tutorials/save-glm-to-bids-infer-filenames/save-glm-to-bids-infer-filenames.md",
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/tutorials/get-bids-files-fmriprep/get-bids-files-fmriprep.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "diffusion preprocessing",
+      "weight": 124,
+      "top_files": [
+        "nipype/references/tutorials/index.md",
+        "nipype/references/tutorials/eddy-correct2/eddy-correct2.md",
+        "nipype/references/tutorials/dwi-tool/dwi-tool.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "containerization",
+      "weight": 122,
+      "top_files": [
+        "bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md",
+        "bids-specification/references/documentation/other/imaging.md",
+        "bids-specification/references/documentation/other/qmri.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "containerization",
+      "weight": 118,
+      "top_files": [
+        "mne-python/references/tutorials/index.md",
+        "mne-python/references/documentation/other/funding.rst",
+        "mne-python/references/documentation/overview/README.rst"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "containerization",
+      "weight": 112,
+      "top_files": [
+        "fmriprep/references/documentation/other/installation.rst",
+        "fmriprep/references/documentation/other/faq.rst",
+        "fmriprep/references/documentation/other/workflows.rst"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "image IO",
+      "weight": 111,
+      "top_files": [
+        "mrtrix3/references/documentation/other/image_data.rst",
+        "mrtrix3/references/documentation/api/mrconvert.rst",
+        "mrtrix3/references/documentation/other/dw_scheme.rst"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "image IO",
+      "weight": 107,
+      "top_files": [
+        "dipy/references/documentation/other/api_changes.rst",
+        "dipy/references/documentation/other/faq.rst",
+        "dipy/references/tutorials/ascm-accuracy/ascm-accuracy.md"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "events",
+      "weight": 103,
+      "top_files": [
+        "psychopy/references/tutorials/audioclip-synth/audioclip-synth.md",
+        "psychopy/references/tutorials/blank-timing/blank-timing.md",
+        "psychopy/references/tutorials/audioclip-attrib/audioclip-attrib.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "diffusion preprocessing",
+      "weight": 99,
+      "top_files": [
+        "bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md",
+        "bids-specification/references/tutorials/assignability/assignability.md",
+        "bids-specification/SKILL.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "epoching",
+      "weight": 98,
+      "top_files": [
+        "bids-specification/references/documentation/other/events.md",
+        "bids-specification/references/documentation/other/hed.md",
+        "bids-specification/references/documentation/other/description.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "behavioral data",
+      "weight": 94,
+      "top_files": [
+        "mne-python/references/documentation/other/datasets.rst",
+        "mne-python/references/documentation/other/forward.rst",
+        "mne-python/references/tutorials/correction/correction.md"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "registration",
+      "weight": 92,
+      "top_files": [
+        "afni/references/tutorials/index.md",
+        "afni/references/tutorials/concat/concat.md",
+        "afni/references/tutorials/save-load-endian/save-load-endian.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "connectome",
+      "weight": 90,
+      "top_files": [
+        "bids-specification/references/documentation/other/atlas.md",
+        "bids-specification/references/documentation/other/imaging.md",
+        "bids-specification/references/documentation/other/common-principles.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "confounds",
+      "weight": 90,
+      "top_files": [
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/references/documentation/other/workflows.rst",
+        "fmriprep/references/documentation/overview/REFERENCES.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "GLM",
+      "weight": 87,
+      "top_files": [
+        "mrtrix3/references/documentation/api/fixelcfestats.rst",
+        "mrtrix3/references/documentation/api/tckmap.rst",
+        "mrtrix3/references/documentation/api/connectomestats.rst"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "epoching",
+      "weight": 84,
+      "top_files": [
+        "dipy/references/tutorials/orthogonality-temporal-basis-functions/orthogonality-temporal-basis-functions.md",
+        "dipy/references/tutorials/normalization-time/normalization-time.md",
+        "dipy/references/tutorials/default-cnn1ddenoiser-flow/default-cnn1ddenoiser-flow.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "experiment design",
+      "weight": 77,
+      "top_files": [
+        "mne-python/references/tutorials/plot-heatmap/plot-heatmap.md",
+        "mne-python/references/tutorials/read-vhdr-annotations-and-events/read-vhdr-annotations-and-events.md",
+        "mne-python/references/tutorials/ignore-marker-types/ignore-marker-types.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "browser experiment",
+      "weight": 75,
+      "top_files": [
+        "nipype/references/tutorials/outputs-removal-wf/outputs-removal-wf.md",
+        "nipype/references/tutorials/callback-gantt/callback-gantt.md",
+        "nipype/references/tutorials/callback-exception/callback-exception.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "EEG preprocessing",
+      "weight": 74,
+      "top_files": [
+        "mrtrix3/references/documentation/api/mrfilter.rst",
+        "mrtrix3/references/documentation/other/image_access.md",
+        "mrtrix3/references/documentation/api/maskfilter.rst"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "BIDS",
+      "weight": 68,
+      "top_files": [
+        "mne-python/references/tutorials/bids-split-files/bids-split-files.md",
+        "mne-python/references/tutorials/fil-bad-channel-spec/fil-bad-channel-spec.md",
+        "mne-python/references/tutorials/fil-complete/fil-complete.md"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "containerization",
+      "weight": 66,
+      "top_files": [
+        "psychopy/references/tutorials/background-image-fit/background-image-fit.md",
+        "psychopy/references/tutorials/index.md",
+        "psychopy/references/tutorials/imageandgauss/imageandgauss.md"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "containerization",
+      "weight": 62,
+      "top_files": [
+        "afni/references/tutorials/files-interface/files-interface.md",
+        "afni/references/documentation/overview/README.rst",
+        "afni/references/documentation/other/README.rst"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "fMRI preprocessing",
+      "weight": 61,
+      "top_files": [
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/references/documentation/other/quickstart.rst",
+        "qsiprep/references/documentation/overview/AGENTS.md"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "reproducibility",
+      "weight": 59,
+      "top_files": [
+        "freesurfer/references/documentation/overview/FAQ.md",
+        "freesurfer/SKILL.md",
+        "freesurfer/references/documentation/overview/DownloadAndInstall.md"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "epoching",
+      "weight": 59,
+      "top_files": [
+        "jspsych/references/documentation/api/jspsych-data.md",
+        "jspsych/references/documentation/other/mouse-tracking.md",
+        "jspsych/references/documentation/other/plugin-development.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "surface reconstruction",
+      "weight": 59,
+      "top_files": [
+        "nibabel/references/documentation/other/biap_0009.rst",
+        "nibabel/references/tutorials/annot/annot.md",
+        "nibabel/references/documentation/other/roadmap.rst"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "surface reconstruction",
+      "weight": 58,
+      "top_files": [
+        "bids-specification/references/documentation/other/coordinate-systems.md",
+        "bids-specification/references/documentation/other/imaging.md",
+        "bids-specification/references/documentation/specifications/electromyography.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "surface reconstruction",
+      "weight": 56,
+      "top_files": [
+        "mrtrix3/references/documentation/api/5ttgen.rst",
+        "mrtrix3/references/documentation/other/labelconvert_tutorial.rst",
+        "mrtrix3/references/documentation/other/ismrm_hcp_tutorial.rst"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "registration",
+      "weight": 55,
+      "top_files": [
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/references/documentation/other/comparisons.md",
+        "qsiprep/references/documentation/other/quickstart.rst"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "EEG preprocessing",
+      "weight": 52,
+      "top_files": [
+        "fmriprep/references/tutorials/bidsuri/bidsuri.md",
+        "fmriprep/SKILL.md",
+        "fmriprep/references/tutorials/bids-filter-file/bids-filter-file.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "Bayesian modeling",
+      "weight": 52,
+      "top_files": [
+        "mrtrix3/references/documentation/other/image_data.rst",
+        "mrtrix3/references/documentation/other/pe_scheme.rst",
+        "mrtrix3/references/documentation/other/response_function_estimation.rst"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "behavioral data",
+      "weight": 52,
+      "top_files": [
+        "psychopy/references/tutorials/loaded-namespace/loaded-namespace.md",
+        "psychopy/references/tutorials/getfuturetrials/getfuturetrials.md",
+        "psychopy/references/tutorials/questplus/questplus.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "containerization",
+      "weight": 50,
+      "top_files": [
+        "pymc/references/documentation/overview/README.rst",
+        "pymc/references/documentation/other/docker_container.md",
+        "pymc/references/documentation/other/pr_tutorial.md"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "derivatives",
+      "weight": 49,
+      "top_files": [
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/references/documentation/other/quickstart.rst",
+        "qsiprep/references/documentation/overview/AGENTS.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "image IO",
+      "weight": 48,
+      "top_files": [
+        "bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md",
+        "bids-specification/references/documentation/other/common-principles.md",
+        "bids-specification/references/documentation/other/coordinate-systems.md"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "EEG preprocessing",
+      "weight": 48,
+      "top_files": [
+        "dipy/references/documentation/other/denoise_flow.rst",
+        "dipy/references/documentation/other/basic_flow.rst",
+        "dipy/references/documentation/other/buan_flow.rst"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "fMRI preprocessing",
+      "weight": 47,
+      "top_files": [
+        "bids-specification/references/tutorials/dereferencing/dereferencing.md",
+        "bids-specification/SKILL.md",
+        "bids-specification/references/documentation/other/common-principles.md"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "surface reconstruction",
+      "weight": 41,
+      "top_files": [
+        "dipy/references/tutorials/index.md",
+        "dipy/references/tutorials/freesurfer-density-operation/freesurfer-density-operation.md",
+        "dipy/references/tutorials/surface-seeds/surface-seeds.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "statistics",
+      "weight": 41,
+      "top_files": [
+        "mne-python/references/tutorials/index.md",
+        "mne-python/references/tutorials/continuous-regression-no-overlap/continuous-regression-no-overlap.md",
+        "mne-python/references/tutorials/continuous-regression-with-overlap/continuous-regression-with-overlap.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "behavioral data",
+      "weight": 41,
+      "top_files": [
+        "pymc/references/tutorials/simple-model/simple-model.md",
+        "pymc/references/tutorials/index.md",
+        "pymc/references/tutorials/observed-data-also-constant/observed-data-also-constant.md"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "connectome",
+      "weight": 40,
+      "top_files": [
+        "dipy/references/documentation/guides/dataset_list.rst",
+        "dipy/references/documentation/other/bundle_segmentation_flow.rst",
+        "dipy/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "EEG preprocessing",
+      "weight": 40,
+      "top_files": [
+        "eeglab/references/documentation/overview/AGENTS.md",
+        "eeglab/references/documentation/overview/README.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "image IO",
+      "weight": 40,
+      "top_files": [
+        "nipype/references/tutorials/fslmerge/fslmerge.md",
+        "nipype/references/tutorials/netcorr-inputs/netcorr-inputs.md",
+        "nipype/references/documentation/other/interfaces.rst"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "registration",
+      "weight": 39,
+      "top_files": [
+        "fmriprep/references/documentation/other/workflows.rst",
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/references/documentation/overview/REFERENCES.md"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "EEG preprocessing",
+      "weight": 38,
+      "top_files": [
+        "jspsych/references/documentation/api/jspsych-data.md",
+        "jspsych/references/documentation/guides/rt-task.md",
+        "jspsych/references/documentation/other/data.md"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "surface reconstruction",
+      "weight": 36,
+      "top_files": [
+        "qsiprep/references/documentation/other/installation.rst",
+        "qsiprep/SKILL.md",
+        "qsiprep/references/tutorials/synthseg-interface/synthseg-interface.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "image IO",
+      "weight": 35,
+      "top_files": [
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/references/documentation/other/workflows.rst",
+        "fmriprep/references/documentation/other/benchmarks.rst"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "connectome",
+      "weight": 33,
+      "top_files": [
+        "freesurfer/SKILL.md",
+        "freesurfer/references/documentation/overview/FAQ.md",
+        "freesurfer/references/documentation/overview/FreeSurferMethodsCitation.md"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "EEG preprocessing",
+      "weight": 31,
+      "top_files": [
+        "freesurfer/references/documentation/overview/Glossary.md",
+        "freesurfer/references/documentation/overview/CoordinateSystems.md",
+        "freesurfer/references/documentation/overview/DownloadAndInstall.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "connectome",
+      "weight": 31,
+      "top_files": [
+        "mne-python/references/tutorials/index.md",
+        "mne-python/references/tutorials/random-parcellation/random-parcellation.md",
+        "mne-python/references/documentation/api/connectivity.rst"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "registration",
+      "weight": 29,
+      "top_files": [
+        "freesurfer/references/documentation/overview/FreeSurferCommandsRegistration.md",
+        "freesurfer/references/documentation/overview/FAQ.md",
+        "freesurfer/references/documentation/overview/ReconAllTableStableV6.0.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "browser experiment",
+      "weight": 28,
+      "top_files": [
+        "bids-specification/references/documentation/overview/README.md",
+        "bids-specification/references/documentation/contributing/CONTRIBUTING.md",
+        "bids-specification/references/documentation/overview/macros_doc.md"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "GLM",
+      "weight": 28,
+      "top_files": [
+        "dipy/references/tutorials/index.md",
+        "dipy/references/tutorials/design-matrix/design-matrix.md",
+        "dipy/references/tutorials/bspline-design-matrix-row-sums/bspline-design-matrix-row-sums.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "statistics",
+      "weight": 28,
+      "top_files": [
+        "pymc/references/documentation/other/glossary.md",
+        "pymc/references/tutorials/index.md",
+        "pymc/references/tutorials/multiple-minibatch-variables/multiple-minibatch-variables.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "BIDS",
+      "weight": 27,
+      "top_files": [
+        "mrtrix3/references/documentation/other/pe_scheme.rst",
+        "mrtrix3/references/documentation/api/5ttgen.rst",
+        "mrtrix3/references/documentation/api/labelsgmfix.rst"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "Bayesian modeling",
+      "weight": 27,
+      "top_files": [
+        "nipype/references/tutorials/blob-inputs/blob-inputs.md",
+        "nipype/references/tutorials/calabel-inputs/calabel-inputs.md",
+        "nipype/references/tutorials/dtlutgen-inputs/dtlutgen-inputs.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "BIDS",
+      "weight": 26,
+      "top_files": [
+        "nipype/references/tutorials/dvars/dvars.md",
+        "nipype/references/tutorials/clone-node-iterables/clone-node-iterables.md",
+        "nipype/references/tutorials/dcm2niix-dti/dcm2niix-dti.md"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "fMRI preprocessing",
+      "weight": 26,
+      "top_files": [
+        "psychopy/references/tutorials/formatting/formatting.md"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "tractography",
+      "weight": 25,
+      "top_files": [
+        "qsiprep/references/documentation/other/links.rst",
+        "qsiprep/references/tutorials/dwidenoise/dwidenoise.md",
+        "qsiprep/references/documentation/other/preprocessing.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "EEG preprocessing",
+      "weight": 25,
+      "top_files": [
+        "snakemake/references/documentation/other/deployment.rst",
+        "snakemake/references/tutorials/plugin/plugin.md",
+        "snakemake/SKILL.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "Bayesian modeling",
+      "weight": 24,
+      "top_files": [
+        "mne-python/references/documentation/other/inverse.rst",
+        "mne-python/references/tutorials/index.md",
+        "mne-python/references/tutorials/plot-spectrum-db/plot-spectrum-db.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "Bayesian modeling",
+      "weight": 23,
+      "top_files": [
+        "bids-specification/references/documentation/specifications/magnetic-resonance-imaging-data.md",
+        "bids-specification/references/documentation/other/coordinate-systems.md",
+        "bids-specification/references/documentation/other/common-principles.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "behavioral data",
+      "weight": 23,
+      "top_files": [
+        "bids-specification/references/documentation/specifications/behavioral-experiments.md",
+        "bids-specification/references/documentation/specifications/electroencephalography.md",
+        "bids-specification/references/documentation/specifications/magnetoencephalography.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "browser experiment",
+      "weight": 23,
+      "top_files": [
+        "eeglab/references/documentation/overview/AGENTS.md",
+        "eeglab/references/documentation/templates/new-plugin-or-plugin-update.md",
+        "eeglab/SKILL.md"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "containerization",
+      "weight": 23,
+      "top_files": [
+        "freesurfer/references/documentation/overview/Glossary.md",
+        "freesurfer/references/documentation/overview/FAQ.md",
+        "freesurfer/references/documentation/overview/FreeSurferMethodsCitation.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "quality control",
+      "weight": 23,
+      "top_files": [
+        "mrtrix3/references/documentation/api/mrconvert.rst",
+        "mrtrix3/references/documentation/templates/bug_report.md",
+        "mrtrix3/references/documentation/api/dirstat.rst"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "Bayesian modeling",
+      "weight": 23,
+      "top_files": [
+        "nibabel/references/documentation/other/coordinate_systems.rst",
+        "nibabel/references/documentation/other/image_orientation.rst",
+        "nibabel/references/documentation/other/legal.rst"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "image IO",
+      "weight": 22,
+      "top_files": [
+        "afni/references/documentation/overview/README.rst",
+        "afni/references/tutorials/index.md",
+        "afni/references/documentation/other/Demonstrations.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "connectome",
+      "weight": 22,
+      "top_files": [
+        "nipype/references/documentation/other/interfaces.rst",
+        "nipype/references/tutorials/cluster-inputs/cluster-inputs.md",
+        "nipype/references/tutorials/talairachavi-inputs/talairachavi-inputs.md"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "GLM",
+      "weight": 22,
+      "top_files": [
+        "psychopy/references/tutorials/greyscaleimage/greyscaleimage.md",
+        "psychopy/references/tutorials/contrast/contrast.md",
+        "psychopy/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "quality control",
+      "weight": 21,
+      "top_files": [
+        "dipy/references/documentation/other/developers.rst",
+        "dipy/references/tutorials/roi-images/roi-images.md",
+        "dipy/references/tutorials/slicer/slicer.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "quality control",
+      "weight": 21,
+      "top_files": [
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/references/documentation/other/README.rst",
+        "fmriprep/references/documentation/overview/README.rst"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "Bayesian modeling",
+      "weight": 21,
+      "top_files": [
+        "nilearn/references/tutorials/index.md",
+        "nilearn/references/tutorials/decoder-dummy-classifier-strategy-prior/decoder-dummy-classifier-strategy-prior.md",
+        "nilearn/references/documentation/other/connectome_extraction.rst"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "quality control",
+      "weight": 21,
+      "top_files": [
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/references/documentation/other/comparisons.md",
+        "qsiprep/references/documentation/overview/AGENTS.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "connectome",
+      "weight": 20,
+      "top_files": [
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/references/documentation/other/workflows.rst",
+        "fmriprep/references/documentation/other/installation.rst"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "fMRI preprocessing",
+      "weight": 20,
+      "top_files": [
+        "nipype/references/tutorials/s3datagrabber-communication/s3datagrabber-communication.md",
+        "nipype/references/tutorials/compcor-bad-input-shapes/compcor-bad-input-shapes.md",
+        "nipype/references/tutorials/computedvars-inputs/computedvars-inputs.md"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "image IO",
+      "weight": 20,
+      "top_files": [
+        "qsiprep/references/tutorials/synthseg-interface/synthseg-interface.md",
+        "qsiprep/references/tutorials/synthstrip-interface/synthstrip-interface.md",
+        "qsiprep/references/documentation/other/preprocessing.rst"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "diffusion preprocessing",
+      "weight": 19,
+      "top_files": [
+        "afni/references/tutorials/index.md",
+        "afni/references/tutorials/1ddw-grad-o-mat-plus-plus-colmat/1ddw-grad-o-mat-plus-plus-colmat.md",
+        "afni/references/documentation/overview/README.rst"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "experiment design",
+      "weight": 19,
+      "top_files": [
+        "bids-specification/references/documentation/other/events.md",
+        "bids-specification/references/documentation/other/hed.md",
+        "bids-specification/references/documentation/other/common-principles.md"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "Bayesian modeling",
+      "weight": 18,
+      "top_files": [
+        "dipy/references/tutorials/diffusivities/diffusivities.md",
+        "dipy/references/documentation/other/api_changes.rst",
+        "dipy/references/documentation/other/b_and_q.rst"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "EEG preprocessing",
+      "weight": 18,
+      "top_files": [
+        "nipype/references/tutorials/index.md",
+        "nipype/references/tutorials/extract-inputs/extract-inputs.md",
+        "nipype/references/tutorials/ica-aroma-inputs/ica-aroma-inputs.md"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "BIDS",
+      "weight": 17,
+      "top_files": [
+        "afni/references/tutorials/index.md",
+        "afni/references/tutorials/retrots-bids-basic/retrots-bids-basic.md",
+        "afni/references/tutorials/retrots-bids-custom-slice-order/retrots-bids-custom-slice-order.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "EEG preprocessing",
+      "weight": 17,
+      "top_files": [
+        "nibabel/references/tutorials/a2f-upscale/a2f-upscale.md",
+        "nibabel/references/documentation/other/bv_formats.rst",
+        "nibabel/references/documentation/other/gettingstarted.rst"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "fMRI preprocessing",
+      "weight": 17,
+      "top_files": [
+        "nibabel/references/documentation/other/biap_0009.rst",
+        "nibabel/references/documentation/other/biap_0003.rst",
+        "nibabel/references/documentation/other/CONTRIBUTING.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "quality control",
+      "weight": 17,
+      "top_files": [
+        "nibabel/references/tutorials/checks/checks.md",
+        "nibabel/references/tutorials/logging/logging.md",
+        "nibabel/references/documentation/other/dcm2nii_algorithms.rst"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "browser experiment",
+      "weight": 16,
+      "top_files": [
+        "mne-python/references/tutorials/index.md",
+        "mne-python/references/tutorials/qt-scraper/qt-scraper.md",
+        "mne-python/references/tutorials/raw-plot-theme/raw-plot-theme.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "quality control",
+      "weight": 15,
+      "top_files": [
+        "bids-specification/references/tutorials/index.md",
+        "bids-specification/references/documentation/overview/Maintainers_Guide.md",
+        "bids-specification/references/tutorials/write-report/write-report.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "epoching",
+      "weight": 15,
+      "top_files": [
+        "eeglab/references/documentation/overview/AGENTS.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "epoching",
+      "weight": 14,
+      "top_files": [
+        "nibabel/references/tutorials/fillpositive-plus-minus-epsilon/fillpositive-plus-minus-epsilon.md",
+        "nibabel/references/documentation/other/dicom_intro.rst"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "EEG preprocessing",
+      "weight": 14,
+      "top_files": [
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/references/documentation/other/quickstart.rst",
+        "qsiprep/references/documentation/overview/AGENTS.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "reproducibility",
+      "weight": 13,
+      "top_files": [
+        "eeglab/references/documentation/community/CODE_OF_CONDUCT.md",
+        "eeglab/references/documentation/templates/bug_report.md",
+        "eeglab/references/documentation/templates/new-plugin-or-plugin-update.md"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "browser experiment",
+      "weight": 13,
+      "top_files": [
+        "nilearn/references/documentation/other/index.rst",
+        "nilearn/references/documentation/other/0.5.0.rst",
+        "nilearn/references/documentation/other/0.6.0.rst"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "quality control",
+      "weight": 13,
+      "top_files": [
+        "nipype/references/tutorials/melodic-inputs/melodic-inputs.md",
+        "nipype/references/documentation/other/quickstart.rst",
+        "nipype/references/tutorials/cat12segment-outputs/cat12segment-outputs.md"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "registration",
+      "weight": 13,
+      "top_files": [
+        "psychopy/references/tutorials/transform/transform.md",
+        "psychopy/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "confounds",
+      "weight": 13,
+      "top_files": [
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/references/documentation/overview/AGENTS.md",
+        "qsiprep/references/documentation/other/contributors.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "behavioral data",
+      "weight": 13,
+      "top_files": [
+        "snakemake/references/documentation/other/rules.rst",
+        "snakemake/references/documentation/other/configuration.rst",
+        "snakemake/references/documentation/community/CODE_OF_CONDUCT.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "GLM",
+      "weight": 12,
+      "top_files": [
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/references/documentation/other/workflows.rst",
+        "fmriprep/references/documentation/other/faq.rst"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "Bayesian modeling",
+      "weight": 12,
+      "top_files": [
+        "jspsych/references/documentation/other/eye-tracking.md",
+        "jspsych/references/documentation/other/html-audio-response.md",
+        "jspsych/references/documentation/guides/hello-world.md"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "quality control",
+      "weight": 12,
+      "top_files": [
+        "jspsych/references/documentation/community/code-of-conduct.md",
+        "jspsych/references/documentation/other/browser-device-support.md",
+        "jspsych/references/documentation/other/virtual-chinrest.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "behavioral data",
+      "weight": 12,
+      "top_files": [
+        "nipype/references/tutorials/modify-paths-bug/modify-paths-bug.md",
+        "nipype/references/documentation/community/CODE_OF_CONDUCT.md",
+        "nipype/references/tutorials/csd-inputs/csd-inputs.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "source localization",
+      "weight": 12,
+      "top_files": [
+        "nipype/references/tutorials/watershedbem-outputs/watershedbem-outputs.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "EEG preprocessing",
+      "weight": 12,
+      "top_files": [
+        "pymc/references/documentation/overview/README.rst",
+        "pymc/references/documentation/other/jupyter_style.md",
+        "pymc/SKILL.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "quality control",
+      "weight": 12,
+      "top_files": [
+        "pymc/references/tutorials/sample-return-lengths/sample-return-lengths.md",
+        "pymc/references/documentation/other/running_the_test_suite.md",
+        "pymc/references/tutorials/marginal-likelihood/marginal-likelihood.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "GLM",
+      "weight": 10,
+      "top_files": [
+        "nipype/references/tutorials/index.md",
+        "nipype/references/tutorials/computetdi-inputs/computetdi-inputs.md",
+        "nipype/references/tutorials/contrast-inputs/contrast-inputs.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "BIDS",
+      "weight": 9,
+      "top_files": [
+        "nibabel/references/documentation/other/biap_0009.rst",
+        "nibabel/references/documentation/other/add_image_format.rst",
+        "nibabel/references/documentation/other/spm_use.rst"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "confounds",
+      "weight": 9,
+      "top_files": [
+        "nipype/references/tutorials/multipleregressdesign/multipleregressdesign.md",
+        "nipype/references/tutorials/compcor-bad-input-shapes/compcor-bad-input-shapes.md",
+        "nipype/references/tutorials/computedvars-inputs/computedvars-inputs.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "epoching",
+      "weight": 9,
+      "top_files": [
+        "nipype/references/tutorials/maximage/maximage.md",
+        "nipype/references/tutorials/datasink-to-s3/datasink-to-s3.md",
+        "nipype/references/tutorials/simulatemultitensor-inputs/simulatemultitensor-inputs.md"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "BIDS",
+      "weight": 9,
+      "top_files": [
+        "snakemake/references/documentation/other/rules.rst",
+        "snakemake/references/documentation/guides/additional_features.rst",
+        "snakemake/references/documentation/other/codebase.rst"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "connectome",
+      "weight": 8,
+      "top_files": [
+        "afni/references/documentation/other/cover.rst",
+        "afni/references/documentation/other/index.rst",
+        "afni/references/documentation/other/ROI_45a.rst"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "GLM",
+      "weight": 8,
+      "top_files": [
+        "bids-specification/references/documentation/other/common-principles.md",
+        "bids-specification/references/documentation/other/common-data-types.md",
+        "bids-specification/references/documentation/other/dataset-description.md"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "derivatives",
+      "weight": 8,
+      "top_files": [
+        "dipy/references/documentation/other/buan_flow.rst",
+        "dipy/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "fMRI preprocessing",
+      "weight": 8,
+      "top_files": [
+        "dipy/references/documentation/other/motion_flow.rst",
+        "dipy/references/documentation/other/coding_style_guideline.rst",
+        "dipy/references/documentation/other/configure_git.rst"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "statistics",
+      "weight": 8,
+      "top_files": [
+        "dipy/references/tutorials/sh-to-bingham-handles-empty-voxels/sh-to-bingham-handles-empty-voxels.md",
+        "dipy/references/documentation/other/buan_flow.rst",
+        "dipy/references/documentation/other/denoise_flow.rst"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "tractography",
+      "weight": 8,
+      "top_files": [
+        "dipy/references/tutorials/convert-tensor/convert-tensor.md",
+        "dipy/references/documentation/other/api_changes.rst",
+        "dipy/references/documentation/other/faq.rst"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "statistics",
+      "weight": 8,
+      "top_files": [
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/references/documentation/other/workflows.rst"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "derivatives",
+      "weight": 8,
+      "top_files": [
+        "mrtrix3/references/documentation/api/dirstat.rst",
+        "mrtrix3/references/documentation/other/dw_scheme.rst",
+        "mrtrix3/references/documentation/other/build_from_source.rst"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "statistics",
+      "weight": 8,
+      "top_files": [
+        "mrtrix3/references/documentation/other/displaying_results_with_streamlines.rst",
+        "mrtrix3/references/documentation/api/connectomestats.rst",
+        "mrtrix3/references/documentation/api/fixelcfestats.rst"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "browser experiment",
+      "weight": 8,
+      "top_files": [
+        "psychopy/references/tutorials/index.md",
+        "psychopy/references/tutorials/plugin-stub-links/plugin-stub-links.md",
+        "psychopy/references/documentation/other/2024.1.0.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "epoching",
+      "weight": 7,
+      "top_files": [
+        "fmriprep/references/tutorials/index.md",
+        "fmriprep/references/tutorials/baseline-found-as-str/baseline-found-as-str.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "fMRI preprocessing",
+      "weight": 7,
+      "top_files": [
+        "mne-python/references/documentation/other/installers.rst",
+        "mne-python/references/documentation/other/contributing.rst"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "diffusion preprocessing",
+      "weight": 7,
+      "top_files": [
+        "nibabel/references/tutorials/index.md",
+        "nibabel/references/tutorials/dwi-params/dwi-params.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "statistics",
+      "weight": 7,
+      "top_files": [
+        "nibabel/references/tutorials/index.md",
+        "nibabel/references/tutorials/io-orientation-column-strength-regression/io-orientation-column-strength-regression.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "statistics",
+      "weight": 7,
+      "top_files": [
+        "nipype/references/tutorials/index.md",
+        "nipype/references/tutorials/icc-rep-anova/icc-rep-anova.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "BIDS",
+      "weight": 7,
+      "top_files": [
+        "pymc/references/tutorials/gradients/gradients.md",
+        "pymc/references/documentation/guides/Probability_Distributions.rst",
+        "pymc/references/documentation/other/glossary.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "derivatives",
+      "weight": 7,
+      "top_files": [
+        "pymc/references/tutorials/gradients/gradients.md",
+        "pymc/references/documentation/other/using_gitpod.md",
+        "pymc/references/documentation/other/glossary.md"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "registration",
+      "weight": 6,
+      "top_files": [
+        "bids-specification/references/documentation/specifications/microscopy.md",
+        "bids-specification/references/documentation/specifications/magnetic-resonance-spectroscopy.md",
+        "bids-specification/references/documentation/other/coordinate-systems.md"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "BIDS",
+      "weight": 6,
+      "top_files": [
+        "dipy/references/documentation/other/buan_flow.rst",
+        "dipy/references/documentation/other/reconstruction_models_list.rst"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "experiment design",
+      "weight": 6,
+      "top_files": [
+        "dipy/references/tutorials/normalization/normalization.md",
+        "dipy/references/documentation/other/toolchain.rst"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "BIDS",
+      "weight": 6,
+      "top_files": [
+        "eeglab/references/documentation/overview/AGENTS.md",
+        "eeglab/references/documentation/overview/README.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "Bayesian modeling",
+      "weight": 6,
+      "top_files": [
+        "fmriprep/references/documentation/other/workflows.rst",
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/references/documentation/other/spaces.rst"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "Bayesian modeling",
+      "weight": 6,
+      "top_files": [
+        "freesurfer/references/documentation/overview/ReconAllTableStableV6.0.md",
+        "freesurfer/references/documentation/overview/FAQ.md",
+        "freesurfer/references/documentation/overview/FreeSurferMethodsCitation.md"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "workflow management",
+      "weight": 6,
+      "top_files": [
+        "freesurfer/SKILL.md",
+        "freesurfer/references/documentation/overview/DownloadAndInstall.md"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "workflow management",
+      "weight": 6,
+      "top_files": [
+        "jspsych/references/documentation/other/style.md",
+        "jspsych/references/documentation/guides/community-tutorials.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "fMRI preprocessing",
+      "weight": 6,
+      "top_files": [
+        "mrtrix3/references/documentation/api/dwifslpreproc.rst",
+        "mrtrix3/references/documentation/api/mrdegibbs.rst",
+        "mrtrix3/references/documentation/other/pe_scheme.rst"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "experiment design",
+      "weight": 6,
+      "top_files": [
+        "nibabel/references/documentation/other/biap_0001.rst",
+        "nibabel/references/documentation/other/data_pkg_discuss.rst",
+        "nibabel/references/documentation/other/dicom_niftiheader.rst"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "events",
+      "weight": 6,
+      "top_files": [
+        "nipype/references/tutorials/level1design/level1design.md",
+        "nipype/references/tutorials/callback-gantt/callback-gantt.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "tractography",
+      "weight": 6,
+      "top_files": [
+        "nipype/references/documentation/other/interfaces.rst",
+        "nipype/references/tutorials/tractography-inputs/tractography-inputs.md",
+        "nipype/references/documentation/overview/README.rst"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "GLM",
+      "weight": 6,
+      "top_files": [
+        "qsiprep/references/documentation/other/preprocessing.rst",
+        "qsiprep/references/documentation/other/quickstart.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "GLM",
+      "weight": 6,
+      "top_files": [
+        "snakemake/references/documentation/other/modularization.rst",
+        "snakemake/references/documentation/other/rules.rst",
+        "snakemake/references/documentation/guides/advanced.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "epoching",
+      "weight": 6,
+      "top_files": [
+        "snakemake/references/tutorials/index.md",
+        "snakemake/references/tutorials/log-events/log-events.md"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "Bayesian modeling",
+      "weight": 5,
+      "top_files": [
+        "afni/references/tutorials/unparse-args-for-container/unparse-args-for-container.md"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "EEG preprocessing",
+      "weight": 5,
+      "top_files": [
+        "afni/references/tutorials/a2f-upscale/a2f-upscale.md"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "fMRI preprocessing",
+      "weight": 5,
+      "top_files": [
+        "afni/references/documentation/overview/README.rst",
+        "afni/references/tutorials/retrots-bids-custom-slice-order/retrots-bids-custom-slice-order.md"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "quality control",
+      "weight": 5,
+      "top_files": [
+        "afni/references/tutorials/logging/logging.md",
+        "afni/references/documentation/overview/README.rst"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "surface reconstruction",
+      "weight": 5,
+      "top_files": [
+        "afni/references/documentation/overview/README.rst",
+        "afni/SKILL.md",
+        "afni/references/documentation/other/glossary.rst"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "fMRI preprocessing",
+      "weight": 5,
+      "top_files": [
+        "jspsych/references/documentation/other/style.md",
+        "jspsych/references/documentation/other/eye-tracking.md",
+        "jspsych/references/documentation/other/plugins.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "derivatives",
+      "weight": 5,
+      "top_files": [
+        "mne-python/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "GLM",
+      "weight": 5,
+      "top_files": [
+        "nibabel/references/documentation/other/dicom_intro.rst",
+        "nibabel/references/documentation/other/biap_0003.rst",
+        "nibabel/references/documentation/other/biap_0009.rst"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "behavioral data",
+      "weight": 5,
+      "top_files": [
+        "nibabel/references/documentation/other/dicom_intro.rst"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "connectome",
+      "weight": 5,
+      "top_files": [
+        "nibabel/references/documentation/other/nifti_images.rst",
+        "nibabel/references/tutorials/read-labels/read-labels.md",
+        "nibabel/references/documentation/other/coordinate_systems.rst"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "experiment design",
+      "weight": 5,
+      "top_files": [
+        "nilearn/references/documentation/other/glm_intro.rst",
+        "nilearn/references/tutorials/design-warnings/design-warnings.md",
+        "nilearn/references/documentation/other/index.rst"
+      ]
+    },
+    {
+      "source": "nilearn",
+      "target": "tractography",
+      "weight": 5,
+      "top_files": [
+        "nilearn/references/tutorials/second-level-input-as-3d-images/second-level-input-as-3d-images.md",
+        "nilearn/references/documentation/other/glossary.rst"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "epoching",
+      "weight": 5,
+      "top_files": [
+        "pymc/references/documentation/other/glossary.md",
+        "pymc/references/documentation/overview/GOVERNANCE.md",
+        "pymc/references/documentation/overview/README.rst"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "derivatives",
+      "weight": 4,
+      "top_files": [
+        "afni/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "events",
+      "weight": 4,
+      "top_files": [
+        "eeglab/references/documentation/overview/AGENTS.md"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "GLM",
+      "weight": 4,
+      "top_files": [
+        "freesurfer/references/documentation/overview/FAQ.md",
+        "freesurfer/references/documentation/overview/Glossary.md"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "fMRI preprocessing",
+      "weight": 4,
+      "top_files": [
+        "freesurfer/references/documentation/overview/Glossary.md",
+        "freesurfer/references/documentation/overview/FreeSurferCommandsRegistration.md",
+        "freesurfer/references/documentation/overview/FreeSurferMethodsCitation.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "experiment design",
+      "weight": 4,
+      "top_files": [
+        "mrtrix3/references/documentation/api/dwidenoise.rst",
+        "mrtrix3/references/documentation/other/external_modules.rst",
+        "mrtrix3/references/documentation/other/module.md"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "tractography",
+      "weight": 4,
+      "top_files": [
+        "nibabel/references/documentation/other/biap_0005.rst"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "EEG preprocessing",
+      "weight": 4,
+      "top_files": [
+        "psychopy/references/tutorials/formatting/formatting.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "tractography",
+      "weight": 4,
+      "top_files": [
+        "pymc/references/documentation/overview/GOVERNANCE.md",
+        "pymc/references/documentation/guides/Gaussian_Processes.rst",
+        "pymc/references/documentation/other/Gaussian_Processes.rst"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "quality control",
+      "weight": 3,
+      "top_files": [
+        "eeglab/references/documentation/templates/bug_report.md",
+        "eeglab/references/documentation/contributing/CONTRIBUTING.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "behavioral data",
+      "weight": 3,
+      "top_files": [
+        "fmriprep/references/documentation/other/faq.rst",
+        "fmriprep/references/documentation/other/outputs.rst",
+        "fmriprep/references/documentation/overview/README.rst"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "quality control",
+      "weight": 3,
+      "top_files": [
+        "freesurfer/references/documentation/overview/CoordinateSystems.md",
+        "freesurfer/references/documentation/overview/FAQ.md",
+        "freesurfer/references/documentation/overview/FreeSurferSupport.md"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "BIDS",
+      "weight": 3,
+      "top_files": [
+        "jspsych/references/documentation/guides/rt-task.md",
+        "jspsych/references/documentation/other/plugins.md",
+        "jspsych/references/documentation/other/style.md"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "registration",
+      "weight": 3,
+      "top_files": [
+        "jspsych/references/documentation/other/record-video.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "GLM",
+      "weight": 3,
+      "top_files": [
+        "mne-python/references/documentation/other/datasets.rst",
+        "mne-python/references/documentation/other/migrating.rst",
+        "mne-python/references/documentation/other/roadmap.rst"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "tractography",
+      "weight": 3,
+      "top_files": [
+        "psychopy/references/documentation/community/code-of-conduct.md",
+        "psychopy/references/documentation/features/readme.md",
+        "psychopy/references/documentation/other/readme.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "browser experiment",
+      "weight": 3,
+      "top_files": [
+        "pymc/references/documentation/other/using_gitpod.md",
+        "pymc/references/documentation/other/build_docs.md"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "experiment design",
+      "weight": 2,
+      "top_files": [
+        "afni/references/documentation/other/README.md",
+        "afni/references/documentation/overview/README.rst"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "browser experiment",
+      "weight": 2,
+      "top_files": [
+        "dipy/references/documentation/other/CONTRIBUTING.md",
+        "dipy/references/documentation/other/README.rst"
+      ]
+    },
+    {
+      "source": "dipy",
+      "target": "events",
+      "weight": 2,
+      "top_files": [
+        "dipy/references/documentation/other/faq.rst",
+        "dipy/references/documentation/other/reconstruction_flow.rst"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "Bayesian modeling",
+      "weight": 2,
+      "top_files": [
+        "eeglab/references/documentation/contributing/CONTRIBUTING.md",
+        "eeglab/references/documentation/overview/AGENTS.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "behavioral data",
+      "weight": 2,
+      "top_files": [
+        "eeglab/references/documentation/community/CODE_OF_CONDUCT.md",
+        "eeglab/references/documentation/overview/README.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "statistics",
+      "weight": 2,
+      "top_files": [
+        "eeglab/references/documentation/contributing/CONTRIBUTING.md",
+        "eeglab/references/documentation/other/SKILL.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "tractography",
+      "weight": 2,
+      "top_files": [
+        "eeglab/references/documentation/community/CODE_OF_CONDUCT.md",
+        "eeglab/references/documentation/contributing/CONTRIBUTING.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "workflow management",
+      "weight": 2,
+      "top_files": [
+        "eeglab/references/documentation/contributing/CONTRIBUTING.md",
+        "eeglab/references/documentation/overview/AGENTS.md"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "statistics",
+      "weight": 2,
+      "top_files": [
+        "jspsych/references/documentation/other/eye-tracking.md",
+        "jspsych/references/documentation/other/webgazer.md"
+      ]
+    },
+    {
+      "source": "mne-python",
+      "target": "tractography",
+      "weight": 2,
+      "top_files": [
+        "mne-python/references/documentation/other/design_philosophy.rst",
+        "mne-python/references/documentation/other/glossary.rst"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "confounds",
+      "weight": 2,
+      "top_files": [
+        "mrtrix3/references/documentation/other/computing_effect_size_wrt_controls.rst"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "workflow management",
+      "weight": 2,
+      "top_files": [
+        "mrtrix3/references/documentation/contributing/CONTRIBUTING.md",
+        "mrtrix3/references/documentation/other/sift.rst"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "derivatives",
+      "weight": 2,
+      "top_files": [
+        "nibabel/references/documentation/other/spm_use.rst"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "derivatives",
+      "weight": 2,
+      "top_files": [
+        "psychopy/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "Bayesian modeling",
+      "weight": 2,
+      "top_files": [
+        "snakemake/references/documentation/guides/advanced.rst",
+        "snakemake/references/documentation/other/codebase.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "derivatives",
+      "weight": 2,
+      "top_files": [
+        "snakemake/references/documentation/other/rules.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "statistics",
+      "weight": 2,
+      "top_files": [
+        "snakemake/references/documentation/other/README.md",
+        "snakemake/references/documentation/other/contributing.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "tractography",
+      "weight": 2,
+      "top_files": [
+        "snakemake/references/documentation/community/CODE_OF_CONDUCT.md",
+        "snakemake/references/documentation/other/rules.rst"
+      ]
+    },
+    {
+      "source": "afni",
+      "target": "statistics",
+      "weight": 1,
+      "top_files": [
+        "afni/references/documentation/overview/README.rst"
+      ]
+    },
+    {
+      "source": "bids-specification",
+      "target": "tractography",
+      "weight": 1,
+      "top_files": [
+        "bids-specification/references/documentation/overview/README.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "containerization",
+      "weight": 1,
+      "top_files": [
+        "eeglab/references/documentation/overview/AGENTS.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "experiment design",
+      "weight": 1,
+      "top_files": [
+        "eeglab/references/documentation/overview/AGENTS.md"
+      ]
+    },
+    {
+      "source": "eeglab",
+      "target": "surface reconstruction",
+      "weight": 1,
+      "top_files": [
+        "eeglab/SKILL.md"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "diffusion preprocessing",
+      "weight": 1,
+      "top_files": [
+        "fmriprep/references/documentation/other/outputs.rst"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "events",
+      "weight": 1,
+      "top_files": [
+        "fmriprep/references/documentation/other/outputs.rst"
+      ]
+    },
+    {
+      "source": "fmriprep",
+      "target": "experiment design",
+      "weight": 1,
+      "top_files": [
+        "fmriprep/references/documentation/other/workflows.rst"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "BIDS",
+      "weight": 1,
+      "top_files": [
+        "freesurfer/references/documentation/overview/Glossary.md"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "behavioral data",
+      "weight": 1,
+      "top_files": [
+        "freesurfer/references/documentation/overview/FAQ.md"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "browser experiment",
+      "weight": 1,
+      "top_files": [
+        "freesurfer/references/documentation/overview/Tutorials.md"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "diffusion preprocessing",
+      "weight": 1,
+      "top_files": [
+        "freesurfer/references/documentation/overview/FreeSurferMethodsCitation.md"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "epoching",
+      "weight": 1,
+      "top_files": [
+        "freesurfer/references/documentation/overview/FAQ.md"
+      ]
+    },
+    {
+      "source": "freesurfer",
+      "target": "image IO",
+      "weight": 1,
+      "top_files": [
+        "freesurfer/SKILL.md"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "surface reconstruction",
+      "weight": 1,
+      "top_files": [
+        "jspsych/SKILL.md"
+      ]
+    },
+    {
+      "source": "jspsych",
+      "target": "tractography",
+      "weight": 1,
+      "top_files": [
+        "jspsych/references/documentation/other/simulation.md"
+      ]
+    },
+    {
+      "source": "mrtrix3",
+      "target": "epoching",
+      "weight": 1,
+      "top_files": [
+        "mrtrix3/references/documentation/api/tckgen.rst"
+      ]
+    },
+    {
+      "source": "nibabel",
+      "target": "events",
+      "weight": 1,
+      "top_files": [
+        "nibabel/references/documentation/other/dicom_niftiheader.rst"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "derivatives",
+      "weight": 1,
+      "top_files": [
+        "nipype/references/tutorials/index.md"
+      ]
+    },
+    {
+      "source": "nipype",
+      "target": "experiment design",
+      "weight": 1,
+      "top_files": [
+        "nipype/references/documentation/other/cmd_interface_devel.rst"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "quality control",
+      "weight": 1,
+      "top_files": [
+        "psychopy/references/documentation/other/readme.md"
+      ]
+    },
+    {
+      "source": "psychopy",
+      "target": "surface reconstruction",
+      "weight": 1,
+      "top_files": [
+        "psychopy/SKILL.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "GLM",
+      "weight": 1,
+      "top_files": [
+        "pymc/references/documentation/other/glossary.md"
+      ]
+    },
+    {
+      "source": "pymc",
+      "target": "surface reconstruction",
+      "weight": 1,
+      "top_files": [
+        "pymc/SKILL.md"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "Bayesian modeling",
+      "weight": 1,
+      "top_files": [
+        "qsiprep/references/documentation/other/preprocessing.rst"
+      ]
+    },
+    {
+      "source": "qsiprep",
+      "target": "connectome",
+      "weight": 1,
+      "top_files": [
+        "qsiprep/references/documentation/overview/README.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "connectome",
+      "weight": 1,
+      "top_files": [
+        "snakemake/references/documentation/other/contributing.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "events",
+      "weight": 1,
+      "top_files": [
+        "snakemake/references/documentation/other/faq.rst"
+      ]
+    },
+    {
+      "source": "snakemake",
+      "target": "surface reconstruction",
+      "weight": 1,
+      "top_files": [
+        "snakemake/SKILL.md"
+      ]
+    }
+  ]
+}

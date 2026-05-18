@@ -1,0 +1,990 @@
+[
+  {
+    "file_path": "afni/src/crorden/dcm2niix_console/charls/decoderstrategy.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "afni/src/crorden/dcm2niix_console/charls/decoderstrategy.h",
+        "class_name": "DecoderStrategy",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Class name suggests Strategy: DecoderStrategy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 25,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Strategy": 1
+    }
+  },
+  {
+    "file_path": "afni/src/crorden/dcm2niix_console/charls/encoderstrategy.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "afni/src/crorden/dcm2niix_console/charls/encoderstrategy.h",
+        "class_name": "EncoderStrategy",
+        "method_name": null,
+        "line_number": 13,
+        "evidence": [
+          "Class name suggests Strategy: EncoderStrategy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 17,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Strategy": 1
+    }
+  },
+  {
+    "file_path": "afni/src/crorden/dcm2niix_console/charls/jlscodecfactory.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "afni/src/crorden/dcm2niix_console/charls/jlscodecfactory.h",
+        "class_name": "JlsCodecFactory",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "afni/src/crorden/dcm2niix_console/dcm2niix_fswrapper.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "afni/src/crorden/dcm2niix_console/dcm2niix_fswrapper.h",
+        "class_name": "dcm2niix_fswrapper",
+        "method_name": null,
+        "line_number": 16,
+        "evidence": [
+          "Class name suggests Decorator: dcm2niix_fswrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "afni/src/crorden/dcm2niix_console/dcm2niix_fswrapper.h",
+        "class_name": "dcm2niix_fswrapper",
+        "method_name": null,
+        "line_number": 16,
+        "evidence": [
+          "Class name suggests Adapter: dcm2niix_fswrapper"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Adapter": 1
+    }
+  },
+  {
+    "file_path": "afni/src/ptaylor/supplement/template_tool.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/ptaylor/supplement/template_tool.py",
+        "class_name": "InOpts",
+        "method_name": "ninset",
+        "line_number": 292,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/gui_uber_align_test.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/gui_uber_align_test.py",
+        "class_name": "MainWindow",
+        "method_name": "update_textLine_check",
+        "line_number": 592,
+        "evidence": [
+          "Observer method detected: update_textLine_check"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/gui_uber_skel.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/gui_uber_skel.py",
+        "class_name": "MainWindow",
+        "method_name": "update_textLine_check",
+        "line_number": 300,
+        "evidence": [
+          "Observer method detected: update_textLine_check"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/gui_uber_subj.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "afni/src/python_scripts/afnipy/gui_uber_subj.py",
+        "class_name": "SingleSubjectWindow",
+        "method_name": "createAction",
+        "line_number": 2206,
+        "evidence": [
+          "Factory method detected: createAction"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/gui_uber_subj.py",
+        "class_name": "SingleSubjectWindow",
+        "method_name": "update_all_gbox_styles",
+        "line_number": 182,
+        "evidence": [
+          "Observer method detected: update_all_gbox_styles"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/gui_uber_ttest.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/gui_uber_ttest.py",
+        "class_name": "MainWindow",
+        "method_name": "update_textLine_check",
+        "line_number": 456,
+        "evidence": [
+          "Observer method detected: update_textLine_check"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/gui_xmat.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/gui_xmat.py",
+        "class_name": "MainFrame",
+        "method_name": "update_textlist_from_1D",
+        "line_number": 777,
+        "evidence": [
+          "Observer method detected: update_textlist_from_1D"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_afni1D.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/lib_afni1D.py",
+        "class_name": "Afni1D",
+        "method_name": "update_group_info",
+        "line_number": 2453,
+        "evidence": [
+          "Observer method detected: update_group_info"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_apqc_io.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "afni/src/python_scripts/afnipy/lib_apqc_io.py",
+        "class_name": "apqc_1dplot_opts",
+        "method_name": "create_all_y",
+        "line_number": 1357,
+        "evidence": [
+          "Factory method detected: create_all_y"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_cbar_tool.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/afnipy/lib_cbar_tool.py",
+        "class_name": "CbarPbar",
+        "method_name": "outdir",
+        "line_number": 612,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_gssrt.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "afni/src/python_scripts/afnipy/lib_gssrt.py",
+        "class_name": "MyInterface",
+        "method_name": "create_review_table",
+        "line_number": 1585,
+        "evidence": [
+          "Factory method detected: create_review_table"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/lib_gssrt.py",
+        "class_name": "MyInterface",
+        "method_name": "update_max_counts",
+        "line_number": 855,
+        "evidence": [
+          "Observer method detected: update_max_counts"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_gtkyd.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/afnipy/lib_gtkyd.py",
+        "class_name": "GtkydInfo",
+        "method_name": "outxls_name",
+        "line_number": 434,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 7,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_obl_name.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/afnipy/lib_obl_name.py",
+        "class_name": "NameObj",
+        "method_name": "add_ext_for_nifti",
+        "line_number": 172,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_obl_tool.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/afnipy/lib_obl_tool.py",
+        "class_name": "MainObj",
+        "method_name": "nchild",
+        "line_number": 407,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/lib_obl_tool.py",
+        "class_name": "MainObj",
+        "method_name": "attach_history_to_prefix",
+        "line_number": 131,
+        "evidence": [
+          "Observer method detected: attach_history_to_prefix"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_physio_interact.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/afnipy/lib_physio_interact.py",
+        "class_name": "PolygonInteractor",
+        "method_name": "HAVE_T",
+        "line_number": 241,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_physio_plot.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/afnipy/lib_physio_plot.py",
+        "class_name": "RetroPlobj",
+        "method_name": "n_pts",
+        "line_number": 133,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/afnipy/lib_physio_plot.py",
+        "class_name": "RetroFig",
+        "method_name": "n_plobj",
+        "line_number": 249,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_physio_reading.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/afnipy/lib_physio_reading.py",
+        "class_name": "phys_ts_obj",
+        "method_name": "n_ts_orig",
+        "line_number": 224,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/afnipy/lib_physio_reading.py",
+        "class_name": "retro_obj",
+        "method_name": "step_downsamp",
+        "line_number": 908,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 14,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_qt_gui.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/lib_qt_gui.py",
+        "class_name": "DatasetTableWidget",
+        "method_name": "update_table_column",
+        "line_number": 1129,
+        "evidence": [
+          "Observer method detected: update_table_column"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/lib_qt_gui.py",
+        "class_name": "TcshCommandWindow",
+        "method_name": "update_status",
+        "line_number": 1597,
+        "evidence": [
+          "Observer method detected: update_status"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/lib_qt_gui.py",
+        "class_name": "TcshCommandWindow",
+        "method_name": null,
+        "line_number": 1496,
+        "evidence": [
+          "Class name suggests Command: TcshCommandWindow"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/lib_qt_gui.py",
+        "class_name": "PyCommandWindow",
+        "method_name": null,
+        "line_number": 1834,
+        "evidence": [
+          "Class name suggests Command: PyCommandWindow"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 10,
+    "total_functions": 30,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 2,
+      "Command": 2
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_roi_stats.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/afnipy/lib_roi_stats.py",
+        "class_name": "all_comp_roi_dset_table",
+        "method_name": "n_ftext",
+        "line_number": 138,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/afnipy/lib_roi_stats.py",
+        "class_name": "comp_roi_dset_table",
+        "method_name": "n_table",
+        "line_number": 417,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/afnipy/lib_roi_stats.py",
+        "class_name": "comp_roi_dset_table",
+        "method_name": "update_table_maxwarn",
+        "line_number": 351,
+        "evidence": [
+          "Observer method detected: update_table_maxwarn"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_surf_clustsim.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "afni/src/python_scripts/afnipy/lib_surf_clustsim.py",
+        "class_name": "SurfClust",
+        "method_name": "create_script",
+        "line_number": 241,
+        "evidence": [
+          "Factory method detected: create_script"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_uber_align.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "afni/src/python_scripts/afnipy/lib_uber_align.py",
+        "class_name": "AlignTest",
+        "method_name": "create_script",
+        "line_number": 200,
+        "evidence": [
+          "Factory method detected: create_script"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_uber_skel.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "afni/src/python_scripts/afnipy/lib_uber_skel.py",
+        "class_name": "AlignTest",
+        "method_name": "create_script",
+        "line_number": 171,
+        "evidence": [
+          "Factory method detected: create_script"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/afnipy/lib_uber_ttest.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "afni/src/python_scripts/afnipy/lib_uber_ttest.py",
+        "class_name": "TTest",
+        "method_name": "create_script",
+        "line_number": 232,
+        "evidence": [
+          "Factory method detected: create_script"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/scripts/afni_proc.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "afni/src/python_scripts/scripts/afni_proc.py",
+        "class_name": "SubjProcSream",
+        "method_name": "create_blocks",
+        "line_number": 2481,
+        "evidence": [
+          "Factory method detected: create_blocks"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/scripts/align_epi_anat.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "afni/src/python_scripts/scripts/align_epi_anat.py",
+        "class_name": "RegWrap",
+        "method_name": "create_weight",
+        "line_number": 3051,
+        "evidence": [
+          "Factory method detected: create_weight"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/scripts/build_afni.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/scripts/build_afni.py",
+        "class_name": "MyInterface",
+        "method_name": "f_update_git",
+        "line_number": 2163,
+        "evidence": [
+          "Observer method detected: f_update_git"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 12,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/scripts/gen_group_command.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/src/python_scripts/scripts/gen_group_command.py",
+        "class_name": "CmdInterface",
+        "method_name": "update_dset_lists",
+        "line_number": 1394,
+        "evidence": [
+          "Observer method detected: update_dset_lists"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/scripts/make_random_timing.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "afni/src/python_scripts/scripts/make_random_timing.py",
+        "class_name": "RandTiming",
+        "method_name": "create_timing",
+        "line_number": 2381,
+        "evidence": [
+          "Factory method detected: create_timing"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "afni/src/python_scripts/scripts/obliquity_remover.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/src/python_scripts/scripts/obliquity_remover.py",
+        "class_name": "InOpts",
+        "method_name": "nchild",
+        "line_number": 654,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "afni/tests/afni_test_utils/tools.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "afni/tests/afni_test_utils/tools.py",
+        "class_name": "OutputDiffer",
+        "method_name": "data",
+        "line_number": 1155,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "afni/tests/afni_test_utils/tools.py",
+        "class_name": "OutputDiffer",
+        "method_name": "__update_sample_output",
+        "line_number": 928,
+        "evidence": [
+          "Observer method detected: __update_sample_output"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 30,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  }
+]

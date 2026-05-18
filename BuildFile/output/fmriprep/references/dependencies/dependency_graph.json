@@ -1,0 +1,317 @@
+{
+  "nodes": [
+    {
+      "file": ".maint/update_authors.py",
+      "language": "Python"
+    },
+    {
+      "file": "docs/conf.py",
+      "language": "Python"
+    },
+    {
+      "file": "docs/sphinxext/github_link.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/__main__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/_warnings.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/cli/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/cli/parser.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/cli/run.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/cli/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/cli/tests/test_parser.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/cli/tests/test_version.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/cli/version.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/cli/workflow.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/config.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/bids.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/confounds.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/gifti.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/maths.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/multiecho.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/nitransforms.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/patches.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/reports.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/resampling.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/tests/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/tests/test_bids.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/tests/test_confounds.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/tests/test_maths.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/tests/test_nitransforms.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/tests/test_reports.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/interfaces/workbench.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/reports/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/reports/core.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/reports/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/reports/tests/test_report_errors.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/reports/tests/test_reports.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/tests/test_config.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/tests/test_fsl6.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/utils/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/utils/asynctools.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/utils/bids.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/utils/confounds.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/utils/debug.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/utils/meepi.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/utils/misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/utils/telemetry.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/utils/tests/test_derivative_cache.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/utils/transforms.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/apply.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/confounds.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/fit.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/hmc.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/outputs.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/reference.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/registration.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/resampling.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/stc.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/t2s.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/tests/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/bold/tests/test_fit.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/tests/layouts.py",
+      "language": "Python"
+    },
+    {
+      "file": "fmriprep/workflows/tests/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "scripts/fetch_templates.py",
+      "language": "Python"
+    },
+    {
+      "file": "scripts/generate_reference_mask.py",
+      "language": "Python"
+    },
+    {
+      "file": "wrapper/src/fmriprep_docker/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "wrapper/src/fmriprep_docker/__main__.py",
+      "language": "Python"
+    }
+  ],
+  "edges": []
+}

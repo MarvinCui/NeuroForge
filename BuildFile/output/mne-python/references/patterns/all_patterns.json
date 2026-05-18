@@ -1,0 +1,4207 @@
+[
+  {
+    "file_path": "mne-python/mne/_fiff/meas_info.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/_fiff/meas_info.py",
+        "class_name": "MontageMixin",
+        "method_name": "get_montage",
+        "line_number": 318,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/_fiff/meas_info.py",
+        "class_name": "SetChannelsMixin",
+        "method_name": "set_channel_types",
+        "line_number": 525,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/_fiff/meas_info.py",
+        "class_name": "ContainsMixin",
+        "method_name": "compensation_grade",
+        "line_number": 905,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/_fiff/meas_info.py",
+        "class_name": "ValidatedDict",
+        "method_name": "update",
+        "line_number": 989,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/_fiff/meas_info.py",
+        "class_name": "Info",
+        "method_name": "_unlock",
+        "line_number": 1768,
+        "evidence": [
+          "Method uses decorators: ['contextlib.contextmanager']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/_fiff/meas_info.py",
+        "class_name": "Info",
+        "method_name": "_update_redundant",
+        "line_number": 1991,
+        "evidence": [
+          "Observer method detected: _update_redundant"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 46,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4,
+      "Observer": 2
+    }
+  },
+  {
+    "file_path": "mne-python/mne/_fiff/proj.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/_fiff/proj.py",
+        "class_name": "Projection",
+        "method_name": "plot_topomap",
+        "line_number": 105,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/_fiff/proj.py",
+        "class_name": "ProjMixin",
+        "method_name": "proj",
+        "line_number": 226,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 16,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "mne-python/mne/_fiff/tag.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/_fiff/tag.py",
+        "class_name": "Tag",
+        "method_name": "next_pos",
+        "line_number": 54,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 25,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/_ola.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/_ola.py",
+        "class_name": "_COLA",
+        "method_name": "__init__",
+        "line_number": 269,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/annotations.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/annotations.py",
+        "class_name": "_AnnotationsExtrasList",
+        "method_name": "_validate_value",
+        "line_number": 95,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/annotations.py",
+        "class_name": "Annotations",
+        "method_name": "orig_time",
+        "line_number": 417,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/annotations.py",
+        "class_name": "HEDAnnotations",
+        "method_name": "_check_hed_strings",
+        "line_number": 1077,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/annotations.py",
+        "class_name": "EpochAnnotationsMixin",
+        "method_name": "annotations",
+        "line_number": 1369,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 30,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4
+    }
+  },
+  {
+    "file_path": "mne-python/mne/beamformer/_compute_beamformer.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/beamformer/_compute_beamformer.py",
+        "class_name": "Beamformer",
+        "method_name": "save",
+        "line_number": 521,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/bem.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/bem.py",
+        "class_name": "ConductorModel",
+        "method_name": "radius",
+        "line_number": 113,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 60,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/channels/channels.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/channels/channels.py",
+        "class_name": "ReferenceMixin",
+        "method_name": "set_eeg_reference",
+        "line_number": 298,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/channels/channels.py",
+        "class_name": "UpdateChannelsMixin",
+        "method_name": "pick_types",
+        "line_number": 348,
+        "evidence": [
+          "Method uses decorators: ['verbose', \"legacy(alt='inst.pick(...)')\"]"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/channels/channels.py",
+        "class_name": "InterpolationMixin",
+        "method_name": "interpolate_bads",
+        "line_number": 823,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 18,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "mne-python/mne/channels/layout.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/channels/layout.py",
+        "class_name": "Layout",
+        "method_name": "plot",
+        "line_number": 123,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 19,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/channels/montage.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/channels/montage.py",
+        "class_name": "DigMontage",
+        "method_name": "plot",
+        "line_number": 376,
+        "evidence": [
+          "Method uses decorators: ['copy_function_doc_to_method_doc(plot_montage)']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 30,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/conftest.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/conftest.py",
+        "class_name": "_FakeFetch",
+        "method_name": "call_count",
+        "line_number": 969,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 82,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/coreg.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/coreg.py",
+        "class_name": "Coregistration",
+        "method_name": "_filtered_extra_points",
+        "line_number": 1811,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/coreg.py",
+        "class_name": "Coregistration",
+        "method_name": "_update_params",
+        "line_number": 1654,
+        "evidence": [
+          "Observer method detected: _update_params"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 29,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/cov.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/cov.py",
+        "class_name": "Covariance",
+        "method_name": "__init__",
+        "line_number": 150,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 28,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/decoding/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/decoding/base.py",
+        "class_name": "_GEDTransformer",
+        "method_name": "save",
+        "line_number": 174,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/decoding/base.py",
+        "class_name": "LinearModel",
+        "method_name": "filters_",
+        "line_number": 556,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "mne-python/mne/decoding/csp.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/decoding/csp.py",
+        "class_name": "CSP",
+        "method_name": "plot_patterns",
+        "line_number": 362,
+        "evidence": [
+          "Method uses decorators: [\"legacy(alt='get_spatial_filter_from_estimator(clf, info=info).plot_patterns()')\", 'fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/decoding/search_light.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/decoding/search_light.py",
+        "class_name": "SlidingEstimator",
+        "method_name": "_estimator_type",
+        "line_number": 66,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 11,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/decoding/spatial_filter.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/decoding/spatial_filter.py",
+        "class_name": "SpatialFilter",
+        "method_name": "plot_filters",
+        "line_number": 386,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/decoding/spatial_filter.py",
+        "class_name": "SpatialFilter",
+        "method_name": null,
+        "line_number": 264,
+        "evidence": [
+          "Class name suggests handler chain: SpatialFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/decoding/time_delaying_ridge.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/decoding/time_delaying_ridge.py",
+        "class_name": "TimeDelayingRidge",
+        "method_name": "_smin",
+        "line_number": 309,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/decoding/transformer.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/decoding/transformer.py",
+        "class_name": "FilterEstimator",
+        "method_name": null,
+        "line_number": 506,
+        "evidence": [
+          "Class name suggests handler chain: FilterEstimator"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/decoding/transformer.py",
+        "class_name": "UnsupervisedSpatialFilter",
+        "method_name": null,
+        "line_number": 650,
+        "evidence": [
+          "Class name suggests handler chain: UnsupervisedSpatialFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/decoding/transformer.py",
+        "class_name": "TemporalFilter",
+        "method_name": null,
+        "line_number": 777,
+        "evidence": [
+          "Class name suggests handler chain: TemporalFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "mne-python/mne/dipole.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/dipole.py",
+        "class_name": "Dipole",
+        "method_name": "__init__",
+        "line_number": 119,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/dipole.py",
+        "class_name": "DipoleFixed",
+        "method_name": "__init__",
+        "line_number": 534,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 21,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "mne-python/mne/epochs.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/epochs.py",
+        "class_name": "BaseEpochs",
+        "method_name": "__init__",
+        "line_number": 440,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/epochs.py",
+        "class_name": "BaseEpochs",
+        "method_name": null,
+        "line_number": 367,
+        "evidence": [
+          "Abstract base with subclasses: Epochs, EpochsArray"
+        ],
+        "related_classes": [
+          "Epochs",
+          "EpochsArray",
+          "EpochsFIF"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/epochs.py",
+        "class_name": "Epochs",
+        "method_name": "__init__",
+        "line_number": 3569,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/epochs.py",
+        "class_name": "EpochsArray",
+        "method_name": "__init__",
+        "line_number": 3763,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/epochs.py",
+        "class_name": "EpochsFIF",
+        "method_name": "__init__",
+        "line_number": 4319,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 23,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/event.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/event.py",
+        "class_name": "AcqParserFIF",
+        "method_name": "categories",
+        "line_number": 1437,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 17,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/evoked.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/evoked.py",
+        "class_name": "Evoked",
+        "method_name": "__init__",
+        "line_number": 165,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/evoked.py",
+        "class_name": "EvokedArray",
+        "method_name": "__init__",
+        "line_number": 1450,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "mne-python/mne/filter.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/filter.py",
+        "class_name": "FilterMixin",
+        "method_name": "savgol_filter",
+        "line_number": 2374,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/filter.py",
+        "class_name": "FilterMixin",
+        "method_name": null,
+        "line_number": 2370,
+        "evidence": [
+          "Class name suggests handler chain: FilterMixin"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 39,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/forward/_make_forward.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/forward/_make_forward.py",
+        "class_name": "_ForwardModeler",
+        "method_name": "__init__",
+        "line_number": 985,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 16,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/forward/forward.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/forward/forward.py",
+        "class_name": "Forward",
+        "method_name": "save",
+        "line_number": 169,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 29,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/gui/_coreg.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/gui/_coreg.py",
+        "class_name": "CoregistrationUI",
+        "method_name": "__init__",
+        "line_number": 180,
+        "evidence": [
+          "Method uses decorators: [\"_qt_safe_window(splash='_renderer.figure.splash', window='_renderer.figure.plotter')\", 'verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/gui/_coreg.py",
+        "class_name": "CoregistrationUI",
+        "method_name": "_update_plot",
+        "line_number": 965,
+        "evidence": [
+          "Observer method detected: _update_plot"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/ant/ant.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/ant/ant.py",
+        "class_name": "RawANT",
+        "method_name": "__init__",
+        "line_number": 83,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/array/_array.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/array/_array.py",
+        "class_name": "RawArray",
+        "method_name": "__init__",
+        "line_number": 54,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/artemis123/artemis123.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/artemis123/artemis123.py",
+        "class_name": "RawArtemis123",
+        "method_name": "__init__",
+        "line_number": 331,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/base.py",
+        "class_name": "BaseRaw",
+        "method_name": "__init__",
+        "line_number": 188,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/base.py",
+        "class_name": "_ReadSegmentFileProtector",
+        "method_name": "filenames",
+        "line_number": 2779,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/base.py",
+        "class_name": "_RawShell",
+        "method_name": "n_times",
+        "line_number": 2795,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 13,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/bci2k/bci2k.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/bci2k/bci2k.py",
+        "class_name": "RawBCI2k",
+        "method_name": "__init__",
+        "line_number": 220,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/boxy/boxy.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/boxy/boxy.py",
+        "class_name": "RawBOXY",
+        "method_name": "__init__",
+        "line_number": 60,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/brainvision/brainvision.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/brainvision/brainvision.py",
+        "class_name": "RawBrainVision",
+        "method_name": "__init__",
+        "line_number": 97,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 14,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/bti/bti.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/bti/bti.py",
+        "class_name": "RawBTi",
+        "method_name": "__init__",
+        "line_number": 977,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 23,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/cnt/cnt.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/cnt/cnt.py",
+        "class_name": "RawCNT",
+        "method_name": "__init__",
+        "line_number": 509,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/ctf/ctf.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/ctf/ctf.py",
+        "class_name": "RawCTF",
+        "method_name": "__init__",
+        "line_number": 101,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/curry/curry.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/curry/curry.py",
+        "class_name": "RawCurry",
+        "method_name": "__init__",
+        "line_number": 772,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 15,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/edf/edf.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/edf/edf.py",
+        "class_name": "RawEDF",
+        "method_name": "__init__",
+        "line_number": 157,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/edf/edf.py",
+        "class_name": "RawBDF",
+        "method_name": "__init__",
+        "line_number": 369,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/edf/edf.py",
+        "class_name": "RawGDF",
+        "method_name": "__init__",
+        "line_number": 525,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 22,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/eeglab/eeglab.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/eeglab/eeglab.py",
+        "class_name": "RawEEGLAB",
+        "method_name": "__init__",
+        "line_number": 439,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/eeglab/eeglab.py",
+        "class_name": "EpochsEEGLAB",
+        "method_name": "__init__",
+        "line_number": 626,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 15,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/egi/egi.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/egi/egi.py",
+        "class_name": "RawEGI",
+        "method_name": "__init__",
+        "line_number": 206,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/egi/egimff.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/egi/egimff.py",
+        "class_name": "RawMff",
+        "method_name": "__init__",
+        "line_number": 381,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/eximia/eximia.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/eximia/eximia.py",
+        "class_name": "RawEximia",
+        "method_name": "__init__",
+        "line_number": 54,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/eyelink/eyelink.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/eyelink/eyelink.py",
+        "class_name": "RawEyelink",
+        "method_name": "__init__",
+        "line_number": 89,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/fiff/raw.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/fiff/raw.py",
+        "class_name": "Raw",
+        "method_name": "__init__",
+        "line_number": 92,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/hitachi/hitachi.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/hitachi/hitachi.py",
+        "class_name": "RawHitachi",
+        "method_name": "__init__",
+        "line_number": 70,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/kit/kit.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/kit/kit.py",
+        "class_name": "RawKIT",
+        "method_name": "__init__",
+        "line_number": 126,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/kit/kit.py",
+        "class_name": "EpochsKIT",
+        "method_name": "__init__",
+        "line_number": 378,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/mef/mef.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/mef/mef.py",
+        "class_name": "RawMEF",
+        "method_name": "__init__",
+        "line_number": 46,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/neuralynx/neuralynx.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/neuralynx/neuralynx.py",
+        "class_name": "RawNeuralynx",
+        "method_name": "__init__",
+        "line_number": 95,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/nihon/nihon.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/nihon/nihon.py",
+        "class_name": "RawNihon",
+        "method_name": "__init__",
+        "line_number": 435,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 11,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/nirx/nirx.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/nirx/nirx.py",
+        "class_name": "RawNIRX",
+        "method_name": "__init__",
+        "line_number": 100,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/persyst/persyst.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/persyst/persyst.py",
+        "class_name": "RawPersyst",
+        "method_name": "__init__",
+        "line_number": 69,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/io/snirf/_snirf.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/io/snirf/_snirf.py",
+        "class_name": "RawSNIRF",
+        "method_name": "__init__",
+        "line_number": 104,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/label.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/label.py",
+        "class_name": "Label",
+        "method_name": "__init__",
+        "line_number": 229,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 31,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/minimum_norm/inverse.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/minimum_norm/inverse.py",
+        "class_name": "InverseOperator",
+        "method_name": "_is_surf_ori",
+        "line_number": 93,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 26,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/morph.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/morph.py",
+        "class_name": "SourceMorph",
+        "method_name": "__init__",
+        "line_number": 442,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 23,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/preprocessing/_regress.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/preprocessing/_regress.py",
+        "class_name": "EOGRegression",
+        "method_name": "apply",
+        "line_number": 207,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/preprocessing/ica.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/preprocessing/ica.py",
+        "class_name": "ICA",
+        "method_name": "__init__",
+        "line_number": 436,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/preprocessing/ica.py",
+        "class_name": "ICA",
+        "method_name": "_update_mixing_matrix",
+        "line_number": 1011,
+        "evidence": [
+          "Observer method detected: _update_mixing_matrix"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 21,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/report/js_and_css/bootstrap.bundle.min.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "mne-python/mne/report/js_and_css/bootstrap.bundle.min.js",
+        "class_name": "Z",
+        "method_name": "_addEventListeners",
+        "line_number": null,
+        "evidence": [
+          "Observer method detected: _addEventListeners",
+          "EventEmitter pattern detected"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "mne-python/mne/report/js_and_css/bootstrap.bundle.min.js",
+        "class_name": "Be",
+        "method_name": "_addEventListeners",
+        "line_number": null,
+        "evidence": [
+          "Observer method detected: _addEventListeners",
+          "EventEmitter pattern detected"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 16,
+    "total_functions": 56,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 2
+    }
+  },
+  {
+    "file_path": "mne-python/mne/report/report.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/report/report.py",
+        "class_name": "Report",
+        "method_name": "__init__",
+        "line_number": 875,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 27,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/simulation/source.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/simulation/source.py",
+        "class_name": "SourceSimulator",
+        "method_name": "duration",
+        "line_number": 387,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/source_estimate.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "_BaseSourceEstimate",
+        "method_name": "__init__",
+        "line_number": 499,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "_BaseSourceEstimate",
+        "method_name": "_update_times",
+        "line_number": 1005,
+        "evidence": [
+          "Observer method detected: _update_times"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "_BaseSourceEstimate",
+        "method_name": null,
+        "line_number": 495,
+        "evidence": [
+          "Abstract base with subclasses: _BaseSurfaceSourceEstimate, _BaseVectorSourceEstimate"
+        ],
+        "related_classes": [
+          "_BaseSurfaceSourceEstimate",
+          "_BaseVectorSourceEstimate",
+          "_BaseVolSourceEstimate",
+          "_BaseMixedSourceEstimate"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "_BaseSurfaceSourceEstimate",
+        "method_name": "lh_data",
+        "line_number": 1539,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "_BaseSurfaceSourceEstimate",
+        "method_name": null,
+        "line_number": 1503,
+        "evidence": [
+          "Abstract base with subclasses: SourceEstimate, VectorSourceEstimate"
+        ],
+        "related_classes": [
+          "SourceEstimate",
+          "VectorSourceEstimate"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "SourceEstimate",
+        "method_name": "save",
+        "line_number": 1887,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "_BaseVectorSourceEstimate",
+        "method_name": "__init__",
+        "line_number": 2138,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "_BaseVectorSourceEstimate",
+        "method_name": null,
+        "line_number": 2134,
+        "evidence": [
+          "Abstract base with subclasses: VolVectorSourceEstimate, VectorSourceEstimate"
+        ],
+        "related_classes": [
+          "VolVectorSourceEstimate",
+          "VectorSourceEstimate",
+          "MixedVectorSourceEstimate"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "_BaseVolSourceEstimate",
+        "method_name": "plot_3d",
+        "line_number": 2320,
+        "evidence": [
+          "Method uses decorators: ['copy_function_doc_to_method_doc(plot_source_estimates)']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "_BaseVolSourceEstimate",
+        "method_name": null,
+        "line_number": 2315,
+        "evidence": [
+          "Abstract base with subclasses: VolSourceEstimate, VolVectorSourceEstimate"
+        ],
+        "related_classes": [
+          "VolSourceEstimate",
+          "VolVectorSourceEstimate"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "VolSourceEstimate",
+        "method_name": "save",
+        "line_number": 2664,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "VolVectorSourceEstimate",
+        "method_name": "plot_3d",
+        "line_number": 2760,
+        "evidence": [
+          "Method uses decorators: ['copy_function_doc_to_method_doc(plot_vector_source_estimates)']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "_BaseMixedSourceEstimate",
+        "method_name": "__init__",
+        "line_number": 2883,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/source_estimate.py",
+        "class_name": "_BaseMixedSourceEstimate",
+        "method_name": null,
+        "line_number": 2878,
+        "evidence": [
+          "Abstract base with subclasses: MixedSourceEstimate, MixedVectorSourceEstimate"
+        ],
+        "related_classes": [
+          "MixedSourceEstimate",
+          "MixedVectorSourceEstimate"
+        ]
+      }
+    ],
+    "total_classes": 11,
+    "total_functions": 36,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 8,
+      "Observer": 1,
+      "TemplateMethod": 5
+    }
+  },
+  {
+    "file_path": "mne-python/mne/source_space/_source_space.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/source_space/_source_space.py",
+        "class_name": "SourceSpaces",
+        "method_name": "kind",
+        "line_number": 300,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 41,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/surface.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/surface.py",
+        "class_name": "_CheckInside",
+        "method_name": "__init__",
+        "line_number": 746,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/surface.py",
+        "class_name": "_CheckInsideSphere",
+        "method_name": "_check_r",
+        "line_number": 897,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 55,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "mne-python/mne/tests/test_annotations.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/tests/test_annotations.py",
+        "class_name": "_windows_datetime",
+        "method_name": "fromtimestamp",
+        "line_number": 66,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 62,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/time_frequency/csd.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/time_frequency/csd.py",
+        "class_name": "CrossSpectralDensity",
+        "method_name": "n_channels",
+        "line_number": 158,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 18,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/time_frequency/spectrum.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/time_frequency/spectrum.py",
+        "class_name": "SpectrumMixin",
+        "method_name": "plot_psd",
+        "line_number": 73,
+        "evidence": [
+          "Method uses decorators: [\"legacy(alt='.compute_psd().plot()')\", 'verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/time_frequency/spectrum.py",
+        "class_name": "BaseSpectrum",
+        "method_name": "_repr_html_",
+        "line_number": 421,
+        "evidence": [
+          "Method uses decorators: ['repr_html']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/time_frequency/spectrum.py",
+        "class_name": "BaseSpectrum",
+        "method_name": null,
+        "line_number": 293,
+        "evidence": [
+          "Abstract base with subclasses: Spectrum, EpochsSpectrum"
+        ],
+        "related_classes": [
+          "Spectrum",
+          "EpochsSpectrum"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/time_frequency/spectrum.py",
+        "class_name": "SpectrumArray",
+        "method_name": "__init__",
+        "line_number": 1326,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/time_frequency/spectrum.py",
+        "class_name": "EpochsSpectrumArray",
+        "method_name": "__init__",
+        "line_number": 1605,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/time_frequency/tfr.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/time_frequency/tfr.py",
+        "class_name": "BaseTFR",
+        "method_name": "__add__",
+        "line_number": 1316,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/time_frequency/tfr.py",
+        "class_name": "BaseTFR",
+        "method_name": "_update_epoch_attributes",
+        "line_number": 1689,
+        "evidence": [
+          "Observer method detected: _update_epoch_attributes"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/time_frequency/tfr.py",
+        "class_name": "BaseTFR",
+        "method_name": null,
+        "line_number": 1138,
+        "evidence": [
+          "Abstract base with subclasses: AverageTFR, EpochsTFR"
+        ],
+        "related_classes": [
+          "AverageTFR",
+          "EpochsTFR",
+          "RawTFR"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/time_frequency/tfr.py",
+        "class_name": "AverageTFR",
+        "method_name": "comment",
+        "line_number": 2955,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/time_frequency/tfr.py",
+        "class_name": "EpochsTFR",
+        "method_name": "__getitem__",
+        "line_number": 3125,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/time_frequency/tfr.py",
+        "class_name": "EpochsTFR",
+        "method_name": "_update_epoch_attributes",
+        "line_number": 3226,
+        "evidence": [
+          "Observer method detected: _update_epoch_attributes"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 27,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3,
+      "Observer": 2,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/transforms.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/transforms.py",
+        "class_name": "Transform",
+        "method_name": "from_str",
+        "line_number": 179,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/transforms.py",
+        "class_name": "_TPSWarp",
+        "method_name": "transform",
+        "line_number": 1020,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/transforms.py",
+        "class_name": "_SphericalSurfaceWarp",
+        "method_name": "fit",
+        "line_number": 1105,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 59,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "mne-python/mne/utils/_logging.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/utils/_logging.py",
+        "class_name": "_FrameFilter",
+        "method_name": null,
+        "line_number": 31,
+        "evidence": [
+          "Class name suggests handler chain: _FrameFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 12,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/utils/check.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/check.py",
+        "class_name": "_IntLike",
+        "method_name": "__instancecheck__",
+        "line_number": 549,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/check.py",
+        "class_name": "_Callable",
+        "method_name": "__instancecheck__",
+        "line_number": 564,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/check.py",
+        "class_name": "_Sparse",
+        "method_name": "__instancecheck__",
+        "line_number": 570,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 58,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "mne-python/mne/utils/docs.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "mne-python/mne/utils/docs.py",
+        "class_name": "_decorator",
+        "method_name": null,
+        "line_number": 5552,
+        "evidence": [
+          "Class name suggests Decorator: _decorator"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/utils/docs.py",
+        "class_name": "_decorator",
+        "method_name": "_update_doc",
+        "line_number": 5598,
+        "evidence": [
+          "Observer method detected: _update_doc"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 11,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/utils/mixin.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/mixin.py",
+        "class_name": "SizeMixin",
+        "method_name": "_size",
+        "line_number": 42,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/utils/mixin.py",
+        "class_name": "GetEpochsMixin",
+        "method_name": "__getitem__",
+        "line_number": 79,
+        "evidence": [
+          "Factory method detected: __getitem__"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/mixin.py",
+        "class_name": "GetEpochsMixin",
+        "method_name": "metadata",
+        "line_number": 438,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/mixin.py",
+        "class_name": "TimeMixin",
+        "method_name": "times",
+        "line_number": 566,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/mixin.py",
+        "class_name": "ExtendedTimeMixin",
+        "method_name": "tmin",
+        "line_number": 582,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/utils/mixin.py",
+        "class_name": "ExtendedTimeMixin",
+        "method_name": "_update_first_last",
+        "line_number": 747,
+        "evidence": [
+          "Observer method detected: _update_first_last"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4,
+      "Factory": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/utils/progressbar.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/utils/progressbar.py",
+        "class_name": "ProgressBar",
+        "method_name": "update",
+        "line_number": 114,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/utils/progressbar.py",
+        "class_name": "_PBSubsetUpdater",
+        "method_name": "update",
+        "line_number": 212,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 2
+    }
+  },
+  {
+    "file_path": "mne-python/mne/utils/tests/test_docs.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/tests/test_docs.py",
+        "class_name": "deprecated_class",
+        "method_name": "bad",
+        "line_number": 59,
+        "evidence": [
+          "Method uses decorators: [\"deprecated('deprecated method')\"]"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/tests/test_docs.py",
+        "class_name": "legacy_class",
+        "method_name": "bad",
+        "line_number": 69,
+        "evidence": [
+          "Method uses decorators: [\"legacy('replacement_method')\"]"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/tests/test_docs.py",
+        "class_name": "C",
+        "method_name": "m1",
+        "line_number": 117,
+        "evidence": [
+          "Method uses decorators: ['copy_doc(A.m1)']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/tests/test_docs.py",
+        "class_name": "A",
+        "method_name": "method_f1",
+        "line_number": 184,
+        "evidence": [
+          "Method uses decorators: ['copy_function_doc_to_method_doc(f1)']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 16,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4
+    }
+  },
+  {
+    "file_path": "mne-python/mne/utils/tests/test_logging.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/utils/tests/test_logging.py",
+        "class_name": "Okay",
+        "method_name": "meth_2",
+        "line_number": 245,
+        "evidence": [
+          "Method uses decorators: ['verbose']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 15,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/_3d_overlay.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/_3d_overlay.py",
+        "class_name": "_LayeredMesh",
+        "method_name": "update",
+        "line_number": 174,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/_brain/_brain.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/_brain/_brain.py",
+        "class_name": "Brain",
+        "method_name": "_clean",
+        "line_number": 598,
+        "evidence": [
+          "Method uses decorators: ['safe_event']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/_brain/_brain.py",
+        "class_name": "Brain",
+        "method_name": "update_lut",
+        "line_number": 3279,
+        "evidence": [
+          "Observer method detected: update_lut"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 16,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/_brain/surface.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/_brain/surface.py",
+        "class_name": "_Surface",
+        "method_name": "x",
+        "line_number": 158,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/_figure.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/_figure.py",
+        "class_name": "BrowserBase",
+        "method_name": "_create_ch_context_fig",
+        "line_number": 518,
+        "evidence": [
+          "Factory method detected: _create_ch_context_fig"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/_figure.py",
+        "class_name": "BrowserBase",
+        "method_name": "_has_time_slice",
+        "line_number": 426,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/_figure.py",
+        "class_name": "BrowserBase",
+        "method_name": "_update_annotation_segments",
+        "line_number": 201,
+        "evidence": [
+          "Observer method detected: _update_annotation_segments"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 7,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/_mpl_figure.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/_mpl_figure.py",
+        "class_name": "MNEBrowseFigure",
+        "method_name": "_create_ch_context_fig",
+        "line_number": 976,
+        "evidence": [
+          "Factory method detected: _create_ch_context_fig"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/_mpl_figure.py",
+        "class_name": "MNEBrowseFigure",
+        "method_name": "_update_annotation_fig",
+        "line_number": 1284,
+        "evidence": [
+          "Observer method detected: _update_annotation_fig"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 12,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/backends/_abstract.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "Figure3D",
+        "method_name": "_init",
+        "line_number": 33,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractRenderer",
+        "method_name": "__init__",
+        "line_number": 61,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractWidget",
+        "method_name": "__init__",
+        "line_number": 661,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractWidget",
+        "method_name": "_update",
+        "line_number": 681,
+        "evidence": [
+          "Observer method detected: _update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractWidget",
+        "method_name": null,
+        "line_number": 658,
+        "evidence": [
+          "Abstract base with subclasses: _AbstractLabel, _AbstractText"
+        ],
+        "related_classes": [
+          "_AbstractLabel",
+          "_AbstractText",
+          "_AbstractButton",
+          "_AbstractSlider",
+          "_AbstractProgressBar",
+          "_AbstractCheckBox",
+          "_AbstractSpinBox",
+          "_AbstractComboBox",
+          "_AbstractRadioButtons",
+          "_AbstractGroupBox",
+          "_AbstractFileButton",
+          "_AbstractPlayMenu",
+          "_AbstractPopup"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractLabel",
+        "method_name": "__init__",
+        "line_number": 724,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractText",
+        "method_name": "__init__",
+        "line_number": 731,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractButton",
+        "method_name": "__init__",
+        "line_number": 742,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractSlider",
+        "method_name": "__init__",
+        "line_number": 757,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractProgressBar",
+        "method_name": "__init__",
+        "line_number": 776,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractCheckBox",
+        "method_name": "__init__",
+        "line_number": 787,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractSpinBox",
+        "method_name": "__init__",
+        "line_number": 802,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractComboBox",
+        "method_name": "__init__",
+        "line_number": 817,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractRadioButtons",
+        "method_name": "__init__",
+        "line_number": 832,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractGroupBox",
+        "method_name": "__init__",
+        "line_number": 847,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractFileButton",
+        "method_name": "__init__",
+        "line_number": 854,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractPlayMenu",
+        "method_name": "__init__",
+        "line_number": 870,
+        "evidence": [
+          "Method uses decorators: ['classmethod', 'abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractPopup",
+        "method_name": "__init__",
+        "line_number": 908,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractBoxLayout",
+        "method_name": "_add_widget",
+        "line_number": 932,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractBoxLayout",
+        "method_name": null,
+        "line_number": 930,
+        "evidence": [
+          "Abstract base with subclasses: _AbstractHBoxLayout, _AbstractVBoxLayout"
+        ],
+        "related_classes": [
+          "_AbstractHBoxLayout",
+          "_AbstractVBoxLayout"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractHBoxLayout",
+        "method_name": "__init__",
+        "line_number": 942,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractVBoxLayout",
+        "method_name": "__init__",
+        "line_number": 948,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractGridLayout",
+        "method_name": "__init__",
+        "line_number": 954,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractAppWindow",
+        "method_name": "_set_central_layout",
+        "line_number": 967,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractCanvas",
+        "method_name": "_set_size",
+        "line_number": 1045,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractCanvas",
+        "method_name": "update",
+        "line_number": 1032,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractToolBar",
+        "method_name": "_tool_bar_initialize",
+        "line_number": 1058,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractToolBar",
+        "method_name": "_tool_bar_update_button_icon",
+        "line_number": 1066,
+        "evidence": [
+          "Observer method detected: _tool_bar_update_button_icon"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractDock",
+        "method_name": "_dock_initialize",
+        "line_number": 1088,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractMenuBar",
+        "method_name": "_menu_initialize",
+        "line_number": 1209,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractStatusBar",
+        "method_name": "_status_bar_initialize",
+        "line_number": 1223,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractStatusBar",
+        "method_name": "_status_bar_update",
+        "line_number": 1235,
+        "evidence": [
+          "Observer method detected: _status_bar_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractPlayback",
+        "method_name": "_playback_initialize",
+        "line_number": 1241,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractKeyPress",
+        "method_name": "_keypress_initialize",
+        "line_number": 1247,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractDialog",
+        "method_name": "_dialog_create",
+        "line_number": 1261,
+        "evidence": [
+          "Factory method detected: _dialog_create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractDialog",
+        "method_name": "_dialog_create",
+        "line_number": 1261,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractLayout",
+        "method_name": "_layout_create",
+        "line_number": 1286,
+        "evidence": [
+          "Factory method detected: _layout_create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractLayout",
+        "method_name": "_layout_initialize",
+        "line_number": 1278,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractWidgetList",
+        "method_name": "set_enabled",
+        "line_number": 1292,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractWdgt",
+        "method_name": "widget",
+        "line_number": 1309,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractWdgt",
+        "method_name": "update",
+        "line_number": 1341,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractAction",
+        "method_name": "trigger",
+        "line_number": 1362,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractAction",
+        "method_name": null,
+        "line_number": 1357,
+        "evidence": [
+          "Class name suggests Command: _AbstractAction"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractMplInterface",
+        "method_name": "_mpl_initialize",
+        "line_number": 1376,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractMplCanvas",
+        "method_name": "update_plot",
+        "line_number": 1409,
+        "evidence": [
+          "Observer method detected: update_plot"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractMplCanvas",
+        "method_name": null,
+        "line_number": 1380,
+        "evidence": [
+          "Abstract base with subclasses: _AbstractBrainMplCanvas"
+        ],
+        "related_classes": [
+          "_AbstractBrainMplCanvas"
+        ]
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractBrainMplCanvas",
+        "method_name": "update_plot",
+        "line_number": 1458,
+        "evidence": [
+          "Observer method detected: update_plot"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractWindow",
+        "method_name": "_window_create",
+        "line_number": 1557,
+        "evidence": [
+          "Factory method detected: _window_create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_abstract.py",
+        "class_name": "_AbstractWindow",
+        "method_name": "_window_load_icons",
+        "line_number": 1496,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 37,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 35,
+      "Observer": 7,
+      "TemplateMethod": 3,
+      "Factory": 3,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/backends/_notebook.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_Widget",
+        "method_name": "_update",
+        "line_number": 152,
+        "evidence": [
+          "Observer method detected: _update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_FilePicker",
+        "method_name": "_update_selector_options",
+        "line_number": 437,
+        "evidence": [
+          "Observer method detected: _update_selector_options"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_3DRenderer",
+        "method_name": "_ensure_minimum_sizes",
+        "line_number": 785,
+        "evidence": [
+          "Method uses decorators: ['contextmanager']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_FilePckr",
+        "method_name": "_update_selector_options",
+        "line_number": 884,
+        "evidence": [
+          "Observer method detected: _update_selector_options"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_IpyDialog",
+        "method_name": "_dialog_create",
+        "line_number": 957,
+        "evidence": [
+          "Factory method detected: _dialog_create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_IpyLayout",
+        "method_name": "_layout_create",
+        "line_number": 995,
+        "evidence": [
+          "Factory method detected: _layout_create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_IpyToolBar",
+        "method_name": "_tool_bar_update_button_icon",
+        "line_number": 1241,
+        "evidence": [
+          "Observer method detected: _tool_bar_update_button_icon"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_IpyStatusBar",
+        "method_name": "_status_bar_update",
+        "line_number": 1324,
+        "evidence": [
+          "Observer method detected: _status_bar_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_IpyWindow",
+        "method_name": "_window_create",
+        "line_number": 1425,
+        "evidence": [
+          "Factory method detected: _window_create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_IpyWindow",
+        "method_name": "_window_ensure_minimum_sizes",
+        "line_number": 1419,
+        "evidence": [
+          "Method uses decorators: ['contextmanager']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_IpyWidget",
+        "method_name": "update",
+        "line_number": 1489,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_notebook.py",
+        "class_name": "_IpyAction",
+        "method_name": null,
+        "line_number": 1505,
+        "evidence": [
+          "Class name suggests Command: _IpyAction"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 40,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 6,
+      "Decorator": 2,
+      "Factory": 3,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/backends/_pyvista.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_pyvista.py",
+        "class_name": "_PyVistaRenderer",
+        "method_name": "_all_plotters",
+        "line_number": 274,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_pyvista.py",
+        "class_name": "_PyVistaRenderer",
+        "method_name": "_update",
+        "line_number": 291,
+        "evidence": [
+          "Observer method detected: _update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 19,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/backends/_qt.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_qt.py",
+        "class_name": "_Widget",
+        "method_name": "_update",
+        "line_number": 182,
+        "evidence": [
+          "Observer method detected: _update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_qt.py",
+        "class_name": "_3DRenderer",
+        "method_name": "__init__",
+        "line_number": 816,
+        "evidence": [
+          "Method uses decorators: ['_qt_safe_window(always_close=False)']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_qt.py",
+        "class_name": "_QtDialog",
+        "method_name": "_dialog_create",
+        "line_number": 922,
+        "evidence": [
+          "Factory method detected: _dialog_create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_qt.py",
+        "class_name": "_QtLayout",
+        "method_name": "_layout_create",
+        "line_number": 987,
+        "evidence": [
+          "Factory method detected: _layout_create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_qt.py",
+        "class_name": "_QtToolBar",
+        "method_name": "_tool_bar_update_button_icon",
+        "line_number": 1340,
+        "evidence": [
+          "Observer method detected: _tool_bar_update_button_icon"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_qt.py",
+        "class_name": "_QtStatusBar",
+        "method_name": "_status_bar_update",
+        "line_number": 1408,
+        "evidence": [
+          "Observer method detected: _status_bar_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "mne-python/mne/viz/backends/_qt.py",
+        "class_name": "_QtWindow",
+        "method_name": "_window_create",
+        "line_number": 1625,
+        "evidence": [
+          "Factory method detected: _window_create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_qt.py",
+        "class_name": "_QtWindow",
+        "method_name": "_window_ensure_minimum_sizes",
+        "line_number": 1564,
+        "evidence": [
+          "Method uses decorators: ['contextmanager']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_qt.py",
+        "class_name": "_QtWidget",
+        "method_name": "update",
+        "line_number": 1697,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/_qt.py",
+        "class_name": "_QtAction",
+        "method_name": null,
+        "line_number": 1749,
+        "evidence": [
+          "Class name suggests Command: _QtAction"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/_qt.py",
+        "class_name": "_Renderer",
+        "method_name": "__init__",
+        "line_number": 1775,
+        "evidence": [
+          "Method uses decorators: ['_qt_safe_window(always_close=False)']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 43,
+    "total_functions": 16,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 4,
+      "Decorator": 3,
+      "Factory": 3,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/backends/renderer.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/backends/renderer.py",
+        "class_name": "_TimeInteraction",
+        "method_name": "_play",
+        "line_number": 569,
+        "evidence": [
+          "Method uses decorators: ['safe_event']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/backends/renderer.py",
+        "class_name": "_TimeInteraction",
+        "method_name": null,
+        "line_number": 412,
+        "evidence": [
+          "Class name suggests Command: _TimeInteraction"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 19,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/evoked_field.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/evoked_field.py",
+        "class_name": "EvokedField",
+        "method_name": "_update",
+        "line_number": 344,
+        "evidence": [
+          "Observer method detected: _update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/ui_events.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/ui_events.py",
+        "class_name": "UIEvent",
+        "method_name": "name",
+        "line_number": 56,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "mne-python/mne/viz/utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/utils.py",
+        "class_name": "DraggableColorbar",
+        "method_name": "_publish",
+        "line_number": 1589,
+        "evidence": [
+          "Observer method detected: _publish"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "mne-python/mne/viz/utils.py",
+        "class_name": "SelectFromCollection",
+        "method_name": "ch_names",
+        "line_number": 1709,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "mne-python/mne/viz/utils.py",
+        "class_name": "SelectFromCollection",
+        "method_name": "notify",
+        "line_number": 1712,
+        "evidence": [
+          "Observer method detected: notify"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 70,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 2,
+      "Decorator": 1
+    }
+  }
+]

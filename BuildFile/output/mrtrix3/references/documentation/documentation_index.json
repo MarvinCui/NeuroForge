@@ -1,0 +1,1454 @@
+{
+  "total_files": 205,
+  "categories": {
+    "templates": [
+      ".github/ISSUE_TEMPLATE/bug_report.md",
+      ".github/ISSUE_TEMPLATE/custom.md",
+      ".github/ISSUE_TEMPLATE/feature_request.md"
+    ],
+    "other": [
+      ".github/pull_request_template.md",
+      "docs/README.md",
+      "docs/concepts/afd_connectivity.rst",
+      "docs/concepts/dw_scheme.rst",
+      "docs/concepts/fixels_dixels.rst",
+      "docs/concepts/global_intensity_normalisation.rst",
+      "docs/concepts/mrview_lock_axes/mrview_lock_axes.rst",
+      "docs/concepts/pe_scheme.rst",
+      "docs/concepts/sh_basis_lmax.rst",
+      "docs/concepts/spherical_harmonics.rst",
+      "docs/constrained_spherical_deconvolution/constrained_spherical_deconvolution.rst",
+      "docs/constrained_spherical_deconvolution/multi_shell_multi_tissue_csd.rst",
+      "docs/constrained_spherical_deconvolution/response_function_estimation.rst",
+      "docs/dwi_preprocessing/denoising.rst",
+      "docs/dwi_preprocessing/dwifslpreproc.rst",
+      "docs/fixel_based_analysis/common_fba_steps/compute_AFD.rst",
+      "docs/fixel_based_analysis/common_fba_steps/compute_FC.rst",
+      "docs/fixel_based_analysis/common_fba_steps/compute_FDC.rst",
+      "docs/fixel_based_analysis/common_fba_steps/denoise_unring.rst",
+      "docs/fixel_based_analysis/common_fba_steps/dwifslpreproc.rst",
+      "docs/fixel_based_analysis/common_fba_steps/fixelcorrespondence.rst",
+      "docs/fixel_based_analysis/common_fba_steps/matrix.rst",
+      "docs/fixel_based_analysis/common_fba_steps/population_template.rst",
+      "docs/fixel_based_analysis/common_fba_steps/population_template2.rst",
+      "docs/fixel_based_analysis/common_fba_steps/reorient_fixels.rst",
+      "docs/fixel_based_analysis/common_fba_steps/sift.rst",
+      "docs/fixel_based_analysis/common_fba_steps/smooth.rst",
+      "docs/fixel_based_analysis/common_fba_steps/statistics.rst",
+      "docs/fixel_based_analysis/common_fba_steps/template_mask.rst",
+      "docs/fixel_based_analysis/common_fba_steps/visualisation.rst",
+      "docs/fixel_based_analysis/computing_effect_size_wrt_controls.rst",
+      "docs/fixel_based_analysis/displaying_results_with_streamlines.rst",
+      "docs/fixel_based_analysis/fixel_directory_format.rst",
+      "docs/fixel_based_analysis/mitigating_brain_cropping.rst",
+      "docs/fixel_based_analysis/mt_fibre_density_cross-section.rst",
+      "docs/fixel_based_analysis/st_fibre_density_cross-section.rst",
+      "docs/getting_started/beginner_dwi_tutorial.rst",
+      "docs/getting_started/command_line.rst",
+      "docs/getting_started/config.rst",
+      "docs/getting_started/image_data.rst",
+      "docs/index.rst",
+      "docs/installation/before_install.rst",
+      "docs/installation/build_from_source.rst",
+      "docs/installation/deployment.rst",
+      "docs/installation/hpc_clusters_install.rst",
+      "docs/installation/package_install.rst",
+      "docs/installation/using_containers.rst",
+      "docs/quantitative_structural_connectivity/act.rst",
+      "docs/quantitative_structural_connectivity/connectome_tool.rst",
+      "docs/quantitative_structural_connectivity/global_tractography.rst",
+      "docs/quantitative_structural_connectivity/ismrm_hcp_tutorial.rst",
+      "docs/quantitative_structural_connectivity/labelconvert_tutorial.rst",
+      "docs/quantitative_structural_connectivity/sift.rst",
+      "docs/quantitative_structural_connectivity/structural_connectome.rst",
+      "docs/tips_and_tricks/batch_processing_with_foreach.rst",
+      "docs/tips_and_tricks/dicom_handling.rst",
+      "docs/tips_and_tricks/external_modules.rst",
+      "docs/tips_and_tricks/troubleshooting.rst",
+      "src/doc/cmdlineparsing.md",
+      "src/doc/configure.md",
+      "src/doc/image_access.md",
+      "src/doc/module.md",
+      "src/doc/multithreading.md",
+      "src/doc/newcommand.md",
+      "src/doc/overview.md",
+      "testing/README.md"
+    ],
+    "contributing": [
+      "CONTRIBUTING.md"
+    ],
+    "overview": [
+      "README.md"
+    ],
+    "api": [
+      "docs/reference/commands/5tt2gmwmi.rst",
+      "docs/reference/commands/5tt2vis.rst",
+      "docs/reference/commands/5ttcheck.rst",
+      "docs/reference/commands/5ttedit.rst",
+      "docs/reference/commands/5ttgen.rst",
+      "docs/reference/commands/afdconnectivity.rst",
+      "docs/reference/commands/amp2response.rst",
+      "docs/reference/commands/amp2sh.rst",
+      "docs/reference/commands/connectome2tck.rst",
+      "docs/reference/commands/connectomeedit.rst",
+      "docs/reference/commands/connectomestats.rst",
+      "docs/reference/commands/dcmedit.rst",
+      "docs/reference/commands/dcminfo.rst",
+      "docs/reference/commands/dirflip.rst",
+      "docs/reference/commands/dirgen.rst",
+      "docs/reference/commands/dirmerge.rst",
+      "docs/reference/commands/dirorder.rst",
+      "docs/reference/commands/dirsplit.rst",
+      "docs/reference/commands/dirstat.rst",
+      "docs/reference/commands/dwi2adc.rst",
+      "docs/reference/commands/dwi2fod.rst",
+      "docs/reference/commands/dwi2mask.rst",
+      "docs/reference/commands/dwi2response.rst",
+      "docs/reference/commands/dwi2tensor.rst",
+      "docs/reference/commands/dwibiascorrect.rst",
+      "docs/reference/commands/dwicat.rst",
+      "docs/reference/commands/dwidenoise.rst",
+      "docs/reference/commands/dwiextract.rst",
+      "docs/reference/commands/dwifslpreproc.rst",
+      "docs/reference/commands/dwigradcheck.rst",
+      "docs/reference/commands/dwinormalise.rst",
+      "docs/reference/commands/dwishellmath.rst",
+      "docs/reference/commands/fixel2peaks.rst",
+      "docs/reference/commands/fixel2sh.rst",
+      "docs/reference/commands/fixel2tsf.rst",
+      "docs/reference/commands/fixel2voxel.rst",
+      "docs/reference/commands/fixelcfestats.rst",
+      "docs/reference/commands/fixelconnectivity.rst",
+      "docs/reference/commands/fixelconvert.rst",
+      "docs/reference/commands/fixelcorrespondence.rst",
+      "docs/reference/commands/fixelcrop.rst",
+      "docs/reference/commands/fixelfilter.rst",
+      "docs/reference/commands/fixelreorient.rst",
+      "docs/reference/commands/fod2dec.rst",
+      "docs/reference/commands/fod2fixel.rst",
+      "docs/reference/commands/for_each.rst",
+      "docs/reference/commands/label2colour.rst",
+      "docs/reference/commands/label2mesh.rst",
+      "docs/reference/commands/labelconvert.rst",
+      "docs/reference/commands/labelsgmfix.rst",
+      "docs/reference/commands/labelstats.rst",
+      "docs/reference/commands/maskdump.rst",
+      "docs/reference/commands/maskfilter.rst",
+      "docs/reference/commands/mesh2voxel.rst",
+      "docs/reference/commands/meshconvert.rst",
+      "docs/reference/commands/meshfilter.rst",
+      "docs/reference/commands/mraverageheader.rst",
+      "docs/reference/commands/mrcalc.rst",
+      "docs/reference/commands/mrcat.rst",
+      "docs/reference/commands/mrcentroid.rst",
+      "docs/reference/commands/mrcheckerboardmask.rst",
+      "docs/reference/commands/mrclusterstats.rst",
+      "docs/reference/commands/mrcolour.rst",
+      "docs/reference/commands/mrconvert.rst",
+      "docs/reference/commands/mrdegibbs.rst",
+      "docs/reference/commands/mrdump.rst",
+      "docs/reference/commands/mredit.rst",
+      "docs/reference/commands/mrfilter.rst",
+      "docs/reference/commands/mrgrid.rst",
+      "docs/reference/commands/mrhistmatch.rst",
+      "docs/reference/commands/mrhistogram.rst",
+      "docs/reference/commands/mrinfo.rst",
+      "docs/reference/commands/mrmath.rst",
+      "docs/reference/commands/mrmetric.rst",
+      "docs/reference/commands/mrregister.rst",
+      "docs/reference/commands/mrstats.rst",
+      "docs/reference/commands/mrthreshold.rst",
+      "docs/reference/commands/mrtransform.rst",
+      "docs/reference/commands/mrtrix_cleanup.rst",
+      "docs/reference/commands/mrview.rst",
+      "docs/reference/commands/mtnormalise.rst",
+      "docs/reference/commands/peaks2amp.rst",
+      "docs/reference/commands/peaks2fixel.rst",
+      "docs/reference/commands/population_template.rst",
+      "docs/reference/commands/responsemean.rst",
+      "docs/reference/commands/sh2amp.rst",
+      "docs/reference/commands/sh2peaks.rst",
+      "docs/reference/commands/sh2power.rst",
+      "docs/reference/commands/sh2response.rst",
+      "docs/reference/commands/shbasis.rst",
+      "docs/reference/commands/shconv.rst",
+      "docs/reference/commands/shview.rst",
+      "docs/reference/commands/tck2connectome.rst",
+      "docs/reference/commands/tck2fixel.rst",
+      "docs/reference/commands/tckconvert.rst",
+      "docs/reference/commands/tckdfc.rst",
+      "docs/reference/commands/tckedit.rst",
+      "docs/reference/commands/tckgen.rst",
+      "docs/reference/commands/tckglobal.rst",
+      "docs/reference/commands/tckinfo.rst",
+      "docs/reference/commands/tckmap.rst",
+      "docs/reference/commands/tckresample.rst",
+      "docs/reference/commands/tcksample.rst",
+      "docs/reference/commands/tcksift.rst",
+      "docs/reference/commands/tcksift2.rst",
+      "docs/reference/commands/tckstats.rst",
+      "docs/reference/commands/tcktransform.rst",
+      "docs/reference/commands/tensor2metric.rst",
+      "docs/reference/commands/transformcalc.rst",
+      "docs/reference/commands/transformcompose.rst",
+      "docs/reference/commands/transformconvert.rst",
+      "docs/reference/commands/tsfdivide.rst",
+      "docs/reference/commands/tsfinfo.rst",
+      "docs/reference/commands/tsfmult.rst",
+      "docs/reference/commands/tsfsmooth.rst",
+      "docs/reference/commands/tsfthreshold.rst",
+      "docs/reference/commands/tsfvalidate.rst",
+      "docs/reference/commands/vectorstats.rst",
+      "docs/reference/commands/voxel2fixel.rst",
+      "docs/reference/commands/voxel2mesh.rst",
+      "docs/reference/commands/warp2metric.rst",
+      "docs/reference/commands/warpconvert.rst",
+      "docs/reference/commands/warpcorrect.rst",
+      "docs/reference/commands/warpinit.rst",
+      "docs/reference/commands/warpinvert.rst",
+      "docs/reference/commands_list.rst",
+      "docs/reference/config_file_options.rst",
+      "docs/reference/environment_variables.rst",
+      "docs/reference/mrtrix2_equivalent_commands.rst",
+      "docs/reference/references.rst"
+    ],
+    "examples": [
+      "src/doc/examples/examples.md",
+      "src/doc/examples/per_datum_multithreaded_processing.md",
+      "src/doc/examples/per_datum_processing.md",
+      "src/doc/examples/per_voxel_multithreaded_processing.md"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "filename": "bug_report.md",
+      "category": "templates",
+      "size_bytes": 1491
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/custom.md",
+      "filename": "custom.md",
+      "category": "templates",
+      "size_bytes": 66
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "filename": "feature_request.md",
+      "category": "templates",
+      "size_bytes": 644
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "filename": "pull_request_template.md",
+      "category": "other",
+      "size_bytes": 1143
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "contributing",
+      "size_bytes": 14668
+    },
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 3041
+    },
+    {
+      "path": "docs/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1669
+    },
+    {
+      "path": "docs/concepts/afd_connectivity.rst",
+      "filename": "afd_connectivity.rst",
+      "category": "other",
+      "size_bytes": 6085
+    },
+    {
+      "path": "docs/concepts/dw_scheme.rst",
+      "filename": "dw_scheme.rst",
+      "category": "other",
+      "size_bytes": 21189
+    },
+    {
+      "path": "docs/concepts/fixels_dixels.rst",
+      "filename": "fixels_dixels.rst",
+      "category": "other",
+      "size_bytes": 9048
+    },
+    {
+      "path": "docs/concepts/global_intensity_normalisation.rst",
+      "filename": "global_intensity_normalisation.rst",
+      "category": "other",
+      "size_bytes": 4572
+    },
+    {
+      "path": "docs/concepts/mrview_lock_axes/mrview_lock_axes.rst",
+      "filename": "mrview_lock_axes.rst",
+      "category": "other",
+      "size_bytes": 9888
+    },
+    {
+      "path": "docs/concepts/pe_scheme.rst",
+      "filename": "pe_scheme.rst",
+      "category": "other",
+      "size_bytes": 21006
+    },
+    {
+      "path": "docs/concepts/sh_basis_lmax.rst",
+      "filename": "sh_basis_lmax.rst",
+      "category": "other",
+      "size_bytes": 6053
+    },
+    {
+      "path": "docs/concepts/spherical_harmonics.rst",
+      "filename": "spherical_harmonics.rst",
+      "category": "other",
+      "size_bytes": 12302
+    },
+    {
+      "path": "docs/constrained_spherical_deconvolution/constrained_spherical_deconvolution.rst",
+      "filename": "constrained_spherical_deconvolution.rst",
+      "category": "other",
+      "size_bytes": 1826
+    },
+    {
+      "path": "docs/constrained_spherical_deconvolution/multi_shell_multi_tissue_csd.rst",
+      "filename": "multi_shell_multi_tissue_csd.rst",
+      "category": "other",
+      "size_bytes": 6553
+    },
+    {
+      "path": "docs/constrained_spherical_deconvolution/response_function_estimation.rst",
+      "filename": "response_function_estimation.rst",
+      "category": "other",
+      "size_bytes": 17304
+    },
+    {
+      "path": "docs/dwi_preprocessing/denoising.rst",
+      "filename": "denoising.rst",
+      "category": "other",
+      "size_bytes": 4173
+    },
+    {
+      "path": "docs/dwi_preprocessing/dwifslpreproc.rst",
+      "filename": "dwifslpreproc.rst",
+      "category": "other",
+      "size_bytes": 13233
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/compute_AFD.rst",
+      "filename": "compute_AFD.rst",
+      "category": "other",
+      "size_bytes": 498
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/compute_FC.rst",
+      "filename": "compute_FC.rst",
+      "category": "other",
+      "size_bytes": 1981
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/compute_FDC.rst",
+      "filename": "compute_FDC.rst",
+      "category": "other",
+      "size_bytes": 1120
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/denoise_unring.rst",
+      "filename": "denoise_unring.rst",
+      "category": "other",
+      "size_bytes": 1129
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/dwifslpreproc.rst",
+      "filename": "dwifslpreproc.rst",
+      "category": "other",
+      "size_bytes": 1646
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/fixelcorrespondence.rst",
+      "filename": "fixelcorrespondence.rst",
+      "category": "other",
+      "size_bytes": 1664
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/matrix.rst",
+      "filename": "matrix.rst",
+      "category": "other",
+      "size_bytes": 1542
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/population_template.rst",
+      "filename": "population_template.rst",
+      "category": "other",
+      "size_bytes": 755
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/population_template2.rst",
+      "filename": "population_template2.rst",
+      "category": "other",
+      "size_bytes": 389
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/reorient_fixels.rst",
+      "filename": "reorient_fixels.rst",
+      "category": "other",
+      "size_bytes": 376
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/sift.rst",
+      "filename": "sift.rst",
+      "category": "other",
+      "size_bytes": 176
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/smooth.rst",
+      "filename": "smooth.rst",
+      "category": "other",
+      "size_bytes": 543
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/statistics.rst",
+      "filename": "statistics.rst",
+      "category": "other",
+      "size_bytes": 1401
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/template_mask.rst",
+      "filename": "template_mask.rst",
+      "category": "other",
+      "size_bytes": 1688
+    },
+    {
+      "path": "docs/fixel_based_analysis/common_fba_steps/visualisation.rst",
+      "filename": "visualisation.rst",
+      "category": "other",
+      "size_bytes": 344
+    },
+    {
+      "path": "docs/fixel_based_analysis/computing_effect_size_wrt_controls.rst",
+      "filename": "computing_effect_size_wrt_controls.rst",
+      "category": "other",
+      "size_bytes": 2353
+    },
+    {
+      "path": "docs/fixel_based_analysis/displaying_results_with_streamlines.rst",
+      "filename": "displaying_results_with_streamlines.rst",
+      "category": "other",
+      "size_bytes": 2073
+    },
+    {
+      "path": "docs/fixel_based_analysis/fixel_directory_format.rst",
+      "filename": "fixel_directory_format.rst",
+      "category": "other",
+      "size_bytes": 8074
+    },
+    {
+      "path": "docs/fixel_based_analysis/mitigating_brain_cropping.rst",
+      "filename": "mitigating_brain_cropping.rst",
+      "category": "other",
+      "size_bytes": 6027
+    },
+    {
+      "path": "docs/fixel_based_analysis/mt_fibre_density_cross-section.rst",
+      "filename": "mt_fibre_density_cross-section.rst",
+      "category": "other",
+      "size_bytes": 17260
+    },
+    {
+      "path": "docs/fixel_based_analysis/st_fibre_density_cross-section.rst",
+      "filename": "st_fibre_density_cross-section.rst",
+      "category": "other",
+      "size_bytes": 18350
+    },
+    {
+      "path": "docs/getting_started/beginner_dwi_tutorial.rst",
+      "filename": "beginner_dwi_tutorial.rst",
+      "category": "other",
+      "size_bytes": 4757
+    },
+    {
+      "path": "docs/getting_started/command_line.rst",
+      "filename": "command_line.rst",
+      "category": "other",
+      "size_bytes": 15214
+    },
+    {
+      "path": "docs/getting_started/config.rst",
+      "filename": "config.rst",
+      "category": "other",
+      "size_bytes": 1776
+    },
+    {
+      "path": "docs/getting_started/image_data.rst",
+      "filename": "image_data.rst",
+      "category": "other",
+      "size_bytes": 42176
+    },
+    {
+      "path": "docs/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 8043
+    },
+    {
+      "path": "docs/installation/before_install.rst",
+      "filename": "before_install.rst",
+      "category": "other",
+      "size_bytes": 2650
+    },
+    {
+      "path": "docs/installation/build_from_source.rst",
+      "filename": "build_from_source.rst",
+      "category": "other",
+      "size_bytes": 15587
+    },
+    {
+      "path": "docs/installation/deployment.rst",
+      "filename": "deployment.rst",
+      "category": "other",
+      "size_bytes": 3402
+    },
+    {
+      "path": "docs/installation/hpc_clusters_install.rst",
+      "filename": "hpc_clusters_install.rst",
+      "category": "other",
+      "size_bytes": 4752
+    },
+    {
+      "path": "docs/installation/package_install.rst",
+      "filename": "package_install.rst",
+      "category": "other",
+      "size_bytes": 631
+    },
+    {
+      "path": "docs/installation/using_containers.rst",
+      "filename": "using_containers.rst",
+      "category": "other",
+      "size_bytes": 5415
+    },
+    {
+      "path": "docs/quantitative_structural_connectivity/act.rst",
+      "filename": "act.rst",
+      "category": "other",
+      "size_bytes": 6922
+    },
+    {
+      "path": "docs/quantitative_structural_connectivity/connectome_tool.rst",
+      "filename": "connectome_tool.rst",
+      "category": "other",
+      "size_bytes": 13707
+    },
+    {
+      "path": "docs/quantitative_structural_connectivity/global_tractography.rst",
+      "filename": "global_tractography.rst",
+      "category": "other",
+      "size_bytes": 4382
+    },
+    {
+      "path": "docs/quantitative_structural_connectivity/ismrm_hcp_tutorial.rst",
+      "filename": "ismrm_hcp_tutorial.rst",
+      "category": "other",
+      "size_bytes": 7584
+    },
+    {
+      "path": "docs/quantitative_structural_connectivity/labelconvert_tutorial.rst",
+      "filename": "labelconvert_tutorial.rst",
+      "category": "other",
+      "size_bytes": 7910
+    },
+    {
+      "path": "docs/quantitative_structural_connectivity/sift.rst",
+      "filename": "sift.rst",
+      "category": "other",
+      "size_bytes": 10469
+    },
+    {
+      "path": "docs/quantitative_structural_connectivity/structural_connectome.rst",
+      "filename": "structural_connectome.rst",
+      "category": "other",
+      "size_bytes": 6390
+    },
+    {
+      "path": "docs/reference/commands/5tt2gmwmi.rst",
+      "filename": "5tt2gmwmi.rst",
+      "category": "api",
+      "size_bytes": 2624
+    },
+    {
+      "path": "docs/reference/commands/5tt2vis.rst",
+      "filename": "5tt2vis.rst",
+      "category": "api",
+      "size_bytes": 2541
+    },
+    {
+      "path": "docs/reference/commands/5ttcheck.rst",
+      "filename": "5ttcheck.rst",
+      "category": "api",
+      "size_bytes": 2213
+    },
+    {
+      "path": "docs/reference/commands/5ttedit.rst",
+      "filename": "5ttedit.rst",
+      "category": "api",
+      "size_bytes": 2688
+    },
+    {
+      "path": "docs/reference/commands/5ttgen.rst",
+      "filename": "5ttgen.rst",
+      "category": "api",
+      "size_bytes": 19592
+    },
+    {
+      "path": "docs/reference/commands/afdconnectivity.rst",
+      "filename": "afdconnectivity.rst",
+      "category": "api",
+      "size_bytes": 4712
+    },
+    {
+      "path": "docs/reference/commands/amp2response.rst",
+      "filename": "amp2response.rst",
+      "category": "api",
+      "size_bytes": 4254
+    },
+    {
+      "path": "docs/reference/commands/amp2sh.rst",
+      "filename": "amp2sh.rst",
+      "category": "api",
+      "size_bytes": 5475
+    },
+    {
+      "path": "docs/reference/commands/connectome2tck.rst",
+      "filename": "connectome2tck.rst",
+      "category": "api",
+      "size_bytes": 7551
+    },
+    {
+      "path": "docs/reference/commands/connectomeedit.rst",
+      "filename": "connectomeedit.rst",
+      "category": "api",
+      "size_bytes": 2205
+    },
+    {
+      "path": "docs/reference/commands/connectomestats.rst",
+      "filename": "connectomestats.rst",
+      "category": "api",
+      "size_bytes": 8076
+    },
+    {
+      "path": "docs/reference/commands/dcmedit.rst",
+      "filename": "dcmedit.rst",
+      "category": "api",
+      "size_bytes": 3113
+    },
+    {
+      "path": "docs/reference/commands/dcminfo.rst",
+      "filename": "dcminfo.rst",
+      "category": "api",
+      "size_bytes": 2394
+    },
+    {
+      "path": "docs/reference/commands/dirflip.rst",
+      "filename": "dirflip.rst",
+      "category": "api",
+      "size_bytes": 2497
+    },
+    {
+      "path": "docs/reference/commands/dirgen.rst",
+      "filename": "dirgen.rst",
+      "category": "api",
+      "size_bytes": 3618
+    },
+    {
+      "path": "docs/reference/commands/dirmerge.rst",
+      "filename": "dirmerge.rst",
+      "category": "api",
+      "size_bytes": 2537
+    },
+    {
+      "path": "docs/reference/commands/dirorder.rst",
+      "filename": "dirorder.rst",
+      "category": "api",
+      "size_bytes": 2434
+    },
+    {
+      "path": "docs/reference/commands/dirsplit.rst",
+      "filename": "dirsplit.rst",
+      "category": "api",
+      "size_bytes": 2340
+    },
+    {
+      "path": "docs/reference/commands/dirstat.rst",
+      "filename": "dirstat.rst",
+      "category": "api",
+      "size_bytes": 5878
+    },
+    {
+      "path": "docs/reference/commands/dwi2adc.rst",
+      "filename": "dwi2adc.rst",
+      "category": "api",
+      "size_bytes": 2815
+    },
+    {
+      "path": "docs/reference/commands/dwi2fod.rst",
+      "filename": "dwi2fod.rst",
+      "category": "api",
+      "size_bytes": 8391
+    },
+    {
+      "path": "docs/reference/commands/dwi2mask.rst",
+      "filename": "dwi2mask.rst",
+      "category": "api",
+      "size_bytes": 3791
+    },
+    {
+      "path": "docs/reference/commands/dwi2response.rst",
+      "filename": "dwi2response.rst",
+      "category": "api",
+      "size_bytes": 28738
+    },
+    {
+      "path": "docs/reference/commands/dwi2tensor.rst",
+      "filename": "dwi2tensor.rst",
+      "category": "api",
+      "size_bytes": 5037
+    },
+    {
+      "path": "docs/reference/commands/dwibiascorrect.rst",
+      "filename": "dwibiascorrect.rst",
+      "category": "api",
+      "size_bytes": 10961
+    },
+    {
+      "path": "docs/reference/commands/dwicat.rst",
+      "filename": "dwicat.rst",
+      "category": "api",
+      "size_bytes": 3068
+    },
+    {
+      "path": "docs/reference/commands/dwidenoise.rst",
+      "filename": "dwidenoise.rst",
+      "category": "api",
+      "size_bytes": 5966
+    },
+    {
+      "path": "docs/reference/commands/dwiextract.rst",
+      "filename": "dwiextract.rst",
+      "category": "api",
+      "size_bytes": 5811
+    },
+    {
+      "path": "docs/reference/commands/dwifslpreproc.rst",
+      "filename": "dwifslpreproc.rst",
+      "category": "api",
+      "size_bytes": 13934
+    },
+    {
+      "path": "docs/reference/commands/dwigradcheck.rst",
+      "filename": "dwigradcheck.rst",
+      "category": "api",
+      "size_bytes": 3433
+    },
+    {
+      "path": "docs/reference/commands/dwinormalise.rst",
+      "filename": "dwinormalise.rst",
+      "category": "api",
+      "size_bytes": 10013
+    },
+    {
+      "path": "docs/reference/commands/dwishellmath.rst",
+      "filename": "dwishellmath.rst",
+      "category": "api",
+      "size_bytes": 3426
+    },
+    {
+      "path": "docs/reference/commands/fixel2peaks.rst",
+      "filename": "fixel2peaks.rst",
+      "category": "api",
+      "size_bytes": 2534
+    },
+    {
+      "path": "docs/reference/commands/fixel2sh.rst",
+      "filename": "fixel2sh.rst",
+      "category": "api",
+      "size_bytes": 2683
+    },
+    {
+      "path": "docs/reference/commands/fixel2tsf.rst",
+      "filename": "fixel2tsf.rst",
+      "category": "api",
+      "size_bytes": 2442
+    },
+    {
+      "path": "docs/reference/commands/fixel2voxel.rst",
+      "filename": "fixel2voxel.rst",
+      "category": "api",
+      "size_bytes": 4019
+    },
+    {
+      "path": "docs/reference/commands/fixelcfestats.rst",
+      "filename": "fixelcfestats.rst",
+      "category": "api",
+      "size_bytes": 9059
+    },
+    {
+      "path": "docs/reference/commands/fixelconnectivity.rst",
+      "filename": "fixelconnectivity.rst",
+      "category": "api",
+      "size_bytes": 3052
+    },
+    {
+      "path": "docs/reference/commands/fixelconvert.rst",
+      "filename": "fixelconvert.rst",
+      "category": "api",
+      "size_bytes": 4500
+    },
+    {
+      "path": "docs/reference/commands/fixelcorrespondence.rst",
+      "filename": "fixelcorrespondence.rst",
+      "category": "api",
+      "size_bytes": 2807
+    },
+    {
+      "path": "docs/reference/commands/fixelcrop.rst",
+      "filename": "fixelcrop.rst",
+      "category": "api",
+      "size_bytes": 2604
+    },
+    {
+      "path": "docs/reference/commands/fixelfilter.rst",
+      "filename": "fixelfilter.rst",
+      "category": "api",
+      "size_bytes": 3466
+    },
+    {
+      "path": "docs/reference/commands/fixelreorient.rst",
+      "filename": "fixelreorient.rst",
+      "category": "api",
+      "size_bytes": 2797
+    },
+    {
+      "path": "docs/reference/commands/fod2dec.rst",
+      "filename": "fod2dec.rst",
+      "category": "api",
+      "size_bytes": 3991
+    },
+    {
+      "path": "docs/reference/commands/fod2fixel.rst",
+      "filename": "fod2fixel.rst",
+      "category": "api",
+      "size_bytes": 4611
+    },
+    {
+      "path": "docs/reference/commands/for_each.rst",
+      "filename": "for_each.rst",
+      "category": "api",
+      "size_bytes": 8635
+    },
+    {
+      "path": "docs/reference/commands/label2colour.rst",
+      "filename": "label2colour.rst",
+      "category": "api",
+      "size_bytes": 2474
+    },
+    {
+      "path": "docs/reference/commands/label2mesh.rst",
+      "filename": "label2mesh.rst",
+      "category": "api",
+      "size_bytes": 2211
+    },
+    {
+      "path": "docs/reference/commands/labelconvert.rst",
+      "filename": "labelconvert.rst",
+      "category": "api",
+      "size_bytes": 3298
+    },
+    {
+      "path": "docs/reference/commands/labelsgmfix.rst",
+      "filename": "labelsgmfix.rst",
+      "category": "api",
+      "size_bytes": 3677
+    },
+    {
+      "path": "docs/reference/commands/labelstats.rst",
+      "filename": "labelstats.rst",
+      "category": "api",
+      "size_bytes": 2206
+    },
+    {
+      "path": "docs/reference/commands/maskdump.rst",
+      "filename": "maskdump.rst",
+      "category": "api",
+      "size_bytes": 2201
+    },
+    {
+      "path": "docs/reference/commands/maskfilter.rst",
+      "filename": "maskfilter.rst",
+      "category": "api",
+      "size_bytes": 3840
+    },
+    {
+      "path": "docs/reference/commands/mesh2voxel.rst",
+      "filename": "mesh2voxel.rst",
+      "category": "api",
+      "size_bytes": 2402
+    },
+    {
+      "path": "docs/reference/commands/meshconvert.rst",
+      "filename": "meshconvert.rst",
+      "category": "api",
+      "size_bytes": 2351
+    },
+    {
+      "path": "docs/reference/commands/meshfilter.rst",
+      "filename": "meshfilter.rst",
+      "category": "api",
+      "size_bytes": 2905
+    },
+    {
+      "path": "docs/reference/commands/mraverageheader.rst",
+      "filename": "mraverageheader.rst",
+      "category": "api",
+      "size_bytes": 2966
+    },
+    {
+      "path": "docs/reference/commands/mrcalc.rst",
+      "filename": "mrcalc.rst",
+      "category": "api",
+      "size_bytes": 10335
+    },
+    {
+      "path": "docs/reference/commands/mrcat.rst",
+      "filename": "mrcat.rst",
+      "category": "api",
+      "size_bytes": 3356
+    },
+    {
+      "path": "docs/reference/commands/mrcentroid.rst",
+      "filename": "mrcentroid.rst",
+      "category": "api",
+      "size_bytes": 2200
+    },
+    {
+      "path": "docs/reference/commands/mrcheckerboardmask.rst",
+      "filename": "mrcheckerboardmask.rst",
+      "category": "api",
+      "size_bytes": 2265
+    },
+    {
+      "path": "docs/reference/commands/mrclusterstats.rst",
+      "filename": "mrclusterstats.rst",
+      "category": "api",
+      "size_bytes": 7031
+    },
+    {
+      "path": "docs/reference/commands/mrcolour.rst",
+      "filename": "mrcolour.rst",
+      "category": "api",
+      "size_bytes": 2980
+    },
+    {
+      "path": "docs/reference/commands/mrconvert.rst",
+      "filename": "mrconvert.rst",
+      "category": "api",
+      "size_bytes": 13032
+    },
+    {
+      "path": "docs/reference/commands/mrdegibbs.rst",
+      "filename": "mrdegibbs.rst",
+      "category": "api",
+      "size_bytes": 4444
+    },
+    {
+      "path": "docs/reference/commands/mrdump.rst",
+      "filename": "mrdump.rst",
+      "category": "api",
+      "size_bytes": 2257
+    },
+    {
+      "path": "docs/reference/commands/mredit.rst",
+      "filename": "mredit.rst",
+      "category": "api",
+      "size_bytes": 2882
+    },
+    {
+      "path": "docs/reference/commands/mrfilter.rst",
+      "filename": "mrfilter.rst",
+      "category": "api",
+      "size_bytes": 5823
+    },
+    {
+      "path": "docs/reference/commands/mrgrid.rst",
+      "filename": "mrgrid.rst",
+      "category": "api",
+      "size_bytes": 9327
+    },
+    {
+      "path": "docs/reference/commands/mrhistmatch.rst",
+      "filename": "mrhistmatch.rst",
+      "category": "api",
+      "size_bytes": 2979
+    },
+    {
+      "path": "docs/reference/commands/mrhistogram.rst",
+      "filename": "mrhistogram.rst",
+      "category": "api",
+      "size_bytes": 2661
+    },
+    {
+      "path": "docs/reference/commands/mrinfo.rst",
+      "filename": "mrinfo.rst",
+      "category": "api",
+      "size_bytes": 7103
+    },
+    {
+      "path": "docs/reference/commands/mrmath.rst",
+      "filename": "mrmath.rst",
+      "category": "api",
+      "size_bytes": 4206
+    },
+    {
+      "path": "docs/reference/commands/mrmetric.rst",
+      "filename": "mrmetric.rst",
+      "category": "api",
+      "size_bytes": 3058
+    },
+    {
+      "path": "docs/reference/commands/mrregister.rst",
+      "filename": "mrregister.rst",
+      "category": "api",
+      "size_bytes": 15418
+    },
+    {
+      "path": "docs/reference/commands/mrstats.rst",
+      "filename": "mrstats.rst",
+      "category": "api",
+      "size_bytes": 2887
+    },
+    {
+      "path": "docs/reference/commands/mrthreshold.rst",
+      "filename": "mrthreshold.rst",
+      "category": "api",
+      "size_bytes": 5629
+    },
+    {
+      "path": "docs/reference/commands/mrtransform.rst",
+      "filename": "mrtransform.rst",
+      "category": "api",
+      "size_bytes": 10607
+    },
+    {
+      "path": "docs/reference/commands/mrtrix_cleanup.rst",
+      "filename": "mrtrix_cleanup.rst",
+      "category": "api",
+      "size_bytes": 3523
+    },
+    {
+      "path": "docs/reference/commands/mrview.rst",
+      "filename": "mrview.rst",
+      "category": "api",
+      "size_bytes": 10832
+    },
+    {
+      "path": "docs/reference/commands/mtnormalise.rst",
+      "filename": "mtnormalise.rst",
+      "category": "api",
+      "size_bytes": 5565
+    },
+    {
+      "path": "docs/reference/commands/peaks2amp.rst",
+      "filename": "peaks2amp.rst",
+      "category": "api",
+      "size_bytes": 2181
+    },
+    {
+      "path": "docs/reference/commands/peaks2fixel.rst",
+      "filename": "peaks2fixel.rst",
+      "category": "api",
+      "size_bytes": 2272
+    },
+    {
+      "path": "docs/reference/commands/population_template.rst",
+      "filename": "population_template.rst",
+      "category": "api",
+      "size_bytes": 9551
+    },
+    {
+      "path": "docs/reference/commands/responsemean.rst",
+      "filename": "responsemean.rst",
+      "category": "api",
+      "size_bytes": 3443
+    },
+    {
+      "path": "docs/reference/commands/sh2amp.rst",
+      "filename": "sh2amp.rst",
+      "category": "api",
+      "size_bytes": 5541
+    },
+    {
+      "path": "docs/reference/commands/sh2peaks.rst",
+      "filename": "sh2peaks.rst",
+      "category": "api",
+      "size_bytes": 3636
+    },
+    {
+      "path": "docs/reference/commands/sh2power.rst",
+      "filename": "sh2power.rst",
+      "category": "api",
+      "size_bytes": 2618
+    },
+    {
+      "path": "docs/reference/commands/sh2response.rst",
+      "filename": "sh2response.rst",
+      "category": "api",
+      "size_bytes": 2875
+    },
+    {
+      "path": "docs/reference/commands/shbasis.rst",
+      "filename": "shbasis.rst",
+      "category": "api",
+      "size_bytes": 3314
+    },
+    {
+      "path": "docs/reference/commands/shconv.rst",
+      "filename": "shconv.rst",
+      "category": "api",
+      "size_bytes": 3689
+    },
+    {
+      "path": "docs/reference/commands/shview.rst",
+      "filename": "shview.rst",
+      "category": "api",
+      "size_bytes": 2230
+    },
+    {
+      "path": "docs/reference/commands/tck2connectome.rst",
+      "filename": "tck2connectome.rst",
+      "category": "api",
+      "size_bytes": 8748
+    },
+    {
+      "path": "docs/reference/commands/tck2fixel.rst",
+      "filename": "tck2fixel.rst",
+      "category": "api",
+      "size_bytes": 2455
+    },
+    {
+      "path": "docs/reference/commands/tckconvert.rst",
+      "filename": "tckconvert.rst",
+      "category": "api",
+      "size_bytes": 4053
+    },
+    {
+      "path": "docs/reference/commands/tckdfc.rst",
+      "filename": "tckdfc.rst",
+      "category": "api",
+      "size_bytes": 5365
+    },
+    {
+      "path": "docs/reference/commands/tckedit.rst",
+      "filename": "tckedit.rst",
+      "category": "api",
+      "size_bytes": 6722
+    },
+    {
+      "path": "docs/reference/commands/tckgen.rst",
+      "filename": "tckgen.rst",
+      "category": "api",
+      "size_bytes": 17427
+    },
+    {
+      "path": "docs/reference/commands/tckglobal.rst",
+      "filename": "tckglobal.rst",
+      "category": "api",
+      "size_bytes": 5769
+    },
+    {
+      "path": "docs/reference/commands/tckinfo.rst",
+      "filename": "tckinfo.rst",
+      "category": "api",
+      "size_bytes": 2106
+    },
+    {
+      "path": "docs/reference/commands/tckmap.rst",
+      "filename": "tckmap.rst",
+      "category": "api",
+      "size_bytes": 7497
+    },
+    {
+      "path": "docs/reference/commands/tckresample.rst",
+      "filename": "tckresample.rst",
+      "category": "api",
+      "size_bytes": 3910
+    },
+    {
+      "path": "docs/reference/commands/tcksample.rst",
+      "filename": "tcksample.rst",
+      "category": "api",
+      "size_bytes": 3329
+    },
+    {
+      "path": "docs/reference/commands/tcksift.rst",
+      "filename": "tcksift.rst",
+      "category": "api",
+      "size_bytes": 5345
+    },
+    {
+      "path": "docs/reference/commands/tcksift2.rst",
+      "filename": "tcksift2.rst",
+      "category": "api",
+      "size_bytes": 7334
+    },
+    {
+      "path": "docs/reference/commands/tckstats.rst",
+      "filename": "tckstats.rst",
+      "category": "api",
+      "size_bytes": 2558
+    },
+    {
+      "path": "docs/reference/commands/tcktransform.rst",
+      "filename": "tcktransform.rst",
+      "category": "api",
+      "size_bytes": 2139
+    },
+    {
+      "path": "docs/reference/commands/tensor2metric.rst",
+      "filename": "tensor2metric.rst",
+      "category": "api",
+      "size_bytes": 3906
+    },
+    {
+      "path": "docs/reference/commands/transformcalc.rst",
+      "filename": "transformcalc.rst",
+      "category": "api",
+      "size_bytes": 4635
+    },
+    {
+      "path": "docs/reference/commands/transformcompose.rst",
+      "filename": "transformcompose.rst",
+      "category": "api",
+      "size_bytes": 3241
+    },
+    {
+      "path": "docs/reference/commands/transformconvert.rst",
+      "filename": "transformconvert.rst",
+      "category": "api",
+      "size_bytes": 3092
+    },
+    {
+      "path": "docs/reference/commands/tsfdivide.rst",
+      "filename": "tsfdivide.rst",
+      "category": "api",
+      "size_bytes": 2149
+    },
+    {
+      "path": "docs/reference/commands/tsfinfo.rst",
+      "filename": "tsfinfo.rst",
+      "category": "api",
+      "size_bytes": 2237
+    },
+    {
+      "path": "docs/reference/commands/tsfmult.rst",
+      "filename": "tsfmult.rst",
+      "category": "api",
+      "size_bytes": 2145
+    },
+    {
+      "path": "docs/reference/commands/tsfsmooth.rst",
+      "filename": "tsfsmooth.rst",
+      "category": "api",
+      "size_bytes": 2228
+    },
+    {
+      "path": "docs/reference/commands/tsfthreshold.rst",
+      "filename": "tsfthreshold.rst",
+      "category": "api",
+      "size_bytes": 2162
+    },
+    {
+      "path": "docs/reference/commands/tsfvalidate.rst",
+      "filename": "tsfvalidate.rst",
+      "category": "api",
+      "size_bytes": 2115
+    },
+    {
+      "path": "docs/reference/commands/vectorstats.rst",
+      "filename": "vectorstats.rst",
+      "category": "api",
+      "size_bytes": 5357
+    },
+    {
+      "path": "docs/reference/commands/voxel2fixel.rst",
+      "filename": "voxel2fixel.rst",
+      "category": "api",
+      "size_bytes": 2528
+    },
+    {
+      "path": "docs/reference/commands/voxel2mesh.rst",
+      "filename": "voxel2mesh.rst",
+      "category": "api",
+      "size_bytes": 2895
+    },
+    {
+      "path": "docs/reference/commands/warp2metric.rst",
+      "filename": "warp2metric.rst",
+      "category": "api",
+      "size_bytes": 2933
+    },
+    {
+      "path": "docs/reference/commands/warpconvert.rst",
+      "filename": "warpconvert.rst",
+      "category": "api",
+      "size_bytes": 3662
+    },
+    {
+      "path": "docs/reference/commands/warpcorrect.rst",
+      "filename": "warpcorrect.rst",
+      "category": "api",
+      "size_bytes": 2625
+    },
+    {
+      "path": "docs/reference/commands/warpinit.rst",
+      "filename": "warpinit.rst",
+      "category": "api",
+      "size_bytes": 2697
+    },
+    {
+      "path": "docs/reference/commands/warpinvert.rst",
+      "filename": "warpinvert.rst",
+      "category": "api",
+      "size_bytes": 2863
+    },
+    {
+      "path": "docs/reference/commands_list.rst",
+      "filename": "commands_list.rst",
+      "category": "api",
+      "size_bytes": 16195
+    },
+    {
+      "path": "docs/reference/config_file_options.rst",
+      "filename": "config_file_options.rst",
+      "category": "api",
+      "size_bytes": 18263
+    },
+    {
+      "path": "docs/reference/environment_variables.rst",
+      "filename": "environment_variables.rst",
+      "category": "api",
+      "size_bytes": 4176
+    },
+    {
+      "path": "docs/reference/mrtrix2_equivalent_commands.rst",
+      "filename": "mrtrix2_equivalent_commands.rst",
+      "category": "api",
+      "size_bytes": 27869
+    },
+    {
+      "path": "docs/reference/references.rst",
+      "filename": "references.rst",
+      "category": "api",
+      "size_bytes": 10700
+    },
+    {
+      "path": "docs/tips_and_tricks/batch_processing_with_foreach.rst",
+      "filename": "batch_processing_with_foreach.rst",
+      "category": "other",
+      "size_bytes": 6669
+    },
+    {
+      "path": "docs/tips_and_tricks/dicom_handling.rst",
+      "filename": "dicom_handling.rst",
+      "category": "other",
+      "size_bytes": 21376
+    },
+    {
+      "path": "docs/tips_and_tricks/external_modules.rst",
+      "filename": "external_modules.rst",
+      "category": "other",
+      "size_bytes": 12012
+    },
+    {
+      "path": "docs/tips_and_tricks/troubleshooting.rst",
+      "filename": "troubleshooting.rst",
+      "category": "other",
+      "size_bytes": 696
+    },
+    {
+      "path": "src/doc/cmdlineparsing.md",
+      "filename": "cmdlineparsing.md",
+      "category": "other",
+      "size_bytes": 15508
+    },
+    {
+      "path": "src/doc/configure.md",
+      "filename": "configure.md",
+      "category": "other",
+      "size_bytes": 4458
+    },
+    {
+      "path": "src/doc/examples/examples.md",
+      "filename": "examples.md",
+      "category": "examples",
+      "size_bytes": 362
+    },
+    {
+      "path": "src/doc/examples/per_datum_multithreaded_processing.md",
+      "filename": "per_datum_multithreaded_processing.md",
+      "category": "examples",
+      "size_bytes": 4418
+    },
+    {
+      "path": "src/doc/examples/per_datum_processing.md",
+      "filename": "per_datum_processing.md",
+      "category": "examples",
+      "size_bytes": 2420
+    },
+    {
+      "path": "src/doc/examples/per_voxel_multithreaded_processing.md",
+      "filename": "per_voxel_multithreaded_processing.md",
+      "category": "examples",
+      "size_bytes": 6805
+    },
+    {
+      "path": "src/doc/image_access.md",
+      "filename": "image_access.md",
+      "category": "other",
+      "size_bytes": 9992
+    },
+    {
+      "path": "src/doc/module.md",
+      "filename": "module.md",
+      "category": "other",
+      "size_bytes": 2085
+    },
+    {
+      "path": "src/doc/multithreading.md",
+      "filename": "multithreading.md",
+      "category": "other",
+      "size_bytes": 12111
+    },
+    {
+      "path": "src/doc/newcommand.md",
+      "filename": "newcommand.md",
+      "category": "other",
+      "size_bytes": 8669
+    },
+    {
+      "path": "src/doc/overview.md",
+      "filename": "overview.md",
+      "category": "other",
+      "size_bytes": 1323
+    },
+    {
+      "path": "testing/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 12194
+    }
+  ]
+}

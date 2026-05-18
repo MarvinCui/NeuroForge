@@ -1,0 +1,37 @@
+# How To: Regtransform Inputs
+
+**Difficulty**: Beginner
+**Estimated Time**: 5 minutes
+
+## Overview
+
+Instantiate dict: test RegTransform inputs
+
+## Prerequisites
+
+**Required Modules:**
+- `regutils`
+
+
+## Step-by-Step Guide
+
+### Step 1: Assign input_map = dict(...)
+
+```python
+input_map = dict(aff_2_rig_input=dict(argstr='-aff2rig %s', extensions=None, position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'flirt_2_nr_input']), args=dict(argstr='%s'), comp_input=dict(argstr='-comp %s', extensions=None, position=-3, requires=['comp_input2'], xor=['def_input', 'disp_input', 'flow_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), comp_input2=dict(argstr='%s', extensions=None, position=-2), def_input=dict(argstr='-def %s', extensions=None, position=-2, xor=['disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), disp_input=dict(argstr='-disp %s', extensions=None, position=-2, xor=['def_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), environ=dict(nohash=True, usedefault=True), flirt_2_nr_input=dict(argstr='-flirtAff2NR %s %s %s', position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input']), flow_input=dict(argstr='-flow %s', extensions=None, position=-2, xor=['def_input', 'disp_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), half_input=dict(argstr='-half %s', extensions=None, position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), inv_aff_input=dict(argstr='-invAff %s', extensions=None, position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), inv_nrr_input=dict(argstr='-invNrr %s %s', position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), make_aff_input=dict(argstr='-makeAff %f %f %f %f %f %f %f %f %f %f %f %f', position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'aff_2_rig_input', 'flirt_2_nr_input']), omp_core_val=dict(argstr='-omp %i', usedefault=True), out_file=dict(argstr='%s', extensions=None, genfile=True, position=-1), ref1_file=dict(argstr='-ref %s', extensions=None, position=0), ref2_file=dict(argstr='-ref2 %s', extensions=None, position=1, requires=['ref1_file']), upd_s_form_input=dict(argstr='-updSform %s', extensions=None, position=-3, requires=['upd_s_form_input2'], xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), upd_s_form_input2=dict(argstr='%s', extensions=None, position=-2, requires=['upd_s_form_input']))
+```
+
+
+## Complete Example
+
+```python
+# Workflow
+input_map = dict(aff_2_rig_input=dict(argstr='-aff2rig %s', extensions=None, position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'flirt_2_nr_input']), args=dict(argstr='%s'), comp_input=dict(argstr='-comp %s', extensions=None, position=-3, requires=['comp_input2'], xor=['def_input', 'disp_input', 'flow_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), comp_input2=dict(argstr='%s', extensions=None, position=-2), def_input=dict(argstr='-def %s', extensions=None, position=-2, xor=['disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), disp_input=dict(argstr='-disp %s', extensions=None, position=-2, xor=['def_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), environ=dict(nohash=True, usedefault=True), flirt_2_nr_input=dict(argstr='-flirtAff2NR %s %s %s', position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input']), flow_input=dict(argstr='-flow %s', extensions=None, position=-2, xor=['def_input', 'disp_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), half_input=dict(argstr='-half %s', extensions=None, position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), inv_aff_input=dict(argstr='-invAff %s', extensions=None, position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), inv_nrr_input=dict(argstr='-invNrr %s %s', position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), make_aff_input=dict(argstr='-makeAff %f %f %f %f %f %f %f %f %f %f %f %f', position=-2, xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'upd_s_form_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'aff_2_rig_input', 'flirt_2_nr_input']), omp_core_val=dict(argstr='-omp %i', usedefault=True), out_file=dict(argstr='%s', extensions=None, genfile=True, position=-1), ref1_file=dict(argstr='-ref %s', extensions=None, position=0), ref2_file=dict(argstr='-ref2 %s', extensions=None, position=1, requires=['ref1_file']), upd_s_form_input=dict(argstr='-updSform %s', extensions=None, position=-3, requires=['upd_s_form_input2'], xor=['def_input', 'disp_input', 'flow_input', 'comp_input', 'inv_aff_input', 'inv_nrr_input', 'half_input', 'make_aff_input', 'aff_2_rig_input', 'flirt_2_nr_input']), upd_s_form_input2=dict(argstr='%s', extensions=None, position=-2, requires=['upd_s_form_input']))
+```
+
+## Next Steps
+
+
+---
+
+*Source: test_auto_RegTransform.py:6 | Complexity: Beginner | Last updated: 2026-05-18*

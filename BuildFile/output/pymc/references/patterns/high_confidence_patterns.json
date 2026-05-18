@@ -1,0 +1,114 @@
+[
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "pymc/pymc/backends/mcbackend.py",
+    "class_name": "ChainRecordAdapter",
+    "method_name": null,
+    "line_number": 94,
+    "evidence": [
+      "Class name suggests Adapter: ChainRecordAdapter"
+    ],
+    "related_classes": [],
+    "file_path": "pymc/pymc/backends/mcbackend.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "pymc/pymc/distributions/dist_math.py",
+    "class_name": "SplineWrapper",
+    "method_name": null,
+    "line_number": 238,
+    "evidence": [
+      "Class name suggests Adapter: SplineWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "pymc/pymc/distributions/dist_math.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "pymc/pymc/sampling/parallel.py",
+    "class_name": "ProcessAdapter",
+    "method_name": null,
+    "line_number": 294,
+    "evidence": [
+      "Class name suggests Adapter: ProcessAdapter"
+    ],
+    "related_classes": [],
+    "file_path": "pymc/pymc/sampling/parallel.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "pymc/pymc/smc/parallel.py",
+    "class_name": "SMCProcessAdapter",
+    "method_name": null,
+    "line_number": 162,
+    "evidence": [
+      "Class name suggests Adapter: SMCProcessAdapter"
+    ],
+    "related_classes": [],
+    "file_path": "pymc/pymc/smc/parallel.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "pymc/pymc/tuning/starting.py",
+    "class_name": "CostFuncWrapper",
+    "method_name": null,
+    "line_number": 206,
+    "evidence": [
+      "Class name suggests Adapter: CostFuncWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "pymc/pymc/tuning/starting.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "pymc/pymc/util.py",
+    "class_name": "HashableWrapper",
+    "method_name": null,
+    "line_number": 323,
+    "evidence": [
+      "Class name suggests Adapter: HashableWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "pymc/pymc/util.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "pymc/tests/backends/test_mcbackend.py",
+    "class_name": "TestChainRecordAdapter",
+    "method_name": null,
+    "line_number": 180,
+    "evidence": [
+      "Class name suggests Adapter: TestChainRecordAdapter"
+    ],
+    "related_classes": [],
+    "file_path": "pymc/tests/backends/test_mcbackend.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "pymc/tests/distributions/test_dist_math.py",
+    "class_name": "TestSplineWrapper",
+    "method_name": null,
+    "line_number": 121,
+    "evidence": [
+      "Class name suggests Adapter: TestSplineWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "pymc/tests/distributions/test_dist_math.py"
+  }
+]

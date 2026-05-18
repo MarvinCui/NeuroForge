@@ -1,0 +1,3759 @@
+[
+  {
+    "file_path": "dipy/dipy/align/cpd.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/cpd.py",
+        "class_name": "DeformableRegistration",
+        "method_name": "register",
+        "line_number": 288,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/align/cpd.py",
+        "class_name": "DeformableRegistration",
+        "method_name": "update_transform",
+        "line_number": 320,
+        "evidence": [
+          "Observer method detected: update_transform"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/align/imaffine.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/imaffine.py",
+        "class_name": "AffineMap",
+        "method_name": "__init__",
+        "line_number": 78,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/imaffine.py",
+        "class_name": "MutualInformationMetric",
+        "method_name": "__init__",
+        "line_number": 507,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/align/imaffine.py",
+        "class_name": "MutualInformationMetric",
+        "method_name": "_update_histogram",
+        "line_number": 678,
+        "evidence": [
+          "Observer method detected: _update_histogram"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/imaffine.py",
+        "class_name": "AffineRegistration",
+        "method_name": "__init__",
+        "line_number": 896,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/align/imwarp.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/imwarp.py",
+        "class_name": "DiffeomorphicMap",
+        "method_name": "__init__",
+        "line_number": 104,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/imwarp.py",
+        "class_name": "DiffeomorphicRegistration",
+        "method_name": "__init__",
+        "line_number": 1067,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/imwarp.py",
+        "class_name": "SymmetricDiffeomorphicRegistration",
+        "method_name": "__init__",
+        "line_number": 1127,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/align/imwarp.py",
+        "class_name": "SymmetricDiffeomorphicRegistration",
+        "method_name": "update",
+        "line_number": 1197,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/align/metrics.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/metrics.py",
+        "class_name": "SimilarityMetric",
+        "method_name": "initialize_iteration",
+        "line_number": 170,
+        "evidence": [
+          "Method uses decorators: ['abc.abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/metrics.py",
+        "class_name": "CCMetric",
+        "method_name": "__init__",
+        "line_number": 218,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/metrics.py",
+        "class_name": "EMMetric",
+        "method_name": "__init__",
+        "line_number": 365,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/metrics.py",
+        "class_name": "SSDMetric",
+        "method_name": "__init__",
+        "line_number": 730,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4
+    }
+  },
+  {
+    "file_path": "dipy/dipy/align/scalespace.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/scalespace.py",
+        "class_name": "ScaleSpace",
+        "method_name": "__init__",
+        "line_number": 12,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/scalespace.py",
+        "class_name": "IsotropicScaleSpace",
+        "method_name": "__init__",
+        "line_number": 331,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/align/streamlinear.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/streamlinear.py",
+        "class_name": "StreamlineDistanceMetric",
+        "method_name": "__init__",
+        "line_number": 45,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/align/streamlinear.py",
+        "class_name": "StreamlineLinearRegistration",
+        "method_name": "__init__",
+        "line_number": 304,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 14,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/core/gradients.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/core/gradients.py",
+        "class_name": "GradientTable",
+        "method_name": "__init__",
+        "line_number": 131,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 27,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/core/graph.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/core/graph.py",
+        "class_name": "Graph",
+        "method_name": "add_node",
+        "line_number": 41,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/core/optimize.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/core/optimize.py",
+        "class_name": "Optimizer",
+        "method_name": "__init__",
+        "line_number": 19,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/core/optimize.py",
+        "class_name": "SKLearnLinearSolver",
+        "method_name": "fit",
+        "line_number": 347,
+        "evidence": [
+          "Method uses decorators: ['abc.abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/core/optimize.py",
+        "class_name": "PositiveDefiniteLeastSquares",
+        "method_name": "__init__",
+        "line_number": 393,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "dipy/dipy/core/profile.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/core/profile.py",
+        "class_name": "Profiler",
+        "method_name": "print_stats",
+        "line_number": 92,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/core/sphere.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/core/sphere.py",
+        "class_name": "Sphere",
+        "method_name": "__init__",
+        "line_number": 148,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/core/sphere.py",
+        "class_name": "HemiSphere",
+        "method_name": "__init__",
+        "line_number": 338,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 15,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/io/dpy.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/io/dpy.py",
+        "class_name": "Dpy",
+        "method_name": "__init__",
+        "line_number": 23,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/io/stateful_surface.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/io/stateful_surface.py",
+        "class_name": "StatefulSurface",
+        "method_name": "are_compatible",
+        "line_number": 165,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/io/stateful_tractogram.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/io/stateful_tractogram.py",
+        "class_name": "StatefulTractogram",
+        "method_name": "__init__",
+        "line_number": 46,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/nn/tf/cnn_1d_denoising.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/tf/cnn_1d_denoising.py",
+        "class_name": "Cnn1DDenoiser",
+        "method_name": "__init__",
+        "line_number": 44,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/nn/tf/deepn4.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/tf/deepn4.py",
+        "class_name": "DeepN4",
+        "method_name": "__init__",
+        "line_number": 205,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()', 'doctest_skip_parser']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/nn/tf/evac.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/tf/evac.py",
+        "class_name": "Block",
+        "method_name": "__init__",
+        "line_number": 115,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/tf/evac.py",
+        "class_name": "EVACPlus",
+        "method_name": "__init__",
+        "line_number": 349,
+        "evidence": [
+          "Method uses decorators: ['doctest_skip_parser', 'warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/nn/tf/histo_resdnn.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/tf/histo_resdnn.py",
+        "class_name": "HistoResDNN",
+        "method_name": "__init__",
+        "line_number": 48,
+        "evidence": [
+          "Method uses decorators: [\"deprecated_params('sh_order', new_name='sh_order_max', since='1.9', until='2.0')\", 'warning_for_keywords()', 'doctest_skip_parser']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/nn/tf/model.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/tf/model.py",
+        "class_name": "SingleLayerPerceptron",
+        "method_name": "__init__",
+        "line_number": 9,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/tf/model.py",
+        "class_name": "MultipleLayerPercepton",
+        "method_name": "__init__",
+        "line_number": 151,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/nn/tf/synb0.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/tf/synb0.py",
+        "class_name": "Synb0",
+        "method_name": "__init__",
+        "line_number": 207,
+        "evidence": [
+          "Method uses decorators: ['doctest_skip_parser', 'warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/nn/torch/deepn4.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/torch/deepn4.py",
+        "class_name": "DeepN4",
+        "method_name": "__init__",
+        "line_number": 233,
+        "evidence": [
+          "Method uses decorators: ['doctest_skip_parser']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/nn/torch/evac.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/torch/evac.py",
+        "class_name": "EVACPlus",
+        "method_name": "__init__",
+        "line_number": 440,
+        "evidence": [
+          "Method uses decorators: ['doctest_skip_parser']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/nn/torch/histo_resdnn.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/torch/histo_resdnn.py",
+        "class_name": "HistoResDNN",
+        "method_name": "__init__",
+        "line_number": 93,
+        "evidence": [
+          "Method uses decorators: ['doctest_skip_parser']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/nn/torch/synthseg.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/nn/torch/synthseg.py",
+        "class_name": "SynthSeg",
+        "method_name": "__init__",
+        "line_number": 291,
+        "evidence": [
+          "Method uses decorators: ['doctest_skip_parser']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/base.py",
+        "class_name": "ReconstModel",
+        "method_name": "fit",
+        "line_number": 31,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/bingham.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/bingham.py",
+        "class_name": "BinghamMetrics",
+        "method_name": "amplitude_lobe",
+        "line_number": 529,
+        "evidence": [
+          "Method uses decorators: ['auto_attr']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 12,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/cache.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/cache.py",
+        "class_name": "Cache",
+        "method_name": "_cache",
+        "line_number": 33,
+        "evidence": [
+          "Method uses decorators: ['auto_attr']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/csdeconv.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/csdeconv.py",
+        "class_name": "AxSymShResponse",
+        "method_name": "__init__",
+        "line_number": 49,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/csdeconv.py",
+        "class_name": "ConstrainedSphericalDeconvModel",
+        "method_name": "__init__",
+        "line_number": 74,
+        "evidence": [
+          "Method uses decorators: [\"deprecated_params('sh_order', new_name='sh_order_max', since='1.9', until='2.0')\", 'warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/csdeconv.py",
+        "class_name": "ConstrainedSDTModel",
+        "method_name": "__init__",
+        "line_number": 258,
+        "evidence": [
+          "Method uses decorators: [\"deprecated_params('sh_order', new_name='sh_order_max', since='1.9', until='2.0')\", 'warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 12,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/cti.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/cti.py",
+        "class_name": "CorrelationTensorModel",
+        "method_name": "fit",
+        "line_number": 260,
+        "evidence": [
+          "Method uses decorators: ['multi_voxel_fit', 'warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/cti.py",
+        "class_name": "CorrelationTensorFit",
+        "method_name": "ct",
+        "line_number": 341,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/dki.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/dki.py",
+        "class_name": "DiffusionKurtosisModel",
+        "method_name": "__init__",
+        "line_number": 1765,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/dki.py",
+        "class_name": "DiffusionKurtosisFit",
+        "method_name": "__init__",
+        "line_number": 2123,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 28,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/dki_micro.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/dki_micro.py",
+        "class_name": "KurtosisMicrostructureModel",
+        "method_name": "fit",
+        "line_number": 368,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/dki_micro.py",
+        "class_name": "KurtosisMicrostructuralFit",
+        "method_name": "awf",
+        "line_number": 511,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/dsi.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/dsi.py",
+        "class_name": "DiffusionSpectrumModel",
+        "method_name": "__init__",
+        "line_number": 15,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/dsi.py",
+        "class_name": "DiffusionSpectrumFit",
+        "method_name": "pdf",
+        "line_number": 157,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/dsi.py",
+        "class_name": "DiffusionSpectrumDeconvModel",
+        "method_name": "__init__",
+        "line_number": 502,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/dti.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/dti.py",
+        "class_name": "TensorModel",
+        "method_name": "fit",
+        "line_number": 787,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/dti.py",
+        "class_name": "TensorFit",
+        "method_name": "__init__",
+        "line_number": 875,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 37,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/force.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/force.py",
+        "class_name": "FORCEModel",
+        "method_name": "_fetch_params_batched",
+        "line_number": 898,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/force.py",
+        "class_name": "FORCEFit",
+        "method_name": "fa",
+        "line_number": 1143,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 24,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/forecast.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/forecast.py",
+        "class_name": "ForecastModel",
+        "method_name": "__init__",
+        "line_number": 46,
+        "evidence": [
+          "Method uses decorators: [\"deprecated_params('sh_order', new_name='sh_order_max', since='1.9', until='2.0')\", 'warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/forecast.py",
+        "class_name": "ForecastFit",
+        "method_name": "odf",
+        "line_number": 305,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/fwdti.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/fwdti.py",
+        "class_name": "FreeWaterTensorModel",
+        "method_name": "fit",
+        "line_number": 143,
+        "evidence": [
+          "Method uses decorators: ['multi_voxel_fit', 'warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/fwdti.py",
+        "class_name": "FreeWaterTensorFit",
+        "method_name": "f",
+        "line_number": 216,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/gqi.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/gqi.py",
+        "class_name": "GeneralizedQSamplingModel",
+        "method_name": "__init__",
+        "line_number": 18,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 12,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/ivim.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/ivim.py",
+        "class_name": "IvimModelTRR",
+        "method_name": "__init__",
+        "line_number": 179,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/ivim.py",
+        "class_name": "IvimModelVP",
+        "method_name": "__init__",
+        "line_number": 520,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/ivim.py",
+        "class_name": "IvimFit",
+        "method_name": "S0_predicted",
+        "line_number": 872,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/mapmri.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/mapmri.py",
+        "class_name": "MapmriModel",
+        "method_name": "__init__",
+        "line_number": 57,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/mapmri.py",
+        "class_name": "MapmriFit",
+        "method_name": "__init__",
+        "line_number": 460,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 34,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/mcsd.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/mcsd.py",
+        "class_name": "MultiShellResponse",
+        "method_name": "__init__",
+        "line_number": 73,
+        "evidence": [
+          "Method uses decorators: [\"deprecated_params('sh_order', new_name='sh_order_max', since='1.9', until='2.0')\", 'warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/mcsd.py",
+        "class_name": "MultiShellDeconvModel",
+        "method_name": "__init__",
+        "line_number": 166,
+        "evidence": [
+          "Method uses decorators: [\"deprecated_params('sh_order', new_name='sh_order_max', since='1.9', until='2.0')\", 'warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/mcsd.py",
+        "class_name": "MSDeconvFit",
+        "method_name": "shm_coeff",
+        "line_number": 368,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/msdki.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/msdki.py",
+        "class_name": "MeanDiffusionKurtosisModel",
+        "method_name": "fit",
+        "line_number": 326,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/msdki.py",
+        "class_name": "MeanDiffusionKurtosisFit",
+        "method_name": "__init__",
+        "line_number": 398,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/multi_voxel.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/multi_voxel.py",
+        "class_name": "MultiVoxelFit",
+        "method_name": "shape",
+        "line_number": 422,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/qtdmri.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/qtdmri.py",
+        "class_name": "QtdmriModel",
+        "method_name": "__init__",
+        "line_number": 115,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/qtdmri.py",
+        "class_name": "QtdmriFit",
+        "method_name": "sparsity_abs",
+        "line_number": 584,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 41,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/qti.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/qti.py",
+        "class_name": "QtiModel",
+        "method_name": "__init__",
+        "line_number": 784,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/qti.py",
+        "class_name": "QtiFit",
+        "method_name": "S0_hat",
+        "line_number": 1042,
+        "evidence": [
+          "Method uses decorators: ['auto_attr']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 12,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/rumba.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/rumba.py",
+        "class_name": "RumbaSDModel",
+        "method_name": "__init__",
+        "line_number": 27,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/rumba.py",
+        "class_name": "RumbaFit",
+        "method_name": "odf",
+        "line_number": 347,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 7,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/sfm.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/sfm.py",
+        "class_name": "IsotropicModel",
+        "method_name": "fit",
+        "line_number": 92,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/sfm.py",
+        "class_name": "IsotropicFit",
+        "method_name": "predict",
+        "line_number": 143,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/sfm.py",
+        "class_name": "ExponentialIsotropicModel",
+        "method_name": "fit",
+        "line_number": 173,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/sfm.py",
+        "class_name": "ExponentialIsotropicFit",
+        "method_name": "predict",
+        "line_number": 210,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/sfm.py",
+        "class_name": "SparseFascicleModel",
+        "method_name": "__init__",
+        "line_number": 334,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/sfm.py",
+        "class_name": "SparseFascicleFit",
+        "method_name": "predict",
+        "line_number": 657,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 6
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/shm.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/shm.py",
+        "class_name": "QballBaseModel",
+        "method_name": "__init__",
+        "line_number": 885,
+        "evidence": [
+          "Method uses decorators: [\"deprecated_params('sh_order', new_name='sh_order_max', since='1.9', until='2.0')\", 'warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "dipy/dipy/reconst/shm.py",
+        "class_name": "QballBaseModel",
+        "method_name": null,
+        "line_number": 880,
+        "evidence": [
+          "Abstract base with subclasses: CsaOdfModel, OpdtModel"
+        ],
+        "related_classes": [
+          "CsaOdfModel",
+          "OpdtModel",
+          "QballModel"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/shm.py",
+        "class_name": "SphHarmFit",
+        "method_name": "shape",
+        "line_number": 969,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/shm.py",
+        "class_name": "CsaOdfModel",
+        "method_name": "_get_shm_coef",
+        "line_number": 1063,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/shm.py",
+        "class_name": "OpdtModel",
+        "method_name": "_get_shm_coef",
+        "line_number": 1094,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/shm.py",
+        "class_name": "QballModel",
+        "method_name": "_get_shm_coef",
+        "line_number": 1122,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "dipy/dipy/reconst/shm.py",
+        "class_name": "ResidualBootstrapWrapper",
+        "method_name": null,
+        "line_number": 1209,
+        "evidence": [
+          "Class name suggests Decorator: ResidualBootstrapWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "dipy/dipy/reconst/shm.py",
+        "class_name": "ResidualBootstrapWrapper",
+        "method_name": null,
+        "line_number": 1209,
+        "evidence": [
+          "Class name suggests Adapter: ResidualBootstrapWrapper"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 33,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 6,
+      "TemplateMethod": 1,
+      "Adapter": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/shore.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/shore.py",
+        "class_name": "ShoreModel",
+        "method_name": "__init__",
+        "line_number": 47,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/shore.py",
+        "class_name": "ShoreFit",
+        "method_name": "shore_coeff",
+        "line_number": 471,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 11,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/reconst/tests/test_multi_voxel.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/tests/test_multi_voxel.py",
+        "class_name": "SillyModel",
+        "method_name": "fit",
+        "line_number": 148,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()', 'multi_voxel_fit']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/reconst/tests/test_multi_voxel.py",
+        "class_name": "SillyFit",
+        "method_name": "directions",
+        "line_number": 173,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/segment/bundles.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/bundles.py",
+        "class_name": "RecoBundles",
+        "method_name": "__init__",
+        "line_number": 214,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/segment/clustering.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/clustering.py",
+        "class_name": "Cluster",
+        "method_name": "__init__",
+        "line_number": 53,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/clustering.py",
+        "class_name": "ClusterCentroid",
+        "method_name": "__init__",
+        "line_number": 144,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/segment/clustering.py",
+        "class_name": "ClusterCentroid",
+        "method_name": "update",
+        "line_number": 172,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/clustering.py",
+        "class_name": "ClusterMap",
+        "method_name": "__init__",
+        "line_number": 199,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/clustering.py",
+        "class_name": "ClusterMapCentroid",
+        "method_name": "centroids",
+        "line_number": 411,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/clustering.py",
+        "class_name": "Clustering",
+        "method_name": "cluster",
+        "line_number": 420,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod', 'warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/clustering.py",
+        "class_name": "QuickBundles",
+        "method_name": "__init__",
+        "line_number": 503,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/clustering.py",
+        "class_name": "QuickBundlesX",
+        "method_name": "__init__",
+        "line_number": 576,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/clustering.py",
+        "class_name": "TreeCluster",
+        "method_name": "__init__",
+        "line_number": 619,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/clustering.py",
+        "class_name": "TreeClusterMap",
+        "method_name": "refdata",
+        "line_number": 649,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 10,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 9,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/segment/fss.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/fss.py",
+        "class_name": "FastStreamlineSearch",
+        "method_name": "__init__",
+        "line_number": 15,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/segment/tests/test_metric.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/tests/test_metric.py",
+        "class_name": "MinimumAverageDirectFlipMetric",
+        "method_name": "is_order_invariant",
+        "line_number": 56,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 7,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/segment/tissue.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/segment/tissue.py",
+        "class_name": "TissueClassifierHMRF",
+        "method_name": "__init__",
+        "line_number": 20,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/tracking/life.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/tracking/life.py",
+        "class_name": "LifeSignalMaker",
+        "method_name": "__init__",
+        "line_number": 228,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/tracking/life.py",
+        "class_name": "FiberModel",
+        "method_name": "setup",
+        "line_number": 373,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/tracking/life.py",
+        "class_name": "FiberFit",
+        "method_name": "predict",
+        "line_number": 588,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "dipy/dipy/tracking/local_tracking.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/tracking/local_tracking.py",
+        "class_name": "LocalTracking",
+        "method_name": "_get_voxel_size",
+        "line_number": 61,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/tracking/local_tracking.py",
+        "class_name": "ParticleFilteringTracking",
+        "method_name": "__init__",
+        "line_number": 360,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "dipy/dipy/tracking/local_tracking.py",
+        "class_name": "ParticleFilteringTracking",
+        "method_name": null,
+        "line_number": 358,
+        "evidence": [
+          "Class name suggests handler chain: ParticleFilteringTracking"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/utils/logging.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/utils/logging.py",
+        "class_name": "CustomHandler",
+        "method_name": "emit",
+        "line_number": 20,
+        "evidence": [
+          "Observer method detected: emit"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "dipy/dipy/utils/logging.py",
+        "class_name": "CustomHandler",
+        "method_name": null,
+        "line_number": 6,
+        "evidence": [
+          "Class name suggests handler chain: CustomHandler"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/utils/tests/test_deprecator.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/utils/tests/test_deprecator.py",
+        "class_name": "CustomActor",
+        "method_name": "test1",
+        "line_number": 211,
+        "evidence": [
+          "Method uses decorators: ['classmethod', \"deprecated_params('height', new_name='scale', since='0.3')\"]"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 26,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/viz/horizon/app.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/app.py",
+        "class_name": "Horizon",
+        "method_name": "__init__",
+        "line_number": 69,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/viz/horizon/app.py",
+        "class_name": "Horizon",
+        "method_name": "_update_actors",
+        "line_number": 462,
+        "evidence": [
+          "Observer method detected: _update_actors"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 7,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/viz/horizon/tab/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/tab/base.py",
+        "class_name": "HorizonTab",
+        "method_name": "build",
+        "line_number": 40,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/tab/base.py",
+        "class_name": "TabManager",
+        "method_name": "__init__",
+        "line_number": 142,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/viz/horizon/tab/cluster.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/tab/cluster.py",
+        "class_name": "ClustersTab",
+        "method_name": "name",
+        "line_number": 160,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/viz/horizon/tab/cluster.py",
+        "class_name": "ClustersTab",
+        "method_name": "_update_clusters",
+        "line_number": 122,
+        "evidence": [
+          "Observer method detected: _update_clusters"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/viz/horizon/tab/peak.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/tab/peak.py",
+        "class_name": "PeaksTab",
+        "method_name": "_change_slice",
+        "line_number": 222,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/viz/horizon/tab/peak.py",
+        "class_name": "PeaksTab",
+        "method_name": "_update_slice_visibility",
+        "line_number": 266,
+        "evidence": [
+          "Observer method detected: _update_slice_visibility"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/viz/horizon/tab/roi.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/tab/roi.py",
+        "class_name": "ROIsTab",
+        "method_name": "name",
+        "line_number": 81,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/viz/horizon/tab/slice.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/tab/slice.py",
+        "class_name": "SlicesTab",
+        "method_name": "__init__",
+        "line_number": 35,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/viz/horizon/tab/slice.py",
+        "class_name": "SlicesTab",
+        "method_name": "_update_slice_visibility",
+        "line_number": 279,
+        "evidence": [
+          "Observer method detected: _update_slice_visibility"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/viz/horizon/tab/surface.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/tab/surface.py",
+        "class_name": "SurfaceTab",
+        "method_name": "name",
+        "line_number": 97,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/viz/horizon/tab/surface.py",
+        "class_name": "SurfaceTab",
+        "method_name": "_update_opacities",
+        "line_number": 57,
+        "evidence": [
+          "Observer method detected: _update_opacities"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/viz/horizon/visualizer/cluster.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/visualizer/cluster.py",
+        "class_name": "ClustersVisualizer",
+        "method_name": "__init__",
+        "line_number": 21,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/viz/horizon/visualizer/peak.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/visualizer/peak.py",
+        "class_name": "PeakActor",
+        "method_name": "__init__",
+        "line_number": 85,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/visualizer/peak.py",
+        "class_name": "PeaksVisualizer",
+        "method_name": "actors",
+        "line_number": 547,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/viz/horizon/visualizer/slice.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "dipy/dipy/viz/horizon/visualizer/slice.py",
+        "class_name": "SlicesVisualizer",
+        "method_name": "_create_and_resize_actors",
+        "line_number": 146,
+        "evidence": [
+          "Factory method detected: _create_and_resize_actors"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/visualizer/slice.py",
+        "class_name": "SlicesVisualizer",
+        "method_name": "__init__",
+        "line_number": 21,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/viz/horizon/visualizer/surface.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/viz/horizon/visualizer/surface.py",
+        "class_name": "SurfaceVisualizer",
+        "method_name": "actors",
+        "line_number": 26,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/align.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/align.py",
+        "class_name": "ResliceFlow",
+        "method_name": "get_short_name",
+        "line_number": 58,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/align.py",
+        "class_name": "SlrWithQbxFlow",
+        "method_name": "get_short_name",
+        "line_number": 181,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/align.py",
+        "class_name": "BundleWarpFlow",
+        "method_name": "get_short_name",
+        "line_number": 1030,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/base.py",
+        "class_name": "IntrospectiveArgumentParser",
+        "method_name": "output_parameters",
+        "line_number": 501,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/workflows/base.py",
+        "class_name": "IntrospectiveArgumentParser",
+        "method_name": "update_argument",
+        "line_number": 486,
+        "evidence": [
+          "Observer method detected: update_argument"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/combined_workflow.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/combined_workflow.py",
+        "class_name": "CombinedWorkflow",
+        "method_name": "__init__",
+        "line_number": 7,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/denoise.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/denoise.py",
+        "class_name": "Patch2SelfFlow",
+        "method_name": "get_short_name",
+        "line_number": 21,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/denoise.py",
+        "class_name": "NLMeansFlow",
+        "method_name": "get_short_name",
+        "line_number": 127,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/denoise.py",
+        "class_name": "LPCAFlow",
+        "method_name": "get_short_name",
+        "line_number": 211,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/denoise.py",
+        "class_name": "MPPCAFlow",
+        "method_name": "get_short_name",
+        "line_number": 314,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/denoise.py",
+        "class_name": "GibbsRingingFlow",
+        "method_name": "get_short_name",
+        "line_number": 385,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 5
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/docstring_parser.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/docstring_parser.py",
+        "class_name": "NumpyDocString",
+        "method_name": "__init__",
+        "line_number": 122,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/io.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "IoInfoFlow",
+        "method_name": "get_short_name",
+        "line_number": 612,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "FetchFlow",
+        "method_name": "get_short_name",
+        "line_number": 785,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "SplitFlow",
+        "method_name": "get_short_name",
+        "line_number": 975,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "ExtractB0Flow",
+        "method_name": "get_short_name",
+        "line_number": 1009,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "ExtractShellFlow",
+        "method_name": "get_short_name",
+        "line_number": 1120,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "ExtractVolumeFlow",
+        "method_name": "get_short_name",
+        "line_number": 1218,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "ConcatenateTractogramFlow",
+        "method_name": "get_short_name",
+        "line_number": 1267,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "ConvertSHFlow",
+        "method_name": "get_short_name",
+        "line_number": 1356,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "ConvertTensorsFlow",
+        "method_name": "get_short_name",
+        "line_number": 1393,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "ConvertTractogramFlow",
+        "method_name": "get_short_name",
+        "line_number": 1432,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "NiftisToPamFlow",
+        "method_name": "get_short_name",
+        "line_number": 1511,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "TensorToPamFlow",
+        "method_name": "get_short_name",
+        "line_number": 1589,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "PamToNiftisFlow",
+        "method_name": "get_short_name",
+        "line_number": 1647,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/io.py",
+        "class_name": "MathFlow",
+        "method_name": "get_short_name",
+        "line_number": 1722,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 21,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 14
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/mask.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/mask.py",
+        "class_name": "MaskFlow",
+        "method_name": "get_short_name",
+        "line_number": 12,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/multi_io.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "dipy/dipy/workflows/multi_io.py",
+        "class_name": "IOIterator",
+        "method_name": "create_outputs",
+        "line_number": 292,
+        "evidence": [
+          "Factory method detected: create_outputs"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/multi_io.py",
+        "class_name": "IOIterator",
+        "method_name": "__init__",
+        "line_number": 262,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/nn.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/nn.py",
+        "class_name": "EVACPlusFlow",
+        "method_name": "get_short_name",
+        "line_number": 18,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/nn.py",
+        "class_name": "BiasFieldCorrectionFlow",
+        "method_name": "get_short_name",
+        "line_number": 85,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/reconst.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstMAPMRIFlow",
+        "method_name": "get_short_name",
+        "line_number": 77,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstPowermapFlow",
+        "method_name": "get_short_name",
+        "line_number": 341,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstDtiFlow",
+        "method_name": "get_short_name",
+        "line_number": 498,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstDsiFlow",
+        "method_name": "get_short_name",
+        "line_number": 813,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstCSDFlow",
+        "method_name": "get_short_name",
+        "line_number": 1010,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstQBallBaseFlow",
+        "method_name": "get_short_name",
+        "line_number": 1390,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstDkiFlow",
+        "method_name": "get_short_name",
+        "line_number": 1614,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstIvimFlow",
+        "method_name": "get_short_name",
+        "line_number": 1913,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstRUMBAFlow",
+        "method_name": "get_short_name",
+        "line_number": 2050,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstSDTFlow",
+        "method_name": "get_short_name",
+        "line_number": 2311,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstSFMFlow",
+        "method_name": "get_short_name",
+        "line_number": 2538,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstGQIFlow",
+        "method_name": "get_short_name",
+        "line_number": 2754,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstForecastFlow",
+        "method_name": "get_short_name",
+        "line_number": 2957,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstFwdtiFlow",
+        "method_name": "get_short_name",
+        "line_number": 3170,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/reconst.py",
+        "class_name": "ReconstForceFlow",
+        "method_name": "get_short_name",
+        "line_number": 3446,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 15,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 15
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/segment.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/segment.py",
+        "class_name": "MedianOtsuFlow",
+        "method_name": "get_short_name",
+        "line_number": 29,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/segment.py",
+        "class_name": "RecoBundlesFlow",
+        "method_name": "get_short_name",
+        "line_number": 155,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/segment.py",
+        "class_name": "LabelsBundlesFlow",
+        "method_name": "get_short_name",
+        "line_number": 382,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/segment.py",
+        "class_name": "ClassifyTissueFlow",
+        "method_name": "get_short_name",
+        "line_number": 435,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/segment.py",
+        "class_name": "BrainMaskFlow",
+        "method_name": "get_short_name",
+        "line_number": 609,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/segment.py",
+        "class_name": "ClusterStreamlinesFlow",
+        "method_name": "get_short_name",
+        "line_number": 809,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 6
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/stats.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/stats.py",
+        "class_name": "SNRinCCFlow",
+        "method_name": "get_short_name",
+        "line_number": 39,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/stats.py",
+        "class_name": "BundleAnalysisTractometryFlow",
+        "method_name": "get_short_name",
+        "line_number": 334,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/stats.py",
+        "class_name": "LinearMixedModelsFlow",
+        "method_name": "get_short_name",
+        "line_number": 583,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/stats.py",
+        "class_name": "BundleShapeAnalysis",
+        "method_name": "get_short_name",
+        "line_number": 739,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/tests/workflow_tests_utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/tests/workflow_tests_utils.py",
+        "class_name": "DummyWorkflow1",
+        "method_name": "get_short_name",
+        "line_number": 7,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/tests/workflow_tests_utils.py",
+        "class_name": "DummyWorkflow2",
+        "method_name": "get_short_name",
+        "line_number": 33,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/tests/workflow_tests_utils.py",
+        "class_name": "DummyVariableTypeWorkflow",
+        "method_name": "get_short_name",
+        "line_number": 159,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/tests/workflow_tests_utils.py",
+        "class_name": "DummyVariableTypeErrorWorkflow",
+        "method_name": "get_short_name",
+        "line_number": 180,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/tracking.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/tracking.py",
+        "class_name": "LocalFiberTrackingPAMFlow",
+        "method_name": "get_short_name",
+        "line_number": 29,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/tracking.py",
+        "class_name": "PFTrackingPAMFlow",
+        "method_name": "get_short_name",
+        "line_number": 275,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/viz.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/viz.py",
+        "class_name": "HorizonFlow",
+        "method_name": "get_short_name",
+        "line_number": 30,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "dipy/dipy/workflows/workflow.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/dipy/workflows/workflow.py",
+        "class_name": "Workflow",
+        "method_name": "__init__",
+        "line_number": 11,
+        "evidence": [
+          "Method uses decorators: ['warning_for_keywords()']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "dipy/dipy/workflows/workflow.py",
+        "class_name": "Workflow",
+        "method_name": "update_flat_outputs",
+        "line_number": 59,
+        "evidence": [
+          "Observer method detected: update_flat_outputs"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "dipy/doc/tools/apigen.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "dipy/doc/tools/apigen.py",
+        "class_name": "ApiDocWriter",
+        "method_name": "_import",
+        "line_number": 126,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  }
+]

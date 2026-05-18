@@ -1,0 +1,37 @@
+# How To: Nwarpcat Inputs
+
+**Difficulty**: Beginner
+**Estimated Time**: 5 minutes
+
+## Overview
+
+Instantiate dict: test NwarpCat inputs
+
+## Prerequisites
+
+**Required Modules:**
+- `utils`
+
+
+## Step-by-Step Guide
+
+### Step 1: Assign input_map = dict(...)
+
+```python
+input_map = dict(args=dict(argstr='%s'), environ=dict(nohash=True, usedefault=True), expad=dict(argstr='-expad %d'), in_files=dict(argstr='%s', mandatory=True, position=-1), interp=dict(argstr='-interp %s', usedefault=True), inv_warp=dict(argstr='-iwarp'), num_threads=dict(nohash=True, usedefault=True), out_file=dict(argstr='-prefix %s', extensions=None, name_source='in_files', name_template='%s_NwarpCat'), outputtype=dict(), space=dict(argstr='-space %s'), verb=dict(argstr='-verb'))
+```
+
+
+## Complete Example
+
+```python
+# Workflow
+input_map = dict(args=dict(argstr='%s'), environ=dict(nohash=True, usedefault=True), expad=dict(argstr='-expad %d'), in_files=dict(argstr='%s', mandatory=True, position=-1), interp=dict(argstr='-interp %s', usedefault=True), inv_warp=dict(argstr='-iwarp'), num_threads=dict(nohash=True, usedefault=True), out_file=dict(argstr='-prefix %s', extensions=None, name_source='in_files', name_template='%s_NwarpCat'), outputtype=dict(), space=dict(argstr='-space %s'), verb=dict(argstr='-verb'))
+```
+
+## Next Steps
+
+
+---
+
+*Source: test_auto_NwarpCat.py:6 | Complexity: Beginner | Last updated: 2026-05-18*

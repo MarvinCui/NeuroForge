@@ -1,0 +1,977 @@
+{
+  "nodes": [
+    {
+      "file": "doc/misc/header.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/source/conf.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/source/dicom/derivations/dicom_mosaic.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/source/dicom/derivations/spm_dicom_orient.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/source/external/nifti1.h",
+      "language": "C++"
+    },
+    {
+      "file": "doc/source/scripts/make_coord_examples.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/tools/apigen.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/tools/build_modref_templates.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/_compression.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/_typing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/affines.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/analyze.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/arrayproxy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/arraywriters.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/batteryrunners.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/benchmarks/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/benchmarks/bench_array_to_file.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/benchmarks/bench_arrayproxy_slicing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/benchmarks/bench_fileslice.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/benchmarks/bench_finite_range.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/benchmarks/bench_load_save.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/benchmarks/butils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/brikhead.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/caret.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/casting.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cifti2/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cifti2/cifti2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cifti2/cifti2_axes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cifti2/parse_cifti2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cifti2/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cifti2/tests/test_axes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cifti2/tests/test_cifti2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cifti2/tests/test_cifti2io_axes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cifti2/tests/test_cifti2io_header.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cifti2/tests/test_name.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cifti2/tests/test_new_cifti2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/conform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/convert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/dicomfs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/diff.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/ls.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/nifti_dx.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/parrec2nii.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/roi.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/stats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/tck2trk.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/tests/test_conform.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/tests/test_convert.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/tests/test_parrec2nii.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/tests/test_roi.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/tests/test_stats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/trk2tck.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/cmdline/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/data.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/dataobj_images.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/deprecated.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/deprecator.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/dft.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/ecat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/environment.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/eulerangles.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/externals/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/externals/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/externals/netcdf.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/externals/oset.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/externals/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/externals/tests/test_netcdf.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/filebasedimages.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/fileholders.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/filename_parser.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/fileslice.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/fileutils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/freesurfer/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/freesurfer/io.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/freesurfer/mghformat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/freesurfer/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/freesurfer/tests/test_io.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/freesurfer/tests/test_mghformat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/funcs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/gifti/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/gifti/gifti.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/gifti/parse_gifti_fast.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/gifti/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/gifti/tests/test_1.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/gifti/tests/test_gifti.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/gifti/tests/test_parse_gifti_fast.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/gifti/util.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/imageclasses.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/imageglobals.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/imagestats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/info.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/loadsave.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/minc1.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/minc2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/mriutils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/ascconv.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/csareader.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/dicomreaders.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/dicomwrappers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/dwiparams.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/structreader.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/tests/data_pkgs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/tests/test_ascconv.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/tests/test_csareader.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/tests/test_dicomreaders.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/tests/test_dicomwrappers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/tests/test_dwiparams.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/tests/test_structreader.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nicom/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nifti1.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/nifti2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/onetime.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/openers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/optpkg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/orientations.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/parrec.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/pkg_info.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/pointset.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/processing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/pydicom_compat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/quaternions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/rstutils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/spaces.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/spatialimages.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/spm2analyze.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/spm99analyze.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/array_sequence.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/header.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/tck.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/tests/test_array_sequence.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/tests/test_streamlines.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/tests/test_tck.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/tests/test_tractogram.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/tests/test_tractogram_file.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/tests/test_trk.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/tractogram.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/tractogram_file.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/trk.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/streamlines/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/testing/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/testing/helpers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/testing/np_features.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/data/check_parrec_reslice.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/data/gen_standard.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/data/make_moved_anat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/nibabel_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/scriptrunner.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_affines.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_analyze.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_api_validators.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_arrayproxy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_arraywriters.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_batteryrunners.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_brikhead.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_casting.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_dataobj_images.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_deprecated.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_deprecator.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_dft.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_diff.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_ecat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_ecat_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_endiancodes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_environment.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_euler.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_filebasedimages.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_filehandles.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_fileholders.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_filename_parser.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_files_interface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_fileslice.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_fileutils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_floating.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_funcs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_image_api.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_image_load_save.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_image_types.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_imageclasses.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_imageglobals.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_imagestats.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_init.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_loadsave.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_minc1.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_minc2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_minc2_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_mriutils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_nibabel_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_nifti1.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_nifti2.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_onetime.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_openers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_optpkg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_orientations.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_parrec.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_parrec_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_pkg_info.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_pointset.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_processing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_proxy_api.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_quaternions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_recoder.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_removalschedule.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_round_trip.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_rstutils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_scaling.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_scripts.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_spaces.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_spatialimages.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_spm2analyze.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_spm99analyze.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_tmpdirs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_tripwire.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_viewers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_volumeutils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tests/test_wrapstruct.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tmpdirs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/tripwire.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/viewers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/volumeutils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/wrapstruct.py",
+      "language": "Python"
+    },
+    {
+      "file": "nibabel/xmlutils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/bisect_nose.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/gitwash_dumper.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/make_tarball.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/markdown_release_notes.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/mpkg_wrapper.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/prep_citation_cff.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/refresh_readme.py",
+      "language": "Python"
+    }
+  ],
+  "edges": []
+}

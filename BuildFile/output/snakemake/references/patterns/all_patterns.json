@@ -1,0 +1,3270 @@
+[
+  {
+    "file_path": "snakemake/src/snakemake/api.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/api.py",
+        "class_name": "ApiBase",
+        "method_name": null,
+        "line_number": 69,
+        "evidence": [
+          "Abstract base with subclasses: SnakemakeApi, WorkflowApi"
+        ],
+        "related_classes": [
+          "SnakemakeApi",
+          "WorkflowApi",
+          "DAGApi"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/api.py",
+        "class_name": "SnakemakeApi",
+        "method_name": "get_log_handlers",
+        "line_number": 267,
+        "evidence": [
+          "Factory method detected: get_log_handlers"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/api.py",
+        "class_name": "WorkflowApi",
+        "method_name": "lint",
+        "line_number": 363,
+        "evidence": [
+          "Method uses decorators: ['_no_dag']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/api.py",
+        "class_name": "DAGApi",
+        "method_name": "create_report",
+        "line_number": 679,
+        "evidence": [
+          "Factory method detected: create_report"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/api.py",
+        "class_name": "DAGApi",
+        "method_name": "generate_unit_tests",
+        "line_number": 664,
+        "evidence": [
+          "Method uses decorators: ['_no_exec']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1,
+      "Factory": 2,
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/assets/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/assets/__init__.py",
+        "class_name": "Asset",
+        "method_name": "get_content",
+        "line_number": 24,
+        "evidence": [
+          "Factory method detected: get_content"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/assets/__init__.py",
+        "class_name": "Assets",
+        "method_name": "get_content",
+        "line_number": 554,
+        "evidence": [
+          "Factory method detected: get_content"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/assets/__init__.py",
+        "class_name": "Assets",
+        "method_name": "deploy",
+        "line_number": 534,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 2,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/benchmark.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/benchmark.py",
+        "class_name": "BenchmarkRecord",
+        "method_name": "get_header",
+        "line_number": 28,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/benchmark.py",
+        "class_name": "BenchmarkTimer",
+        "method_name": "_update_record",
+        "line_number": 319,
+        "evidence": [
+          "Observer method detected: _update_record"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/caching/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/caching/__init__.py",
+        "class_name": "AbstractOutputFileCache",
+        "method_name": "store",
+        "line_number": 39,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/caching/rule.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/caching/rule.py",
+        "class_name": "RuleCache",
+        "method_name": "from_rule",
+        "line_number": 44,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/checkpoints.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/checkpoints.py",
+        "class_name": "Checkpoints",
+        "method_name": "created_output",
+        "line_number": 21,
+        "evidence": [
+          "Factory method detected: created_output"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/checkpoints.py",
+        "class_name": "Checkpoints",
+        "method_name": "created_output",
+        "line_number": 21,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/checkpoints.py",
+        "class_name": "CheckpointsProxy",
+        "method_name": "created_output",
+        "line_number": 41,
+        "evidence": [
+          "Factory method detected: created_output"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/checkpoints.py",
+        "class_name": "CheckpointsProxy",
+        "method_name": null,
+        "line_number": 29,
+        "evidence": [
+          "Class name suggests Decorator: CheckpointsProxy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 2,
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/common/argparse.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/common/argparse.py",
+        "class_name": "ParserAction",
+        "method_name": null,
+        "line_number": 43,
+        "evidence": [
+          "Class name suggests Command: ParserAction"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/common/tests/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/common/tests/__init__.py",
+        "class_name": "TestWorkflowsBase",
+        "method_name": "get_executor",
+        "line_number": 44,
+        "evidence": [
+          "Factory method detected: get_executor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/common/tests/__init__.py",
+        "class_name": "TestWorkflowsBase",
+        "method_name": "get_executor",
+        "line_number": 44,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/common/tests/__init__.py",
+        "class_name": "TestWorkflowsBase",
+        "method_name": null,
+        "line_number": 36,
+        "evidence": [
+          "Abstract base with subclasses: TestWorkflowsLocalStorageBase, TestWorkflowsMinioPlayStorageBase"
+        ],
+        "related_classes": [
+          "TestWorkflowsLocalStorageBase",
+          "TestWorkflowsMinioPlayStorageBase"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/common/tests/__init__.py",
+        "class_name": "TestWorkflowsLocalStorageBase",
+        "method_name": "get_default_storage_provider",
+        "line_number": 169,
+        "evidence": [
+          "Factory method detected: get_default_storage_provider"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/common/tests/__init__.py",
+        "class_name": "TestWorkflowsLocalStorageBase",
+        "method_name": null,
+        "line_number": 168,
+        "evidence": [
+          "Abstract base with subclasses: TestReportBase"
+        ],
+        "related_classes": [
+          "TestReportBase"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/common/tests/__init__.py",
+        "class_name": "TestWorkflowsMinioPlayStorageBase",
+        "method_name": "get_default_storage_provider",
+        "line_number": 182,
+        "evidence": [
+          "Factory method detected: get_default_storage_provider"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/common/tests/__init__.py",
+        "class_name": "TestWorkflowsMinioPlayStorageBase",
+        "method_name": "bucket",
+        "line_number": 219,
+        "evidence": [
+          "Method uses decorators: ['lazy_property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/common/tests/__init__.py",
+        "class_name": "TestReportBase",
+        "method_name": "get_executor",
+        "line_number": 238,
+        "evidence": [
+          "Factory method detected: get_executor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 4,
+      "Decorator": 2,
+      "TemplateMethod": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/common/workdir_handler.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/common/workdir_handler.py",
+        "class_name": "WorkdirHandler",
+        "method_name": null,
+        "line_number": 10,
+        "evidence": [
+          "Class name suggests handler chain: WorkdirHandler"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/dag.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/dag.py",
+        "class_name": "DAG",
+        "method_name": "get_unneeded_temp_files",
+        "line_number": 301,
+        "evidence": [
+          "Factory method detected: get_unneeded_temp_files"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/dag.py",
+        "class_name": "DAG",
+        "method_name": "derived_targetfiles",
+        "line_number": 219,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/dag.py",
+        "class_name": "DAG",
+        "method_name": "update_jobids",
+        "line_number": 334,
+        "evidence": [
+          "Observer method detected: update_jobids"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/dag.py",
+        "class_name": "DAGProcessorBase",
+        "method_name": "process_job",
+        "line_number": 3447,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/dag.py",
+        "class_name": "DAGProcessorBase",
+        "method_name": null,
+        "line_number": 3432,
+        "evidence": [
+          "Abstract base with subclasses: WrapperProcessor, ScriptProcessor"
+        ],
+        "related_classes": [
+          "WrapperProcessor",
+          "ScriptProcessor"
+        ]
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/dag.py",
+        "class_name": "DAGProcessorBase",
+        "method_name": null,
+        "line_number": 3432,
+        "evidence": [
+          "Class name suggests handler chain: DAGProcessorBase"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/dag.py",
+        "class_name": "WrapperProcessor",
+        "method_name": null,
+        "line_number": 3450,
+        "evidence": [
+          "Class name suggests Decorator: WrapperProcessor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "snakemake/src/snakemake/dag.py",
+        "class_name": "WrapperProcessor",
+        "method_name": null,
+        "line_number": 3450,
+        "evidence": [
+          "Class name suggests Adapter: WrapperProcessor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/dag.py",
+        "class_name": "WrapperProcessor",
+        "method_name": null,
+        "line_number": 3450,
+        "evidence": [
+          "Class name suggests handler chain: WrapperProcessor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/dag.py",
+        "class_name": "ScriptProcessor",
+        "method_name": null,
+        "line_number": 3477,
+        "evidence": [
+          "Class name suggests handler chain: ScriptProcessor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/dag.py",
+        "class_name": "NotebookProcessor",
+        "method_name": null,
+        "line_number": 3500,
+        "evidence": [
+          "Class name suggests handler chain: NotebookProcessor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 37,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 3,
+      "Observer": 1,
+      "TemplateMethod": 1,
+      "ChainOfResponsibility": 4,
+      "Adapter": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/deployment/conda.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/deployment/conda.py",
+        "class_name": "Env",
+        "method_name": "_get_hash",
+        "line_number": 227,
+        "evidence": [
+          "Factory method detected: _get_hash"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/deployment/conda.py",
+        "class_name": "Env",
+        "method_name": "is_externally_managed",
+        "line_number": 109,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/deployment/conda.py",
+        "class_name": "Conda",
+        "method_name": "is_initialized",
+        "line_number": 724,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/deployment/conda.py",
+        "class_name": "CondaEnvSpec",
+        "method_name": "apply_wildcards",
+        "line_number": 856,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/deployment/conda.py",
+        "class_name": "CondaEnvFileSpec",
+        "method_name": "is_file",
+        "line_number": 902,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/deployment/conda.py",
+        "class_name": "CondaEnvDirSpec",
+        "method_name": "is_file",
+        "line_number": 940,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/deployment/conda.py",
+        "class_name": "CondaEnvNameSpec",
+        "method_name": "contains_wildcard",
+        "line_number": 975,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/deployment/conda.py",
+        "class_name": "CondaEnvSpecType",
+        "method_name": "from_spec",
+        "line_number": 991,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 7
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/deployment/containerize.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/deployment/containerize.py",
+        "class_name": "ContainerFormat",
+        "method_name": "header",
+        "line_number": 23,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/deployment/env_modules.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/deployment/env_modules.py",
+        "class_name": "EnvModules",
+        "method_name": "hash",
+        "line_number": 24,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/deployment/singularity.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/deployment/singularity.py",
+        "class_name": "Image",
+        "method_name": "is_local",
+        "line_number": 44,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/deployment/singularity.py",
+        "class_name": "Singularity",
+        "method_name": "version",
+        "line_number": 176,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/exceptions.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/exceptions.py",
+        "class_name": "RuleException",
+        "method_name": "messages",
+        "line_number": 247,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/exceptions.py",
+        "class_name": "ResourceConversionError",
+        "method_name": "format_evaluated",
+        "line_number": 650,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 52,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/executors/dryrun.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/executors/dryrun.py",
+        "class_name": "Executor",
+        "method_name": "cores",
+        "line_number": 86,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/executors/local.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/executors/local.py",
+        "class_name": "Executor",
+        "method_name": "job_specific_local_groupid",
+        "line_number": 73,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/executors/touch.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/executors/touch.py",
+        "class_name": "Executor",
+        "method_name": "cores",
+        "line_number": 94,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/io/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/io/__init__.py",
+        "class_name": "IOCache",
+        "method_name": "load",
+        "line_number": 156,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/io/__init__.py",
+        "class_name": "_IOFile",
+        "method_name": "touch_or_create",
+        "line_number": 878,
+        "evidence": [
+          "Factory method detected: touch_or_create"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/io/__init__.py",
+        "class_name": "_IOFile",
+        "method_name": "open",
+        "line_number": 416,
+        "evidence": [
+          "Method uses decorators: ['contextmanager']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/io/__init__.py",
+        "class_name": "AnnotatedString",
+        "method_name": "flags",
+        "line_number": 1021,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/io/__init__.py",
+        "class_name": "QueueInfo",
+        "method_name": "update_last_checked",
+        "line_number": 1366,
+        "evidence": [
+          "Observer method detected: update_last_checked"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 58,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3,
+      "Factory": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/io/flags/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/io/flags/__init__.py",
+        "class_name": "DefaultFlags",
+        "method_name": "get_contradicting_flags",
+        "line_number": 54,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/io/flags/access_patterns.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "snakemake/src/snakemake/io/flags/access_patterns.py",
+        "class_name": "AccessPatternFactory",
+        "method_name": null,
+        "line_number": 17,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/io/flags/access_patterns.py",
+        "class_name": "AccessPatternFactory",
+        "method_name": "random",
+        "line_number": 19,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/iocontainers.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/iocontainers.py",
+        "class_name": "Namedlist",
+        "method_name": "update",
+        "line_number": 200,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/iocontainers.py",
+        "class_name": "InputFiles",
+        "method_name": "size_files",
+        "line_number": 310,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/iocontainers.py",
+        "class_name": "Snakemake",
+        "method_name": "params",
+        "line_number": 513,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 10,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1,
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/ioutils/lookup.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/ioutils/lookup.py",
+        "class_name": "WildcardHandlerBase",
+        "method_name": "apply_func",
+        "line_number": 26,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/ioutils/lookup.py",
+        "class_name": "WildcardHandlerBase",
+        "method_name": null,
+        "line_number": 12,
+        "evidence": [
+          "Abstract base with subclasses: DpathWildcardHandler, QueryWildcardHandler"
+        ],
+        "related_classes": [
+          "DpathWildcardHandler",
+          "QueryWildcardHandler"
+        ]
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/ioutils/lookup.py",
+        "class_name": "WildcardHandlerBase",
+        "method_name": null,
+        "line_number": 12,
+        "evidence": [
+          "Class name suggests handler chain: WildcardHandlerBase"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/ioutils/lookup.py",
+        "class_name": "DpathWildcardHandler",
+        "method_name": null,
+        "line_number": 68,
+        "evidence": [
+          "Class name suggests handler chain: DpathWildcardHandler"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/ioutils/lookup.py",
+        "class_name": "QueryWildcardHandler",
+        "method_name": null,
+        "line_number": 73,
+        "evidence": [
+          "Class name suggests handler chain: QueryWildcardHandler"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "TemplateMethod": 1,
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/ioutils/rule_items_proxy.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/ioutils/rule_items_proxy.py",
+        "class_name": "RuleItemProxy",
+        "method_name": null,
+        "line_number": 24,
+        "evidence": [
+          "Class name suggests Decorator: RuleItemProxy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/jobs.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/jobs.py",
+        "class_name": "AbstractJob",
+        "method_name": "_get_scheduler_resources",
+        "line_number": 105,
+        "evidence": [
+          "Factory method detected: _get_scheduler_resources"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/jobs.py",
+        "class_name": "AbstractJob",
+        "method_name": "reset_params_and_resources",
+        "line_number": 92,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/jobs.py",
+        "class_name": "AbstractJob",
+        "method_name": null,
+        "line_number": 90,
+        "evidence": [
+          "Abstract base with subclasses: Job, GroupJob"
+        ],
+        "related_classes": [
+          "Job",
+          "GroupJob"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "snakemake/src/snakemake/jobs.py",
+        "class_name": "JobFactory",
+        "method_name": null,
+        "line_number": 125,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/jobs.py",
+        "class_name": "Job",
+        "method_name": "is_updated",
+        "line_number": 315,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/jobs.py",
+        "class_name": "Job",
+        "method_name": "is_updated",
+        "line_number": 315,
+        "evidence": [
+          "Observer method detected: is_updated"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "snakemake/src/snakemake/jobs.py",
+        "class_name": "GroupJobFactory",
+        "method_name": null,
+        "line_number": 1344,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/jobs.py",
+        "class_name": "GroupJob",
+        "method_name": "groupid",
+        "line_number": 1390,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/jobs.py",
+        "class_name": "GroupJob",
+        "method_name": "is_updated",
+        "line_number": 1472,
+        "evidence": [
+          "Observer method detected: is_updated"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/jobs.py",
+        "class_name": "Reason",
+        "method_name": "updated_input",
+        "line_number": 1859,
+        "evidence": [
+          "Method uses decorators: ['lazy_property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/jobs.py",
+        "class_name": "Reason",
+        "method_name": "updated_input",
+        "line_number": 1859,
+        "evidence": [
+          "Observer method detected: updated_input"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 3,
+      "Decorator": 4,
+      "TemplateMethod": 1,
+      "Observer": 3
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/linting/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/linting/__init__.py",
+        "class_name": "Linter",
+        "method_name": "item_desc_json",
+        "line_number": 53,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/linting/rules.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/linting/rules.py",
+        "class_name": "RuleLinter",
+        "method_name": "get_lineno",
+        "line_number": 18,
+        "evidence": [
+          "Factory method detected: get_lineno"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/logging.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/logging.py",
+        "class_name": "DefaultFilter",
+        "method_name": null,
+        "line_number": 336,
+        "evidence": [
+          "Class name suggests handler chain: DefaultFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/logging.py",
+        "class_name": "ColorizingTextHandler",
+        "method_name": "is_tty",
+        "line_number": 476,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/logging.py",
+        "class_name": "ColorizingTextHandler",
+        "method_name": "emit",
+        "line_number": 480,
+        "evidence": [
+          "Observer method detected: emit"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/logging.py",
+        "class_name": "ColorizingTextHandler",
+        "method_name": null,
+        "line_number": 411,
+        "evidence": [
+          "Class name suggests handler chain: ColorizingTextHandler"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/logging.py",
+        "class_name": "LoggerManager",
+        "method_name": "get_logfile",
+        "line_number": 695,
+        "evidence": [
+          "Factory method detected: get_logfile"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 10,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 2,
+      "Decorator": 1,
+      "Observer": 1,
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/notebook.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/notebook.py",
+        "class_name": "JupyterNotebook",
+        "method_name": "get_language_name",
+        "line_number": 163,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/parser.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "TokenAutomaton",
+        "method_name": "dedent",
+        "line_number": 114,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "KeywordState",
+        "method_name": "keyword",
+        "line_number": 209,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "DecoratorKeywordState",
+        "method_name": null,
+        "line_number": 265,
+        "evidence": [
+          "Class name suggests Decorator: DecoratorKeywordState"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "Envvars",
+        "method_name": "keyword",
+        "line_number": 302,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "GlobalPathvars",
+        "method_name": "keyword",
+        "line_number": 320,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "RulePathvars",
+        "method_name": "keyword",
+        "line_number": 326,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "Pepfile",
+        "method_name": "keyword",
+        "line_number": 335,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "GlobalWildcardConstraints",
+        "method_name": "keyword",
+        "line_number": 412,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "GlobalSingularity",
+        "method_name": "keyword",
+        "line_number": 418,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "GlobalContainer",
+        "method_name": "keyword",
+        "line_number": 424,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "GlobalContainerized",
+        "method_name": "keyword",
+        "line_number": 430,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "GlobalConda",
+        "method_name": "keyword",
+        "line_number": 436,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "DefaultInputFlags",
+        "method_name": "keyword",
+        "line_number": 442,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "DefaultOutputFlags",
+        "method_name": "keyword",
+        "line_number": 448,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "Singularity",
+        "method_name": "keyword",
+        "line_number": 527,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "Cache",
+        "method_name": "keyword",
+        "line_number": 549,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "DefaultTarget",
+        "method_name": "keyword",
+        "line_number": 555,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "WildcardConstraints",
+        "method_name": "keyword",
+        "line_number": 565,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "AbstractCmd",
+        "method_name": null,
+        "line_number": 609,
+        "evidence": [
+          "Abstract base with subclasses: Shell, Script"
+        ],
+        "related_classes": [
+          "Shell",
+          "Script"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "Wrapper",
+        "method_name": null,
+        "line_number": 708,
+        "evidence": [
+          "Class name suggests Decorator: Wrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "Wrapper",
+        "method_name": null,
+        "line_number": 708,
+        "evidence": [
+          "Class name suggests Adapter: Wrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "Rule",
+        "method_name": "dedent",
+        "line_number": 873,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "ModuleMetaWrapper",
+        "method_name": null,
+        "line_number": 922,
+        "evidence": [
+          "Class name suggests Decorator: ModuleMetaWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "ModuleMetaWrapper",
+        "method_name": null,
+        "line_number": 922,
+        "evidence": [
+          "Class name suggests Adapter: ModuleMetaWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "ModuleSkipValidation",
+        "method_name": "keyword",
+        "line_number": 934,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "ModuleReplacePrefix",
+        "method_name": "keyword",
+        "line_number": 940,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "ModulePathvars",
+        "method_name": "keyword",
+        "line_number": 953,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/parser.py",
+        "class_name": "UseRule",
+        "method_name": "dedent",
+        "line_number": 1296,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 78,
+    "total_functions": 17,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 25,
+      "TemplateMethod": 1,
+      "Adapter": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/path_modifier.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/path_modifier.py",
+        "class_name": "PathModifier",
+        "method_name": "modifies_prefixes",
+        "line_number": 152,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/pathvars.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/pathvars.py",
+        "class_name": "Pathvars",
+        "method_name": "get",
+        "line_number": 108,
+        "evidence": [
+          "Factory method detected: get"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/pathvars.py",
+        "class_name": "Pathvars",
+        "method_name": "from_other",
+        "line_number": 21,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/pathvars.py",
+        "class_name": "Pathvars",
+        "method_name": "update",
+        "line_number": 99,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/persistence/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/persistence/__init__.py",
+        "class_name": "MetadataRecord",
+        "method_name": "__getitem__",
+        "line_number": 56,
+        "evidence": [
+          "Factory method detected: __getitem__"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/persistence/__init__.py",
+        "class_name": "FileBackupMixin",
+        "method_name": "_get_backup_path",
+        "line_number": 203,
+        "evidence": [
+          "Factory method detected: _get_backup_path"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/persistence/__init__.py",
+        "class_name": "FileBackupMixin",
+        "method_name": "_backup_path",
+        "line_number": 200,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/persistence/__init__.py",
+        "class_name": "PersistenceBase",
+        "method_name": "_get_external_jobids",
+        "line_number": 390,
+        "evidence": [
+          "Factory method detected: _get_external_jobids"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/persistence/__init__.py",
+        "class_name": "PersistenceBase",
+        "method_name": "path",
+        "line_number": 311,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 3,
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/persistence/db.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/persistence/db.py",
+        "class_name": "DbPersistence",
+        "method_name": "_get_busy_timeout",
+        "line_number": 135,
+        "evidence": [
+          "Factory method detected: _get_busy_timeout"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/persistence/db.py",
+        "class_name": "DbPersistence",
+        "method_name": "_attach_sqlite_pragmas",
+        "line_number": 145,
+        "evidence": [
+          "Observer method detected: _attach_sqlite_pragmas"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/persistence/file.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/persistence/file.py",
+        "class_name": "FilePersistence",
+        "method_name": "_get_external_jobids",
+        "line_number": 221,
+        "evidence": [
+          "Factory method detected: _get_external_jobids"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/persistence/file.py",
+        "class_name": "FilePersistence",
+        "method_name": "_read_record_cached",
+        "line_number": 182,
+        "evidence": [
+          "Method uses decorators: ['lru_cache()']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/report/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/report/__init__.py",
+        "class_name": "RuleRecord",
+        "method_name": "output",
+        "line_number": 313,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/report/__init__.py",
+        "class_name": "FileRecord",
+        "method_name": "raw_wildcards",
+        "line_number": 387,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 12,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/resources.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/resources.py",
+        "class_name": "GroupResources",
+        "method_name": "basic_layered",
+        "line_number": 66,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/resources.py",
+        "class_name": "Resource",
+        "method_name": "value",
+        "line_number": 536,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/resources.py",
+        "class_name": "Resources",
+        "method_name": "args",
+        "line_number": 948,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/resources.py",
+        "class_name": "Resources",
+        "method_name": "update",
+        "line_number": 1105,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/resources.py",
+        "class_name": "ResourceScopes",
+        "method_name": "defaults",
+        "line_number": 1228,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/resources.py",
+        "class_name": "ResourceScopes",
+        "method_name": "update",
+        "line_number": 1322,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4,
+      "Observer": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/rules.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/rules.py",
+        "class_name": "Rule",
+        "method_name": "pathvars",
+        "line_number": 148,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/rules.py",
+        "class_name": "Rule",
+        "method_name": "update_wildcard_constraints",
+        "line_number": 413,
+        "evidence": [
+          "Observer method detected: update_wildcard_constraints"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/rules.py",
+        "class_name": "RuleProxy",
+        "method_name": null,
+        "line_number": 1417,
+        "evidence": [
+          "Class name suggests Decorator: RuleProxy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 11,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/scheduling/job_scheduler.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/scheduling/job_scheduler.py",
+        "class_name": "JobScheduler",
+        "method_name": "stats",
+        "line_number": 186,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/scheduling/job_scheduler.py",
+        "class_name": "JobScheduler",
+        "method_name": "update_input_sizes",
+        "line_number": 206,
+        "evidence": [
+          "Observer method detected: update_input_sizes"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/scheduling/job_scheduler.py",
+        "class_name": "JobRateLimiter",
+        "method_name": "max_jobs",
+        "line_number": 677,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/scheduling/milp.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/scheduling/milp.py",
+        "class_name": "LpSolverCollection",
+        "method_name": "nondefault_solvers",
+        "line_number": 32,
+        "evidence": [
+          "Method uses decorators: ['cached_property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/scheduling/milp.py",
+        "class_name": "SchedulerSettings",
+        "method_name": "lp_solver_available",
+        "line_number": 79,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/script/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/script/__init__.py",
+        "class_name": "REncoder",
+        "method_name": "encode_numeric",
+        "line_number": 52,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/script/__init__.py",
+        "class_name": "JuliaEncoder",
+        "method_name": "encode_value",
+        "line_number": 149,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/script/__init__.py",
+        "class_name": "BashEncoder",
+        "method_name": "encode_snakemake",
+        "line_number": 237,
+        "evidence": [
+          "Factory method detected: encode_snakemake"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/script/__init__.py",
+        "class_name": "BashEncoder",
+        "method_name": "dict_to_aa",
+        "line_number": 257,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/script/__init__.py",
+        "class_name": "ScriptBase",
+        "method_name": "get_preamble",
+        "line_number": 389,
+        "evidence": [
+          "Factory method detected: get_preamble"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/script/__init__.py",
+        "class_name": "ScriptBase",
+        "method_name": "local_path",
+        "line_number": 384,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/script/__init__.py",
+        "class_name": "ScriptBase",
+        "method_name": null,
+        "line_number": 294,
+        "evidence": [
+          "Abstract base with subclasses: PythonScript, RScript"
+        ],
+        "related_classes": [
+          "PythonScript",
+          "RScript",
+          "RMarkdown",
+          "JuliaScript",
+          "RustScript",
+          "BashScript"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/script/__init__.py",
+        "class_name": "PythonScript",
+        "method_name": "generate_preamble",
+        "line_number": 416,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/script/__init__.py",
+        "class_name": "RScript",
+        "method_name": "generate_preamble",
+        "line_number": 621,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/script/__init__.py",
+        "class_name": "RustScript",
+        "method_name": "generate_preamble",
+        "line_number": 916,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/script/__init__.py",
+        "class_name": "BashScript",
+        "method_name": "generate_preamble",
+        "line_number": 1233,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 12,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 8,
+      "Factory": 2,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/settings/types.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/settings/types.py",
+        "class_name": "SettingsBase",
+        "method_name": null,
+        "line_number": 48,
+        "evidence": [
+          "Abstract base with subclasses: ExecutionSettings, WorkflowSettings"
+        ],
+        "related_classes": [
+          "ExecutionSettings",
+          "WorkflowSettings",
+          "DAGSettings",
+          "StorageSettings",
+          "DeploymentSettings",
+          "SchedulingSettings",
+          "ResourceSettings",
+          "ConfigSettings",
+          "OutputSettings",
+          "RemoteExecutionSettings",
+          "GroupSettings",
+          "GlobalReportSettings"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/settings/types.py",
+        "class_name": "MaxJobsPerTimespan",
+        "method_name": "parse_choice",
+        "line_number": 78,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/settings/types.py",
+        "class_name": "Batch",
+        "method_name": "is_final",
+        "line_number": 187,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/settings/types.py",
+        "class_name": "ResourceSettings",
+        "method_name": "_parsed_resources",
+        "line_number": 371,
+        "evidence": [
+          "Method uses decorators: ['cached_property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 17,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1,
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/shell.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/shell.py",
+        "class_name": "shell",
+        "method_name": "get_executable",
+        "line_number": 49,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/sourcecache.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "SourceFile",
+        "method_name": "get_path_or_uri",
+        "line_number": 67,
+        "evidence": [
+          "Factory method detected: get_path_or_uri"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "SourceFile",
+        "method_name": "check",
+        "line_number": 64,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "GenericSourceFile",
+        "method_name": "get_path_or_uri",
+        "line_number": 148,
+        "evidence": [
+          "Factory method detected: get_path_or_uri"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "GenericSourceFile",
+        "method_name": "is_local",
+        "line_number": 158,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "LocalSourceFile",
+        "method_name": "get_path_or_uri",
+        "line_number": 184,
+        "evidence": [
+          "Factory method detected: get_path_or_uri"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "LocalSourceFile",
+        "method_name": "is_local",
+        "line_number": 209,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "LocalGitFile",
+        "method_name": "get_path_or_uri",
+        "line_number": 259,
+        "evidence": [
+          "Factory method detected: get_path_or_uri"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "LocalGitFile",
+        "method_name": "ref",
+        "line_number": 288,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "HostedGitRepo",
+        "method_name": "fetch",
+        "line_number": 375,
+        "evidence": [
+          "Method uses decorators: ['retry(wait=wait_exponential(multiplier=2, min=3), stop=stop_after_attempt(3))']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "HostingProviderFile",
+        "method_name": "auth",
+        "line_number": 485,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "GithubFile",
+        "method_name": "get_path_or_uri",
+        "line_number": 632,
+        "evidence": [
+          "Factory method detected: get_path_or_uri"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "GithubFile",
+        "method_name": "auth",
+        "line_number": 627,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "GitlabFile",
+        "method_name": "get_path_or_uri",
+        "line_number": 651,
+        "evidence": [
+          "Factory method detected: get_path_or_uri"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "GitlabFile",
+        "method_name": "auth",
+        "line_number": 646,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/sourcecache.py",
+        "class_name": "SourceCache",
+        "method_name": "runtime_cache_path",
+        "line_number": 722,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 6,
+      "Decorator": 9
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/spawn_jobs.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "snakemake/src/snakemake/spawn_jobs.py",
+        "class_name": "SpawnedJobArgsFactory",
+        "method_name": null,
+        "line_number": 25,
+        "evidence": [
+          "Class name contains \"Factory\""
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/storage.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/storage.py",
+        "class_name": "StorageRegistry",
+        "method_name": "__getattribute__",
+        "line_number": 155,
+        "evidence": [
+          "Factory method detected: __getattribute__"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/storage.py",
+        "class_name": "StorageRegistry",
+        "method_name": "default_storage_provider",
+        "line_number": 50,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "snakemake/src/snakemake/storage.py",
+        "class_name": "StorageProviderProxy",
+        "method_name": null,
+        "line_number": 218,
+        "evidence": [
+          "Class name suggests Decorator: StorageProviderProxy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/template_rendering/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/template_rendering/__init__.py",
+        "class_name": "TemplateRenderer",
+        "method_name": "variables",
+        "line_number": 30,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/unit_tests/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/unit_tests/__init__.py",
+        "class_name": "RuleTest",
+        "method_name": "target",
+        "line_number": 18,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/utils.py",
+        "class_name": "Paramspace",
+        "method_name": "wildcard_pattern",
+        "line_number": 829,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 24,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/src/snakemake/workflow.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/src/snakemake/workflow.py",
+        "class_name": "Workflow",
+        "method_name": "snakemake_tmp_dir",
+        "line_number": 305,
+        "evidence": [
+          "Factory method detected: snakemake_tmp_dir"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/src/snakemake/workflow.py",
+        "class_name": "Workflow",
+        "method_name": "included",
+        "line_number": 271,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 41,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "snakemake/tests/logging/plugins/snakemake_logger_plugin_test/__init__.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/tests/logging/plugins/snakemake_logger_plugin_test/__init__.py",
+        "class_name": "LogHandlerSettings",
+        "method_name": null,
+        "line_number": 23,
+        "evidence": [
+          "Class name suggests handler chain: LogHandlerSettings"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/tests/logging/plugins/snakemake_logger_plugin_test/__init__.py",
+        "class_name": "LogHandler",
+        "method_name": "writes_to_stream",
+        "line_number": 103,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/tests/logging/plugins/snakemake_logger_plugin_test/__init__.py",
+        "class_name": "LogHandler",
+        "method_name": "emit",
+        "line_number": 71,
+        "evidence": [
+          "Observer method detected: emit"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/tests/logging/plugins/snakemake_logger_plugin_test/__init__.py",
+        "class_name": "LogHandler",
+        "method_name": null,
+        "line_number": 50,
+        "evidence": [
+          "Class name suggests handler chain: LogHandler"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 2,
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "snakemake/tests/test_executor_test_suite.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "snakemake/tests/test_executor_test_suite.py",
+        "class_name": "TestWorkflows",
+        "method_name": "get_executor",
+        "line_number": 14,
+        "evidence": [
+          "Factory method detected: get_executor"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "snakemake/tests/test_logging.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "snakemake/tests/test_logging.py",
+        "class_name": "TrackingHandler",
+        "method_name": "emit",
+        "line_number": 416,
+        "evidence": [
+          "Observer method detected: emit"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "snakemake/tests/test_logging.py",
+        "class_name": "TrackingHandler",
+        "method_name": null,
+        "line_number": 407,
+        "evidence": [
+          "Class name suggests handler chain: TrackingHandler"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 12,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "snakemake/tests/test_persistence.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "snakemake/tests/test_persistence.py",
+        "class_name": "TestCleanupContainers",
+        "method_name": "test_one_unrequired_container_gets_removed",
+        "line_number": 11,
+        "evidence": [
+          "Method uses decorators: [\"patch('snakemake.deployment.singularity.Image', autospec=True, create=True)\", \"patch('snakemake.dag.DAG', autospec=True, create=True)\"]"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  }
+]

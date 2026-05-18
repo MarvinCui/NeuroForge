@@ -1,0 +1,3633 @@
+{
+  "nodes": [
+    {
+      "file": ".github/actions/rename_towncrier/rename_towncrier.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/_static/js/contrib-avatars.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "doc/_static/js/custom-icons.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "doc/_static/js/set_installer_tab.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "doc/_static/js/update_installer_version.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "doc/conf.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/contrib_avatars.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/credit_tools.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/directive_formatting.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/flow_diagram.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/gen_commands.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/gen_names.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/gh_substitutions.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/mne_doc_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/mne_substitutions.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/newcontrib_substitutions.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/related_software.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/unit_role.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/datasets/brainstorm_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/datasets/hf_sef_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/datasets/kernel_phantom.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/datasets/limo_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/datasets/opm_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/datasets/spm_faces_dataset.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/decoding_csp_eeg.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/decoding_csp_timefreq.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/decoding_rsa_sgskip.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/decoding_spatio_temporal_source.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/decoding_spoc_CMC.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/decoding_time_generalization_conditions.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/decoding_unsupervised_spatial_filter.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/decoding_xdawn_eeg.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/ems_filtering.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/linear_model_patterns.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/receptive_field_mtrf.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/decoding/ssd_spatial_filters.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/forward/forward_sensitivity_maps.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/forward/left_cerebellum_volume_source.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/forward/source_space_morphing.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/compute_mne_inverse_epochs_in_label.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/compute_mne_inverse_raw_in_label.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/compute_mne_inverse_volume.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/custom_inverse_solver.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/dics_epochs.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/dics_source_power.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/evoked_ers_source_power.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/gamma_map_inverse.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/label_activation_from_stc.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/label_from_stc.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/label_source_activations.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/mixed_norm_inverse.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/mixed_source_space_inverse.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/mne_cov_power.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/morph_surface_stc.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/morph_volume_stc.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/multi_dipole_model.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/multidict_reweighted_tfmxne.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/psf_ctf_label_leakage.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/psf_ctf_vertices.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/psf_ctf_vertices_lcmv.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/psf_volume.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/rap_music.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/read_inverse.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/read_stc.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/resolution_metrics.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/resolution_metrics_eegmeg.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/snr_estimate.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/source_space_snr.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/time_frequency_mixed_norm_inverse.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/trap_music.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/inverse/vector_mne_solution.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/io/elekta_epochs.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/io/read_bci2k.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/io/read_impedances.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/io/read_neo_format.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/io/read_noise_covariance_matrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/io/read_xdf.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/contralateral_referencing.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/css.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/define_target_events.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/eeg_bridging.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/eeg_csd.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/eog_artifact_histogram.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/eog_regression.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/epochs_metadata.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/esg_rm_heart_artefact_pcaobs.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/find_ref_artifacts.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/fnirs_artifact_removal.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/ica_comparison.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/interpolate_bad_channels.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/interpolate_to.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/movement_compensation.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/movement_detection.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/muscle_detection.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/muscle_ica.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/otp.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/plot_epoch_quality.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/shift_evoked.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/virtual_evoked.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/preprocessing/xdawn_denoising.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/simulation/plot_stc_metrics.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/simulation/simulate_evoked_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/simulation/simulate_raw_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/simulation/simulated_raw_data_using_subject_anatomy.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/simulation/source_simulator.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/stats/cluster_stats_evoked.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/stats/fdr_stats_evoked.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/stats/linear_regression_raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/stats/r_interop.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/stats/sensor_permutation_test.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/stats/sensor_regression.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/time_frequency/compute_csd.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/time_frequency/compute_source_psd_epochs.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/time_frequency/source_label_time_frequency.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/time_frequency/source_power_spectrum.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/time_frequency/source_power_spectrum_opm.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/time_frequency/source_space_time_frequency.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/time_frequency/temporal_whitening.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/time_frequency/time_frequency_erds.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/time_frequency/time_frequency_global_field_power.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/time_frequency/time_frequency_simulated.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/3d_to_2d.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/brain.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/channel_epochs_image.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/eeg_on_scalp.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/evoked_arrowmap.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/evoked_topomap.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/evoked_whitening.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/eyetracking_plot_heatmap.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/meg_sensors.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/mne_helmet.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/montage_sgskip.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/parcellation.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/roi_erpimage_by_rt.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/ssp_projs_sensitivity_map.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/topo_compare_conditions.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/topo_customized.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/visualization/xhemi.py",
+      "language": "Python"
+    },
+    {
+      "file": "logo/generate_mne_logos.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/__main__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/_digitization.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/compensator.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/constants.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/ctf_comp.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/matrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/meas_info.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/open.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/pick.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/proc_history.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/proj.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/reference.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tag.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tests/test_compensator.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tests/test_constants.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tests/test_meas_info.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tests/test_pick.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tests/test_proc_history.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tests/test_reference.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tests/test_show_fiff.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tests/test_what.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tests/test_write.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/tree.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/what.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_fiff/write.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_freesurfer.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/_ola.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/annotations.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/baseline.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/_compute_beamformer.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/_dics.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/_lcmv.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/_rap_music.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/resolution_matrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/tests/test_dics.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/tests/test_external.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/tests/test_lcmv.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/tests/test_rap_music.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/beamformer/tests/test_resolution_matrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/bem.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/_dig_montage_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/_standard_montage_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/channels.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/data/neighbors/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/interpolation.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/layout.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/montage.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/tests/test_channels.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/tests/test_interpolation.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/tests/test_layout.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/tests/test_montage.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/tests/test_standard_montage.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/channels/tests/test_unify_bads.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/chpi.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_anonymize.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_browse_raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_bti2fiff.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_clean_eog_ecg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_compare_fiff.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_compute_proj_ecg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_compute_proj_eog.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_coreg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_flash_bem.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_freeview_bem_surfaces.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_kit2fiff.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_make_scalp_surfaces.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_prepare_bem_model.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_report.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_setup_forward_model.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_setup_source_space.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_show_fiff.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_show_info.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_surf2bem.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_sys_info.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_watershed_bem.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/mne_what.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/tests/test_commands.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/commands/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/coreg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/cov.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/cuda.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/_fake/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/_fake/_fake.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/_fetch.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/_fsaverage/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/_fsaverage/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/_infant/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/_infant/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/_phantom/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/_phantom/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/brainstorm/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/brainstorm/bst_auditory.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/brainstorm/bst_phantom_ctf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/brainstorm/bst_phantom_elekta.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/brainstorm/bst_raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/brainstorm/bst_resting.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/config.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/eegbci/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/eegbci/eegbci.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/eegbci/tests/test_eegbci.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/epilepsy_ecog/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/epilepsy_ecog/_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/erp_core/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/erp_core/erp_core.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/eyelink/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/eyelink/eyelink.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/fieldtrip_cmc/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/fieldtrip_cmc/fieldtrip_cmc.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/fnirs_motor/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/fnirs_motor/fnirs_motor.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/hf_sef/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/hf_sef/hf_sef.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/kiloword/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/kiloword/kiloword.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/limo/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/limo/limo.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/misc/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/misc/_misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/mtrf/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/mtrf/mtrf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/multimodal/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/multimodal/multimodal.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/opm/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/opm/opm.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/phantom_4dbti/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/phantom_4dbti/phantom_4dbti.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/phantom_kernel/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/phantom_kernel/phantom_kernel.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/phantom_kit/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/phantom_kit/phantom_kit.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/refmeg_noise/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/refmeg_noise/refmeg_noise.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/sample/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/sample/sample.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/sleep_physionet/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/sleep_physionet/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/sleep_physionet/age.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/sleep_physionet/temazepam.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/sleep_physionet/tests/test_physionet.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/somato/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/somato/somato.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/spm_face/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/spm_face/spm_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/ssvep/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/ssvep/ssvep.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/testing/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/testing/_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/tests/test_datasets.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/ucl_opm_auditory/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/ucl_opm_auditory/ucl_opm_auditory.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/visual_92_categories/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/datasets/visual_92_categories/visual_92_categories.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/_covs_ged.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/_fixes.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/_ged.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/_mod_ged.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/csp.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/ems.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/receptive_field.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/search_light.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/spatial_filter.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/ssd.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/test_csp.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/test_ems.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/test_ged.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/test_receptive_field.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/test_search_light.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/test_spatial_filter.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/test_ssd.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/test_time_frequency.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/test_transformer.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/tests/test_xdawn.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/time_delaying_ridge.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/time_frequency.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/transformer.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/decoding/xdawn.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/defaults.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/dipole.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/epochs.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/event.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/evoked.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/export/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/export/_brainvision.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/export/_edf_bdf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/export/_eeglab.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/export/_egimff.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/export/_export.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/export/tests/test_export.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/filter.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/fixes.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/forward/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/forward/_compute_forward.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/forward/_field_interpolation.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/forward/_lead_dots.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/forward/_make_forward.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/forward/forward.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/forward/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/forward/tests/test_field_interpolation.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/forward/tests/test_forward.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/forward/tests/test_make_forward.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/gui/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/gui/_coreg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/gui/_gui.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/gui/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/gui/tests/test_coreg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/gui/tests/test_gui_api.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/html_templates/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/html_templates/_templates.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/html_templates/repr/static/repr.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "mne/inverse_sparse/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/inverse_sparse/_gamma_map.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/inverse_sparse/mxne_debiasing.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/inverse_sparse/mxne_inverse.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/inverse_sparse/mxne_optim.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/inverse_sparse/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/inverse_sparse/tests/test_gamma_map.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/inverse_sparse/tests/test_mxne_debiasing.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/inverse_sparse/tests/test_mxne_inverse.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/inverse_sparse/tests/test_mxne_optim.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/_fiff_wrap.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/_read_raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ant/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ant/ant.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ant/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ant/tests/test_ant.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/array/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/array/_array.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/array/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/array/tests/test_array.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/artemis123/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/artemis123/artemis123.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/artemis123/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/artemis123/tests/test_artemis123.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/artemis123/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/bci2k/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/bci2k/bci2k.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/bci2k/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/bci2k/tests/test_bci2k.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/besa/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/besa/besa.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/besa/tests/test_besa.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/boxy/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/boxy/boxy.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/boxy/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/boxy/tests/test_boxy.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/brainvision/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/brainvision/brainvision.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/brainvision/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/brainvision/tests/test_brainvision.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/bti/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/bti/bti.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/bti/constants.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/bti/read.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/bti/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/bti/tests/test_bti.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/cnt/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/cnt/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/cnt/cnt.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/cnt/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/cnt/tests/test_cnt.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/constants.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ctf/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ctf/constants.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ctf/ctf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ctf/eeg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ctf/hc.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ctf/info.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ctf/markers.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ctf/res4.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ctf/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ctf/tests/test_ctf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/ctf/trans.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/curry/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/curry/curry.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/curry/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/curry/tests/test_curry.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/edf/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/edf/_open.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/edf/edf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/edf/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/edf/tests/test_edf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/edf/tests/test_gdf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eeglab/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eeglab/_eeglab.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eeglab/eeglab.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eeglab/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eeglab/tests/test_eeglab.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/egi/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/egi/egi.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/egi/egimff.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/egi/events.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/egi/general.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/egi/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/egi/tests/test_egi.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eximia/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eximia/eximia.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eximia/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eximia/tests/test_eximia.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eyelink/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eyelink/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eyelink/eyelink.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eyelink/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/eyelink/tests/test_eyelink.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fieldtrip/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fieldtrip/fieldtrip.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fieldtrip/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fieldtrip/tests/helpers.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fieldtrip/tests/test_fieldtrip.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fieldtrip/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fiff/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fiff/raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fiff/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fiff/tests/test_raw_fiff.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fil/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fil/fil.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fil/sensors.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/fil/tests/test_fil.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/hitachi/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/hitachi/hitachi.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/hitachi/tests/test_hitachi.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/kit/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/kit/constants.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/kit/coreg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/kit/kit.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/kit/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/kit/tests/test_coreg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/kit/tests/test_kit.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/mef/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/mef/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/mef/mef.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/mef/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/mef/tests/test_mef.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nedf/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nedf/nedf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nedf/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nedf/tests/test_nedf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/neuralynx/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/neuralynx/neuralynx.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/neuralynx/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/neuralynx/tests/test_neuralynx.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nicolet/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nicolet/nicolet.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nicolet/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nicolet/tests/test_nicolet.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nihon/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nihon/nihon.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nihon/tests/test_nihon.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nirx/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nirx/_localized_abbr.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nirx/nirx.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nirx/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nirx/tests/test_nirx.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nsx/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nsx/nsx.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/nsx/tests/test_nsx.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/persyst/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/persyst/persyst.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/persyst/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/persyst/tests/test_persyst.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/pick.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/snirf/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/snirf/_snirf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/snirf/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/snirf/tests/test_snirf.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/tests/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/tests/test_apply_function.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/tests/test_raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/io/tests/test_read_raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/label.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/_eloreta.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/inverse.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/resolution_matrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/spatial_resolution.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/tests/test_inverse.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/tests/test_resolution_matrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/tests/test_resolution_metrics.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/tests/test_snr.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/tests/test_time_frequency.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/minimum_norm/time_frequency.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/morph.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/morph_map.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/parallel.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/_annotate_amplitude.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/_annotate_nan.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/_csd.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/_css.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/_fine_cal.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/_lof.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/_pca_obs.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/_peak_finder.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/_regress.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/artifact_detection.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/bads.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/ctps_.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/ecg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/eog.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/eyetracking/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/eyetracking/_pupillometry.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/eyetracking/calibration.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/eyetracking/eyetracking.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/eyetracking/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/eyetracking/tests/test_calibration.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/eyetracking/tests/test_eyetracking.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/eyetracking/tests/test_pupillometry.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/eyetracking/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/hfc.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/ica.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/ieeg/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/ieeg/_projection.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/ieeg/_volume.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/ieeg/tests/test_projection.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/ieeg/tests/test_volume.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/infomax_.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/interpolate.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/maxwell.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/nirs/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/nirs/_beer_lambert_law.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/nirs/_optical_density.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/nirs/_scalp_coupling_index.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/nirs/_tddr.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/nirs/nirs.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/nirs/tests/test_beer_lambert_law.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/nirs/tests/test_nirs.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/nirs/tests/test_optical_density.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/nirs/tests/test_scalp_coupling_index.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/nirs/tests/test_temporal_derivative_distribution_repair.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/otp.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/realign.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/ssp.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/stim.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_annotate_amplitude.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_annotate_nan.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_artifact_detection.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_csd.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_css.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_ctps.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_ecg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_eeglab_infomax.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_eog.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_fine_cal.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_hfc.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_ica.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_infomax.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_interpolate.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_lof.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_maxwell.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_otp.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_pca_obs.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_peak_finder.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_realign.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_regress.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_ssp.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_stim.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/tests/test_xdawn.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/preprocessing/xdawn.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/proj.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/rank.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/report/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/report/js_and_css/bootstrap-table/bootstrap-table-copy-rows.min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "mne/report/js_and_css/bootstrap-table/bootstrap-table-export.min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "mne/report/js_and_css/bootstrap-table/bootstrap-table.min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "mne/report/js_and_css/bootstrap-table/tableExport.min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "mne/report/js_and_css/bootstrap.bundle.min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "mne/report/js_and_css/highlightjs/highlight.min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "mne/report/js_and_css/jquery-3.6.0.min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "mne/report/js_and_css/report.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "mne/report/report.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/report/tests/test_report.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/_metrics.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/evoked.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/metrics/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/metrics/metrics.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/metrics/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/metrics/tests/test_metrics.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/source.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/tests/test_evoked.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/tests/test_metrics.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/tests/test_raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/simulation/tests/test_source.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/source_estimate.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/source_space/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/source_space/_source_space.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/source_space/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/source_space/tests/test_source_space.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/_adjacency.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/cluster_level.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/erp.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/multi_comp.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/parametric.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/permutations.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/regression.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/tests/test_adjacency.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/tests/test_cluster_level.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/tests/test_erp.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/tests/test_multi_comp.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/tests/test_parametric.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/tests/test_permutations.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/stats/tests/test_regression.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/surface.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_annotations.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_bem.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_chpi.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_coreg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_cov.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_defaults.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_dipole.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_docstring_parameters.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_epochs.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_event.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_evoked.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_filter.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_freesurfer.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_import_nesting.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_label.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_line_endings.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_morph.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_morph_map.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_ola.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_parallel.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_proj.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_rank.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_read_vectorview_selection.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_source_estimate.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_surface.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/tests/test_transforms.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/_stft.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/_stockwell.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/ar.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/csd.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/multitaper.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/psd.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/spectrum.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/tests/test_ar.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/tests/test_csd.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/tests/test_multitaper.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/tests/test_psd.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/tests/test_spectrum.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/tests/test_stft.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/tests/test_stockwell.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/tests/test_tfr.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/time_frequency/tfr.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/transforms.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/_bunch.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/_logging.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/_typing.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/check.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/config.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/dataframe.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/docs.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/fetching.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/linalg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/mixin.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/numerics.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/progressbar.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/spectrum.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/tests/test_bunch.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/tests/test_check.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/tests/test_config.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/tests/test_docs.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/tests/test_linalg.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/tests/test_logging.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/tests/test_misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/tests/test_mixin.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/tests/test_numerics.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/tests/test_progressbar.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/utils/tests/test_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_3d.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_3d_overlay.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_brain/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_brain/_brain.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_brain/_linkviewer.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_brain/_scraper.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_brain/colormap.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_brain/surface.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_brain/tests/test_brain.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_brain/tests/test_notebook.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_brain/view.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_dipole.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_figure.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_mpl_figure.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_proj.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/_scraper.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/backends/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/backends/_abstract.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/backends/_notebook.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/backends/_pyvista.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/backends/_qt.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/backends/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/backends/renderer.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/backends/tests/test_abstract.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/backends/tests/test_renderer.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/backends/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/circle.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/epochs.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/evoked.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/evoked_field.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/eyetracking/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/eyetracking/heatmap.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/eyetracking/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/eyetracking/tests/test_heatmap.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/ica.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/montage.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_3d.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_3d_mpl.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_3d_overlay.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_circle.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_epochs.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_evoked.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_figure.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_ica.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_montage.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_proj.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_scraper.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_topo.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_topomap.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_ui_events.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/topo.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/topomap.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/ui_events.py",
+      "language": "Python"
+    },
+    {
+      "file": "mne/viz/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/check_mne_location.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/check_pyproject_helpers.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/dev/check_steering_committee.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/dev/ensure_headers.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/dev/gen_css_for_mne.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/dev/generate_pyi_files.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/dev/spec_zero_update_versions.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/dev/update_credit_json.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/generate_codemeta.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/github_actions_check_old_env.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/github_actions_check_old_lockfile.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/hooks/update_environment_file.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/sync_dependencies.py",
+      "language": "Python"
+    },
+    {
+      "file": "tools/vulture_allowlist.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/clinical/20_seeg.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/clinical/30_ecog.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/clinical/60_sleep.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/epochs/10_epochs_overview.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/epochs/15_baseline_regression.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/epochs/20_visualize_epochs.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/epochs/30_epochs_metadata.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/epochs/40_autogenerate_metadata.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/epochs/50_epochs_to_data_frame.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/epochs/60_make_fixed_length_epochs.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/evoked/10_evoked_overview.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/evoked/20_visualize_evoked.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/evoked/30_eeg_erp.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/evoked/40_whitened.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/forward/10_background_freesurfer.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/forward/20_source_alignment.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/forward/25_automated_coreg.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/forward/30_forward.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/forward/35_eeg_no_mri.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/forward/50_background_freesurfer_mne.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/forward/80_fix_bem_in_blender.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/forward/90_compute_covariance.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/intro/10_overview.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/intro/15_inplace.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/intro/20_events_from_raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/intro/30_info.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/intro/40_sensor_locations.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/intro/50_configure_mne.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/intro/70_report.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/10_stc_class.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/20_dipole_fit.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/30_mne_dspm_loreta.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/35_dipole_orientations.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/40_mne_fixed_free.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/50_beamformer_lcmv.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/60_visualize_stc.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/70_eeg_mri_coords.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/80_brainstorm_phantom_elekta.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/85_brainstorm_phantom_ctf.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/90_phantom_4DBTi.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/inverse/95_phantom_KIT.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/io/10_reading_meg_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/io/20_reading_eeg_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/io/30_reading_fnirs_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/io/60_ctf_bst_auditory.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/io/70_reading_eyetracking_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/machine-learning/30_strf.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/machine-learning/50_decoding.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/10_preprocessing_overview.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/14_quality_control_report.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/15_handling_bad_channels.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/20_rejecting_bad_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/25_background_filtering.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/30_filtering_resampling.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/35_artifact_correction_regression.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/40_artifact_correction_ica.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/45_projectors_background.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/50_artifact_correction_ssp.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/55_setting_eeg_reference.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/59_head_positions.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/60_maxwell_filtering_sss.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/70_fnirs_processing.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/80_opm_processing.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/preprocessing/90_eyetracking_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/raw/10_raw_overview.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/raw/20_event_arrays.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/raw/30_annotate_raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/raw/40_visualize_raw.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/simulation/10_array_objs.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/simulation/70_point_spread.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/simulation/80_dics.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/stats-sensor-space/10_background_stats.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/stats-sensor-space/20_erp_stats.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/stats-sensor-space/40_cluster_1samp_time_freq.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/stats-sensor-space/50_cluster_between_time_freq.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/stats-sensor-space/70_cluster_rmANOVA_time_freq.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/stats-sensor-space/75_cluster_ftest_spatiotemporal.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/stats-source-space/20_cluster_1samp_spatiotemporal.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/stats-source-space/30_cluster_ftest_spatiotemporal.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/stats-source-space/60_cluster_rmANOVA_spatiotemporal.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/time-freq/10_spectrum_class.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/time-freq/20_sensors_time_frequency.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/time-freq/50_ssvep.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/visualization/10_publication_figure.py",
+      "language": "Python"
+    },
+    {
+      "file": "tutorials/visualization/20_ui_events.py",
+      "language": "Python"
+    }
+  ],
+  "edges": []
+}

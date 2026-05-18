@@ -1,0 +1,1784 @@
+{
+  "total_files": 19,
+  "total_settings": 121,
+  "detected_patterns": {},
+  "config_files": [
+    {
+      "file_path": "afni/.travis.yml",
+      "relative_path": ".travis.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 7,
+      "settings": [
+        {
+          "key": "language",
+          "value": "c",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "cache",
+          "value": [
+            "apt",
+            "ccache"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "git.submodules",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.global",
+          "value": [
+            "FLAVOR=linux_ubuntu_16_64"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "before_install",
+          "value": [
+            "sudo update-rc.d mysql enable",
+            "sudo service mysql start",
+            "sudo sh src/other_builds/OS_notes.$FLAVOR",
+            "sudo apt-get install xvfb xauth libgl1-mesa-dri mesa-utils tcsh libjpeg-progs"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "install",
+          "value": [
+            "cd src",
+            "cp Makefile.$FLAVOR Makefile",
+            "make vastness"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "script",
+          "value": [
+            "export PATH=$PWD/$FLAVOR:$PATH"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/tests/.codecov.yml",
+      "relative_path": "tests/.codecov.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 1,
+      "settings": [
+        {
+          "key": "fixes",
+          "value": [
+            "opt/afni/src/src::src/"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/tests/pytest.ini",
+      "relative_path": "tests/pytest.ini",
+      "type": "ini",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "pytest.filterwarnings",
+          "value": "\nignore:.* is deprecated.*:DeprecationWarning\nignore:.* are deprecated.*:PendingDeprecationWarning",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "pytest.addopts",
+          "value": "--strict-markers",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "pytest.markers",
+          "value": "\nslow: marks tests as slow\nveryslow: mark tests as veryslow\ncombinations: mark tests created using the get_params_combinations function",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/tests/environment.yml",
+      "relative_path": "tests/environment.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "name",
+          "value": "afni_dev",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "channels",
+          "value": [
+            "conda-forge",
+            "defaults"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependencies",
+          "value": [
+            "attrs",
+            "autopep8",
+            "black=20.8b1",
+            "cmake",
+            "datalad",
+            "docker-py",
+            "filelock",
+            "ipython",
+            "matplotlib",
+            "nibabel",
+            "ninja",
+            "pip",
+            "pytest",
+            "pytest-cov",
+            "pytest-xdist",
+            "cloud_sptheme",
+            "pandoc",
+            "pbr",
+            "pip",
+            "python=3.11",
+            "pandas",
+            "scipy",
+            "sphinx",
+            "sphinx-argparse",
+            "sphinxcontrib-fulltoc",
+            "sphinx-copybutton",
+            "tcsh",
+            {
+              "pip": [
+                "sphinxcontrib-programoutput",
+                "darker",
+                "git+https://github.com/leej3/xvfbwrapper.git@add_support_for_xquartz_and_multi_threading",
+                "pdbpp",
+                "-e ."
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/.circleci/config.yml",
+      "relative_path": ".circleci/config.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 77,
+      "settings": [
+        {
+          "key": "version",
+          "value": 2.1,
+          "type": "number",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.setup_dev_base_image.description",
+          "value": "Get base image using cache and  docker build",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.setup_dev_base_image.parameters.image_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.setup_dev_base_image.steps",
+          "value": [
+            {
+              "restore_an_exact_cache": {
+                "version_file": "/tmp/src/afni/.docker/afni_dev_base.dockerfile",
+                "version": "<< parameters.image_cache_version >>"
+              }
+            },
+            {
+              "load_cached_docker_image_from_disk": {
+                "image_name": "afni_dev_base"
+              }
+            },
+            {
+              "run": {
+                "command": "if [[  \"$(docker images -q afni/afni_dev_base 2> /dev/null)\" == \"\" ]];\nthen\n      docker build -t afni/afni_dev_base  \\\n      -f .docker/afni_dev_base.dockerfile .\nfi\n"
+              }
+            },
+            {
+              "save_docker_image_to_disk": {
+                "image_name": "afni_dev_base"
+              }
+            },
+            {
+              "save_cache": {
+                "key": "v<< parameters.image_cache_version >>-/tmp/src/afni/.docker/afni_dev_base.dockerfile-{{ checksum \"/tmp/src/afni/.docker/afni_dev_base.dockerfile\" }}",
+                "paths": [
+                  "/tmp/cache/afni_dev_base_docker.tar.gz"
+                ]
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.build_afni_image.description",
+          "value": "Build, save, and cache a docker image of AFNI",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.build_afni_image.parameters.build_type.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.build_afni_image.parameters.image_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.build_afni_image.steps",
+          "value": [
+            {
+              "setup_dev_base_image": {
+                "image_cache_version": "<< parameters.image_cache_version >>"
+              }
+            },
+            {
+              "run": {
+                "name": "Build image",
+                "no_output_timeout": "30m",
+                "command": "# Coverage is off by default\nif [[  \"\" == \"$AFNI_WITH_COVERAGE\" ]];then AFNI_WITH_COVERAGE=\"0\";fi\n\nTHISVERSION=$(cat src/AFNI_version_base.txt)\necho \"Building version ${CIRCLE_TAG:-$THISVERSION}\"\ndocker build \\\n  -f .docker/<< parameters.build_type >>.dockerfile \\\n  --rm=false \\\n  --tag afni/afni_<< parameters.build_type >>:latest \\\n  --build-arg BUILD_DATE=\"$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")\" \\\n  --build-arg VCS_REF=\"$(git rev-parse --short HEAD)\" \\\n  --build-arg AFNI_WITH_COVERAGE=$AFNI_WITH_COVERAGE \\\n  --build-arg VERSION=\"${CIRCLE_TAG:-$THISVERSION}\" .\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.run_afni_tests.description",
+          "value": "Use previously built image to execute tests",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.run_afni_tests.parameters.build_type.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.run_afni_tests.steps",
+          "value": [
+            {
+              "run": {
+                "name": "Run tests",
+                "no_output_timeout": "60m",
+                "command": "\ntests_dir=tests/afni_ci_test_data\nvol_dir=/opt/afni/src/$tests_dir\n\nTEST_ARGS=\"--extra-args='--runveryslow' $TEST_ARGS -v traceback --u container\"\n\n# Coverage is off by default\nif [[  \"\" == \"$AFNI_WITH_COVERAGE\" ]];then AFNI_WITH_COVERAGE=\"0\";fi\n\n# Add coverage args as appropriate\nif [[ \"$AFNI_WITH_COVERAGE\" != \"0\" ]];then\n  bash -c \"echo Adding coverage because value is: $AFNI_WITH_COVERAGE\"\n  # Command to get coverage vars (used later by run_afni_tests.py:\n  coverage_vars=$(bash -c 'bash <(curl -s https://codecov.io/env)')\n  echo CircleCI coverage variables: $coverage_vars\n  TEST_ARGS=\" --coverage $TEST_ARGS --reuse-build\"\nfi\n\n# some extra arguments for container management. Note that using\n# remote docker on circleci does not allow mounting volumes\n# directly into the container in the normal manner\nTEST_ARGS=\"$TEST_ARGS \\\n            --image-name=afni/afni_<< parameters.build_type >> \\\n            --container-name=testing_afni\n            --source-mode=test-data-volume \\\n            --no-rm \\\n            --only-use-local\"\n\necho ...$TEST_ARGS...\n# stop if running locally and it happens to exist...\npre_existing=$(docker ps -aq --filter name=testing_afni)\nif [[ ! \"\" == \"$pre_existing\" ]];then docker stop testing_afni;docker rm testing_afni;fi\n\n# Run the tests\n/tmp/src/afni/tests/run_afni_tests.py $TEST_ARGS\n\n# after application container finishes, copy artifacts directly from it\ndocker cp -a testing_afni:/opt/afni/src/tests/afni_ci_test_data/. /tmp/src/afni/tests/afni_ci_test_data\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.check_integrity_of_containers.description",
+          "value": "Check some of the permissions/user/PATH basics of the containers",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.check_integrity_of_containers.parameters.image_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.check_integrity_of_containers.steps",
+          "value": [
+            "checkout_afni",
+            {
+              "setup_remote_docker": {
+                "version": "docker23"
+              }
+            },
+            {
+              "setup_dev_base_image": {
+                "image_cache_version": "<< parameters.image_cache_version >>"
+              }
+            },
+            {
+              "restore_afni_image_cache": {
+                "build_type": "cmake_build",
+                "image_cache_version": "<< parameters.image_cache_version >>"
+              }
+            },
+            {
+              "restore_afni_image_cache": {
+                "build_type": "make_build",
+                "image_cache_version": "<< parameters.image_cache_version >>"
+              }
+            },
+            {
+              "run": "cd .docker; pytest"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.deploy_to_dockerhub.description",
+          "value": "Push images to dockerhub",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.deploy_to_dockerhub.parameters.build_type.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.deploy_to_dockerhub.parameters.image_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.deploy_to_dockerhub.steps",
+          "value": [
+            {
+              "setup_remote_docker": {
+                "version": "docker23"
+              }
+            },
+            {
+              "restore_afni_image_cache": {
+                "build_type": "<< parameters.build_type >>",
+                "image_cache_version": "<< parameters.image_cache_version >>"
+              }
+            },
+            {
+              "run": {
+                "name": "Deploy to Docker Hub",
+                "no_output_timeout": "40m",
+                "command": "if [[ \"$DOCKER_USER\" == 'afni' ]]; then\n  echo \"$DOCKER_PASS\" | docker login -u \"$DOCKER_USER\" --password-stdin\n  docker push afni/afni_<< parameters.build_type >>:latest\n  docker tag afni/afni_<< parameters.build_type >> afni/afni_<< parameters.build_type >>:$CIRCLE_TAG\n  docker push afni/afni_<< parameters.build_type >>:$CIRCLE_TAG\nfi\n"
+              }
+            },
+            "checkout_afni",
+            {
+              "setup_dev_base_image": {
+                "image_cache_version": "<< parameters.image_cache_version >>"
+              }
+            },
+            {
+              "run": {
+                "command": "if [[ \"$DOCKER_USER\" == 'afni' ]]; then\n  if [[  \"$(docker images -q afni/afni_dev_base 2> /dev/null)\" == \"\" ]];\n  then\n    echo Could not find the dev_base image used for release deployment.\n    exit 1\n  else\n      docker push afni/afni_dev_base:latest\n      docker tag afni/afni_dev_base afni/afni_dev_base:$CIRCLE_TAG\n      docker push afni/afni_dev_base:$CIRCLE_TAG\n  fi\nfi\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.write_test_data_cache_version_file.description",
+          "value": "Determine commit id for the datalad tests directory.",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.write_test_data_cache_version_file.parameters.cache_name.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.write_test_data_cache_version_file.steps",
+          "value": [
+            {
+              "run": {
+                "name": "Retrieve id and write to a file",
+                "command": "export test_data_info=$(git submodule status|grep afni_ci_test_data)\necho ${test_data_info:1:40} > /tmp/<< parameters.cache_name >>_version.txt\ncat /tmp/<< parameters.cache_name >>_version.txt\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.setup_macos_for_afni.description",
+          "value": "Install OSX dependencies and write out a dependencies file for cache versioning.",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.setup_macos_for_afni.parameters.osx_dep_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.setup_macos_for_afni.parameters.osx_dep_cache_version.default",
+          "value": "0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.setup_macos_for_afni.steps",
+          "value": [
+            {
+              "run": {
+                "name": "Write osx dependencies to a file",
+                "command": "echo \\\n  gcc cmake ninja \\\n  jpeg gsl gts openmotif libpng expat \\\n  freetype fontconfig netpbm git-annex | \\\n  tr \" \" '\\n' | sort > /tmp/macos_dependencies_version.txt\n"
+              }
+            },
+            {
+              "run": {
+                "name": "Setup on macos",
+                "no_output_timeout": "20m",
+                "command": "brew  install --cask xquartz\nif [[ -d /usr/local/Cellar/python@2 ]]; then\n    brew unlink python@2\nfi\n\n# add hack for git upgrade to not raise an error\nset +o pipefail\nbrew upgrade --force git || true\nset -o pipefail\n\n### [PT: May 30, 2023] this might no longer be necessary,\n### so we are commenting it out. Above, we specify\n### installing Python 3.11, anyways\n## Python3.9 currently causes failure so 3.8 keg needs to be used:\n#brew install python@3.8\n#export PATH=\"/usr/local/opt/python@3.8/bin:$PATH\"\n#echo 'export PATH=\"/usr/local/opt/python@3.8/bin:$PATH\"' >> /Users/distiller/.bash_profile\n#export LDFLAGS=\"-L/usr/local/opt/python@3.8/lib $LDFLAGS\"\n#echo 'export LDFLAGS=\"-L/usr/local/opt/python@3.8/lib $LDFLAGS\"' >> /Users/distiller/.bash_profile\n#export PKG_CONFIG_PATH=\"/usr/local/opt/python@3.8/lib/pkgconfig\"\n#echo 'export PKG_CONFIG_PATH=\"/usr/local/opt/python@3.8/lib\"' >> /Users/distiller/.bash_profile\n\n# Install dependency list\ncat /tmp/macos_dependencies_version.txt | xargs brew install\n# note other useful dependencies:\n# ffmpeg\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_afni_image_cache.description",
+          "value": "Restore cache from the build_afni_image command",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_afni_image_cache.parameters.build_type.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_afni_image_cache.parameters.image_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_afni_image_cache.steps",
+          "value": [
+            {
+              "restore_cache": {
+                "key": "v<< parameters.image_cache_version >>-docker-<< parameters.build_type >>-{{ .Revision }}"
+              }
+            },
+            {
+              "load_cached_docker_image_from_disk": {
+                "image_name": "afni_<< parameters.build_type >>"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.save_docker_image_to_disk.description",
+          "value": "After an image is successfully built, write it to disk for circleci caching.",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.save_docker_image_to_disk.parameters.image_name.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.save_docker_image_to_disk.steps",
+          "value": [
+            {
+              "run": {
+                "name": "Docker save",
+                "no_output_timeout": "40m",
+                "command": "if [[ ! -f /tmp/cache/<< parameters.image_name >>_docker.tar.gz ]]; then\n  mkdir -p /tmp/cache\n  docker save afni/<< parameters.image_name >>:latest \\\n  | pigz -2 -p 3 > /tmp/cache/<< parameters.image_name >>_docker.tar.gz\nfi\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_a_cache.description",
+          "value": "Restore a cache based on a version file, with fallbacks used",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_a_cache.parameters.version_file.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_a_cache.parameters.version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_a_cache.parameters.version.default",
+          "value": "0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_a_cache.steps",
+          "value": [
+            {
+              "restore_cache": {
+                "keys": [
+                  "v<< parameters.version >>-<< parameters.version_file >>-{{ checksum \"<< parameters.version_file >>\" }}",
+                  "v<< parameters.version >>-<< parameters.version_file >>-"
+                ]
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_an_exact_cache.description",
+          "value": "Restore a cache based on a version file, otherwise allow cache miss",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_an_exact_cache.parameters.version_file.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_an_exact_cache.parameters.version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.restore_an_exact_cache.steps",
+          "value": [
+            {
+              "restore_cache": {
+                "keys": [
+                  "v<< parameters.version >>-<< parameters.version_file >>-{{ checksum \"<< parameters.version_file >>\" }}"
+                ]
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.load_cached_docker_image_from_disk.description",
+          "value": "Restore cached image from disk to docker",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.load_cached_docker_image_from_disk.parameters.image_name.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.load_cached_docker_image_from_disk.steps",
+          "value": [
+            {
+              "run": {
+                "name": "Load Docker image layer cache",
+                "no_output_timeout": "30m",
+                "command": "set +o pipefail\nif [[ -f /tmp/cache/<< parameters.image_name >>_docker.tar.gz ]]; then\n  docker info\n  zcat /tmp/cache/<< parameters.image_name >>_docker.tar.gz | docker load\n  docker images\nfi\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.checkout_afni.description",
+          "value": "Get afni code",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "commands.checkout_afni.steps",
+          "value": [
+            "checkout"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.working_directory",
+          "value": "/tmp/src/afni",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.parameters.build_type.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.parameters.image_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.docker",
+          "value": [
+            {
+              "image": "afni/afni_circleci_executor"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.steps",
+          "value": [
+            "checkout_afni",
+            {
+              "setup_remote_docker": {
+                "version": "docker23"
+              }
+            },
+            {
+              "build_afni_image": {
+                "build_type": "<< parameters.build_type >>",
+                "image_cache_version": "<< parameters.image_cache_version >>"
+              }
+            },
+            {
+              "save_docker_image_to_disk": {
+                "image_name": "afni_<< parameters.build_type >>"
+              }
+            },
+            {
+              "save_cache": {
+                "key": "v<< parameters.image_cache_version >>-docker-<< parameters.build_type >>-{{ .Revision }}-{{ epoch }}",
+                "paths": [
+                  "/tmp/cache/afni_<< parameters.build_type >>_docker.tar.gz"
+                ]
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.containers_check.working_directory",
+          "value": "/tmp/src/afni",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.containers_check.parameters.image_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.containers_check.docker",
+          "value": [
+            {
+              "image": "afni/afni_circleci_executor"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.containers_check.steps",
+          "value": [
+            {
+              "check_integrity_of_containers": {
+                "image_cache_version": "<< parameters.image_cache_version >>"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.working_directory",
+          "value": "/tmp/src/afni",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.parameters.build_type.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.parameters.image_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.parameters.test_data_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.docker",
+          "value": [
+            {
+              "image": "afni/afni_circleci_executor"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.steps",
+          "value": [
+            "checkout_afni",
+            {
+              "setup_remote_docker": {
+                "version": "docker23"
+              }
+            },
+            {
+              "write_test_data_cache_version_file": {
+                "cache_name": "test_data"
+              }
+            },
+            {
+              "restore_a_cache": {
+                "version_file": "/tmp/test_data_version.txt",
+                "version": "<< parameters.test_data_cache_version >>"
+              }
+            },
+            {
+              "run": {
+                "command": "cp /tmp/test_data_version.txt /tmp/src/afni/tests/afni_ci_test_data\n"
+              }
+            },
+            {
+              "restore_afni_image_cache": {
+                "build_type": "<< parameters.build_type >>",
+                "image_cache_version": "<< parameters.image_cache_version >>"
+              }
+            },
+            {
+              "run_afni_tests": {
+                "build_type": "<< parameters.build_type >>"
+              }
+            },
+            {
+              "save_cache": {
+                "key": "v<< parameters.test_data_cache_version >>-/tmp/test_data_version.txt-{{ checksum \"/tmp/test_data_version.txt\" }}",
+                "paths": "/tmp/src/afni/tests/afni_ci_test_data"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.deploy.working_directory",
+          "value": "/tmp/src/afni",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.deploy.parameters.build_type.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.deploy.parameters.image_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.deploy.docker",
+          "value": [
+            {
+              "image": "afni/afni_circleci_executor"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.deploy.steps",
+          "value": [
+            {
+              "deploy_to_dockerhub": {
+                "build_type": "<< parameters.build_type >>",
+                "image_cache_version": "<< parameters.image_cache_version >>"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos_build.working_directory",
+          "value": "/tmp/src/afni",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos_build.macos.xcode",
+          "value": "26.1.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos_build.steps",
+          "value": [
+            "checkout_afni",
+            "setup_macos_for_afni",
+            {
+              "run": {
+                "name": "Build on macos",
+                "command": "mkdir build\ncd build\npython3 -m venv venv\nsource venv/bin/activate\npip install --upgrade pip\npip install setuptools\ncmake ..                                                      \\\n    -GNinja                                                   \\\n    -DCMAKE_TOOLCHAIN_FILE=../cmake/macos_toolchainfile.cmake \\\n    -DUSE_SYSTEM_GLW=OFF                                      \\\n    -DUSE_SYSTEM_XMHTML=OFF                                   \\\n    -DUSE_SYSTEM_F2C=OFF                                      \\\n    -DCOMP_RSTATS=OFF                                         \\\n    -DUSE_SYSTEM_GIFTI=OFF\nninja\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage_check.working_directory",
+          "value": "/tmp/src/afni",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage_check.parameters.image_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage_check.parameters.test_data_cache_version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage_check.environment.AFNI_WITH_COVERAGE",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage_check.docker",
+          "value": [
+            {
+              "image": "afni/afni_circleci_executor"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage_check.steps",
+          "value": [
+            {
+              "run": "id"
+            },
+            "checkout_afni",
+            {
+              "setup_remote_docker": {
+                "version": "docker23"
+              }
+            },
+            {
+              "build_afni_image": {
+                "build_type": "cmake_build",
+                "image_cache_version": "<< parameters.image_cache_version >>"
+              }
+            },
+            {
+              "run_afni_tests": {
+                "build_type": "cmake_build"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "workflows.version",
+          "value": 2.1,
+          "type": "number",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "workflows.afni_tests.jobs",
+          "value": [
+            {
+              "macos_build": {
+                "requires": [
+                  "test_cmake_build"
+                ],
+                "filters": {
+                  "tags": {
+                    "only": "/.*/"
+                  },
+                  "branches": {
+                    "only": "/.*/"
+                  }
+                }
+              }
+            },
+            {
+              "build": {
+                "name": "cmake_build",
+                "matrix": {
+                  "parameters": {
+                    "build_type": [
+                      "cmake_build"
+                    ],
+                    "image_cache_version": [
+                      "0"
+                    ]
+                  }
+                },
+                "filters": {
+                  "tags": {
+                    "only": "/.*/"
+                  },
+                  "branches": {
+                    "only": "/.*/"
+                  }
+                }
+              }
+            },
+            {
+              "build": {
+                "name": "make_build",
+                "requires": [
+                  "test_cmake_build"
+                ],
+                "matrix": {
+                  "parameters": {
+                    "build_type": [
+                      "make_build"
+                    ],
+                    "image_cache_version": [
+                      "0"
+                    ]
+                  }
+                },
+                "filters": {
+                  "tags": {
+                    "only": "/.*/"
+                  },
+                  "branches": {
+                    "only": "/.*/"
+                  }
+                }
+              }
+            },
+            {
+              "test": {
+                "name": "test_<< matrix.build_type >>",
+                "matrix": {
+                  "parameters": {
+                    "build_type": [
+                      "make_build",
+                      "cmake_build"
+                    ],
+                    "image_cache_version": [
+                      "0"
+                    ],
+                    "test_data_cache_version": [
+                      "0"
+                    ]
+                  }
+                },
+                "requires": [
+                  "<< matrix.build_type >>"
+                ],
+                "filters": {
+                  "tags": {
+                    "only": "/.*/"
+                  },
+                  "branches": {
+                    "only": "/.*/"
+                  }
+                }
+              }
+            },
+            {
+              "containers_check": {
+                "name": "check containers for issues with users and permissions and environments",
+                "matrix": {
+                  "parameters": {
+                    "image_cache_version": [
+                      "0"
+                    ]
+                  }
+                },
+                "requires": [
+                  "make_build",
+                  "cmake_build"
+                ],
+                "filters": {
+                  "tags": {
+                    "only": "/.*/"
+                  },
+                  "branches": {
+                    "only": "/.*/"
+                  }
+                }
+              }
+            },
+            {
+              "deploy": {
+                "name": "deploy_<< matrix.build_type >>",
+                "matrix": {
+                  "parameters": {
+                    "build_type": [
+                      "make_build",
+                      "cmake_build"
+                    ],
+                    "image_cache_version": [
+                      "0"
+                    ]
+                  }
+                },
+                "requires": [
+                  "test_<< matrix.build_type >>",
+                  "macos_build",
+                  "containers_check"
+                ],
+                "filters": {
+                  "tags": {
+                    "only": "/AFNI_\\d\\d.\\d.\\d\\d/"
+                  },
+                  "branches": {
+                    "ignore": "/.*/"
+                  }
+                }
+              }
+            },
+            {
+              "coverage_check": {
+                "requires": [
+                  "test_cmake_build",
+                  "test_make_build"
+                ],
+                "matrix": {
+                  "parameters": {
+                    "image_cache_version": [
+                      "0"
+                    ],
+                    "test_data_cache_version": [
+                      "5"
+                    ]
+                  }
+                },
+                "filters": {
+                  "tags": {
+                    "ignore": "/.*/"
+                  },
+                  "branches": {
+                    "ignore": "/.*/"
+                  }
+                }
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/.github/workflows/codespell.yml",
+      "relative_path": ".github/workflows/codespell.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 6,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Codespell",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.codespell.name",
+          "value": "Check for spelling errors",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.codespell.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.codespell.steps",
+          "value": [
+            {
+              "name": "Checkout",
+              "uses": "actions/checkout@v3"
+            },
+            {
+              "name": "Codespell",
+              "uses": "codespell-project/actions-codespell@v1"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/src/nifti/Dockerfile",
+      "relative_path": "src/nifti/Dockerfile",
+      "type": "dockerfile",
+      "purpose": "docker_configuration",
+      "patterns": [],
+      "settings_count": 1,
+      "settings": [
+        {
+          "key": "CMAKE_VER",
+          "value": "3.13.3",
+          "type": "string",
+          "env_var": "CMAKE_VER",
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/src/nifti/.travis.yml",
+      "relative_path": "src/nifti/.travis.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 15,
+      "settings": [
+        {
+          "key": "dist",
+          "value": "bionic",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "language",
+          "value": "cpp",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "sudo",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.global",
+          "value": [
+            "PROJECT_NAME=NIFTI_CLIB"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "addons.apt.packages",
+          "value": [
+            "cmake",
+            "valgrind",
+            "help2man"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "addons.homebrew.packages",
+          "value": [
+            "cmake",
+            "sed",
+            "help2man"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "matrix.fast_finish",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "matrix.include",
+          "value": [
+            {
+              "compiler": "gcc",
+              "os": "linux",
+              "env": [
+                "BLDPREFIX=coverage",
+                "PARALLEL_LEVEL=3",
+                "AGENT_BUILDDIRECTORY=${TRAVIS_BUILD_DIR}/NIFTIworkspace",
+                "BUILD_SOURCESDIRECTORY=${TRAVIS_BUILD_DIR}",
+                "SYSTEM_PULLREQUEST_SOURCEBRANCH=${TRAVIS_PULL_REQUEST_BRANCH}",
+                "BUILD_SOURCEBRANCHNAME=${TRAVIS_PULL_REQUEST_BRANCH}",
+                "BUILD_BUILDID=${TRAVIS_BUILD_ID}",
+                "SYSTEM_PULLREQUEST_PULLREQUESTNUMBER=${TRAVIS_PULL_REQUEST}",
+                "CTEST_SCRIPT_DIRECTORY=${TRAVIS_BUILD_DIR}/cmake",
+                "CXXFLAGS=\"-g -O0 -Wall -Wextra -m64 -W -Wshadow -Wunused-variable -Wunused-parameter -Wunused-function -Wunused -Wno-system-headers -Wno-deprecated -Woverloaded-virtual -Wwrite-strings -fprofile-arcs -ftest-coverage\"",
+                "CFLAGS=\"-g -O0 -Wall -Wextra -m64 -W -Wshadow -Wunused-variable -Wunused-parameter -Wunused-function -Wunused -Wno-system-headers -Wno-deprecated -Wwrite-strings -fprofile-arcs -ftest-coverage\"",
+                "LDFLAGS=\"-fprofile-arcs -ftest-coverage -lgcov\"",
+                "INTERPROCEDURAL_OPTIMIZATION=\"ON\"",
+                "B_NAME=system_gcc",
+                "WITH_COVERAGE=\"ON\"",
+                "WITH_MEMCHECK=\"OFF\"",
+                "NIFTI_SHELL_SCRIPT_TESTS=\"ON\"",
+                "SCANBUILD_EXE=\"\""
+              ]
+            },
+            {
+              "compiler": "gcc",
+              "os": "linux",
+              "env": [
+                "BLDPREFIX=valgrind",
+                "PARALLEL_LEVEL=3",
+                "AGENT_BUILDDIRECTORY=${TRAVIS_BUILD_DIR}/NIFTIworkspace",
+                "BUILD_SOURCESDIRECTORY=${TRAVIS_BUILD_DIR}",
+                "SYSTEM_PULLREQUEST_SOURCEBRANCH=${TRAVIS_PULL_REQUEST_BRANCH}",
+                "BUILD_SOURCEBRANCHNAME=${TRAVIS_PULL_REQUEST_BRANCH}",
+                "BUILD_BUILDID=${TRAVIS_BUILD_ID}",
+                "SYSTEM_PULLREQUEST_PULLREQUESTNUMBER=${TRAVIS_PULL_REQUEST}",
+                "CTEST_SCRIPT_DIRECTORY=${TRAVIS_BUILD_DIR}/cmake",
+                "CXXFLAGS=\"-g -O0 -Wall -Wextra -m64 -W -Wshadow -Wunused-variable -Wunused-parameter -Wunused-function -Wunused -Wno-system-headers -Wno-deprecated -Woverloaded-virtual -Wwrite-strings\"",
+                "CFLAGS=\"-g -O0 -Wall -Wextra -m64 -W -Wshadow -Wunused-variable -Wunused-parameter -Wunused-function -Wunused -Wno-system-headers -Wno-deprecated -Wwrite-strings\"",
+                "LDFLAGS=\"\"",
+                "INTERPROCEDURAL_OPTIMIZATION=\"OFF\"",
+                "B_NAME=system_gcc-valgrind",
+                "WITH_COVERAGE=\"OFF\"",
+                "WITH_MEMCHECK=\"ON\"",
+                "NIFTI_SHELL_SCRIPT_TESTS=\"OFF\"",
+                "SCANBUILD_EXE=\"\""
+              ]
+            },
+            {
+              "compiler": "gcc",
+              "os": "linux",
+              "env": [
+                "BLDPREFIX=use_prefix",
+                "PARALLEL_LEVEL=3",
+                "AGENT_BUILDDIRECTORY=${TRAVIS_BUILD_DIR}/NIFTIworkspace",
+                "BUILD_SOURCESDIRECTORY=${TRAVIS_BUILD_DIR}",
+                "SYSTEM_PULLREQUEST_SOURCEBRANCH=${TRAVIS_PULL_REQUEST_BRANCH}",
+                "BUILD_SOURCEBRANCHNAME=${TRAVIS_PULL_REQUEST_BRANCH}",
+                "BUILD_BUILDID=${TRAVIS_BUILD_ID}",
+                "SYSTEM_PULLREQUEST_PULLREQUESTNUMBER=${TRAVIS_PULL_REQUEST}",
+                "CTEST_SCRIPT_DIRECTORY=${TRAVIS_BUILD_DIR}/cmake",
+                "INTERPROCEDURAL_OPTIMIZATION=\"ON\"",
+                "B_NAME=system_gcc",
+                "WITH_MEMCHECK=\"OFF\"",
+                "NIFTI_PACKAGE_PREFIX=test_",
+                "SCANBUILD_EXE=\"\""
+              ]
+            },
+            {
+              "compiler": "clang",
+              "os": "linux",
+              "env": [
+                "BLDPREFIX=sanitize",
+                "PARALLEL_LEVEL=3",
+                "AGENT_BUILDDIRECTORY=${TRAVIS_BUILD_DIR}/NIFTIworkspace",
+                "BUILD_SOURCESDIRECTORY=${TRAVIS_BUILD_DIR}",
+                "SYSTEM_PULLREQUEST_SOURCEBRANCH=${TRAVIS_PULL_REQUEST_BRANCH}",
+                "BUILD_SOURCEBRANCHNAME=${TRAVIS_PULL_REQUEST_BRANCH}",
+                "BUILD_BUILDID=${TRAVIS_BUILD_ID}",
+                "SYSTEM_PULLREQUEST_PULLREQUESTNUMBER=${TRAVIS_PULL_REQUEST}",
+                "CTEST_SCRIPT_DIRECTORY=${TRAVIS_BUILD_DIR}/cmake",
+                "ASAN_OPTIONS=verbosity=1",
+                "CFLAGS=\"-Wall -Wextra -m64 -W -Wshadow -Wunused-variable -Wunused-parameter -Wunused-function -Wunused -Wno-system-headers -Wno-deprecated -Wwrite-strings -fsanitize=address,undefined\"",
+                "CXXFLAGS=\"-g -Wall -Wextra -m64 -fsanitize=address,undefined\"",
+                "INTERPROCEDURAL_OPTIMIZATION=\"OFF\"",
+                "B_NAME=fsanitize_clang",
+                "WITH_COVERAGE=\"OFF\"",
+                "WITH_MEMCHECK=\"OFF\"",
+                "NIFTI_SHELL_SCRIPT_TESTS=\"ON\"",
+                "SCANBUILD_EXE=\"scan-build -v --status-bugs\"",
+                "CCC_CC=clang",
+                "CCC_CXX=clang++"
+              ]
+            },
+            {
+              "compiler": "clang",
+              "os": "osx",
+              "osx_image": "xcode11",
+              "env": [
+                "BLDPREFIX=rel",
+                "PARALLEL_LEVEL=3",
+                "AGENT_BUILDDIRECTORY=${TRAVIS_BUILD_DIR}/NIFTIworkspace",
+                "BUILD_SOURCESDIRECTORY=${TRAVIS_BUILD_DIR}",
+                "BUILD_BUILDID=${TRAVIS_BUILD_ID}",
+                "SYSTEM_PULLREQUEST_SOURCEBRANCH=${TRAVIS_PULL_REQUEST_BRANCH}",
+                "BUILD_SOURCEBRANCHNAME=${TRAVIS_PULL_REQUEST_BRANCH}",
+                "SYSTEM_PULLREQUEST_PULLREQUESTNUMBER=${TRAVIS_PULL_REQUEST}",
+                "CTEST_SCRIPT_DIRECTORY=${TRAVIS_BUILD_DIR}/cmake",
+                "CFLAGS=\"-O3 -Wall -Wextra -Wshadow -Wunused-variable -Wunused-parameter -Wunused-function -Wunused -Wno-system-headers -Wno-deprecated -Wwrite-strings\"",
+                "CXXFLAGS=\"-O3 -Wall -Wextra -Wshadow -Wunused-variable -Wunused-parameter -Wunused-function -Wunused -Wno-system-headers -Wno-deprecated -Wwrite-strings\"",
+                "INTERPROCEDURAL_OPTIMIZATION=\"ON\"",
+                "B_NAME=osx_clang",
+                "WITH_COVERAGE=\"OFF\"",
+                "WITH_MEMCHECK=\"OFF\"",
+                "NIFTI_SHELL_SCRIPT_TESTS=\"ON\"",
+                "SCANBUILD_EXE=\"\"",
+                "CCC_CC=clang",
+                "CCC_CXX=clang++"
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "before_install",
+          "value": [
+            "cd ${TRAVIS_BUILD_DIR}"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "install",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "before_script",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "script",
+          "value": [
+            "which $CXX && $CXX --version || true",
+            "which $CC && $CC --version || true",
+            "which scan-build || true",
+            "which gcov && gcov --version || true",
+            "which valgrind && valgrind --version || true",
+            "which cmake && cmake --version || true",
+            "${SCANBUILD_EXE} ctest -S ${CTEST_SCRIPT_DIRECTORY}/travis_dashboard.cmake -V -j 4"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "after_success",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "after_failure",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "after_script",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/src/gifti/Dockerfile",
+      "relative_path": "src/gifti/Dockerfile",
+      "type": "dockerfile",
+      "purpose": "docker_configuration",
+      "patterns": [],
+      "settings_count": 2,
+      "settings": [
+        {
+          "key": "CMAKE_VER",
+          "value": "cmake-3.13.0-Linux-x86_64",
+          "type": "string",
+          "env_var": "CMAKE_VER",
+          "description": ""
+        },
+        {
+          "key": "PATH",
+          "value": "\"/cmake/${CMAKE_VER}/bin:$PATH\"",
+          "type": "string",
+          "env_var": "PATH",
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/src/jpeg-6b/jconfig.cfg",
+      "relative_path": "src/jpeg-6b/jconfig.cfg",
+      "type": "ini",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "INI parse error: File contains no section headers.\nfile: '<string>', line: 1\n'/* jconfig.cfg --- source file edited by configure script */\\n'"
+      ]
+    },
+    {
+      "file_path": "afni/src/jpeg-6b/makefile.cfg",
+      "relative_path": "src/jpeg-6b/makefile.cfg",
+      "type": "ini",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "INI parse error: File contains no section headers.\nfile: '<string>', line: 8\n'srcdir = @srcdir@\\n'"
+      ]
+    },
+    {
+      "file_path": "afni/src/nifti/conda.build/meta.yaml",
+      "relative_path": "src/nifti/conda.build/meta.yaml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "YAML parse error: while constructing a mapping\n  in \"<unicode string>\", line 3, column 14:\n        version: {{ GIT_DESCRIBE_TAG }}\n                 ^\nfound unhashable key\n  in \"<unicode string>\", line 3, column 15:\n        version: {{ GIT_DESCRIBE_TAG }}\n                  ^"
+      ]
+    },
+    {
+      "file_path": "afni/src/pkundu/meica.libs/mdp/configuration.py",
+      "relative_path": "src/pkundu/meica.libs/mdp/configuration.py",
+      "type": "python",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "Python parse error: multiple exception types must be parenthesized (<unknown>, line 186)"
+      ]
+    },
+    {
+      "file_path": "afni/src/gifti/.circleci/config.yml",
+      "relative_path": "src/gifti/.circleci/config.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 6,
+      "settings": [
+        {
+          "key": "version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.docker",
+          "value": [
+            {
+              "image": "ubuntu:eoan"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.working_directory",
+          "value": "/tmp/src/gifti_clib",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.steps",
+          "value": [
+            {
+              "run": {
+                "name": "Install required software",
+                "command": "apt-get update && apt-get install -y -q eatmydata \\\n&& eatmydata apt-get update && apt-get install -y -q  \\\nlibexpat1-dev \\\nzlib1g-dev \\\ngit \\\nwget \\\ncmake \\\nmake \\\ngcc \n"
+              }
+            },
+            "checkout",
+            {
+              "run": {
+                "name": "Build and test gifti",
+                "command": "mkdir ../build\ncd ../build\ncmake ../gifti_clib\nmake\nctest --output-on-failure\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "workflows.version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "workflows.gifti_build_and_test.jobs",
+          "value": [
+            {
+              "build": {
+                "filters": {
+                  "branches": {
+                    "ignore": "/doc\\/.*/"
+                  },
+                  "tags": {
+                    "only": "/.*/"
+                  }
+                }
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/src/other_builds/dockerfiles/Dockerfile.ubuntu1604",
+      "relative_path": "src/other_builds/dockerfiles/Dockerfile.ubuntu1604",
+      "type": "dockerfile",
+      "purpose": "docker_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/src/other_builds/dockerfiles/Dockerfile.centos6",
+      "relative_path": "src/other_builds/dockerfiles/Dockerfile.centos6",
+      "type": "dockerfile",
+      "purpose": "docker_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/src/other_builds/dockerfiles/Dockerfile.debian9",
+      "relative_path": "src/other_builds/dockerfiles/Dockerfile.debian9",
+      "type": "dockerfile",
+      "purpose": "docker_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/src/other_builds/dockerfiles/Dockerfile.centos7",
+      "relative_path": "src/other_builds/dockerfiles/Dockerfile.centos7",
+      "type": "dockerfile",
+      "purpose": "docker_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": []
+    },
+    {
+      "file_path": "afni/src/other_builds/dockerfiles/Dockerfile.ubuntu1404",
+      "relative_path": "src/other_builds/dockerfiles/Dockerfile.ubuntu1404",
+      "type": "dockerfile",
+      "purpose": "docker_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": []
+    }
+  ],
+  "errors": []
+}

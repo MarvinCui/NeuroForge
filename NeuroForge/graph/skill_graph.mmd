@@ -1,0 +1,286 @@
+graph TD
+  T_afni["afni"]:::tool
+  T_bids_specification["bids-specification"]:::tool
+  T_dipy["dipy"]:::tool
+  T_eeglab["eeglab"]:::tool
+  T_fmriprep["fmriprep"]:::tool
+  T_freesurfer["freesurfer"]:::tool
+  T_jspsych["jspsych"]:::tool
+  T_mne_python["mne-python"]:::tool
+  T_mrtrix3["mrtrix3"]:::tool
+  T_nibabel["nibabel"]:::tool
+  T_nilearn["nilearn"]:::tool
+  T_nipype["nipype"]:::tool
+  T_psychopy["psychopy"]:::tool
+  T_pymc["pymc"]:::tool
+  T_qsiprep["qsiprep"]:::tool
+  T_snakemake["snakemake"]:::tool
+  C_BIDS["BIDS"]:::concept
+  C_fMRI_preprocessing["fMRI preprocessing"]:::concept
+  C_diffusion_preprocessing["diffusion preprocessing"]:::concept
+  C_tractography["tractography"]:::concept
+  C_connectome["connectome"]:::concept
+  C_image_IO["image IO"]:::concept
+  C_GLM["GLM"]:::concept
+  C_EEG_preprocessing["EEG preprocessing"]:::concept
+  C_epoching["epoching"]:::concept
+  C_time_frequency_analysis["time-frequency analysis"]:::concept
+  C_source_localization["source localization"]:::concept
+  C_experiment_design["experiment design"]:::concept
+  C_browser_experiment["browser experiment"]:::concept
+  C_Bayesian_modeling["Bayesian modeling"]:::concept
+  C_statistics["statistics"]:::concept
+  C_workflow_management["workflow management"]:::concept
+  C_containerization["containerization"]:::concept
+  C_registration["registration"]:::concept
+  C_surface_reconstruction["surface reconstruction"]:::concept
+  C_quality_control["quality control"]:::concept
+  C_derivatives["derivatives"]:::concept
+  C_confounds["confounds"]:::concept
+  C_events["events"]:::concept
+  C_behavioral_data["behavioral data"]:::concept
+  C_reproducibility["reproducibility"]:::concept
+  T_mne_python -->|5311| C_EEG_preprocessing
+  T_pymc -->|4183| C_Bayesian_modeling
+  T_bids_specification -->|3772| C_BIDS
+  T_jspsych -->|3739| C_browser_experiment
+  T_snakemake -->|3039| C_workflow_management
+  T_mne_python -->|3038| C_epoching
+  T_nipype -->|2399| C_workflow_management
+  T_mne_python -->|2279| C_reproducibility
+  T_mne_python -->|2104| C_workflow_management
+  T_jspsych -->|2000| C_behavioral_data
+  T_nilearn -->|1765| C_reproducibility
+  T_mrtrix3 -->|1712| C_containerization
+  T_nipype -->|1694| C_reproducibility
+  T_nilearn -->|1609| C_workflow_management
+  T_dipy -->|1603| C_reproducibility
+  T_dipy -->|1468| C_workflow_management
+  T_pymc -->|1343| C_reproducibility
+  T_pymc -->|1273| C_workflow_management
+  T_nilearn -->|1078| C_registration
+  T_nibabel -->|1076| C_image_IO
+  T_psychopy -->|1047| C_experiment_design
+  T_nibabel -->|948| C_reproducibility
+  T_nilearn -->|915| C_containerization
+  T_jspsych -->|892| C_experiment_design
+  T_nilearn -->|890| C_surface_reconstruction
+  T_snakemake -->|841| C_reproducibility
+  T_nibabel -->|823| C_workflow_management
+  T_freesurfer -->|788| C_surface_reconstruction
+  T_afni -->|774| C_reproducibility
+  T_nilearn -->|773| C_image_IO
+  T_qsiprep -->|753| C_diffusion_preprocessing
+  T_afni -->|718| C_workflow_management
+  T_nibabel -->|694| C_containerization
+  T_jspsych -->|686| C_events
+  T_mrtrix3 -->|651| C_tractography
+  T_dipy -->|603| C_registration
+  T_fmriprep -->|578| C_BIDS
+  T_nilearn -->|577| C_connectome
+  T_mne_python -->|570| C_source_localization
+  T_fmriprep -->|555| C_fMRI_preprocessing
+  T_nilearn -->|552| C_fMRI_preprocessing
+  T_mrtrix3 -->|527| C_reproducibility
+  T_nilearn -->|527| C_GLM
+  T_psychopy -->|501| C_reproducibility
+  T_nilearn -->|497| C_BIDS
+  T_psychopy -->|481| C_workflow_management
+  T_nibabel -->|459| C_registration
+  T_qsiprep -->|431| C_BIDS
+  T_mne_python -->|424| C_events
+  T_mne_python -->|421| C_surface_reconstruction
+  T_nilearn -->|420| C_confounds
+  T_pymc -->|354| C_registration
+  T_jspsych -->|337| C_containerization
+  T_bids_specification -->|334| C_derivatives
+  T_mrtrix3 -->|311| C_diffusion_preprocessing
+  T_nipype -->|278| C_registration
+  T_mne_python -->|275| C_quality_control
+  T_mrtrix3 -->|267| C_connectome
+  T_mne_python -->|261| C_time_frequency_analysis
+  T_bids_specification -->|258| C_EEG_preprocessing
+  T_jspsych -->|258| C_reproducibility
+  T_nilearn -->|254| C_epoching
+  T_fmriprep -->|250| C_reproducibility
+  T_fmriprep -->|245| C_derivatives
+  T_mrtrix3 -->|228| C_behavioral_data
+  T_dipy -->|227| C_containerization
+  T_fmriprep -->|223| C_workflow_management
+  T_dipy -->|212| C_behavioral_data
+  T_qsiprep -->|212| C_reproducibility
+  T_mne_python -->|209| C_registration
+  T_qsiprep -->|209| C_workflow_management
+  T_snakemake -->|207| C_containerization
+  T_dipy -->|197| C_diffusion_preprocessing
+  T_mrtrix3 -->|193| C_registration
+  T_nilearn -->|170| C_EEG_preprocessing
+  T_nipype -->|169| C_surface_reconstruction
+  T_qsiprep -->|166| C_containerization
+  T_snakemake -->|165| C_browser_experiment
+  T_mne_python -->|164| C_image_IO
+  T_fmriprep -->|155| C_surface_reconstruction
+  T_nilearn -->|151| C_quality_control
+  T_bids_specification -->|148| C_reproducibility
+  T_nilearn -->|147| C_statistics
+  T_bids_specification -->|145| C_events
+  T_nilearn -->|145| C_behavioral_data
+  T_nilearn -->|139| C_events
+  T_snakemake -->|138| C_quality_control
+  T_nipype -->|129| C_containerization
+  T_bids_specification -->|126| C_workflow_management
+  T_nilearn -->|126| C_derivatives
+  T_nipype -->|124| C_diffusion_preprocessing
+  T_bids_specification -->|122| C_containerization
+  T_mne_python -->|118| C_containerization
+  T_fmriprep -->|112| C_containerization
+  T_mrtrix3 -->|111| C_image_IO
+  T_dipy -->|107| C_image_IO
+  T_psychopy -->|103| C_events
+  T_bids_specification -->|99| C_diffusion_preprocessing
+  T_bids_specification -->|98| C_epoching
+  T_mne_python -->|94| C_behavioral_data
+  T_afni -->|92| C_registration
+  T_bids_specification -->|90| C_connectome
+  T_fmriprep -->|90| C_confounds
+  T_mrtrix3 -->|87| C_GLM
+  T_dipy -->|84| C_epoching
+  T_mne_python -->|77| C_experiment_design
+  T_nipype -->|75| C_browser_experiment
+  T_mrtrix3 -->|74| C_EEG_preprocessing
+  T_mne_python -->|68| C_BIDS
+  T_psychopy -->|66| C_containerization
+  T_afni -->|62| C_containerization
+  T_qsiprep -->|61| C_fMRI_preprocessing
+  T_freesurfer -->|59| C_reproducibility
+  T_jspsych -->|59| C_epoching
+  T_nibabel -->|59| C_surface_reconstruction
+  T_bids_specification -->|58| C_surface_reconstruction
+  T_mrtrix3 -->|56| C_surface_reconstruction
+  T_qsiprep -->|55| C_registration
+  T_fmriprep -->|52| C_EEG_preprocessing
+  T_mrtrix3 -->|52| C_Bayesian_modeling
+  T_psychopy -->|52| C_behavioral_data
+  T_pymc -->|50| C_containerization
+  T_qsiprep -->|49| C_derivatives
+  T_bids_specification -->|48| C_image_IO
+  T_dipy -->|48| C_EEG_preprocessing
+  T_bids_specification -->|47| C_fMRI_preprocessing
+  T_dipy -->|41| C_surface_reconstruction
+  T_mne_python -->|41| C_statistics
+  T_pymc -->|41| C_behavioral_data
+  T_dipy -->|40| C_connectome
+  T_eeglab -->|40| C_EEG_preprocessing
+  T_nipype -->|40| C_image_IO
+  T_fmriprep -->|39| C_registration
+  T_jspsych -->|38| C_EEG_preprocessing
+  T_qsiprep -->|36| C_surface_reconstruction
+  T_fmriprep -->|35| C_image_IO
+  T_freesurfer -->|33| C_connectome
+  T_freesurfer -->|31| C_EEG_preprocessing
+  T_mne_python -->|31| C_connectome
+  T_freesurfer -->|29| C_registration
+  T_bids_specification -->|28| C_browser_experiment
+  T_dipy -->|28| C_GLM
+  T_pymc -->|28| C_statistics
+  T_mrtrix3 -->|27| C_BIDS
+  T_nipype -->|27| C_Bayesian_modeling
+  T_nipype -->|26| C_BIDS
+  T_psychopy -->|26| C_fMRI_preprocessing
+  T_qsiprep -->|25| C_tractography
+  T_snakemake -->|25| C_EEG_preprocessing
+  T_mne_python -->|24| C_Bayesian_modeling
+  T_bids_specification -->|23| C_Bayesian_modeling
+  T_bids_specification -->|23| C_behavioral_data
+  T_eeglab -->|23| C_browser_experiment
+  T_freesurfer -->|23| C_containerization
+  T_mrtrix3 -->|23| C_quality_control
+  T_nibabel -->|23| C_Bayesian_modeling
+  T_afni -->|22| C_image_IO
+  T_nipype -->|22| C_connectome
+  T_psychopy -->|22| C_GLM
+  T_dipy -->|21| C_quality_control
+  T_fmriprep -->|21| C_quality_control
+  T_nilearn -->|21| C_Bayesian_modeling
+  T_qsiprep -->|21| C_quality_control
+  T_fmriprep -->|20| C_connectome
+  T_nipype -->|20| C_fMRI_preprocessing
+  T_qsiprep -->|20| C_image_IO
+  T_afni -->|19| C_diffusion_preprocessing
+  T_bids_specification -->|19| C_experiment_design
+  T_dipy -->|18| C_Bayesian_modeling
+  T_nipype -->|18| C_EEG_preprocessing
+  T_afni -->|17| C_BIDS
+  T_nibabel -->|17| C_EEG_preprocessing
+  T_nibabel -->|17| C_fMRI_preprocessing
+  T_nibabel -->|17| C_quality_control
+  T_mne_python -->|16| C_browser_experiment
+  T_bids_specification -->|15| C_quality_control
+  T_eeglab -->|15| C_epoching
+  T_nibabel -->|14| C_epoching
+  T_qsiprep -->|14| C_EEG_preprocessing
+  T_eeglab -->|13| C_reproducibility
+  T_nilearn -->|13| C_browser_experiment
+  T_nipype -->|13| C_quality_control
+  T_psychopy -->|13| C_registration
+  T_qsiprep -->|13| C_confounds
+  T_snakemake -->|13| C_behavioral_data
+  T_fmriprep -->|12| C_GLM
+  T_jspsych -->|12| C_Bayesian_modeling
+  T_jspsych -->|12| C_quality_control
+  T_nipype -->|12| C_behavioral_data
+  T_nipype -->|12| C_source_localization
+  T_pymc -->|12| C_EEG_preprocessing
+  T_pymc -->|12| C_quality_control
+  T_nipype -->|10| C_GLM
+  T_nibabel -->|9| C_BIDS
+  T_nipype -->|9| C_confounds
+  T_nipype -->|9| C_epoching
+  T_snakemake -->|9| C_BIDS
+  T_afni -->|8| C_connectome
+  T_bids_specification -->|8| C_GLM
+  T_dipy -->|8| C_derivatives
+  T_dipy -->|8| C_fMRI_preprocessing
+  T_dipy -->|8| C_statistics
+  T_dipy -->|8| C_tractography
+  T_fmriprep -->|8| C_statistics
+  T_mrtrix3 -->|8| C_derivatives
+  T_mrtrix3 -->|8| C_statistics
+  T_psychopy -->|8| C_browser_experiment
+  T_fmriprep -->|7| C_epoching
+  T_mne_python -->|7| C_fMRI_preprocessing
+  T_nibabel -->|7| C_diffusion_preprocessing
+  T_nibabel -->|7| C_statistics
+  T_nipype -->|7| C_statistics
+  T_pymc -->|7| C_BIDS
+  T_pymc -->|7| C_derivatives
+  T_bids_specification -->|6| C_registration
+  T_dipy -->|6| C_BIDS
+  T_dipy -->|6| C_experiment_design
+  T_eeglab -->|6| C_BIDS
+  T_fmriprep -->|6| C_Bayesian_modeling
+  T_freesurfer -->|6| C_Bayesian_modeling
+  T_freesurfer -->|6| C_workflow_management
+  T_jspsych -->|6| C_workflow_management
+  T_mrtrix3 -->|6| C_fMRI_preprocessing
+  T_nibabel -->|6| C_experiment_design
+  T_nipype -->|6| C_events
+  T_nipype -->|6| C_tractography
+  T_qsiprep -->|6| C_GLM
+  T_snakemake -->|6| C_GLM
+  T_snakemake -->|6| C_epoching
+  T_afni -->|5| C_Bayesian_modeling
+  T_afni -->|5| C_EEG_preprocessing
+  T_afni -->|5| C_fMRI_preprocessing
+  T_afni -->|5| C_quality_control
+  T_afni -->|5| C_surface_reconstruction
+  T_jspsych -->|5| C_fMRI_preprocessing
+  T_mne_python -->|5| C_derivatives
+  T_nibabel -->|5| C_GLM
+  T_nibabel -->|5| C_behavioral_data
+  T_nibabel -->|5| C_connectome
+  T_nilearn -->|5| C_experiment_design
+  T_nilearn -->|5| C_tractography
+  T_pymc -->|5| C_epoching
+  classDef tool fill:#e8f3ff,stroke:#3778bf,stroke-width:1px
+  classDef concept fill:#fff7e6,stroke:#b36b00,stroke-width:1px

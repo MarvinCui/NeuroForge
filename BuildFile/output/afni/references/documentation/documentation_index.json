@@ -1,0 +1,123 @@
+{
+  "total_files": 16,
+  "categories": {
+    "overview": [
+      "README.rst"
+    ],
+    "other": [
+      "doc/macaque_sphinx/connectionstoc1.rst",
+      "doc/macaque_sphinx/glossary.rst",
+      "doc/macaque_sphinx/index.rst",
+      "doc/macaque_sphinx/macaque/ROI_45a.rst",
+      "doc/macaque_sphinx/macaque/ROI_45a_connections.rst",
+      "doc/macaque_sphinx/macaque/cover.rst",
+      "doc/macaque_sphinx/macaquetoc1.rst",
+      "doc/macaque_sphinx/roistoc1.rst",
+      "src/crorden/dcm2niix_console/charls/README.md",
+      "src/gifti/README.md",
+      "src/nifti/README.md",
+      "src/nifti/real_easy/Demonstrations.md",
+      "src/pkundu/README.md",
+      "src/roopchansinghv/PsychoPy-NeuroFeedback-Demo/README.md",
+      "tests/README.rst"
+    ]
+  },
+  "files": [
+    {
+      "path": "README.rst",
+      "filename": "README.rst",
+      "category": "overview",
+      "size_bytes": 10646
+    },
+    {
+      "path": "doc/macaque_sphinx/connectionstoc1.rst",
+      "filename": "connectionstoc1.rst",
+      "category": "other",
+      "size_bytes": 170
+    },
+    {
+      "path": "doc/macaque_sphinx/glossary.rst",
+      "filename": "glossary.rst",
+      "category": "other",
+      "size_bytes": 231
+    },
+    {
+      "path": "doc/macaque_sphinx/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 535
+    },
+    {
+      "path": "doc/macaque_sphinx/macaque/ROI_45a.rst",
+      "filename": "ROI_45a.rst",
+      "category": "other",
+      "size_bytes": 8306
+    },
+    {
+      "path": "doc/macaque_sphinx/macaque/ROI_45a_connections.rst",
+      "filename": "ROI_45a_connections.rst",
+      "category": "other",
+      "size_bytes": 344
+    },
+    {
+      "path": "doc/macaque_sphinx/macaque/cover.rst",
+      "filename": "cover.rst",
+      "category": "other",
+      "size_bytes": 255
+    },
+    {
+      "path": "doc/macaque_sphinx/macaquetoc1.rst",
+      "filename": "macaquetoc1.rst",
+      "category": "other",
+      "size_bytes": 131
+    },
+    {
+      "path": "doc/macaque_sphinx/roistoc1.rst",
+      "filename": "roistoc1.rst",
+      "category": "other",
+      "size_bytes": 146
+    },
+    {
+      "path": "src/crorden/dcm2niix_console/charls/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 8937
+    },
+    {
+      "path": "src/gifti/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2050
+    },
+    {
+      "path": "src/nifti/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3800
+    },
+    {
+      "path": "src/nifti/real_easy/Demonstrations.md",
+      "filename": "Demonstrations.md",
+      "category": "other",
+      "size_bytes": 1807
+    },
+    {
+      "path": "src/pkundu/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 4115
+    },
+    {
+      "path": "src/roopchansinghv/PsychoPy-NeuroFeedback-Demo/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 442
+    },
+    {
+      "path": "tests/README.rst",
+      "filename": "README.rst",
+      "category": "other",
+      "size_bytes": 3542
+    }
+  ]
+}

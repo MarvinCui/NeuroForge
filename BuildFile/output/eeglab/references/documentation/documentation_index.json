@@ -1,0 +1,87 @@
+{
+  "total_files": 10,
+  "categories": {
+    "other": [
+      ".agents/skills/fix-issue/SKILL.md",
+      ".agents/skills/github-pr-review/SKILL.md",
+      ".agents/skills/pull-request/SKILL.md"
+    ],
+    "templates": [
+      ".github/ISSUE_TEMPLATE/bug_report.md",
+      ".github/ISSUE_TEMPLATE/new-plugin-or-plugin-update.md"
+    ],
+    "overview": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "README.md"
+    ],
+    "community": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "contributing": [
+      "CONTRIBUTING.md"
+    ]
+  },
+  "files": [
+    {
+      "path": ".agents/skills/fix-issue/SKILL.md",
+      "filename": "SKILL.md",
+      "category": "other",
+      "size_bytes": 3539
+    },
+    {
+      "path": ".agents/skills/github-pr-review/SKILL.md",
+      "filename": "SKILL.md",
+      "category": "other",
+      "size_bytes": 4418
+    },
+    {
+      "path": ".agents/skills/pull-request/SKILL.md",
+      "filename": "SKILL.md",
+      "category": "other",
+      "size_bytes": 2588
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "filename": "bug_report.md",
+      "category": "templates",
+      "size_bytes": 604
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/new-plugin-or-plugin-update.md",
+      "filename": "new-plugin-or-plugin-update.md",
+      "category": "templates",
+      "size_bytes": 660
+    },
+    {
+      "path": "AGENTS.md",
+      "filename": "AGENTS.md",
+      "category": "overview",
+      "size_bytes": 17520
+    },
+    {
+      "path": "CLAUDE.md",
+      "filename": "CLAUDE.md",
+      "category": "overview",
+      "size_bytes": 11
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "filename": "CODE_OF_CONDUCT.md",
+      "category": "community",
+      "size_bytes": 5207
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "contributing",
+      "size_bytes": 8962
+    },
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 2416
+    }
+  ]
+}

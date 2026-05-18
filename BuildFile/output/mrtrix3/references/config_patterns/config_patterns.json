@@ -1,0 +1,1098 @@
+{
+  "total_files": 9,
+  "total_settings": 83,
+  "detected_patterns": {},
+  "config_files": [
+    {
+      "file_path": "mrtrix3/Dockerfile",
+      "relative_path": "Dockerfile",
+      "type": "dockerfile",
+      "purpose": "docker_configuration",
+      "patterns": [],
+      "settings_count": 7,
+      "settings": [
+        {
+          "key": "MAKE_JOBS",
+          "value": "\"1\"",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "DEBIAN_FRONTEND",
+          "value": "\"noninteractive\"",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "MRTRIX3_GIT_COMMITISH",
+          "value": "\"master\"",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "MRTRIX3_CONFIGURE_FLAGS",
+          "value": "\"\"",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "MRTRIX3_BUILD_FLAGS",
+          "value": "\"-persistent -nopaginate\"",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "MAKE_JOBS",
+          "value": null,
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "ANTSPATH",
+          "value": "\"/opt/ants/bin\" \\",
+          "type": "string",
+          "env_var": "ANTSPATH",
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "mrtrix3/.readthedocs.yml",
+      "relative_path": ".readthedocs.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 6,
+      "settings": [
+        {
+          "key": "version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.os",
+          "value": "ubuntu-22.04",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.tools.python",
+          "value": "3.10",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "sphinx.configuration",
+          "value": "docs/conf.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "formats",
+          "value": [
+            "pdf",
+            "epub"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "python.install",
+          "value": [
+            {
+              "requirements": "docs/requirements.txt"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "mrtrix3/.github/workflows/package-macos-anaconda.yml",
+      "relative_path": ".github/workflows/package-macos-anaconda.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "package-macos-anaconda",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.release.types",
+          "value": [
+            "created"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.runs-on",
+          "value": "macos-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.steps",
+          "value": [
+            {
+              "name": "Set up Miniconda",
+              "uses": "conda-incubator/setup-miniconda@v2",
+              "with": {
+                "miniconda-version": "latest"
+              }
+            },
+            {
+              "name": "Install conda-build",
+              "run": "conda install -c conda-forge -y conda-build"
+            },
+            {
+              "name": "fetch MacOSX 10.11 SDK",
+              "run": "curl -L https://github.com/phracker/MacOSX-SDKs/releases/download/MacOSX10.11.sdk/MacOSX10.11.sdk.tar.xz | sudo tar xf - -C /opt/"
+            },
+            {
+              "name": "fetch recipe",
+              "run": "git clone https://github.com/MRtrix3/conda-build.git\nmv conda-build/* .\n{ echo \"CONDA_BUILD_SYSROOT:\"; echo \"  - /opt/MacOSX10.11.sdk        # [osx]\"; } > conda_build_config.yaml\n"
+            },
+            {
+              "name": "build package",
+              "run": "CONDA=\"$CONDA\" ./run.sh ${GITHUB_REF#refs/*/} ${GITHUB_REPOSITORY%/*} conda-macos"
+            },
+            {
+              "name": "Upload package to GitHub Release",
+              "uses": "AButler/upload-release-assets@v2.0",
+              "with": {
+                "files": "*.conda*",
+                "repo-token": "${{ secrets.GITHUB_TOKEN }}"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "mrtrix3/.github/workflows/checks.yml",
+      "relative_path": ".github/workflows/checks.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 28,
+      "settings": [
+        {
+          "key": "name",
+          "value": "checks",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.types",
+          "value": [
+            "opened",
+            "synchronize"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "master",
+            "dev"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.merge_group.types",
+          "value": [
+            "checks_requested"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.merge_group.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-clang-build.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-clang-build.env.CFLAGS",
+          "value": "-Werror",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-clang-build.env.QT_SELECT",
+          "value": "qt5",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-clang-build.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v1"
+            },
+            {
+              "name": "install dependencies",
+              "run": "sudo apt-get update\nsudo apt-get install clang libqt5opengl5-dev libqt5svg5-dev libglvnd-dev libeigen3-dev zlib1g-dev libfftw3-dev libpng-dev\n"
+            },
+            {
+              "name": "configure",
+              "run": "./configure -assert || { cat configure.log; false; }"
+            },
+            {
+              "name": "build",
+              "run": "./build -nowarnings -persistent -nopaginate || { cat build.log; false; }"
+            },
+            {
+              "name": "unit tests",
+              "run": "./run_tests units || { cat testing_units.log; false; }"
+            },
+            {
+              "name": "binary tests",
+              "run": "./run_tests binaries || { cat testing_binaries.log; false; }"
+            },
+            {
+              "name": "check command documentation",
+              "run": "./docs/generate_user_docs.sh && git diff --exit-code docs/"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-gcc-build.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-gcc-build.env.CXX",
+          "value": "g++-9",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-gcc-build.env.CFLAGS",
+          "value": "-Werror",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-gcc-build.env.QT_SELECT",
+          "value": "qt5",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-gcc-build.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v1"
+            },
+            {
+              "name": "install dependencies",
+              "run": "sudo apt-get update\nsudo apt-get install g++-9 libqt5opengl5-dev libqt5svg5-dev libglvnd-dev libeigen3-dev zlib1g-dev libfftw3-dev \n"
+            },
+            {
+              "name": "configure",
+              "run": "./configure -nooptim || { cat configure.log; false; }"
+            },
+            {
+              "name": "build",
+              "run": "./build -nowarnings -persistent -nopaginate || { cat build.log; false; }"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos-build.runs-on",
+          "value": "macos-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos-build.env.CFLAGS",
+          "value": "-Werror",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos-build.env.PACKAGES",
+          "value": "qt5 eigen@3 pkg-config fftw libpng",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos-build.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v1"
+            },
+            {
+              "name": "install dependencies",
+              "run": "brew update || brew update     # https://github.com/Homebrew/brew/issues/2491#issuecomment-294207661\nbrew install $PACKAGES || brew install $PACKAGES\nbrew link --force qt5 eigen@3\n"
+            },
+            {
+              "name": "configure",
+              "run": "./configure -assert || { cat configure.log; false; }"
+            },
+            {
+              "name": "build",
+              "run": "./build -nowarnings -persistent -nopaginate || { cat build.log; false; }"
+            },
+            {
+              "name": "unit tests",
+              "run": "./run_tests units || { cat testing_units.log; false; }"
+            },
+            {
+              "name": "binary tests",
+              "run": "./run_tests binaries || { cat testing_binaries.log; false; }"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows-build.runs-on",
+          "value": "windows-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows-build.env.CFLAGS",
+          "value": "-Werror",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows-build.env.MSYSTEM",
+          "value": "MINGW64",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows-build.env.MSYSCON",
+          "value": "defterm",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows-build.env.CHERE_INVOKING",
+          "value": "enabled_from_arguments",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows-build.env.MSYS2_NOSTART",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows-build.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v1"
+            },
+            {
+              "name": "fetch and install MSYS2",
+              "run": "bash -c 'curl -sL https://github.com/MRtrix3/MinGW/releases/download/1.0/msys2.tar.{0,1} | tar xf -'"
+            },
+            {
+              "name": "run qtbinpatcher",
+              "shell": "cmd",
+              "run": "msys64\\msys2_shell.cmd -c \"qtbinpatcher --qt-dir=$(dirname $(which qmake))\""
+            },
+            {
+              "name": "configure",
+              "shell": "cmd",
+              "run": "msys64\\msys2_shell.cmd -c \"./configure -assert || { cat configure.log; false; }\""
+            },
+            {
+              "name": "build",
+              "shell": "cmd",
+              "run": "msys64\\msys2_shell.cmd -c \"./build -nowarnings -persistent -nopaginate || { cat build.log; false; }\""
+            },
+            {
+              "name": "unit tests",
+              "shell": "cmd",
+              "run": "msys64\\msys2_shell.cmd -c \"./run_tests units || { cat testing_units.log; false; }\""
+            },
+            {
+              "name": "binary tests",
+              "shell": "cmd",
+              "run": "msys64\\msys2_shell.cmd -c \"./run_tests binaries || { cat testing_binaries.log; false; }\""
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.secondary-checks.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.secondary-checks.env.QT_SELECT",
+          "value": "qt5",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.secondary-checks.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v1"
+            },
+            {
+              "name": "install dependencies",
+              "run": "sudo apt-get update\nsudo apt-get install pylint python3-sphinx sphinx-rtd-theme-common python3-recommonmark python3-sphinx-rtd-theme python3-pip\npip3 install sphinx-notfound-page\n"
+            },
+            {
+              "name": "check syntax",
+              "run": "./check_syntax || { cat syntax.log; false; }"
+            },
+            {
+              "name": "pylint (Python 3)",
+              "run": "echo \"__version__ = 'pylint testing' #pylint: disable=unused-variable\" > ./lib/mrtrix3/_version.py\nPYTHON=python3 ./run_pylint || { cat pylint.log; false; }\n"
+            },
+            {
+              "name": "check copyright headers",
+              "run": "./update_copyright && git diff --exit-code"
+            },
+            {
+              "name": "check building of documentation",
+              "run": "python3 -m sphinx -n -N -W -w sphinx.log docs/ tmp/"
+            },
+            {
+              "name": "install build dependencies",
+              "run": "sudo apt-get install clang libqt5opengl5-dev libqt5svg5-dev libglvnd-dev libeigen3-dev zlib1g-dev libfftw3-dev"
+            },
+            {
+              "name": "check configure with Python 3",
+              "run": "python3 ./configure || { cat configure.log; false; }"
+            },
+            {
+              "name": "check build with Python 3",
+              "run": "python3 ./build -dryrun || { cat build.log; false; }"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "mrtrix3/.github/workflows/releases.yml",
+      "relative_path": ".github/workflows/releases.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 12,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Releases",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch.inputs.branch.description",
+          "value": "Branch to release from",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch.inputs.branch.required",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch.inputs.branch.default",
+          "value": "dev",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-release.runs-on",
+          "value": "ubuntu-20.04",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-release.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v3",
+              "with": {
+                "fetch-depth": 0,
+                "ref": "${{ github.event.inputs.branch }}"
+              }
+            },
+            {
+              "name": "Set env vars",
+              "id": "envs",
+              "run": "commit_sha=$(git rev-parse HEAD)\ndate=$(date +%Y_%m_%d)\necho \"commit_sha=$commit_sha\" >> $GITHUB_OUTPUT\necho \"date=$date\" >> $GITHUB_OUTPUT\necho \"output_name=mrtrix3-linux-$commit_sha-$date\" >> $GITHUB_OUTPUT\n"
+            },
+            {
+              "name": "Install Eigen3",
+              "run": "git clone https://gitlab.com/libeigen/eigen.git && cd eigen && git checkout 3.4.0\ncmake -B build && cmake --build build\nsudo cmake --install build\n"
+            },
+            {
+              "name": "Install Qt 6",
+              "uses": "jurplel/install-qt-action@v3",
+              "with": {
+                "version": "6.7.0",
+                "set-env": true
+              }
+            },
+            {
+              "name": "Run build",
+              "run": "./packaging/package-linux-tarball.sh .\nmv mrtrix.tar.gz ${{ steps.envs.outputs.output_name }}.tar.gz\n"
+            },
+            {
+              "name": "Upload release artifact",
+              "uses": "actions/upload-artifact@v4",
+              "with": {
+                "name": "${{ steps.envs.outputs.output_name }}",
+                "path": "${{ steps.envs.outputs.output_name }}.tar.gz"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos-release.runs-on",
+          "value": "macos-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos-release.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v3",
+              "with": {
+                "fetch-depth": 0,
+                "ref": "${{ github.event.inputs.branch }}"
+              }
+            },
+            {
+              "name": "Set env vars",
+              "id": "envs",
+              "run": "commit_sha=$(git rev-parse HEAD)\ndate=$(date +%Y_%m_%d)\necho \"commit_sha=$commit_sha\" >> $GITHUB_OUTPUT\necho \"date=$date\" >> $GITHUB_OUTPUT\necho \"output_name=mrtrix3-macos-$commit_sha-$date\" >> $GITHUB_OUTPUT\n"
+            },
+            {
+              "name": "Install deps",
+              "run": "brew install numpy cmake qt pkg-config libpng ninja"
+            },
+            {
+              "name": "Run build",
+              "run": "cd ./packaging/macos\n./build ${{ github.event.inputs.branch }}\nmv ./mrtrix3-macos-${{ github.event.inputs.branch }}.tar.xz ../../${{ steps.envs.outputs.output_name }}.tar.xz\n"
+            },
+            {
+              "name": "Upload release artifact",
+              "uses": "actions/upload-artifact@v4",
+              "with": {
+                "name": "${{ steps.envs.outputs.output_name }}",
+                "path": "${{ steps.envs.outputs.output_name }}.tar.xz"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows-release.runs-on",
+          "value": "windows-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows-release.defaults.run.shell",
+          "value": "msys2 {0}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows-release.env.MINGW_PACKAGE_PREFIX",
+          "value": "mingw-w64-ucrt-x86_64",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows-release.steps",
+          "value": [
+            {
+              "uses": "msys2/setup-msys2@v2",
+              "with": {
+                "msystem": "UCRT64",
+                "install": "git\npython\n${{env.MINGW_PACKAGE_PREFIX}}-bc\n${{env.MINGW_PACKAGE_PREFIX}}-cmake\n${{env.MINGW_PACKAGE_PREFIX}}-diffutils\n${{env.MINGW_PACKAGE_PREFIX}}-eigen3\n${{env.MINGW_PACKAGE_PREFIX}}-fftw\n${{env.MINGW_PACKAGE_PREFIX}}-gcc\n${{env.MINGW_PACKAGE_PREFIX}}-libtiff\n${{env.MINGW_PACKAGE_PREFIX}}-ninja\n${{env.MINGW_PACKAGE_PREFIX}}-pkg-config\n${{env.MINGW_PACKAGE_PREFIX}}-qt6-base\n${{env.MINGW_PACKAGE_PREFIX}}-qt6-svg\n${{env.MINGW_PACKAGE_PREFIX}}-zlib\n"
+              }
+            },
+            {
+              "uses": "actions/checkout@v3",
+              "with": {
+                "fetch-depth": 0,
+                "ref": "${{ github.event.inputs.branch }}"
+              }
+            },
+            {
+              "name": "Set env vars",
+              "id": "envs",
+              "run": "commit_sha=$(git rev-parse HEAD)\ndate=$(date +%Y_%m_%d)\necho \"commit_sha=$commit_sha\" >> $GITHUB_OUTPUT\necho \"date=$date\" >> $GITHUB_OUTPUT\necho \"output_name=mrtrix3-windows-$commit_sha-$date\" >> $GITHUB_OUTPUT\n"
+            },
+            {
+              "name": "Run build",
+              "run": "cd packaging/mingw\n./run.sh ${{ steps.envs.outputs.commit_sha }} mrtrix3\nmv mingw*.tar.zst ../../${{ steps.envs.outputs.output_name }}.tar.zst\n"
+            },
+            {
+              "name": "Upload release artifact",
+              "uses": "actions/upload-artifact@v4",
+              "with": {
+                "name": "${{ steps.envs.outputs.output_name }}",
+                "path": "${{ steps.envs.outputs.output_name }}.tar.zst"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "mrtrix3/.github/workflows/package-linux-anaconda.yml",
+      "relative_path": ".github/workflows/package-linux-anaconda.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "package-linux-anaconda",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.release.types",
+          "value": [
+            "created"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.steps",
+          "value": [
+            {
+              "name": "install conda-build",
+              "run": "$CONDA/bin/conda install -c conda-forge -y conda-build"
+            },
+            {
+              "name": "fetch recipe",
+              "run": "git clone https://github.com/MRtrix3/conda-build.git\nmv conda-build/* .\n"
+            },
+            {
+              "name": "build package",
+              "run": "./run.sh ${GITHUB_REF#refs/*/} ${GITHUB_REPOSITORY%/*} conda-linux"
+            },
+            {
+              "name": "Upload package to GitHub Release",
+              "uses": "AButler/upload-release-assets@v2.0",
+              "with": {
+                "files": "*.conda*",
+                "repo-token": "${{ secrets.GITHUB_TOKEN }}"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "mrtrix3/.github/workflows/package-macos-native.yml",
+      "relative_path": ".github/workflows/package-macos-native.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "package-macos-native",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.release.types",
+          "value": [
+            "created"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.runs-on",
+          "value": "macos-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.steps",
+          "value": [
+            {
+              "name": "Symlink Python3",
+              "run": "mkdir -p python_dir\nln -s $(which python3) python_dir/python\n"
+            },
+            {
+              "name": "fetch recipe",
+              "run": "git clone https://github.com/MRtrix3/macos-installer.git"
+            },
+            {
+              "name": "build packages",
+              "run": "./build ${GITHUB_REF#refs/*/} 5.15.17 ${{ github.workspace }}/python_dir",
+              "working-directory": "./macos-installer"
+            },
+            {
+              "name": "Upload package to GitHub Release",
+              "uses": "AButler/upload-release-assets@v2.0",
+              "with": {
+                "files": "macos-installer/mrtrix3-macos-*.tar.gz",
+                "repo-token": "${{ secrets.GITHUB_TOKEN }}"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "mrtrix3/.github/workflows/weekly_sanitizers.yml",
+      "relative_path": ".github/workflows/weekly_sanitizers.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 9,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Sanitizers checks",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.schedule",
+          "value": [
+            {
+              "cron": "0 0 * * 0"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-clang-build.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-clang-build.env.SCCACHE_GHA_ENABLED",
+          "value": "true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-clang-build.env.SCCACHE_CACHE_SIZE",
+          "value": "2G",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-clang-build.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-clang-build.strategy.matrix.sanitizer",
+          "value": [
+            "address",
+            "thread",
+            "undefined"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.linux-clang-build.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v1",
+              "with": {
+                "submodules": true,
+                "ref": "dev"
+              }
+            },
+            {
+              "name": "install dependencies",
+              "run": "sudo apt-get update\nsudo apt-get install clang llvm qt6-base-dev libglvnd-dev libeigen3-dev zlib1g-dev libfftw3-dev libpng-dev ninja-build python3-numpy\n"
+            },
+            {
+              "name": "Run sccache-cache",
+              "uses": "mozilla-actions/sccache-action@v0.0.9"
+            },
+            {
+              "name": "Get CMake",
+              "uses": "lukka/get-cmake@latest",
+              "with": {
+                "cmakeVersion": "3.22.3"
+              }
+            },
+            {
+              "name": "Print CMake version",
+              "run": "cmake --version"
+            },
+            {
+              "name": "configure",
+              "run": "cmake -B build -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo -D MRTRIX_BUILD_TESTS=ON -D ECM_ENABLE_SANITIZERS=${{ matrix.sanitizer }} -D CMAKE_C_COMPILER=clang -D CMAKE_CXX_COMPILER=clang++\n"
+            },
+            {
+              "name": "build",
+              "run": "cmake --build build"
+            },
+            {
+              "name": "binary tests",
+              "run": "cd build && ctest -L binary --output-on-failure"
+            },
+            {
+              "name": "unit tests",
+              "run": "cd build && ctest -L unittest --output-on-failure"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "mrtrix3/.github/workflows/package-windows-msys2.yml",
+      "relative_path": ".github/workflows/package-windows-msys2.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 9,
+      "settings": [
+        {
+          "key": "name",
+          "value": "package-windows-msys2",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.release.types",
+          "value": [
+            "created"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.runs-on",
+          "value": "windows-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.defaults.run.shell",
+          "value": "msys2 {0}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.env.MSYSCON",
+          "value": "defterm",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.env.CHERE_INVOKING",
+          "value": "enabled_from_arguments",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.env.MSYS2_NOSTART",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.env.MINGW_PACKAGE_PREFIX",
+          "value": "mingw-w64-x86_64",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.package.steps",
+          "value": [
+            {
+              "uses": "msys2/setup-msys2@v2",
+              "with": {
+                "msystem": "MINGW64",
+                "install": "git\npkg-config\npython\n${{env.MINGW_PACKAGE_PREFIX}}-bc\n${{env.MINGW_PACKAGE_PREFIX}}-diffutils\n${{env.MINGW_PACKAGE_PREFIX}}-eigen3\n${{env.MINGW_PACKAGE_PREFIX}}-fftw\n${{env.MINGW_PACKAGE_PREFIX}}-gcc\n${{env.MINGW_PACKAGE_PREFIX}}-libtiff\n${{env.MINGW_PACKAGE_PREFIX}}-qt5-base\n${{env.MINGW_PACKAGE_PREFIX}}-qt5-svg\n${{env.MINGW_PACKAGE_PREFIX}}-zlib\n"
+              }
+            },
+            {
+              "name": "fetch PKGBUILD",
+              "run": "git clone https://github.com/MRtrix3/MinGW.git && mv MinGW/* ."
+            },
+            {
+              "name": "run makepkg",
+              "run": "LINKFLAGS=-lopengl32 ./run.sh ${GITHUB_REF#refs/*/} ${GITHUB_REPOSITORY%%/*}"
+            },
+            {
+              "name": "Upload package to GitHub Release",
+              "uses": "AButler/upload-release-assets@v2.0",
+              "with": {
+                "files": "*.tar.zst",
+                "repo-token": "${{ secrets.GITHUB_TOKEN }}"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    }
+  ],
+  "errors": []
+}

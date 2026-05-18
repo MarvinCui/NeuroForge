@@ -1,0 +1,1945 @@
+{
+  "nodes": [
+    {
+      "file": "asv_benchmarks/benchmarks/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "asv_benchmarks/benchmarks/glm/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "asv_benchmarks/benchmarks/glm/glm.py",
+      "language": "Python"
+    },
+    {
+      "file": "asv_benchmarks/benchmarks/image/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "asv_benchmarks/benchmarks/image/image.py",
+      "language": "Python"
+    },
+    {
+      "file": "asv_benchmarks/benchmarks/maskers/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "asv_benchmarks/benchmarks/maskers/nifti_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "asv_benchmarks/benchmarks/plotting/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "asv_benchmarks/benchmarks/plotting/plotting.py",
+      "language": "Python"
+    },
+    {
+      "file": "asv_benchmarks/benchmarks/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "build_tools/github/build_type.py",
+      "language": "Python"
+    },
+    {
+      "file": "build_tools/github/restrict_tests_to_run.py",
+      "language": "Python"
+    },
+    {
+      "file": "build_tools/github/set_machine_name.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/conf.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/get_ci_workflows_description.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/get_data_examples.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/make_atlas_table.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/gh_substitutions.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/sphinxext/github_link.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/visual_testing/notebook_reports_glm.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/visual_testing/notebook_reports_maskers.py",
+      "language": "Python"
+    },
+    {
+      "file": "doc/visual_testing/reporter_visual_inspection_suite.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/00_tutorials/plot_3d_and_4d_niimg.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/00_tutorials/plot_decoding_tutorial.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/00_tutorials/plot_nilearn_101.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/00_tutorials/plot_python_101.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/00_tutorials/plot_single_subject_single_run.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/00_tutorials/plot_surface_101.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_3d_map_to_surface_projection.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_atlas.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_carpet.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_colormaps.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_demo_glass_brain.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_demo_glass_brain_extensive.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_demo_more_plotting.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_demo_plotting.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_dim_plotting.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_haxby_masks.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_multiscale_parcellations.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_overlay.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_prob_atlas.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_surf_atlas.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_surf_stat_map.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_surface_projection_strategies.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_templateflow.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_transparency.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_visualization.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/01_plotting/plot_visualize_megatrawls_netmats.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_haxby_anova_svm.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_haxby_different_estimators.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_haxby_frem.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_haxby_full_analysis.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_haxby_glm_decoding.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_haxby_grid_search.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_haxby_multiclass.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_haxby_searchlight.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_haxby_searchlight_surface.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_haxby_stimuli.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_haxby_understand_decoder.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_mixed_gambles_frem.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_miyawaki_encoding.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_miyawaki_reconstruction.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_oasis_vbm.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_oasis_vbm_space_net.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/02_decoding/plot_simulated_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_atlas_comparison.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_compare_decomposition.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_data_driven_parcellations.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_extract_regions_dictlearning_maps.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_group_level_connectivity.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_inverse_covariance_connectome.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_multi_subject_connectome.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_probabilistic_atlas_extraction.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_seed_to_voxel_correlation.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_signal_extraction.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_simulated_connectome.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/03_connectivity/plot_sphere_based_connectome.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/04_glm_first_level/plot_adhd_dmn.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/04_glm_first_level/plot_bids_features.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/04_glm_first_level/plot_design_matrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/04_glm_first_level/plot_fir_model.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/04_glm_first_level/plot_first_level_details.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/04_glm_first_level/plot_hrf.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/04_glm_first_level/plot_localizer_surface_analysis.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/04_glm_first_level/plot_predictions_residuals.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/04_glm_first_level/plot_spm_multimodal_faces.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/04_glm_first_level/plot_two_runs_model.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/04_glm_first_level/plot_write_events_file.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/05_glm_second_level/plot_oasis.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/05_glm_second_level/plot_proportion_activated_voxels.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/05_glm_second_level/plot_second_level_association_test.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/05_glm_second_level/plot_second_level_design_matrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/05_glm_second_level/plot_second_level_one_sample_test.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/05_glm_second_level/plot_second_level_two_sample_test.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/05_glm_second_level/plot_thresholding.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_affine_transformation.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_compare_mean_image.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_extract_regions_labels_image.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_extract_rois_smith_atlas.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_extract_rois_statistical_maps.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_mask_computation.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_negate_image.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_nifti_labels_simple.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_nifti_simple.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_resample_to_template.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_roi_extraction.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_smooth_mean_image.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/06_manipulating_images/plot_threshold_image.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_advanced_decoding_scikit.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_age_group_prediction_cross_val.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_beta_series.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_bids_analysis.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_copy_headers_math_img.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_haxby_mass_univariate.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_ica_neurovault.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_ica_resting_state.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_localizer_mass_univariate_methods.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_localizer_simple_analysis.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_mask_large_fmri.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_neurovault_meta_analysis.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_surface_bids_analysis.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/07_advanced/plot_surface_image_and_maskers.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/check_atlas.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/check_docstrings.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/check_gha_workflow.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/check_glossary_term.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/check_private.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/citation_cff_maint.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/convert_brain_templates.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/missing_default_in_docstring.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/plot_align_glass_brain_svg.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/plot_test_timing.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/show-python-packages-versions.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/svg_to_json_converter.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/update_vendored_js.py",
+      "language": "Python"
+    },
+    {
+      "file": "maint_tools/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_assets/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_assets/js/brainsprite.min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "nilearn/_assets/js/carousel.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "nilearn/_assets/js/common-surface-plot-utils.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "nilearn/_assets/js/connectome-plot-utils.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "nilearn/_assets/js/jquery.min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "nilearn/_assets/js/niivue.umd.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "nilearn/_assets/js/plotly-gl3d-latest.min.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "nilearn/_assets/js/surface-plot-utils.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "nilearn/_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/bids.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/cache_mixin.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/data_gen.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/docs.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/estimator_checks.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/extmath.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/fmriprep_confounds.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/glm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/helpers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/html_document.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/logger.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/masker_validation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/ndimage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/niimg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/numpy_conversions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/param_validation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/path_finding.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/plotting.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/segmentation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tags.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_bids.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_cache_mixin.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_common.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_data_gen.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_estimator_checks.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_extmath.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_glm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_helpers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_html_document.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_logger.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_ndimage.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_niimg.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_numpy_conversions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_param_validation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_path_finding.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_segmentation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_tags.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/tests/test_versions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/_utils/versions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/connectome/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/connectome/connectivity_matrices.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/connectome/group_sparse_cov.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/connectome/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/connectome/tests/test_connectivity_matrices.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/connectome/tests/test_group_sparse_cov.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/atlas.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/data/fsaverage5/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/description/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/func.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/neurovault.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/struct.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/data/archive_contents/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/data/archive_contents/test_examples/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/test_atlas.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/test_func.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/test_mocking_autoused.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/test_neurovault.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/test_struct.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/test_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/datasets/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/_mixin.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/_objective_functions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/_proximal_operators.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/decoder.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/fista.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/searchlight.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/space_net.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/space_net_solvers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/test_decoder.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/test_fista.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/test_graph_net.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/test_objective_functions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/test_operators.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/test_same_api.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/test_searchlight.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/test_sklearn_compatibility.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/test_space_net.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/test_tv.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decoding/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/_multi_pca.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/canica.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/dict_learning.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/tests/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/tests/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/tests/test_canica.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/tests/test_decomposition_estimators.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/tests/test_dict_learning.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/decomposition/tests/test_multi_pca.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/exceptions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/_reporting_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/contrasts.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/first_level/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/first_level/design_matrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/first_level/experimental_paradigm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/first_level/first_level.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/first_level/hemodynamic_models.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/io.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/model.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/regression.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/second_level/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/second_level/second_level.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_baseline_comparisons.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_check_events_file_uses_tab_separators.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_contrasts.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_design_matrix.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_first_level.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_first_level_from_bids.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_glm_reporter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_hemodynamic_models.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_io.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_model.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_non_parametric_inference.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_paradigm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_regression.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_second_level.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_thresholding.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/glm/thresholding.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/image/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/image/image.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/image/resampling.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/image/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/image/tests/_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/image/tests/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/image/tests/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/image/tests/test_image.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/image/tests/test_resampling.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/bids/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/bids/glm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/bids/query.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/bids/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/load_confounds.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/load_confounds_compcor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/load_confounds_components.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/load_confounds_scrub.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/load_confounds_strategy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/load_confounds_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/tests/_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/tests/test_load_confounds.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/tests/test_load_confounds_components.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/tests/test_load_confounds_scrub.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/tests/test_load_confounds_strategy.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fmriprep/tests/test_load_confounds_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/fsl.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/tests/test_fsl.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/tests/test_glm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/interfaces/tests/test_query.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/_mixin.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/base_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/masker_validation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/multi_nifti_labels_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/multi_nifti_maps_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/multi_nifti_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/multi_surface_labels_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/multi_surface_maps_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/multi_surface_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/nifti_labels_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/nifti_maps_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/nifti_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/nifti_spheres_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/surface_labels_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/surface_maps_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/surface_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_base_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_baseline_comparisons.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_html_report.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_masker_validation.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_mixin.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_multi_nifti_labels_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_multi_nifti_maps_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_multi_nifti_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_multi_surface_labels_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_multi_surface_maps_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_multi_surface_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_nifti_labels_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_nifti_maps_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_nifti_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_nifti_spheres_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_surface_labels_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_surface_maps_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/maskers/tests/test_surface_masker.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/masking.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/mass_univariate/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/mass_univariate/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/mass_univariate/permuted_least_squares.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/mass_univariate/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/mass_univariate/tests/_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/mass_univariate/tests/test_permuted_least_squares.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/mass_univariate/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/_engine_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/cm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/displays/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/displays/_axes.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/displays/_figures.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/displays/_projectors.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/displays/_slicers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/displays/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/displays/edge_detect.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/displays/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/displays/tests/test_displays.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/displays/tests/test_edge_detect.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/displays/tests/test_figures.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/find_cuts.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/glass_brain.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/glass_brain_files/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/html_connectome.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/html_stat_map.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/img_plotting.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/tests/test_img_plotting.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/tests/test_plot_anat.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/tests/test_plot_carpet.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/tests/test_plot_connectome.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/tests/test_plot_glass_brain.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/tests/test_plot_img.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/tests/test_plot_markers.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/tests/test_plot_prob_atlas.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/tests/test_plot_roi.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/tests/test_plot_stat_map.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/image/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/img_comparison.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/js_plotting_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/matrix/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/matrix/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/matrix/matrix_plotting.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/matrix/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/matrix/tests/test_matrix_plotting.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/matrix/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/_matplotlib_backend.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/_niivue_backend.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/_plotly_backend.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/html_surface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/surf_plotting.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/tests/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/tests/test_html_surface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/tests/test_matplotlib_backend.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/tests/test_niivue_backend.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/tests/test_plotly_backend.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/tests/test_plotly_surface_figure.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/tests/test_surf_plotting.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/surface/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/tests/test_baseline_comparisons.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/tests/test_cm.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/tests/test_engine_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/tests/test_find_cuts.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/tests/test_html_connectome.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/tests/test_html_stat_map.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/tests/test_img_comparisons.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/tests/test_js_plotting_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/plotting/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/hierarchical_kmeans_clustering.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/parcellations.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/region_extractor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/rena_clustering.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/signal_extraction.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/tests/test_hierarchical_kmeans_clustering.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/tests/test_parcellations.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/tests/test_region_extractor.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/tests/test_rena_clustering.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/regions/tests/test_signal_extraction.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/reporting/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/reporting/_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/reporting/get_clusters_table.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/reporting/glm_reporter.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/reporting/html_report.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/reporting/mixin.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/reporting/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/reporting/tests/_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/reporting/tests/test_get_clusters_table.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/reporting/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/signal.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/surface/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/surface/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/surface/surface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/surface/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/surface/tests/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/surface/tests/test_surface.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/surface/tests/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/surface/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/tests/test_exceptions.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/tests/test_init.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/tests/test_masking.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/tests/test_package_import.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/tests/test_signal.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/typing.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/utils/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/utils/discovery.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/utils/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "nilearn/utils/tests/test_discovery.py",
+      "language": "Python"
+    }
+  ],
+  "edges": []
+}

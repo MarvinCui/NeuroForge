@@ -1,0 +1,100 @@
+[
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "mrtrix3/core/file/json.h",
+    "class_name": "output_adapter",
+    "method_name": null,
+    "line_number": 6699,
+    "evidence": [
+      "Class name suggests Adapter: output_adapter"
+    ],
+    "related_classes": [],
+    "file_path": "mrtrix3/core/file/json.h"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "mrtrix3/core/file/json.h",
+    "class_name": "input_adapter",
+    "method_name": null,
+    "line_number": 8831,
+    "evidence": [
+      "Class name suggests Adapter: input_adapter"
+    ],
+    "related_classes": [],
+    "file_path": "mrtrix3/core/file/json.h"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "mrtrix3/core/file/json.h",
+    "class_name": "cached_input_stream_adapter",
+    "method_name": null,
+    "line_number": 8922,
+    "evidence": [
+      "Class name suggests Adapter: cached_input_stream_adapter"
+    ],
+    "related_classes": [],
+    "file_path": "mrtrix3/core/file/json.h"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "mrtrix3/core/file/json.h",
+    "class_name": "input_buffer_adapter",
+    "method_name": null,
+    "line_number": 9035,
+    "evidence": [
+      "Class name suggests Adapter: input_buffer_adapter"
+    ],
+    "related_classes": [],
+    "file_path": "mrtrix3/core/file/json.h"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "mrtrix3/core/stride.h",
+    "class_name": "Wrapper",
+    "method_name": null,
+    "line_number": 88,
+    "evidence": [
+      "Class name suggests Adapter: Wrapper"
+    ],
+    "related_classes": [],
+    "file_path": "mrtrix3/core/stride.h"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "mrtrix3/core/stride.h",
+    "class_name": "InfoWrapper",
+    "method_name": null,
+    "line_number": 105,
+    "evidence": [
+      "Class name suggests Adapter: InfoWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "mrtrix3/core/stride.h"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "mrtrix3/src/dwi/tractography/seeding/gmwmi.h",
+    "class_name": "GMWMI_5TT_Wrapper",
+    "method_name": null,
+    "line_number": 41,
+    "evidence": [
+      "Class name suggests Adapter: GMWMI_5TT_Wrapper"
+    ],
+    "related_classes": [],
+    "file_path": "mrtrix3/src/dwi/tractography/seeding/gmwmi.h"
+  }
+]

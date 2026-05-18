@@ -1,0 +1,100 @@
+[
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "snakemake/src/snakemake/dag.py",
+    "class_name": "WrapperProcessor",
+    "method_name": null,
+    "line_number": 3450,
+    "evidence": [
+      "Class name suggests Adapter: WrapperProcessor"
+    ],
+    "related_classes": [],
+    "file_path": "snakemake/src/snakemake/dag.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "snakemake/src/snakemake/io/flags/access_patterns.py",
+    "class_name": "AccessPatternFactory",
+    "method_name": null,
+    "line_number": 17,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "snakemake/src/snakemake/io/flags/access_patterns.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "snakemake/src/snakemake/jobs.py",
+    "class_name": "JobFactory",
+    "method_name": null,
+    "line_number": 125,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "snakemake/src/snakemake/jobs.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "snakemake/src/snakemake/jobs.py",
+    "class_name": "GroupJobFactory",
+    "method_name": null,
+    "line_number": 1344,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "snakemake/src/snakemake/jobs.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "snakemake/src/snakemake/parser.py",
+    "class_name": "Wrapper",
+    "method_name": null,
+    "line_number": 708,
+    "evidence": [
+      "Class name suggests Adapter: Wrapper"
+    ],
+    "related_classes": [],
+    "file_path": "snakemake/src/snakemake/parser.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "snakemake/src/snakemake/parser.py",
+    "class_name": "ModuleMetaWrapper",
+    "method_name": null,
+    "line_number": 922,
+    "evidence": [
+      "Class name suggests Adapter: ModuleMetaWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "snakemake/src/snakemake/parser.py"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "snakemake/src/snakemake/spawn_jobs.py",
+    "class_name": "SpawnedJobArgsFactory",
+    "method_name": null,
+    "line_number": 25,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "snakemake/src/snakemake/spawn_jobs.py"
+  }
+]

@@ -1,0 +1,562 @@
+{
+  "total_files": 77,
+  "categories": {
+    "other": [
+      ".github/PULL_REQUEST_TEMPLATE.md",
+      "docs/source/404.md",
+      "docs/source/api.rst",
+      "docs/source/contributing/build_docs.md",
+      "docs/source/contributing/developer_guide.md",
+      "docs/source/contributing/docker_container.md",
+      "docs/source/contributing/implementing_distribution.md",
+      "docs/source/contributing/index.md",
+      "docs/source/contributing/jupyter_style.md",
+      "docs/source/contributing/pr_checklist.md",
+      "docs/source/contributing/pr_tutorial.md",
+      "docs/source/contributing/python_style.md",
+      "docs/source/contributing/release_checklist.md",
+      "docs/source/contributing/review_pr_pymc_examples.md",
+      "docs/source/contributing/running_the_test_suite.md",
+      "docs/source/contributing/using_gitpod.md",
+      "docs/source/contributing/versioning_schemes_explanation.md",
+      "docs/source/glossary.md",
+      "docs/source/index.md",
+      "docs/source/installation.md",
+      "docs/source/learn/books.md",
+      "docs/source/learn/consulting.md",
+      "docs/source/learn/core_notebooks/Gaussian_Processes.rst",
+      "docs/source/learn/core_notebooks/index.md",
+      "docs/source/learn/usage_overview.rst",
+      "docs/source/learn/videos_and_podcasts.md",
+      "docs/source/learn.md"
+    ],
+    "architecture": [
+      "ARCHITECTURE.md"
+    ],
+    "community": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "contributing": [
+      "CONTRIBUTING.md"
+    ],
+    "overview": [
+      "GOVERNANCE.md",
+      "README.rst"
+    ],
+    "templates": [
+      "docs/source/_templates/autosummary/class.rst",
+      "docs/source/_templates/distribution.rst"
+    ],
+    "api": [
+      "docs/source/api/backends.rst",
+      "docs/source/api/data.rst",
+      "docs/source/api/dims/distributions.rst",
+      "docs/source/api/dims/math.rst",
+      "docs/source/api/dims/model.rst",
+      "docs/source/api/dims/transforms.rst",
+      "docs/source/api/dims.rst",
+      "docs/source/api/distributions/censored.rst",
+      "docs/source/api/distributions/continuous.rst",
+      "docs/source/api/distributions/custom.rst",
+      "docs/source/api/distributions/discrete.rst",
+      "docs/source/api/distributions/mixture.rst",
+      "docs/source/api/distributions/multivariate.rst",
+      "docs/source/api/distributions/simulator.rst",
+      "docs/source/api/distributions/timeseries.rst",
+      "docs/source/api/distributions/transforms.rst",
+      "docs/source/api/distributions/truncated.rst",
+      "docs/source/api/distributions/utilities.rst",
+      "docs/source/api/distributions.rst",
+      "docs/source/api/gp/cov.rst",
+      "docs/source/api/gp/implementations.rst",
+      "docs/source/api/gp/mean.rst",
+      "docs/source/api/gp/util.rst",
+      "docs/source/api/gp.rst",
+      "docs/source/api/logprob.rst",
+      "docs/source/api/math.rst",
+      "docs/source/api/misc.rst",
+      "docs/source/api/model/conditioning.rst",
+      "docs/source/api/model/core.rst",
+      "docs/source/api/model/fgraph.rst",
+      "docs/source/api/model/optimization.rst",
+      "docs/source/api/model.rst",
+      "docs/source/api/ode.rst",
+      "docs/source/api/pytensorf.rst",
+      "docs/source/api/samplers.rst",
+      "docs/source/api/shape_utils.rst",
+      "docs/source/api/smc.rst",
+      "docs/source/api/stats.rst",
+      "docs/source/api/testing.rst",
+      "docs/source/api/tuning.rst",
+      "docs/source/api/vi.rst"
+    ],
+    "guides": [
+      "docs/source/guides/Gaussian_Processes.rst",
+      "docs/source/guides/Probability_Distributions.rst"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "filename": "PULL_REQUEST_TEMPLATE.md",
+      "category": "other",
+      "size_bytes": 1647
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "filename": "ARCHITECTURE.md",
+      "category": "architecture",
+      "size_bytes": 4273
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "filename": "CODE_OF_CONDUCT.md",
+      "category": "community",
+      "size_bytes": 3494
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "contributing",
+      "size_bytes": 1114
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "filename": "GOVERNANCE.md",
+      "category": "overview",
+      "size_bytes": 40352
+    },
+    {
+      "path": "README.rst",
+      "filename": "README.rst",
+      "category": "overview",
+      "size_bytes": 15814
+    },
+    {
+      "path": "docs/source/404.md",
+      "filename": "404.md",
+      "category": "other",
+      "size_bytes": 260
+    },
+    {
+      "path": "docs/source/_templates/autosummary/class.rst",
+      "filename": "class.rst",
+      "category": "templates",
+      "size_bytes": 535
+    },
+    {
+      "path": "docs/source/_templates/distribution.rst",
+      "filename": "distribution.rst",
+      "category": "templates",
+      "size_bytes": 292
+    },
+    {
+      "path": "docs/source/api/backends.rst",
+      "filename": "backends.rst",
+      "category": "api",
+      "size_bytes": 355
+    },
+    {
+      "path": "docs/source/api/data.rst",
+      "filename": "data.rst",
+      "category": "api",
+      "size_bytes": 111
+    },
+    {
+      "path": "docs/source/api/dims/distributions.rst",
+      "filename": "distributions.rst",
+      "category": "api",
+      "size_bytes": 745
+    },
+    {
+      "path": "docs/source/api/dims/math.rst",
+      "filename": "math.rst",
+      "category": "api",
+      "size_bytes": 543
+    },
+    {
+      "path": "docs/source/api/dims/model.rst",
+      "filename": "model.rst",
+      "category": "api",
+      "size_bytes": 167
+    },
+    {
+      "path": "docs/source/api/dims/transforms.rst",
+      "filename": "transforms.rst",
+      "category": "api",
+      "size_bytes": 211
+    },
+    {
+      "path": "docs/source/api/dims.rst",
+      "filename": "dims.rst",
+      "category": "api",
+      "size_bytes": 384
+    },
+    {
+      "path": "docs/source/api/distributions/censored.rst",
+      "filename": "censored.rst",
+      "category": "api",
+      "size_bytes": 411
+    },
+    {
+      "path": "docs/source/api/distributions/continuous.rst",
+      "filename": "continuous.rst",
+      "category": "api",
+      "size_bytes": 562
+    },
+    {
+      "path": "docs/source/api/distributions/custom.rst",
+      "filename": "custom.rst",
+      "category": "api",
+      "size_bytes": 421
+    },
+    {
+      "path": "docs/source/api/distributions/discrete.rst",
+      "filename": "discrete.rst",
+      "category": "api",
+      "size_bytes": 591
+    },
+    {
+      "path": "docs/source/api/distributions/mixture.rst",
+      "filename": "mixture.rst",
+      "category": "api",
+      "size_bytes": 305
+    },
+    {
+      "path": "docs/source/api/distributions/multivariate.rst",
+      "filename": "multivariate.rst",
+      "category": "api",
+      "size_bytes": 386
+    },
+    {
+      "path": "docs/source/api/distributions/simulator.rst",
+      "filename": "simulator.rst",
+      "category": "api",
+      "size_bytes": 416
+    },
+    {
+      "path": "docs/source/api/distributions/timeseries.rst",
+      "filename": "timeseries.rst",
+      "category": "api",
+      "size_bytes": 240
+    },
+    {
+      "path": "docs/source/api/distributions/transforms.rst",
+      "filename": "transforms.rst",
+      "category": "api",
+      "size_bytes": 4650
+    },
+    {
+      "path": "docs/source/api/distributions/truncated.rst",
+      "filename": "truncated.rst",
+      "category": "api",
+      "size_bytes": 416
+    },
+    {
+      "path": "docs/source/api/distributions/utilities.rst",
+      "filename": "utilities.rst",
+      "category": "api",
+      "size_bytes": 223
+    },
+    {
+      "path": "docs/source/api/distributions.rst",
+      "filename": "distributions.rst",
+      "category": "api",
+      "size_bytes": 393
+    },
+    {
+      "path": "docs/source/api/gp/cov.rst",
+      "filename": "cov.rst",
+      "category": "api",
+      "size_bytes": 339
+    },
+    {
+      "path": "docs/source/api/gp/implementations.rst",
+      "filename": "implementations.rst",
+      "category": "api",
+      "size_bytes": 217
+    },
+    {
+      "path": "docs/source/api/gp/mean.rst",
+      "filename": "mean.rst",
+      "category": "api",
+      "size_bytes": 146
+    },
+    {
+      "path": "docs/source/api/gp/util.rst",
+      "filename": "util.rst",
+      "category": "api",
+      "size_bytes": 127
+    },
+    {
+      "path": "docs/source/api/gp.rst",
+      "filename": "gp.rst",
+      "category": "api",
+      "size_bytes": 148
+    },
+    {
+      "path": "docs/source/api/logprob.rst",
+      "filename": "logprob.rst",
+      "category": "api",
+      "size_bytes": 307
+    },
+    {
+      "path": "docs/source/api/math.rst",
+      "filename": "math.rst",
+      "category": "api",
+      "size_bytes": 423
+    },
+    {
+      "path": "docs/source/api/misc.rst",
+      "filename": "misc.rst",
+      "category": "api",
+      "size_bytes": 234
+    },
+    {
+      "path": "docs/source/api/model/conditioning.rst",
+      "filename": "conditioning.rst",
+      "category": "api",
+      "size_bytes": 205
+    },
+    {
+      "path": "docs/source/api/model/core.rst",
+      "filename": "core.rst",
+      "category": "api",
+      "size_bytes": 504
+    },
+    {
+      "path": "docs/source/api/model/fgraph.rst",
+      "filename": "fgraph.rst",
+      "category": "api",
+      "size_bytes": 165
+    },
+    {
+      "path": "docs/source/api/model/optimization.rst",
+      "filename": "optimization.rst",
+      "category": "api",
+      "size_bytes": 157
+    },
+    {
+      "path": "docs/source/api/model.rst",
+      "filename": "model.rst",
+      "category": "api",
+      "size_bytes": 146
+    },
+    {
+      "path": "docs/source/api/ode.rst",
+      "filename": "ode.rst",
+      "category": "api",
+      "size_bytes": 213
+    },
+    {
+      "path": "docs/source/api/pytensorf.rst",
+      "filename": "pytensorf.rst",
+      "category": "api",
+      "size_bytes": 320
+    },
+    {
+      "path": "docs/source/api/samplers.rst",
+      "filename": "samplers.rst",
+      "category": "api",
+      "size_bytes": 1048
+    },
+    {
+      "path": "docs/source/api/shape_utils.rst",
+      "filename": "shape_utils.rst",
+      "category": "api",
+      "size_bytes": 1247
+    },
+    {
+      "path": "docs/source/api/smc.rst",
+      "filename": "smc.rst",
+      "category": "api",
+      "size_bytes": 282
+    },
+    {
+      "path": "docs/source/api/stats.rst",
+      "filename": "stats.rst",
+      "category": "api",
+      "size_bytes": 451
+    },
+    {
+      "path": "docs/source/api/testing.rst",
+      "filename": "testing.rst",
+      "category": "api",
+      "size_bytes": 215
+    },
+    {
+      "path": "docs/source/api/tuning.rst",
+      "filename": "tuning.rst",
+      "category": "api",
+      "size_bytes": 110
+    },
+    {
+      "path": "docs/source/api/vi.rst",
+      "filename": "vi.rst",
+      "category": "api",
+      "size_bytes": 1107
+    },
+    {
+      "path": "docs/source/api.rst",
+      "filename": "api.rst",
+      "category": "other",
+      "size_bytes": 1789
+    },
+    {
+      "path": "docs/source/contributing/build_docs.md",
+      "filename": "build_docs.md",
+      "category": "other",
+      "size_bytes": 2221
+    },
+    {
+      "path": "docs/source/contributing/developer_guide.md",
+      "filename": "developer_guide.md",
+      "category": "other",
+      "size_bytes": 33842
+    },
+    {
+      "path": "docs/source/contributing/docker_container.md",
+      "filename": "docker_container.md",
+      "category": "other",
+      "size_bytes": 721
+    },
+    {
+      "path": "docs/source/contributing/implementing_distribution.md",
+      "filename": "implementing_distribution.md",
+      "category": "other",
+      "size_bytes": 24685
+    },
+    {
+      "path": "docs/source/contributing/index.md",
+      "filename": "index.md",
+      "category": "other",
+      "size_bytes": 5626
+    },
+    {
+      "path": "docs/source/contributing/jupyter_style.md",
+      "filename": "jupyter_style.md",
+      "category": "other",
+      "size_bytes": 23559
+    },
+    {
+      "path": "docs/source/contributing/pr_checklist.md",
+      "filename": "pr_checklist.md",
+      "category": "other",
+      "size_bytes": 2046
+    },
+    {
+      "path": "docs/source/contributing/pr_tutorial.md",
+      "filename": "pr_tutorial.md",
+      "category": "other",
+      "size_bytes": 3426
+    },
+    {
+      "path": "docs/source/contributing/python_style.md",
+      "filename": "python_style.md",
+      "category": "other",
+      "size_bytes": 2731
+    },
+    {
+      "path": "docs/source/contributing/release_checklist.md",
+      "filename": "release_checklist.md",
+      "category": "other",
+      "size_bytes": 2120
+    },
+    {
+      "path": "docs/source/contributing/review_pr_pymc_examples.md",
+      "filename": "review_pr_pymc_examples.md",
+      "category": "other",
+      "size_bytes": 6981
+    },
+    {
+      "path": "docs/source/contributing/running_the_test_suite.md",
+      "filename": "running_the_test_suite.md",
+      "category": "other",
+      "size_bytes": 1933
+    },
+    {
+      "path": "docs/source/contributing/using_gitpod.md",
+      "filename": "using_gitpod.md",
+      "category": "other",
+      "size_bytes": 6650
+    },
+    {
+      "path": "docs/source/contributing/versioning_schemes_explanation.md",
+      "filename": "versioning_schemes_explanation.md",
+      "category": "other",
+      "size_bytes": 4354
+    },
+    {
+      "path": "docs/source/glossary.md",
+      "filename": "glossary.md",
+      "category": "other",
+      "size_bytes": 12559
+    },
+    {
+      "path": "docs/source/guides/Gaussian_Processes.rst",
+      "filename": "Gaussian_Processes.rst",
+      "category": "guides",
+      "size_bytes": 11318
+    },
+    {
+      "path": "docs/source/guides/Probability_Distributions.rst",
+      "filename": "Probability_Distributions.rst",
+      "category": "guides",
+      "size_bytes": 5784
+    },
+    {
+      "path": "docs/source/index.md",
+      "filename": "index.md",
+      "category": "other",
+      "size_bytes": 290
+    },
+    {
+      "path": "docs/source/installation.md",
+      "filename": "installation.md",
+      "category": "other",
+      "size_bytes": 1281
+    },
+    {
+      "path": "docs/source/learn/books.md",
+      "filename": "books.md",
+      "category": "other",
+      "size_bytes": 3301
+    },
+    {
+      "path": "docs/source/learn/consulting.md",
+      "filename": "consulting.md",
+      "category": "other",
+      "size_bytes": 939
+    },
+    {
+      "path": "docs/source/learn/core_notebooks/Gaussian_Processes.rst",
+      "filename": "Gaussian_Processes.rst",
+      "category": "other",
+      "size_bytes": 11339
+    },
+    {
+      "path": "docs/source/learn/core_notebooks/index.md",
+      "filename": "index.md",
+      "category": "other",
+      "size_bytes": 553
+    },
+    {
+      "path": "docs/source/learn/usage_overview.rst",
+      "filename": "usage_overview.rst",
+      "category": "other",
+      "size_bytes": 2823
+    },
+    {
+      "path": "docs/source/learn/videos_and_podcasts.md",
+      "filename": "videos_and_podcasts.md",
+      "category": "other",
+      "size_bytes": 692
+    },
+    {
+      "path": "docs/source/learn.md",
+      "filename": "learn.md",
+      "category": "other",
+      "size_bytes": 1107
+    }
+  ]
+}

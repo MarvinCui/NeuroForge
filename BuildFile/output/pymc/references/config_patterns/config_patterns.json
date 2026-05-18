@@ -1,0 +1,3379 @@
+{
+  "total_files": 31,
+  "total_settings": 262,
+  "detected_patterns": {},
+  "config_files": [
+    {
+      "file_path": "pymc/codecov.yml",
+      "relative_path": "codecov.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 18,
+      "settings": [
+        {
+          "key": "codecov.require_ci_to_pass",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "codecov.notify.after_n_builds",
+          "value": 15,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.precision",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.round",
+          "value": "down",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.range",
+          "value": "70...100",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.default.target",
+          "value": "auto",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.default.threshold",
+          "value": "1%",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.default.base",
+          "value": "auto",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.patch.default.target",
+          "value": "50%",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.patch.default.threshold",
+          "value": "1%",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.patch.default.base",
+          "value": "auto",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "ignore",
+          "value": [
+            "tests/*",
+            "pymc/_version.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.layout",
+          "value": "reach, diff, flags, files",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.behavior",
+          "value": "default",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.require_changes",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.require_base",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.require_head",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.branches",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.pre-commit-config.yaml",
+      "relative_path": ".pre-commit-config.yaml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "ci.autofix_prs",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "exclude",
+          "value": "^(docs/logos|pymc/tests/data)/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "repos",
+          "value": [
+            {
+              "repo": "https://github.com/pre-commit/pre-commit-hooks",
+              "rev": "v5.0.0",
+              "hooks": [
+                {
+                  "id": "check-merge-conflict"
+                },
+                {
+                  "id": "check-toml"
+                },
+                {
+                  "id": "check-yaml"
+                },
+                {
+                  "id": "debug-statements"
+                },
+                {
+                  "id": "end-of-file-fixer"
+                },
+                {
+                  "id": "no-commit-to-branch"
+                },
+                {
+                  "id": "requirements-txt-fixer",
+                  "exclude": "^requirements-dev\\.txt$"
+                },
+                {
+                  "id": "trailing-whitespace"
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/pre-commit/pygrep-hooks",
+              "rev": "v1.10.0",
+              "hooks": [
+                {
+                  "id": "python-check-blanket-noqa"
+                },
+                {
+                  "id": "python-check-blanket-type-ignore"
+                },
+                {
+                  "id": "python-check-mock-methods"
+                },
+                {
+                  "id": "python-no-log-warn"
+                },
+                {
+                  "id": "python-use-type-annotations"
+                },
+                {
+                  "id": "rst-backticks"
+                },
+                {
+                  "id": "rst-directive-colons"
+                },
+                {
+                  "id": "rst-inline-touching-normal"
+                },
+                {
+                  "id": "text-unicode-replacement-char"
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/citation-file-format/cffconvert",
+              "rev": "054bda51dbe278b3e86f27c890e3f3ac877d616c",
+              "hooks": [
+                {
+                  "id": "validate-cff"
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/sphinx-contrib/sphinx-lint",
+              "rev": "v1.0.0",
+              "hooks": [
+                {
+                  "id": "sphinx-lint",
+                  "args": [
+                    "."
+                  ]
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/lucianopaz/head_of_apache",
+              "rev": "0.1.1",
+              "hooks": [
+                {
+                  "id": "head_of_apache",
+                  "args": [
+                    "--author=The PyMC Developers",
+                    "--exclude=docs/",
+                    "--exclude=scripts/",
+                    "--exclude=binder/",
+                    "--exclude=versioneer.py",
+                    "--last-year-present"
+                  ]
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/astral-sh/ruff-pre-commit",
+              "rev": "v0.11.13",
+              "hooks": [
+                {
+                  "id": "ruff-check",
+                  "args": [
+                    "--fix",
+                    "--show-fixes"
+                  ]
+                },
+                {
+                  "id": "ruff-format"
+                }
+              ]
+            },
+            {
+              "repo": "local",
+              "hooks": [
+                {
+                  "id": "check-no-tests-are-ignored",
+                  "additional_dependencies": [
+                    "pandas",
+                    "pyyaml"
+                  ],
+                  "entry": "python scripts/check_all_tests_are_covered.py",
+                  "files": "^.github/workflows/tests.yml$",
+                  "language": "python",
+                  "name": "Check no tests are ignored",
+                  "pass_filenames": false
+                },
+                {
+                  "id": "pip-from-conda",
+                  "additional_dependencies": [
+                    "pyyaml"
+                  ],
+                  "entry": "python scripts/generate_pip_deps_from_conda.py",
+                  "files": "^conda-envs/environment-dev.yml$",
+                  "language": "python",
+                  "name": "Generate pip dependency from conda"
+                },
+                {
+                  "id": "no-internal-links",
+                  "name": "Check no links that should be cross-references are in the docs",
+                  "description": "'A quick check for the links in the intersphinx ' 'mapping inside `docs/source/`' 'See docs/source/conf.py for more information.'",
+                  "files": "^docs/source/",
+                  "exclude": "(?x)(index.md|\n     404.md|\n     contributing/release_checklist.md|\n     contributing/versioning_schemes_explanation.md|\n     learn/examples.md)\n",
+                  "entry": "(?x)(arviz-devs.github.io/arviz|\n     python.arviz.org|\n     pytensor.readthedocs.io|\n     pymc-experimental.readthedocs.io|\n     docs.pymc.io|\n     www.pymc.io|\n     numpy.org/doc|\n     pymc-examples.readthedocs.io|\n     myst-parser.readthedocs.io|\n     myst-nb.readthedocs.io|\n     docs.python.org|\n     xarray.pydata.org)\n",
+                  "language": "pygrep",
+                  "types_or": [
+                    "markdown",
+                    "rst",
+                    "jupyter"
+                  ]
+                }
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/pyproject.toml",
+      "relative_path": "pyproject.toml",
+      "type": "toml",
+      "purpose": "package_configuration",
+      "patterns": [],
+      "settings_count": 43,
+      "settings": [
+        {
+          "key": "build-system.requires",
+          "value": [
+            "setuptools",
+            "versioneer[toml]==0.29"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build-system.build-backend",
+          "value": "setuptools.build_meta",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.testpaths",
+          "value": [
+            "tests"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.minversion",
+          "value": "6.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.xfail_strict",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.ini_options.addopts",
+          "value": [
+            "--color=yes"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.versioneer.VCS",
+          "value": "git",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.versioneer.style",
+          "value": "pep440",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.versioneer.versionfile_source",
+          "value": "pymc/_version.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.versioneer.versionfile_build",
+          "value": "pymc/_version.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.versioneer.tag_prefix",
+          "value": "v",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.python_version",
+          "value": "3.12",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.no_implicit_optional",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.strict_optional",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.warn_redundant_casts",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.check_untyped_defs",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.disallow_untyped_calls",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.disallow_incomplete_defs",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.disallow_untyped_defs",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.disallow_untyped_decorators",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.ignore_missing_imports",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.warn_unused_ignores",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.line-length",
+          "value": 100,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.target-version",
+          "value": "py311",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.extend-exclude",
+          "value": [
+            "_version.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.format.docstring-code-format",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.select",
+          "value": [
+            "C4",
+            "D",
+            "E",
+            "F",
+            "I",
+            "UP",
+            "W",
+            "RUF",
+            "T20",
+            "TID"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.ignore",
+          "value": [
+            "E501",
+            "F841",
+            "RUF001",
+            "RUF002",
+            "RUF012",
+            "D100",
+            "D101",
+            "D102",
+            "D103",
+            "D104",
+            "D105",
+            "D401"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.pydocstyle.convention",
+          "value": "numpy",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.isort.lines-between-types",
+          "value": 1,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.extend-per-file-ignores.__init__.py",
+          "value": [
+            "F401",
+            "F403"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.extend-per-file-ignores.docs/source/*",
+          "value": [
+            "D"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.extend-per-file-ignores.pymc/__init__.py",
+          "value": [
+            "E402"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.extend-per-file-ignores.pymc/dims/__init__.py",
+          "value": [
+            "E402"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.extend-per-file-ignores.pymc/dims/math.py",
+          "value": [
+            "F401",
+            "F403"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.extend-per-file-ignores.pymc/stats/__init__.py",
+          "value": [
+            "E402"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.extend-per-file-ignores.pymc/logprob/__init__.py",
+          "value": [
+            "I001"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.extend-per-file-ignores.tests/*",
+          "value": [
+            "D"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.extend-per-file-ignores.scripts/run_mypy.py",
+          "value": [
+            "T201"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.extend-per-file-ignores.scripts/publish_release_notes_to_discourse.py",
+          "value": [
+            "T201"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.extend-per-file-ignores.*.ipynb",
+          "value": [
+            "T201"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.coverage.report.exclude_lines",
+          "value": [
+            "pragma: nocover",
+            "raise NotImplementedError",
+            "if TYPE_CHECKING:"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.coverage.run.omit",
+          "value": [
+            "*examples*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.readthedocs.yml",
+      "relative_path": ".readthedocs.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 12,
+      "settings": [
+        {
+          "key": "version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "sphinx.configuration",
+          "value": "docs/source/conf.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "python.install",
+          "value": [
+            {
+              "method": "pip",
+              "path": "."
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "conda.environment",
+          "value": "conda-envs/environment-docs.yml",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.os",
+          "value": "ubuntu-22.04",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.tools.python",
+          "value": "mambaforge-4.10",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "search.ranking._sources/*",
+          "value": -10,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "search.ranking._modules/*",
+          "value": -5,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "search.ranking.genindex.html",
+          "value": -9,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "search.ranking.*__init__.html",
+          "value": -3,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "search.ranking.*dist.html",
+          "value": -3,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "search.ignore",
+          "value": [
+            "404.html",
+            "search.html",
+            "index.html"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.gitpod.yml",
+      "relative_path": ".gitpod.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 11,
+      "settings": [
+        {
+          "key": "image",
+          "value": "ghcr.io/pymc-devs/pymc-devcontainer:latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tasks",
+          "value": [
+            {
+              "name": "initialize",
+              "init": "# General devcontainer initialization, e.g. pre-commit\n_dev-init.sh\n\n# Create an empty object for .vscode/settings.json if the file doesn't exist\nmkdir -p .vscode\n[ -f .vscode/settings.json ] || echo \"{}\" > .vscode/settings.json\n\n# Add vscode settings\njq '\n      .[\"python.defaultInterpreterPath\"] = \"/opt/conda/bin/python\"\n' .vscode/settings.json | sponge .vscode/settings.json\njq '\n      .[\"terminal.integrated.defaultProfile.linux\"] = \"bash\"\n' .vscode/settings.json | sponge .vscode/settings.json\njq '\n      .[\"git.autofetch\"] = true\n' .vscode/settings.json | sponge .vscode/settings.json\n\n# Install dependencies\nsudo chown \"$(id -u):$(id -g)\" /opt/conda/conda-meta/history\n(micromamba install --yes --name base --file conda-envs/environment-dev.yml; pip install -e .) &> /tmp/install-init.log &\n",
+              "command": "# Reinitialize devcontainer for good measure\n_dev-init.sh\n\n# Install the pre-commit hooks in the background if not already installed\npre-commit install --install-hooks &> /tmp/pre-commit-init-output.log &\n"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "vscode.extensions",
+          "value": [
+            "eamodio.gitlens",
+            "ms-python.python",
+            "ms-pyright.pyright",
+            "ms-toolsai.jupyter",
+            "donjayamanne.githistory"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "github.prebuilds.master",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "github.prebuilds.branches",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "github.prebuilds.pullRequests",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "github.prebuilds.pullRequestsFromForks",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "github.prebuilds.addCheck",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "github.prebuilds.addComment",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "github.prebuilds.addBadge",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "github.prebuilds.addLabel",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/benchmarks/asv.conf.json",
+      "relative_path": "benchmarks/asv.conf.json",
+      "type": "json",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "JSON parse error: Expecting property name enclosed in double quotes: line 2 column 5 (char 6)"
+      ]
+    },
+    {
+      "file_path": "pymc/scripts/Dockerfile",
+      "relative_path": "scripts/Dockerfile",
+      "type": "dockerfile",
+      "purpose": "docker_configuration",
+      "patterns": [],
+      "settings_count": 1,
+      "settings": [
+        {
+          "key": "LANG",
+          "value": "C.UTF-8 LC_ALL=C.UTF-8",
+          "type": "string",
+          "env_var": "LANG",
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/release.yml",
+      "relative_path": ".github/release.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 2,
+      "settings": [
+        {
+          "key": "changelog.exclude.labels",
+          "value": [
+            "no releasenotes"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "changelog.categories",
+          "value": [
+            {
+              "title": "Major Changes \ud83d\udee0",
+              "labels": [
+                "major"
+              ]
+            },
+            {
+              "title": "New Features \ud83c\udf89",
+              "labels": [
+                "enhancements",
+                "feature request"
+              ]
+            },
+            {
+              "title": "Bugfixes \ud83e\udeb2",
+              "labels": [
+                "bug"
+              ]
+            },
+            {
+              "title": "Documentation \ud83d\udcd6",
+              "labels": [
+                "docs"
+              ]
+            },
+            {
+              "title": "Maintenance \ud83d\udd27",
+              "labels": [
+                "*"
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/config.yml",
+      "relative_path": ".github/config.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "newIssueWelcomeComment",
+          "value": "![Welcome Banner](https://raw.githubusercontent.com/pymc-devs/brand/main/welcome-bot/BannerWelcome.jpg)]\n:tada: Welcome to _PyMC_! :tada: We're really excited to have your input into the project! :sparkling_heart:\n<br>If you haven't done so already, please make sure you check out our [Contributing Guidelines](https://www.pymc.io/projects/docs/en/latest/contributing/index.html) and [Code of Conduct](https://github.com/pymc-devs/pymc/blob/main/CODE_OF_CONDUCT.md).\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "newPRWelcomeComment",
+          "value": "![Thank You Banner](https://raw.githubusercontent.com/pymc-devs/brand/main/welcome-bot/BannerThanks.jpg)]\n:sparkling_heart: Thanks for opening this pull request! :sparkling_heart: The _PyMC_ community really appreciates your time and effort to contribute to the project. Please make sure you have read our [Contributing Guidelines](https://www.pymc.io/projects/docs/en/latest/contributing/index.html) and filled in our pull request template to the best of your ability.\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "firstPRMergeComment",
+          "value": "![Congratulations Banner](https://raw.githubusercontent.com/pymc-devs/brand/main/welcome-bot/BannerCongratulations.jpg)]\nCongrats on merging your first pull request! :tada: We here at _PyMC_ are proud of you! :sparkling_heart: Thank you so much for your contribution :gift:\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/dependabot.yml",
+      "relative_path": ".github/dependabot.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 2,
+      "settings": [
+        {
+          "key": "version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "updates",
+          "value": [
+            {
+              "package-ecosystem": "github-actions",
+              "directory": "/",
+              "schedule": {
+                "interval": "weekly"
+              },
+              "labels": [
+                "Github CI/CD",
+                "no releasenotes"
+              ],
+              "cooldown": {
+                "default-days": 7
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/conda-envs/environment-dev.yml",
+      "relative_path": "conda-envs/environment-dev.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "name",
+          "value": "pymc-dev",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "channels",
+          "value": [
+            "conda-forge",
+            "nodefaults"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependencies",
+          "value": [
+            "arviz>=1.1.0,<2.0",
+            "blas",
+            "cachetools>=4.2.1,<7",
+            "cloudpickle",
+            "numpy>=1.25.0",
+            "pandas>=0.24.0",
+            "pip",
+            "pytensor>=3.0.2,<3.1",
+            "python-graphviz",
+            "networkx",
+            "scipy>=1.4.1",
+            "typing-extensions>=3.7.4",
+            "threadpoolctl>=3.1.0",
+            "zarr>=2.5.0,<3",
+            "netCDF4",
+            "ipython>=7.16",
+            "jax",
+            "jupyter-sphinx",
+            "myst-nb<=1.0.0",
+            "numpydoc",
+            "pre-commit>=2.8.0",
+            "polyagamma",
+            "pytest-cov>=2.5",
+            "pytest>=3.0",
+            "rich>=13.7.1",
+            "sphinx-copybutton",
+            "sphinx-design",
+            "sphinx-notfound-page",
+            "sphinx>=1.5",
+            "sphinxext-rediraffe",
+            "watermark",
+            "sphinx-remove-toctrees",
+            "mypy=1.19.1",
+            "types-cachetools",
+            {
+              "pip": [
+                "pymc-sphinx-theme>=0.16.0",
+                "numdifftools>=0.9.40",
+                "mcbackend>=0.4.0"
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/conda-envs/windows-environment-dev.yml",
+      "relative_path": "conda-envs/windows-environment-dev.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "name",
+          "value": "pymc-dev",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "channels",
+          "value": [
+            "conda-forge",
+            "nodefaults"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependencies",
+          "value": [
+            "arviz>=1.1.0,<2.0",
+            "blas",
+            "cachetools>=4.2.1,<7",
+            "cloudpickle",
+            "numpy>=1.25.0",
+            "pandas>=0.24.0",
+            "pip",
+            "pytensor>=3.0.2,<3.1",
+            "python-graphviz",
+            "networkx",
+            "rich>=13.7.1",
+            "scipy>=1.4.1",
+            "typing-extensions>=3.7.4",
+            "threadpoolctl>=3.1.0",
+            "zarr>=2.5.0,<3",
+            "ipython>=7.16",
+            "myst-nb<=1.0.0",
+            "numpydoc",
+            "polyagamma",
+            "pre-commit>=2.8.0",
+            "pytest-cov>=2.5",
+            "pytest>=3.0",
+            "sphinx-autobuild>=0.7",
+            "sphinx-copybutton",
+            "sphinx-design",
+            "sphinx-notfound-page",
+            "sphinx>=1.5",
+            "watermark",
+            "sphinx-remove-toctrees",
+            "mypy=1.19.1",
+            "types-cachetools",
+            {
+              "pip": [
+                "git+https://github.com/pymc-devs/pymc-sphinx-theme",
+                "numdifftools>=0.9.40",
+                "mcbackend>=0.4.0"
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/conda-envs/windows-environment-test.yml",
+      "relative_path": "conda-envs/windows-environment-test.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "name",
+          "value": "pymc-test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "channels",
+          "value": [
+            "conda-forge",
+            "nodefaults"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependencies",
+          "value": [
+            "arviz>=1.1.0,<2.0",
+            "blas",
+            "cachetools>=4.2.1,<7",
+            "cloudpickle",
+            "libpython",
+            "mkl-service>=2.3.0",
+            "netcdf4",
+            "numpy>=1.25.0",
+            "pandas>=0.24.0",
+            "pip",
+            "polyagamma",
+            "pytensor>=3.0.2,<3.1",
+            "python-graphviz",
+            "networkx",
+            "rich>=13.7.1",
+            "scipy>=1.4.1",
+            "typing-extensions>=3.7.4",
+            "threadpoolctl>=3.1.0",
+            "zarr>=2.5.0,<3",
+            "ipython>=7.16",
+            "pre-commit>=2.8.0",
+            "pytest-cov>=2.5",
+            "pytest>=3.0",
+            "mypy=1.19.1",
+            "types-cachetools",
+            {
+              "pip": [
+                "numdifftools>=0.9.40",
+                "mcbackend>=0.4.0"
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/conda-envs/environment-docs.yml",
+      "relative_path": "conda-envs/environment-docs.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "name",
+          "value": "pymc-docs",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "channels",
+          "value": [
+            "conda-forge",
+            "nodefaults"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependencies",
+          "value": [
+            "arviz>=1.1.0,<2.0",
+            "cachetools>=4.2.1,<7",
+            "cloudpickle",
+            "numpy>=1.25.0",
+            "pandas>=0.24.0",
+            "pip",
+            "pytensor>=3.0.2,<3.1",
+            "python-graphviz",
+            "rich>=13.7.1",
+            "scipy>=1.4.1",
+            "typing-extensions>=3.7.4",
+            "threadpoolctl>=3.1.0",
+            "zarr>=2.5.0,<3",
+            "ipython>=7.16",
+            "jax",
+            "jupyter-sphinx",
+            "myst-nb<=1.0.0",
+            "numpydoc",
+            "polyagamma",
+            "pre-commit>=2.8.0",
+            "pymc-sphinx-theme>=0.16",
+            "sphinx-copybutton",
+            "sphinx-design",
+            "sphinx-notfound-page",
+            "sphinx-sitemap",
+            "sphinx>=5",
+            "sphinxext-rediraffe",
+            "watermark",
+            "sphinx-remove-toctrees",
+            {
+              "pip": [
+                "numdifftools>=0.9.40"
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/conda-envs/environment-alternative-backends.yml",
+      "relative_path": "conda-envs/environment-alternative-backends.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "name",
+          "value": "pymc-test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "channels",
+          "value": [
+            "conda-forge",
+            "nodefaults"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependencies",
+          "value": [
+            "arviz>=1.1.0,<2.0",
+            "blas",
+            "cachetools>=4.2.1,<7",
+            "cloudpickle",
+            "zarr>=2.5.0,<3",
+            "numba",
+            "jax>=0.4.28",
+            "jaxlib>=0.4.28",
+            "libblas=*=*mkl",
+            "mkl-service",
+            "numpy>=1.25.0",
+            "numpyro>=0.8.0",
+            "pandas>=0.24.0",
+            "pip",
+            "pytensor>=3.0.2,<3.1",
+            "python-graphviz",
+            "networkx",
+            "rich>=13.7.1",
+            "threadpoolctl>=3.1.0",
+            "scipy>=1.13.0",
+            "typing-extensions>=3.7.4",
+            "ipython>=7.16",
+            "pre-commit>=2.8.0",
+            "pytest-cov>=2.5",
+            "pytest>=3.0",
+            "mypy=1.19.1",
+            "types-cachetools",
+            "fastprogress>=1.0.0",
+            "blackjax>=1.5",
+            {
+              "pip": [
+                "numdifftools>=0.9.40",
+                "mcbackend>=0.4.0"
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/conda-envs/environment-test.yml",
+      "relative_path": "conda-envs/environment-test.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "name",
+          "value": "pymc-test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "channels",
+          "value": [
+            "conda-forge",
+            "nodefaults"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependencies",
+          "value": [
+            "arviz>=1.1.0,<2.0",
+            "blas",
+            "cachetools>=4.2.1,<7",
+            "cloudpickle",
+            "jax",
+            "numpy>=1.25.0",
+            "netcdf4",
+            "pandas>=0.24.0",
+            "pip",
+            "polyagamma",
+            "pytensor>=3.0.2,<3.1",
+            "python-graphviz",
+            "networkx",
+            "rich>=13.7.1",
+            "scipy>=1.4.1",
+            "typing-extensions>=3.7.4",
+            "threadpoolctl>=3.1.0",
+            "zarr>=2.5.0,<3",
+            "ipython>=7.16",
+            "pre-commit>=2.8.0",
+            "pytest-cov>=2.5",
+            "pytest>=3.0",
+            "mypy=1.19.1",
+            "types-cachetools",
+            {
+              "pip": [
+                "numdifftools>=0.9.40",
+                "mcbackend>=0.4.0"
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/workflows/release.yml",
+      "relative_path": ".github/workflows/release.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 13,
+      "settings": [
+        {
+          "key": "name",
+          "value": "release-pipeline",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "main",
+            "v[0-9]+"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.release.types",
+          "value": [
+            "published"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build-package.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build-package.permissions.attestations",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build-package.permissions.id-token",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build-package.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "fetch-depth": 0,
+                "persist-credentials": false
+              }
+            },
+            {
+              "uses": "hynek/build-and-inspect-python-package@efb823f52190ad02594531168b7a2d5790e66516",
+              "with": {
+                "attest-build-provenance-github": true
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish-package.if",
+          "value": "github.repository_owner == 'pymc-devs' && github.event_name == 'release' && github.event.action == 'published'",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish-package.environment",
+          "value": "release",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish-package.needs",
+          "value": "build-package",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish-package.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish-package.permissions.id-token",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish-package.steps",
+          "value": [
+            {
+              "name": "Download Distribution Artifacts",
+              "uses": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+              "with": {
+                "name": "Packages",
+                "path": "dist"
+              }
+            },
+            {
+              "name": "Publish Package to PyPI",
+              "uses": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/workflows/devcontainer-docker-image.yml",
+      "relative_path": ".github/workflows/devcontainer-docker-image.yml",
+      "type": "yaml",
+      "purpose": "docker_configuration",
+      "patterns": [],
+      "settings_count": 9,
+      "settings": [
+        {
+          "key": "name",
+          "value": "devcontainer-docker-image",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.schedule",
+          "value": [
+            {
+              "cron": "48 19 * * 5"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.release.types",
+          "value": [
+            "published"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.REGISTRY",
+          "value": "ghcr.io",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.IMAGE_NAME",
+          "value": "${{ github.repository }}-devcontainer",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build-container.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build-container.permissions.packages",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build-container.steps",
+          "value": [
+            {
+              "name": "Checkout source",
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "persist-credentials": false
+              }
+            },
+            {
+              "name": "Setup Docker buildx",
+              "uses": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435"
+            },
+            {
+              "name": "Prepare metadata",
+              "id": "meta",
+              "uses": "docker/metadata-action@318604b99e75e41977312d83839a89be02ca4893",
+              "with": {
+                "images": "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}",
+                "tags": "type=sha,enable=true,prefix=git-\ntype=raw,value=latest\n"
+              }
+            },
+            {
+              "name": "Log into registry ${{ env.REGISTRY }}",
+              "uses": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+              "with": {
+                "registry": "${{ env.REGISTRY }}",
+                "username": "${{ github.actor }}",
+                "password": "${{ secrets.GITHUB_TOKEN }}"
+              }
+            },
+            {
+              "name": "Build and push Docker image",
+              "id": "docker_build",
+              "uses": "docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83",
+              "with": {
+                "context": ".",
+                "file": "scripts/dev.Dockerfile",
+                "platforms": "linux/amd64",
+                "push": true,
+                "tags": "${{ steps.meta.outputs.tags }}",
+                "labels": "${{ steps.meta.outputs.labels }}",
+                "cache-from": "type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest",
+                "cache-to": "type=inline"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/workflows/slash_dispatch.yml",
+      "relative_path": ".github/workflows/slash_dispatch.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Slash Command Dispatch",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.issue_comment.types",
+          "value": [
+            "created"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.slashCommandDispatch.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.slashCommandDispatch.steps",
+          "value": [
+            {
+              "name": "Slash Command Dispatch",
+              "uses": "peter-evans/slash-command-dispatch@13bc09769d122a64f75aa5037256f6f2d78be8c4",
+              "with": {
+                "token": "${{ secrets.ACTION_TRIGGER_TOKEN }}",
+                "issue-type": "pull-request",
+                "commands": "pre-commit-run\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/workflows/pr-auto-label.yml",
+      "relative_path": ".github/workflows/pr-auto-label.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 5,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Pull Request Labeler",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True",
+          "value": [
+            "pull_request_target"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.sync.permissions.pull-requests",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.sync.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.sync.steps",
+          "value": [
+            {
+              "name": "Sync labels with closing issues",
+              "uses": "williambdean/closing-labels@7a4384e0e725b80eee0142265d36c1332fda5f7a",
+              "with": {
+                "exclude": "help wanted,needs info,beginner friendly"
+              },
+              "env": {
+                "GH_TOKEN": "${{ github.token }}"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/workflows/zizmor.yml",
+      "relative_path": ".github/workflows/zizmor.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 6,
+      "settings": [
+        {
+          "key": "name",
+          "value": "GitHub Actions Security Analysis with zizmor \ud83c\udf08",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "main",
+            "v[0-9]+"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "**"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.zizmor.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.zizmor.permissions.security-events",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.zizmor.steps",
+          "value": [
+            {
+              "name": "Checkout repository",
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "persist-credentials": false
+              }
+            },
+            {
+              "name": "Run zizmor \ud83c\udf08",
+              "uses": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/workflows/mypy.yml",
+      "relative_path": ".github/workflows/mypy.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 6,
+      "settings": [
+        {
+          "key": "name",
+          "value": "mypy",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "main",
+            "v[0-9]+"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "defaults.run.shell",
+          "value": "bash -leo pipefail {0}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.mypy.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.mypy.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "persist-credentials": false
+              }
+            },
+            {
+              "uses": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+              "with": {
+                "environment-file": "conda-envs/environment-test.yml",
+                "create-args": "python=3.12",
+                "environment-name": "pymc-test",
+                "init-shell": "bash",
+                "cache-environment": true
+              }
+            },
+            {
+              "name": "Install-pymc and mypy dependencies",
+              "run": "pip install -e .\npython --version\n"
+            },
+            {
+              "name": "Run mypy",
+              "run": "python ./scripts/run_mypy.py --verbose\n"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/workflows/publish-release-notes-to-discourse.yml",
+      "relative_path": ".github/workflows/publish-release-notes-to-discourse.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 5,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Publish Release Notes to Discourse",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.release.types",
+          "value": [
+            "published"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish-to-discourse.environment",
+          "value": "discourse",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish-to-discourse.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish-to-discourse.steps",
+          "value": [
+            {
+              "name": "Checkout repository",
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "persist-credentials": false
+              }
+            },
+            {
+              "name": "Set up Python",
+              "uses": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+              "with": {
+                "python-version": "3.12"
+              }
+            },
+            {
+              "name": "Install dependencies",
+              "run": "pip install requests"
+            },
+            {
+              "name": "Publish release to Discourse",
+              "env": {
+                "DISCOURSE_API_KEY": "${{ secrets.DISCOURSE_API_KEY }}",
+                "DISCOURSE_USERNAME": "pymc-bot",
+                "DISCOURSE_URL": "https://discourse.pymc.io",
+                "DISCOURSE_CATEGORY": "News",
+                "RELEASE_TAG": "${{ github.event.release.tag_name }}",
+                "RELEASE_BODY": "${{ github.event.release.body }}",
+                "RELEASE_URL": "${{ github.event.release.html_url }}",
+                "REPO_NAME": "${{ github.repository }}"
+              },
+              "run": "python ./scripts/publish_release_notes_to_discourse.py"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/workflows/tests.yml",
+      "relative_path": ".github/workflows/tests.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 69,
+      "settings": [
+        {
+          "key": "name",
+          "value": "tests",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "main",
+            "v[0-9]+"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "${{ github.workflow}}-${{ github.event.pull_request.number || github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.changes.name",
+          "value": "Check for changes",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.changes.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.changes.outputs.changes",
+          "value": "${{ steps.changes.outputs.src }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.changes.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "fetch-depth": 0,
+                "persist-credentials": false
+              }
+            },
+            {
+              "uses": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+              "id": "changes",
+              "with": {
+                "filters": "src:\n  - \".github/workflows/tests.yml\"\n  - \"pymc/**/*.py\"\n  - \"tests/**/*.py\"\n  - \"*.py\"\n  - \"conda-envs/*\"\n  - \"requirements*.txt\"\n  - \"codecov.yml\"\n  - \"scripts/*.sh\"\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.ubuntu.needs",
+          "value": "changes",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.ubuntu.if",
+          "value": "${{ needs.changes.outputs.changes == 'true' }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.ubuntu.strategy.matrix.linker",
+          "value": [
+            "cvm",
+            "numba"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.ubuntu.strategy.matrix.python-version",
+          "value": [
+            "3.14"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.ubuntu.strategy.matrix.test-subset",
+          "value": [
+            "tests/test_util.py\ntests/test_pytensorf.py\ntests/test_math.py\ntests/test_root_namespace.py\ntests/backends/test_base.py\ntests/backends/test_ndarray.py\ntests/step_methods/hmc/test_hmc.py\ntests/test_func_utils.py\ntests/distributions/test_shape_utils.py\ntests/distributions/test_mixture.py\ntests/test_testing.py\ntests/progress_bar/test_manager.py\ntests/progress_bar/test_marimo.py\n",
+            "tests/distributions/test_continuous.py\ntests/distributions/test_multivariate.py\ntests/distributions/moments/test_means.py\n",
+            "tests/distributions/test_censored.py\ntests/distributions/test_custom.py\ntests/distributions/test_simulator.py\ntests/sampling/test_deterministic.py\ntests/sampling/test_forward.py\ntests/sampling/test_population.py\ntests/stats/test_convergence.py\ntests/stats/test_log_density.py\ntests/distributions/test_distribution.py\ntests/distributions/test_discrete.py\n",
+            "tests/tuning/test_scaling.py\ntests/tuning/test_starting.py\ntests/distributions/test_dist_math.py\ntests/distributions/test_transform.py\ntests/sampling/test_mcmc.py\ntests/sampling/test_parallel.py\ntests/test_printing.py\n",
+            "tests/distributions/test_timeseries.py\ntests/gp/test_cov.py\ntests/gp/test_hsgp_approx.py\ntests/gp/test_gp.py\ntests/gp/test_mean.py\ntests/gp/test_util.py\ntests/model/test_core.py\ntests/model/test_fgraph.py\ntests/model/transform/test_basic.py\ntests/model/transform/test_conditioning.py\ntests/model/transform/test_optimization.py\ntests/test_model_graph.py\ntests/ode/test_ode.py\ntests/ode/test_utils.py\ntests/step_methods/hmc/test_quadpotential.py\ntests/step_methods/test_state.py\n",
+            "tests/backends/test_mcbackend.py\ntests/backends/test_zarr.py\ntests/distributions/test_truncated.py\ntests/logprob/test_abstract.py\ntests/logprob/test_arithmetic.py\ntests/logprob/test_basic.py\ntests/logprob/test_binary.py\ntests/logprob/test_checks.py\ntests/logprob/test_censoring.py\ntests/logprob/test_composite_logprob.py\ntests/logprob/test_cumsum.py\ntests/logprob/test_linalg.py\ntests/logprob/test_mixture.py\ntests/logprob/test_order.py\ntests/logprob/test_rewriting.py\ntests/logprob/test_scan.py\ntests/logprob/test_tensor.py\ntests/logprob/test_switch.py\ntests/logprob/test_transform_value.py\ntests/logprob/test_transforms.py\ntests/logprob/test_utils.py\n",
+            "tests/dims/distributions/test_core.py\ntests/dims/distributions/test_censored.py\ntests/dims/distributions/test_scalar.py\ntests/dims/distributions/test_vector.py\ntests/dims/test_model.py\n"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.ubuntu.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.ubuntu.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.ubuntu.env.TEST_SUBSET",
+          "value": "${{ matrix.test-subset }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.ubuntu.env.PYTENSOR_FLAGS",
+          "value": "linker=${{ matrix.linker }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.ubuntu.defaults.run.shell",
+          "value": "bash -leo pipefail {0}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.ubuntu.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "persist-credentials": false
+              }
+            },
+            {
+              "uses": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+              "with": {
+                "environment-file": "conda-envs/environment-test.yml",
+                "create-args": "python=${{matrix.python-version}}",
+                "environment-name": "pymc-test",
+                "init-shell": "bash",
+                "cache-environment": true
+              }
+            },
+            {
+              "name": "Install-pymc",
+              "run": "pip install -e .\npython --version\nmicromamba list\n"
+            },
+            {
+              "name": "Run tests",
+              "run": "python -m pytest -vv --cov=pymc --cov-report=xml --no-cov-on-fail --cov-report term --durations=50 $TEST_SUBSET\n"
+            },
+            {
+              "name": "Upload coverage to Codecov",
+              "uses": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+              "with": {
+                "token": "${{ secrets.CODECOV_TOKEN }}",
+                "env_vars": "TEST_SUBSET",
+                "name": "Ubuntu py${{ matrix.python-version }} linker=${{ matrix.linker }}",
+                "fail_ci_if_error": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows.needs",
+          "value": "changes",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows.if",
+          "value": "${{ needs.changes.outputs.changes == 'true' }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows.strategy.matrix.linker",
+          "value": [
+            "cvm",
+            "numba"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows.strategy.matrix.python-version",
+          "value": [
+            "3.12"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows.strategy.matrix.test-subset",
+          "value": [
+            "tests/variational/test_approximations.py tests/variational/test_callbacks.py tests/variational/test_inference.py tests/variational/test_opvi.py tests/test_initial_point.py",
+            "tests/model/test_core.py tests/sampling/test_mcmc.py",
+            "tests/gp/test_cov.py tests/gp/test_gp.py tests/gp/test_mean.py tests/gp/test_util.py tests/ode/test_ode.py tests/ode/test_utils.py tests/smc/test_smc.py tests/sampling/test_parallel.py",
+            "tests/step_methods/test_metropolis.py tests/step_methods/test_slicer.py tests/step_methods/hmc/test_nuts.py tests/step_methods/test_compound.py tests/step_methods/hmc/test_hmc.py tests/step_methods/test_state.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows.runs-on",
+          "value": "windows-2022",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows.env.TEST_SUBSET",
+          "value": "${{ matrix.test-subset }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows.env.PYTENSOR_FLAGS",
+          "value": "linker=${{ matrix.linker }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows.defaults.run.shell",
+          "value": "bash -leo pipefail {0}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.windows.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "persist-credentials": false
+              }
+            },
+            {
+              "uses": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+              "with": {
+                "environment-file": "conda-envs/windows-environment-test.yml",
+                "micromamba-version": "2.6.0-0",
+                "create-args": "python=${{matrix.python-version}}",
+                "environment-name": "pymc-test",
+                "init-shell": "bash",
+                "cache-environment": true
+              }
+            },
+            {
+              "name": "Install-pymc",
+              "run": "pip install -e .\npython --version\nmicromamba list\n"
+            },
+            {
+              "name": "Run tests",
+              "run": "python -m pytest -vv --cov=pymc --cov-report=xml --no-cov-on-fail --cov-report term --durations=50 $TEST_SUBSET\n"
+            },
+            {
+              "name": "Upload coverage to Codecov",
+              "uses": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+              "with": {
+                "token": "${{ secrets.CODECOV_TOKEN }}",
+                "env_vars": "TEST_SUBSET",
+                "name": "Windows py${{ matrix.python-version }} linker=${{ matrix.linker }}",
+                "fail_ci_if_error": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos.needs",
+          "value": "changes",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos.if",
+          "value": "${{ needs.changes.outputs.changes == 'true' }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos.strategy.matrix.linker",
+          "value": [
+            "cvm",
+            "numba"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos.strategy.matrix.python-version",
+          "value": [
+            "3.14"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos.strategy.matrix.test-subset",
+          "value": [
+            "tests/sampling/test_parallel.py\ntests/test_data.py\ntests/variational/test_minibatch_rv.py\ntests/model/test_core.py\n",
+            "tests/sampling/test_mcmc.py\n",
+            "tests/backends/test_arviz.py\ntests/backends/test_zarr.py\ntests/variational/test_updates.py\n"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos.runs-on",
+          "value": "macos-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos.env.TEST_SUBSET",
+          "value": "${{ matrix.test-subset }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos.env.PYTENSOR_FLAGS",
+          "value": "linker=${{ matrix.linker }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos.defaults.run.shell",
+          "value": "bash -leo pipefail {0}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.macos.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "persist-credentials": false
+              }
+            },
+            {
+              "uses": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+              "with": {
+                "environment-file": "conda-envs/environment-test.yml",
+                "create-args": "python=${{matrix.python-version}}",
+                "environment-name": "pymc-test",
+                "init-shell": "bash",
+                "cache-environment": true
+              }
+            },
+            {
+              "name": "Install pymc",
+              "run": "pip install -e .\npython --version\nmicromamba list\n"
+            },
+            {
+              "name": "Run tests",
+              "run": "python -m pytest -vv --cov=pymc --cov-report=xml --no-cov-on-fail --cov-report term --durations=50 $TEST_SUBSET\n"
+            },
+            {
+              "name": "Upload coverage to Codecov",
+              "uses": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+              "with": {
+                "token": "${{ secrets.CODECOV_TOKEN }}",
+                "env_vars": "TEST_SUBSET",
+                "name": "MacOS py${{ matrix.python-version }} linker=${{ matrix.linker }}",
+                "fail_ci_if_error": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.alternative_backends.needs",
+          "value": "changes",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.alternative_backends.if",
+          "value": "${{ needs.changes.outputs.changes == 'true' }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.alternative_backends.strategy.matrix.linker",
+          "value": [
+            "cvm",
+            "numba"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.alternative_backends.strategy.matrix.python-version",
+          "value": [
+            "3.13"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.alternative_backends.strategy.matrix.test-subset",
+          "value": [
+            "tests/distributions/test_random_alternative_backends.py\ntests/sampling/test_jax.py\ntests/sampling/test_mcmc_external.py\n"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.alternative_backends.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.alternative_backends.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.alternative_backends.env.TEST_SUBSET",
+          "value": "${{ matrix.test-subset }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.alternative_backends.env.PYTENSOR_FLAGS",
+          "value": "linker=${{ matrix.linker }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.alternative_backends.defaults.run.shell",
+          "value": "bash -leo pipefail {0}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.alternative_backends.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "persist-credentials": false
+              }
+            },
+            {
+              "uses": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+              "with": {
+                "environment-file": "conda-envs/environment-alternative-backends.yml",
+                "create-args": "python=${{matrix.python-version}}",
+                "environment-name": "pymc-test",
+                "init-shell": "bash",
+                "cache-environment": true
+              }
+            },
+            {
+              "name": "Install pymc",
+              "run": "pip install -e .\n# Track nutpie main so we exercise unreleased changes. Expected to be\n# red until nutpie main drops its `arviz.InferenceData` references.\npip install \"nutpie @ git+https://github.com/pymc-devs/nutpie@main\"\npython --version\nmicromamba list\n"
+            },
+            {
+              "name": "Run tests",
+              "run": "python -m pytest -vv --cov=pymc --cov-report=xml --no-cov-on-fail --cov-report term --durations=50 $TEST_SUBSET\n"
+            },
+            {
+              "name": "Upload coverage to Codecov",
+              "uses": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+              "with": {
+                "token": "${{ secrets.CODECOV_TOKEN }}",
+                "env_vars": "TEST_SUBSET",
+                "name": "Alternative backends py${{ matrix.python-version }} linker=${{ matrix.linker }}",
+                "fail_ci_if_error": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.needs",
+          "value": "changes",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.if",
+          "value": "${{ needs.changes.outputs.changes == 'true' }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.strategy.matrix.linker",
+          "value": [
+            "cvm",
+            "numba"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.strategy.matrix.os",
+          "value": [
+            "windows-2022"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.strategy.matrix.python-version",
+          "value": [
+            "3.14"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.strategy.matrix.test-subset",
+          "value": [
+            "tests/sampling/test_mcmc.py tests/ode/test_ode.py tests/ode/test_utils.py tests/distributions/test_transform.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.env.TEST_SUBSET",
+          "value": "${{ matrix.test-subset }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.env.PYTENSOR_FLAGS",
+          "value": "floatX=float32",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.defaults.run.shell",
+          "value": "bash -leo pipefail {0}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.float32.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "persist-credentials": false
+              }
+            },
+            {
+              "uses": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+              "with": {
+                "environment-file": "conda-envs/windows-environment-test.yml",
+                "micromamba-version": "2.6.0-0",
+                "create-args": "python=${{matrix.python-version}}",
+                "environment-name": "pymc-test",
+                "init-shell": "bash",
+                "cache-environment": true
+              }
+            },
+            {
+              "name": "Install-pymc",
+              "run": "pip install -e .\npython --version\nmicromamba list\n"
+            },
+            {
+              "name": "Run tests",
+              "run": "python -m pytest -vv --cov=pymc --cov-report=xml --no-cov-on-fail --cov-report term --durations=50 $TEST_SUBSET\n"
+            },
+            {
+              "name": "Upload coverage to Codecov",
+              "uses": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+              "with": {
+                "token": "${{ secrets.CODECOV_TOKEN }}",
+                "env_vars": "TEST_SUBSET",
+                "name": "float32 ${{ matrix.os }} py${{ matrix.python-version }} linker=${{ matrix.linker }}",
+                "fail_ci_if_error": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.all_tests.if",
+          "value": "${{ always() }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.all_tests.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.all_tests.needs",
+          "value": [
+            "changes",
+            "ubuntu",
+            "windows",
+            "macos",
+            "alternative_backends",
+            "float32"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.all_tests.steps",
+          "value": [
+            {
+              "name": "Check build matrix status",
+              "if": "${{ needs.changes.outputs.changes == 'true' && ( needs.ubuntu.result != 'success' || needs.windows.result != 'success' || needs.macos.result != 'success' || needs.alternative_backends.result != 'success' || needs.float32.result != 'success' ) }}",
+              "run": "exit 1"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/workflows/update-test-issues.yml",
+      "relative_path": ".github/workflows/update-test-issues.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 7,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Slow Tests Issue Body",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.schedule",
+          "value": [
+            {
+              "cron": "0 */6 * * *"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.issues",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.update-comment.if",
+          "value": "github.repository == 'pymc-devs/pymc'",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.update-comment.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.update-comment.steps",
+          "value": [
+            {
+              "name": "Install ZSH",
+              "run": "sudo apt-get update && sudo apt-get install -y zsh"
+            },
+            {
+              "name": "Checkout code",
+              "uses": "actions/checkout@v4"
+            },
+            {
+              "name": "Set up Python",
+              "uses": "actions/setup-python@v5",
+              "with": {
+                "python-version": "3.11"
+              }
+            },
+            {
+              "name": "Slow tests",
+              "working-directory": "scripts/slowest_tests",
+              "shell": "zsh {0}",
+              "run": "source update-slowest-times-issue.sh",
+              "env": {
+                "GITHUB_TOKEN": "${{ github.token }}"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/workflows/docker-image.yml",
+      "relative_path": ".github/workflows/docker-image.yml",
+      "type": "yaml",
+      "purpose": "docker_configuration",
+      "patterns": [],
+      "settings_count": 5,
+      "settings": [
+        {
+          "key": "name",
+          "value": "docker-image",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.release.types",
+          "value": [
+            "created"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.CONTAINER_NAME",
+          "value": "build-test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build-container.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build-container.steps",
+          "value": [
+            {
+              "name": "Checkout code",
+              "uses": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+              "with": {
+                "persist-credentials": false
+              }
+            },
+            {
+              "name": "Login to Docker Hub",
+              "uses": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+              "with": {
+                "username": "${{ secrets.DOCKERHUB_USERNAME }}",
+                "password": "${{ secrets.DOCKERHUB_TOKEN }}"
+              }
+            },
+            {
+              "name": "Extract metadata (tags, labels) for Docker",
+              "id": "meta",
+              "uses": "docker/metadata-action@318604b99e75e41977312d83839a89be02ca4893",
+              "with": {
+                "images": "name=pymc/pymc,enable=true\n",
+                "tags": "type=ref,event=branch\ntype=ref,event=pr\ntype=semver,pattern={{version}}\ntype=semver,pattern={{major}}.{{minor}}\n"
+              }
+            },
+            {
+              "name": "Build and load image",
+              "uses": "docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83",
+              "with": {
+                "context": ".",
+                "file": "scripts/Dockerfile",
+                "load": true,
+                "tags": "${{ env.CONTAINER_NAME }}"
+              }
+            },
+            {
+              "name": "Test importing pymc",
+              "run": "docker run --rm ${{ env.CONTAINER_NAME }} conda run -n pymc-dev python -c 'import pymc;print(pymc.__version__)'\n"
+            },
+            {
+              "name": "Build and push",
+              "uses": "docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83",
+              "with": {
+                "context": ".",
+                "push": true,
+                "file": "scripts/Dockerfile",
+                "tags": "${{ steps.meta.outputs.tags }}",
+                "labels": "${{ steps.meta.outputs.labels }}"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/ISSUE_TEMPLATE/bug-report.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 5,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Bug report",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "Report a bug. For security vulnerabilities see Report a security vulnerability in the templates.",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "title",
+          "value": "BUG: <Please write a comprehensive title after the 'BUG: ' prefix>",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "bug"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "markdown",
+              "attributes": {
+                "value": "Thank you for taking the time to file a bug report. Before creating a new issue, please make sure to take a few minutes to check the issue tracker for existing issues about the bug.\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Describe the issue:"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Reproduceable code example:",
+                "description": "A short code example that reproduces the problem/missing feature. It should be self-contained, i.e., can be copy-pasted into the Python interpreter or run as-is via `python myproblem.py`.\n",
+                "placeholder": "import pymc as pm\n<< your code here >>\n",
+                "render": "python"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Error message:",
+                "description": "Please include full error message, if any.\n",
+                "placeholder": "<details>\nFull traceback starting from `Traceback: ...`\n</details>\n",
+                "render": "shell"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "PyMC version information:",
+                "description": "PyMC/PyMC3 Version: PyTensor/Aesara Version: Python Version: Operating system: How did you install PyMC/PyMC3: (conda/pip)\n",
+                "placeholder": "<details>\nconfiguration information\n</details>\n"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Context for the issue:",
+                "description": "Please explain how this issue affects your work or why it should be prioritized.\n",
+                "placeholder": "<< your explanation here >>\n"
+              },
+              "validations": {
+                "required": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/ISSUE_TEMPLATE/developer.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/developer.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Developer issue",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "This template is for developers only!",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Description"
+              },
+              "validations": {
+                "required": true
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/ISSUE_TEMPLATE/config.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/config.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 2,
+      "settings": [
+        {
+          "key": "blank_issues_enabled",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "contact_links",
+          "value": [
+            {
+              "name": "PyMC Discourse",
+              "url": "https://discourse.pymc.io/",
+              "about": "Ask installation and usage questions about PyMC/PyMC3"
+            },
+            {
+              "name": "Example notebook error report",
+              "url": "https://github.com/pymc-devs/pymc-examples/issues",
+              "about": "Please report errors or desired extensions to the tutorials and examples here."
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/ISSUE_TEMPLATE/feature-request.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/feature-request.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 5,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Feature request",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "Make a specific, well-motivated proposal for a feature.",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "title",
+          "value": "ENH: <Please write a comprehensive title after the 'ENH: ' prefix>",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "feature request"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "markdown",
+              "attributes": {
+                "value": "If you're looking to request a new feature or change in functionality, including adding or changing the meaning of arguments to an existing function, please post your idea first as a [Discussion](https://github.com/pymc-devs/pymc/discussions) to validate it and bring attention to it. After validation, you can open this issue for a more technical developer discussion. Check the [Contributor Guide](https://github.com/pymc-devs/pymc/blob/main/CONTRIBUTING.md) if you need more information.\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Before",
+                "description": "Please fill the code snippet: How did you workaround your problem or frequent use? Leave empty if you found no workaround.\n",
+                "render": "python"
+              },
+              "validations": {
+                "required": false
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "After",
+                "description": "How you see it implemented with a high level API without going into details\n",
+                "render": "python"
+              },
+              "validations": {
+                "required": false
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Context for the issue:",
+                "description": "Please explain how this issue affects your work, why it should be prioritized\nor add any information that did not fit Before After template.\n",
+                "placeholder": "<< your explanation here >>\n"
+              },
+              "validations": {
+                "required": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "pymc/.github/ISSUE_TEMPLATE/documentation.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/documentation.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 5,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Documentation",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "Report an issue related to the PyMC documentation.",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "title",
+          "value": "DOC: <Please write a comprehensive title after the 'DOC: ' prefix>",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "docs"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Issue with current documentation:",
+                "description": "Please make sure to leave a reference to the document/code you're referring to. You can also check the development version of the documentation and see if this issue has already been addressed at https://www.pymc.io/projects/docs/en/latest/api.html.\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Idea or request for content:",
+                "description": "Please describe as clearly as possible what topics you think are missing from the current documentation.\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    }
+  ],
+  "errors": []
+}

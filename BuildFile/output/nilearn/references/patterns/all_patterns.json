@@ -1,0 +1,1666 @@
+[
+  {
+    "file_path": "nilearn/asv_benchmarks/benchmarks/glm/glm.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nilearn/asv_benchmarks/benchmarks/glm/glm.py",
+        "class_name": "BaseBenchMarkFLM",
+        "method_name": null,
+        "line_number": 16,
+        "evidence": [
+          "Abstract base with subclasses: BenchMarkFirstLevelModel, BenchMarkFirstLevelModelReport"
+        ],
+        "related_classes": [
+          "BenchMarkFirstLevelModel",
+          "BenchMarkFirstLevelModelReport",
+          "BenchMarkFirstLevelModelSave"
+        ]
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "nilearn/asv_benchmarks/benchmarks/utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/asv_benchmarks/benchmarks/utils.py",
+        "class_name": "Benchmark",
+        "method_name": "fmri_filename",
+        "line_number": 209,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/_assets/js/niivue.umd.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.65,
+        "location": "nilearn/nilearn/_assets/js/niivue.umd.js",
+        "class_name": "CI",
+        "method_name": "createBuffer",
+        "line_number": null,
+        "evidence": [
+          "Factory method detected: createBuffer"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nilearn/nilearn/_assets/js/niivue.umd.js",
+        "class_name": "CI",
+        "method_name": "updateFibers",
+        "line_number": null,
+        "evidence": [
+          "Observer method detected: updateFibers"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nilearn/nilearn/_assets/js/niivue.umd.js",
+        "class_name": "Mg",
+        "method_name": "updateLabels",
+        "line_number": null,
+        "evidence": [
+          "Observer method detected: updateLabels"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 45,
+    "total_functions": 693,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Observer": 2
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/_base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/_base.py",
+        "class_name": "_NilearnHTMLDocumentationLinkMixin",
+        "method_name": "_doc_link_template",
+        "line_number": 22,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/_utils/html_document.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/_utils/html_document.py",
+        "class_name": "HTMLDocument",
+        "method_name": "width",
+        "line_number": 97,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/_utils/html_document.py",
+        "class_name": "Handler",
+        "method_name": null,
+        "line_number": 40,
+        "evidence": [
+          "Class name suggests handler chain: Handler"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/connectome/connectivity_matrices.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/connectome/connectivity_matrices.py",
+        "class_name": "ConnectivityMeasure",
+        "method_name": "fit",
+        "line_number": 494,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/connectome/group_sparse_cov.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/connectome/group_sparse_cov.py",
+        "class_name": "GroupSparseCovariance",
+        "method_name": "fit",
+        "line_number": 612,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/connectome/group_sparse_cov.py",
+        "class_name": "GroupSparseCovarianceCV",
+        "method_name": "fit",
+        "line_number": 1114,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 14,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/datasets/_utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "nilearn/nilearn/datasets/_utils.py",
+        "class_name": "_NaiveFTPAdapter",
+        "method_name": null,
+        "line_number": 495,
+        "evidence": [
+          "Class name suggests Adapter: _NaiveFTPAdapter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 17,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Adapter": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/datasets/neurovault.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/datasets/neurovault.py",
+        "class_name": "ResultFilter",
+        "method_name": null,
+        "line_number": 708,
+        "evidence": [
+          "Class name suggests handler chain: ResultFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 16,
+    "total_functions": 44,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/datasets/tests/conftest.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/datasets/tests/conftest.py",
+        "class_name": "Response",
+        "method_name": "text",
+        "line_number": 121,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/datasets/tests/conftest.py",
+        "class_name": "Sender",
+        "method_name": "visited_urls",
+        "line_number": 257,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/decoding/_mixin.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/decoding/_mixin.py",
+        "class_name": "_RegressorMixin",
+        "method_name": "fit",
+        "line_number": 83,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/decoding/decoder.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/decoding/decoder.py",
+        "class_name": "_BaseDecoder",
+        "method_name": "_clustering_percentile",
+        "line_number": 722,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/decoding/decoder.py",
+        "class_name": "_BaseDecoder",
+        "method_name": null,
+        "line_number": 557,
+        "evidence": [
+          "Abstract base with subclasses: Decoder, DecoderRegressor"
+        ],
+        "related_classes": [
+          "Decoder",
+          "DecoderRegressor",
+          "FREMRegressor",
+          "FREMClassifier"
+        ]
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/decoding/searchlight.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/decoding/searchlight.py",
+        "class_name": "SearchLight",
+        "method_name": "_estimator_type",
+        "line_number": 390,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/decoding/space_net.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/decoding/space_net.py",
+        "class_name": "BaseSpaceNet",
+        "method_name": "_is_classification",
+        "line_number": 746,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/decoding/space_net.py",
+        "class_name": "BaseSpaceNet",
+        "method_name": null,
+        "line_number": 584,
+        "evidence": [
+          "Abstract base with subclasses: SpaceNetClassifier, SpaceNetRegressor"
+        ],
+        "related_classes": [
+          "SpaceNetClassifier",
+          "SpaceNetRegressor"
+        ]
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/decomposition/_base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/decomposition/_base.py",
+        "class_name": "_BaseDecomposition",
+        "method_name": "fit",
+        "line_number": 465,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/exceptions.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/exceptions.py",
+        "class_name": "DimensionError",
+        "method_name": "message",
+        "line_number": 77,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/glm/_base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/glm/_base.py",
+        "class_name": "BaseGLM",
+        "method_name": "_mask_img",
+        "line_number": 103,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/glm/first_level/first_level.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/glm/first_level/first_level.py",
+        "class_name": "FirstLevelModel",
+        "method_name": "_create_all_designs",
+        "line_number": 740,
+        "evidence": [
+          "Factory method detected: _create_all_designs"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 22,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/glm/model.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/glm/model.py",
+        "class_name": "LikelihoodModelResults",
+        "method_name": "logL",
+        "line_number": 81,
+        "evidence": [
+          "Method uses decorators: ['auto_attr']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/glm/regression.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/glm/regression.py",
+        "class_name": "RegressionResults",
+        "method_name": "residuals",
+        "line_number": 301,
+        "evidence": [
+          "Method uses decorators: ['auto_attr']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/glm/second_level/second_level.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/glm/second_level/second_level.py",
+        "class_name": "SecondLevelModel",
+        "method_name": "fit",
+        "line_number": 576,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 24,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/image/tests/test_image.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/image/tests/test_image.py",
+        "class_name": "PhonyNiimage",
+        "method_name": "shape",
+        "line_number": 2560,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 131,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/_mixin.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/_mixin.py",
+        "class_name": "_MultiMixin",
+        "method_name": "fit_transform",
+        "line_number": 31,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/_mixin.py",
+        "class_name": "_LabelMaskerMixin",
+        "method_name": "n_elements_",
+        "line_number": 232,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/_mixin.py",
+        "class_name": "MaskerReportMixin",
+        "method_name": "generate_report",
+        "line_number": 424,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/base_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/base_masker.py",
+        "class_name": "_BaseMasker",
+        "method_name": "_n_features_out",
+        "line_number": 306,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/maskers/base_masker.py",
+        "class_name": "_BaseMasker",
+        "method_name": null,
+        "line_number": 295,
+        "evidence": [
+          "Abstract base with subclasses: BaseMasker, _BaseSurfaceMasker"
+        ],
+        "related_classes": [
+          "BaseMasker",
+          "_BaseSurfaceMasker"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/maskers/base_masker.py",
+        "class_name": "BaseMasker",
+        "method_name": "_create_brainsprite",
+        "line_number": 632,
+        "evidence": [
+          "Factory method detected: _create_brainsprite"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/base_masker.py",
+        "class_name": "BaseMasker",
+        "method_name": "fit",
+        "line_number": 325,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/base_masker.py",
+        "class_name": "_BaseSurfaceMasker",
+        "method_name": "fit",
+        "line_number": 740,
+        "evidence": [
+          "Method uses decorators: ['abc.abstractmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3,
+      "TemplateMethod": 1,
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/multi_nifti_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/multi_nifti_masker.py",
+        "class_name": "MultiNiftiMasker",
+        "method_name": "transform_imgs",
+        "line_number": 358,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/multi_surface_labels_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/multi_surface_labels_masker.py",
+        "class_name": "MultiSurfaceLabelsMasker",
+        "method_name": "fit",
+        "line_number": 171,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/multi_surface_maps_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/multi_surface_maps_masker.py",
+        "class_name": "MultiSurfaceMapsMasker",
+        "method_name": "fit",
+        "line_number": 138,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/multi_surface_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/multi_surface_masker.py",
+        "class_name": "MultiSurfaceMasker",
+        "method_name": "fit",
+        "line_number": 127,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/nifti_labels_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nilearn/nilearn/maskers/nifti_labels_masker.py",
+        "class_name": "_ExtractionFunctor",
+        "method_name": null,
+        "line_number": 39,
+        "evidence": [
+          "Class name suggests Command: _ExtractionFunctor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/maskers/nifti_labels_masker.py",
+        "class_name": "NiftiLabelsMasker",
+        "method_name": "_create_figure_for_report",
+        "line_number": 409,
+        "evidence": [
+          "Factory method detected: _create_figure_for_report"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/nifti_labels_masker.py",
+        "class_name": "NiftiLabelsMasker",
+        "method_name": "_region_id_name",
+        "line_number": 280,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1,
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/nifti_maps_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nilearn/nilearn/maskers/nifti_maps_masker.py",
+        "class_name": "_ExtractionFunctor",
+        "method_name": null,
+        "line_number": 36,
+        "evidence": [
+          "Class name suggests Command: _ExtractionFunctor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/maskers/nifti_maps_masker.py",
+        "class_name": "NiftiMapsMasker",
+        "method_name": "_create_figure_for_report",
+        "line_number": 289,
+        "evidence": [
+          "Factory method detected: _create_figure_for_report"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/nifti_maps_masker.py",
+        "class_name": "NiftiMapsMasker",
+        "method_name": "fit_transform",
+        "line_number": 459,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1,
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/nifti_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nilearn/nilearn/maskers/nifti_masker.py",
+        "class_name": "_ExtractionFunctor",
+        "method_name": null,
+        "line_number": 36,
+        "evidence": [
+          "Class name suggests Command: _ExtractionFunctor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/maskers/nifti_masker.py",
+        "class_name": "NiftiMasker",
+        "method_name": "_create_figure_for_report",
+        "line_number": 422,
+        "evidence": [
+          "Factory method detected: _create_figure_for_report"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/nifti_masker.py",
+        "class_name": "NiftiMasker",
+        "method_name": "transform_single_imgs",
+        "line_number": 634,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1,
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/nifti_spheres_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nilearn/nilearn/maskers/nifti_spheres_masker.py",
+        "class_name": "_ExtractionFunctor",
+        "method_name": null,
+        "line_number": 197,
+        "evidence": [
+          "Class name suggests Command: _ExtractionFunctor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/maskers/nifti_spheres_masker.py",
+        "class_name": "NiftiSpheresMasker",
+        "method_name": "_create_figure_for_report",
+        "line_number": 454,
+        "evidence": [
+          "Factory method detected: _create_figure_for_report"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/nifti_spheres_masker.py",
+        "class_name": "NiftiSpheresMasker",
+        "method_name": "fit_transform",
+        "line_number": 559,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1,
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/surface_labels_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/maskers/surface_labels_masker.py",
+        "class_name": "SurfaceLabelsMasker",
+        "method_name": "_create_figure_for_report",
+        "line_number": 484,
+        "evidence": [
+          "Factory method detected: _create_figure_for_report"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/surface_labels_masker.py",
+        "class_name": "SurfaceLabelsMasker",
+        "method_name": "fit",
+        "line_number": 218,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/surface_maps_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/maskers/surface_maps_masker.py",
+        "class_name": "SurfaceMapsMasker",
+        "method_name": "_create_figure_for_report",
+        "line_number": 480,
+        "evidence": [
+          "Factory method detected: _create_figure_for_report"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/surface_maps_masker.py",
+        "class_name": "SurfaceMapsMasker",
+        "method_name": "fit",
+        "line_number": 182,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/maskers/surface_masker.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/maskers/surface_masker.py",
+        "class_name": "SurfaceMasker",
+        "method_name": "_create_figure_for_report",
+        "line_number": 387,
+        "evidence": [
+          "Factory method detected: _create_figure_for_report"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/maskers/surface_masker.py",
+        "class_name": "SurfaceMasker",
+        "method_name": "fit",
+        "line_number": 196,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/plotting/displays/_axes.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/plotting/displays/_axes.py",
+        "class_name": "BaseAxes",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Abstract base with subclasses: CutAxes, GlassBrainAxes"
+        ],
+        "related_classes": [
+          "CutAxes",
+          "GlassBrainAxes"
+        ]
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/plotting/displays/_figures.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/plotting/displays/_figures.py",
+        "class_name": "PlotlySurfaceFigure",
+        "method_name": "_faces",
+        "line_number": 88,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/plotting/displays/_projectors.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/plotting/displays/_projectors.py",
+        "class_name": "OrthoProjector",
+        "method_name": "find_cut_coords",
+        "line_number": 52,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 14,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/plotting/displays/_slicers.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/plotting/displays/_slicers.py",
+        "class_name": "BaseSlicer",
+        "method_name": "brain_color",
+        "line_number": 89,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/plotting/displays/_slicers.py",
+        "class_name": "BaseSlicer",
+        "method_name": null,
+        "line_number": 36,
+        "evidence": [
+          "Abstract base with subclasses: _MultiDSlicer, BaseStackedSlicer"
+        ],
+        "related_classes": [
+          "_MultiDSlicer",
+          "BaseStackedSlicer",
+          "MosaicSlicer"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/plotting/displays/_slicers.py",
+        "class_name": "_MultiDSlicer",
+        "method_name": "_get_coords_in_bounds",
+        "line_number": 1229,
+        "evidence": [
+          "Factory method detected: _get_coords_in_bounds"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/plotting/displays/_slicers.py",
+        "class_name": "_MultiDSlicer",
+        "method_name": "find_cut_coords",
+        "line_number": 1136,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/plotting/displays/_slicers.py",
+        "class_name": "BaseStackedSlicer",
+        "method_name": "_get_coords_in_bounds",
+        "line_number": 1888,
+        "evidence": [
+          "Factory method detected: _get_coords_in_bounds"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/plotting/displays/_slicers.py",
+        "class_name": "BaseStackedSlicer",
+        "method_name": "find_cut_coords",
+        "line_number": 1790,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/plotting/displays/_slicers.py",
+        "class_name": "BaseStackedSlicer",
+        "method_name": null,
+        "line_number": 1776,
+        "evidence": [
+          "Abstract base with subclasses: XSlicer, YSlicer"
+        ],
+        "related_classes": [
+          "XSlicer",
+          "YSlicer",
+          "ZSlicer"
+        ]
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nilearn/nilearn/plotting/displays/_slicers.py",
+        "class_name": "MosaicSlicer",
+        "method_name": "_get_coords_in_bounds",
+        "line_number": 2472,
+        "evidence": [
+          "Factory method detected: _get_coords_in_bounds"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/plotting/displays/_slicers.py",
+        "class_name": "MosaicSlicer",
+        "method_name": "_sanitize_cut_coords",
+        "line_number": 2345,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 12,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4,
+      "TemplateMethod": 2,
+      "Factory": 3
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/plotting/image/utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/plotting/image/utils.py",
+        "class_name": "_MNI152Template",
+        "method_name": "_data_cache",
+        "line_number": 49,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/regions/hierarchical_kmeans_clustering.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/regions/hierarchical_kmeans_clustering.py",
+        "class_name": "HierarchicalKMeans",
+        "method_name": "fit",
+        "line_number": 273,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/regions/parcellations.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/regions/parcellations.py",
+        "class_name": "Parcellations",
+        "method_name": "n_elements_",
+        "line_number": 559,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/regions/region_extractor.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/regions/region_extractor.py",
+        "class_name": "RegionExtractor",
+        "method_name": "fit",
+        "line_number": 522,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/regions/rena_clustering.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/regions/rena_clustering.py",
+        "class_name": "ReNA",
+        "method_name": "fit",
+        "line_number": 723,
+        "evidence": [
+          "Method uses decorators: ['fill_doc']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 12,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/reporting/mixin.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/reporting/mixin.py",
+        "class_name": "ReportMixin",
+        "method_name": "_update_defaults",
+        "line_number": 86,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nilearn/nilearn/reporting/mixin.py",
+        "class_name": "ReportMixin",
+        "method_name": "_update_defaults",
+        "line_number": 86,
+        "evidence": [
+          "Observer method detected: _update_defaults"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nilearn/nilearn/surface/surface.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/surface/surface.py",
+        "class_name": "PolyData",
+        "method_name": "shape",
+        "line_number": 1400,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/surface/surface.py",
+        "class_name": "InMemoryMesh",
+        "method_name": "_area",
+        "line_number": 1611,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/surface/surface.py",
+        "class_name": "FileMesh",
+        "method_name": "coordinates",
+        "line_number": 1655,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nilearn/nilearn/surface/surface.py",
+        "class_name": "SurfaceImage",
+        "method_name": "shape",
+        "line_number": 1945,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 38,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 4
+    }
+  }
+]

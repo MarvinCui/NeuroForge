@@ -1,0 +1,357 @@
+{
+  "total_files": 48,
+  "categories": {
+    "authors": [
+      "AUTHORS.md"
+    ],
+    "contributing": [
+      "CONTRIBUTING.md"
+    ],
+    "overview": [
+      "README.md"
+    ],
+    "community": [
+      "code-of-conduct.md"
+    ],
+    "other": [
+      "docs/readme.md",
+      "psychopy/changes/2023.1.0.md",
+      "psychopy/changes/2024.1.0.md",
+      "psychopy/demos/builder/Experiments/BART/README.md",
+      "psychopy/demos/builder/Experiments/BigFiveInventory/README.md",
+      "psychopy/demos/builder/Experiments/GoNoGo/readme.md",
+      "psychopy/demos/builder/Experiments/dragAndDrop/README.md",
+      "psychopy/demos/builder/Experiments/dragAndDrop/stimuli/readme.md",
+      "psychopy/demos/builder/Experiments/mentalRotation/README.md",
+      "psychopy/demos/builder/Experiments/navon/README.md",
+      "psychopy/demos/builder/Experiments/sternberg/README.md",
+      "psychopy/demos/builder/Experiments/stroop/README.md",
+      "psychopy/demos/builder/Experiments/stroopExtended/README.md",
+      "psychopy/demos/builder/Experiments/stroopVoice/README.md",
+      "psychopy/demos/builder/Hardware/EGI_netstation/README.md",
+      "psychopy/demos/builder/Hardware/camera/readme.md",
+      "psychopy/demos/builder/Hardware/eyetracking/readme.md",
+      "psychopy/demos/builder/Hardware/eyetracking_custom_cal/readme.md",
+      "psychopy/demos/builder/Hardware/fMRI/readme.md",
+      "psychopy/demos/builder/Hardware/microphone/readme.md",
+      "psychopy/demos/builder/Hardware/pump/README.md",
+      "psychopy/demos/builder/Helper Tools/achorVSalignment/readme.md",
+      "psychopy/demos/builder/Helper Tools/clockFace/README.md",
+      "psychopy/demos/builder/Helper Tools/colors/README.md",
+      "psychopy/demos/builder/Helper Tools/drawPolygon/README.md",
+      "psychopy/demos/builder/Helper Tools/keyNameFinder/README.md",
+      "psychopy/demos/builder/Helper Tools/spatialUnits/README.md",
+      "psychopy/localization/README.md",
+      "psychopy/localization/locales/README.md",
+      "psychopy/tests/README.md"
+    ],
+    "architecture": [
+      "psychopy/demos/builder/Design Templates/branchedExperiment/README.md",
+      "psychopy/demos/builder/Design Templates/dualWindow/readme.md",
+      "psychopy/demos/builder/Design Templates/psychophysicsStaircase/README.md",
+      "psychopy/demos/builder/Design Templates/psychophysicsStairsInterleaved/README.md",
+      "psychopy/demos/builder/Design Templates/randomisedBlocks/README.md",
+      "psychopy/demos/builder/Hardware/Eyetracking_visual_search/readme.md"
+    ],
+    "features": [
+      "psychopy/demos/builder/Feature Demos/buttonBox/readme.md",
+      "psychopy/demos/builder/Feature Demos/gratings/readme.md",
+      "psychopy/demos/builder/Feature Demos/movies/readme.md",
+      "psychopy/demos/builder/Feature Demos/noise/readme.md",
+      "psychopy/demos/builder/Feature Demos/pilotMode/readme.md",
+      "psychopy/demos/builder/Feature Demos/progress/readme.md",
+      "psychopy/demos/builder/Feature Demos/sliders/README.md",
+      "psychopy/demos/builder/Feature Demos/visualValidator/readme.md"
+    ]
+  },
+  "files": [
+    {
+      "path": "AUTHORS.md",
+      "filename": "AUTHORS.md",
+      "category": "authors",
+      "size_bytes": 2395
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "contributing",
+      "size_bytes": 2830
+    },
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 2826
+    },
+    {
+      "path": "code-of-conduct.md",
+      "filename": "code-of-conduct.md",
+      "category": "community",
+      "size_bytes": 5455
+    },
+    {
+      "path": "docs/readme.md",
+      "filename": "readme.md",
+      "category": "other",
+      "size_bytes": 123
+    },
+    {
+      "path": "psychopy/changes/2023.1.0.md",
+      "filename": "2023.1.0.md",
+      "category": "other",
+      "size_bytes": 510
+    },
+    {
+      "path": "psychopy/changes/2024.1.0.md",
+      "filename": "2024.1.0.md",
+      "category": "other",
+      "size_bytes": 990
+    },
+    {
+      "path": "psychopy/demos/builder/Design Templates/branchedExperiment/README.md",
+      "filename": "README.md",
+      "category": "architecture",
+      "size_bytes": 492
+    },
+    {
+      "path": "psychopy/demos/builder/Design Templates/dualWindow/readme.md",
+      "filename": "readme.md",
+      "category": "architecture",
+      "size_bytes": 1600
+    },
+    {
+      "path": "psychopy/demos/builder/Design Templates/psychophysicsStaircase/README.md",
+      "filename": "README.md",
+      "category": "architecture",
+      "size_bytes": 1480
+    },
+    {
+      "path": "psychopy/demos/builder/Design Templates/psychophysicsStairsInterleaved/README.md",
+      "filename": "README.md",
+      "category": "architecture",
+      "size_bytes": 1768
+    },
+    {
+      "path": "psychopy/demos/builder/Design Templates/randomisedBlocks/README.md",
+      "filename": "README.md",
+      "category": "architecture",
+      "size_bytes": 1639
+    },
+    {
+      "path": "psychopy/demos/builder/Experiments/BART/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1235
+    },
+    {
+      "path": "psychopy/demos/builder/Experiments/BigFiveInventory/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1765
+    },
+    {
+      "path": "psychopy/demos/builder/Experiments/GoNoGo/readme.md",
+      "filename": "readme.md",
+      "category": "other",
+      "size_bytes": 573
+    },
+    {
+      "path": "psychopy/demos/builder/Experiments/dragAndDrop/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 448
+    },
+    {
+      "path": "psychopy/demos/builder/Experiments/dragAndDrop/stimuli/readme.md",
+      "filename": "readme.md",
+      "category": "other",
+      "size_bytes": 240
+    },
+    {
+      "path": "psychopy/demos/builder/Experiments/mentalRotation/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 893
+    },
+    {
+      "path": "psychopy/demos/builder/Experiments/navon/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1096
+    },
+    {
+      "path": "psychopy/demos/builder/Experiments/sternberg/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1256
+    },
+    {
+      "path": "psychopy/demos/builder/Experiments/stroop/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1323
+    },
+    {
+      "path": "psychopy/demos/builder/Experiments/stroopExtended/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1341
+    },
+    {
+      "path": "psychopy/demos/builder/Experiments/stroopVoice/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2468
+    },
+    {
+      "path": "psychopy/demos/builder/Feature Demos/buttonBox/readme.md",
+      "filename": "readme.md",
+      "category": "features",
+      "size_bytes": 644
+    },
+    {
+      "path": "psychopy/demos/builder/Feature Demos/gratings/readme.md",
+      "filename": "readme.md",
+      "category": "features",
+      "size_bytes": 327
+    },
+    {
+      "path": "psychopy/demos/builder/Feature Demos/movies/readme.md",
+      "filename": "readme.md",
+      "category": "features",
+      "size_bytes": 181
+    },
+    {
+      "path": "psychopy/demos/builder/Feature Demos/noise/readme.md",
+      "filename": "readme.md",
+      "category": "features",
+      "size_bytes": 121
+    },
+    {
+      "path": "psychopy/demos/builder/Feature Demos/pilotMode/readme.md",
+      "filename": "readme.md",
+      "category": "features",
+      "size_bytes": 706
+    },
+    {
+      "path": "psychopy/demos/builder/Feature Demos/progress/readme.md",
+      "filename": "readme.md",
+      "category": "features",
+      "size_bytes": 264
+    },
+    {
+      "path": "psychopy/demos/builder/Feature Demos/sliders/README.md",
+      "filename": "README.md",
+      "category": "features",
+      "size_bytes": 394
+    },
+    {
+      "path": "psychopy/demos/builder/Feature Demos/visualValidator/readme.md",
+      "filename": "readme.md",
+      "category": "features",
+      "size_bytes": 1724
+    },
+    {
+      "path": "psychopy/demos/builder/Hardware/EGI_netstation/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1530
+    },
+    {
+      "path": "psychopy/demos/builder/Hardware/Eyetracking_visual_search/readme.md",
+      "filename": "readme.md",
+      "category": "architecture",
+      "size_bytes": 1260
+    },
+    {
+      "path": "psychopy/demos/builder/Hardware/camera/readme.md",
+      "filename": "readme.md",
+      "category": "other",
+      "size_bytes": 303
+    },
+    {
+      "path": "psychopy/demos/builder/Hardware/eyetracking/readme.md",
+      "filename": "readme.md",
+      "category": "other",
+      "size_bytes": 1184
+    },
+    {
+      "path": "psychopy/demos/builder/Hardware/eyetracking_custom_cal/readme.md",
+      "filename": "readme.md",
+      "category": "other",
+      "size_bytes": 1184
+    },
+    {
+      "path": "psychopy/demos/builder/Hardware/fMRI/readme.md",
+      "filename": "readme.md",
+      "category": "other",
+      "size_bytes": 491
+    },
+    {
+      "path": "psychopy/demos/builder/Hardware/microphone/readme.md",
+      "filename": "readme.md",
+      "category": "other",
+      "size_bytes": 530
+    },
+    {
+      "path": "psychopy/demos/builder/Hardware/pump/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1629
+    },
+    {
+      "path": "psychopy/demos/builder/Helper Tools/achorVSalignment/readme.md",
+      "filename": "readme.md",
+      "category": "other",
+      "size_bytes": 307
+    },
+    {
+      "path": "psychopy/demos/builder/Helper Tools/clockFace/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 271
+    },
+    {
+      "path": "psychopy/demos/builder/Helper Tools/colors/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 608
+    },
+    {
+      "path": "psychopy/demos/builder/Helper Tools/drawPolygon/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 693
+    },
+    {
+      "path": "psychopy/demos/builder/Helper Tools/keyNameFinder/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 378
+    },
+    {
+      "path": "psychopy/demos/builder/Helper Tools/spatialUnits/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 979
+    },
+    {
+      "path": "psychopy/localization/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 4060
+    },
+    {
+      "path": "psychopy/localization/locales/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 571
+    },
+    {
+      "path": "psychopy/tests/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 16729
+    }
+  ]
+}

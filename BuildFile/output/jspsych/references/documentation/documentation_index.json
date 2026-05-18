@@ -1,0 +1,1568 @@
+{
+  "total_files": 221,
+  "categories": {
+    "other": [
+      ".changeset/README.md",
+      "docs/about/about.md",
+      "docs/about/license.md",
+      "docs/developers/configuration.md",
+      "docs/developers/contributing.md",
+      "docs/developers/documentation.md",
+      "docs/developers/extension-development.md",
+      "docs/developers/plugin-development.md",
+      "docs/extensions/list-of-extensions.md",
+      "docs/extensions/mouse-tracking.md",
+      "docs/extensions/record-video.md",
+      "docs/extensions/webgazer.md",
+      "docs/index.md",
+      "docs/newsletter/subscribe.md",
+      "docs/overview/browser-device-support.md",
+      "docs/overview/building-surveys.md",
+      "docs/overview/data.md",
+      "docs/overview/dynamic-parameters.md",
+      "docs/overview/events.md",
+      "docs/overview/exclude-browser.md",
+      "docs/overview/experiment-options.md",
+      "docs/overview/extensions.md",
+      "docs/overview/eye-tracking.md",
+      "docs/overview/fullscreen.md",
+      "docs/overview/media-preloading.md",
+      "docs/overview/mturk.md",
+      "docs/overview/plugins.md",
+      "docs/overview/progress-bar.md",
+      "docs/overview/prolific.md",
+      "docs/overview/record-browser-interactions.md",
+      "docs/overview/running-experiments.md",
+      "docs/overview/simulation.md",
+      "docs/overview/style.md",
+      "docs/overview/timeline.md",
+      "docs/overview/timing-accuracy.md",
+      "docs/plugins/animation.md",
+      "docs/plugins/audio-button-response.md",
+      "docs/plugins/audio-keyboard-response.md",
+      "docs/plugins/audio-slider-response.md",
+      "docs/plugins/browser-check.md",
+      "docs/plugins/call-function.md",
+      "docs/plugins/canvas-button-response.md",
+      "docs/plugins/canvas-keyboard-response.md",
+      "docs/plugins/canvas-slider-response.md",
+      "docs/plugins/categorize-animation.md",
+      "docs/plugins/categorize-html.md",
+      "docs/plugins/categorize-image.md",
+      "docs/plugins/cloze.md",
+      "docs/plugins/external-html.md",
+      "docs/plugins/free-sort.md",
+      "docs/plugins/fullscreen.md",
+      "docs/plugins/html-audio-response.md",
+      "docs/plugins/html-button-response.md",
+      "docs/plugins/html-keyboard-response.md",
+      "docs/plugins/html-slider-response.md",
+      "docs/plugins/html-video-response.md",
+      "docs/plugins/iat-html.md",
+      "docs/plugins/iat-image.md",
+      "docs/plugins/image-button-response.md",
+      "docs/plugins/image-keyboard-response.md",
+      "docs/plugins/image-slider-response.md",
+      "docs/plugins/initialize-camera.md",
+      "docs/plugins/initialize-microphone.md",
+      "docs/plugins/instructions.md",
+      "docs/plugins/list-of-plugins.md",
+      "docs/plugins/maxdiff.md",
+      "docs/plugins/mirror-camera.md",
+      "docs/plugins/preload.md",
+      "docs/plugins/reconstruction.md",
+      "docs/plugins/resize.md",
+      "docs/plugins/same-different-html.md",
+      "docs/plugins/same-different-image.md",
+      "docs/plugins/serial-reaction-time-mouse.md",
+      "docs/plugins/serial-reaction-time.md",
+      "docs/plugins/sketchpad.md",
+      "docs/plugins/survey-html-form.md",
+      "docs/plugins/survey-likert.md",
+      "docs/plugins/survey-multi-choice.md",
+      "docs/plugins/survey-multi-select.md",
+      "docs/plugins/survey-text.md",
+      "docs/plugins/survey.md",
+      "docs/plugins/video-button-response.md",
+      "docs/plugins/video-keyboard-response.md",
+      "docs/plugins/video-slider-response.md",
+      "docs/plugins/virtual-chinrest.md",
+      "docs/plugins/visual-search-circle.md",
+      "docs/plugins/webgazer-calibrate.md",
+      "docs/plugins/webgazer-init-camera.md",
+      "docs/plugins/webgazer-validate.md",
+      "docs/support/migration-v7.md",
+      "docs/support/migration-v8.md",
+      "docs/support/support.md",
+      "packages/config/CHANGELOG.md",
+      "packages/extension-mouse-tracking/CHANGELOG.md",
+      "packages/extension-mouse-tracking/README.md",
+      "packages/extension-record-video/CHANGELOG.md",
+      "packages/extension-record-video/README.md",
+      "packages/extension-webgazer/CHANGELOG.md",
+      "packages/extension-webgazer/README.md",
+      "packages/jspsych/CHANGELOG.md",
+      "packages/plugin-animation/CHANGELOG.md",
+      "packages/plugin-animation/README.md",
+      "packages/plugin-audio-button-response/CHANGELOG.md",
+      "packages/plugin-audio-button-response/README.md",
+      "packages/plugin-audio-keyboard-response/CHANGELOG.md",
+      "packages/plugin-audio-keyboard-response/README.md",
+      "packages/plugin-audio-slider-response/CHANGELOG.md",
+      "packages/plugin-audio-slider-response/README.md",
+      "packages/plugin-browser-check/CHANGELOG.md",
+      "packages/plugin-browser-check/README.md",
+      "packages/plugin-call-function/CHANGELOG.md",
+      "packages/plugin-call-function/README.md",
+      "packages/plugin-canvas-button-response/CHANGELOG.md",
+      "packages/plugin-canvas-button-response/README.md",
+      "packages/plugin-canvas-keyboard-response/CHANGELOG.md",
+      "packages/plugin-canvas-keyboard-response/README.md",
+      "packages/plugin-canvas-slider-response/CHANGELOG.md",
+      "packages/plugin-canvas-slider-response/README.md",
+      "packages/plugin-categorize-animation/CHANGELOG.md",
+      "packages/plugin-categorize-animation/README.md",
+      "packages/plugin-categorize-html/CHANGELOG.md",
+      "packages/plugin-categorize-html/README.md",
+      "packages/plugin-categorize-image/CHANGELOG.md",
+      "packages/plugin-categorize-image/README.md",
+      "packages/plugin-cloze/CHANGELOG.md",
+      "packages/plugin-cloze/README.md",
+      "packages/plugin-external-html/CHANGELOG.md",
+      "packages/plugin-external-html/README.md",
+      "packages/plugin-free-sort/CHANGELOG.md",
+      "packages/plugin-free-sort/README.md",
+      "packages/plugin-fullscreen/CHANGELOG.md",
+      "packages/plugin-fullscreen/README.md",
+      "packages/plugin-html-audio-response/CHANGELOG.md",
+      "packages/plugin-html-audio-response/README.md",
+      "packages/plugin-html-button-response/CHANGELOG.md",
+      "packages/plugin-html-button-response/README.md",
+      "packages/plugin-html-keyboard-response/CHANGELOG.md",
+      "packages/plugin-html-keyboard-response/README.md",
+      "packages/plugin-html-slider-response/CHANGELOG.md",
+      "packages/plugin-html-slider-response/README.md",
+      "packages/plugin-html-video-response/CHANGELOG.md",
+      "packages/plugin-html-video-response/README.md",
+      "packages/plugin-iat-html/CHANGELOG.md",
+      "packages/plugin-iat-html/README.md",
+      "packages/plugin-iat-image/CHANGELOG.md",
+      "packages/plugin-iat-image/README.md",
+      "packages/plugin-image-button-response/CHANGELOG.md",
+      "packages/plugin-image-button-response/README.md",
+      "packages/plugin-image-keyboard-response/CHANGELOG.md",
+      "packages/plugin-image-keyboard-response/README.md",
+      "packages/plugin-image-slider-response/CHANGELOG.md",
+      "packages/plugin-image-slider-response/README.md",
+      "packages/plugin-initialize-camera/CHANGELOG.md",
+      "packages/plugin-initialize-camera/README.md",
+      "packages/plugin-initialize-microphone/CHANGELOG.md",
+      "packages/plugin-initialize-microphone/README.md",
+      "packages/plugin-instructions/CHANGELOG.md",
+      "packages/plugin-instructions/README.md",
+      "packages/plugin-maxdiff/CHANGELOG.md",
+      "packages/plugin-maxdiff/README.md",
+      "packages/plugin-mirror-camera/CHANGELOG.md",
+      "packages/plugin-mirror-camera/README.md",
+      "packages/plugin-preload/CHANGELOG.md",
+      "packages/plugin-preload/README.md",
+      "packages/plugin-reconstruction/CHANGELOG.md",
+      "packages/plugin-reconstruction/README.md",
+      "packages/plugin-resize/CHANGELOG.md",
+      "packages/plugin-resize/README.md",
+      "packages/plugin-same-different-html/CHANGELOG.md",
+      "packages/plugin-same-different-html/README.md",
+      "packages/plugin-same-different-image/CHANGELOG.md",
+      "packages/plugin-same-different-image/README.md",
+      "packages/plugin-serial-reaction-time/CHANGELOG.md",
+      "packages/plugin-serial-reaction-time/README.md",
+      "packages/plugin-serial-reaction-time-mouse/CHANGELOG.md",
+      "packages/plugin-serial-reaction-time-mouse/README.md",
+      "packages/plugin-sketchpad/CHANGELOG.md",
+      "packages/plugin-sketchpad/README.md",
+      "packages/plugin-survey/CHANGELOG.md",
+      "packages/plugin-survey/README.md",
+      "packages/plugin-survey-html-form/CHANGELOG.md",
+      "packages/plugin-survey-html-form/README.md",
+      "packages/plugin-survey-likert/CHANGELOG.md",
+      "packages/plugin-survey-likert/README.md",
+      "packages/plugin-survey-multi-choice/CHANGELOG.md",
+      "packages/plugin-survey-multi-choice/README.md",
+      "packages/plugin-survey-multi-select/CHANGELOG.md",
+      "packages/plugin-survey-multi-select/README.md",
+      "packages/plugin-survey-text/CHANGELOG.md",
+      "packages/plugin-survey-text/README.md",
+      "packages/plugin-video-button-response/CHANGELOG.md",
+      "packages/plugin-video-button-response/README.md",
+      "packages/plugin-video-keyboard-response/CHANGELOG.md",
+      "packages/plugin-video-keyboard-response/README.md",
+      "packages/plugin-video-slider-response/CHANGELOG.md",
+      "packages/plugin-video-slider-response/README.md",
+      "packages/plugin-virtual-chinrest/CHANGELOG.md",
+      "packages/plugin-virtual-chinrest/README.md",
+      "packages/plugin-webgazer-calibrate/CHANGELOG.md",
+      "packages/plugin-webgazer-calibrate/README.md",
+      "packages/plugin-webgazer-init-camera/CHANGELOG.md",
+      "packages/plugin-webgazer-init-camera/README.md",
+      "packages/plugin-webgazer-validate/CHANGELOG.md",
+      "packages/plugin-webgazer-validate/README.md",
+      "packages/test-utils/CHANGELOG.md",
+      "packages/test-utils/README.md"
+    ],
+    "overview": [
+      "README.md",
+      "contributors.md"
+    ],
+    "community": [
+      "code-of-conduct.md"
+    ],
+    "api": [
+      "docs/reference/jspsych-data.md",
+      "docs/reference/jspsych-pluginAPI.md",
+      "docs/reference/jspsych-randomization.md",
+      "docs/reference/jspsych-turk.md",
+      "docs/reference/jspsych-utils.md",
+      "docs/reference/jspsych.md"
+    ],
+    "guides": [
+      "docs/tutorials/community-tutorials.md",
+      "docs/tutorials/hello-world.md",
+      "docs/tutorials/rt-task.md"
+    ],
+    "examples": [
+      "examples/README-template.md"
+    ],
+    "architecture": [
+      "packages/plugin-visual-search-circle/CHANGELOG.md",
+      "packages/plugin-visual-search-circle/README.md"
+    ]
+  },
+  "files": [
+    {
+      "path": ".changeset/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 510
+    },
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 4791
+    },
+    {
+      "path": "code-of-conduct.md",
+      "filename": "code-of-conduct.md",
+      "category": "community",
+      "size_bytes": 7383
+    },
+    {
+      "path": "contributors.md",
+      "filename": "contributors.md",
+      "category": "overview",
+      "size_bytes": 3618
+    },
+    {
+      "path": "docs/about/about.md",
+      "filename": "about.md",
+      "category": "other",
+      "size_bytes": 2615
+    },
+    {
+      "path": "docs/about/license.md",
+      "filename": "license.md",
+      "category": "other",
+      "size_bytes": 143
+    },
+    {
+      "path": "docs/developers/configuration.md",
+      "filename": "configuration.md",
+      "category": "other",
+      "size_bytes": 7111
+    },
+    {
+      "path": "docs/developers/contributing.md",
+      "filename": "contributing.md",
+      "category": "other",
+      "size_bytes": 6635
+    },
+    {
+      "path": "docs/developers/documentation.md",
+      "filename": "documentation.md",
+      "category": "other",
+      "size_bytes": 2045
+    },
+    {
+      "path": "docs/developers/extension-development.md",
+      "filename": "extension-development.md",
+      "category": "other",
+      "size_bytes": 7953
+    },
+    {
+      "path": "docs/developers/plugin-development.md",
+      "filename": "plugin-development.md",
+      "category": "other",
+      "size_bytes": 19029
+    },
+    {
+      "path": "docs/extensions/list-of-extensions.md",
+      "filename": "list-of-extensions.md",
+      "category": "other",
+      "size_bytes": 757
+    },
+    {
+      "path": "docs/extensions/mouse-tracking.md",
+      "filename": "mouse-tracking.md",
+      "category": "other",
+      "size_bytes": 5653
+    },
+    {
+      "path": "docs/extensions/record-video.md",
+      "filename": "record-video.md",
+      "category": "other",
+      "size_bytes": 2860
+    },
+    {
+      "path": "docs/extensions/webgazer.md",
+      "filename": "webgazer.md",
+      "category": "other",
+      "size_bytes": 8634
+    },
+    {
+      "path": "docs/index.md",
+      "filename": "index.md",
+      "category": "other",
+      "size_bytes": 1139
+    },
+    {
+      "path": "docs/newsletter/subscribe.md",
+      "filename": "subscribe.md",
+      "category": "other",
+      "size_bytes": 907
+    },
+    {
+      "path": "docs/overview/browser-device-support.md",
+      "filename": "browser-device-support.md",
+      "category": "other",
+      "size_bytes": 4004
+    },
+    {
+      "path": "docs/overview/building-surveys.md",
+      "filename": "building-surveys.md",
+      "category": "other",
+      "size_bytes": 32096
+    },
+    {
+      "path": "docs/overview/data.md",
+      "filename": "data.md",
+      "category": "other",
+      "size_bytes": 13719
+    },
+    {
+      "path": "docs/overview/dynamic-parameters.md",
+      "filename": "dynamic-parameters.md",
+      "category": "other",
+      "size_bytes": 7004
+    },
+    {
+      "path": "docs/overview/events.md",
+      "filename": "events.md",
+      "category": "other",
+      "size_bytes": 6263
+    },
+    {
+      "path": "docs/overview/exclude-browser.md",
+      "filename": "exclude-browser.md",
+      "category": "other",
+      "size_bytes": 826
+    },
+    {
+      "path": "docs/overview/experiment-options.md",
+      "filename": "experiment-options.md",
+      "category": "other",
+      "size_bytes": 8358
+    },
+    {
+      "path": "docs/overview/extensions.md",
+      "filename": "extensions.md",
+      "category": "other",
+      "size_bytes": 1418
+    },
+    {
+      "path": "docs/overview/eye-tracking.md",
+      "filename": "eye-tracking.md",
+      "category": "other",
+      "size_bytes": 18274
+    },
+    {
+      "path": "docs/overview/fullscreen.md",
+      "filename": "fullscreen.md",
+      "category": "other",
+      "size_bytes": 1027
+    },
+    {
+      "path": "docs/overview/media-preloading.md",
+      "filename": "media-preloading.md",
+      "category": "other",
+      "size_bytes": 15742
+    },
+    {
+      "path": "docs/overview/mturk.md",
+      "filename": "mturk.md",
+      "category": "other",
+      "size_bytes": 5112
+    },
+    {
+      "path": "docs/overview/plugins.md",
+      "filename": "plugins.md",
+      "category": "other",
+      "size_bytes": 14523
+    },
+    {
+      "path": "docs/overview/progress-bar.md",
+      "filename": "progress-bar.md",
+      "category": "other",
+      "size_bytes": 3097
+    },
+    {
+      "path": "docs/overview/prolific.md",
+      "filename": "prolific.md",
+      "category": "other",
+      "size_bytes": 3715
+    },
+    {
+      "path": "docs/overview/record-browser-interactions.md",
+      "filename": "record-browser-interactions.md",
+      "category": "other",
+      "size_bytes": 1271
+    },
+    {
+      "path": "docs/overview/running-experiments.md",
+      "filename": "running-experiments.md",
+      "category": "other",
+      "size_bytes": 13676
+    },
+    {
+      "path": "docs/overview/simulation.md",
+      "filename": "simulation.md",
+      "category": "other",
+      "size_bytes": 8709
+    },
+    {
+      "path": "docs/overview/style.md",
+      "filename": "style.md",
+      "category": "other",
+      "size_bytes": 16183
+    },
+    {
+      "path": "docs/overview/timeline.md",
+      "filename": "timeline.md",
+      "category": "other",
+      "size_bytes": 24149
+    },
+    {
+      "path": "docs/overview/timing-accuracy.md",
+      "filename": "timing-accuracy.md",
+      "category": "other",
+      "size_bytes": 3848
+    },
+    {
+      "path": "docs/plugins/animation.md",
+      "filename": "animation.md",
+      "category": "other",
+      "size_bytes": 4889
+    },
+    {
+      "path": "docs/plugins/audio-button-response.md",
+      "filename": "audio-button-response.md",
+      "category": "other",
+      "size_bytes": 9256
+    },
+    {
+      "path": "docs/plugins/audio-keyboard-response.md",
+      "filename": "audio-keyboard-response.md",
+      "category": "other",
+      "size_bytes": 7262
+    },
+    {
+      "path": "docs/plugins/audio-slider-response.md",
+      "filename": "audio-slider-response.md",
+      "category": "other",
+      "size_bytes": 7733
+    },
+    {
+      "path": "docs/plugins/browser-check.md",
+      "filename": "browser-check.md",
+      "category": "other",
+      "size_bytes": 12225
+    },
+    {
+      "path": "docs/plugins/call-function.md",
+      "filename": "call-function.md",
+      "category": "other",
+      "size_bytes": 4992
+    },
+    {
+      "path": "docs/plugins/canvas-button-response.md",
+      "filename": "canvas-button-response.md",
+      "category": "other",
+      "size_bytes": 10806
+    },
+    {
+      "path": "docs/plugins/canvas-keyboard-response.md",
+      "filename": "canvas-keyboard-response.md",
+      "category": "other",
+      "size_bytes": 7291
+    },
+    {
+      "path": "docs/plugins/canvas-slider-response.md",
+      "filename": "canvas-slider-response.md",
+      "category": "other",
+      "size_bytes": 7567
+    },
+    {
+      "path": "docs/plugins/categorize-animation.md",
+      "filename": "categorize-animation.md",
+      "category": "other",
+      "size_bytes": 7188
+    },
+    {
+      "path": "docs/plugins/categorize-html.md",
+      "filename": "categorize-html.md",
+      "category": "other",
+      "size_bytes": 6553
+    },
+    {
+      "path": "docs/plugins/categorize-image.md",
+      "filename": "categorize-image.md",
+      "category": "other",
+      "size_bytes": 6547
+    },
+    {
+      "path": "docs/plugins/cloze.md",
+      "filename": "cloze.md",
+      "category": "other",
+      "size_bytes": 6351
+    },
+    {
+      "path": "docs/plugins/external-html.md",
+      "filename": "external-html.md",
+      "category": "other",
+      "size_bytes": 4999
+    },
+    {
+      "path": "docs/plugins/free-sort.md",
+      "filename": "free-sort.md",
+      "category": "other",
+      "size_bytes": 7211
+    },
+    {
+      "path": "docs/plugins/fullscreen.md",
+      "filename": "fullscreen.md",
+      "category": "other",
+      "size_bytes": 4142
+    },
+    {
+      "path": "docs/plugins/html-audio-response.md",
+      "filename": "html-audio-response.md",
+      "category": "other",
+      "size_bytes": 10254
+    },
+    {
+      "path": "docs/plugins/html-button-response.md",
+      "filename": "html-button-response.md",
+      "category": "other",
+      "size_bytes": 7690
+    },
+    {
+      "path": "docs/plugins/html-keyboard-response.md",
+      "filename": "html-keyboard-response.md",
+      "category": "other",
+      "size_bytes": 5869
+    },
+    {
+      "path": "docs/plugins/html-slider-response.md",
+      "filename": "html-slider-response.md",
+      "category": "other",
+      "size_bytes": 5252
+    },
+    {
+      "path": "docs/plugins/html-video-response.md",
+      "filename": "html-video-response.md",
+      "category": "other",
+      "size_bytes": 8784
+    },
+    {
+      "path": "docs/plugins/iat-html.md",
+      "filename": "iat-html.md",
+      "category": "other",
+      "size_bytes": 6844
+    },
+    {
+      "path": "docs/plugins/iat-image.md",
+      "filename": "iat-image.md",
+      "category": "other",
+      "size_bytes": 6898
+    },
+    {
+      "path": "docs/plugins/image-button-response.md",
+      "filename": "image-button-response.md",
+      "category": "other",
+      "size_bytes": 6905
+    },
+    {
+      "path": "docs/plugins/image-keyboard-response.md",
+      "filename": "image-keyboard-response.md",
+      "category": "other",
+      "size_bytes": 7233
+    },
+    {
+      "path": "docs/plugins/image-slider-response.md",
+      "filename": "image-slider-response.md",
+      "category": "other",
+      "size_bytes": 5947
+    },
+    {
+      "path": "docs/plugins/initialize-camera.md",
+      "filename": "initialize-camera.md",
+      "category": "other",
+      "size_bytes": 4404
+    },
+    {
+      "path": "docs/plugins/initialize-microphone.md",
+      "filename": "initialize-microphone.md",
+      "category": "other",
+      "size_bytes": 3162
+    },
+    {
+      "path": "docs/plugins/instructions.md",
+      "filename": "instructions.md",
+      "category": "other",
+      "size_bytes": 6728
+    },
+    {
+      "path": "docs/plugins/list-of-plugins.md",
+      "filename": "list-of-plugins.md",
+      "category": "other",
+      "size_bytes": 10637
+    },
+    {
+      "path": "docs/plugins/maxdiff.md",
+      "filename": "maxdiff.md",
+      "category": "other",
+      "size_bytes": 4029
+    },
+    {
+      "path": "docs/plugins/mirror-camera.md",
+      "filename": "mirror-camera.md",
+      "category": "other",
+      "size_bytes": 3162
+    },
+    {
+      "path": "docs/plugins/preload.md",
+      "filename": "preload.md",
+      "category": "other",
+      "size_bytes": 13815
+    },
+    {
+      "path": "docs/plugins/reconstruction.md",
+      "filename": "reconstruction.md",
+      "category": "other",
+      "size_bytes": 4335
+    },
+    {
+      "path": "docs/plugins/resize.md",
+      "filename": "resize.md",
+      "category": "other",
+      "size_bytes": 3330
+    },
+    {
+      "path": "docs/plugins/same-different-html.md",
+      "filename": "same-different-html.md",
+      "category": "other",
+      "size_bytes": 5430
+    },
+    {
+      "path": "docs/plugins/same-different-image.md",
+      "filename": "same-different-image.md",
+      "category": "other",
+      "size_bytes": 5364
+    },
+    {
+      "path": "docs/plugins/serial-reaction-time-mouse.md",
+      "filename": "serial-reaction-time-mouse.md",
+      "category": "other",
+      "size_bytes": 6879
+    },
+    {
+      "path": "docs/plugins/serial-reaction-time.md",
+      "filename": "serial-reaction-time.md",
+      "category": "other",
+      "size_bytes": 8133
+    },
+    {
+      "path": "docs/plugins/sketchpad.md",
+      "filename": "sketchpad.md",
+      "category": "other",
+      "size_bytes": 10467
+    },
+    {
+      "path": "docs/plugins/survey-html-form.md",
+      "filename": "survey-html-form.md",
+      "category": "other",
+      "size_bytes": 5024
+    },
+    {
+      "path": "docs/plugins/survey-likert.md",
+      "filename": "survey-likert.md",
+      "category": "other",
+      "size_bytes": 6229
+    },
+    {
+      "path": "docs/plugins/survey-multi-choice.md",
+      "filename": "survey-multi-choice.md",
+      "category": "other",
+      "size_bytes": 6656
+    },
+    {
+      "path": "docs/plugins/survey-multi-select.md",
+      "filename": "survey-multi-select.md",
+      "category": "other",
+      "size_bytes": 5452
+    },
+    {
+      "path": "docs/plugins/survey-text.md",
+      "filename": "survey-text.md",
+      "category": "other",
+      "size_bytes": 6940
+    },
+    {
+      "path": "docs/plugins/survey.md",
+      "filename": "survey.md",
+      "category": "other",
+      "size_bytes": 46601
+    },
+    {
+      "path": "docs/plugins/video-button-response.md",
+      "filename": "video-button-response.md",
+      "category": "other",
+      "size_bytes": 9011
+    },
+    {
+      "path": "docs/plugins/video-keyboard-response.md",
+      "filename": "video-keyboard-response.md",
+      "category": "other",
+      "size_bytes": 8633
+    },
+    {
+      "path": "docs/plugins/video-slider-response.md",
+      "filename": "video-slider-response.md",
+      "category": "other",
+      "size_bytes": 8145
+    },
+    {
+      "path": "docs/plugins/virtual-chinrest.md",
+      "filename": "virtual-chinrest.md",
+      "category": "other",
+      "size_bytes": 18504
+    },
+    {
+      "path": "docs/plugins/visual-search-circle.md",
+      "filename": "visual-search-circle.md",
+      "category": "other",
+      "size_bytes": 8828
+    },
+    {
+      "path": "docs/plugins/webgazer-calibrate.md",
+      "filename": "webgazer-calibrate.md",
+      "category": "other",
+      "size_bytes": 3158
+    },
+    {
+      "path": "docs/plugins/webgazer-init-camera.md",
+      "filename": "webgazer-init-camera.md",
+      "category": "other",
+      "size_bytes": 2259
+    },
+    {
+      "path": "docs/plugins/webgazer-validate.md",
+      "filename": "webgazer-validate.md",
+      "category": "other",
+      "size_bytes": 4257
+    },
+    {
+      "path": "docs/reference/jspsych-data.md",
+      "filename": "jspsych-data.md",
+      "category": "api",
+      "size_bytes": 15552
+    },
+    {
+      "path": "docs/reference/jspsych-pluginAPI.md",
+      "filename": "jspsych-pluginAPI.md",
+      "category": "api",
+      "size_bytes": 32792
+    },
+    {
+      "path": "docs/reference/jspsych-randomization.md",
+      "filename": "jspsych-randomization.md",
+      "category": "api",
+      "size_bytes": 17709
+    },
+    {
+      "path": "docs/reference/jspsych-turk.md",
+      "filename": "jspsych-turk.md",
+      "category": "api",
+      "size_bytes": 3497
+    },
+    {
+      "path": "docs/reference/jspsych-utils.md",
+      "filename": "jspsych-utils.md",
+      "category": "api",
+      "size_bytes": 2227
+    },
+    {
+      "path": "docs/reference/jspsych.md",
+      "filename": "jspsych.md",
+      "category": "api",
+      "size_bytes": 20226
+    },
+    {
+      "path": "docs/support/migration-v7.md",
+      "filename": "migration-v7.md",
+      "category": "other",
+      "size_bytes": 6908
+    },
+    {
+      "path": "docs/support/migration-v8.md",
+      "filename": "migration-v8.md",
+      "category": "other",
+      "size_bytes": 8925
+    },
+    {
+      "path": "docs/support/support.md",
+      "filename": "support.md",
+      "category": "other",
+      "size_bytes": 1310
+    },
+    {
+      "path": "docs/tutorials/community-tutorials.md",
+      "filename": "community-tutorials.md",
+      "category": "guides",
+      "size_bytes": 7283
+    },
+    {
+      "path": "docs/tutorials/hello-world.md",
+      "filename": "hello-world.md",
+      "category": "guides",
+      "size_bytes": 16854
+    },
+    {
+      "path": "docs/tutorials/rt-task.md",
+      "filename": "rt-task.md",
+      "category": "guides",
+      "size_bytes": 56434
+    },
+    {
+      "path": "examples/README-template.md",
+      "filename": "README-template.md",
+      "category": "examples",
+      "size_bytes": 2635
+    },
+    {
+      "path": "packages/config/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 12653
+    },
+    {
+      "path": "packages/extension-mouse-tracking/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 2859
+    },
+    {
+      "path": "packages/extension-mouse-tracking/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3231
+    },
+    {
+      "path": "packages/extension-record-video/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 2337
+    },
+    {
+      "path": "packages/extension-record-video/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2821
+    },
+    {
+      "path": "packages/extension-webgazer/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4109
+    },
+    {
+      "path": "packages/extension-webgazer/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2854
+    },
+    {
+      "path": "packages/jspsych/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 26813
+    },
+    {
+      "path": "packages/plugin-animation/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5971
+    },
+    {
+      "path": "packages/plugin-animation/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2852
+    },
+    {
+      "path": "packages/plugin-audio-button-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 9420
+    },
+    {
+      "path": "packages/plugin-audio-button-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2973
+    },
+    {
+      "path": "packages/plugin-audio-keyboard-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 6103
+    },
+    {
+      "path": "packages/plugin-audio-keyboard-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2975
+    },
+    {
+      "path": "packages/plugin-audio-slider-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 7843
+    },
+    {
+      "path": "packages/plugin-audio-slider-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2990
+    },
+    {
+      "path": "packages/plugin-browser-check/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 3505
+    },
+    {
+      "path": "packages/plugin-browser-check/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3269
+    },
+    {
+      "path": "packages/plugin-call-function/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4821
+    },
+    {
+      "path": "packages/plugin-call-function/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2916
+    },
+    {
+      "path": "packages/plugin-canvas-button-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 7822
+    },
+    {
+      "path": "packages/plugin-canvas-button-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3191
+    },
+    {
+      "path": "packages/plugin-canvas-keyboard-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5133
+    },
+    {
+      "path": "packages/plugin-canvas-keyboard-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3193
+    },
+    {
+      "path": "packages/plugin-canvas-slider-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 6810
+    },
+    {
+      "path": "packages/plugin-canvas-slider-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3184
+    },
+    {
+      "path": "packages/plugin-categorize-animation/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4828
+    },
+    {
+      "path": "packages/plugin-categorize-animation/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2838
+    },
+    {
+      "path": "packages/plugin-categorize-html/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4823
+    },
+    {
+      "path": "packages/plugin-categorize-html/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2810
+    },
+    {
+      "path": "packages/plugin-categorize-image/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5123
+    },
+    {
+      "path": "packages/plugin-categorize-image/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2813
+    },
+    {
+      "path": "packages/plugin-cloze/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5442
+    },
+    {
+      "path": "packages/plugin-cloze/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2939
+    },
+    {
+      "path": "packages/plugin-external-html/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5899
+    },
+    {
+      "path": "packages/plugin-external-html/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2880
+    },
+    {
+      "path": "packages/plugin-free-sort/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5898
+    },
+    {
+      "path": "packages/plugin-free-sort/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3214
+    },
+    {
+      "path": "packages/plugin-fullscreen/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5492
+    },
+    {
+      "path": "packages/plugin-fullscreen/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3102
+    },
+    {
+      "path": "packages/plugin-html-audio-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 3570
+    },
+    {
+      "path": "packages/plugin-html-audio-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3271
+    },
+    {
+      "path": "packages/plugin-html-button-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 8501
+    },
+    {
+      "path": "packages/plugin-html-button-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2983
+    },
+    {
+      "path": "packages/plugin-html-keyboard-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4830
+    },
+    {
+      "path": "packages/plugin-html-keyboard-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2928
+    },
+    {
+      "path": "packages/plugin-html-slider-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 6213
+    },
+    {
+      "path": "packages/plugin-html-slider-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2927
+    },
+    {
+      "path": "packages/plugin-html-video-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 2745
+    },
+    {
+      "path": "packages/plugin-html-video-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3255
+    },
+    {
+      "path": "packages/plugin-iat-html/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4816
+    },
+    {
+      "path": "packages/plugin-iat-html/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2773
+    },
+    {
+      "path": "packages/plugin-iat-image/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4817
+    },
+    {
+      "path": "packages/plugin-iat-image/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2771
+    },
+    {
+      "path": "packages/plugin-image-button-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 7917
+    },
+    {
+      "path": "packages/plugin-image-button-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2981
+    },
+    {
+      "path": "packages/plugin-image-keyboard-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4831
+    },
+    {
+      "path": "packages/plugin-image-keyboard-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2924
+    },
+    {
+      "path": "packages/plugin-image-slider-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 6214
+    },
+    {
+      "path": "packages/plugin-image-slider-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2949
+    },
+    {
+      "path": "packages/plugin-initialize-camera/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 2756
+    },
+    {
+      "path": "packages/plugin-initialize-camera/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3070
+    },
+    {
+      "path": "packages/plugin-initialize-microphone/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 3269
+    },
+    {
+      "path": "packages/plugin-initialize-microphone/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3102
+    },
+    {
+      "path": "packages/plugin-instructions/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 6262
+    },
+    {
+      "path": "packages/plugin-instructions/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2959
+    },
+    {
+      "path": "packages/plugin-maxdiff/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5952
+    },
+    {
+      "path": "packages/plugin-maxdiff/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3052
+    },
+    {
+      "path": "packages/plugin-mirror-camera/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 2712
+    },
+    {
+      "path": "packages/plugin-mirror-camera/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2978
+    },
+    {
+      "path": "packages/plugin-preload/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4815
+    },
+    {
+      "path": "packages/plugin-preload/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2983
+    },
+    {
+      "path": "packages/plugin-reconstruction/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5354
+    },
+    {
+      "path": "packages/plugin-reconstruction/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2942
+    },
+    {
+      "path": "packages/plugin-resize/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4517
+    },
+    {
+      "path": "packages/plugin-resize/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2998
+    },
+    {
+      "path": "packages/plugin-same-different-html/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5273
+    },
+    {
+      "path": "packages/plugin-same-different-html/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2923
+    },
+    {
+      "path": "packages/plugin-same-different-image/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5623
+    },
+    {
+      "path": "packages/plugin-same-different-image/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2918
+    },
+    {
+      "path": "packages/plugin-serial-reaction-time/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5142
+    },
+    {
+      "path": "packages/plugin-serial-reaction-time/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3039
+    },
+    {
+      "path": "packages/plugin-serial-reaction-time-mouse/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5875
+    },
+    {
+      "path": "packages/plugin-serial-reaction-time-mouse/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2943
+    },
+    {
+      "path": "packages/plugin-sketchpad/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4064
+    },
+    {
+      "path": "packages/plugin-sketchpad/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3385
+    },
+    {
+      "path": "packages/plugin-survey/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 13065
+    },
+    {
+      "path": "packages/plugin-survey/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3018
+    },
+    {
+      "path": "packages/plugin-survey-html-form/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5356
+    },
+    {
+      "path": "packages/plugin-survey-html-form/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2896
+    },
+    {
+      "path": "packages/plugin-survey-likert/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 6028
+    },
+    {
+      "path": "packages/plugin-survey-likert/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2753
+    },
+    {
+      "path": "packages/plugin-survey-multi-choice/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 6377
+    },
+    {
+      "path": "packages/plugin-survey-multi-choice/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2770
+    },
+    {
+      "path": "packages/plugin-survey-multi-select/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5656
+    },
+    {
+      "path": "packages/plugin-survey-multi-select/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2779
+    },
+    {
+      "path": "packages/plugin-survey-text/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5648
+    },
+    {
+      "path": "packages/plugin-survey-text/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2751
+    },
+    {
+      "path": "packages/plugin-video-button-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 9218
+    },
+    {
+      "path": "packages/plugin-video-button-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3072
+    },
+    {
+      "path": "packages/plugin-video-keyboard-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 6533
+    },
+    {
+      "path": "packages/plugin-video-keyboard-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3015
+    },
+    {
+      "path": "packages/plugin-video-slider-response/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 7897
+    },
+    {
+      "path": "packages/plugin-video-slider-response/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3041
+    },
+    {
+      "path": "packages/plugin-virtual-chinrest/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5612
+    },
+    {
+      "path": "packages/plugin-virtual-chinrest/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 3083
+    },
+    {
+      "path": "packages/plugin-visual-search-circle/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "architecture",
+      "size_bytes": 6549
+    },
+    {
+      "path": "packages/plugin-visual-search-circle/README.md",
+      "filename": "README.md",
+      "category": "architecture",
+      "size_bytes": 2959
+    },
+    {
+      "path": "packages/plugin-webgazer-calibrate/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4529
+    },
+    {
+      "path": "packages/plugin-webgazer-calibrate/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2873
+    },
+    {
+      "path": "packages/plugin-webgazer-init-camera/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 5096
+    },
+    {
+      "path": "packages/plugin-webgazer-init-camera/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2961
+    },
+    {
+      "path": "packages/plugin-webgazer-validate/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 4528
+    },
+    {
+      "path": "packages/plugin-webgazer-validate/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2920
+    },
+    {
+      "path": "packages/test-utils/CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "other",
+      "size_bytes": 2535
+    },
+    {
+      "path": "packages/test-utils/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 120
+    }
+  ]
+}

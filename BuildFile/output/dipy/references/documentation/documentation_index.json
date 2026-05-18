@@ -1,0 +1,694 @@
+{
+  "total_files": 97,
+  "categories": {
+    "other": [
+      ".github/CODE_OF_CONDUCT.md",
+      ".github/CONTRIBUTING.md",
+      ".github/ISSUE_TEMPLATE.md",
+      ".github/PULL_REQUEST_TEMPLATE.md",
+      "benchmarks/README.rst",
+      "doc/README.md",
+      "doc/api_changes.rst",
+      "doc/cite.rst",
+      "doc/devel/benchmarking.rst",
+      "doc/devel/bibliography.rst",
+      "doc/devel/coding_style_guideline.rst",
+      "doc/devel/commit_codes.rst",
+      "doc/devel/gitwash/configure_git.rst",
+      "doc/devel/gitwash/development_workflow.rst",
+      "doc/devel/gitwash/dot2_dot3.rst",
+      "doc/devel/gitwash/following_latest.rst",
+      "doc/devel/gitwash/forking_hell.rst",
+      "doc/devel/gitwash/git_development.rst",
+      "doc/devel/gitwash/git_install.rst",
+      "doc/devel/gitwash/git_intro.rst",
+      "doc/devel/gitwash/git_resources.rst",
+      "doc/devel/gitwash/index.rst",
+      "doc/devel/gitwash/maintainer_workflow.rst",
+      "doc/devel/gitwash/patching.rst",
+      "doc/devel/gitwash/set_up_fork.rst",
+      "doc/devel/index.rst",
+      "doc/devel/installation_from_source.rst",
+      "doc/devel/intro.rst",
+      "doc/devel/make_release.rst",
+      "doc/devel/toolchain.rst",
+      "doc/developers.rst",
+      "doc/faq.rst",
+      "doc/gimbal_lock.rst",
+      "doc/glossary.rst",
+      "doc/index.rst",
+      "doc/interfaces/basic_flow.rst",
+      "doc/interfaces/buan_flow.rst",
+      "doc/interfaces/bundle_segmentation_flow.rst",
+      "doc/interfaces/bundlewarp_registration_flow.rst",
+      "doc/interfaces/data_fetch.rst",
+      "doc/interfaces/denoise_flow.rst",
+      "doc/interfaces/gibbs_unringing_flow.rst",
+      "doc/interfaces/index.rst",
+      "doc/interfaces/motion_flow.rst",
+      "doc/interfaces/reconstruction_flow.rst",
+      "doc/interfaces/registration_flow.rst",
+      "doc/interfaces/tracking_flow.rst",
+      "doc/interfaces/viz_flow.rst",
+      "doc/old_highlights.rst",
+      "doc/old_news.rst",
+      "doc/recipes.rst",
+      "doc/reconstruction_models_list.rst",
+      "doc/release_notes/release0.10.rst",
+      "doc/release_notes/release0.11.rst",
+      "doc/release_notes/release0.12.rst",
+      "doc/release_notes/release0.13.rst",
+      "doc/release_notes/release0.14.rst",
+      "doc/release_notes/release0.15.rst",
+      "doc/release_notes/release0.16.rst",
+      "doc/release_notes/release0.6.rst",
+      "doc/release_notes/release0.7.rst",
+      "doc/release_notes/release0.8.rst",
+      "doc/release_notes/release0.9.rst",
+      "doc/release_notes/release1.0.rst",
+      "doc/release_notes/release1.1.rst",
+      "doc/release_notes/release1.10.rst",
+      "doc/release_notes/release1.11.rst",
+      "doc/release_notes/release1.12.rst",
+      "doc/release_notes/release1.2.rst",
+      "doc/release_notes/release1.3.rst",
+      "doc/release_notes/release1.4.1.rst",
+      "doc/release_notes/release1.4.rst",
+      "doc/release_notes/release1.5.rst",
+      "doc/release_notes/release1.6.rst",
+      "doc/release_notes/release1.7.rst",
+      "doc/release_notes/release1.8.rst",
+      "doc/release_notes/release1.9.rst",
+      "doc/stateoftheart.rst",
+      "doc/subscribe.rst",
+      "doc/theory/b_and_q.rst",
+      "doc/theory/bmatrix.rst",
+      "doc/theory/gqi.rst",
+      "doc/theory/index.rst",
+      "doc/theory/sh_basis.rst",
+      "doc/theory/spherical.rst",
+      "doc/tractography_methods_list.rst"
+    ],
+    "overview": [
+      "README.rst"
+    ],
+    "examples": [
+      "doc/examples/README.md"
+    ],
+    "guides": [
+      "doc/user_guide/bibliography.rst",
+      "doc/user_guide/data.rst",
+      "doc/user_guide/dataset_list.rst",
+      "doc/user_guide/dependencies.rst",
+      "doc/user_guide/getting_started.rst",
+      "doc/user_guide/index.rst",
+      "doc/user_guide/installation.rst",
+      "doc/user_guide/introduction.rst",
+      "doc/user_guide/mission.rst"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "filename": "CODE_OF_CONDUCT.md",
+      "category": "other",
+      "size_bytes": 5358
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "other",
+      "size_bytes": 6321
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE.md",
+      "filename": "ISSUE_TEMPLATE.md",
+      "category": "other",
+      "size_bytes": 1077
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "filename": "PULL_REQUEST_TEMPLATE.md",
+      "category": "other",
+      "size_bytes": 1226
+    },
+    {
+      "path": "README.rst",
+      "filename": "README.rst",
+      "category": "overview",
+      "size_bytes": 3392
+    },
+    {
+      "path": "benchmarks/README.rst",
+      "filename": "README.rst",
+      "category": "other",
+      "size_bytes": 4515
+    },
+    {
+      "path": "doc/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1615
+    },
+    {
+      "path": "doc/api_changes.rst",
+      "filename": "api_changes.rst",
+      "category": "other",
+      "size_bytes": 21702
+    },
+    {
+      "path": "doc/cite.rst",
+      "filename": "cite.rst",
+      "category": "other",
+      "size_bytes": 1336
+    },
+    {
+      "path": "doc/devel/benchmarking.rst",
+      "filename": "benchmarking.rst",
+      "category": "other",
+      "size_bytes": 60
+    },
+    {
+      "path": "doc/devel/bibliography.rst",
+      "filename": "bibliography.rst",
+      "category": "other",
+      "size_bytes": 1986
+    },
+    {
+      "path": "doc/devel/coding_style_guideline.rst",
+      "filename": "coding_style_guideline.rst",
+      "category": "other",
+      "size_bytes": 12013
+    },
+    {
+      "path": "doc/devel/commit_codes.rst",
+      "filename": "commit_codes.rst",
+      "category": "other",
+      "size_bytes": 1120
+    },
+    {
+      "path": "doc/devel/gitwash/configure_git.rst",
+      "filename": "configure_git.rst",
+      "category": "other",
+      "size_bytes": 4792
+    },
+    {
+      "path": "doc/devel/gitwash/development_workflow.rst",
+      "filename": "development_workflow.rst",
+      "category": "other",
+      "size_bytes": 13823
+    },
+    {
+      "path": "doc/devel/gitwash/dot2_dot3.rst",
+      "filename": "dot2_dot3.rst",
+      "category": "other",
+      "size_bytes": 681
+    },
+    {
+      "path": "doc/devel/gitwash/following_latest.rst",
+      "filename": "following_latest.rst",
+      "category": "other",
+      "size_bytes": 820
+    },
+    {
+      "path": "doc/devel/gitwash/forking_hell.rst",
+      "filename": "forking_hell.rst",
+      "category": "other",
+      "size_bytes": 1147
+    },
+    {
+      "path": "doc/devel/gitwash/git_development.rst",
+      "filename": "git_development.rst",
+      "category": "other",
+      "size_bytes": 224
+    },
+    {
+      "path": "doc/devel/gitwash/git_install.rst",
+      "filename": "git_install.rst",
+      "category": "other",
+      "size_bytes": 557
+    },
+    {
+      "path": "doc/devel/gitwash/git_intro.rst",
+      "filename": "git_intro.rst",
+      "category": "other",
+      "size_bytes": 532
+    },
+    {
+      "path": "doc/devel/gitwash/git_resources.rst",
+      "filename": "git_resources.rst",
+      "category": "other",
+      "size_bytes": 1812
+    },
+    {
+      "path": "doc/devel/gitwash/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 227
+    },
+    {
+      "path": "doc/devel/gitwash/maintainer_workflow.rst",
+      "filename": "maintainer_workflow.rst",
+      "category": "other",
+      "size_bytes": 3072
+    },
+    {
+      "path": "doc/devel/gitwash/patching.rst",
+      "filename": "patching.rst",
+      "category": "other",
+      "size_bytes": 4002
+    },
+    {
+      "path": "doc/devel/gitwash/set_up_fork.rst",
+      "filename": "set_up_fork.rst",
+      "category": "other",
+      "size_bytes": 1955
+    },
+    {
+      "path": "doc/devel/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 248
+    },
+    {
+      "path": "doc/devel/installation_from_source.rst",
+      "filename": "installation_from_source.rst",
+      "category": "other",
+      "size_bytes": 10567
+    },
+    {
+      "path": "doc/devel/intro.rst",
+      "filename": "intro.rst",
+      "category": "other",
+      "size_bytes": 1330
+    },
+    {
+      "path": "doc/devel/make_release.rst",
+      "filename": "make_release.rst",
+      "category": "other",
+      "size_bytes": 12037
+    },
+    {
+      "path": "doc/devel/toolchain.rst",
+      "filename": "toolchain.rst",
+      "category": "other",
+      "size_bytes": 9227
+    },
+    {
+      "path": "doc/developers.rst",
+      "filename": "developers.rst",
+      "category": "other",
+      "size_bytes": 4361
+    },
+    {
+      "path": "doc/examples/README.md",
+      "filename": "README.md",
+      "category": "examples",
+      "size_bytes": 251
+    },
+    {
+      "path": "doc/faq.rst",
+      "filename": "faq.rst",
+      "category": "other",
+      "size_bytes": 6637
+    },
+    {
+      "path": "doc/gimbal_lock.rst",
+      "filename": "gimbal_lock.rst",
+      "category": "other",
+      "size_bytes": 6916
+    },
+    {
+      "path": "doc/glossary.rst",
+      "filename": "glossary.rst",
+      "category": "other",
+      "size_bytes": 3651
+    },
+    {
+      "path": "doc/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 4288
+    },
+    {
+      "path": "doc/interfaces/basic_flow.rst",
+      "filename": "basic_flow.rst",
+      "category": "other",
+      "size_bytes": 11335
+    },
+    {
+      "path": "doc/interfaces/buan_flow.rst",
+      "filename": "buan_flow.rst",
+      "category": "other",
+      "size_bytes": 10511
+    },
+    {
+      "path": "doc/interfaces/bundle_segmentation_flow.rst",
+      "filename": "bundle_segmentation_flow.rst",
+      "category": "other",
+      "size_bytes": 3980
+    },
+    {
+      "path": "doc/interfaces/bundlewarp_registration_flow.rst",
+      "filename": "bundlewarp_registration_flow.rst",
+      "category": "other",
+      "size_bytes": 4132
+    },
+    {
+      "path": "doc/interfaces/data_fetch.rst",
+      "filename": "data_fetch.rst",
+      "category": "other",
+      "size_bytes": 781
+    },
+    {
+      "path": "doc/interfaces/denoise_flow.rst",
+      "filename": "denoise_flow.rst",
+      "category": "other",
+      "size_bytes": 12467
+    },
+    {
+      "path": "doc/interfaces/gibbs_unringing_flow.rst",
+      "filename": "gibbs_unringing_flow.rst",
+      "category": "other",
+      "size_bytes": 3123
+    },
+    {
+      "path": "doc/interfaces/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 408
+    },
+    {
+      "path": "doc/interfaces/motion_flow.rst",
+      "filename": "motion_flow.rst",
+      "category": "other",
+      "size_bytes": 2057
+    },
+    {
+      "path": "doc/interfaces/reconstruction_flow.rst",
+      "filename": "reconstruction_flow.rst",
+      "category": "other",
+      "size_bytes": 13158
+    },
+    {
+      "path": "doc/interfaces/registration_flow.rst",
+      "filename": "registration_flow.rst",
+      "category": "other",
+      "size_bytes": 6943
+    },
+    {
+      "path": "doc/interfaces/tracking_flow.rst",
+      "filename": "tracking_flow.rst",
+      "category": "other",
+      "size_bytes": 9329
+    },
+    {
+      "path": "doc/interfaces/viz_flow.rst",
+      "filename": "viz_flow.rst",
+      "category": "other",
+      "size_bytes": 4529
+    },
+    {
+      "path": "doc/old_highlights.rst",
+      "filename": "old_highlights.rst",
+      "category": "other",
+      "size_bytes": 14639
+    },
+    {
+      "path": "doc/old_news.rst",
+      "filename": "old_news.rst",
+      "category": "other",
+      "size_bytes": 3223
+    },
+    {
+      "path": "doc/recipes.rst",
+      "filename": "recipes.rst",
+      "category": "other",
+      "size_bytes": 3285
+    },
+    {
+      "path": "doc/reconstruction_models_list.rst",
+      "filename": "reconstruction_models_list.rst",
+      "category": "other",
+      "size_bytes": 10519
+    },
+    {
+      "path": "doc/release_notes/release0.10.rst",
+      "filename": "release0.10.rst",
+      "category": "other",
+      "size_bytes": 14655
+    },
+    {
+      "path": "doc/release_notes/release0.11.rst",
+      "filename": "release0.11.rst",
+      "category": "other",
+      "size_bytes": 8249
+    },
+    {
+      "path": "doc/release_notes/release0.12.rst",
+      "filename": "release0.12.rst",
+      "category": "other",
+      "size_bytes": 30870
+    },
+    {
+      "path": "doc/release_notes/release0.13.rst",
+      "filename": "release0.13.rst",
+      "category": "other",
+      "size_bytes": 7636
+    },
+    {
+      "path": "doc/release_notes/release0.14.rst",
+      "filename": "release0.14.rst",
+      "category": "other",
+      "size_bytes": 14547
+    },
+    {
+      "path": "doc/release_notes/release0.15.rst",
+      "filename": "release0.15.rst",
+      "category": "other",
+      "size_bytes": 18321
+    },
+    {
+      "path": "doc/release_notes/release0.16.rst",
+      "filename": "release0.16.rst",
+      "category": "other",
+      "size_bytes": 7408
+    },
+    {
+      "path": "doc/release_notes/release0.6.rst",
+      "filename": "release0.6.rst",
+      "category": "other",
+      "size_bytes": 13500
+    },
+    {
+      "path": "doc/release_notes/release0.7.rst",
+      "filename": "release0.7.rst",
+      "category": "other",
+      "size_bytes": 5460
+    },
+    {
+      "path": "doc/release_notes/release0.8.rst",
+      "filename": "release0.8.rst",
+      "category": "other",
+      "size_bytes": 23612
+    },
+    {
+      "path": "doc/release_notes/release0.9.rst",
+      "filename": "release0.9.rst",
+      "category": "other",
+      "size_bytes": 5303
+    },
+    {
+      "path": "doc/release_notes/release1.0.rst",
+      "filename": "release1.0.rst",
+      "category": "other",
+      "size_bytes": 17886
+    },
+    {
+      "path": "doc/release_notes/release1.1.rst",
+      "filename": "release1.1.rst",
+      "category": "other",
+      "size_bytes": 8431
+    },
+    {
+      "path": "doc/release_notes/release1.10.rst",
+      "filename": "release1.10.rst",
+      "category": "other",
+      "size_bytes": 31100
+    },
+    {
+      "path": "doc/release_notes/release1.11.rst",
+      "filename": "release1.11.rst",
+      "category": "other",
+      "size_bytes": 8144
+    },
+    {
+      "path": "doc/release_notes/release1.12.rst",
+      "filename": "release1.12.rst",
+      "category": "other",
+      "size_bytes": 38076
+    },
+    {
+      "path": "doc/release_notes/release1.2.rst",
+      "filename": "release1.2.rst",
+      "category": "other",
+      "size_bytes": 16375
+    },
+    {
+      "path": "doc/release_notes/release1.3.rst",
+      "filename": "release1.3.rst",
+      "category": "other",
+      "size_bytes": 9754
+    },
+    {
+      "path": "doc/release_notes/release1.4.1.rst",
+      "filename": "release1.4.1.rst",
+      "category": "other",
+      "size_bytes": 6168
+    },
+    {
+      "path": "doc/release_notes/release1.4.rst",
+      "filename": "release1.4.rst",
+      "category": "other",
+      "size_bytes": 3558
+    },
+    {
+      "path": "doc/release_notes/release1.5.rst",
+      "filename": "release1.5.rst",
+      "category": "other",
+      "size_bytes": 13136
+    },
+    {
+      "path": "doc/release_notes/release1.6.rst",
+      "filename": "release1.6.rst",
+      "category": "other",
+      "size_bytes": 8019
+    },
+    {
+      "path": "doc/release_notes/release1.7.rst",
+      "filename": "release1.7.rst",
+      "category": "other",
+      "size_bytes": 5838
+    },
+    {
+      "path": "doc/release_notes/release1.8.rst",
+      "filename": "release1.8.rst",
+      "category": "other",
+      "size_bytes": 20237
+    },
+    {
+      "path": "doc/release_notes/release1.9.rst",
+      "filename": "release1.9.rst",
+      "category": "other",
+      "size_bytes": 9568
+    },
+    {
+      "path": "doc/stateoftheart.rst",
+      "filename": "stateoftheart.rst",
+      "category": "other",
+      "size_bytes": 2378
+    },
+    {
+      "path": "doc/subscribe.rst",
+      "filename": "subscribe.rst",
+      "category": "other",
+      "size_bytes": 573
+    },
+    {
+      "path": "doc/theory/b_and_q.rst",
+      "filename": "b_and_q.rst",
+      "category": "other",
+      "size_bytes": 5340
+    },
+    {
+      "path": "doc/theory/bmatrix.rst",
+      "filename": "bmatrix.rst",
+      "category": "other",
+      "size_bytes": 3165
+    },
+    {
+      "path": "doc/theory/gqi.rst",
+      "filename": "gqi.rst",
+      "category": "other",
+      "size_bytes": 1078
+    },
+    {
+      "path": "doc/theory/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 150
+    },
+    {
+      "path": "doc/theory/sh_basis.rst",
+      "filename": "sh_basis.rst",
+      "category": "other",
+      "size_bytes": 6530
+    },
+    {
+      "path": "doc/theory/spherical.rst",
+      "filename": "spherical.rst",
+      "category": "other",
+      "size_bytes": 2943
+    },
+    {
+      "path": "doc/tractography_methods_list.rst",
+      "filename": "tractography_methods_list.rst",
+      "category": "other",
+      "size_bytes": 1079
+    },
+    {
+      "path": "doc/user_guide/bibliography.rst",
+      "filename": "bibliography.rst",
+      "category": "guides",
+      "size_bytes": 117
+    },
+    {
+      "path": "doc/user_guide/data.rst",
+      "filename": "data.rst",
+      "category": "guides",
+      "size_bytes": 1287
+    },
+    {
+      "path": "doc/user_guide/dataset_list.rst",
+      "filename": "dataset_list.rst",
+      "category": "guides",
+      "size_bytes": 8408
+    },
+    {
+      "path": "doc/user_guide/dependencies.rst",
+      "filename": "dependencies.rst",
+      "category": "guides",
+      "size_bytes": 1595
+    },
+    {
+      "path": "doc/user_guide/getting_started.rst",
+      "filename": "getting_started.rst",
+      "category": "guides",
+      "size_bytes": 1295
+    },
+    {
+      "path": "doc/user_guide/index.rst",
+      "filename": "index.rst",
+      "category": "guides",
+      "size_bytes": 230
+    },
+    {
+      "path": "doc/user_guide/installation.rst",
+      "filename": "installation.rst",
+      "category": "guides",
+      "size_bytes": 5254
+    },
+    {
+      "path": "doc/user_guide/introduction.rst",
+      "filename": "introduction.rst",
+      "category": "guides",
+      "size_bytes": 949
+    },
+    {
+      "path": "doc/user_guide/mission.rst",
+      "filename": "mission.rst",
+      "category": "guides",
+      "size_bytes": 566
+    }
+  ]
+}

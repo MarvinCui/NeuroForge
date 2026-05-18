@@ -1,0 +1,16 @@
+[
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "nilearn/nilearn/datasets/_utils.py",
+    "class_name": "_NaiveFTPAdapter",
+    "method_name": null,
+    "line_number": 495,
+    "evidence": [
+      "Class name suggests Adapter: _NaiveFTPAdapter"
+    ],
+    "related_classes": [],
+    "file_path": "nilearn/nilearn/datasets/_utils.py"
+  }
+]

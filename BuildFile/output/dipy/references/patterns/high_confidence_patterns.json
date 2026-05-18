@@ -1,0 +1,16 @@
+[
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "dipy/dipy/reconst/shm.py",
+    "class_name": "ResidualBootstrapWrapper",
+    "method_name": null,
+    "line_number": 1209,
+    "evidence": [
+      "Class name suggests Adapter: ResidualBootstrapWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "dipy/dipy/reconst/shm.py"
+  }
+]

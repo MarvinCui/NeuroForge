@@ -1,0 +1,745 @@
+{
+  "nodes": [
+    {
+      "file": ".github/workflows/scripts/sacct-proxy.py",
+      "language": "Python"
+    },
+    {
+      "file": "apidocs/conf.py",
+      "language": "Python"
+    },
+    {
+      "file": "docs/_static/gurubase-widget.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "docs/conf.py",
+      "language": "Python"
+    },
+    {
+      "file": "examples/c/include/hello.h",
+      "language": "C++"
+    },
+    {
+      "file": "examples/c/src/hello.c",
+      "language": "C"
+    },
+    {
+      "file": "examples/c/src/hellofunc.c",
+      "language": "C"
+    },
+    {
+      "file": "examples/hello-world/scripts/plot-hist.py",
+      "language": "Python"
+    },
+    {
+      "file": "setup.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/__main__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/api.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/assets/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/benchmark.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/caching/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/caching/hash.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/caching/local.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/caching/rule.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/caching/storage.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/checkpoints.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/cli.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/argparse.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/configfile.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/git.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/prefix_lookup.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/tbdstring.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/tests/testcases/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/tests/testcases/groups/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/tests/testcases/simple/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/typing.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/common/workdir_handler.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/cwl.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/dag.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/decorators.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/deployment/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/deployment/conda.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/deployment/containerize.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/deployment/env_modules.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/deployment/singularity.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/exceptions.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/executors/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/executors/dryrun.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/executors/google_lifesciences_helper.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/executors/local.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/executors/touch.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/gui.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/io/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/io/flags/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/io/flags/access_patterns.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/io/fmt.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/iocontainers.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioflags.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioutils/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioutils/as_py_module.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioutils/branch.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioutils/collect.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioutils/evaluate.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioutils/exists.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioutils/input.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioutils/lookup.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioutils/prepend_param.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioutils/rule_items_proxy.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ioutils/subpath.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/jobs.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/linting/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/linting/links.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/linting/rules.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/linting/snakefiles.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/logging.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/modules.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/notebook.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/output_index.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/parser.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/path_modifier.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/pathvars.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/persistence/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/persistence/db.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/persistence/file.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/profiles.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/AzBlob.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/EGA.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/FTP.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/GS.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/HTTP.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/NCBI.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/S3.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/S3Mocked.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/SFTP.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/XRootD.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/dropbox.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/gfal.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/gridftp.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/iRODS.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/webdav.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/remote/zenodo.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/common.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/common.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/data/categories.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/data/common.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/data/configfiles.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/data/metadata.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/data/packages.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/data/results.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/data/rulegraph.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/data/rules.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/data/runtimes.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/data/timeline.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/abstract_menu.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/abstract_results.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/abstract_view_manager.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/app.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/breadcrumbs.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/button.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/category.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/common.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/content.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/icon.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/list_heading.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/list_item.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/menu.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/metadata.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/navbar.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/report_info.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/result_info.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/result_view_button.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/rule_graph.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/rule_info.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/search_results.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/stats.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/subcategory.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/html_reporter/template/components/toggle.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "src/snakemake/report/rulegraph_spec.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/resources.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/ruleinfo.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/rules.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/scheduling/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/scheduling/greedy.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/scheduling/job_scheduler.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/scheduling/milp.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/script/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/settings/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/settings/enums.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/settings/types.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/shell.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/sourcecache.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/spawn_jobs.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/storage.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/target_jobs.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/template_rendering/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/template_rendering/jinja2.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/template_rendering/yte.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/unit_tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/unit_tests/templates/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/workflow.py",
+      "language": "Python"
+    },
+    {
+      "file": "src/snakemake/wrapper.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/common.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logging/plugins/snakemake_logger_plugin_test/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_api.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_args.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_executor_test_suite.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_expand.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_internals.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_io.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_jupyter_notebook_pathlike.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_linting.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_logging.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_output_index.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_persistence.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_prefix_lookup.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_schema.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_script.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_sourcecache.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/tests.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/tests_using_conda.py",
+      "language": "Python"
+    }
+  ],
+  "edges": []
+}

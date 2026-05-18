@@ -1,0 +1,313 @@
+{
+  "total_files": 42,
+  "categories": {
+    "other": [
+      ".github/ISSUE_TEMPLATE.md",
+      ".github/PULL_REQUEST_TEMPLATE.md",
+      "doc/about.rst",
+      "doc/changelog/0.X.X-changelog.rst",
+      "doc/changelog/1.X.X-changelog.rst",
+      "doc/changes.rst",
+      "doc/devel/architecture.rst",
+      "doc/devel/cmd_interface_devel.rst",
+      "doc/devel/filename_generation.rst",
+      "doc/devel/gitwash/configure_git.rst",
+      "doc/devel/gitwash/development_workflow.rst",
+      "doc/devel/gitwash/following_latest.rst",
+      "doc/devel/gitwash/forking_hell.rst",
+      "doc/devel/gitwash/git_development.rst",
+      "doc/devel/gitwash/git_install.rst",
+      "doc/devel/gitwash/git_intro.rst",
+      "doc/devel/gitwash/git_resources.rst",
+      "doc/devel/gitwash/index.rst",
+      "doc/devel/gitwash/patching.rst",
+      "doc/devel/gitwash/set_up_fork.rst",
+      "doc/devel/index.rst",
+      "doc/devel/interface_specs.rst",
+      "doc/devel/matlab_interface_devel.rst",
+      "doc/devel/provenance.rst",
+      "doc/devel/python_interface_devel.rst",
+      "doc/devel/software_using_nipype.rst",
+      "doc/devel/testing_nipype.rst",
+      "doc/devel/writing_custom_interfaces.rst",
+      "doc/developers.rst",
+      "doc/examples.rst",
+      "doc/index.rst",
+      "doc/interfaces.rst",
+      "doc/quickstart.rst",
+      "doc/searchresults.rst",
+      "doc/users/install.rst",
+      "doc/version.rst"
+    ],
+    "workflows": [
+      ".github/workflows/workflow_failure.md"
+    ],
+    "community": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "contributing": [
+      "CONTRIBUTING.md"
+    ],
+    "overview": [
+      "README.rst",
+      "THANKS.rst"
+    ],
+    "examples": [
+      "examples/README.md"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE.md",
+      "filename": "ISSUE_TEMPLATE.md",
+      "category": "other",
+      "size_bytes": 560
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "filename": "PULL_REQUEST_TEMPLATE.md",
+      "category": "other",
+      "size_bytes": 747
+    },
+    {
+      "path": ".github/workflows/workflow_failure.md",
+      "filename": "workflow_failure.md",
+      "category": "workflows",
+      "size_bytes": 238
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "filename": "CODE_OF_CONDUCT.md",
+      "category": "community",
+      "size_bytes": 3262
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "contributing",
+      "size_bytes": 9708
+    },
+    {
+      "path": "README.rst",
+      "filename": "README.rst",
+      "category": "overview",
+      "size_bytes": 5117
+    },
+    {
+      "path": "THANKS.rst",
+      "filename": "THANKS.rst",
+      "category": "overview",
+      "size_bytes": 1599
+    },
+    {
+      "path": "doc/about.rst",
+      "filename": "about.rst",
+      "category": "other",
+      "size_bytes": 1915
+    },
+    {
+      "path": "doc/changelog/0.X.X-changelog.rst",
+      "filename": "0.X.X-changelog.rst",
+      "category": "other",
+      "size_bytes": 44265
+    },
+    {
+      "path": "doc/changelog/1.X.X-changelog.rst",
+      "filename": "1.X.X-changelog.rst",
+      "category": "other",
+      "size_bytes": 60261
+    },
+    {
+      "path": "doc/changes.rst",
+      "filename": "changes.rst",
+      "category": "other",
+      "size_bytes": 209
+    },
+    {
+      "path": "doc/devel/architecture.rst",
+      "filename": "architecture.rst",
+      "category": "other",
+      "size_bytes": 3813
+    },
+    {
+      "path": "doc/devel/cmd_interface_devel.rst",
+      "filename": "cmd_interface_devel.rst",
+      "category": "other",
+      "size_bytes": 8251
+    },
+    {
+      "path": "doc/devel/filename_generation.rst",
+      "filename": "filename_generation.rst",
+      "category": "other",
+      "size_bytes": 5765
+    },
+    {
+      "path": "doc/devel/gitwash/configure_git.rst",
+      "filename": "configure_git.rst",
+      "category": "other",
+      "size_bytes": 3059
+    },
+    {
+      "path": "doc/devel/gitwash/development_workflow.rst",
+      "filename": "development_workflow.rst",
+      "category": "other",
+      "size_bytes": 7933
+    },
+    {
+      "path": "doc/devel/gitwash/following_latest.rst",
+      "filename": "following_latest.rst",
+      "category": "other",
+      "size_bytes": 830
+    },
+    {
+      "path": "doc/devel/gitwash/forking_hell.rst",
+      "filename": "forking_hell.rst",
+      "category": "other",
+      "size_bytes": 1124
+    },
+    {
+      "path": "doc/devel/gitwash/git_development.rst",
+      "filename": "git_development.rst",
+      "category": "other",
+      "size_bytes": 201
+    },
+    {
+      "path": "doc/devel/gitwash/git_install.rst",
+      "filename": "git_install.rst",
+      "category": "other",
+      "size_bytes": 585
+    },
+    {
+      "path": "doc/devel/gitwash/git_intro.rst",
+      "filename": "git_intro.rst",
+      "category": "other",
+      "size_bytes": 542
+    },
+    {
+      "path": "doc/devel/gitwash/git_resources.rst",
+      "filename": "git_resources.rst",
+      "category": "other",
+      "size_bytes": 1826
+    },
+    {
+      "path": "doc/devel/gitwash/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 227
+    },
+    {
+      "path": "doc/devel/gitwash/patching.rst",
+      "filename": "patching.rst",
+      "category": "other",
+      "size_bytes": 4021
+    },
+    {
+      "path": "doc/devel/gitwash/set_up_fork.rst",
+      "filename": "set_up_fork.rst",
+      "category": "other",
+      "size_bytes": 1982
+    },
+    {
+      "path": "doc/devel/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 549
+    },
+    {
+      "path": "doc/devel/interface_specs.rst",
+      "filename": "interface_specs.rst",
+      "category": "other",
+      "size_bytes": 24978
+    },
+    {
+      "path": "doc/devel/matlab_interface_devel.rst",
+      "filename": "matlab_interface_devel.rst",
+      "category": "other",
+      "size_bytes": 869
+    },
+    {
+      "path": "doc/devel/provenance.rst",
+      "filename": "provenance.rst",
+      "category": "other",
+      "size_bytes": 909
+    },
+    {
+      "path": "doc/devel/python_interface_devel.rst",
+      "filename": "python_interface_devel.rst",
+      "category": "other",
+      "size_bytes": 1884
+    },
+    {
+      "path": "doc/devel/software_using_nipype.rst",
+      "filename": "software_using_nipype.rst",
+      "category": "other",
+      "size_bytes": 4218
+    },
+    {
+      "path": "doc/devel/testing_nipype.rst",
+      "filename": "testing_nipype.rst",
+      "category": "other",
+      "size_bytes": 3858
+    },
+    {
+      "path": "doc/devel/writing_custom_interfaces.rst",
+      "filename": "writing_custom_interfaces.rst",
+      "category": "other",
+      "size_bytes": 155
+    },
+    {
+      "path": "doc/developers.rst",
+      "filename": "developers.rst",
+      "category": "other",
+      "size_bytes": 189
+    },
+    {
+      "path": "doc/examples.rst",
+      "filename": "examples.rst",
+      "category": "other",
+      "size_bytes": 562
+    },
+    {
+      "path": "doc/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 2130
+    },
+    {
+      "path": "doc/interfaces.rst",
+      "filename": "interfaces.rst",
+      "category": "other",
+      "size_bytes": 7765
+    },
+    {
+      "path": "doc/quickstart.rst",
+      "filename": "quickstart.rst",
+      "category": "other",
+      "size_bytes": 1854
+    },
+    {
+      "path": "doc/searchresults.rst",
+      "filename": "searchresults.rst",
+      "category": "other",
+      "size_bytes": 634
+    },
+    {
+      "path": "doc/users/install.rst",
+      "filename": "install.rst",
+      "category": "other",
+      "size_bytes": 3694
+    },
+    {
+      "path": "doc/version.rst",
+      "filename": "version.rst",
+      "category": "other",
+      "size_bytes": 59
+    },
+    {
+      "path": "examples/README.md",
+      "filename": "README.md",
+      "category": "examples",
+      "size_bytes": 407
+    }
+  ]
+}

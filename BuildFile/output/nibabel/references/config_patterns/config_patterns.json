@@ -1,0 +1,2691 @@
+{
+  "total_files": 12,
+  "total_settings": 241,
+  "detected_patterns": {},
+  "config_files": [
+    {
+      "file_path": "nibabel/codecov.yml",
+      "relative_path": "codecov.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 1,
+      "settings": [
+        {
+          "key": "fixes",
+          "value": [
+            "venv/Lib/site-packages/::"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nibabel/.pre-commit-config.yaml",
+      "relative_path": ".pre-commit-config.yaml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 6,
+      "settings": [
+        {
+          "key": "ci.autoupdate_schedule",
+          "value": "monthly",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "ci.autoupdate_commit_message",
+          "value": "chore: update pre-commit hooks",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "ci.autofix_prs",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "ci.skip",
+          "value": [
+            "typecheck"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "exclude",
+          "value": ".*/data/.*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "repos",
+          "value": [
+            {
+              "repo": "https://github.com/pre-commit/pre-commit-hooks",
+              "rev": "v6.0.0",
+              "hooks": [
+                {
+                  "id": "trailing-whitespace"
+                },
+                {
+                  "id": "end-of-file-fixer"
+                },
+                {
+                  "id": "check-yaml"
+                },
+                {
+                  "id": "check-json"
+                },
+                {
+                  "id": "check-toml"
+                },
+                {
+                  "id": "check-added-large-files"
+                },
+                {
+                  "id": "check-case-conflict"
+                },
+                {
+                  "id": "check-merge-conflict"
+                },
+                {
+                  "id": "check-vcs-permalinks"
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/astral-sh/ruff-pre-commit",
+              "rev": "v0.15.12",
+              "hooks": [
+                {
+                  "id": "ruff-check",
+                  "args": [
+                    "--fix"
+                  ]
+                },
+                {
+                  "id": "ruff-format"
+                }
+              ]
+            },
+            {
+              "repo": "local",
+              "hooks": [
+                {
+                  "id": "typecheck",
+                  "name": "Typecheck",
+                  "language": "python",
+                  "entry": "uv run --active --no-dev --group=typecheck mypy nibabel",
+                  "pass_filenames": false,
+                  "additional_dependencies": [
+                    "uv"
+                  ]
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/codespell-project/codespell",
+              "rev": "v2.4.2",
+              "hooks": [
+                {
+                  "id": "codespell",
+                  "additional_dependencies": [
+                    "tomli"
+                  ]
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/python-jsonschema/check-jsonschema",
+              "rev": "0.37.2",
+              "hooks": [
+                {
+                  "id": "check-citation-file-format"
+                }
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nibabel/pyproject.toml",
+      "relative_path": "pyproject.toml",
+      "type": "toml",
+      "purpose": "package_configuration",
+      "patterns": [],
+      "settings_count": 65,
+      "settings": [
+        {
+          "key": "build-system.requires",
+          "value": [
+            "hatchling>=1.27",
+            "hatch-vcs"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build-system.build-backend",
+          "value": "hatchling.build",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.name",
+          "value": "nibabel",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.description",
+          "value": "Access a multitude of neuroimaging data formats",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.authors",
+          "value": [
+            {
+              "name": "NiBabel developers",
+              "email": "neuroimaging@python.org"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.maintainers",
+          "value": [
+            {
+              "name": "Christopher Markiewicz"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.readme",
+          "value": "README.rst",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.license",
+          "value": "MIT",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.requires-python",
+          "value": ">=3.10",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.dependencies",
+          "value": [
+            "numpy >=1.25",
+            "packaging >=20",
+            "importlib_resources >=5.12; python_version < '3.12'",
+            "typing_extensions >=4.6; python_version < '3.13'"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.classifiers",
+          "value": [
+            "Development Status :: 5 - Production/Stable",
+            "Environment :: Console",
+            "Intended Audience :: Science/Research",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python",
+            "Programming Language :: Python :: 3.10",
+            "Programming Language :: Python :: 3.11",
+            "Programming Language :: Python :: 3.12",
+            "Programming Language :: Python :: 3.13",
+            "Programming Language :: Python :: 3.14",
+            "Topic :: Scientific/Engineering"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.dynamic",
+          "value": [
+            "version"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.urls.homepage",
+          "value": "https://nipy.org/nibabel",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.urls.source",
+          "value": "https://github.com/nipy/nibabel",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.nib-conform",
+          "value": "nibabel.cmdline.conform:main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.nib-convert",
+          "value": "nibabel.cmdline.convert:main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.nib-ls",
+          "value": "nibabel.cmdline.ls:main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.nib-dicomfs",
+          "value": "nibabel.cmdline.dicomfs:main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.nib-diff",
+          "value": "nibabel.cmdline.diff:main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.nib-stats",
+          "value": "nibabel.cmdline.stats:main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.nib-nifti-dx",
+          "value": "nibabel.cmdline.nifti_dx:main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.nib-tck2trk",
+          "value": "nibabel.cmdline.tck2trk:main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.nib-trk2tck",
+          "value": "nibabel.cmdline.trk2tck:main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.nib-roi",
+          "value": "nibabel.cmdline.roi:main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.parrec2nii",
+          "value": "nibabel.cmdline.parrec2nii:main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.all",
+          "value": [
+            "nibabel[dicomfs,indexed_gzip,minc2,spm,zstd]"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.indexed_gzip",
+          "value": [
+            "indexed_gzip >=1.6"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.dicom",
+          "value": [
+            "pydicom >=2.3"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.dicomfs",
+          "value": [
+            "nibabel[dicom]",
+            "pillow >=8.4"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.minc2",
+          "value": [
+            "h5py >=3.8"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.spm",
+          "value": [
+            "scipy >=1.11"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.viewers",
+          "value": [
+            "matplotlib >=3.7"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.zstd",
+          "value": [
+            "backports.zstd >=1.1; python_version<'3.14'"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.test",
+          "value": [
+            "pytest >=8",
+            "pytest-doctestplus >=1.4",
+            "pytest-cov >=6",
+            "pytest-httpserver >=1.0.7",
+            "pytest-xdist >=3.5",
+            "pytest-run-parallel >=0.8.2",
+            "coverage[toml]>=7.2"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.doc",
+          "value": [],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.dev",
+          "value": [],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.doctest",
+          "value": [],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.style",
+          "value": [],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.typing",
+          "value": [],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependency-groups.dev",
+          "value": [
+            "pre-commit>=4.5.1",
+            "pre-commit-uv>=4.2.1",
+            "tox>=4.48.1",
+            "tox-uv>=1.33.1"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependency-groups.doc",
+          "value": [
+            "sphinx >=7.4",
+            "pydata-sphinx-theme >= 0.17.0",
+            "sphinx-design <= 0.7.0",
+            "sphinx-copybutton >= 0.5.2",
+            "matplotlib>=3.5",
+            "numpydoc >=1.9",
+            "texext >=0.6.8",
+            "tomli >=2.3; python_version < '3.11'"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependency-groups.typecheck",
+          "value": [
+            "mypy >=1.15",
+            "nibabel[all]",
+            "pytest >=8",
+            "types-pillow>=10.2.0.20240822"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependency-groups.style",
+          "value": [],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.build.targets.sdist.exclude",
+          "value": [
+            ".git_archival.txt",
+            "nibabel-data/"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.build.targets.wheel.packages",
+          "value": [
+            "nibabel"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.build.targets.wheel.exclude",
+          "value": [
+            "nibabel/nicom/tests/data/4d_multiframe_test.dcm"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.build.hooks.vcs.version-file",
+          "value": "nibabel/_version.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.build.hooks.vcs.template",
+          "value": "# file generated by setuptools_scm\n# don't change, don't track in version control\n__version__ = version = {version!r}\n__version_tuple__ = version_tuple = {version_tuple!r}\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.version.source",
+          "value": "vcs",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.version.tag-pattern",
+          "value": "(?P<version>\\d+(?:\\.\\d+){0,2}[^+]*)(?:\\+.*)?$",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.hatch.version.raw-options.version_scheme",
+          "value": "release-branch-semver",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.line-length",
+          "value": 99,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.exclude",
+          "value": [
+            "doc",
+            "nibabel/externals",
+            "tools",
+            "version.py",
+            "versioneer.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.select",
+          "value": [
+            "B",
+            "C4",
+            "F",
+            "FLY",
+            "FURB",
+            "I",
+            "ISC",
+            "PERF",
+            "PGH",
+            "PIE",
+            "PLE",
+            "PT",
+            "PYI",
+            "Q",
+            "RSE",
+            "RUF",
+            "TCH",
+            "UP"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.ignore",
+          "value": [
+            "B006",
+            "B008",
+            "B007",
+            "B011",
+            "B017",
+            "B018",
+            "B020",
+            "B023",
+            "B028",
+            "B904",
+            "B905",
+            "C401",
+            "C408",
+            "C416",
+            "PERF203",
+            "PIE790",
+            "PT007",
+            "PT010",
+            "PT011",
+            "PT012",
+            "PT017",
+            "PT018",
+            "PT028",
+            "PT030",
+            "PT031",
+            "PYI024",
+            "RUF005",
+            "RUF007",
+            "RUF012",
+            "RUF015",
+            "RUF017",
+            "RUF059",
+            "RUF061",
+            "TC003",
+            "W191",
+            "E111",
+            "E114",
+            "E117",
+            "D206",
+            "D300",
+            "Q000",
+            "Q001",
+            "Q002",
+            "Q003",
+            "COM812",
+            "COM819"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.per-file-ignores.__init__.py",
+          "value": [
+            "F401"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.lint.per-file-ignores.doc/source/conf.py",
+          "value": [
+            "F401"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.ruff.format.quote-style",
+          "value": "single",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.python_version",
+          "value": "3.11",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.exclude",
+          "value": [
+            "/tests"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.warn_unreachable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.mypy.enable_error_code",
+          "value": [
+            "ignore-without-code",
+            "redundant-expr",
+            "truthy-bool"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.codespell.skip",
+          "value": "*/data/*,./nibabel-data",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.codespell.ignore-words-list",
+          "value": "ans,te,ue,ist,nin,nd,ccompiler,ser",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.uv.pip.only-binary",
+          "value": [
+            "numpy",
+            "scipy",
+            "h5py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nibabel/tox.ini",
+      "relative_path": "tox.ini",
+      "type": "ini",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 67,
+      "settings": [
+        {
+          "key": "tox.requires",
+          "value": "\ntox>=4\ntox-uv",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tox.envlist",
+          "value": "\npy3{10-12}-none\npy3{13-14}{,t}-none\npy310-min\npy3{10-12}-{full,pre}-{x86,x64,arm64}\npy3{13-14}{,t}-{full,pre}-{x86,x64,arm64}\npy315{,t}-pre-{x64,arm64}\npy3{13-15}t-threaded\ninstall\ndoctest\nstyle\ntypecheck",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tox.skip_missing_interpreters",
+          "value": "true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "gh-actions.python",
+          "value": "\n3.10: py310\n3.11: py311\n3.12: py312\n3.13: py313\n3.13t: py313t\n3.14: py314\n3.14t: py314t",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "gh-actions:env.depends",
+          "value": "\nnone: none\npre: pre\nfull: full\nmin: min",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "gh-actions:env.mode",
+          "value": "\nthreaded: threaded",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "gh-actions:env.arch",
+          "value": "\nx64: x64\nx86: x86\narm64: arm64",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.description",
+          "value": "Pytest with coverage",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.labels",
+          "value": "test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.pip_pre",
+          "value": "\npre: true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.pass_env",
+          "value": "\nLOGNAME\nUSER\nLNAME\nUSERNAME\nNIPY_EXTRA_TESTS\nPY_COLORS\nFORCE_COLOR\nNO_COLOR\nCLICOLOR\nCLICOLOR_FORCE",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.set_env",
+          "value": "\npre: PIP_EXTRA_INDEX_URL=https://pypi.anaconda.org/scientific-python-nightly-wheels/simple\npre: UV_INDEX=https://pypi.anaconda.org/scientific-python-nightly-wheels/simple\npre: UV_INDEX_STRATEGY=unsafe-best-match\npy3{13-15}t: PYTHONGIL={env:PYTHONGIL:0}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.extras",
+          "value": "\ntest\n\n!none: dicomfs\n!none: indexed_gzip\n!none: zstd\n\nmin: minc2\nmin: spm\nmin: viewers\n\n{full,pre}-{x,arm}64: viewers\n\n{full,pre}-{x,arm}64: spm\n\npy3{10-14}-{full,pre}-{x,arm}64: minc2\npy315-pre-{x,arm}64: minc2",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.deps",
+          "value": "\npre: pydicom @ git+https://github.com/pydicom/pydicom.git@main",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.uv_resolution",
+          "value": "\nmin: lowest-direct",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv.commands",
+          "value": "\npytest --doctest-modules --doctest-plus \\\n--cov nibabel --cov-report xml:cov.xml \\\n--junitxml test-results.xml \\\n--durations=20 --durations-min=1.0 \\\n--pyargs nibabel {posargs:-n auto}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:py3{10-15}{,t}-{full,none}-{x,arm}64.runner",
+          "value": "uv-venv-lock-runner",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:py3{13-15}t-threaded.description",
+          "value": "Pytest with coverage with free threaded python",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:py3{13-15}t-threaded.set_env",
+          "value": "\nPYTHONGIL={env:PYTHONGIL:0}\nPYTEST_RUN_PARALLEL_VERBOSE=1",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:py3{13-15}t-threaded.extras",
+          "value": "\nall\ntest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:py3{13-15}t-threaded.commands",
+          "value": "\npytest -ra --strict-config --strict-markers --showlocals --capture=no --parallel-threads 16 nibabel",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:install.description",
+          "value": "Install and verify import succeeds",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:install.labels",
+          "value": "test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:install.deps",
+          "value": "",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:install.extras",
+          "value": "",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:install.commands",
+          "value": "\npython -c \"import nibabel; print(nibabel.__version__)\"",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:docs.description",
+          "value": "Build documentation site",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:docs.labels",
+          "value": "docs",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:docs.allowlist_externals",
+          "value": "make",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:docs.dependency_groups",
+          "value": "doc",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:docs.commands",
+          "value": "\nmake -C doc html",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:doctest.description",
+          "value": "Run doctests in documentation site",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:doctest.labels",
+          "value": "docs",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:doctest.runner",
+          "value": "uv-venv-lock-runner",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:doctest.allowlist_externals",
+          "value": "make",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:doctest.extras",
+          "value": "\ntest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:doctest.dependency_groups",
+          "value": "\ndoc",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:doctest.commands",
+          "value": "\nmake -C doc doctest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:style{,-fix}.description",
+          "value": "Check our style guide",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:style{,-fix}.labels",
+          "value": "check",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:style{,-fix}.skip_install",
+          "value": "true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:style{,-fix}.dependency_groups",
+          "value": "\ndev",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:style{,-fix}.commands",
+          "value": "\npre-commit run ruff-check --all\npre-commit run ruff-format --all",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:spellcheck.description",
+          "value": "Check spelling",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:spellcheck.labels",
+          "value": "check",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:spellcheck.skip_install",
+          "value": "true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:spellcheck.dependency_groups",
+          "value": "\ndev",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:spellcheck.commands",
+          "value": "\npre-commit run codespell --all",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:typecheck.description",
+          "value": "Check type consistency",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:typecheck.labels",
+          "value": "check",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:typecheck.runner",
+          "value": "uv-venv-lock-runner",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:typecheck.dependency_groups",
+          "value": "\ntypecheck",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:typecheck.commands",
+          "value": "\nmypy nibabel",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:build{,-strict}.labels",
+          "value": "\ncheck\npre-release",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:build{,-strict}.deps",
+          "value": "\nbuild\ntwine",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:build{,-strict}.skip_install",
+          "value": "true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:build{,-strict}.set_env",
+          "value": "\nbuild-strict: PYTHONWARNINGS=error",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:build{,-strict}.commands",
+          "value": "\npython -m build\npython -m twine check dist/*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:publish.depends",
+          "value": "build",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:publish.labels",
+          "value": "release",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:publish.deps",
+          "value": "\ntwine",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:publish.skip_install",
+          "value": "true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:publish.commands",
+          "value": "\npython -m twine upload dist/*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:zenodo.labels",
+          "value": "pre-release",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:zenodo.skip_install",
+          "value": "true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:zenodo.allowlist_externals",
+          "value": "uv",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "testenv:zenodo.commands",
+          "value": "\nuv run tools/prep_citation_cff.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nibabel/lgtm.yml",
+      "relative_path": "lgtm.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 1,
+      "settings": [
+        {
+          "key": "queries",
+          "value": [
+            {
+              "exclude": "py/clear-text-logging-sensitive-data"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nibabel/.readthedocs.yaml",
+      "relative_path": ".readthedocs.yaml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 8,
+      "settings": [
+        {
+          "key": "version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.os",
+          "value": "ubuntu-lts-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.tools.python",
+          "value": "latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.jobs.pre_create_environment",
+          "value": [
+            "asdf plugin add uv",
+            "asdf install uv latest",
+            "asdf global uv latest"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.jobs.create_environment",
+          "value": [
+            "uv venv $READTHEDOCS_VIRTUALENV_PATH"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.jobs.install",
+          "value": [
+            "VIRTUAL_ENV=$READTHEDOCS_VIRTUALENV_PATH UV_CACHE_DIR=$READTHEDOCS_VIRTUALENV_PATH/../../uv_cache uv sync --active --locked --group=doc\n"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build.jobs.pre_build",
+          "value": [
+            "( cd doc; python tools/build_modref_templates.py nibabel source/reference False )"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "sphinx.configuration",
+          "value": "doc/source/conf.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nibabel/.github/dependabot.yml",
+      "relative_path": ".github/dependabot.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 2,
+      "settings": [
+        {
+          "key": "version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "updates",
+          "value": [
+            {
+              "package-ecosystem": "github-actions",
+              "directory": "/",
+              "schedule": {
+                "interval": "monthly"
+              },
+              "groups": {
+                "actions-infrastructure": {
+                  "patterns": [
+                    "actions/*"
+                  ]
+                }
+              },
+              "cooldown": {
+                "default-days": 14
+              }
+            },
+            {
+              "package-ecosystem": "uv",
+              "directory": "/",
+              "labels": [
+                "dependencies"
+              ],
+              "schedule": {
+                "interval": "monthly"
+              },
+              "groups": {
+                "python": {
+                  "patterns": [
+                    "*"
+                  ]
+                }
+              },
+              "cooldown": {
+                "default-days": 14
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nibabel/.github/workflows/multithread.yml",
+      "relative_path": ".github/workflows/multithread.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 16,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Multithreaded tests",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "ci/multithreaded"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.schedule",
+          "value": [
+            {
+              "cron": "0 0 * * 1"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "defaults.run.shell",
+          "value": "bash",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.FORCE_COLOR",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "${{ github.workflow }}-${{ github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.issues",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.multithreaded.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.multithreaded.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.multithreaded.strategy.matrix.os",
+          "value": [
+            "macos-latest",
+            "ubuntu-latest"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.multithreaded.strategy.matrix.python-version",
+          "value": [
+            "3.14t"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.multithreaded.env.MODE",
+          "value": "threaded",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.multithreaded.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+              "with": {
+                "submodules": "recursive"
+              }
+            },
+            {
+              "name": "Install the latest version of uv",
+              "uses": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b"
+            },
+            {
+              "name": "Setup python",
+              "uses": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+              "with": {
+                "python-version": "${{ matrix.python-version }}",
+                "activate-environment": true
+              }
+            },
+            {
+              "name": "Display Python version",
+              "run": "python -c \"import sys; print(sys.version)\""
+            },
+            {
+              "name": "Install tox",
+              "run": "uv tool install -v tox --with=tox-uv --with=tox-gh-actions"
+            },
+            {
+              "name": "Show tox config",
+              "run": "tox c"
+            },
+            {
+              "name": "Setup test suite",
+              "run": "tox run -vv --notest --list-dependencies"
+            },
+            {
+              "name": "Run test suite",
+              "id": "pre",
+              "run": "tox -v --skip-pkg-install --exit-and-dump-after 1200"
+            },
+            {
+              "name": "Create issue",
+              "if": "${{ steps.pre.outcome != 'success' }}",
+              "uses": "JasonEtco/create-an-issue@1b14a70e4d8dc185e5cc76d3bec9eab20257b2c5",
+              "env": {
+                "GITHUB_TOKEN": "${{ secrets.GITHUB_TOKEN }}",
+                "run_id": "${{ github.run_id }}",
+                "repository": "${{ github.repository }}",
+                "workflow_name": "MULTI-THREADED TESTS"
+              },
+              "with": {
+                "filename": ".github/workflow_failure.md",
+                "update_existing": true,
+                "search_existing": "open"
+              }
+            },
+            {
+              "name": "Return failure",
+              "if": "${{ steps.pre.outcome != 'success' }}",
+              "run": "exit 1"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nibabel/.github/workflows/test.yml",
+      "relative_path": ".github/workflows/test.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 41,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Build and test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "master",
+            "maint/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.tags",
+          "value": [
+            "*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "master",
+            "maint/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.schedule",
+          "value": [
+            {
+              "cron": "0 0 * * 1"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "defaults.run.shell",
+          "value": "bash",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.FORCE_COLOR",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "${{ github.workflow }}-${{ github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.runs-on",
+          "value": "ubuntu-slim",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+              "with": {
+                "fetch-depth": 0
+              }
+            },
+            {
+              "uses": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+              "with": {
+                "python-version": 3,
+                "activate-environment": true
+              }
+            },
+            {
+              "name": "Build sdist and wheel",
+              "run": "uv build"
+            },
+            {
+              "run": "uvx twine check dist/*"
+            },
+            {
+              "name": "Build git archive",
+              "run": "mkdir archive && git archive -v -o archive/nibabel-archive.tgz HEAD"
+            },
+            {
+              "name": "Upload sdist and wheel artifacts",
+              "uses": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+              "with": {
+                "name": "dist",
+                "path": "dist/"
+              }
+            },
+            {
+              "name": "Upload git archive artifact",
+              "uses": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+              "with": {
+                "name": "archive",
+                "path": "archive/"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test-package.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test-package.needs",
+          "value": [
+            "build"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test-package.strategy.matrix.package",
+          "value": [
+            "wheel",
+            "sdist",
+            "archive"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test-package.steps",
+          "value": [
+            {
+              "name": "Download sdist and wheel artifacts",
+              "if": "matrix.package != 'archive'",
+              "uses": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+              "with": {
+                "name": "dist",
+                "path": "dist/"
+              }
+            },
+            {
+              "name": "Download git archive artifact",
+              "if": "matrix.package == 'archive'",
+              "uses": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+              "with": {
+                "name": "archive",
+                "path": "archive/"
+              }
+            },
+            {
+              "name": "Setup uv and Python ${{ matrix.python-version }}",
+              "uses": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+              "with": {
+                "python-version": 3,
+                "activate-environment": true
+              }
+            },
+            {
+              "name": "Display Python version",
+              "run": "python -c \"import sys; print(sys.version)\""
+            },
+            {
+              "name": "Install wheel",
+              "if": "matrix.package == 'wheel'",
+              "run": "uv pip install dist/nibabel-*.whl"
+            },
+            {
+              "name": "Install sdist",
+              "if": "matrix.package == 'sdist'",
+              "run": "uv pip install dist/nibabel-*.tar.gz"
+            },
+            {
+              "name": "Install archive",
+              "if": "matrix.package == 'archive'",
+              "run": "uv pip install archive/nibabel-archive.tgz"
+            },
+            {
+              "run": "python -c 'import nibabel; print(nibabel.__version__)'"
+            },
+            {
+              "name": "Install minimum test dependencies",
+              "run": "uv pip install nibabel[test]"
+            },
+            {
+              "name": "Run tests",
+              "run": "pytest --doctest-modules --doctest-plus -v --pyargs nibabel -n auto"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tox.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tox.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tox.strategy.matrix.os",
+          "value": [
+            "ubuntu-latest",
+            "windows-latest",
+            "macos-latest",
+            "macos-15-intel",
+            "ubuntu-24.04-arm"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tox.strategy.matrix.python-version",
+          "value": [
+            "3.10",
+            "3.14",
+            "3.14t"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tox.strategy.matrix.architecture",
+          "value": [
+            "x86",
+            "x64",
+            "arm64"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tox.strategy.matrix.dependencies",
+          "value": [
+            "full"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tox.strategy.matrix.include",
+          "value": [
+            {
+              "python-version": "3.10",
+              "dependencies": "none",
+              "os": "ubuntu-latest",
+              "architecture": "x64"
+            },
+            {
+              "python-version": "3.10",
+              "dependencies": "min",
+              "os": "ubuntu-latest",
+              "architecture": "x64"
+            },
+            {
+              "python-version": "3.11",
+              "dependencies": "min",
+              "os": "ubuntu-latest",
+              "architecture": "x64"
+            },
+            {
+              "python-version": "3.11",
+              "dependencies": "full",
+              "os": "ubuntu-latest",
+              "architecture": "x64"
+            },
+            {
+              "python-version": "3.12",
+              "dependencies": "full",
+              "os": "ubuntu-latest",
+              "architecture": "x64"
+            },
+            {
+              "python-version": "3.13",
+              "dependencies": "full",
+              "os": "ubuntu-latest",
+              "architecture": "x64"
+            },
+            {
+              "python-version": "3.13t",
+              "dependencies": "full",
+              "os": "ubuntu-latest",
+              "architecture": "x64"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tox.strategy.matrix.exclude",
+          "value": [
+            {
+              "architecture": "x86",
+              "os": "ubuntu-latest"
+            },
+            {
+              "architecture": "x86",
+              "os": "ubuntu-24.04-arm"
+            },
+            {
+              "architecture": "x86",
+              "os": "macos-latest"
+            },
+            {
+              "architecture": "x86",
+              "os": "macos-15-intel"
+            },
+            {
+              "architecture": "x64",
+              "os": "macos-latest"
+            },
+            {
+              "architecture": "x64",
+              "os": "ubuntu-24.04-arm"
+            },
+            {
+              "architecture": "arm64",
+              "os": "ubuntu-latest"
+            },
+            {
+              "architecture": "arm64",
+              "os": "windows-latest"
+            },
+            {
+              "architecture": "arm64",
+              "os": "macos-15-intel"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tox.env.DEPENDS",
+          "value": "${{ matrix.dependencies }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tox.env.ARCH",
+          "value": "${{ !contains(fromJSON('[\"none\", \"min\"]'), matrix.dependencies) && matrix.architecture }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.tox.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+              "with": {
+                "submodules": "recursive",
+                "fetch-depth": 0
+              }
+            },
+            {
+              "name": "Setup uv and Python ${{ matrix.python-version }}",
+              "uses": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+              "with": {
+                "python-version": "${{ matrix.python-version }}",
+                "activate-environment": "${{ matrix.architecture != 'x86' }}"
+              }
+            },
+            {
+              "name": "Setup 32-bit Python ${{ matrix.python-version }}",
+              "if": "matrix.architecture == 'x86'",
+              "uses": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+              "with": {
+                "python-version": "${{ matrix.python-version }}",
+                "architecture": "${{ matrix.architecture }}"
+              }
+            },
+            {
+              "name": "Display Python version",
+              "run": "python -c \"import sys; print(sys.version)\""
+            },
+            {
+              "name": "Install tox",
+              "run": "uv tool install -v tox --with=tox-uv --with=tox-gh-actions"
+            },
+            {
+              "name": "Show tox config",
+              "run": "tox c"
+            },
+            {
+              "name": "Setup test suite",
+              "run": "tox run -vv --notest"
+            },
+            {
+              "name": "Run test suite",
+              "run": "tox -v --skip-pkg-install --exit-and-dump-after 1200"
+            },
+            {
+              "uses": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+              "if": "${{ always() }}",
+              "with": {
+                "files": "cov.xml",
+                "token": "${{ secrets.CODECOV_TOKEN }}"
+              }
+            },
+            {
+              "name": "Upload pytest test results",
+              "uses": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+              "with": {
+                "name": "pytest-results-${{ matrix.os }}-${{ matrix.python-version }}-${{ matrix.dependencies }}-${{ matrix.architecture }}",
+                "path": "test-results.xml"
+              },
+              "if": "${{ always() }}"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pytest.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pytest.strategy.matrix.python-version",
+          "value": [
+            "3.14"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pytest.steps",
+          "value": [
+            {
+              "name": "Shallow checkout",
+              "uses": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd"
+            },
+            {
+              "name": "Setup uv and Python ${{ matrix.python-version }}",
+              "uses": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+              "with": {
+                "python-version": "${{ matrix.python-version }}",
+                "activate-environment": true
+              }
+            },
+            {
+              "name": "Display Python version",
+              "run": "python -c \"import sys; print(sys.version)\""
+            },
+            {
+              "name": "Install with pytest",
+              "run": "uv sync --extra=test --extra=all"
+            },
+            {
+              "name": "Run test suite",
+              "run": "python -m pytest"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.checks.runs-on",
+          "value": "ubuntu-slim",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.checks.continue-on-error",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.checks.strategy.matrix.check",
+          "value": [
+            "doctest",
+            "typecheck"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.checks.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd"
+            },
+            {
+              "name": "Setup uv and Python",
+              "uses": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+              "with": {
+                "python-version": 3,
+                "activate-environment": true
+              }
+            },
+            {
+              "name": "Display Python version",
+              "run": "python -c \"import sys; print(sys.version)\""
+            },
+            {
+              "name": "Install tox",
+              "run": "uv tool install -v tox --with=tox-uv-bare --with=tox-gh-actions"
+            },
+            {
+              "name": "Show tox config (this call)",
+              "run": "tox c -e ${{ matrix.check }}"
+            },
+            {
+              "name": "Setup check environment",
+              "run": "tox -vv --notest -e ${{ matrix.check }}"
+            },
+            {
+              "name": "Run check",
+              "run": "tox -e ${{ matrix.check }}"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish.environment",
+          "value": "Package deployment",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish.needs",
+          "value": [
+            "tox",
+            "pytest",
+            "test-package"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish.permissions.id-token",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish.if",
+          "value": "github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.publish.steps",
+          "value": [
+            {
+              "uses": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+              "with": {
+                "name": "dist",
+                "path": "dist/"
+              }
+            },
+            {
+              "uses": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nibabel/.github/workflows/docs.yml",
+      "relative_path": ".github/workflows/docs.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 13,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Build documentation",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "ci/build-docs"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.tags",
+          "value": [
+            "*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "defaults.run.shell",
+          "value": "bash",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.FORCE_COLOR",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "${{ github.workflow }}-${{ github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.strategy.matrix.os",
+          "value": [
+            "ubuntu-slim"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.strategy.matrix.python-version",
+          "value": [
+            "3.14"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+              "with": {
+                "persist-credentials": false
+              }
+            },
+            {
+              "name": "Setup uv and Python ${{ matrix.python-version }}",
+              "uses": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+              "with": {
+                "python-version": "${{ matrix.python-version }}",
+                "activate-environment": true,
+                "enable-cache": false
+              }
+            },
+            {
+              "name": "Display Python version",
+              "run": "python -c \"import sys; print(sys.version)\""
+            },
+            {
+              "name": "Install tox",
+              "run": "uv tool install -v tox --with=tox-uv-bare"
+            },
+            {
+              "name": "Setup tox environment",
+              "run": "tox run -vv --notest -e docs"
+            },
+            {
+              "name": "Build docs",
+              "run": "tox -v --skip-pkg-install -e docs"
+            },
+            {
+              "name": "Push to gh-pages",
+              "uses": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+              "if": "github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && startsWith(github.ref, 'refs/tags'))",
+              "with": {
+                "github_token": "${{ secrets.GITHUB_TOKEN }}",
+                "publish_dir": "build/html",
+                "user_name": "github-actions[bot]",
+                "user_email": "github-actions[bot]@users.noreply.github.com"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nibabel/.github/workflows/prerelease.yml",
+      "relative_path": ".github/workflows/prerelease.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 18,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Prerelease tests",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "ci/prerelease"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.schedule",
+          "value": [
+            {
+              "cron": "0 0 * * 1"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "defaults.run.shell",
+          "value": "bash",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.FORCE_COLOR",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "${{ github.workflow }}-${{ github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.issues",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.runs-on",
+          "value": "${{ matrix.os-arch[0] }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.continue-on-error",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.matrix.os-arch",
+          "value": [
+            [
+              "ubuntu-latest",
+              "x64"
+            ],
+            [
+              "windows-latest",
+              "x64"
+            ],
+            [
+              "macos-latest",
+              "arm64"
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.strategy.matrix.python-version",
+          "value": [
+            "3.12",
+            "3.14",
+            "3.14t"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.env.DEPENDS",
+          "value": "pre",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.env.ARCH",
+          "value": "${{ matrix.os-arch[1] }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+              "with": {
+                "submodules": "recursive",
+                "fetch-depth": 0
+              }
+            },
+            {
+              "name": "Setup uv and Python ${{ matrix.python-version }}",
+              "uses": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+              "with": {
+                "python-version": "${{ matrix.python-version }}",
+                "activate-environment": true
+              }
+            },
+            {
+              "name": "Display Python version",
+              "run": "python -c \"import sys; print(sys.version)\""
+            },
+            {
+              "name": "Install tox",
+              "run": "uv tool install -v tox --with=tox-uv --with=tox-gh-actions"
+            },
+            {
+              "name": "Show tox config",
+              "run": "tox c"
+            },
+            {
+              "name": "Setup test suite",
+              "run": "tox run -vv --notest"
+            },
+            {
+              "name": "Run test suite",
+              "id": "pre",
+              "run": "tox -v --skip-pkg-install --exit-and-dump-after 1200"
+            },
+            {
+              "name": "Create issue",
+              "if": "${{ steps.pre.outcome != 'success' }}",
+              "uses": "JasonEtco/create-an-issue@1b14a70e4d8dc185e5cc76d3bec9eab20257b2c5",
+              "env": {
+                "GITHUB_TOKEN": "${{ secrets.GITHUB_TOKEN }}",
+                "run_id": "${{ github.run_id }}",
+                "repository": "${{ github.repository }}",
+                "workflow_name": "PRE-RELEASE TESTS"
+              },
+              "with": {
+                "filename": ".github/workflow_failure.md",
+                "update_existing": true,
+                "search_existing": "open"
+              }
+            },
+            {
+              "name": "Return failure",
+              "if": "${{ steps.pre.outcome != 'success' }}",
+              "run": "exit 1"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "nibabel/nibabel/benchmarks/pytest.benchmark.ini",
+      "relative_path": "nibabel/benchmarks/pytest.benchmark.ini",
+      "type": "ini",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "pytest.python_files",
+          "value": "bench_*.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "pytest.python_functions",
+          "value": "bench_*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "pytest.addopts",
+          "value": "--capture=no",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    }
+  ],
+  "errors": []
+}

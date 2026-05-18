@@ -1,0 +1,32 @@
+[
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.75,
+    "location": "mne-python/mne/report/js_and_css/bootstrap.bundle.min.js",
+    "class_name": "Z",
+    "method_name": "_addEventListeners",
+    "line_number": null,
+    "evidence": [
+      "Observer method detected: _addEventListeners",
+      "EventEmitter pattern detected"
+    ],
+    "related_classes": [],
+    "file_path": "mne-python/mne/report/js_and_css/bootstrap.bundle.min.js"
+  },
+  {
+    "pattern_type": "Observer",
+    "category": "Behavioral",
+    "confidence": 0.75,
+    "location": "mne-python/mne/report/js_and_css/bootstrap.bundle.min.js",
+    "class_name": "Be",
+    "method_name": "_addEventListeners",
+    "line_number": null,
+    "evidence": [
+      "Observer method detected: _addEventListeners",
+      "EventEmitter pattern detected"
+    ],
+    "related_classes": [],
+    "file_path": "mne-python/mne/report/js_and_css/bootstrap.bundle.min.js"
+  }
+]

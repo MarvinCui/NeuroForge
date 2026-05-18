@@ -1,0 +1,2959 @@
+[
+  {
+    "file_path": "nibabel/nibabel/analyze.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/analyze.py",
+        "class_name": "AnalyzeHeader",
+        "method_name": "guessed_endian",
+        "line_number": 256,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/analyze.py",
+        "class_name": "AnalyzeImage",
+        "method_name": "from_file_map",
+        "line_number": 929,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/arraywriters.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/arraywriters.py",
+        "class_name": "ArrayWriter",
+        "method_name": "array",
+        "line_number": 154,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/batteryrunners.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/batteryrunners.py",
+        "class_name": "Report",
+        "method_name": "message",
+        "line_number": 252,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/brikhead.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/brikhead.py",
+        "class_name": "AFNIArrayProxy",
+        "method_name": null,
+        "line_number": 204,
+        "evidence": [
+          "Class name suggests Decorator: AFNIArrayProxy"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/brikhead.py",
+        "class_name": "AFNIHeader",
+        "method_name": "from_header",
+        "line_number": 296,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/brikhead.py",
+        "class_name": "AFNIImage",
+        "method_name": "from_file_map",
+        "line_number": 488,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/caret.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/caret.py",
+        "class_name": "CaretMetaData",
+        "method_name": "_sanitize",
+        "line_number": 53,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/cifti2/cifti2.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2.py",
+        "class_name": "Cifti2MetaData",
+        "method_name": "_sanitize",
+        "line_number": 182,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/cifti2/cifti2.py",
+        "class_name": "Cifti2MetaData",
+        "method_name": "difference_update",
+        "line_number": 237,
+        "evidence": [
+          "Observer method detected: difference_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2.py",
+        "class_name": "Cifti2Label",
+        "method_name": "rgba",
+        "line_number": 363,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2.py",
+        "class_name": "Cifti2NamedMap",
+        "method_name": "metadata",
+        "line_number": 427,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2.py",
+        "class_name": "Cifti2Parcel",
+        "method_name": "voxel_indices_ijk",
+        "line_number": 698,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2.py",
+        "class_name": "Cifti2BrainModel",
+        "method_name": "voxel_indices_ijk",
+        "line_number": 953,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2.py",
+        "class_name": "Cifti2MatrixIndicesMap",
+        "method_name": "named_maps",
+        "line_number": 1100,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2.py",
+        "class_name": "Cifti2Matrix",
+        "method_name": "metadata",
+        "line_number": 1204,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2.py",
+        "class_name": "Cifti2Header",
+        "method_name": "may_contain_header",
+        "line_number": 1363,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2.py",
+        "class_name": "Cifti2Image",
+        "method_name": "nifti_header",
+        "line_number": 1497,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/cifti2/cifti2.py",
+        "class_name": "Cifti2Image",
+        "method_name": "update_headers",
+        "line_number": 1592,
+        "evidence": [
+          "Observer method detected: update_headers"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 18,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 9,
+      "Observer": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/cifti2/cifti2_axes.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2_axes.py",
+        "class_name": "Axis",
+        "method_name": "size",
+        "line_number": 196,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2_axes.py",
+        "class_name": "BrainModelAxis",
+        "method_name": "from_mask",
+        "line_number": 339,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2_axes.py",
+        "class_name": "ParcelsAxis",
+        "method_name": "from_brain_models",
+        "line_number": 803,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2_axes.py",
+        "class_name": "ScalarAxis",
+        "method_name": "from_index_mapping",
+        "line_number": 1103,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2_axes.py",
+        "class_name": "LabelAxis",
+        "method_name": "from_index_mapping",
+        "line_number": 1238,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/cifti2_axes.py",
+        "class_name": "SeriesAxis",
+        "method_name": "time",
+        "line_number": 1378,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 6
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/cifti2/parse_cifti2.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/parse_cifti2.py",
+        "class_name": "_Cifti2AsNiftiHeader",
+        "method_name": "_valid_intent_code",
+        "line_number": 84,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/parse_cifti2.py",
+        "class_name": "Cifti2Parser",
+        "method_name": "pending_data",
+        "line_number": 551,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/cifti2/tests/test_cifti2io_header.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/cifti2/tests/test_cifti2io_header.py",
+        "class_name": "TestCifti2SingleHeader",
+        "method_name": "test_nifti_qfac_checks",
+        "line_number": 428,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 13,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/dataobj_images.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/dataobj_images.py",
+        "class_name": "DataobjImage",
+        "method_name": "get_fdata",
+        "line_number": 226,
+        "evidence": [
+          "Factory method detected: get_fdata"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/dataobj_images.py",
+        "class_name": "DataobjImage",
+        "method_name": "dataobj",
+        "line_number": 68,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/deprecated.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/deprecated.py",
+        "class_name": "ModuleProxy",
+        "method_name": "__getattr__",
+        "line_number": 39,
+        "evidence": [
+          "Factory method detected: __getattr__"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/deprecated.py",
+        "class_name": "ModuleProxy",
+        "method_name": null,
+        "line_number": 15,
+        "evidence": [
+          "Class name suggests Decorator: ModuleProxy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/dft.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/dft.py",
+        "class_name": "_DB",
+        "method_name": "session",
+        "line_number": 459,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/ecat.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/ecat.py",
+        "class_name": "EcatHeader",
+        "method_name": "guessed_endian",
+        "line_number": 284,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/ecat.py",
+        "class_name": "EcatImageArrayProxy",
+        "method_name": null,
+        "line_number": 662,
+        "evidence": [
+          "Class name suggests Decorator: EcatImageArrayProxy"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/ecat.py",
+        "class_name": "EcatImage",
+        "method_name": "affine",
+        "line_number": 823,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/externals/netcdf.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/externals/netcdf.py",
+        "class_name": "netcdf_file",
+        "method_name": "createDimension",
+        "line_number": 325,
+        "evidence": [
+          "Factory method detected: createDimension"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/externals/netcdf.py",
+        "class_name": "netcdf_variable",
+        "method_name": "isrec",
+        "line_number": 890,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/filebasedimages.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/filebasedimages.py",
+        "class_name": "FileBasedHeader",
+        "method_name": "from_header",
+        "line_number": 38,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/filebasedimages.py",
+        "class_name": "FileBasedImage",
+        "method_name": "__getitem__",
+        "line_number": 201,
+        "evidence": [
+          "Factory method detected: __getitem__"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/filebasedimages.py",
+        "class_name": "FileBasedImage",
+        "method_name": "header",
+        "line_number": 198,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/filebasedimages.py",
+        "class_name": "FileBasedImage",
+        "method_name": null,
+        "line_number": 73,
+        "evidence": [
+          "Abstract base with subclasses: SerializableImage"
+        ],
+        "related_classes": [
+          "SerializableImage"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/filebasedimages.py",
+        "class_name": "SerializableImage",
+        "method_name": "_filemap_from_iobase",
+        "line_number": 532,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3,
+      "Factory": 1,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/fileholders.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/fileholders.py",
+        "class_name": "FileHolder",
+        "method_name": "get_prepare_fileobj",
+        "line_number": 52,
+        "evidence": [
+          "Factory method detected: get_prepare_fileobj"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/fileholders.py",
+        "class_name": "FileHolder",
+        "method_name": "file_like",
+        "line_number": 101,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/freesurfer/mghformat.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/freesurfer/mghformat.py",
+        "class_name": "MGHHeader",
+        "method_name": "chk_version",
+        "line_number": 135,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/freesurfer/mghformat.py",
+        "class_name": "MGHImage",
+        "method_name": "filespec_to_file_map",
+        "line_number": 490,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/gifti/gifti.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/gifti/gifti.py",
+        "class_name": "GiftiMetaData",
+        "method_name": "_sanitize",
+        "line_number": 77,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/gifti/gifti.py",
+        "class_name": "GiftiNVPairs",
+        "method_name": "__init__",
+        "line_number": 165,
+        "evidence": [
+          "Method uses decorators: [\"deprecate_with_version('GiftiNVPairs objects are deprecated. Use the GiftiMetaData object as a dict, instead.', '4.0', '6.0')\"]"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/gifti/gifti.py",
+        "class_name": "GiftiLabel",
+        "method_name": "rgba",
+        "line_number": 284,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/gifti/gifti.py",
+        "class_name": "GiftiDataArray",
+        "method_name": "num_dim",
+        "line_number": 503,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/gifti/gifti.py",
+        "class_name": "GiftiImage",
+        "method_name": "numDA",
+        "line_number": 628,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 5
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/gifti/parse_gifti_fast.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/gifti/parse_gifti_fast.py",
+        "class_name": "GiftiImageParser",
+        "method_name": "pending_data",
+        "line_number": 398,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/minc1.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/minc1.py",
+        "class_name": "MincImageArrayProxy",
+        "method_name": null,
+        "line_number": 233,
+        "evidence": [
+          "Class name suggests Decorator: MincImageArrayProxy"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/minc1.py",
+        "class_name": "Minc1Header",
+        "method_name": "may_contain_header",
+        "line_number": 298,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/minc1.py",
+        "class_name": "Minc1Image",
+        "method_name": "from_file_map",
+        "line_number": 323,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/minc2.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/minc2.py",
+        "class_name": "Minc2Header",
+        "method_name": "may_contain_header",
+        "line_number": 146,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/minc2.py",
+        "class_name": "Minc2Image",
+        "method_name": "from_file_map",
+        "line_number": 164,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/nicom/dicomwrappers.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "WrapperError",
+        "method_name": null,
+        "line_number": 32,
+        "evidence": [
+          "Class name suggests Decorator: WrapperError"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "WrapperError",
+        "method_name": null,
+        "line_number": 32,
+        "evidence": [
+          "Class name suggests Adapter: WrapperError"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "WrapperPrecisionError",
+        "method_name": null,
+        "line_number": 36,
+        "evidence": [
+          "Class name suggests Decorator: WrapperPrecisionError"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "WrapperPrecisionError",
+        "method_name": null,
+        "line_number": 36,
+        "evidence": [
+          "Class name suggests Adapter: WrapperPrecisionError"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "Wrapper",
+        "method_name": null,
+        "line_number": 104,
+        "evidence": [
+          "Class name suggests Decorator: Wrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "Wrapper",
+        "method_name": null,
+        "line_number": 104,
+        "evidence": [
+          "Class name suggests Adapter: Wrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "FrameFilter",
+        "method_name": null,
+        "line_number": 532,
+        "evidence": [
+          "Class name suggests handler chain: FrameFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "FilterMultiStack",
+        "method_name": null,
+        "line_number": 548,
+        "evidence": [
+          "Class name suggests handler chain: FilterMultiStack"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "FilterDwiIso",
+        "method_name": null,
+        "line_number": 582,
+        "evidence": [
+          "Class name suggests handler chain: FilterDwiIso"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "FilterMultiOrient",
+        "method_name": null,
+        "line_number": 600,
+        "evidence": [
+          "Class name suggests handler chain: FilterMultiOrient"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "MultiframeWrapper",
+        "method_name": null,
+        "line_number": 642,
+        "evidence": [
+          "Class name suggests Decorator: MultiframeWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "MultiframeWrapper",
+        "method_name": null,
+        "line_number": 642,
+        "evidence": [
+          "Class name suggests Adapter: MultiframeWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "SiemensWrapper",
+        "method_name": null,
+        "line_number": 1002,
+        "evidence": [
+          "Class name suggests Decorator: SiemensWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "SiemensWrapper",
+        "method_name": null,
+        "line_number": 1002,
+        "evidence": [
+          "Class name suggests Adapter: SiemensWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "MosaicWrapper",
+        "method_name": null,
+        "line_number": 1140,
+        "evidence": [
+          "Class name suggests Decorator: MosaicWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+        "class_name": "MosaicWrapper",
+        "method_name": null,
+        "line_number": 1140,
+        "evidence": [
+          "Class name suggests Adapter: MosaicWrapper"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 10,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 6,
+      "Adapter": 6,
+      "ChainOfResponsibility": 4
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/nicom/tests/test_dicomwrappers.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/nicom/tests/test_dicomwrappers.py",
+        "class_name": "TestMultiFrameWrapper",
+        "method_name": null,
+        "line_number": 520,
+        "evidence": [
+          "Class name suggests Decorator: TestMultiFrameWrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "nibabel/nibabel/nicom/tests/test_dicomwrappers.py",
+        "class_name": "TestMultiFrameWrapper",
+        "method_name": null,
+        "line_number": 520,
+        "evidence": [
+          "Class name suggests Adapter: TestMultiFrameWrapper"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 12,
+    "total_functions": 15,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Adapter": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/nifti1.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/nifti1.py",
+        "class_name": "NiftiExtension",
+        "method_name": "get_object",
+        "line_number": 446,
+        "evidence": [
+          "Factory method detected: get_object"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/nifti1.py",
+        "class_name": "NiftiExtension",
+        "method_name": "_content",
+        "line_number": 354,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/nifti1.py",
+        "class_name": "Nifti1DicomExtension",
+        "method_name": "_guess_implicit_VR",
+        "line_number": 616,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/nifti1.py",
+        "class_name": "Nifti1Extensions",
+        "method_name": "from_fileobj",
+        "line_number": 728,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/nifti1.py",
+        "class_name": "Nifti1Header",
+        "method_name": "from_fileobj",
+        "line_number": 856,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/nifti1.py",
+        "class_name": "Nifti1Pair",
+        "method_name": "update_header",
+        "line_number": 2021,
+        "evidence": [
+          "Observer method detected: update_header"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/nifti1.py",
+        "class_name": "Nifti1Image",
+        "method_name": "_get_fileholders",
+        "line_number": 2416,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/nifti1.py",
+        "class_name": "Nifti1Image",
+        "method_name": "update_header",
+        "line_number": 2424,
+        "evidence": [
+          "Observer method detected: update_header"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 5,
+      "Observer": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/nifti2.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/nifti2.py",
+        "class_name": "Nifti2Header",
+        "method_name": "default_structarr",
+        "line_number": 190,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/parrec.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/parrec.py",
+        "class_name": "PARRECArrayProxy",
+        "method_name": null,
+        "line_number": 601,
+        "evidence": [
+          "Class name suggests Decorator: PARRECArrayProxy"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/parrec.py",
+        "class_name": "PARRECHeader",
+        "method_name": "from_header",
+        "line_number": 759,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/parrec.py",
+        "class_name": "PARRECImage",
+        "method_name": "from_file_map",
+        "line_number": 1266,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 12,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/spatialimages.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/spatialimages.py",
+        "class_name": "HasDtype",
+        "method_name": "get_data_dtype",
+        "line_number": 164,
+        "evidence": [
+          "Factory method detected: get_data_dtype"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/spatialimages.py",
+        "class_name": "SpatialProtocol",
+        "method_name": "get_data_dtype",
+        "line_number": 170,
+        "evidence": [
+          "Factory method detected: get_data_dtype"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/spatialimages.py",
+        "class_name": "SpatialHeader",
+        "method_name": "get_data_dtype",
+        "line_number": 239,
+        "evidence": [
+          "Factory method detected: get_data_dtype"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/spatialimages.py",
+        "class_name": "SpatialHeader",
+        "method_name": "from_header",
+        "line_number": 206,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/spatialimages.py",
+        "class_name": "SpatialFirstSlicer",
+        "method_name": "__getitem__",
+        "line_number": 380,
+        "evidence": [
+          "Factory method detected: __getitem__"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/spatialimages.py",
+        "class_name": "SpatialImage",
+        "method_name": "get_data_dtype",
+        "line_number": 583,
+        "evidence": [
+          "Factory method detected: get_data_dtype"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/spatialimages.py",
+        "class_name": "SpatialImage",
+        "method_name": "affine",
+        "line_number": 528,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/spatialimages.py",
+        "class_name": "SpatialImage",
+        "method_name": "update_header",
+        "line_number": 531,
+        "evidence": [
+          "Observer method detected: update_header"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 5,
+      "Decorator": 2,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/spm2analyze.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/spm2analyze.py",
+        "class_name": "Spm2AnalyzeHeader",
+        "method_name": "may_contain_header",
+        "line_number": 114,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/spm99analyze.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/spm99analyze.py",
+        "class_name": "SpmAnalyzeHeader",
+        "method_name": "default_structarr",
+        "line_number": 47,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/spm99analyze.py",
+        "class_name": "Spm99AnalyzeHeader",
+        "method_name": "_get_checks",
+        "line_number": 209,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/spm99analyze.py",
+        "class_name": "Spm99AnalyzeImage",
+        "method_name": "from_file_map",
+        "line_number": 238,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/streamlines/array_sequence.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/streamlines/array_sequence.py",
+        "class_name": "_BuildCache",
+        "method_name": "update_seq",
+        "line_number": 39,
+        "evidence": [
+          "Observer method detected: update_seq"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/streamlines/array_sequence.py",
+        "class_name": "ArraySequence",
+        "method_name": "is_sliced_view",
+        "line_number": 151,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/streamlines/tck.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/streamlines/tck.py",
+        "class_name": "TckFile",
+        "method_name": "create_empty_header",
+        "line_number": 99,
+        "evidence": [
+          "Factory method detected: create_empty_header"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/streamlines/tck.py",
+        "class_name": "TckFile",
+        "method_name": "is_correct_format",
+        "line_number": 75,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/streamlines/tests/test_streamlines.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/streamlines/tests/test_streamlines.py",
+        "class_name": "TestLoadSave",
+        "method_name": "test_save_tractogram_file",
+        "line_number": 212,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/streamlines/tests/test_tractogram_file.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/streamlines/tests/test_tractogram_file.py",
+        "class_name": "DummyTractogramFile",
+        "method_name": "create_empty_header",
+        "line_number": 21,
+        "evidence": [
+          "Factory method detected: create_empty_header"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/streamlines/tests/test_tractogram_file.py",
+        "class_name": "DummyTractogramFile",
+        "method_name": "is_correct_format",
+        "line_number": 13,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/streamlines/tests/test_tractogram_file.py",
+        "class_name": "DummyTractogramFile",
+        "method_name": "create_empty_header",
+        "line_number": 37,
+        "evidence": [
+          "Factory method detected: create_empty_header"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/streamlines/tests/test_tractogram_file.py",
+        "class_name": "DummyTractogramFile",
+        "method_name": "is_correct_format",
+        "line_number": 30,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/streamlines/tests/test_tractogram_file.py",
+        "class_name": "DummyTractogramFile",
+        "method_name": "is_correct_format",
+        "line_number": 46,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/streamlines/tests/test_tractogram_file.py",
+        "class_name": "DummyTractogramFile",
+        "method_name": "is_correct_format",
+        "line_number": 72,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 2,
+      "Decorator": 4
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/streamlines/tractogram.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/streamlines/tractogram.py",
+        "class_name": "Tractogram",
+        "method_name": "streamlines",
+        "line_number": 353,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/streamlines/tractogram.py",
+        "class_name": "LazyTractogram",
+        "method_name": "from_tractogram",
+        "line_number": 626,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/streamlines/tractogram_file.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/streamlines/tractogram_file.py",
+        "class_name": "TractogramFile",
+        "method_name": "create_empty_header",
+        "line_number": 80,
+        "evidence": [
+          "Factory method detected: create_empty_header"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/streamlines/tractogram_file.py",
+        "class_name": "TractogramFile",
+        "method_name": "tractogram",
+        "line_number": 44,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/streamlines/trk.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/streamlines/trk.py",
+        "class_name": "TrkFile",
+        "method_name": "create_empty_header",
+        "line_number": 286,
+        "evidence": [
+          "Factory method detected: create_empty_header"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/streamlines/trk.py",
+        "class_name": "TrkFile",
+        "method_name": "is_correct_format",
+        "line_number": 242,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_analyze.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_analyze.py",
+        "class_name": "TestAnalyzeHeader",
+        "method_name": "test_log_checks",
+        "line_number": 128,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_analyze.py",
+        "class_name": "TestAnalyzeImage",
+        "method_name": "test_big_offset_exts",
+        "line_number": 807,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 10,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_api_validators.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_api_validators.py",
+        "class_name": "TestRunAllTests",
+        "method_name": "teardown_class",
+        "line_number": 114,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_arrayproxy.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/tests/test_arrayproxy.py",
+        "class_name": "CArrayProxy",
+        "method_name": null,
+        "line_number": 54,
+        "evidence": [
+          "Class name suggests Decorator: CArrayProxy"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/tests/test_arrayproxy.py",
+        "class_name": "DeprecatedCArrayProxy",
+        "method_name": null,
+        "line_number": 59,
+        "evidence": [
+          "Class name suggests Decorator: DeprecatedCArrayProxy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 22,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_dataobj_images.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_dataobj_images.py",
+        "class_name": "DoNumpyImage",
+        "method_name": "from_file_map",
+        "line_number": 17,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_dft.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_dft.py",
+        "class_name": "Test_DBclass",
+        "method_name": "test_cursor_conflict",
+        "line_number": 46,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_ecat.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_ecat.py",
+        "class_name": "TestEcatHeader",
+        "method_name": "test_dtype",
+        "line_number": 56,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/tests/test_ecat.py",
+        "class_name": "TestEcatHeader",
+        "method_name": "test_update",
+        "line_number": 70,
+        "evidence": [
+          "Observer method detected: test_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_ecat.py",
+        "class_name": "TestEcatImage",
+        "method_name": "test_save",
+        "line_number": 191,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_ecat_data.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_ecat_data.py",
+        "class_name": "TestNegatives",
+        "method_name": "test_load",
+        "line_number": 37,
+        "evidence": [
+          "Method uses decorators: [\"needs_nibabel_data('nipy-ecattest')\"]"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_filebasedimages.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_filebasedimages.py",
+        "class_name": "FBNumpyImage",
+        "method_name": "shape",
+        "line_number": 23,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_filebasedimages.py",
+        "class_name": "TestSerializableImageAPI",
+        "method_name": "_header_eq",
+        "line_number": 89,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_image_api.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_image_api.py",
+        "class_name": "GenericImageAPI",
+        "method_name": "validate_filenames",
+        "line_number": 140,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_image_api.py",
+        "class_name": "GetSetDtypeMixin",
+        "method_name": "validate_dtype",
+        "line_number": 206,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_image_api.py",
+        "class_name": "DataInterfaceMixin",
+        "method_name": "validate_shape",
+        "line_number": 399,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_image_api.py",
+        "class_name": "SerializeMixin",
+        "method_name": "validate_file_stream_equivalence",
+        "line_number": 502,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_image_api.py",
+        "class_name": "DtypeOverrideMixin",
+        "method_name": "validate_to_file_dtype_override",
+        "line_number": 695,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 24,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 5
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_minc1.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_minc1.py",
+        "class_name": "TestMinc1File",
+        "method_name": "test_compressed",
+        "line_number": 170,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_minc2_data.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_minc2_data.py",
+        "class_name": "TestEPIFrame",
+        "method_name": "test_load",
+        "line_number": 56,
+        "evidence": [
+          "Method uses decorators: [\"needs_nibabel_data('nitest-minc2')\"]"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_nifti1.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_nifti1.py",
+        "class_name": "TestNifti1PairHeader",
+        "method_name": "test_nifti_qfac_checks",
+        "line_number": 202,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_nifti1.py",
+        "class_name": "TestNifti1Pair",
+        "method_name": "test_hdr_diff",
+        "line_number": 1002,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/tests/test_nifti1.py",
+        "class_name": "TestNifti1Pair",
+        "method_name": "test_header_update_affine",
+        "line_number": 855,
+        "evidence": [
+          "Observer method detected: test_header_update_affine"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_nifti1.py",
+        "class_name": "TestNifti1General",
+        "method_name": "test_loadsave_cycle",
+        "line_number": 1464,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 11,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_nifti2.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_nifti2.py",
+        "class_name": "_Nifti2Mixin",
+        "method_name": "test_eol_check",
+        "line_number": 41,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_onetime.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_onetime.py",
+        "class_name": "A",
+        "method_name": "y",
+        "line_number": 9,
+        "evidence": [
+          "Method uses decorators: ['cached_property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_onetime.py",
+        "class_name": "MagicProp",
+        "method_name": "a",
+        "line_number": 26,
+        "evidence": [
+          "Method uses decorators: ['setattr_on_read']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_pointset.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_pointset.py",
+        "class_name": "TestPointsets",
+        "method_name": "test_init",
+        "line_number": 24,
+        "evidence": [
+          "Method uses decorators: [\"pytest.mark.parametrize('shape', [(5, 2), (5, 3), (5, 4)])\", \"pytest.mark.parametrize('homogeneous', [True, False])\"]"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_pointset.py",
+        "class_name": "TestGrids",
+        "method_name": "test_from_image",
+        "line_number": 133,
+        "evidence": [
+          "Method uses decorators: [\"pytest.mark.parametrize('shape', [(5, 5, 5), (5, 5, 5, 5), (5, 5, 5, 5, 5)])\"]"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_proxy_api.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/tests/test_proxy_api.py",
+        "class_name": "_TestProxyAPI",
+        "method_name": null,
+        "line_number": 88,
+        "evidence": [
+          "Class name suggests Decorator: _TestProxyAPI"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/tests/test_proxy_api.py",
+        "class_name": "TestAnalyzeProxyAPI",
+        "method_name": null,
+        "line_number": 219,
+        "evidence": [
+          "Class name suggests Decorator: TestAnalyzeProxyAPI"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/tests/test_proxy_api.py",
+        "class_name": "TestSpm99AnalyzeProxyAPI",
+        "method_name": null,
+        "line_number": 344,
+        "evidence": [
+          "Class name suggests Decorator: TestSpm99AnalyzeProxyAPI"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/tests/test_proxy_api.py",
+        "class_name": "TestSpm2AnalyzeProxyAPI",
+        "method_name": null,
+        "line_number": 350,
+        "evidence": [
+          "Class name suggests Decorator: TestSpm2AnalyzeProxyAPI"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/tests/test_proxy_api.py",
+        "class_name": "TestNifti1ProxyAPI",
+        "method_name": null,
+        "line_number": 354,
+        "evidence": [
+          "Class name suggests Decorator: TestNifti1ProxyAPI"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_proxy_api.py",
+        "class_name": "TestMinc1API",
+        "method_name": "opener",
+        "line_number": 392,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_proxy_api.py",
+        "class_name": "TestMinc2API",
+        "method_name": "opener",
+        "line_number": 429,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 10,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 7
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_spatialimages.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_spatialimages.py",
+        "class_name": "TestSpatialImage",
+        "method_name": "test_get_data",
+        "line_number": 363,
+        "evidence": [
+          "Method uses decorators: [\"expires('5.0.0')\"]"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_spatialimages.py",
+        "class_name": "MmapImageMixin",
+        "method_name": "test_load_mmap",
+        "line_number": 578,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_spm99analyze.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_spm99analyze.py",
+        "class_name": "TestSpm99AnalyzeHeader",
+        "method_name": "test_origin_checks",
+        "line_number": 149,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_spm99analyze.py",
+        "class_name": "ImageScalingMixin",
+        "method_name": "test_no_scaling",
+        "line_number": 322,
+        "evidence": [
+          "Method uses decorators: [\"pytest.mark.parametrize('in_dtype', FLOAT_TYPES + IUINT_TYPES)\"]"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_spm99analyze.py",
+        "class_name": "TestSpm99AnalyzeImage",
+        "method_name": "test_mat_read",
+        "line_number": 420,
+        "evidence": [
+          "Method uses decorators: ['needs_scipy']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tests/test_wrapstruct.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/tests/test_wrapstruct.py",
+        "class_name": "_TestWrapStructBase",
+        "method_name": null,
+        "line_number": 105,
+        "evidence": [
+          "Abstract base with subclasses: _TestLabeledWrapStruct, TestMyWrapStruct"
+        ],
+        "related_classes": [
+          "_TestLabeledWrapStruct",
+          "TestMyWrapStruct"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_wrapstruct.py",
+        "class_name": "MyWrapStruct",
+        "method_name": "guessed_endian",
+        "line_number": 354,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tests/test_wrapstruct.py",
+        "class_name": "TestMyWrapStruct",
+        "method_name": "test_log_checks",
+        "line_number": 455,
+        "evidence": [
+          "Method uses decorators: ['pytest.mark.thread_unsafe']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1,
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tmpdirs.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/tmpdirs.py",
+        "class_name": "TemporaryDirectory",
+        "method_name": "__init__",
+        "line_number": 45,
+        "evidence": [
+          "Method uses decorators: [\"deprecate_with_version('Please use the standard library tempfile.TemporaryDirectory', '5.0', '7.0')\"]"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/tripwire.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/tripwire.py",
+        "class_name": "TripWire",
+        "method_name": "__getattr__",
+        "line_number": 51,
+        "evidence": [
+          "Factory method detected: __getattr__"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/viewers.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/viewers.py",
+        "class_name": "OrthoSlicer3D",
+        "method_name": "n_volumes",
+        "line_number": 271,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nibabel/nibabel/viewers.py",
+        "class_name": "OrthoSlicer3D",
+        "method_name": "_notify_links",
+        "line_number": 343,
+        "evidence": [
+          "Observer method detected: _notify_links"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/volumeutils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/volumeutils.py",
+        "class_name": "Recoder",
+        "method_name": "__getattr__",
+        "line_number": 134,
+        "evidence": [
+          "Factory method detected: __getattr__"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/volumeutils.py",
+        "class_name": "DtypeMapper",
+        "method_name": "__getitem__",
+        "line_number": 271,
+        "evidence": [
+          "Factory method detected: __getitem__"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 22,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 2
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/wrapstruct.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nibabel/nibabel/wrapstruct.py",
+        "class_name": "WrapStruct",
+        "method_name": "from_fileobj",
+        "line_number": 175,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nibabel/nibabel/xmlutils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nibabel/nibabel/xmlutils.py",
+        "class_name": "XmlParser",
+        "method_name": "_create_parser",
+        "line_number": 73,
+        "evidence": [
+          "Factory method detected: _create_parser"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-05-18T16:36:40.174665",
+  "skill_name": "bids-specification",
+  "overall_score": {
+    "total_score": 89.0,
+    "completeness": 80.0,
+    "accuracy": 100.0,
+    "coverage": 80.0,
+    "health": 100.0,
+    "grade": "A-"
+  },
+  "metrics": [
+    {
+      "name": "Completeness",
+      "value": 80.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation completeness: 80.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Accuracy",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation accuracy: 100.0%",
+      "suggestions": []
+    },
+    {
+      "name": "Coverage",
+      "value": 80.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation coverage: 80.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Health",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Skill health: 100.0%",
+      "suggestions": []
+    }
+  ],
+  "statistics": {
+    "total_files": 78,
+    "total_size_bytes": 1234157,
+    "markdown_files": 78,
+    "reference_files": 77,
+    "total_characters": 1227873,
+    "total_words": 115106
+  },
+  "recommendations": [],
+  "history": []
+}

@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-05-18T16:36:02.733443",
+  "skill_name": "pymc",
+  "overall_score": {
+    "total_score": 92.0,
+    "completeness": 80.0,
+    "accuracy": 100.0,
+    "coverage": 100.0,
+    "health": 90.0,
+    "grade": "A"
+  },
+  "metrics": [
+    {
+      "name": "Completeness",
+      "value": 80.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation completeness: 80.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Accuracy",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation accuracy: 100.0%",
+      "suggestions": []
+    },
+    {
+      "name": "Coverage",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation coverage: 100.0%",
+      "suggestions": []
+    },
+    {
+      "name": "Health",
+      "value": 90.0,
+      "level": "MetricLevel.INFO",
+      "description": "Skill health: 90.0%",
+      "suggestions": [
+        "Very large file: test_examples.md"
+      ]
+    }
+  ],
+  "statistics": {
+    "total_files": 452,
+    "total_size_bytes": 1924817,
+    "markdown_files": 452,
+    "reference_files": 451,
+    "total_characters": 1924057,
+    "total_words": 210834
+  },
+  "recommendations": [
+    "\u2705 Excellent quality! Consider adding advanced topics"
+  ],
+  "history": []
+}

@@ -1,0 +1,1041 @@
+{
+  "total_files": 146,
+  "categories": {
+    "other": [
+      ".github/CONTRIBUTING.md",
+      ".github/PULL_REQUEST_TEMPLATE.md",
+      "doc/_includes/bem_model.rst",
+      "doc/_includes/channel_interpolation.rst",
+      "doc/_includes/channel_types.rst",
+      "doc/_includes/data_formats.rst",
+      "doc/_includes/dig_formats.rst",
+      "doc/_includes/forward.rst",
+      "doc/_includes/ged.rst",
+      "doc/_includes/institutional-partners.rst",
+      "doc/_includes/inverse.rst",
+      "doc/_includes/memory.rst",
+      "doc/_includes/morph.rst",
+      "doc/_includes/precision.rst",
+      "doc/_includes/ssp.rst",
+      "doc/_includes/units.rst",
+      "doc/bibliography.rst",
+      "doc/changes/dev/13263.newfeature.rst",
+      "doc/changes/dev/13584.other.rst",
+      "doc/changes/dev/13673.other.rst",
+      "doc/changes/dev/13710.newfeature.rst",
+      "doc/changes/dev/13754.bugfix.rst",
+      "doc/changes/dev/13797.other.rst",
+      "doc/changes/dev/13813.other.rst",
+      "doc/changes/dev/13825.bugfix.rst",
+      "doc/changes/dev/13838.newfeature.rst",
+      "doc/changes/dev/13842.other.rst",
+      "doc/changes/dev/13843.bugfix.rst",
+      "doc/changes/dev/13847.other.rst",
+      "doc/changes/dev/13855.bugfix.rst",
+      "doc/changes/dev/13856.bugfix.rst",
+      "doc/changes/dev/13858.bugfix.rst",
+      "doc/changes/dev/13861.newfeature.rst",
+      "doc/changes/dev/13870.bugfix.rst",
+      "doc/changes/dev/13874.bugfix.rst",
+      "doc/changes/dev/13875.newfeature.rst",
+      "doc/changes/dev/13881.other.rst",
+      "doc/changes/dev/13884.newfeature.rst",
+      "doc/changes/dev/13885.bugfix.rst",
+      "doc/changes/dev/13891.other.rst",
+      "doc/changes/dev/13894.bugfix.rst",
+      "doc/changes/dev.rst",
+      "doc/changes/v0.1.rst",
+      "doc/changes/v0.10.rst",
+      "doc/changes/v0.11.rst",
+      "doc/changes/v0.12.rst",
+      "doc/changes/v0.13.rst",
+      "doc/changes/v0.14.rst",
+      "doc/changes/v0.15.rst",
+      "doc/changes/v0.16.rst",
+      "doc/changes/v0.17.rst",
+      "doc/changes/v0.18.rst",
+      "doc/changes/v0.19.rst",
+      "doc/changes/v0.2.rst",
+      "doc/changes/v0.20.rst",
+      "doc/changes/v0.21.rst",
+      "doc/changes/v0.22.rst",
+      "doc/changes/v0.23.rst",
+      "doc/changes/v0.24.rst",
+      "doc/changes/v0.3.rst",
+      "doc/changes/v0.4.rst",
+      "doc/changes/v0.5.rst",
+      "doc/changes/v0.6.rst",
+      "doc/changes/v0.7.rst",
+      "doc/changes/v0.8.rst",
+      "doc/changes/v0.9.rst",
+      "doc/changes/v1.0.rst",
+      "doc/changes/v1.1.rst",
+      "doc/changes/v1.10.rst",
+      "doc/changes/v1.11.rst",
+      "doc/changes/v1.12.rst",
+      "doc/changes/v1.2.rst",
+      "doc/changes/v1.3.rst",
+      "doc/changes/v1.4.rst",
+      "doc/changes/v1.5.rst",
+      "doc/changes/v1.6.rst",
+      "doc/changes/v1.7.rst",
+      "doc/changes/v1.8.rst",
+      "doc/changes/v1.9.rst",
+      "doc/credit.rst",
+      "doc/development/contributing.rst",
+      "doc/development/governance.rst",
+      "doc/development/index.rst",
+      "doc/development/roadmap.rst",
+      "doc/development/whats_new.rst",
+      "doc/documentation/cite.rst",
+      "doc/documentation/cited.rst",
+      "doc/documentation/cookbook.rst",
+      "doc/documentation/datasets.rst",
+      "doc/documentation/design_philosophy.rst",
+      "doc/documentation/glossary.rst",
+      "doc/documentation/implementation.rst",
+      "doc/documentation/index.rst",
+      "doc/funding.rst",
+      "doc/help/faq.rst",
+      "doc/help/index.rst",
+      "doc/help/learn_python.rst",
+      "doc/help/migrating.rst",
+      "doc/index.rst",
+      "doc/install/advanced.rst",
+      "doc/install/check_installation.rst",
+      "doc/install/freesurfer.rst",
+      "doc/install/ides.rst",
+      "doc/install/index.rst",
+      "doc/install/installers.rst",
+      "doc/install/manual_install.rst",
+      "doc/install/manual_install_python.rst",
+      "doc/install/mne_c.rst",
+      "doc/install/mne_tools_suite.rst",
+      "doc/install/updating.rst",
+      "doc/mne_cpp.rst",
+      "doc/old_versions/index.rst",
+      "doc/overview/people.rst",
+      "logo/README.md",
+      "mne/icons/README.rst"
+    ],
+    "contributing": [
+      "CONTRIBUTING.md"
+    ],
+    "overview": [
+      "README.rst"
+    ],
+    "security": [
+      "SECURITY.md"
+    ],
+    "templates": [
+      "doc/_templates/autosummary/class.rst",
+      "doc/_templates/autosummary/class_no_inherited_members.rst",
+      "doc/_templates/autosummary/class_no_members.rst",
+      "doc/_templates/autosummary/function.rst"
+    ],
+    "api": [
+      "doc/api/connectivity.rst",
+      "doc/api/covariance.rst",
+      "doc/api/creating_from_arrays.rst",
+      "doc/api/datasets.rst",
+      "doc/api/decoding.rst",
+      "doc/api/events.rst",
+      "doc/api/export.rst",
+      "doc/api/file_io.rst",
+      "doc/api/forward.rst",
+      "doc/api/inverse.rst",
+      "doc/api/logging.rst",
+      "doc/api/most_used_classes.rst",
+      "doc/api/mri.rst",
+      "doc/api/preprocessing.rst",
+      "doc/api/python_reference.rst",
+      "doc/api/reading_raw_data.rst",
+      "doc/api/realtime.rst",
+      "doc/api/report.rst",
+      "doc/api/sensor_space.rst",
+      "doc/api/simulation.rst",
+      "doc/api/source_space.rst",
+      "doc/api/statistics.rst",
+      "doc/api/time_frequency.rst",
+      "doc/api/visualization.rst"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "other",
+      "size_bytes": 861
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "filename": "PULL_REQUEST_TEMPLATE.md",
+      "category": "other",
+      "size_bytes": 1756
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "contributing",
+      "size_bytes": 2576
+    },
+    {
+      "path": "README.rst",
+      "filename": "README.rst",
+      "category": "overview",
+      "size_bytes": 4544
+    },
+    {
+      "path": "SECURITY.md",
+      "filename": "SECURITY.md",
+      "category": "security",
+      "size_bytes": 1342
+    },
+    {
+      "path": "doc/_includes/bem_model.rst",
+      "filename": "bem_model.rst",
+      "category": "other",
+      "size_bytes": 6549
+    },
+    {
+      "path": "doc/_includes/channel_interpolation.rst",
+      "filename": "channel_interpolation.rst",
+      "category": "other",
+      "size_bytes": 3648
+    },
+    {
+      "path": "doc/_includes/channel_types.rst",
+      "filename": "channel_types.rst",
+      "category": "other",
+      "size_bytes": 4091
+    },
+    {
+      "path": "doc/_includes/data_formats.rst",
+      "filename": "data_formats.rst",
+      "category": "other",
+      "size_bytes": 4464
+    },
+    {
+      "path": "doc/_includes/dig_formats.rst",
+      "filename": "dig_formats.rst",
+      "category": "other",
+      "size_bytes": 1938
+    },
+    {
+      "path": "doc/_includes/forward.rst",
+      "filename": "forward.rst",
+      "category": "other",
+      "size_bytes": 40303
+    },
+    {
+      "path": "doc/_includes/ged.rst",
+      "filename": "ged.rst",
+      "category": "other",
+      "size_bytes": 5695
+    },
+    {
+      "path": "doc/_includes/institutional-partners.rst",
+      "filename": "institutional-partners.rst",
+      "category": "other",
+      "size_bytes": 2227
+    },
+    {
+      "path": "doc/_includes/inverse.rst",
+      "filename": "inverse.rst",
+      "category": "other",
+      "size_bytes": 26162
+    },
+    {
+      "path": "doc/_includes/memory.rst",
+      "filename": "memory.rst",
+      "category": "other",
+      "size_bytes": 2478
+    },
+    {
+      "path": "doc/_includes/morph.rst",
+      "filename": "morph.rst",
+      "category": "other",
+      "size_bytes": 5607
+    },
+    {
+      "path": "doc/_includes/precision.rst",
+      "filename": "precision.rst",
+      "category": "other",
+      "size_bytes": 1477
+    },
+    {
+      "path": "doc/_includes/ssp.rst",
+      "filename": "ssp.rst",
+      "category": "other",
+      "size_bytes": 5178
+    },
+    {
+      "path": "doc/_includes/units.rst",
+      "filename": "units.rst",
+      "category": "other",
+      "size_bytes": 1736
+    },
+    {
+      "path": "doc/_templates/autosummary/class.rst",
+      "filename": "class.rst",
+      "category": "templates",
+      "size_bytes": 311
+    },
+    {
+      "path": "doc/_templates/autosummary/class_no_inherited_members.rst",
+      "filename": "class_no_inherited_members.rst",
+      "category": "templates",
+      "size_bytes": 337
+    },
+    {
+      "path": "doc/_templates/autosummary/class_no_members.rst",
+      "filename": "class_no_members.rst",
+      "category": "templates",
+      "size_bytes": 165
+    },
+    {
+      "path": "doc/_templates/autosummary/function.rst",
+      "filename": "function.rst",
+      "category": "templates",
+      "size_bytes": 198
+    },
+    {
+      "path": "doc/api/connectivity.rst",
+      "filename": "connectivity.rst",
+      "category": "api",
+      "size_bytes": 170
+    },
+    {
+      "path": "doc/api/covariance.rst",
+      "filename": "covariance.rst",
+      "category": "api",
+      "size_bytes": 306
+    },
+    {
+      "path": "doc/api/creating_from_arrays.rst",
+      "filename": "creating_from_arrays.rst",
+      "category": "api",
+      "size_bytes": 199
+    },
+    {
+      "path": "doc/api/datasets.rst",
+      "filename": "datasets.rst",
+      "category": "api",
+      "size_bytes": 1070
+    },
+    {
+      "path": "doc/api/decoding.rst",
+      "filename": "decoding.rst",
+      "category": "api",
+      "size_bytes": 722
+    },
+    {
+      "path": "doc/api/events.rst",
+      "filename": "events.rst",
+      "category": "api",
+      "size_bytes": 944
+    },
+    {
+      "path": "doc/api/export.rst",
+      "filename": "export.rst",
+      "category": "api",
+      "size_bytes": 269
+    },
+    {
+      "path": "doc/api/file_io.rst",
+      "filename": "file_io.rst",
+      "category": "api",
+      "size_bytes": 1180
+    },
+    {
+      "path": "doc/api/forward.rst",
+      "filename": "forward.rst",
+      "category": "api",
+      "size_bytes": 1294
+    },
+    {
+      "path": "doc/api/inverse.rst",
+      "filename": "inverse.rst",
+      "category": "api",
+      "size_bytes": 1710
+    },
+    {
+      "path": "doc/api/logging.rst",
+      "filename": "logging.rst",
+      "category": "api",
+      "size_bytes": 700
+    },
+    {
+      "path": "doc/api/most_used_classes.rst",
+      "filename": "most_used_classes.rst",
+      "category": "api",
+      "size_bytes": 144
+    },
+    {
+      "path": "doc/api/mri.rst",
+      "filename": "mri.rst",
+      "category": "api",
+      "size_bytes": 979
+    },
+    {
+      "path": "doc/api/preprocessing.rst",
+      "filename": "preprocessing.rst",
+      "category": "api",
+      "size_bytes": 4431
+    },
+    {
+      "path": "doc/api/python_reference.rst",
+      "filename": "python_reference.rst",
+      "category": "api",
+      "size_bytes": 953
+    },
+    {
+      "path": "doc/api/reading_raw_data.rst",
+      "filename": "reading_raw_data.rst",
+      "category": "api",
+      "size_bytes": 1061
+    },
+    {
+      "path": "doc/api/realtime.rst",
+      "filename": "realtime.rst",
+      "category": "api",
+      "size_bytes": 116
+    },
+    {
+      "path": "doc/api/report.rst",
+      "filename": "report.rst",
+      "category": "api",
+      "size_bytes": 134
+    },
+    {
+      "path": "doc/api/sensor_space.rst",
+      "filename": "sensor_space.rst",
+      "category": "api",
+      "size_bytes": 619
+    },
+    {
+      "path": "doc/api/simulation.rst",
+      "filename": "simulation.rst",
+      "category": "api",
+      "size_bytes": 736
+    },
+    {
+      "path": "doc/api/source_space.rst",
+      "filename": "source_space.rst",
+      "category": "api",
+      "size_bytes": 791
+    },
+    {
+      "path": "doc/api/statistics.rst",
+      "filename": "statistics.rst",
+      "category": "api",
+      "size_bytes": 1401
+    },
+    {
+      "path": "doc/api/time_frequency.rst",
+      "filename": "time_frequency.rst",
+      "category": "api",
+      "size_bytes": 1311
+    },
+    {
+      "path": "doc/api/visualization.rst",
+      "filename": "visualization.rst",
+      "category": "api",
+      "size_bytes": 2302
+    },
+    {
+      "path": "doc/bibliography.rst",
+      "filename": "bibliography.rst",
+      "category": "other",
+      "size_bytes": 212
+    },
+    {
+      "path": "doc/changes/dev/13263.newfeature.rst",
+      "filename": "13263.newfeature.rst",
+      "category": "other",
+      "size_bytes": 253
+    },
+    {
+      "path": "doc/changes/dev/13584.other.rst",
+      "filename": "13584.other.rst",
+      "category": "other",
+      "size_bytes": 96
+    },
+    {
+      "path": "doc/changes/dev/13673.other.rst",
+      "filename": "13673.other.rst",
+      "category": "other",
+      "size_bytes": 216
+    },
+    {
+      "path": "doc/changes/dev/13710.newfeature.rst",
+      "filename": "13710.newfeature.rst",
+      "category": "other",
+      "size_bytes": 244
+    },
+    {
+      "path": "doc/changes/dev/13754.bugfix.rst",
+      "filename": "13754.bugfix.rst",
+      "category": "other",
+      "size_bytes": 350
+    },
+    {
+      "path": "doc/changes/dev/13797.other.rst",
+      "filename": "13797.other.rst",
+      "category": "other",
+      "size_bytes": 165
+    },
+    {
+      "path": "doc/changes/dev/13813.other.rst",
+      "filename": "13813.other.rst",
+      "category": "other",
+      "size_bytes": 132
+    },
+    {
+      "path": "doc/changes/dev/13825.bugfix.rst",
+      "filename": "13825.bugfix.rst",
+      "category": "other",
+      "size_bytes": 130
+    },
+    {
+      "path": "doc/changes/dev/13838.newfeature.rst",
+      "filename": "13838.newfeature.rst",
+      "category": "other",
+      "size_bytes": 301
+    },
+    {
+      "path": "doc/changes/dev/13842.other.rst",
+      "filename": "13842.other.rst",
+      "category": "other",
+      "size_bytes": 147
+    },
+    {
+      "path": "doc/changes/dev/13843.bugfix.rst",
+      "filename": "13843.bugfix.rst",
+      "category": "other",
+      "size_bytes": 82
+    },
+    {
+      "path": "doc/changes/dev/13847.other.rst",
+      "filename": "13847.other.rst",
+      "category": "other",
+      "size_bytes": 197
+    },
+    {
+      "path": "doc/changes/dev/13855.bugfix.rst",
+      "filename": "13855.bugfix.rst",
+      "category": "other",
+      "size_bytes": 165
+    },
+    {
+      "path": "doc/changes/dev/13856.bugfix.rst",
+      "filename": "13856.bugfix.rst",
+      "category": "other",
+      "size_bytes": 185
+    },
+    {
+      "path": "doc/changes/dev/13858.bugfix.rst",
+      "filename": "13858.bugfix.rst",
+      "category": "other",
+      "size_bytes": 181
+    },
+    {
+      "path": "doc/changes/dev/13861.newfeature.rst",
+      "filename": "13861.newfeature.rst",
+      "category": "other",
+      "size_bytes": 238
+    },
+    {
+      "path": "doc/changes/dev/13870.bugfix.rst",
+      "filename": "13870.bugfix.rst",
+      "category": "other",
+      "size_bytes": 108
+    },
+    {
+      "path": "doc/changes/dev/13874.bugfix.rst",
+      "filename": "13874.bugfix.rst",
+      "category": "other",
+      "size_bytes": 98
+    },
+    {
+      "path": "doc/changes/dev/13875.newfeature.rst",
+      "filename": "13875.newfeature.rst",
+      "category": "other",
+      "size_bytes": 436
+    },
+    {
+      "path": "doc/changes/dev/13881.other.rst",
+      "filename": "13881.other.rst",
+      "category": "other",
+      "size_bytes": 92
+    },
+    {
+      "path": "doc/changes/dev/13884.newfeature.rst",
+      "filename": "13884.newfeature.rst",
+      "category": "other",
+      "size_bytes": 842
+    },
+    {
+      "path": "doc/changes/dev/13885.bugfix.rst",
+      "filename": "13885.bugfix.rst",
+      "category": "other",
+      "size_bytes": 138
+    },
+    {
+      "path": "doc/changes/dev/13891.other.rst",
+      "filename": "13891.other.rst",
+      "category": "other",
+      "size_bytes": 120
+    },
+    {
+      "path": "doc/changes/dev/13894.bugfix.rst",
+      "filename": "13894.bugfix.rst",
+      "category": "other",
+      "size_bytes": 121
+    },
+    {
+      "path": "doc/changes/dev.rst",
+      "filename": "dev.rst",
+      "category": "other",
+      "size_bytes": 155
+    },
+    {
+      "path": "doc/changes/v0.1.rst",
+      "filename": "v0.1.rst",
+      "category": "other",
+      "size_bytes": 333
+    },
+    {
+      "path": "doc/changes/v0.10.rst",
+      "filename": "v0.10.rst",
+      "category": "other",
+      "size_bytes": 7037
+    },
+    {
+      "path": "doc/changes/v0.11.rst",
+      "filename": "v0.11.rst",
+      "category": "other",
+      "size_bytes": 3872
+    },
+    {
+      "path": "doc/changes/v0.12.rst",
+      "filename": "v0.12.rst",
+      "category": "other",
+      "size_bytes": 12690
+    },
+    {
+      "path": "doc/changes/v0.13.rst",
+      "filename": "v0.13.rst",
+      "category": "other",
+      "size_bytes": 16380
+    },
+    {
+      "path": "doc/changes/v0.14.rst",
+      "filename": "v0.14.rst",
+      "category": "other",
+      "size_bytes": 14697
+    },
+    {
+      "path": "doc/changes/v0.15.rst",
+      "filename": "v0.15.rst",
+      "category": "other",
+      "size_bytes": 21195
+    },
+    {
+      "path": "doc/changes/v0.16.rst",
+      "filename": "v0.16.rst",
+      "category": "other",
+      "size_bytes": 14439
+    },
+    {
+      "path": "doc/changes/v0.17.rst",
+      "filename": "v0.17.rst",
+      "category": "other",
+      "size_bytes": 18447
+    },
+    {
+      "path": "doc/changes/v0.18.rst",
+      "filename": "v0.18.rst",
+      "category": "other",
+      "size_bytes": 18089
+    },
+    {
+      "path": "doc/changes/v0.19.rst",
+      "filename": "v0.19.rst",
+      "category": "other",
+      "size_bytes": 15722
+    },
+    {
+      "path": "doc/changes/v0.2.rst",
+      "filename": "v0.2.rst",
+      "category": "other",
+      "size_bytes": 976
+    },
+    {
+      "path": "doc/changes/v0.20.rst",
+      "filename": "v0.20.rst",
+      "category": "other",
+      "size_bytes": 24970
+    },
+    {
+      "path": "doc/changes/v0.21.rst",
+      "filename": "v0.21.rst",
+      "category": "other",
+      "size_bytes": 32571
+    },
+    {
+      "path": "doc/changes/v0.22.rst",
+      "filename": "v0.22.rst",
+      "category": "other",
+      "size_bytes": 16387
+    },
+    {
+      "path": "doc/changes/v0.23.rst",
+      "filename": "v0.23.rst",
+      "category": "other",
+      "size_bytes": 23642
+    },
+    {
+      "path": "doc/changes/v0.24.rst",
+      "filename": "v0.24.rst",
+      "category": "other",
+      "size_bytes": 27963
+    },
+    {
+      "path": "doc/changes/v0.3.rst",
+      "filename": "v0.3.rst",
+      "category": "other",
+      "size_bytes": 1319
+    },
+    {
+      "path": "doc/changes/v0.4.rst",
+      "filename": "v0.4.rst",
+      "category": "other",
+      "size_bytes": 1924
+    },
+    {
+      "path": "doc/changes/v0.5.rst",
+      "filename": "v0.5.rst",
+      "category": "other",
+      "size_bytes": 4761
+    },
+    {
+      "path": "doc/changes/v0.6.rst",
+      "filename": "v0.6.rst",
+      "category": "other",
+      "size_bytes": 6557
+    },
+    {
+      "path": "doc/changes/v0.7.rst",
+      "filename": "v0.7.rst",
+      "category": "other",
+      "size_bytes": 5059
+    },
+    {
+      "path": "doc/changes/v0.8.rst",
+      "filename": "v0.8.rst",
+      "category": "other",
+      "size_bytes": 8894
+    },
+    {
+      "path": "doc/changes/v0.9.rst",
+      "filename": "v0.9.rst",
+      "category": "other",
+      "size_bytes": 10743
+    },
+    {
+      "path": "doc/changes/v1.0.rst",
+      "filename": "v1.0.rst",
+      "category": "other",
+      "size_bytes": 23256
+    },
+    {
+      "path": "doc/changes/v1.1.rst",
+      "filename": "v1.1.rst",
+      "category": "other",
+      "size_bytes": 20392
+    },
+    {
+      "path": "doc/changes/v1.10.rst",
+      "filename": "v1.10.rst",
+      "category": "other",
+      "size_bytes": 14103
+    },
+    {
+      "path": "doc/changes/v1.11.rst",
+      "filename": "v1.11.rst",
+      "category": "other",
+      "size_bytes": 12095
+    },
+    {
+      "path": "doc/changes/v1.12.rst",
+      "filename": "v1.12.rst",
+      "category": "other",
+      "size_bytes": 16684
+    },
+    {
+      "path": "doc/changes/v1.2.rst",
+      "filename": "v1.2.rst",
+      "category": "other",
+      "size_bytes": 13467
+    },
+    {
+      "path": "doc/changes/v1.3.rst",
+      "filename": "v1.3.rst",
+      "category": "other",
+      "size_bytes": 8864
+    },
+    {
+      "path": "doc/changes/v1.4.rst",
+      "filename": "v1.4.rst",
+      "category": "other",
+      "size_bytes": 11618
+    },
+    {
+      "path": "doc/changes/v1.5.rst",
+      "filename": "v1.5.rst",
+      "category": "other",
+      "size_bytes": 9086
+    },
+    {
+      "path": "doc/changes/v1.6.rst",
+      "filename": "v1.6.rst",
+      "category": "other",
+      "size_bytes": 13876
+    },
+    {
+      "path": "doc/changes/v1.7.rst",
+      "filename": "v1.7.rst",
+      "category": "other",
+      "size_bytes": 22028
+    },
+    {
+      "path": "doc/changes/v1.8.rst",
+      "filename": "v1.8.rst",
+      "category": "other",
+      "size_bytes": 16572
+    },
+    {
+      "path": "doc/changes/v1.9.rst",
+      "filename": "v1.9.rst",
+      "category": "other",
+      "size_bytes": 12711
+    },
+    {
+      "path": "doc/credit.rst",
+      "filename": "credit.rst",
+      "category": "other",
+      "size_bytes": 251
+    },
+    {
+      "path": "doc/development/contributing.rst",
+      "filename": "contributing.rst",
+      "category": "other",
+      "size_bytes": 49920
+    },
+    {
+      "path": "doc/development/governance.rst",
+      "filename": "governance.rst",
+      "category": "other",
+      "size_bytes": 17744
+    },
+    {
+      "path": "doc/development/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 1667
+    },
+    {
+      "path": "doc/development/roadmap.rst",
+      "filename": "roadmap.rst",
+      "category": "other",
+      "size_bytes": 14230
+    },
+    {
+      "path": "doc/development/whats_new.rst",
+      "filename": "whats_new.rst",
+      "category": "other",
+      "size_bytes": 1047
+    },
+    {
+      "path": "doc/documentation/cite.rst",
+      "filename": "cite.rst",
+      "category": "other",
+      "size_bytes": 1612
+    },
+    {
+      "path": "doc/documentation/cited.rst",
+      "filename": "cited.rst",
+      "category": "other",
+      "size_bytes": 313
+    },
+    {
+      "path": "doc/documentation/cookbook.rst",
+      "filename": "cookbook.rst",
+      "category": "other",
+      "size_bytes": 16883
+    },
+    {
+      "path": "doc/documentation/datasets.rst",
+      "filename": "datasets.rst",
+      "category": "other",
+      "size_bytes": 19929
+    },
+    {
+      "path": "doc/documentation/design_philosophy.rst",
+      "filename": "design_philosophy.rst",
+      "category": "other",
+      "size_bytes": 4234
+    },
+    {
+      "path": "doc/documentation/glossary.rst",
+      "filename": "glossary.rst",
+      "category": "other",
+      "size_bytes": 21762
+    },
+    {
+      "path": "doc/documentation/implementation.rst",
+      "filename": "implementation.rst",
+      "category": "other",
+      "size_bytes": 2633
+    },
+    {
+      "path": "doc/documentation/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 2395
+    },
+    {
+      "path": "doc/funding.rst",
+      "filename": "funding.rst",
+      "category": "other",
+      "size_bytes": 2565
+    },
+    {
+      "path": "doc/help/faq.rst",
+      "filename": "faq.rst",
+      "category": "other",
+      "size_bytes": 18199
+    },
+    {
+      "path": "doc/help/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 1012
+    },
+    {
+      "path": "doc/help/learn_python.rst",
+      "filename": "learn_python.rst",
+      "category": "other",
+      "size_bytes": 1093
+    },
+    {
+      "path": "doc/help/migrating.rst",
+      "filename": "migrating.rst",
+      "category": "other",
+      "size_bytes": 10500
+    },
+    {
+      "path": "doc/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 1016
+    },
+    {
+      "path": "doc/install/advanced.rst",
+      "filename": "advanced.rst",
+      "category": "other",
+      "size_bytes": 10509
+    },
+    {
+      "path": "doc/install/check_installation.rst",
+      "filename": "check_installation.rst",
+      "category": "other",
+      "size_bytes": 3282
+    },
+    {
+      "path": "doc/install/freesurfer.rst",
+      "filename": "freesurfer.rst",
+      "category": "other",
+      "size_bytes": 1126
+    },
+    {
+      "path": "doc/install/ides.rst",
+      "filename": "ides.rst",
+      "category": "other",
+      "size_bytes": 2679
+    },
+    {
+      "path": "doc/install/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 2049
+    },
+    {
+      "path": "doc/install/installers.rst",
+      "filename": "installers.rst",
+      "category": "other",
+      "size_bytes": 6193
+    },
+    {
+      "path": "doc/install/manual_install.rst",
+      "filename": "manual_install.rst",
+      "category": "other",
+      "size_bytes": 3280
+    },
+    {
+      "path": "doc/install/manual_install_python.rst",
+      "filename": "manual_install_python.rst",
+      "category": "other",
+      "size_bytes": 1542
+    },
+    {
+      "path": "doc/install/mne_c.rst",
+      "filename": "mne_c.rst",
+      "category": "other",
+      "size_bytes": 7482
+    },
+    {
+      "path": "doc/install/mne_tools_suite.rst",
+      "filename": "mne_tools_suite.rst",
+      "category": "other",
+      "size_bytes": 3048
+    },
+    {
+      "path": "doc/install/updating.rst",
+      "filename": "updating.rst",
+      "category": "other",
+      "size_bytes": 3077
+    },
+    {
+      "path": "doc/mne_cpp.rst",
+      "filename": "mne_cpp.rst",
+      "category": "other",
+      "size_bytes": 1514
+    },
+    {
+      "path": "doc/old_versions/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 779
+    },
+    {
+      "path": "doc/overview/people.rst",
+      "filename": "people.rst",
+      "category": "other",
+      "size_bytes": 1751
+    },
+    {
+      "path": "logo/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 712
+    },
+    {
+      "path": "mne/icons/README.rst",
+      "filename": "README.rst",
+      "category": "other",
+      "size_bytes": 290
+    }
+  ]
+}

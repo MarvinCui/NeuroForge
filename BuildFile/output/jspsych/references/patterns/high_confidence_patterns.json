@@ -1,0 +1,86 @@
+[
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+    "class_name": "wrappers_Wrapper",
+    "method_name": null,
+    "line_number": 91799,
+    "evidence": [
+      "Class name suggests Adapter: wrappers_Wrapper"
+    ],
+    "related_classes": [],
+    "file_path": "jsPsych/docs/demos/js/webgazer/webgazer.js"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+    "class_name": "wrappers_TimeDistributed",
+    "method_name": null,
+    "line_number": 91883,
+    "evidence": [
+      "Class name suggests Adapter: wrappers_TimeDistributed"
+    ],
+    "related_classes": [],
+    "file_path": "jsPsych/docs/demos/js/webgazer/webgazer.js"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+    "class_name": "wrappers_Bidirectional",
+    "method_name": null,
+    "line_number": 91950,
+    "evidence": [
+      "Class name suggests Adapter: wrappers_Bidirectional"
+    ],
+    "related_classes": [],
+    "file_path": "jsPsych/docs/demos/js/webgazer/webgazer.js"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "jsPsych/examples/js/webgazer/webgazer.js",
+    "class_name": "wrappers_Wrapper",
+    "method_name": null,
+    "line_number": 80948,
+    "evidence": [
+      "Class name suggests Adapter: wrappers_Wrapper"
+    ],
+    "related_classes": [],
+    "file_path": "jsPsych/examples/js/webgazer/webgazer.js"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "jsPsych/examples/js/webgazer/webgazer.js",
+    "class_name": "wrappers_TimeDistributed",
+    "method_name": null,
+    "line_number": 81033,
+    "evidence": [
+      "Class name suggests Adapter: wrappers_TimeDistributed"
+    ],
+    "related_classes": [],
+    "file_path": "jsPsych/examples/js/webgazer/webgazer.js"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "jsPsych/examples/js/webgazer/webgazer.js",
+    "class_name": "wrappers_Bidirectional",
+    "method_name": null,
+    "line_number": 81089,
+    "evidence": [
+      "Class name suggests Adapter: wrappers_Bidirectional"
+    ],
+    "related_classes": [],
+    "file_path": "jsPsych/examples/js/webgazer/webgazer.js"
+  }
+]

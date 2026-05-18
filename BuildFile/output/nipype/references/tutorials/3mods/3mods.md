@@ -1,0 +1,155 @@
+# How To: 3Mods
+
+**Difficulty**: Advanced
+**Estimated Time**: 15 minutes
+**Tags**: pytest, workflow, integration
+
+## Overview
+
+Workflow: test 3mods
+
+## Prerequisites
+
+- [ ] Setup code must be executed first
+
+**Required Modules:**
+- `copy`
+- `glob`
+- `os`
+- `pytest`
+- `test_base`
+- `nipype.interfaces.utility`
+- `nipype`
+- `interfaces.utility`
+- `testing`
+- `nipype`
+- `nipype.interfaces.io`
+- `nipype.interfaces.base`
+- `nipype.interfaces.utility`
+
+**Setup Required:**
+```python
+# Fixtures: iterables, expected, connect
+```
+
+## Step-by-Step Guide
+
+### Step 1: Assign pipe = pe.Workflow(...)
+
+```python
+pipe = pe.Workflow(name='pipe')
+```
+
+**Verification:**
+```python
+assert len(pipe._execgraph.nodes()) == expected[0]
+```
+
+### Step 2: Assign mod1 = pe.Node(...)
+
+```python
+mod1 = pe.Node(interface=EngineTestInterface(), name='mod1')
+```
+
+**Verification:**
+```python
+assert len(pipe._execgraph.edges()) == expected[1]
+```
+
+### Step 3: Assign mod2 = pe.Node(...)
+
+```python
+mod2 = pe.Node(interface=EngineTestInterface(), name='mod2')
+```
+
+**Verification:**
+```python
+assert edgenum[0] > 0
+```
+
+### Step 4: Assign mod3 = pe.Node(...)
+
+```python
+mod3 = pe.Node(interface=EngineTestInterface(), name='mod3')
+```
+
+### Step 5: Assign pipe._flatgraph = pipe._create_flat_graph(...)
+
+```python
+pipe._flatgraph = pipe._create_flat_graph()
+```
+
+### Step 6: Assign pipe._execgraph = pe.generate_expanded_graph(...)
+
+```python
+pipe._execgraph = pe.generate_expanded_graph(deepcopy(pipe._flatgraph))
+```
+
+**Verification:**
+```python
+assert len(pipe._execgraph.nodes()) == expected[0]
+```
+
+### Step 7: Assign edgenum = sorted(...)
+
+```python
+edgenum = sorted([len(pipe._execgraph.in_edges(node)) + len(pipe._execgraph.out_edges(node)) for node in pipe._execgraph.nodes()])
+```
+
+**Verification:**
+```python
+assert edgenum[0] > 0
+```
+
+### Step 8: Assign eval.iterables = value
+
+```python
+eval('mod' + nr).iterables = iterables[nr]
+```
+
+### Step 9: Call pipe.connect()
+
+```python
+pipe.connect([(mod1, mod2, [('output1', 'input2')]), (mod2, mod3, [('output1', 'input2')])])
+```
+
+### Step 10: Call pipe.connect()
+
+```python
+pipe.connect([(mod1, mod3, [('output1', 'input1')]), (mod2, mod3, [('output1', 'input2')])])
+```
+
+
+## Complete Example
+
+```python
+# Setup
+# Fixtures: iterables, expected, connect
+
+# Workflow
+pipe = pe.Workflow(name='pipe')
+mod1 = pe.Node(interface=EngineTestInterface(), name='mod1')
+mod2 = pe.Node(interface=EngineTestInterface(), name='mod2')
+mod3 = pe.Node(interface=EngineTestInterface(), name='mod3')
+for nr in ['1', '2', '3']:
+    eval('mod' + nr).iterables = iterables[nr]
+if connect == ('1-2', '2-3'):
+    pipe.connect([(mod1, mod2, [('output1', 'input2')]), (mod2, mod3, [('output1', 'input2')])])
+elif connect == ('1-3', '2-3'):
+    pipe.connect([(mod1, mod3, [('output1', 'input1')]), (mod2, mod3, [('output1', 'input2')])])
+else:
+    raise Exception('connect pattern is not implemented yet within the test function')
+pipe._flatgraph = pipe._create_flat_graph()
+pipe._execgraph = pe.generate_expanded_graph(deepcopy(pipe._flatgraph))
+assert len(pipe._execgraph.nodes()) == expected[0]
+assert len(pipe._execgraph.edges()) == expected[1]
+edgenum = sorted([len(pipe._execgraph.in_edges(node)) + len(pipe._execgraph.out_edges(node)) for node in pipe._execgraph.nodes()])
+assert edgenum[0] > 0
+```
+
+## Next Steps
+
+
+---
+
+*Source: test_engine.py:84 | Complexity: Advanced | Last updated: 2026-05-18*

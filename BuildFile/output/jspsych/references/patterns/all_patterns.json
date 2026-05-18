@@ -1,0 +1,439 @@
+[
+  {
+    "file_path": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "lazy_iterator_FilterIterator",
+        "method_name": null,
+        "line_number": 38179,
+        "evidence": [
+          "Class name suggests handler chain: lazy_iterator_FilterIterator"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "ChainedIterator",
+        "method_name": null,
+        "line_number": 38387,
+        "evidence": [
+          "Class name suggests handler chain: ChainedIterator"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "OperationMapper",
+        "method_name": null,
+        "line_number": 38722,
+        "evidence": [
+          "Class name suggests Command: OperationMapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "Conv2DDerFilterProgram",
+        "method_name": null,
+        "line_number": 63843,
+        "evidence": [
+          "Class name suggests handler chain: Conv2DDerFilterProgram"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "Conv3DDerFilterProgram",
+        "method_name": null,
+        "line_number": 63967,
+        "evidence": [
+          "Class name suggests handler chain: Conv3DDerFilterProgram"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "DepthwiseConv2DDerFilterProgram",
+        "method_name": null,
+        "line_number": 64113,
+        "evidence": [
+          "Class name suggests handler chain: DepthwiseConv2DDerFilterProgram"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "BaseCallback",
+        "method_name": null,
+        "line_number": 78376,
+        "evidence": [
+          "Abstract base with subclasses: base_callbacks_BaseLogger, History"
+        ],
+        "related_classes": [
+          "base_callbacks_BaseLogger",
+          "History",
+          "base_callbacks_CustomCallback",
+          "callbacks_Callback"
+        ]
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "convolutional_BaseConv",
+        "method_name": null,
+        "line_number": 86212,
+        "evidence": [
+          "Abstract base with subclasses: convolutional_Conv, convolutional_depthwise_DepthwiseConv2D"
+        ],
+        "related_classes": [
+          "convolutional_Conv",
+          "convolutional_depthwise_DepthwiseConv2D"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "wrappers_Wrapper",
+        "method_name": null,
+        "line_number": 91799,
+        "evidence": [
+          "Class name suggests Decorator: wrappers_Wrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "wrappers_Wrapper",
+        "method_name": null,
+        "line_number": 91799,
+        "evidence": [
+          "Class name suggests Adapter: wrappers_Wrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "wrappers_TimeDistributed",
+        "method_name": null,
+        "line_number": 91883,
+        "evidence": [
+          "Class name suggests Decorator: wrappers_TimeDistributed"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "wrappers_TimeDistributed",
+        "method_name": null,
+        "line_number": 91883,
+        "evidence": [
+          "Class name suggests Adapter: wrappers_TimeDistributed"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "wrappers_Bidirectional",
+        "method_name": null,
+        "line_number": 91950,
+        "evidence": [
+          "Class name suggests Decorator: wrappers_Bidirectional"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "jsPsych/docs/demos/js/webgazer/webgazer.js",
+        "class_name": "wrappers_Bidirectional",
+        "method_name": null,
+        "line_number": 91950,
+        "evidence": [
+          "Class name suggests Adapter: wrappers_Bidirectional"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 275,
+    "total_functions": 1816,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 5,
+      "Command": 1,
+      "TemplateMethod": 2,
+      "Decorator": 3,
+      "Adapter": 3
+    }
+  },
+  {
+    "file_path": "jsPsych/examples/js/webgazer/webgazer.js",
+    "language": "JavaScript",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "lazy_iterator_FilterIterator",
+        "method_name": null,
+        "line_number": 32173,
+        "evidence": [
+          "Class name suggests handler chain: lazy_iterator_FilterIterator"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "ChainedIterator",
+        "method_name": null,
+        "line_number": 32382,
+        "evidence": [
+          "Class name suggests handler chain: ChainedIterator"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "OperationMapper",
+        "method_name": null,
+        "line_number": 32690,
+        "evidence": [
+          "Class name suggests Command: OperationMapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "Conv2DDerFilterProgram",
+        "method_name": null,
+        "line_number": 54748,
+        "evidence": [
+          "Class name suggests handler chain: Conv2DDerFilterProgram"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "Conv3DDerFilterProgram",
+        "method_name": null,
+        "line_number": 54872,
+        "evidence": [
+          "Class name suggests handler chain: Conv3DDerFilterProgram"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "DepthwiseConv2DDerFilterProgram",
+        "method_name": null,
+        "line_number": 55018,
+        "evidence": [
+          "Class name suggests handler chain: DepthwiseConv2DDerFilterProgram"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "BaseCallback",
+        "method_name": null,
+        "line_number": 68259,
+        "evidence": [
+          "Abstract base with subclasses: base_callbacks_BaseLogger, History"
+        ],
+        "related_classes": [
+          "base_callbacks_BaseLogger",
+          "History",
+          "base_callbacks_CustomCallback",
+          "callbacks_Callback"
+        ]
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "convolutional_BaseConv",
+        "method_name": null,
+        "line_number": 75801,
+        "evidence": [
+          "Abstract base with subclasses: convolutional_Conv, convolutional_depthwise_DepthwiseConv2D"
+        ],
+        "related_classes": [
+          "convolutional_Conv",
+          "convolutional_depthwise_DepthwiseConv2D"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "wrappers_Wrapper",
+        "method_name": null,
+        "line_number": 80948,
+        "evidence": [
+          "Class name suggests Decorator: wrappers_Wrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "wrappers_Wrapper",
+        "method_name": null,
+        "line_number": 80948,
+        "evidence": [
+          "Class name suggests Adapter: wrappers_Wrapper"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "wrappers_TimeDistributed",
+        "method_name": null,
+        "line_number": 81033,
+        "evidence": [
+          "Class name suggests Decorator: wrappers_TimeDistributed"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "wrappers_TimeDistributed",
+        "method_name": null,
+        "line_number": 81033,
+        "evidence": [
+          "Class name suggests Adapter: wrappers_TimeDistributed"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "wrappers_Bidirectional",
+        "method_name": null,
+        "line_number": 81089,
+        "evidence": [
+          "Class name suggests Decorator: wrappers_Bidirectional"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.7,
+        "location": "jsPsych/examples/js/webgazer/webgazer.js",
+        "class_name": "wrappers_Bidirectional",
+        "method_name": null,
+        "line_number": 81089,
+        "evidence": [
+          "Class name suggests Adapter: wrappers_Bidirectional"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 275,
+    "total_functions": 1798,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 5,
+      "Command": 1,
+      "TemplateMethod": 2,
+      "Decorator": 3,
+      "Adapter": 3
+    }
+  },
+  {
+    "file_path": "jsPsych/packages/jspsych/src/modules/plugin-api/KeyboardListenerAPI.ts",
+    "language": "TypeScript",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "jsPsych/packages/jspsych/src/modules/plugin-api/KeyboardListenerAPI.ts",
+        "class_name": "KeyboardListenerAPI",
+        "method_name": null,
+        "line_number": 18,
+        "evidence": [
+          "Class name suggests Observer: KeyboardListenerAPI"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  }
+]

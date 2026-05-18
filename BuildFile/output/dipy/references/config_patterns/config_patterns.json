@@ -1,0 +1,5726 @@
+{
+  "total_files": 31,
+  "total_settings": 529,
+  "detected_patterns": {},
+  "config_files": [
+    {
+      "file_path": "dipy/.codecov.yml",
+      "relative_path": ".codecov.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 12,
+      "settings": [
+        {
+          "key": "github_checks.annotations",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.layout",
+          "value": "reach, diff, files",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.behavior",
+          "value": "default",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.require_changes",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.require_base",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.require_head",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "comment.branches",
+          "value": null,
+          "type": "null",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "ignore",
+          "value": [
+            "*/benchmarks/*",
+            "conftest.py",
+            "*/conftest.py",
+            "*/tests/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.default.target",
+          "value": "auto",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.project.default.threshold",
+          "value": "0.5%",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.patch.default.target",
+          "value": "auto",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "coverage.status.patch.default.threshold",
+          "value": "0.5%",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.pre-commit-config.yaml",
+      "relative_path": ".pre-commit-config.yaml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "ci.autoupdate_schedule",
+          "value": "monthly",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "exclude",
+          "value": ".svg|.css|^dipy/data/files",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "repos",
+          "value": [
+            {
+              "repo": "https://github.com/pre-commit/pre-commit-hooks",
+              "rev": "v6.0.0",
+              "hooks": [
+                {
+                  "id": "end-of-file-fixer"
+                },
+                {
+                  "id": "mixed-line-ending"
+                },
+                {
+                  "id": "trailing-whitespace"
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/astral-sh/ruff-pre-commit",
+              "rev": "v0.15.12",
+              "hooks": [
+                {
+                  "id": "ruff-check",
+                  "args": [
+                    "--fix",
+                    "--show-fixes"
+                  ]
+                },
+                {
+                  "id": "ruff-format"
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/codespell-project/codespell",
+              "rev": "v2.4.2",
+              "hooks": [
+                {
+                  "id": "codespell",
+                  "args": [
+                    "--ignore-words-list",
+                    "indx"
+                  ]
+                }
+              ]
+            },
+            {
+              "repo": "https://github.com/pre-commit/pygrep-hooks",
+              "rev": "v1.10.0",
+              "hooks": [
+                {
+                  "id": "rst-backticks",
+                  "exclude": "^doc/release_notes|^doc/old_highlights.rst"
+                },
+                {
+                  "id": "rst-directive-colons"
+                },
+                {
+                  "id": "rst-inline-touching-normal"
+                }
+              ]
+            },
+            {
+              "repo": "local",
+              "hooks": [
+                {
+                  "id": "generate_requirements.py",
+                  "name": "generate_requirements.py",
+                  "language": "system",
+                  "entry": "python tools/generate_requirements.py",
+                  "files": "pyproject.toml|requirements/.*\\.txt|tools/generate_requirements.py"
+                }
+              ]
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/pyproject.toml",
+      "relative_path": "pyproject.toml",
+      "type": "toml",
+      "purpose": "package_configuration",
+      "patterns": [],
+      "settings_count": 101,
+      "settings": [
+        {
+          "key": "project.name",
+          "value": "dipy",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.description",
+          "value": "Diffusion MRI Imaging in Python",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.license",
+          "value": "BSD-3-Clause",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.license-files",
+          "value": [
+            "LICENSE"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.readme",
+          "value": "README.rst",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.requires-python",
+          "value": ">=3.12",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.authors",
+          "value": [
+            {
+              "name": "DIPY developers",
+              "email": "dipy@python.org"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.maintainers",
+          "value": [
+            {
+              "name": "Eleftherios Garyfallidis",
+              "email": "neuroimaging@python.org"
+            },
+            {
+              "name": "Ariel Rokem",
+              "email": "neuroimaging@python.org"
+            },
+            {
+              "name": "Serge Koudoro",
+              "email": "neuroimaging@python.org"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.keywords",
+          "value": [
+            "dipy",
+            "diffusionimaging",
+            "dti",
+            "tracking",
+            "tractography",
+            "diffusionmri",
+            "mri",
+            "tractometry",
+            "connectomics",
+            "brain",
+            "dipymri",
+            "microstructure",
+            "deeplearning",
+            "registration",
+            "segmentations",
+            "simulation",
+            "medical",
+            "imaging",
+            "brain",
+            "machinelearning",
+            "signalprocessing"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.classifiers",
+          "value": [
+            "Development Status :: 4 - Beta",
+            "Environment :: Console",
+            "Intended Audience :: Developers",
+            "Intended Audience :: Science/Research",
+            "Programming Language :: Python",
+            "Programming Language :: Python :: 3",
+            "Programming Language :: Python :: 3.12",
+            "Programming Language :: Python :: 3.13",
+            "Programming Language :: Python :: 3.14",
+            "Programming Language :: Python :: 3 :: Only",
+            "Topic :: Software Development :: Libraries",
+            "Topic :: Scientific/Engineering",
+            "Operating System :: OS Independent",
+            "Operating System :: Microsoft :: Windows",
+            "Operating System :: POSIX",
+            "Operating System :: Unix",
+            "Operating System :: MacOS"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.version",
+          "value": "1.13.0.dev0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.dependencies",
+          "value": [
+            "numpy>=2.0.0",
+            "scipy>=1.13",
+            "nibabel>=3.0.0",
+            "h5py>=3.11.0",
+            "packaging>=21",
+            "tqdm>=4.30.0",
+            "trx-python>=0.4.0"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_align_syn",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_align_affine",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_apply_transform",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_brain_mask",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_buan_shapes",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_buan_profiles",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_buan_lmm",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_bundlewarp",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_classify_tissue",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_cluster_streamlines",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_correct_biasfield",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_correct_motion",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_denoise_nlmeans",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_denoise_lpca",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_denoise_mppca",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_denoise_patch2self",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_evac_plus",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fetch",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_csa",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_csd",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_dki",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_dsi",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_dsid",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_dti",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_force",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_forecast",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_fwdti",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_gqi",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_ivim",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_mapmri",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_msmtcsd",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_opdt",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_powermap",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_qball",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_sdt",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_fit_sfm",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_math",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_mask",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_gibbs_ringing",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_horizon",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_info",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_extract_b0",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_extract_shell",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_extract_volume",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_labelsbundles",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_median_otsu",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_recobundles",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_reslice",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_sh_convert_mrtrix",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_snr_in_cc",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_split",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_track",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_track_pft",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_slr",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_concatenate_tractograms",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_convert_tractogram",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_convert_tensors",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_convert_sh",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_nifti2pam",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_pam2nifti",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.scripts.dipy_tensor2pam",
+          "value": "dipy.workflows.cli:run",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.build",
+          "value": [
+            "meson-python>=0.13",
+            "setuptools>=77.0.3,<83.0",
+            "packaging>=21",
+            "ninja",
+            "Cython>=0.29.35",
+            "numpy>=2.0.0",
+            "spin>=0.5",
+            "build"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.all",
+          "value": [
+            "dipy[build, dev, doc, style, viz, optional, benchmark]"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.style",
+          "value": [
+            "ruff",
+            "pre-commit"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.viz",
+          "value": [
+            "fury>=0.12.0",
+            "matplotlib"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.test",
+          "value": [
+            "pytest>=9",
+            "coverage",
+            "coveralls",
+            "codecov",
+            "asv"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.ml",
+          "value": [
+            "scikit_learn",
+            "pandas",
+            "statsmodels>=0.14.0",
+            "tables",
+            "torch"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.dev",
+          "value": [
+            "dipy[build, style]",
+            "pytest>=9",
+            "coverage",
+            "coveralls",
+            "codecov",
+            "asv"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.optional",
+          "value": [
+            "dipy[viz, ml]",
+            "cvxpy",
+            "scikit-image",
+            "boto3",
+            "numexpr"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.doc",
+          "value": [
+            "numpydoc",
+            "sphinx>=7.2.6",
+            "texext",
+            "sphinxcontrib-bibtex>=2.5.0",
+            "sphinx_design>=0.5.0",
+            "sphinx-gallery>=0.10.0",
+            "grg-sphinx-theme>=0.4.0",
+            "Jinja2"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.optional-dependencies.benchmark",
+          "value": [
+            "asv",
+            "pyperf",
+            "virtualenv"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.urls.homepage",
+          "value": "https://dipy.org",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.urls.documentation",
+          "value": "https://docs.dipy.org/stable/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.urls.source",
+          "value": "https://github.com/dipy/dipy",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.urls.download",
+          "value": "https://pypi.org/project/dipy/#files",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "project.urls.tracker",
+          "value": "https://github.com/dipy/dipy/issues",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build-system.build-backend",
+          "value": "mesonpy",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "build-system.requires",
+          "value": [
+            "meson-python>=0.18.0",
+            "Cython>=3.0.4",
+            "packaging>21.0",
+            "scipy>=1.13.0",
+            "numpy>=2.0.0rc1; python_version>='3.12' and platform_python_implementation!='PyPy'",
+            "numpy; python_version>='3.12' and platform_python_implementation=='PyPy'"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.spin.package",
+          "value": "dipy",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.spin.commands.Build",
+          "value": [
+            "spin.cmds.meson.build",
+            "spin.cmds.meson.test",
+            "spin.cmds.build.sdist",
+            ".spin/cmds.py:clean"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.spin.commands.Environments",
+          "value": [
+            "spin.cmds.meson.run",
+            "spin.shell",
+            "spin.ipython",
+            "spin.python"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.spin.commands.Documentation",
+          "value": [
+            ".spin/cmds.py:docs"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.spin.commands.Metrics",
+          "value": [
+            ".spin/cmds.py:bench"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.spin.commands.Release",
+          "value": [
+            ".spin/cmds.py:prepare_release"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.minversion",
+          "value": "9",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.addopts",
+          "value": [
+            "-ra",
+            "--ignore=dipy/testing/decorators.py",
+            "--ignore-glob='bench*.py'",
+            "--ignore-glob=**/benchmarks/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.log_level",
+          "value": "INFO",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.strict",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "tool.pytest.filterwarnings",
+          "value": [
+            "ignore:.*You do not have FURY installed.*:UserWarning",
+            "ignore:.*'where' used without 'out'.*:UserWarning:fury.colormap",
+            "ignore:.*Python 3.14 will, by default, filter extracted tar archives.*:DeprecationWarning",
+            "ignore:Implementing implicit namespace packages.*:DeprecationWarning",
+            "ignore:Deprecated call to `pkg_resources.*:DeprecationWarning",
+            "ignore:pkg_resources is deprecated as an API.*:DeprecationWarning",
+            "ignore:\"polish\" is deprecated. Please use \"polishing\".*:DeprecationWarning",
+            "ignore:The default value of raise_error will change.*:PendingDeprecationWarning",
+            "ignore:.*is multi-threaded, use of fork.{2} may lead to deadlocks in the child.*:DeprecationWarning",
+            "ignore:.*np.find_common_type is deprecated.*:DeprecationWarning:scipy",
+            "ignore:.*`product` is deprecated.*:DeprecationWarning:h5py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/ruff.toml",
+      "relative_path": "ruff.toml",
+      "type": "toml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 19,
+      "settings": [
+        {
+          "key": "line-length",
+          "value": 88,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "force-exclude",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "extend-exclude",
+          "value": [
+            "__pycache__",
+            "build",
+            "_version.py",
+            "doc/sphinxext/**",
+            "doc/tools/*.py",
+            "doc/upload_docs.py",
+            "tools/**"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.extend-select",
+          "value": [
+            "B",
+            "C4",
+            "ISC",
+            "FLY",
+            "I",
+            "C90",
+            "PERF",
+            "W",
+            "UP",
+            "FURB"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.ignore",
+          "value": [
+            "B905",
+            "C901",
+            "F811",
+            "FURB171"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.extend-per-file-ignores.dipy/align/__init__.py",
+          "value": [
+            "E402"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.extend-per-file-ignores.dipy/reconst/*.py",
+          "value": [
+            "B026"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.extend-per-file-ignores.dipy/viz/__init__.py",
+          "value": [
+            "F401"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.extend-per-file-ignores.doc/examples/**",
+          "value": [
+            "E402"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.extend-per-file-ignores.doc/conf.py",
+          "value": [
+            "E402"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.isort.case-sensitive",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.isort.combine-as-imports",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.isort.force-sort-within-sections",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.isort.known-first-party",
+          "value": [
+            "dipy"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.isort.no-sections",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.isort.order-by-type",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.isort.relative-imports-order",
+          "value": "closest-to-furthest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lint.isort.section-order",
+          "value": [
+            "future",
+            "standard-library",
+            "third-party",
+            "first-party",
+            "local-folder"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "format.quote-style",
+          "value": "double",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/bench.ini",
+      "relative_path": "bench.ini",
+      "type": "ini",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "pytest.python_files",
+          "value": "bench_*.py",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "pytest.python_classes",
+          "value": "Bench",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "pytest.python_functions",
+          "value": "bench_*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/benchmarks/asv.conf.json",
+      "relative_path": "benchmarks/asv.conf.json",
+      "type": "json",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "JSON parse error: Expecting property name enclosed in double quotes: line 2 column 5 (char 6)"
+      ]
+    },
+    {
+      "file_path": "dipy/.github/labeler.yml",
+      "relative_path": ".github/labeler.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 35,
+      "settings": [
+        {
+          "key": "type:bugfix.title",
+          "value": "^BF:.*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:backward compatibility.title",
+          "value": "^BW:.*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:continuous integration.title",
+          "value": "^CI:.*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:documentation.title",
+          "value": "^DOC:.*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:maintenance.title",
+          "value": "^MNT:.*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:new feature.title",
+          "value": "^NF:.*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:optimization.title",
+          "value": "^OPT:.*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:refactoring.title",
+          "value": "^RF:.*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:style.title",
+          "value": "^STYLE:.*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:test.title",
+          "value": "^TEST:.*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:coverage.title",
+          "value": "coverage",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:design.title",
+          "value": "design",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:align.files",
+          "value": [
+            "dipy/align/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:benchmarking.files",
+          "value": [
+            "benchmarks/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:boots.files",
+          "value": [
+            "dipy/boots/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:core.files",
+          "value": [
+            "dipy/core/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:data.files",
+          "value": [
+            "dipy/data/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:denoise.files",
+          "value": [
+            "dipy/denoise/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:direction.files",
+          "value": [
+            "dipy/direction/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:documentation.files",
+          "value": [
+            "doc/*",
+            "README.rst"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:examples.files",
+          "value": [
+            "doc/examples/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:io.files",
+          "value": [
+            "dipy/io/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:nn.files",
+          "value": [
+            "dipy/nn/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:reconst.files",
+          "value": [
+            "dipy/reconst/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:segment.files",
+          "value": [
+            "dipy/segment/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:sims.files",
+          "value": [
+            "dipy/sims/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:stats.files",
+          "value": [
+            "dipy/stats/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:testing.files",
+          "value": [
+            "dipy/testing/*",
+            "dipy/tests/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:tracking.files",
+          "value": [
+            "dipy/tracking/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:utils.files",
+          "value": [
+            "dipy/utils/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:viz.files",
+          "value": [
+            "dipy/viz/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "area:workflows.files",
+          "value": [
+            "dipy/workflows/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:cython.files",
+          "value": [
+            "**/*.pxd",
+            "**/*.pyx"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:infrastructure.files",
+          "value": [
+            ".github/*",
+            ".spin/*",
+            ".codecov.yml",
+            ".codespellrc",
+            ".coveragerc",
+            ".gitattributes",
+            ".gitignore",
+            ".mailmap",
+            ".pre-commit-config.yaml",
+            "Makefile",
+            "pyproject.toml",
+            "requirements.txt",
+            "ruff.toml",
+            "**/meson.build",
+            "requirements/*",
+            "src/*",
+            "tools/*"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "type:testing.files",
+          "value": [
+            "test_.*.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/dependabot.yml",
+      "relative_path": ".github/dependabot.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 2,
+      "settings": [
+        {
+          "key": "version",
+          "value": 2,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "updates",
+          "value": [
+            {
+              "package-ecosystem": "github-actions",
+              "directory": "/",
+              "schedule": {
+                "interval": "weekly"
+              },
+              "groups": {
+                "actions": {
+                  "patterns": [
+                    "*"
+                  ]
+                }
+              }
+            },
+            {
+              "package-ecosystem": "pip",
+              "directory": "/",
+              "schedule": {
+                "interval": "monthly"
+              },
+              "groups": {
+                "python-dependencies": {
+                  "patterns": [
+                    "*"
+                  ]
+                }
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/dipy/data/files/dipy_colormaps.json",
+      "relative_path": "dipy/data/files/dipy_colormaps.json",
+      "type": "json",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 9,
+      "settings": [
+        {
+          "key": "Blues.blue",
+          "value": [
+            [
+              0.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.125,
+              0.9686274528503418,
+              0.9686274528503418
+            ],
+            [
+              0.25,
+              0.9372549057006836,
+              0.9372549057006836
+            ],
+            [
+              0.375,
+              0.8823529481887817,
+              0.8823529481887817
+            ],
+            [
+              0.5,
+              0.8392156958580017,
+              0.8392156958580017
+            ],
+            [
+              0.625,
+              0.7764706015586853,
+              0.7764706015586853
+            ],
+            [
+              0.75,
+              0.7098039388656616,
+              0.7098039388656616
+            ],
+            [
+              0.875,
+              0.6117647290229797,
+              0.6117647290229797
+            ],
+            [
+              1.0,
+              0.41960784792900085,
+              0.41960784792900085
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Blues.green",
+          "value": [
+            [
+              0.0,
+              0.9843137264251709,
+              0.9843137264251709
+            ],
+            [
+              0.125,
+              0.9215686321258545,
+              0.9215686321258545
+            ],
+            [
+              0.25,
+              0.8588235378265381,
+              0.8588235378265381
+            ],
+            [
+              0.375,
+              0.7921568751335144,
+              0.7921568751335144
+            ],
+            [
+              0.5,
+              0.6823529601097107,
+              0.6823529601097107
+            ],
+            [
+              0.625,
+              0.572549045085907,
+              0.572549045085907
+            ],
+            [
+              0.75,
+              0.4431372582912445,
+              0.4431372582912445
+            ],
+            [
+              0.875,
+              0.3176470696926117,
+              0.3176470696926117
+            ],
+            [
+              1.0,
+              0.1882352977991104,
+              0.1882352977991104
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Blues.red",
+          "value": [
+            [
+              0.0,
+              0.9686274528503418,
+              0.9686274528503418
+            ],
+            [
+              0.125,
+              0.8705882430076599,
+              0.8705882430076599
+            ],
+            [
+              0.25,
+              0.7764706015586853,
+              0.7764706015586853
+            ],
+            [
+              0.375,
+              0.6196078658103943,
+              0.6196078658103943
+            ],
+            [
+              0.5,
+              0.41960784792900085,
+              0.41960784792900085
+            ],
+            [
+              0.625,
+              0.25882354378700256,
+              0.25882354378700256
+            ],
+            [
+              0.75,
+              0.12941177189350128,
+              0.12941177189350128
+            ],
+            [
+              0.875,
+              0.0313725508749485,
+              0.0313725508749485
+            ],
+            [
+              1.0,
+              0.0313725508749485,
+              0.0313725508749485
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jet.blue",
+          "value": [
+            [
+              0.0,
+              0.5,
+              0.5
+            ],
+            [
+              0.11,
+              1,
+              1
+            ],
+            [
+              0.34,
+              1,
+              1
+            ],
+            [
+              0.65,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jet.green",
+          "value": [
+            [
+              0.0,
+              0,
+              0
+            ],
+            [
+              0.125,
+              0,
+              0
+            ],
+            [
+              0.375,
+              1,
+              1
+            ],
+            [
+              0.64,
+              1,
+              1
+            ],
+            [
+              0.91,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jet.red",
+          "value": [
+            [
+              0.0,
+              0,
+              0
+            ],
+            [
+              0.35,
+              0,
+              0
+            ],
+            [
+              0.66,
+              1,
+              1
+            ],
+            [
+              0.89,
+              1,
+              1
+            ],
+            [
+              1,
+              0.5,
+              0.5
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "bone.blue",
+          "value": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.365079,
+              0.444444,
+              0.444444
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "bone.green",
+          "value": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.365079,
+              0.319444,
+              0.319444
+            ],
+            [
+              0.746032,
+              0.777778,
+              0.777778
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "bone.red",
+          "value": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.746032,
+              0.652778,
+              0.652778
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/workflows/backport.yml",
+      "relative_path": ".github/workflows/backport.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 8,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Backport",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request_target.types",
+          "value": [
+            "closed"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.pull-requests",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.backport.name",
+          "value": "Backport pull request",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.backport.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.backport.if",
+          "value": "github.event.pull_request.merged == true",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.backport.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+              "with": {
+                "fetch-depth": 0
+              }
+            },
+            {
+              "name": "Create backport pull requests",
+              "uses": "korthout/backport-action@66065406958f46e82238fd59546f5a99e69e22aa",
+              "with": {
+                "label_pattern": "^backport-(.+)$",
+                "copy_labels_pattern": ".*",
+                "copy_assignees": true,
+                "pull_title": "[Backport ${target_branch}] ${pull_title}",
+                "pull_description": "Automated backport of #${pull_number} to `${target_branch}`.\n\n**Original PR:** #${pull_number} by @${pull_author}\n\n---\n\n${pull_description}\n",
+                "experimental": "{\"conflict_resolution\": \"draft_commit_conflicts\"}"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/workflows/first_interaction.yml",
+      "relative_path": ".github/workflows/first_interaction.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 7,
+      "settings": [
+        {
+          "key": "name",
+          "value": "First interaction",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True",
+          "value": [
+            "pull_request_target",
+            "issues"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.permissions.pull-requests",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.permissions.issues",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.steps",
+          "value": [
+            {
+              "uses": "actions/first-interaction@1c4688942c71f71d4f5502a26ea67c331730fa4d",
+              "with": {
+                "repo_token": "${{ secrets.GITHUB_TOKEN }}",
+                "issue_message": ":pray: Thank you for contributing an issue !\n\n:rocket: **We are glad that you are finding DIPY useful !**\n\nThis is an automatic message. Allow for time for DIPY maintainers to be able to read the issue and comment on it.\n\nIf asking for help or advice, please move the issue to the [Discussions section](https://github.com/dipy/dipy/discussions): issues are intended to request new features or to report bugs.\n\nWe would appreciate if you took the time to submit a pull request to fix this issue should it happen to be one.\n\n:book: Please read our [CODE OF CONDUCT](https://github.com/dipy/dipy/blob/master/.github/CODE_OF_CONDUCT.md) and our [CONTRIBUTING guidelines](https://github.com/dipy/dipy/blob/master/.github/CONTRIBUTING.md) if you have not done that already.\n",
+                "pr_message": ":pray: Thank you for contributing a pull request !\n\n:rocket: **We are glad that you are finding DIPY useful !**\n\nThis is an automatic message. Allow for time for DIPY maintainers to be able to read this pull request and comment on it.\n\n:white_check_mark: Note that we require the **code formatting**, **testing** and **documentation builds** to **pass** in order to merge your pull request.\n\nGitHub will report on the status of each aspect as the builds become available. **Please, check their status and make the appropriate changes as necessary**.\n\n:mag: It is **your responsibility** to ensure that the above checks pass to have your pull request reviewed in a timely manner and merged.\n\n:book: Please read our [CODE OF CONDUCT](https://github.com/dipy/dipy/blob/master/.github/CODE_OF_CONDUCT.md) and our [CONTRIBUTING guidelines](https://github.com/dipy/dipy/blob/master/.github/CONTRIBUTING.md) if you have not done that already.\n"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/workflows/nightly.yml",
+      "relative_path": ".github/workflows/nightly.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 62,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Build and upload nightly wheels",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch.inputs.branch_or_tag.description",
+          "value": "Branch or Tag to Checkout",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch.inputs.branch_or_tag.required",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_dispatch.inputs.branch_or_tag.default",
+          "value": "master",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.schedule",
+          "value": [
+            {
+              "cron": "0 0 * * 0,3"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.CIBW_BUILD_VERBOSITY",
+          "value": 1,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.CIBW_ARCHS",
+          "value": "native",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.CIBW_BUILD",
+          "value": "cp3{12,13,14}-*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.CIBW_BUILD_FRONTEND",
+          "value": "pip; args: --pre --extra-index-url \"https://pypi.anaconda.org/scientific-python-nightly-wheels/simple\"",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.CIBW_TEST_SKIP",
+          "value": "*",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.CIBW_TEST_REQUIRES",
+          "value": "-r requirements/build.txt pytest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.CIBW_TEST_COMMAND",
+          "value": "pytest --pyargs dipy",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "env.CIBW_CONFIG_SETTINGS",
+          "value": "compile-args=-v",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "build-${{ github.workflow }}-${{ github.head_ref || github.run_id }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.check-commit.name",
+          "value": "Check [wheels] in commit message",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.check-commit.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.check-commit.outputs.proceed",
+          "value": "${{ steps.commit-message.outputs.PROCEED }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.check-commit.outputs.build-commit",
+          "value": "${{ steps.build-commit.outputs.BUILD_COMMIT }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.check-commit.defaults.run.shell",
+          "value": "bash -el {0}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.check-commit.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v6.0.2",
+              "with": {
+                "fetch-depth": 2
+              }
+            },
+            {
+              "name": "Check commit message for [wheels]",
+              "id": "commit-message",
+              "run": "if [[ \"${{ github.event_name }}\" == \"pull_request\" ]]; then\n  MSG=$(git show -s --format=%s ${{ github.event.pull_request.head.sha }})\n  echo \"Got commit message: $MSG\"\n  if echo \"$MSG\" | grep -iq '\\[wheels\\]'; then\n    PROCEED=true\n  else\n    PROCEED=false\n  fi\nelse\n  PROCEED=true\nfi\necho \"PROCEED=$PROCEED\" | tee -a $GITHUB_OUTPUT\n"
+            },
+            {
+              "name": "Check build commit",
+              "id": "build-commit",
+              "run": "BUILD_COMMIT=master\nif [[ \"workflow_dispatch\" == \"${{ github.event_name }}\" ]]; then\n  BUILD_COMMIT=${{ github.event.inputs.branch_or_tag }}\nelif [[ \"pull_request\" == \"${{ github.event_name }}\" ]]; then\n  BUILD_COMMIT=${{ github.event.pull_request.head.sha }}\nfi\necho \"BUILD_COMMIT=$BUILD_COMMIT\" | tee -a $GITHUB_OUTPUT\n"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_linux_wheels.name",
+          "value": "Build wheels on ${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_linux_wheels.needs",
+          "value": "check-commit",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_linux_wheels.if",
+          "value": "github.repository_owner == 'dipy' && needs.check-commit.outputs.proceed == 'true'",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_linux_wheels.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_linux_wheels.timeout-minutes",
+          "value": 90,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_linux_wheels.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_linux_wheels.strategy.matrix.os",
+          "value": [
+            "ubuntu-latest",
+            "ubuntu-24.04-arm"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_linux_wheels.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v6.0.2",
+              "with": {
+                "fetch-depth": 0,
+                "ref": "${{ needs.check-commit.outputs.build-commit }}"
+              }
+            },
+            {
+              "uses": "pypa/cibuildwheel@v3.4.1",
+              "env": {
+                "CIBW_SKIP": "*-musllinux_*",
+                "CIBW_MANYLINUX_X86_64_IMAGE": "manylinux_2_28",
+                "CIBW_MANYLINUX_I686_IMAGE": "manylinux_2_28"
+              },
+              "with": {
+                "output-dir": "dist"
+              }
+            },
+            {
+              "uses": "actions/upload-artifact@v7",
+              "with": {
+                "name": "wheels-${{ matrix.os }}",
+                "path": "./dist/*.whl"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_osx_wheels.name",
+          "value": "Build ${{ matrix.os }} wheels",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_osx_wheels.needs",
+          "value": "check-commit",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_osx_wheels.if",
+          "value": "github.repository_owner == 'dipy' && needs.check-commit.outputs.proceed == 'true'",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_osx_wheels.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_osx_wheels.timeout-minutes",
+          "value": 90,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_osx_wheels.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_osx_wheels.strategy.matrix.os",
+          "value": [
+            "macos-15-intel",
+            "macos-latest"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_osx_wheels.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v6.0.2",
+              "with": {
+                "fetch-depth": 0,
+                "ref": "${{ needs.check-commit.outputs.build-commit }}"
+              }
+            },
+            {
+              "uses": "pypa/cibuildwheel@v3.4.1",
+              "env": {
+                "CIBW_BEFORE_ALL_MACOS": "curl -fsSL https://github.com/dipy/dipy_data/releases/download/v0.1/libomp-19.1.5-darwin20.tar.gz | sudo tar xz -C /\n",
+                "CIBW_ENVIRONMENT_MACOS": "MACOSX_DEPLOYMENT_TARGET=11.0"
+              },
+              "with": {
+                "output-dir": "dist"
+              }
+            },
+            {
+              "uses": "actions/upload-artifact@v7",
+              "with": {
+                "name": "wheels-${{ matrix.os }}",
+                "path": "./dist/*.whl"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_windows_wheels.name",
+          "value": "Build ${{ matrix.os }} wheels",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_windows_wheels.needs",
+          "value": "check-commit",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_windows_wheels.if",
+          "value": "github.repository_owner == 'dipy' && needs.check-commit.outputs.proceed == 'true'",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_windows_wheels.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_windows_wheels.timeout-minutes",
+          "value": 90,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_windows_wheels.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_windows_wheels.strategy.matrix.os",
+          "value": [
+            "windows-latest"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build_windows_wheels.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v6.0.2",
+              "with": {
+                "fetch-depth": 0,
+                "ref": "${{ needs.check-commit.outputs.build-commit }}"
+              }
+            },
+            {
+              "uses": "pypa/cibuildwheel@v3.4.1",
+              "env": {
+                "CIBW_CONFIG_SETTINGS": "setup-args=--vsenv compile-args=-v"
+              },
+              "with": {
+                "output-dir": "dist"
+              }
+            },
+            {
+              "uses": "actions/upload-artifact@v7",
+              "with": {
+                "name": "wheels-${{ matrix.os }}",
+                "path": "./dist/*.whl"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test_wheels.name",
+          "value": "Test wheels",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test_wheels.if",
+          "value": "github.repository_owner == 'dipy'",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test_wheels.needs",
+          "value": [
+            "build_linux_wheels"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test_wheels.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test_wheels.timeout-minutes",
+          "value": 30,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test_wheels.strategy.matrix.os",
+          "value": [
+            "ubuntu-latest"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test_wheels.strategy.matrix.python-version",
+          "value": [
+            "3.12"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.test_wheels.steps",
+          "value": [
+            {
+              "name": "Rename Python version",
+              "shell": "bash",
+              "run": "echo \"PY_VERSION=$(echo ${{ matrix.python-version }} | tr -d '.')\" >> $GITHUB_ENV"
+            },
+            {
+              "uses": "actions/download-artifact@v8",
+              "with": {
+                "name": "wheels-ubuntu-latest",
+                "path": "./dist"
+              }
+            },
+            {
+              "uses": "actions/setup-python@v6",
+              "with": {
+                "python-version": "${{ matrix.python-version }}"
+              }
+            },
+            {
+              "name": "Test wheel",
+              "run": "set -eo pipefail\nls -al ./dist/*-cp${PY_VERSION}-*.whl\npython -m pip install --only-binary=\"numpy,scipy,h5py\" --index-url \"https://pypi.anaconda.org/scientific-python-nightly-wheels/simple\" \"numpy>=2.1.0.dev0\" \"scipy>=1.14.0.dev0\" h5py\npython -m pip install ./dist/*-cp${PY_VERSION}-*.whl\npython -c \"import dipy; print(dipy.__version__)\"\npython -c \"import numpy; assert int(numpy.__version__[0]) >= 2, numpy.__version__\"\npython -c \"from dipy.align.imaffine import AffineMap\"\n"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.upload_anaconda.permissions.contents",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.upload_anaconda.name",
+          "value": "Upload to Anaconda",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.upload_anaconda.needs",
+          "value": [
+            "check-commit",
+            "build_linux_wheels",
+            "build_osx_wheels",
+            "build_windows_wheels"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.upload_anaconda.if",
+          "value": "github.repository_owner == 'dipy' && github.ref == 'refs/heads/master' && github.event_name != 'pull_request'",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.upload_anaconda.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.upload_anaconda.timeout-minutes",
+          "value": 10,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.upload_anaconda.steps",
+          "value": [
+            {
+              "uses": "actions/download-artifact@v8",
+              "id": "download",
+              "with": {
+                "pattern": "wheels-*",
+                "path": "./dist",
+                "merge-multiple": true
+              }
+            },
+            {
+              "name": "Upload wheel",
+              "uses": "scientific-python/upload-nightly-action@e76cfec8a4611fd02808a801b0ff5a7d7c1b2d99",
+              "if": "github.event_name != 'schedule'",
+              "with": {
+                "artifacts_path": "dist",
+                "anaconda_nightly_upload_token": "${{secrets.ANACONDA_NIGHTLY_TOKEN}}",
+                "anaconda_nightly_upload_organization": "dipy",
+                "anaconda_nightly_upload_labels": "dev"
+              }
+            },
+            {
+              "name": "Upload wheel",
+              "uses": "scientific-python/upload-nightly-action@e76cfec8a4611fd02808a801b0ff5a7d7c1b2d99",
+              "if": "needs.check-commit.outputs.build-commit == 'master'",
+              "with": {
+                "artifacts_path": "dist",
+                "anaconda_nightly_upload_token": "${{secrets.ANACONDA_SCIENTIFIC_PYTHON_NIGHTLY_TOKEN}}",
+                "anaconda_nightly_upload_organization": "scientific-python-nightly-wheels",
+                "anaconda_nightly_upload_labels": "main"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/workflows/build_docs.yml",
+      "relative_path": ".github/workflows/build_docs.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 11,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Build docs",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "defaults.run.shell",
+          "value": "bash",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.timeout-minutes",
+          "value": 30,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.defaults.run.shell",
+          "value": "bash",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.strategy.matrix.python-version",
+          "value": [
+            "3.12"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v6.0.2",
+              "with": {
+                "fetch-depth": 0
+              }
+            },
+            {
+              "name": "Set up Python ${{ matrix.python-version }}",
+              "uses": "actions/setup-python@v6",
+              "with": {
+                "python-version": "${{ matrix.python-version }}"
+              }
+            },
+            {
+              "name": "Install Dependencies",
+              "run": "python -m pip install --upgrade pip\npip install \".[viz,ml]\" scikit-image boto3 numexpr\npip install .[doc]\n"
+            },
+            {
+              "name": "Build documentation",
+              "run": "cd doc\nmake -C . html-no-examples SPHINXOPTS=\"-W --keep-going\"\n"
+            },
+            {
+              "name": "Deploy dev docs to docs.dipy.org",
+              "if": "github.event_name == 'push' && github.ref == 'refs/heads/master'",
+              "env": {
+                "DOCS_DEPLOY_TOKEN": "${{ secrets.DOCS_DEPLOY_TOKEN }}"
+              },
+              "run": "git clone --depth=1 \\\n  \"https://x-access-token:${DOCS_DEPLOY_TOKEN}@github.com/dipy/docs.dipy.org.git\" \\\n  _deploy\n# Sync everything into dev/ but preserve the pre-built examples_built/\n# directory (tutorials are not rebuilt by html-no-examples).\nrsync -a --delete \\\n  --exclude='examples_built/' \\\n  doc/_build/html/ _deploy/dev/\ncd _deploy\ngit config user.name \"github-actions[bot]\"\ngit config user.email \"github-actions[bot]@users.noreply.github.com\"\ngit add -A\nSHORT_SHA=$(cd .. && git rev-parse --short HEAD)\ngit diff --cached --quiet \\\n  || git commit -m \"DOC: update dev docs from dipy/dipy@${SHORT_SHA}\"\ngit push\n"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/workflows/test.yml",
+      "relative_path": ".github/workflows/test.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 37,
+      "settings": [
+        {
+          "key": "name",
+          "value": "DIPY Test",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.schedule",
+          "value": [
+            {
+              "cron": "0 0 25-31 * 0"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "build-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.stable.uses",
+          "value": "./.github/workflows/test_template.yml",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.stable.with.runs-on",
+          "value": "[\"ubuntu-latest\", \"macos-latest\", \"windows-latest\"]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.stable.with.python-version",
+          "value": "[\"3.12\", \"3.13\", \"3.14\"]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.optional-deps-pip.uses",
+          "value": "./.github/workflows/test_template.yml",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.optional-deps-pip.with.runs-on",
+          "value": "[\"ubuntu-latest\", \"macos-latest\", \"windows-latest\"]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.optional-deps-pip.with.depends",
+          "value": "cython!=0.29.29 numpy==2.0.0 matplotlib h5py==3.11.0 nibabel cvxpy==1.5.3 tqdm",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.optional-deps-pip.with.extra-depends",
+          "value": "scikit_learn pandas statsmodels tables scipy==1.13.0 numexpr",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.optional-deps-conda.uses",
+          "value": "./.github/workflows/test_template.yml",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.optional-deps-conda.with.runs-on",
+          "value": "[\"macos-latest\", \"windows-latest\"]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.optional-deps-conda.with.install-type",
+          "value": "[\"conda\"]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.optional-deps-conda.with.depends",
+          "value": "cython!=0.29.29 numpy=2.0.0 matplotlib h5py=3.11.0 nibabel cvxpy=1.5.2 tqdm",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.optional-deps-conda.with.extra-depends",
+          "value": "scikit-learn pandas statsmodels pytables scipy=1.13.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.parallel.uses",
+          "value": "./.github/workflows/test_template.yml",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.parallel.with.runs-on",
+          "value": "[\"ubuntu-latest\", \"macos-latest\", \"windows-latest\"]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.parallel.with.extra-depends",
+          "value": "dask joblib ray>=2.53.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.minimal-py312.uses",
+          "value": "./.github/workflows/test_template.yml",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.minimal-py312.with.runs-on",
+          "value": "[\"ubuntu-latest\", ]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.minimal-py312.with.python-version",
+          "value": "[\"3.12\", ]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.minimal-py312.with.depends",
+          "value": "cython==0.29.32 numpy==2.0.0 scipy==1.13.0 nibabel==3.0.0 h5py==3.11.0 tqdm",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage.uses",
+          "value": "./.github/workflows/test_template.yml",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage.with.runs-on",
+          "value": "[\"ubuntu-latest\", ]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage.with.coverage",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage.with.enable-viz-tests",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage.with.extra-depends",
+          "value": "scikit-learn scipy statsmodels pandas tables fury tensorflow==2.18 torch",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.coverage.secrets.codecov-token",
+          "value": "${{ secrets.CODECOV_TOKEN }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pre-py314.uses",
+          "value": "./.github/workflows/test_template.yml",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pre-py314.with.runs-on",
+          "value": "[\"ubuntu-latest\", ]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pre-py314.with.python-version",
+          "value": "[\"3.14\",]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pre-py314.with.use-pre",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pre-py314.with.extra-depends",
+          "value": "scikit_learn scipy statsmodels pandas tables",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/workflows/benchmark.yml",
+      "relative_path": ".github/workflows/benchmark.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 12,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Benchmarks",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True",
+          "value": [
+            "push",
+            "pull_request"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "build-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.benchmark.name",
+          "value": "Linux",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.benchmark.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.benchmark.timeout-minutes",
+          "value": 60,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.benchmark.defaults.run.shell",
+          "value": "bash",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.benchmark.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.benchmark.strategy.matrix.python-version",
+          "value": [
+            "3.13"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.benchmark.steps",
+          "value": [
+            {
+              "name": "Set up system",
+              "uses": "actions/checkout@v6.0.2",
+              "with": {
+                "fetch-depth": 0
+              }
+            },
+            {
+              "name": "Set up Python ${{ matrix.python-version }}",
+              "uses": "actions/setup-python@v6",
+              "with": {
+                "python-version": "${{ matrix.python-version }}"
+              }
+            },
+            {
+              "name": "Install dependencies",
+              "run": "python -m pip install --upgrade pip\npip install .[dev,test,ml,benchmark]\n"
+            },
+            {
+              "name": "Set threading parameters for reliable benchmarking",
+              "run": "echo \"OPENBLAS_NUM_THREADS=1\" >> $GITHUB_ENV\necho \"MKL_NUM_THREADS=1\" >> $GITHUB_ENV\necho \"OMP_NUM_THREADS=1\" >> $GITHUB_ENV\n"
+            },
+            {
+              "name": "Run benchmarks",
+              "run": "asv machine --yes --config ${GITHUB_WORKSPACE}/benchmarks/asv.conf.json\nasv run --config ${GITHUB_WORKSPACE}/benchmarks/asv.conf.json --show-stderr\n"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/workflows/test_template.yml",
+      "relative_path": ".github/workflows/test_template.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 52,
+      "settings": [
+        {
+          "key": "name",
+          "value": "DIPY  Base Workflow Template",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.runs-on.description",
+          "value": "Select on which environment you want to run the workflow",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.runs-on.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.runs-on.required",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.runs-on.default",
+          "value": "\"ubuntu-latest\"",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.python-version.description",
+          "value": "Select Python version",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.python-version.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.python-version.required",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.python-version.default",
+          "value": "[\"3.12\", ]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.use-pre.description",
+          "value": "Use pre-release versions",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.use-pre.type",
+          "value": "boolean",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.use-pre.required",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.coverage.description",
+          "value": "coverage",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.coverage.type",
+          "value": "boolean",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.coverage.required",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.enable-viz-tests.description",
+          "value": "Activate viz tests and headless",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.enable-viz-tests.type",
+          "value": "boolean",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.enable-viz-tests.required",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.install-type.description",
+          "value": "",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.install-type.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.install-type.required",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.install-type.default",
+          "value": "[\"pip\", ]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.depends.description",
+          "value": "",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.depends.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.depends.required",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.depends.default",
+          "value": "cython!=0.29.29 numpy matplotlib h5py nibabel cvxpy tqdm",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.extra-depends.description",
+          "value": "",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.extra-depends.type",
+          "value": "string",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.inputs.extra-depends.required",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.secrets.codecov-token.description",
+          "value": "codecov token to send the report",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.workflow_call.secrets.codecov-token.required",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "defaults.run.shell",
+          "value": "bash",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.timeout-minutes",
+          "value": 120,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.strategy.max-parallel",
+          "value": 3,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.strategy.fail-fast",
+          "value": false,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.strategy.matrix.python-version",
+          "value": "${{fromJSON(inputs.python-version) }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.strategy.matrix.os",
+          "value": "${{fromJSON(inputs.runs-on) }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.strategy.matrix.install-type",
+          "value": "${{fromJSON(inputs.install-type) }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.env.DEPENDS",
+          "value": "${{ inputs.depends }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.env.EXTRA_DEPENDS",
+          "value": "${{ inputs.extra-depends }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.env.INSTALL_TYPE",
+          "value": "${{ matrix.install-type }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.env.PYTHON_VERSION",
+          "value": "${{ matrix.python-version }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.env.VENV_ARGS",
+          "value": "--python=python",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.env.USE_PRE",
+          "value": "${{ inputs.use-pre }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.env.COVERAGE",
+          "value": "${{ inputs.coverage }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.env.DIPY_WERRORS",
+          "value": 1,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.env.CODECOV_TOKEN",
+          "value": "${{ secrets.codecov-token }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.env.TEST_WITH_XVFB",
+          "value": "${{ inputs.enable-viz-tests }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.env.PRE_WHEELS",
+          "value": "https://pypi.anaconda.org/scientific-python-nightly-wheels/simple",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.steps",
+          "value": [
+            {
+              "uses": "actions/checkout@v6.0.2"
+            },
+            {
+              "name": "Set up Python ${{ matrix.python-version }}",
+              "if": "${{ matrix.install-type != 'conda' }}",
+              "uses": "actions/setup-python@v6",
+              "with": {
+                "python-version": "${{ matrix.python-version }}"
+              }
+            },
+            {
+              "name": "Set up Virtualenv",
+              "if": "${{ matrix.install-type != 'conda' }}",
+              "run": "python -m pip install --upgrade pip virtualenv\nvirtualenv $VENV_ARGS venv\n"
+            },
+            {
+              "name": "Setup Miniconda",
+              "uses": "conda-incubator/setup-miniconda@v4",
+              "if": "${{ matrix.install-type == 'conda' }}",
+              "with": {
+                "auto-update-conda": true,
+                "auto-activate-base": false,
+                "activate-environment": "venv",
+                "python-version": "${{ matrix.python-version }}",
+                "allow-softlinks": true,
+                "channel-priority": "flexible",
+                "show-channel-urls": true,
+                "use-only-tar-bz2": false,
+                "miniforge-version": "latest"
+              }
+            },
+            {
+              "name": "Install HDF5 and pytables on macOS",
+              "if": "${{ (runner.os == 'macOS')  &&  (env.EXTRA_DEPENDS != '')  &&  (env.INSTALL_TYPE == 'pip') }}",
+              "run": "pip install cython\nbrew install hdf5\nbrew install c-blosc\nexport HDF5_DIR=/opt/homebrew/opt/hdf5\nexport BLOSC_DIR=/opt/homebrew/opt/c-blosc\npip install tables\n"
+            },
+            {
+              "name": "Install Dependencies",
+              "run": "if [ \"${{ inputs.use-pre }}\" == \"true\" ]; then\n  tools/ci/install_dependencies.sh || echo \"::warning::Experimental Job so Install Dependencies failure ignored!\"\nelse\n  tools/ci/install_dependencies.sh\nfi\n"
+            },
+            {
+              "name": "Install OpenMP on macOS (pip only)",
+              "if": "runner.os == 'macOS' && matrix.install-type != 'conda'",
+              "run": "brew install llvm\nbrew install libomp\necho \"CC=clang\" >> $GITHUB_ENV\n"
+            },
+            {
+              "name": "Restore cached data",
+              "uses": "actions/cache@v5",
+              "with": {
+                "path": "~/.dipy",
+                "key": "dipy-downloaded-data-${{ hashFiles('dipy/data/fetcher.py') }}",
+                "restore-keys": "dipy-downloaded-data-\n"
+              }
+            },
+            {
+              "name": "Install DIPY",
+              "run": "if [ \"${{ inputs.use-pre }}\" == \"true\" ]; then\n  tools/ci/install.sh || echo \"::warning::Experimental Job so Install DIPY failure ignored!\"\nelse\n  tools/ci/install.sh\nfi\n"
+            },
+            {
+              "name": "Setup Headless",
+              "if": "${{ inputs.enable-viz-tests }}",
+              "run": "tools/ci/setup_headless.sh"
+            },
+            {
+              "name": "Run the Tests",
+              "run": "if [ \"${{ inputs.use-pre }}\" == \"true\" ]; then\n  tools/ci/run_tests.sh || echo \"::warning::Experimental Job so failure ignored!\"\nelse\n  tools/ci/run_tests.sh\nfi\n"
+            },
+            {
+              "name": "Upload coverage to Codecov",
+              "uses": "codecov/codecov-action@v6",
+              "if": "${{ fromJSON(env.COVERAGE) }}",
+              "with": {
+                "token": "${{ inputs.codecov-token || secrets.CODECOV_TOKEN }}",
+                "directory": "for_testing_results",
+                "files": "coverage.xml",
+                "fail_ci_if_error": true,
+                "flags": "unittests",
+                "name": "codecov-umbrella",
+                "verbose": true
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/workflows/check_format.yml",
+      "relative_path": ".github/workflows/check_format.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 10,
+      "settings": [
+        {
+          "key": "name",
+          "value": "code format",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pre-commit.runs-on",
+          "value": "${{ matrix.os }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pre-commit.timeout-minutes",
+          "value": 10,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pre-commit.strategy.matrix.os",
+          "value": [
+            "ubuntu-latest"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pre-commit.strategy.matrix.python-version",
+          "value": [
+            "3.12"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pre-commit.strategy.matrix.requires",
+          "value": [
+            "latest"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.pre-commit.steps",
+          "value": [
+            {
+              "name": "Check out repository",
+              "uses": "actions/checkout@v6.0.2"
+            },
+            {
+              "name": "Set up Python ${{ matrix.python-version }}",
+              "uses": "actions/setup-python@v6",
+              "with": {
+                "python-version": "${{ matrix.python-version }}"
+              }
+            },
+            {
+              "name": "Install and run pre-commit hooks",
+              "uses": "pre-commit/action@v3.0.1"
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/workflows/test_viz.yml",
+      "relative_path": ".github/workflows/test_viz.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 12,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Visualization",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.push.paths",
+          "value": [
+            "dipy/viz/**",
+            "dipy/workflows/**"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.branches",
+          "value": [
+            "master"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True.pull_request.paths",
+          "value": [
+            "dipy/viz/**",
+            "dipy/workflows/**"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.group",
+          "value": "build-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "concurrency.cancel-in-progress",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.VIZ.uses",
+          "value": "./.github/workflows/test_template.yml",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.VIZ.with.runs-on",
+          "value": "[\"ubuntu-latest\", \"macos-latest\", \"windows-latest\"]",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.VIZ.with.extra-depends",
+          "value": "scikit_learn vtk fury scipy",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.VIZ.with.enable-viz-tests",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/workflows/label-pr.yml",
+      "relative_path": ".github/workflows/label-pr.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 6,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Label PRs",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "True",
+          "value": [
+            "pull_request_target"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "permissions.contents",
+          "value": "read",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.runs-on",
+          "value": "ubuntu-latest",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.permissions.pull-requests",
+          "value": "write",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "jobs.build.steps",
+          "value": [
+            {
+              "uses": "srvaroa/labeler@bf262763a8a8e191f5847873aecc0f29df84f957",
+              "env": {
+                "GITHUB_TOKEN": "${{ secrets.GITHUB_TOKEN }}"
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/ISSUE_TEMPLATE/3_performance_impact_report.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/3_performance_impact_report.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Performance Impact Report \ud83d\udcc8",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "File a performance report to improve DIPY's performance",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "type:optimization"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "markdown",
+              "attributes": {
+                "value": "**Please review [our guidelines to post an issue](https://github.com/dipy/dipy/discussions/3585) before opening a new issue.**\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Summary",
+                "description": "A clear and concise description of the proposed implementation change, including a minimal reproducible example.\n\nPlease, explain what your reasonable performance expectations are.\n"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Impact analysis",
+                "description": "Analysis of the impact of the current implementation in terms of performance, and how another implementation\nwould benefit the performance of the toolkit, including the benefits/downsides of both approaches infrastructure.\n"
+              },
+              "validations": {
+                "required": false
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "Platform",
+                "description": "What operating system and architecture are you using? (e.g. `uname -orsm`)",
+                "placeholder": "e.g., macOS 14 arm64, Windows 11 x86_64, Ubuntu 20.04 amd64"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "DIPY version",
+                "description": "What version of DIPY are you using? (e.g. `pip show dipy`)",
+                "placeholder": "e.g., dipy 1.11.0 (or 2cec3c8 if a commit is appropriate)"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "Environment",
+                "description": "What are the package versions, if relevant, that are causing the issue? (e.g. `pip freeze | grep numpy`)",
+                "placeholder": "e.g., numpy 2.0.0"
+              },
+              "validations": {
+                "required": false
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "Python version",
+                "description": "What version of Python are you using? (see `python --version`)",
+                "placeholder": "e.g., Python 3.12.6"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Additional information",
+                "description": "Any additional information, configuration or data that might be necessary to reproduce the issue."
+              },
+              "validations": {
+                "required": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/ISSUE_TEMPLATE/6_data_addition_request.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/6_data_addition_request.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Data Addition Request \ud83d\udcaf",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "File a data addition request to add testing data to DIPY",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "type:data"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "markdown",
+              "attributes": {
+                "value": "**Please review [our guidelines to post an issue](https://github.com/dipy/dipy/discussions/3585) before opening a new issue.**\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Summary",
+                "description": "Description of the impact of the current testing data, and how adding new data benefits or challenges the toolkit."
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "DIPY version",
+                "description": "What version of DIPY are you using? (e.g. `pip show dipy`)",
+                "placeholder": "e.g., dipy 1.11.0 (or 2cec3c8 if a commit is appropriate)"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Additional information",
+                "description": "Any additional information, configuration or data that might be necessary to reproduce the issue."
+              },
+              "validations": {
+                "required": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/ISSUE_TEMPLATE/9_coding_style_inconsistency_report.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/9_coding_style_inconsistency_report.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Coding Style Inconsistency Report \ud83d\udcdd",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "File a coding style report to improve consistency in DIPY",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "type:style"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "markdown",
+              "attributes": {
+                "value": "**Please review [our guidelines to post an issue](https://github.com/dipy/dipy/discussions/3585) before opening a new issue.**\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Summary",
+                "description": "A clear and concise description of the coding style inconsistency, and what the consistent style should be\naccording to the DIPY Coding Style Guidelines (https://docs.dipy.org/stable/devel/coding_style_guideline.html).\n"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "DIPY version",
+                "description": "What version of DIPY are you using? (e.g. `pip show dipy`)",
+                "placeholder": "e.g., dipy 1.11.0 (or 2cec3c8 if a commit is appropriate)"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Additional information",
+                "description": "Any additional information, configuration or data that might be necessary to reproduce the issue."
+              },
+              "validations": {
+                "required": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/ISSUE_TEMPLATE/7_documentation_impact_report.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/7_documentation_impact_report.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Documentation Impact Report \ud83d\udcd6",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "File a documentation report to improve documentation in DIPY",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "type:documentation"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "markdown",
+              "attributes": {
+                "value": "**Please review [our guidelines to post an issue](https://github.com/dipy/dipy/discussions/3585) before opening a new issue.**\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Summary",
+                "description": "Description of the documentation weakness: what the documentation should include and what actually is included\nin the documentation.\n"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "DIPY version",
+                "description": "What version of DIPY are you using? (e.g. `pip show dipy`)",
+                "placeholder": "e.g., dipy 1.11.0 (or 2cec3c8 if a commit is appropriate)"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Additional information",
+                "description": "Any additional information, configuration or data that might be necessary to reproduce the issue."
+              },
+              "validations": {
+                "required": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/ISSUE_TEMPLATE/2_feature_request.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/2_feature_request.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Feature Request \ud83d\udca1",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "Suggest a feature request or idea to improve DIPY",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "type:new feature"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "markdown",
+              "attributes": {
+                "value": "**Please review [our guidelines to post an issue](https://github.com/dipy/dipy/discussions/3585) before opening a new issue.**\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Summary",
+                "description": "Description of the feature request, and how adding that feature would benefit a particular case or why that\nfeature is necessary or not covered by the current up-to-date version.\n"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "DIPY version",
+                "description": "What version of DIPY are you using? (e.g. `pip show dipy`)",
+                "placeholder": "e.g., dipy 1.11.0 (or 2cec3c8 if a commit is appropriate)"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Additional information",
+                "description": "Any additional information, configuration or data that might be necessary to reproduce the issue."
+              },
+              "validations": {
+                "required": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/ISSUE_TEMPLATE/5_infrastructure_impact_report.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/5_infrastructure_impact_report.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Infrastructure Impact Report \ud83d\udcd0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "File an infrastructure support report to improve DIPY's compatibility or build system",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "type:infrastructure"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "markdown",
+              "attributes": {
+                "value": "**Please review [our guidelines to post an issue](https://github.com/dipy/dipy/discussions/3585) before opening a new issue.**\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Summary",
+                "description": "A clear and concise description of the compatibility issue with an OS, Python version or another package or the\nchanges proposed to improve the build system in DIPY, including a minimal reproducible example.\n\nPlease, explain whate you expect the infrastructure to be, and what actually happens without the proposed\nchange. Include the relevant error trace (if applicable).\n"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Impact analysis",
+                "description": "Analysis of the benefits/downsides of the current design, and the benefits/downsides of the proposed\ninfrastructure.\n"
+              },
+              "validations": {
+                "required": false
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "Platform",
+                "description": "What operating system and architecture are you using? (e.g. `uname -orsm`)",
+                "placeholder": "e.g., macOS 14 arm64, Windows 11 x86_64, Ubuntu 20.04 amd64"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "DIPY version",
+                "description": "What version of DIPY are you using? (e.g. `pip show dipy`)",
+                "placeholder": "e.g., dipy 1.11.0 (or 2cec3c8 if a commit is appropriate)"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "Environment",
+                "description": "What are the package versions, if relevant, that are causing the issue? (e.g. `pip freeze | grep numpy`)",
+                "placeholder": "e.g., numpy 2.0.0"
+              },
+              "validations": {
+                "required": false
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "Python version",
+                "description": "What version of Python are you using? (see `python --version`)",
+                "placeholder": "e.g., Python 3.12.6"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Additional information",
+                "description": "Any additional information, configuration or data that might be necessary to reproduce the issue."
+              },
+              "validations": {
+                "required": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/ISSUE_TEMPLATE/config.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/config.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 2,
+      "settings": [
+        {
+          "key": "blank_issues_enabled",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "contact_links",
+          "value": [
+            {
+              "name": "Documentation",
+              "url": "https://docs.dipy.org/stable/",
+              "about": "Please read the documentation before creating an issue."
+            },
+            {
+              "name": "Support and help",
+              "url": "https://github.com/dipy/dipy/discussions",
+              "about": "Use GitHub Discussions to ask questions and to get support."
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/ISSUE_TEMPLATE/4_design_impact_report.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/4_design_impact_report.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Design Impact Report \ud83d\ude80",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "File a design report to improve DIPY design",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "type:refactoring"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "markdown",
+              "attributes": {
+                "value": "**Please review [our guidelines to post an issue](https://github.com/dipy/dipy/discussions/3585) before opening a new issue.**\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Summary",
+                "description": "Description of the impact of the current design in terms of ease-of-use, or intuitiveness, and how a change in\ndesign would benefit the toolkit, including a minimal reproducible example.\n"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Impact analysis",
+                "description": "Analysis of the benefits/downsides of the current design, and the benefits/downsides of the proposed design.\n"
+              },
+              "validations": {
+                "required": false
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "DIPY version",
+                "description": "What version of DIPY are you using? (e.g. `pip show dipy`)",
+                "placeholder": "e.g., dipy 1.11.0 (or 2cec3c8 if a commit is appropriate)"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Additional information",
+                "description": "Any additional information, configuration or data that might be necessary to reproduce the issue."
+              },
+              "validations": {
+                "required": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/ISSUE_TEMPLATE/1_bug_report.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/1_bug_report.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Bug Report \ud83d\udc1b",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "Report an error or unexpected behavior",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "type:bug"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "markdown",
+              "attributes": {
+                "value": "**Please review [our guidelines to post an issue](https://github.com/dipy/dipy/discussions/3585) before opening a new issue.**\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Summary",
+                "description": "A clear and concise description of the bug, including a minimal reproducible example.\nIf we cannot reproduce the bug, it is unlikely that we will be able to help you.\n\nPlease, include the full output of DIPY with the complete error message.\n"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "Platform",
+                "description": "What operating system and architecture are you using? (e.g. `uname -orsm`)",
+                "placeholder": "e.g., macOS 14 arm64, Windows 11 x86_64, Ubuntu 20.04 amd64"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "DIPY version",
+                "description": "What version of DIPY are you using? (e.g. `pip show dipy`)",
+                "placeholder": "e.g., dipy 1.11.0 (or 2cec3c8 if a commit is appropriate)"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "Environment",
+                "description": "What are the package versions, if relevant, that are causing the issue? (e.g. `pip freeze | grep numpy`)",
+                "placeholder": "e.g., numpy 2.0.0"
+              },
+              "validations": {
+                "required": false
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "Python version",
+                "description": "What version of Python are you using? (see `python --version`)",
+                "placeholder": "e.g., Python 3.12.6"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Additional information",
+                "description": "Any additional information, configuration or data that might be necessary to reproduce the issue."
+              },
+              "validations": {
+                "required": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/.github/ISSUE_TEMPLATE/8_coverage_impact_report.yml",
+      "relative_path": ".github/ISSUE_TEMPLATE/8_coverage_impact_report.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 4,
+      "settings": [
+        {
+          "key": "name",
+          "value": "Coverage Improvement Report \ud83c\udfaf",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "File a coverage report to improve code coverage in DIPY",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "labels",
+          "value": [
+            "type:coverage"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "body",
+          "value": [
+            {
+              "type": "markdown",
+              "attributes": {
+                "value": "**Please review [our guidelines to post an issue](https://github.com/dipy/dipy/discussions/3585) before opening a new issue.**\n"
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Summary",
+                "description": "A clear and concise description of the impact of the current coverage in a given module, and how an increased\ncoverage would benefit the toolkit.\n"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "input",
+              "attributes": {
+                "label": "DIPY version",
+                "description": "What version of DIPY are you using? (e.g. `pip show dipy`)",
+                "placeholder": "e.g., dipy 1.11.0 (or 2cec3c8 if a commit is appropriate)"
+              },
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "type": "textarea",
+              "attributes": {
+                "label": "Additional information",
+                "description": "Any additional information, configuration or data that might be necessary to reproduce the issue."
+              },
+              "validations": {
+                "required": false
+              }
+            }
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/doc/_static/version_switcher.json",
+      "relative_path": "doc/_static/version_switcher.json",
+      "type": "json",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 34,
+      "settings": [
+        {
+          "key": "[0].name",
+          "value": "development",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[0].version",
+          "value": "development",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[0].url",
+          "value": "https://docs.dipy.org/dev/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[1].name",
+          "value": "1.12.0 (stable)",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[1].version",
+          "value": "1.12.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[1].url",
+          "value": "https://docs.dipy.org/1.12.0/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[1].preferred",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[2].name",
+          "value": "1.11.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[2].version",
+          "value": "1.11.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[2].url",
+          "value": "https://docs.dipy.org/1.11.0/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[3].name",
+          "value": "1.10.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[3].version",
+          "value": "1.10.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[3].url",
+          "value": "https://docs.dipy.org/1.10.0/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[4].name",
+          "value": "1.9.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[4].version",
+          "value": "1.9.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[4].url",
+          "value": "https://docs.dipy.org/1.9.0/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[5].name",
+          "value": "1.8.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[5].version",
+          "value": "1.8.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[5].url",
+          "value": "https://docs.dipy.org/1.8.0/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[6].name",
+          "value": "1.7.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[6].version",
+          "value": "1.7.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[6].url",
+          "value": "https://docs.dipy.org/1.7.0/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[7].name",
+          "value": "1.6.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[7].version",
+          "value": "1.6.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[7].url",
+          "value": "https://docs.dipy.org/1.6.0/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[8].name",
+          "value": "1.5.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[8].version",
+          "value": "1.5.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[8].url",
+          "value": "https://docs.dipy.org/1.5.0/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[9].name",
+          "value": "1.0.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[9].version",
+          "value": "1.0.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[9].url",
+          "value": "https://docs.dipy.org/1.0.0/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[10].name",
+          "value": "0.16.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[10].version",
+          "value": "0.16.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "[10].url",
+          "value": "https://docs.dipy.org/0.16.0/",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "dipy/doc/examples/_valid_examples.toml",
+      "relative_path": "doc/examples/_valid_examples.toml",
+      "type": "toml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 56,
+      "settings": [
+        {
+          "key": "main.readme",
+          "value": ":html_theme.sidebar_secondary.remove:\n\n.. _examples:\n\n\nExamples\n========\n\n.. note::\n    The examples here are some uses of the analysis and visualization functionality\n    of DIPY, with example data from actual neuroscience experiments, or with\n    synthetic data, which is generated as part of the example.\n\n    All the examples presented in the documentation are generated from\n    *fully functioning* python scripts, which are available as part of the\n    source distribution in the `doc/examples` folder.\n\n    If you want to replicate a particular analysis or visualization, copy\n    or download the relevant `.py` script, edit out\n    the body of the text of the example and alter it to your purpose.\n\n\n.. contents::\n   :depth: 2\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "main.position",
+          "value": 0,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "main.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "main.files",
+          "value": [],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "quick_start.readme",
+          "value": "Quick Start\n-----------\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "quick_start.position",
+          "value": 1,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "quick_start.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "quick_start.files",
+          "value": [
+            "quick_start.py",
+            "tracking_introduction_eudx.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "preprocessing.readme",
+          "value": "Preprocessing\n-------------\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "preprocessing.position",
+          "value": 4,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "preprocessing.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "preprocessing.files",
+          "value": [
+            "brain_extraction_dwi.py",
+            "denoise_ascm.py",
+            "denoise_nlmeans.py",
+            "denoise_gibbs.py",
+            "denoise_localpca.py",
+            "denoise_mppca.py",
+            "denoise_patch2self.py",
+            "gradients_spheres.py",
+            "piesno.py",
+            "reslice_datasets.py",
+            "snr_in_cc.py",
+            "motion_correction.py",
+            "bias_correction_dwi.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "reconstruction.readme",
+          "value": "Reconstruction\n--------------\n\nBelow, an overview of all reconstruction models available in DIPY.\n\n.. note::\n    Some reconstruction models do not have a tutorial yet\n\n.. include:: ../../reconstruction_models_list.rst\n\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "reconstruction.position",
+          "value": 7,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "reconstruction.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "reconstruction.files",
+          "value": [
+            "kfold_xval.py",
+            "reconst_csa.py",
+            "reconst_csd.py",
+            "reconst_cti.py",
+            "reconst_mcsd.py",
+            "reconst_dki.py",
+            "reconst_dki_micro.py",
+            "reconst_dsi.py",
+            "reconst_dsi_metrics.py",
+            "reconst_dsid.py",
+            "reconst_dti.py",
+            "reconst_forecast.py",
+            "reconst_fwdti.py",
+            "reconst_gqi.py",
+            "reconst_ivim.py",
+            "reconst_mapmri.py",
+            "reconst_msdki.py",
+            "reconst_robust_fitting.py",
+            "reconst_qtdmri.py",
+            "reconst_shore.py",
+            "reconst_shore_metrics.py",
+            "restore_dti.py",
+            "reconst_sfm.py",
+            "reconst_sh.py",
+            "reconst_rumba.py",
+            "reconst_qti.py",
+            "reconst_qtiplus.py",
+            "histology_resdnn.py",
+            "reconst_bingham.py",
+            "reconst_force.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "contextual_enhancement.readme",
+          "value": "Contextual Enhancement\n----------------------\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "contextual_enhancement.position",
+          "value": 10,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "contextual_enhancement.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "contextual_enhancement.files",
+          "value": [
+            "contextual_enhancement.py",
+            "fiber_to_bundle_coherence.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "fiber_tracking.readme",
+          "value": "Fiber Tracking\n--------------\n\n.. include:: ../../tractography_methods_list.rst\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "fiber_tracking.position",
+          "value": 13,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "fiber_tracking.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "fiber_tracking.files",
+          "value": [
+            "tracking_bootstrap_peaks.py",
+            "tracking_deterministic.py",
+            "tracking_introduction_eudx.py",
+            "tracking_pft.py",
+            "tracking_ptt.py",
+            "tracking_probabilistic.py",
+            "tracking_sfm.py",
+            "tracking_stopping_criterion.py",
+            "tracking_rumba.py",
+            "linear_fascicle_evaluation.py",
+            "surface_seed.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "streamline_analysis.readme",
+          "value": "Streamlines Analysis and Connectivity\n-------------------------------------\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "streamline_analysis.position",
+          "value": 17,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "streamline_analysis.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "streamline_analysis.files",
+          "value": [
+            "afq_tract_profiles.py",
+            "buan_bundle_profiles.py",
+            "cluster_confidence.py",
+            "path_length_map.py",
+            "streamline_length.py",
+            "streamline_tools.py",
+            "bundle_assignment_maps.py",
+            "bundle_shape_similarity.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "registration.readme",
+          "value": "Registration\n------------\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "registration.position",
+          "value": 20,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "registration.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "registration.files",
+          "value": [
+            "affine_registration_3d.py",
+            "bundle_registration.py",
+            "bundle_group_registration.py",
+            "register_binary_fuzzy.py",
+            "streamline_registration.py",
+            "bundlewarp_registration.py",
+            "syn_registration_2d.py",
+            "syn_registration_3d.py",
+            "affine_registration_masks.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "segmentation.readme",
+          "value": "Segmentation\n------------\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "segmentation.position",
+          "value": 23,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "segmentation.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "segmentation.files",
+          "value": [
+            "bundle_extraction.py",
+            "segment_clustering_features.py",
+            "segment_clustering_metrics.py",
+            "segment_extending_clustering_framework.py",
+            "segment_quickbundles.py",
+            "segment_clustering_saving_loading.py",
+            "tissue_classification_dam.py",
+            "tissue_classification.py",
+            "brain_extraction_dwi.py",
+            "fast_streamline_search.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "simulations.readme",
+          "value": "Simulation\n----------\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "simulations.position",
+          "value": 26,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "simulations.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "simulations.files",
+          "value": [
+            "simulate_dki.py",
+            "simulate_multi_tensor.py",
+            "reconst_dsid.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Multiprocessing.readme",
+          "value": "Multiprocessing\n---------------\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Multiprocessing.position",
+          "value": 29,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Multiprocessing.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "Multiprocessing.files",
+          "value": [
+            "reconst_csa_parallel.py",
+            "reconst_csd_parallel.py",
+            "tracking_disco_phantom.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "file_formats.readme",
+          "value": "File Formats\n------------\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "file_formats.position",
+          "value": 32,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "file_formats.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "file_formats.files",
+          "value": [
+            "streamline_formats.py",
+            "peaks_format.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "visualization.readme",
+          "value": "Visualization\n-------------\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "visualization.position",
+          "value": 35,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "visualization.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "visualization.files",
+          "value": [
+            "viz_advanced.py",
+            "viz_bundles.py",
+            "viz_horizon.py",
+            "viz_roi_contour.py",
+            "viz_slice.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "workflows.readme",
+          "value": "Workflows\n---------\n\n",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "workflows.position",
+          "value": 37,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "workflows.enable",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "workflows.files",
+          "value": [
+            "combined_workflow_creation.py",
+            "workflow_creation.py"
+          ],
+          "type": "array",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    }
+  ],
+  "errors": []
+}

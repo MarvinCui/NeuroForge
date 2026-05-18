@@ -1,0 +1,4418 @@
+[
+  {
+    "file_path": "nipype/nipype/algorithms/mesh.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/algorithms/mesh.py",
+        "class_name": "TVTKBaseInterface",
+        "method_name": null,
+        "line_number": 26,
+        "evidence": [
+          "Abstract base with subclasses: WarpPoints, ComputeMeshWarp"
+        ],
+        "related_classes": [
+          "WarpPoints",
+          "ComputeMeshWarp",
+          "MeshWarpMaths"
+        ]
+      }
+    ],
+    "total_classes": 11,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/algorithms/tests/test_CompCor.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/algorithms/tests/test_CompCor.py",
+        "class_name": "TestCompCor",
+        "method_name": "setup_class",
+        "line_number": 61,
+        "evidence": [
+          "Method uses decorators: ['pytest.fixture(autouse=True)']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/algorithms/tests/test_TSNR.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/algorithms/tests/test_TSNR.py",
+        "class_name": "TestTSNR",
+        "method_name": "setup_class",
+        "line_number": 29,
+        "evidence": [
+          "Method uses decorators: ['pytest.fixture(autouse=True)']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/external/cloghandler.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/external/cloghandler.py",
+        "class_name": "ConcurrentRotatingFileHandler",
+        "method_name": null,
+        "line_number": 64,
+        "evidence": [
+          "Class name suggests handler chain: ConcurrentRotatingFileHandler"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/afni/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/afni/base.py",
+        "class_name": "Info",
+        "method_name": "parse_version",
+        "line_number": 36,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/afni/base.py",
+        "class_name": "AFNICommandBase",
+        "method_name": null,
+        "line_number": 111,
+        "evidence": [
+          "Class name suggests Command: AFNICommandBase"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/afni/base.py",
+        "class_name": "AFNICommandBase",
+        "method_name": null,
+        "line_number": 111,
+        "evidence": [
+          "Abstract base with subclasses: AFNICommand"
+        ],
+        "related_classes": [
+          "AFNICommand"
+        ]
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/afni/base.py",
+        "class_name": "AFNICommandInputSpec",
+        "method_name": null,
+        "line_number": 129,
+        "evidence": [
+          "Class name suggests Command: AFNICommandInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/afni/base.py",
+        "class_name": "AFNICommandOutputSpec",
+        "method_name": null,
+        "line_number": 144,
+        "evidence": [
+          "Class name suggests Command: AFNICommandOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/afni/base.py",
+        "class_name": "AFNICommand",
+        "method_name": "num_threads",
+        "line_number": 189,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/afni/base.py",
+        "class_name": "AFNICommand",
+        "method_name": "_nthreads_update",
+        "line_number": 228,
+        "evidence": [
+          "Observer method detected: _nthreads_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/afni/base.py",
+        "class_name": "AFNICommand",
+        "method_name": null,
+        "line_number": 148,
+        "evidence": [
+          "Class name suggests Command: AFNICommand"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/afni/base.py",
+        "class_name": "AFNIPythonCommandInputSpec",
+        "method_name": null,
+        "line_number": 304,
+        "evidence": [
+          "Class name suggests Command: AFNIPythonCommandInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/afni/base.py",
+        "class_name": "AFNIPythonCommand",
+        "method_name": "cmd",
+        "line_number": 317,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/afni/base.py",
+        "class_name": "AFNIPythonCommand",
+        "method_name": null,
+        "line_number": 313,
+        "evidence": [
+          "Class name suggests Command: AFNIPythonCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3,
+      "Command": 6,
+      "TemplateMethod": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/ants/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/ants/base.py",
+        "class_name": "Info",
+        "method_name": "parse_version",
+        "line_number": 36,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/ants/base.py",
+        "class_name": "ANTSCommandInputSpec",
+        "method_name": null,
+        "line_number": 59,
+        "evidence": [
+          "Class name suggests Command: ANTSCommandInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/ants/base.py",
+        "class_name": "ANTSCommand",
+        "method_name": "_format_xarray",
+        "line_number": 107,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/ants/base.py",
+        "class_name": "ANTSCommand",
+        "method_name": "_num_threads_update",
+        "line_number": 85,
+        "evidence": [
+          "Observer method detected: _num_threads_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/ants/base.py",
+        "class_name": "ANTSCommand",
+        "method_name": null,
+        "line_number": 70,
+        "evidence": [
+          "Class name suggests Command: ANTSCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Command": 2,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/ants/registration.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/ants/registration.py",
+        "class_name": "Registration",
+        "method_name": "_format_metric_argument",
+        "line_number": 1100,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/ants/registration.py",
+        "class_name": "RegistrationSynQuick",
+        "method_name": "_num_threads_update",
+        "line_number": 1758,
+        "evidence": [
+          "Observer method detected: _num_threads_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/ants/registration.py",
+        "class_name": "CompositeTransformUtil",
+        "method_name": "_num_threads_update",
+        "line_number": 1852,
+        "evidence": [
+          "Observer method detected: _num_threads_update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 15,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 2
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/ants/segmentation.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/ants/segmentation.py",
+        "class_name": "BrainExtractionInputSpec",
+        "method_name": null,
+        "line_number": 864,
+        "evidence": [
+          "Class name suggests Command: BrainExtractionInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/ants/segmentation.py",
+        "class_name": "BrainExtractionOutputSpec",
+        "method_name": null,
+        "line_number": 950,
+        "evidence": [
+          "Class name suggests Command: BrainExtractionOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/ants/segmentation.py",
+        "class_name": "BrainExtraction",
+        "method_name": null,
+        "line_number": 977,
+        "evidence": [
+          "Class name suggests Command: BrainExtraction"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 24,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/ants/utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/ants/utils.py",
+        "class_name": "ImageMath",
+        "method_name": "_operation_update",
+        "line_number": 207,
+        "evidence": [
+          "Observer method detected: _operation_update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 33,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/base/core.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/base/core.py",
+        "class_name": "Interface",
+        "method_name": "can_resume",
+        "line_number": 86,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/base/core.py",
+        "class_name": "BaseInterface",
+        "method_name": "version",
+        "line_number": 467,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/base/core.py",
+        "class_name": "BaseInterface",
+        "method_name": null,
+        "line_number": 144,
+        "evidence": [
+          "Abstract base with subclasses: SimpleInterface, CommandLine"
+        ],
+        "related_classes": [
+          "SimpleInterface",
+          "CommandLine",
+          "LibraryBaseInterface"
+        ]
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/base/core.py",
+        "class_name": "CommandLine",
+        "method_name": "set_default_terminal_output",
+        "line_number": 614,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/base/core.py",
+        "class_name": "CommandLine",
+        "method_name": null,
+        "line_number": 574,
+        "evidence": [
+          "Class name suggests Command: CommandLine"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/base/core.py",
+        "class_name": "StdOutCommandLine",
+        "method_name": null,
+        "line_number": 968,
+        "evidence": [
+          "Class name suggests Command: StdOutCommandLine"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/base/core.py",
+        "class_name": "MpiCommandLine",
+        "method_name": "cmdline",
+        "line_number": 1000,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/base/core.py",
+        "class_name": "MpiCommandLine",
+        "method_name": null,
+        "line_number": 978,
+        "evidence": [
+          "Class name suggests Command: MpiCommandLine"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/base/core.py",
+        "class_name": "SEMLikeCommandLine",
+        "method_name": null,
+        "line_number": 1011,
+        "evidence": [
+          "Class name suggests Command: SEMLikeCommandLine"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/base/core.py",
+        "class_name": "LibraryBaseInterface",
+        "method_name": "version",
+        "line_number": 1071,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/base/core.py",
+        "class_name": "PackageInfo",
+        "method_name": "version",
+        "line_number": 1088,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 6,
+      "TemplateMethod": 1,
+      "Command": 4
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/base/specs.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/base/specs.py",
+        "class_name": "BaseTraitedSpec",
+        "method_name": "__all__",
+        "line_number": 326,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/base/specs.py",
+        "class_name": "BaseTraitedSpec",
+        "method_name": null,
+        "line_number": 38,
+        "evidence": [
+          "Abstract base with subclasses: TraitedSpec, DynamicTraitedSpec"
+        ],
+        "related_classes": [
+          "TraitedSpec",
+          "DynamicTraitedSpec"
+        ]
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/base/specs.py",
+        "class_name": "BaseInterfaceInputSpec",
+        "method_name": null,
+        "line_number": 365,
+        "evidence": [
+          "Abstract base with subclasses: CommandLineInputSpec"
+        ],
+        "related_classes": [
+          "CommandLineInputSpec"
+        ]
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/base/specs.py",
+        "class_name": "CommandLineInputSpec",
+        "method_name": null,
+        "line_number": 403,
+        "evidence": [
+          "Class name suggests Command: CommandLineInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/base/specs.py",
+        "class_name": "StdOutCommandLineInputSpec",
+        "method_name": null,
+        "line_number": 410,
+        "evidence": [
+          "Class name suggests Command: StdOutCommandLineInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/base/specs.py",
+        "class_name": "MpiCommandLineInputSpec",
+        "method_name": null,
+        "line_number": 414,
+        "evidence": [
+          "Class name suggests Command: MpiCommandLineInputSpec"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "TemplateMethod": 2,
+      "Command": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/base/support.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/base/support.py",
+        "class_name": "RuntimeContext",
+        "method_name": "runtime",
+        "line_number": 122,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/base/support.py",
+        "class_name": "Bunch",
+        "method_name": "update",
+        "line_number": 164,
+        "evidence": [
+          "Observer method detected: update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/base/support.py",
+        "class_name": "InterfaceResult",
+        "method_name": "version",
+        "line_number": 329,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 6,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/base/tests/test_core.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/base/tests/test_core.py",
+        "class_name": "CommandLineInputSpec1",
+        "method_name": null,
+        "line_number": 385,
+        "evidence": [
+          "Class name suggests Command: CommandLineInputSpec1"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/base/tests/test_core.py",
+        "class_name": "CommandLineInputSpec2",
+        "method_name": null,
+        "line_number": 412,
+        "evidence": [
+          "Class name suggests Command: CommandLineInputSpec2"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/base/tests/test_core.py",
+        "class_name": "CatCommand",
+        "method_name": null,
+        "line_number": 620,
+        "evidence": [
+          "Class name suggests Command: CatCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 44,
+    "total_functions": 22,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/base/traits_extension.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/base/traits_extension.py",
+        "class_name": "BasePath",
+        "method_name": "info_text",
+        "line_number": 106,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/base/traits_extension.py",
+        "class_name": "BasePath",
+        "method_name": null,
+        "line_number": 96,
+        "evidence": [
+          "Abstract base with subclasses: Directory, File"
+        ],
+        "related_classes": [
+          "Directory",
+          "File"
+        ]
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/camino/dti.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/camino/dti.py",
+        "class_name": "ComputeFractionalAnisotropyInputSpec",
+        "method_name": null,
+        "line_number": 1356,
+        "evidence": [
+          "Class name suggests Command: ComputeFractionalAnisotropyInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/camino/dti.py",
+        "class_name": "ComputeFractionalAnisotropyOutputSpec",
+        "method_name": null,
+        "line_number": 1407,
+        "evidence": [
+          "Class name suggests Command: ComputeFractionalAnisotropyOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/camino/dti.py",
+        "class_name": "ComputeFractionalAnisotropy",
+        "method_name": null,
+        "line_number": 1411,
+        "evidence": [
+          "Class name suggests Command: ComputeFractionalAnisotropy"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 42,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/dcm2nii.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/dcm2nii.py",
+        "class_name": "Info",
+        "method_name": "parse_version",
+        "line_number": 31,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/dcm2nii.py",
+        "class_name": "Dcm2niix",
+        "method_name": "version",
+        "line_number": 431,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/dcmstack.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/dcmstack.py",
+        "class_name": "NiftiGeneratorBaseInputSpec",
+        "method_name": null,
+        "line_number": 43,
+        "evidence": [
+          "Abstract base with subclasses: DcmStackInputSpec, MergeNiftiInputSpec"
+        ],
+        "related_classes": [
+          "DcmStackInputSpec",
+          "MergeNiftiInputSpec",
+          "SplitNiftiInputSpec"
+        ]
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/dcmstack.py",
+        "class_name": "NiftiGeneratorBase",
+        "method_name": null,
+        "line_number": 52,
+        "evidence": [
+          "Abstract base with subclasses: DcmStack, MergeNifti"
+        ],
+        "related_classes": [
+          "DcmStack",
+          "MergeNifti",
+          "SplitNifti"
+        ]
+      }
+    ],
+    "total_classes": 18,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 2
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/diffusion_toolkit/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/diffusion_toolkit/base.py",
+        "class_name": "Info",
+        "method_name": "version",
+        "line_number": 35,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/diffusion_toolkit/dti.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/diffusion_toolkit/dti.py",
+        "class_name": "DTIRecon",
+        "method_name": "_create_gradient_matrix",
+        "line_number": 97,
+        "evidence": [
+          "Factory method detected: _create_gradient_matrix"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/diffusion_toolkit/odf.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/diffusion_toolkit/odf.py",
+        "class_name": "HARDIMat",
+        "method_name": "_create_gradient_matrix",
+        "line_number": 99,
+        "evidence": [
+          "Factory method detected: _create_gradient_matrix"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/diffusion_toolkit/postproc.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/diffusion_toolkit/postproc.py",
+        "class_name": "SplineFilterInputSpec",
+        "method_name": null,
+        "line_number": 18,
+        "evidence": [
+          "Class name suggests handler chain: SplineFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/diffusion_toolkit/postproc.py",
+        "class_name": "SplineFilterOutputSpec",
+        "method_name": null,
+        "line_number": 41,
+        "evidence": [
+          "Class name suggests handler chain: SplineFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/diffusion_toolkit/postproc.py",
+        "class_name": "SplineFilter",
+        "method_name": null,
+        "line_number": 45,
+        "evidence": [
+          "Class name suggests handler chain: SplineFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/dipy/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/dipy/base.py",
+        "class_name": "DipyBaseInterface",
+        "method_name": null,
+        "line_number": 42,
+        "evidence": [
+          "Abstract base with subclasses: DipyDiffusionInterface"
+        ],
+        "related_classes": [
+          "DipyDiffusionInterface"
+        ]
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/dipy/tests/test_base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/dipy/tests/test_base.py",
+        "class_name": "DummyWorkflow",
+        "method_name": "get_short_name",
+        "line_number": 153,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/dtitk/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/base.py",
+        "class_name": "CommandLineDtitk",
+        "method_name": null,
+        "line_number": 56,
+        "evidence": [
+          "Class name suggests Command: CommandLineDtitk"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/dtitk/registration.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/registration.py",
+        "class_name": "RigidTask",
+        "method_name": null,
+        "line_number": 608,
+        "evidence": [
+          "Class name suggests Command: RigidTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/registration.py",
+        "class_name": "AffineTask",
+        "method_name": null,
+        "line_number": 612,
+        "evidence": [
+          "Class name suggests Command: AffineTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/registration.py",
+        "class_name": "DiffeoTask",
+        "method_name": null,
+        "line_number": 616,
+        "evidence": [
+          "Class name suggests Command: DiffeoTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/registration.py",
+        "class_name": "ComposeXfmTask",
+        "method_name": null,
+        "line_number": 620,
+        "evidence": [
+          "Class name suggests Command: ComposeXfmTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/registration.py",
+        "class_name": "affScalarVolTask",
+        "method_name": null,
+        "line_number": 624,
+        "evidence": [
+          "Class name suggests Command: affScalarVolTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/registration.py",
+        "class_name": "affSymTensor3DVolTask",
+        "method_name": null,
+        "line_number": 628,
+        "evidence": [
+          "Class name suggests Command: affSymTensor3DVolTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/registration.py",
+        "class_name": "diffeoScalarVolTask",
+        "method_name": null,
+        "line_number": 632,
+        "evidence": [
+          "Class name suggests Command: diffeoScalarVolTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/registration.py",
+        "class_name": "diffeoSymTensor3DVolTask",
+        "method_name": null,
+        "line_number": 636,
+        "evidence": [
+          "Class name suggests Command: diffeoSymTensor3DVolTask"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 30,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 8
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/dtitk/utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/utils.py",
+        "class_name": "BinThreshTask",
+        "method_name": null,
+        "line_number": 407,
+        "evidence": [
+          "Class name suggests Command: BinThreshTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/utils.py",
+        "class_name": "SVAdjustVoxSpTask",
+        "method_name": null,
+        "line_number": 411,
+        "evidence": [
+          "Class name suggests Command: SVAdjustVoxSpTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/utils.py",
+        "class_name": "SVResampleTask",
+        "method_name": null,
+        "line_number": 415,
+        "evidence": [
+          "Class name suggests Command: SVResampleTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/utils.py",
+        "class_name": "TVAdjustOriginTask",
+        "method_name": null,
+        "line_number": 419,
+        "evidence": [
+          "Class name suggests Command: TVAdjustOriginTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/utils.py",
+        "class_name": "TVAdjustVoxSpTask",
+        "method_name": null,
+        "line_number": 423,
+        "evidence": [
+          "Class name suggests Command: TVAdjustVoxSpTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/utils.py",
+        "class_name": "TVResampleTask",
+        "method_name": null,
+        "line_number": 427,
+        "evidence": [
+          "Class name suggests Command: TVResampleTask"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dtitk/utils.py",
+        "class_name": "TVtoolTask",
+        "method_name": null,
+        "line_number": 431,
+        "evidence": [
+          "Class name suggests Command: TVtoolTask"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 25,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 7
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/dynamic_slicer.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dynamic_slicer.py",
+        "class_name": "SlicerCommandLineInputSpec",
+        "method_name": null,
+        "line_number": 20,
+        "evidence": [
+          "Class name suggests Command: SlicerCommandLineInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/dynamic_slicer.py",
+        "class_name": "SlicerCommandLine",
+        "method_name": null,
+        "line_number": 24,
+        "evidence": [
+          "Class name suggests Command: SlicerCommandLine"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 2
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/freesurfer/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/freesurfer/base.py",
+        "class_name": "Info",
+        "method_name": "parse_version",
+        "line_number": 52,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/freesurfer/base.py",
+        "class_name": "FSCommand",
+        "method_name": "set_default_subjects_dir",
+        "line_number": 143,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/freesurfer/base.py",
+        "class_name": "FSCommand",
+        "method_name": "_subjects_dir_update",
+        "line_number": 138,
+        "evidence": [
+          "Observer method detected: _subjects_dir_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/freesurfer/base.py",
+        "class_name": "FSCommand",
+        "method_name": null,
+        "line_number": 119,
+        "evidence": [
+          "Class name suggests Command: FSCommand"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/freesurfer/base.py",
+        "class_name": "FSSurfaceCommand",
+        "method_name": "_associated_file",
+        "line_number": 193,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/freesurfer/base.py",
+        "class_name": "FSSurfaceCommand",
+        "method_name": null,
+        "line_number": 184,
+        "evidence": [
+          "Class name suggests Command: FSSurfaceCommand"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/freesurfer/base.py",
+        "class_name": "FSScriptCommand",
+        "method_name": null,
+        "line_number": 211,
+        "evidence": [
+          "Class name suggests Command: FSScriptCommand"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/freesurfer/base.py",
+        "class_name": "FSCommandOpenMP",
+        "method_name": "_num_threads_update",
+        "line_number": 255,
+        "evidence": [
+          "Observer method detected: _num_threads_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/freesurfer/base.py",
+        "class_name": "FSCommandOpenMP",
+        "method_name": null,
+        "line_number": 233,
+        "evidence": [
+          "Class name suggests Command: FSCommandOpenMP"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3,
+      "Observer": 2,
+      "Command": 4
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/freesurfer/preprocess.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/freesurfer/preprocess.py",
+        "class_name": "DICOMConvert",
+        "method_name": "cmdline",
+        "line_number": 725,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/freesurfer/preprocess.py",
+        "class_name": "ReconAll",
+        "method_name": "cmdline",
+        "line_number": 1680,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 68,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/freesurfer/registration.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/freesurfer/registration.py",
+        "class_name": "MPRtoMNI305",
+        "method_name": "_environ_update",
+        "line_number": 88,
+        "evidence": [
+          "Observer method detected: _environ_update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 18,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/fsl/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/fsl/base.py",
+        "class_name": "Info",
+        "method_name": "parse_version",
+        "line_number": 67,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/fsl/base.py",
+        "class_name": "FSLCommandInputSpec",
+        "method_name": null,
+        "line_number": 132,
+        "evidence": [
+          "Class name suggests Command: FSLCommandInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/fsl/base.py",
+        "class_name": "FSLCommand",
+        "method_name": "set_default_output_type",
+        "line_number": 187,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/fsl/base.py",
+        "class_name": "FSLCommand",
+        "method_name": "_output_update",
+        "line_number": 182,
+        "evidence": [
+          "Observer method detected: _output_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/fsl/base.py",
+        "class_name": "FSLCommand",
+        "method_name": null,
+        "line_number": 147,
+        "evidence": [
+          "Class name suggests Command: FSLCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Command": 2,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/fsl/dti.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/fsl/dti.py",
+        "class_name": "FSLXCommandInputSpec",
+        "method_name": null,
+        "line_number": 130,
+        "evidence": [
+          "Class name suggests Command: FSLXCommandInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/fsl/dti.py",
+        "class_name": "FSLXCommandOutputSpec",
+        "method_name": null,
+        "line_number": 259,
+        "evidence": [
+          "Class name suggests Command: FSLXCommandOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/fsl/dti.py",
+        "class_name": "FSLXCommand",
+        "method_name": null,
+        "line_number": 281,
+        "evidence": [
+          "Class name suggests Command: FSLXCommand"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/fsl/dti.py",
+        "class_name": "BEDPOSTX5",
+        "method_name": "_cuda_update",
+        "line_number": 456,
+        "evidence": [
+          "Observer method detected: _cuda_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/fsl/dti.py",
+        "class_name": "ProbTrackXBaseInputSpec",
+        "method_name": null,
+        "line_number": 553,
+        "evidence": [
+          "Abstract base with subclasses: ProbTrackXInputSpec, ProbTrackX2InputSpec"
+        ],
+        "related_classes": [
+          "ProbTrackXInputSpec",
+          "ProbTrackX2InputSpec"
+        ]
+      }
+    ],
+    "total_classes": 36,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 3,
+      "Observer": 1,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/fsl/epi.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/fsl/epi.py",
+        "class_name": "Eddy",
+        "method_name": "_num_threads_update",
+        "line_number": 957,
+        "evidence": [
+          "Observer method detected: _num_threads_update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 27,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/fsl/maths.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/fsl/maths.py",
+        "class_name": "MathsCommand",
+        "method_name": null,
+        "line_number": 45,
+        "evidence": [
+          "Class name suggests Command: MathsCommand"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/fsl/maths.py",
+        "class_name": "SpatialFilterInput",
+        "method_name": null,
+        "line_number": 444,
+        "evidence": [
+          "Class name suggests handler chain: SpatialFilterInput"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/fsl/maths.py",
+        "class_name": "SpatialFilter",
+        "method_name": null,
+        "line_number": 456,
+        "evidence": [
+          "Class name suggests handler chain: SpatialFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/fsl/maths.py",
+        "class_name": "TemporalFilterInput",
+        "method_name": null,
+        "line_number": 583,
+        "evidence": [
+          "Class name suggests handler chain: TemporalFilterInput"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/fsl/maths.py",
+        "class_name": "TemporalFilter",
+        "method_name": null,
+        "line_number": 600,
+        "evidence": [
+          "Class name suggests handler chain: TemporalFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 42,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1,
+      "ChainOfResponsibility": 4
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/fsl/model.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/fsl/model.py",
+        "class_name": "Level1Design",
+        "method_name": "_create_ev_file",
+        "line_number": 146,
+        "evidence": [
+          "Factory method detected: _create_ev_file"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 51,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/fsl/preprocess.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/fsl/preprocess.py",
+        "class_name": "FNIRT",
+        "method_name": "intensitymap_file_basename",
+        "line_number": 1366,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 35,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/fsl/utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/fsl/utils.py",
+        "class_name": "FilterRegressorInputSpec",
+        "method_name": null,
+        "line_number": 648,
+        "evidence": [
+          "Class name suggests handler chain: FilterRegressorInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/fsl/utils.py",
+        "class_name": "FilterRegressorOutputSpec",
+        "method_name": null,
+        "line_number": 696,
+        "evidence": [
+          "Class name suggests handler chain: FilterRegressorOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/fsl/utils.py",
+        "class_name": "FilterRegressor",
+        "method_name": null,
+        "line_number": 700,
+        "evidence": [
+          "Class name suggests handler chain: FilterRegressor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/fsl/utils.py",
+        "class_name": "WarpPointsBaseInputSpec",
+        "method_name": null,
+        "line_number": 2417,
+        "evidence": [
+          "Abstract base with subclasses: WarpPointsInputSpec, WarpPointsToStdInputSpec"
+        ],
+        "related_classes": [
+          "WarpPointsInputSpec",
+          "WarpPointsToStdInputSpec"
+        ]
+      }
+    ],
+    "total_classes": 92,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3,
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/io.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/io.py",
+        "class_name": "IOBase",
+        "method_name": null,
+        "line_number": 151,
+        "evidence": [
+          "Abstract base with subclasses: DataSink, S3DataGrabber"
+        ],
+        "related_classes": [
+          "DataSink",
+          "S3DataGrabber",
+          "DataGrabber",
+          "SelectFiles",
+          "DataFinder",
+          "FreeSurferSource",
+          "XNATSource",
+          "XNATSink",
+          "SQLiteSink",
+          "MySQLSink",
+          "JSONFileGrabber",
+          "JSONFileSink",
+          "BIDSDataGrabber"
+        ]
+      }
+    ],
+    "total_classes": 36,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/matlab.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/matlab.py",
+        "class_name": "MatlabCommand",
+        "method_name": "set_default_matlab_cmd",
+        "line_number": 122,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/matlab.py",
+        "class_name": "MatlabCommand",
+        "method_name": null,
+        "line_number": 81,
+        "evidence": [
+          "Class name suggests Command: MatlabCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/minc/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/minc/base.py",
+        "class_name": "Info",
+        "method_name": "version",
+        "line_number": 38,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 7,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/minc/minc.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/minc/minc.py",
+        "class_name": "Blur",
+        "method_name": "cmdline",
+        "line_number": 1805,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 84,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmN3InputSpec",
+        "method_name": null,
+        "line_number": 322,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmN3InputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmN3OutputSpec",
+        "method_name": null,
+        "line_number": 379,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmN3OutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmN3",
+        "method_name": null,
+        "line_number": 384,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmN3"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmLesionToadsInputSpec",
+        "method_name": null,
+        "line_number": 434,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmLesionToadsInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmLesionToadsOutputSpec",
+        "method_name": null,
+        "line_number": 585,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmLesionToadsOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmLesionToads",
+        "method_name": null,
+        "line_number": 597,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmLesionToads"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmImageCalculatorInputSpec",
+        "method_name": null,
+        "line_number": 821,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmImageCalculatorInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmImageCalculatorOutputSpec",
+        "method_name": null,
+        "line_number": 854,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmImageCalculatorOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmImageCalculator",
+        "method_name": null,
+        "line_number": 858,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmImageCalculator"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmMipavReorientInputSpec",
+        "method_name": null,
+        "line_number": 968,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmMipavReorientInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmMipavReorientOutputSpec",
+        "method_name": null,
+        "line_number": 1056,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmMipavReorientOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmMipavReorient",
+        "method_name": null,
+        "line_number": 1060,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmMipavReorient"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmSPECTRE2010InputSpec",
+        "method_name": null,
+        "line_number": 1070,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmSPECTRE2010InputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmSPECTRE2010OutputSpec",
+        "method_name": null,
+        "line_number": 1291,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmSPECTRE2010OutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmSPECTRE2010",
+        "method_name": null,
+        "line_number": 1319,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmSPECTRE2010"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "JistBrainPartialVolumeFilterInputSpec",
+        "method_name": null,
+        "line_number": 1352,
+        "evidence": [
+          "Class name suggests handler chain: JistBrainPartialVolumeFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "JistBrainPartialVolumeFilterOutputSpec",
+        "method_name": null,
+        "line_number": 1384,
+        "evidence": [
+          "Class name suggests handler chain: JistBrainPartialVolumeFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "JistBrainPartialVolumeFilter",
+        "method_name": null,
+        "line_number": 1388,
+        "evidence": [
+          "Class name suggests handler chain: JistBrainPartialVolumeFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmThresholdToBinaryMaskInputSpec",
+        "method_name": null,
+        "line_number": 1490,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmThresholdToBinaryMaskInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmThresholdToBinaryMaskOutputSpec",
+        "method_name": null,
+        "line_number": 1516,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmThresholdToBinaryMaskOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "nipype/nipype/interfaces/mipav/developer.py",
+        "class_name": "MedicAlgorithmThresholdToBinaryMask",
+        "method_name": null,
+        "line_number": 1520,
+        "evidence": [
+          "Class name suggests Strategy: MedicAlgorithmThresholdToBinaryMask"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 54,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Strategy": 18,
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/mixins/reporting.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/mixins/reporting.py",
+        "class_name": "ReportCapableInterface",
+        "method_name": "_generate_report",
+        "line_number": 63,
+        "evidence": [
+          "Method uses decorators: ['abstractmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/mrtrix/preprocess.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/mrtrix/preprocess.py",
+        "class_name": "Tensor2FractionalAnisotropyInputSpec",
+        "method_name": null,
+        "line_number": 320,
+        "evidence": [
+          "Class name suggests Command: Tensor2FractionalAnisotropyInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/mrtrix/preprocess.py",
+        "class_name": "Tensor2FractionalAnisotropyOutputSpec",
+        "method_name": null,
+        "line_number": 342,
+        "evidence": [
+          "Class name suggests Command: Tensor2FractionalAnisotropyOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/mrtrix/preprocess.py",
+        "class_name": "Tensor2FractionalAnisotropy",
+        "method_name": null,
+        "line_number": 349,
+        "evidence": [
+          "Class name suggests Command: Tensor2FractionalAnisotropy"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mrtrix/preprocess.py",
+        "class_name": "MedianFilter3DInputSpec",
+        "method_name": null,
+        "line_number": 798,
+        "evidence": [
+          "Class name suggests handler chain: MedianFilter3DInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mrtrix/preprocess.py",
+        "class_name": "MedianFilter3DOutputSpec",
+        "method_name": null,
+        "line_number": 817,
+        "evidence": [
+          "Class name suggests handler chain: MedianFilter3DOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mrtrix/preprocess.py",
+        "class_name": "MedianFilter3D",
+        "method_name": null,
+        "line_number": 821,
+        "evidence": [
+          "Class name suggests handler chain: MedianFilter3D"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 39,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 3,
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/mrtrix/tracking.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mrtrix/tracking.py",
+        "class_name": "FilterTracksInputSpec",
+        "method_name": null,
+        "line_number": 18,
+        "evidence": [
+          "Class name suggests handler chain: FilterTracksInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mrtrix/tracking.py",
+        "class_name": "FilterTracksOutputSpec",
+        "method_name": null,
+        "line_number": 90,
+        "evidence": [
+          "Class name suggests handler chain: FilterTracksOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mrtrix/tracking.py",
+        "class_name": "FilterTracks",
+        "method_name": null,
+        "line_number": 94,
+        "evidence": [
+          "Class name suggests handler chain: FilterTracks"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 14,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/mrtrix3/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/mrtrix3/base.py",
+        "class_name": "Info",
+        "method_name": "parse_version",
+        "line_number": 25,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/mrtrix3/base.py",
+        "class_name": "MRTrix3Base",
+        "method_name": "version",
+        "line_number": 136,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/mrtrix3/utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mrtrix3/utils.py",
+        "class_name": "MaskFilterInputSpec",
+        "method_name": null,
+        "line_number": 1234,
+        "evidence": [
+          "Class name suggests handler chain: MaskFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mrtrix3/utils.py",
+        "class_name": "MaskFilterOutputSpec",
+        "method_name": null,
+        "line_number": 1258,
+        "evidence": [
+          "Class name suggests handler chain: MaskFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/mrtrix3/utils.py",
+        "class_name": "MaskFilter",
+        "method_name": null,
+        "line_number": 1262,
+        "evidence": [
+          "Class name suggests handler chain: MaskFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 54,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/niftyfit/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/niftyfit/base.py",
+        "class_name": "NiftyFitCommand",
+        "method_name": null,
+        "line_number": 26,
+        "evidence": [
+          "Class name suggests Command: NiftyFitCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/niftyreg/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/niftyreg/base.py",
+        "class_name": "Info",
+        "method_name": "parse_version",
+        "line_number": 36,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/niftyreg/base.py",
+        "class_name": "NiftyRegCommandInputSpec",
+        "method_name": null,
+        "line_number": 40,
+        "evidence": [
+          "Class name suggests Command: NiftyRegCommandInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/niftyreg/base.py",
+        "class_name": "NiftyRegCommand",
+        "method_name": "version",
+        "line_number": 114,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/niftyreg/base.py",
+        "class_name": "NiftyRegCommand",
+        "method_name": "_omp_update",
+        "line_number": 82,
+        "evidence": [
+          "Observer method detected: _omp_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/niftyreg/base.py",
+        "class_name": "NiftyRegCommand",
+        "method_name": null,
+        "line_number": 52,
+        "evidence": [
+          "Class name suggests Command: NiftyRegCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Command": 2,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/niftyreg/reg.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/niftyreg/reg.py",
+        "class_name": "RegF3D",
+        "method_name": "_remove_extension",
+        "line_number": 384,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/niftyreg/regutils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/niftyreg/regutils.py",
+        "class_name": "RegAverage",
+        "method_name": "cmdline",
+        "line_number": 524,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 18,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/niftyseg/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/niftyseg/base.py",
+        "class_name": "NiftySegCommand",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Class name suggests Command: NiftySegCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/niftyseg/maths.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/niftyseg/maths.py",
+        "class_name": "MathsCommand",
+        "method_name": null,
+        "line_number": 61,
+        "evidence": [
+          "Class name suggests Command: MathsCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 13,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/niftyseg/stats.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/niftyseg/stats.py",
+        "class_name": "StatsCommand",
+        "method_name": null,
+        "line_number": 40,
+        "evidence": [
+          "Class name suggests Command: StatsCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/nilearn.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/nilearn.py",
+        "class_name": "NilearnBaseInterface",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Abstract base with subclasses: SignalExtraction"
+        ],
+        "related_classes": [
+          "SignalExtraction"
+        ]
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/nilearn.py",
+        "class_name": "SignalExtractionInputSpec",
+        "method_name": null,
+        "line_number": 25,
+        "evidence": [
+          "Class name suggests Command: SignalExtractionInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/nilearn.py",
+        "class_name": "SignalExtractionOutputSpec",
+        "method_name": null,
+        "line_number": 72,
+        "evidence": [
+          "Class name suggests Command: SignalExtractionOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/nilearn.py",
+        "class_name": "SignalExtraction",
+        "method_name": null,
+        "line_number": 82,
+        "evidence": [
+          "Class name suggests Command: SignalExtraction"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 1,
+      "Command": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/r.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/r.py",
+        "class_name": "RCommand",
+        "method_name": null,
+        "line_number": 41,
+        "evidence": [
+          "Class name suggests Command: RCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/semtools/brains/utilities.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/brains/utilities.py",
+        "class_name": "HistogramMatchingFilterInputSpec",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Class name suggests handler chain: HistogramMatchingFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/brains/utilities.py",
+        "class_name": "HistogramMatchingFilterOutputSpec",
+        "method_name": null,
+        "line_number": 58,
+        "evidence": [
+          "Class name suggests handler chain: HistogramMatchingFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/brains/utilities.py",
+        "class_name": "HistogramMatchingFilter",
+        "method_name": null,
+        "line_number": 62,
+        "evidence": [
+          "Class name suggests handler chain: HistogramMatchingFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "CannySegmentationLevelSetImageFilterInputSpec",
+        "method_name": null,
+        "line_number": 63,
+        "evidence": [
+          "Class name suggests handler chain: CannySegmentationLevelSetImageFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "CannySegmentationLevelSetImageFilterOutputSpec",
+        "method_name": null,
+        "line_number": 87,
+        "evidence": [
+          "Class name suggests handler chain: CannySegmentationLevelSetImageFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "CannySegmentationLevelSetImageFilter",
+        "method_name": null,
+        "line_number": 92,
+        "evidence": [
+          "Class name suggests handler chain: CannySegmentationLevelSetImageFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "TextureFromNoiseImageFilterInputSpec",
+        "method_name": null,
+        "line_number": 166,
+        "evidence": [
+          "Class name suggests handler chain: TextureFromNoiseImageFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "TextureFromNoiseImageFilterOutputSpec",
+        "method_name": null,
+        "line_number": 182,
+        "evidence": [
+          "Class name suggests handler chain: TextureFromNoiseImageFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "TextureFromNoiseImageFilter",
+        "method_name": null,
+        "line_number": 186,
+        "evidence": [
+          "Class name suggests handler chain: TextureFromNoiseImageFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "TextureMeasureFilterInputSpec",
+        "method_name": null,
+        "line_number": 537,
+        "evidence": [
+          "Class name suggests handler chain: TextureMeasureFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "TextureMeasureFilterOutputSpec",
+        "method_name": null,
+        "line_number": 547,
+        "evidence": [
+          "Class name suggests handler chain: TextureMeasureFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "TextureMeasureFilter",
+        "method_name": null,
+        "line_number": 551,
+        "evidence": [
+          "Class name suggests handler chain: TextureMeasureFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "GradientAnisotropicDiffusionImageFilterInputSpec",
+        "method_name": null,
+        "line_number": 762,
+        "evidence": [
+          "Class name suggests handler chain: GradientAnisotropicDiffusionImageFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "GradientAnisotropicDiffusionImageFilterOutputSpec",
+        "method_name": null,
+        "line_number": 784,
+        "evidence": [
+          "Class name suggests handler chain: GradientAnisotropicDiffusionImageFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/semtools/filtering/featuredetection.py",
+        "class_name": "GradientAnisotropicDiffusionImageFilter",
+        "method_name": null,
+        "line_number": 788,
+        "evidence": [
+          "Class name suggests handler chain: GradientAnisotropicDiffusionImageFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 54,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 12
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/slicer/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/slicer/base.py",
+        "class_name": "SlicerCommandLine",
+        "method_name": null,
+        "line_number": 4,
+        "evidence": [
+          "Class name suggests Command: SlicerCommandLine"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/slicer/diffusion/diffusion.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/diffusion/diffusion.py",
+        "class_name": "DWIRicianLMMSEFilterInputSpec",
+        "method_name": null,
+        "line_number": 178,
+        "evidence": [
+          "Class name suggests handler chain: DWIRicianLMMSEFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/diffusion/diffusion.py",
+        "class_name": "DWIRicianLMMSEFilterOutputSpec",
+        "method_name": null,
+        "line_number": 221,
+        "evidence": [
+          "Class name suggests handler chain: DWIRicianLMMSEFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/diffusion/diffusion.py",
+        "class_name": "DWIRicianLMMSEFilter",
+        "method_name": null,
+        "line_number": 225,
+        "evidence": [
+          "Class name suggests handler chain: DWIRicianLMMSEFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/diffusion/diffusion.py",
+        "class_name": "DWIJointRicianLMMSEFilterInputSpec",
+        "method_name": null,
+        "line_number": 349,
+        "evidence": [
+          "Class name suggests handler chain: DWIJointRicianLMMSEFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/diffusion/diffusion.py",
+        "class_name": "DWIJointRicianLMMSEFilterOutputSpec",
+        "method_name": null,
+        "line_number": 373,
+        "evidence": [
+          "Class name suggests handler chain: DWIJointRicianLMMSEFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/diffusion/diffusion.py",
+        "class_name": "DWIJointRicianLMMSEFilter",
+        "method_name": null,
+        "line_number": 377,
+        "evidence": [
+          "Class name suggests handler chain: DWIJointRicianLMMSEFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 27,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 6
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/slicer/filtering/checkerboardfilter.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/checkerboardfilter.py",
+        "class_name": "CheckerBoardFilterInputSpec",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Class name suggests handler chain: CheckerBoardFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/checkerboardfilter.py",
+        "class_name": "CheckerBoardFilterOutputSpec",
+        "method_name": null,
+        "line_number": 37,
+        "evidence": [
+          "Class name suggests handler chain: CheckerBoardFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/checkerboardfilter.py",
+        "class_name": "CheckerBoardFilter",
+        "method_name": null,
+        "line_number": 41,
+        "evidence": [
+          "Class name suggests handler chain: CheckerBoardFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/slicer/filtering/denoising.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/denoising.py",
+        "class_name": "GaussianBlurImageFilterInputSpec",
+        "method_name": null,
+        "line_number": 124,
+        "evidence": [
+          "Class name suggests handler chain: GaussianBlurImageFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/denoising.py",
+        "class_name": "GaussianBlurImageFilterOutputSpec",
+        "method_name": null,
+        "line_number": 140,
+        "evidence": [
+          "Class name suggests handler chain: GaussianBlurImageFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/denoising.py",
+        "class_name": "GaussianBlurImageFilter",
+        "method_name": null,
+        "line_number": 144,
+        "evidence": [
+          "Class name suggests handler chain: GaussianBlurImageFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/denoising.py",
+        "class_name": "MedianImageFilterInputSpec",
+        "method_name": null,
+        "line_number": 166,
+        "evidence": [
+          "Class name suggests handler chain: MedianImageFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/denoising.py",
+        "class_name": "MedianImageFilterOutputSpec",
+        "method_name": null,
+        "line_number": 186,
+        "evidence": [
+          "Class name suggests handler chain: MedianImageFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/denoising.py",
+        "class_name": "MedianImageFilter",
+        "method_name": null,
+        "line_number": 190,
+        "evidence": [
+          "Class name suggests handler chain: MedianImageFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 12,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 6
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/slicer/filtering/morphology.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/morphology.py",
+        "class_name": "GrayscaleGrindPeakImageFilterInputSpec",
+        "method_name": null,
+        "line_number": 13,
+        "evidence": [
+          "Class name suggests handler chain: GrayscaleGrindPeakImageFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/morphology.py",
+        "class_name": "GrayscaleGrindPeakImageFilterOutputSpec",
+        "method_name": null,
+        "line_number": 27,
+        "evidence": [
+          "Class name suggests handler chain: GrayscaleGrindPeakImageFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/morphology.py",
+        "class_name": "GrayscaleGrindPeakImageFilter",
+        "method_name": null,
+        "line_number": 31,
+        "evidence": [
+          "Class name suggests handler chain: GrayscaleGrindPeakImageFilter"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/morphology.py",
+        "class_name": "GrayscaleFillHoleImageFilterInputSpec",
+        "method_name": null,
+        "line_number": 63,
+        "evidence": [
+          "Class name suggests handler chain: GrayscaleFillHoleImageFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/morphology.py",
+        "class_name": "GrayscaleFillHoleImageFilterOutputSpec",
+        "method_name": null,
+        "line_number": 77,
+        "evidence": [
+          "Class name suggests handler chain: GrayscaleFillHoleImageFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/morphology.py",
+        "class_name": "GrayscaleFillHoleImageFilter",
+        "method_name": null,
+        "line_number": 81,
+        "evidence": [
+          "Class name suggests handler chain: GrayscaleFillHoleImageFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 6
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/slicer/filtering/votingbinaryholefillingimagefilter.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/votingbinaryholefillingimagefilter.py",
+        "class_name": "VotingBinaryHoleFillingImageFilterInputSpec",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Class name suggests handler chain: VotingBinaryHoleFillingImageFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/votingbinaryholefillingimagefilter.py",
+        "class_name": "VotingBinaryHoleFillingImageFilterOutputSpec",
+        "method_name": null,
+        "line_number": 46,
+        "evidence": [
+          "Class name suggests handler chain: VotingBinaryHoleFillingImageFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/filtering/votingbinaryholefillingimagefilter.py",
+        "class_name": "VotingBinaryHoleFillingImageFilter",
+        "method_name": null,
+        "line_number": 50,
+        "evidence": [
+          "Class name suggests handler chain: VotingBinaryHoleFillingImageFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/slicer/legacy/diffusion/denoising.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/legacy/diffusion/denoising.py",
+        "class_name": "DWIUnbiasedNonLocalMeansFilterInputSpec",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Class name suggests handler chain: DWIUnbiasedNonLocalMeansFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/legacy/diffusion/denoising.py",
+        "class_name": "DWIUnbiasedNonLocalMeansFilterOutputSpec",
+        "method_name": null,
+        "line_number": 52,
+        "evidence": [
+          "Class name suggests handler chain: DWIUnbiasedNonLocalMeansFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/legacy/diffusion/denoising.py",
+        "class_name": "DWIUnbiasedNonLocalMeansFilter",
+        "method_name": null,
+        "line_number": 56,
+        "evidence": [
+          "Class name suggests handler chain: DWIUnbiasedNonLocalMeansFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/slicer/legacy/filtering.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/legacy/filtering.py",
+        "class_name": "OtsuThresholdImageFilterInputSpec",
+        "method_name": null,
+        "line_number": 14,
+        "evidence": [
+          "Class name suggests handler chain: OtsuThresholdImageFilterInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/legacy/filtering.py",
+        "class_name": "OtsuThresholdImageFilterOutputSpec",
+        "method_name": null,
+        "line_number": 40,
+        "evidence": [
+          "Class name suggests handler chain: OtsuThresholdImageFilterOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/interfaces/slicer/legacy/filtering.py",
+        "class_name": "OtsuThresholdImageFilter",
+        "method_name": null,
+        "line_number": 44,
+        "evidence": [
+          "Class name suggests handler chain: OtsuThresholdImageFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 6,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/slicer/segmentation/specialized.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/slicer/segmentation/specialized.py",
+        "class_name": "EMSegmentCommandLineInputSpec",
+        "method_name": null,
+        "line_number": 77,
+        "evidence": [
+          "Class name suggests Command: EMSegmentCommandLineInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/slicer/segmentation/specialized.py",
+        "class_name": "EMSegmentCommandLineOutputSpec",
+        "method_name": null,
+        "line_number": 173,
+        "evidence": [
+          "Class name suggests Command: EMSegmentCommandLineOutputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/slicer/segmentation/specialized.py",
+        "class_name": "EMSegmentCommandLine",
+        "method_name": null,
+        "line_number": 188,
+        "evidence": [
+          "Class name suggests Command: EMSegmentCommandLine"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 9,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 3
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/spm/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/spm/base.py",
+        "class_name": "Info",
+        "method_name": "path",
+        "line_number": 145,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/spm/base.py",
+        "class_name": "SPMCommandInputSpec",
+        "method_name": null,
+        "line_number": 258,
+        "evidence": [
+          "Class name suggests Command: SPMCommandInputSpec"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/spm/base.py",
+        "class_name": "SPMCommand",
+        "method_name": "set_mlab_paths",
+        "line_number": 313,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/spm/base.py",
+        "class_name": "SPMCommand",
+        "method_name": "_matlab_cmd_update",
+        "line_number": 330,
+        "evidence": [
+          "Observer method detected: _matlab_cmd_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/spm/base.py",
+        "class_name": "SPMCommand",
+        "method_name": null,
+        "line_number": 271,
+        "evidence": [
+          "Class name suggests Command: SPMCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 5,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Command": 2,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/tests/test_nilearn.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/tests/test_nilearn.py",
+        "class_name": "TestSignalExtraction",
+        "method_name": "setup_class",
+        "line_number": 35,
+        "evidence": [
+          "Method uses decorators: [\"pytest.fixture(autouse=True, scope='class')\"]"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/tests/test_nilearn.py",
+        "class_name": "TestSignalExtraction",
+        "method_name": null,
+        "line_number": 24,
+        "evidence": [
+          "Class name suggests Command: TestSignalExtraction"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/interfaces/workbench/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/workbench/base.py",
+        "class_name": "Info",
+        "method_name": "parse_version",
+        "line_number": 28,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/interfaces/workbench/base.py",
+        "class_name": "WBCommand",
+        "method_name": "version",
+        "line_number": 37,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/interfaces/workbench/base.py",
+        "class_name": "WBCommand",
+        "method_name": null,
+        "line_number": 33,
+        "evidence": [
+          "Class name suggests Command: WBCommand"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/pipeline/engine/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/pipeline/engine/base.py",
+        "class_name": "EngineBase",
+        "method_name": "name",
+        "line_number": 45,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/pipeline/engine/nodes.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/pipeline/engine/nodes.py",
+        "class_name": "Node",
+        "method_name": "interface",
+        "line_number": 221,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/pipeline/engine/nodes.py",
+        "class_name": "Node",
+        "method_name": "_update_hash",
+        "line_number": 652,
+        "evidence": [
+          "Observer method detected: _update_hash"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/pipeline/engine/nodes.py",
+        "class_name": "JoinNode",
+        "method_name": "joinsource",
+        "line_number": 922,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nipype/nipype/pipeline/engine/nodes.py",
+        "class_name": "MapNode",
+        "method_name": "_create_dynamic_traits",
+        "line_number": 1149,
+        "evidence": [
+          "Factory method detected: _create_dynamic_traits"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/pipeline/engine/nodes.py",
+        "class_name": "MapNode",
+        "method_name": "inputs",
+        "line_number": 1223,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 3,
+      "Observer": 1,
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/pipeline/engine/tests/test_nodes.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/pipeline/engine/tests/test_nodes.py",
+        "class_name": "FailCommandLine",
+        "method_name": null,
+        "line_number": 339,
+        "evidence": [
+          "Class name suggests Command: FailCommandLine"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 21,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/pipeline/engine/workflows.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "nipype/nipype/pipeline/engine/workflows.py",
+        "class_name": "Workflow",
+        "method_name": "_create_flat_graph",
+        "line_number": 915,
+        "evidence": [
+          "Factory method detected: _create_flat_graph"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/pipeline/engine/workflows.py",
+        "class_name": "Workflow",
+        "method_name": "inputs",
+        "line_number": 362,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/pipeline/engine/workflows.py",
+        "class_name": "Workflow",
+        "method_name": "_update_node_cache",
+        "line_number": 897,
+        "evidence": [
+          "Observer method detected: _update_node_cache"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/pipeline/plugins/base.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/pipeline/plugins/base.py",
+        "class_name": "PluginBase",
+        "method_name": null,
+        "line_number": 37,
+        "evidence": [
+          "Abstract base with subclasses: DistributedPluginBase, GraphPluginBase"
+        ],
+        "related_classes": [
+          "DistributedPluginBase",
+          "GraphPluginBase"
+        ]
+      },
+      {
+        "pattern_type": "TemplateMethod",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "nipype/nipype/pipeline/plugins/base.py",
+        "class_name": "DistributedPluginBase",
+        "method_name": null,
+        "line_number": 68,
+        "evidence": [
+          "Abstract base with subclasses: SGELikeBatchManagerBase"
+        ],
+        "related_classes": [
+          "SGELikeBatchManagerBase"
+        ]
+      }
+    ],
+    "total_classes": 4,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "TemplateMethod": 2
+    }
+  },
+  {
+    "file_path": "nipype/nipype/pipeline/plugins/legacymultiproc.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/pipeline/plugins/legacymultiproc.py",
+        "class_name": "NonDaemonMixin",
+        "method_name": "daemon",
+        "line_number": 80,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 11,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/pipeline/plugins/sge.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/pipeline/plugins/sge.py",
+        "class_name": "QJobInfo",
+        "method_name": "update_info",
+        "line_number": 101,
+        "evidence": [
+          "Observer method detected: update_info"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/pipeline/plugins/sge.py",
+        "class_name": "QstatSubstitute",
+        "method_name": "_qacct_verified_complete",
+        "line_number": 151,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 3,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/utils/config.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/utils/config.py",
+        "class_name": "NipypeConfig",
+        "method_name": "cwd",
+        "line_number": 112,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/utils/config.py",
+        "class_name": "NipypeConfig",
+        "method_name": "update_config",
+        "line_number": 231,
+        "evidence": [
+          "Observer method detected: update_config"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/utils/logger.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "nipype/nipype/utils/logger.py",
+        "class_name": "Logging",
+        "method_name": "update_logging",
+        "line_number": 74,
+        "evidence": [
+          "Observer method detected: update_logging"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "nipype/nipype/utils/profiler.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/utils/profiler.py",
+        "class_name": "ResourceMonitorMock",
+        "method_name": "fname",
+        "line_number": 31,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/utils/profiler.py",
+        "class_name": "ResourceMonitor",
+        "method_name": "fname",
+        "line_number": 74,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "nipype/nipype/utils/ram_estimator.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/nipype/utils/ram_estimator.py",
+        "class_name": "RamEstimator",
+        "method_name": "voxels",
+        "line_number": 100,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "nipype/tools/checkspecs.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "nipype/tools/checkspecs.py",
+        "class_name": "InterfaceChecker",
+        "method_name": "_normalize_repr",
+        "line_number": 154,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  }
+]

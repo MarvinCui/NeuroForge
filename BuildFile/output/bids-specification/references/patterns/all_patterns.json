@@ -1,0 +1,154 @@
+[
+  {
+    "file_path": "bids-specification/tools/make_changelog.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "bids-specification/tools/make_changelog.py",
+        "class_name": "PR",
+        "method_name": "category",
+        "line_number": 62,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 7,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "bids-specification/tools/schemacode/src/bidsschematools/expressions.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "bids-specification/tools/schemacode/src/bidsschematools/expressions.py",
+        "class_name": "RightOp",
+        "method_name": "maybe",
+        "line_number": 142,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "bids-specification/tools/schemacode/src/bidsschematools/expressions.py",
+        "class_name": "BinOp",
+        "method_name": "maybe",
+        "line_number": 156,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "bids-specification/tools/schemacode/src/bidsschematools/tests/test_utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "bids-specification/tools/schemacode/src/bidsschematools/tests/test_utils.py",
+        "class_name": "TestJsonschemaValidator",
+        "method_name": "test_set_by_dollar_schema",
+        "line_number": 64,
+        "evidence": [
+          "Method uses decorators: [\"pytest.mark.parametrize(('schema', 'expected_validator_cls'), [pytest.param(DRAFT_202012_FORMAT_SCHEMA, Draft202012Validator, id='Draft202012'), pytest.param(DRAFT_7_SCHEMA, Draft7Validator, id='Draft7')])\", \"pytest.mark.parametrize('check_format', [True, False])\"]"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 0,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "bids-specification/tools/schemacode/src/bidsschematools/types/namespace.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.6,
+        "location": "bids-specification/tools/schemacode/src/bidsschematools/types/namespace.py",
+        "class_name": "Namespace",
+        "method_name": "_get_mapping",
+        "line_number": 225,
+        "evidence": [
+          "Factory method detected: _get_mapping"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "bids-specification/tools/schemacode/src/bidsschematools/types/namespace.py",
+        "class_name": "Namespace",
+        "method_name": "view",
+        "line_number": 188,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 5,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "bids-specification/tools/schemacode/src/bidsschematools/utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "bids-specification/tools/schemacode/src/bidsschematools/utils.py",
+        "class_name": "WarningsFilter",
+        "method_name": null,
+        "line_number": 179,
+        "evidence": [
+          "Class name suggests handler chain: WarningsFilter"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 8,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "ChainOfResponsibility": 1
+    }
+  }
+]

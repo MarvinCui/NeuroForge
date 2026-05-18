@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-05-18T16:36:40.607868",
+  "skill_name": "qsiprep",
+  "overall_score": {
+    "total_score": 84.0,
+    "completeness": 80.0,
+    "accuracy": 100.0,
+    "coverage": 60.0,
+    "health": 100.0,
+    "grade": "B+"
+  },
+  "metrics": [
+    {
+      "name": "Completeness",
+      "value": 80.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation completeness: 80.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Accuracy",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation accuracy: 100.0%",
+      "suggestions": []
+    },
+    {
+      "name": "Coverage",
+      "value": 60.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation coverage: 60.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Health",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Skill health: 100.0%",
+      "suggestions": []
+    }
+  ],
+  "statistics": {
+    "total_files": 36,
+    "total_size_bytes": 202513,
+    "markdown_files": 36,
+    "reference_files": 35,
+    "total_characters": 202287,
+    "total_words": 21292
+  },
+  "recommendations": [],
+  "history": []
+}

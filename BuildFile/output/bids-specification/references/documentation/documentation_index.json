@@ -1,0 +1,486 @@
+{
+  "total_files": 67,
+  "categories": {
+    "templates": [
+      ".github/ISSUE_TEMPLATE/blank.md",
+      "tools/schemacode/docs/_templates/module.rst"
+    ],
+    "other": [
+      ".github/pull_request_template.md",
+      "BIDS_logo/README.md",
+      "pdf_build_src/README.md",
+      "pdf_build_src/tests/data/expected/README.md",
+      "pdf_build_src/tests/data/input/README.md",
+      "src/CHANGES.md",
+      "src/appendices/arterial-spin-labeling.md",
+      "src/appendices/contributors.md",
+      "src/appendices/coordinate-systems.md",
+      "src/appendices/cross-modality-correspondence.md",
+      "src/appendices/entities.md",
+      "src/appendices/entity-table.md",
+      "src/appendices/file-collections.md",
+      "src/appendices/hed.md",
+      "src/appendices/licenses.md",
+      "src/appendices/meg-file-formats.md",
+      "src/appendices/meg-systems.md",
+      "src/appendices/qmri.md",
+      "src/appendices/schema.md",
+      "src/appendices/units.md",
+      "src/common-principles.md",
+      "src/derivatives/atlas.md",
+      "src/derivatives/common-data-types.md",
+      "src/derivatives/imaging.md",
+      "src/derivatives/introduction.md",
+      "src/extensions.md",
+      "src/glossary.md",
+      "src/index.md",
+      "src/introduction.md",
+      "src/longitudinal-and-multi-site-studies.md",
+      "src/modality-agnostic-files/code.md",
+      "src/modality-agnostic-files/data-summary-files.md",
+      "src/modality-agnostic-files/dataset-description.md",
+      "src/modality-agnostic-files/events.md",
+      "src/modality-agnostic-files/phenotypic-and-assessment-data.md",
+      "src/schema/README.md",
+      "tools/schemacode/README.md",
+      "tools/schemacode/docs/api.rst",
+      "tools/schemacode/docs/description.md",
+      "tools/schemacode/docs/doc_to_schema.md",
+      "tools/schemacode/docs/index.rst",
+      "tools/schemacode/docs/quickstart.md",
+      "tools/typescript/README.md"
+    ],
+    "contributing": [
+      "CONTRIBUTING.md"
+    ],
+    "overview": [
+      "DECISION-MAKING.md",
+      "Maintainers_Guide.md",
+      "README.md",
+      "Release_Guideline.md",
+      "Release_Protocol.md",
+      "macros_doc.md"
+    ],
+    "specifications": [
+      "pdf_build_src/tests/data/expected/modality-specific-files/magnetic-resonance-imaging-data.md",
+      "pdf_build_src/tests/data/input/modality-specific-files/magnetic-resonance-imaging-data.md",
+      "src/modality-specific-files/behavioral-experiments.md",
+      "src/modality-specific-files/electroencephalography.md",
+      "src/modality-specific-files/electromyography.md",
+      "src/modality-specific-files/genetic-descriptor.md",
+      "src/modality-specific-files/intracranial-electroencephalography.md",
+      "src/modality-specific-files/magnetic-resonance-imaging-data.md",
+      "src/modality-specific-files/magnetic-resonance-spectroscopy.md",
+      "src/modality-specific-files/magnetoencephalography.md",
+      "src/modality-specific-files/microscopy.md",
+      "src/modality-specific-files/motion.md",
+      "src/modality-specific-files/near-infrared-spectroscopy.md",
+      "src/modality-specific-files/physiological-recordings.md",
+      "src/modality-specific-files/positron-emission-tomography.md"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/blank.md",
+      "filename": "blank.md",
+      "category": "templates",
+      "size_bytes": 104
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "filename": "pull_request_template.md",
+      "category": "other",
+      "size_bytes": 2949
+    },
+    {
+      "path": "BIDS_logo/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 966
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "contributing",
+      "size_bytes": 16381
+    },
+    {
+      "path": "DECISION-MAKING.md",
+      "filename": "DECISION-MAKING.md",
+      "category": "overview",
+      "size_bytes": 6544
+    },
+    {
+      "path": "Maintainers_Guide.md",
+      "filename": "Maintainers_Guide.md",
+      "category": "overview",
+      "size_bytes": 9148
+    },
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 178972
+    },
+    {
+      "path": "Release_Guideline.md",
+      "filename": "Release_Guideline.md",
+      "category": "overview",
+      "size_bytes": 2227
+    },
+    {
+      "path": "Release_Protocol.md",
+      "filename": "Release_Protocol.md",
+      "category": "overview",
+      "size_bytes": 10822
+    },
+    {
+      "path": "macros_doc.md",
+      "filename": "macros_doc.md",
+      "category": "overview",
+      "size_bytes": 16634
+    },
+    {
+      "path": "pdf_build_src/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 2515
+    },
+    {
+      "path": "pdf_build_src/tests/data/expected/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1146
+    },
+    {
+      "path": "pdf_build_src/tests/data/expected/modality-specific-files/magnetic-resonance-imaging-data.md",
+      "filename": "magnetic-resonance-imaging-data.md",
+      "category": "specifications",
+      "size_bytes": 245
+    },
+    {
+      "path": "pdf_build_src/tests/data/input/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1340
+    },
+    {
+      "path": "pdf_build_src/tests/data/input/modality-specific-files/magnetic-resonance-imaging-data.md",
+      "filename": "magnetic-resonance-imaging-data.md",
+      "category": "specifications",
+      "size_bytes": 284
+    },
+    {
+      "path": "src/CHANGES.md",
+      "filename": "CHANGES.md",
+      "category": "other",
+      "size_bytes": 113012
+    },
+    {
+      "path": "src/appendices/arterial-spin-labeling.md",
+      "filename": "arterial-spin-labeling.md",
+      "category": "other",
+      "size_bytes": 6230
+    },
+    {
+      "path": "src/appendices/contributors.md",
+      "filename": "contributors.md",
+      "category": "other",
+      "size_bytes": 44703
+    },
+    {
+      "path": "src/appendices/coordinate-systems.md",
+      "filename": "coordinate-systems.md",
+      "category": "other",
+      "size_bytes": 29597
+    },
+    {
+      "path": "src/appendices/cross-modality-correspondence.md",
+      "filename": "cross-modality-correspondence.md",
+      "category": "other",
+      "size_bytes": 1251
+    },
+    {
+      "path": "src/appendices/entities.md",
+      "filename": "entities.md",
+      "category": "other",
+      "size_bytes": 813
+    },
+    {
+      "path": "src/appendices/entity-table.md",
+      "filename": "entity-table.md",
+      "category": "other",
+      "size_bytes": 1914
+    },
+    {
+      "path": "src/appendices/file-collections.md",
+      "filename": "file-collections.md",
+      "category": "other",
+      "size_bytes": 11916
+    },
+    {
+      "path": "src/appendices/hed.md",
+      "filename": "hed.md",
+      "category": "other",
+      "size_bytes": 12056
+    },
+    {
+      "path": "src/appendices/licenses.md",
+      "filename": "licenses.md",
+      "category": "other",
+      "size_bytes": 1558
+    },
+    {
+      "path": "src/appendices/meg-file-formats.md",
+      "filename": "meg-file-formats.md",
+      "category": "other",
+      "size_bytes": 17521
+    },
+    {
+      "path": "src/appendices/meg-systems.md",
+      "filename": "meg-systems.md",
+      "category": "other",
+      "size_bytes": 2082
+    },
+    {
+      "path": "src/appendices/qmri.md",
+      "filename": "qmri.md",
+      "category": "other",
+      "size_bytes": 23766
+    },
+    {
+      "path": "src/appendices/schema.md",
+      "filename": "schema.md",
+      "category": "other",
+      "size_bytes": 1208
+    },
+    {
+      "path": "src/appendices/units.md",
+      "filename": "units.md",
+      "category": "other",
+      "size_bytes": 7183
+    },
+    {
+      "path": "src/common-principles.md",
+      "filename": "common-principles.md",
+      "category": "other",
+      "size_bytes": 55083
+    },
+    {
+      "path": "src/derivatives/atlas.md",
+      "filename": "atlas.md",
+      "category": "other",
+      "size_bytes": 20500
+    },
+    {
+      "path": "src/derivatives/common-data-types.md",
+      "filename": "common-data-types.md",
+      "category": "other",
+      "size_bytes": 12944
+    },
+    {
+      "path": "src/derivatives/imaging.md",
+      "filename": "imaging.md",
+      "category": "other",
+      "size_bytes": 29526
+    },
+    {
+      "path": "src/derivatives/introduction.md",
+      "filename": "introduction.md",
+      "category": "other",
+      "size_bytes": 6107
+    },
+    {
+      "path": "src/extensions.md",
+      "filename": "extensions.md",
+      "category": "other",
+      "size_bytes": 695
+    },
+    {
+      "path": "src/glossary.md",
+      "filename": "glossary.md",
+      "category": "other",
+      "size_bytes": 462
+    },
+    {
+      "path": "src/index.md",
+      "filename": "index.md",
+      "category": "other",
+      "size_bytes": 907
+    },
+    {
+      "path": "src/introduction.md",
+      "filename": "introduction.md",
+      "category": "other",
+      "size_bytes": 10702
+    },
+    {
+      "path": "src/longitudinal-and-multi-site-studies.md",
+      "filename": "longitudinal-and-multi-site-studies.md",
+      "category": "other",
+      "size_bytes": 4861
+    },
+    {
+      "path": "src/modality-agnostic-files/code.md",
+      "filename": "code.md",
+      "category": "other",
+      "size_bytes": 566
+    },
+    {
+      "path": "src/modality-agnostic-files/data-summary-files.md",
+      "filename": "data-summary-files.md",
+      "category": "other",
+      "size_bytes": 7491
+    },
+    {
+      "path": "src/modality-agnostic-files/dataset-description.md",
+      "filename": "dataset-description.md",
+      "category": "other",
+      "size_bytes": 6259
+    },
+    {
+      "path": "src/modality-agnostic-files/events.md",
+      "filename": "events.md",
+      "category": "other",
+      "size_bytes": 15177
+    },
+    {
+      "path": "src/modality-agnostic-files/phenotypic-and-assessment-data.md",
+      "filename": "phenotypic-and-assessment-data.md",
+      "category": "other",
+      "size_bytes": 2755
+    },
+    {
+      "path": "src/modality-specific-files/behavioral-experiments.md",
+      "filename": "behavioral-experiments.md",
+      "category": "specifications",
+      "size_bytes": 3533
+    },
+    {
+      "path": "src/modality-specific-files/electroencephalography.md",
+      "filename": "electroencephalography.md",
+      "category": "specifications",
+      "size_bytes": 23074
+    },
+    {
+      "path": "src/modality-specific-files/electromyography.md",
+      "filename": "electromyography.md",
+      "category": "specifications",
+      "size_bytes": 38785
+    },
+    {
+      "path": "src/modality-specific-files/genetic-descriptor.md",
+      "filename": "genetic-descriptor.md",
+      "category": "specifications",
+      "size_bytes": 4994
+    },
+    {
+      "path": "src/modality-specific-files/intracranial-electroencephalography.md",
+      "filename": "intracranial-electroencephalography.md",
+      "category": "specifications",
+      "size_bytes": 25440
+    },
+    {
+      "path": "src/modality-specific-files/magnetic-resonance-imaging-data.md",
+      "filename": "magnetic-resonance-imaging-data.md",
+      "category": "specifications",
+      "size_bytes": 65498
+    },
+    {
+      "path": "src/modality-specific-files/magnetic-resonance-spectroscopy.md",
+      "filename": "magnetic-resonance-spectroscopy.md",
+      "category": "specifications",
+      "size_bytes": 22573
+    },
+    {
+      "path": "src/modality-specific-files/magnetoencephalography.md",
+      "filename": "magnetoencephalography.md",
+      "category": "specifications",
+      "size_bytes": 25622
+    },
+    {
+      "path": "src/modality-specific-files/microscopy.md",
+      "filename": "microscopy.md",
+      "category": "specifications",
+      "size_bytes": 19390
+    },
+    {
+      "path": "src/modality-specific-files/motion.md",
+      "filename": "motion.md",
+      "category": "specifications",
+      "size_bytes": 18776
+    },
+    {
+      "path": "src/modality-specific-files/near-infrared-spectroscopy.md",
+      "filename": "near-infrared-spectroscopy.md",
+      "category": "specifications",
+      "size_bytes": 21537
+    },
+    {
+      "path": "src/modality-specific-files/physiological-recordings.md",
+      "filename": "physiological-recordings.md",
+      "category": "specifications",
+      "size_bytes": 27687
+    },
+    {
+      "path": "src/modality-specific-files/positron-emission-tomography.md",
+      "filename": "positron-emission-tomography.md",
+      "category": "specifications",
+      "size_bytes": 18673
+    },
+    {
+      "path": "src/schema/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 56828
+    },
+    {
+      "path": "tools/schemacode/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1452
+    },
+    {
+      "path": "tools/schemacode/docs/_templates/module.rst",
+      "filename": "module.rst",
+      "category": "templates",
+      "size_bytes": 1162
+    },
+    {
+      "path": "tools/schemacode/docs/api.rst",
+      "filename": "api.rst",
+      "category": "other",
+      "size_bytes": 129
+    },
+    {
+      "path": "tools/schemacode/docs/description.md",
+      "filename": "description.md",
+      "category": "other",
+      "size_bytes": 56828
+    },
+    {
+      "path": "tools/schemacode/docs/doc_to_schema.md",
+      "filename": "doc_to_schema.md",
+      "category": "other",
+      "size_bytes": 9314
+    },
+    {
+      "path": "tools/schemacode/docs/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 315
+    },
+    {
+      "path": "tools/schemacode/docs/quickstart.md",
+      "filename": "quickstart.md",
+      "category": "other",
+      "size_bytes": 5220
+    },
+    {
+      "path": "tools/typescript/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 224
+    }
+  ]
+}

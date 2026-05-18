@@ -1,0 +1,100 @@
+[
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+    "class_name": "WrapperError",
+    "method_name": null,
+    "line_number": 32,
+    "evidence": [
+      "Class name suggests Adapter: WrapperError"
+    ],
+    "related_classes": [],
+    "file_path": "nibabel/nibabel/nicom/dicomwrappers.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+    "class_name": "WrapperPrecisionError",
+    "method_name": null,
+    "line_number": 36,
+    "evidence": [
+      "Class name suggests Adapter: WrapperPrecisionError"
+    ],
+    "related_classes": [],
+    "file_path": "nibabel/nibabel/nicom/dicomwrappers.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+    "class_name": "Wrapper",
+    "method_name": null,
+    "line_number": 104,
+    "evidence": [
+      "Class name suggests Adapter: Wrapper"
+    ],
+    "related_classes": [],
+    "file_path": "nibabel/nibabel/nicom/dicomwrappers.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+    "class_name": "MultiframeWrapper",
+    "method_name": null,
+    "line_number": 642,
+    "evidence": [
+      "Class name suggests Adapter: MultiframeWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "nibabel/nibabel/nicom/dicomwrappers.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+    "class_name": "SiemensWrapper",
+    "method_name": null,
+    "line_number": 1002,
+    "evidence": [
+      "Class name suggests Adapter: SiemensWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "nibabel/nibabel/nicom/dicomwrappers.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "nibabel/nibabel/nicom/dicomwrappers.py",
+    "class_name": "MosaicWrapper",
+    "method_name": null,
+    "line_number": 1140,
+    "evidence": [
+      "Class name suggests Adapter: MosaicWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "nibabel/nibabel/nicom/dicomwrappers.py"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "nibabel/nibabel/nicom/tests/test_dicomwrappers.py",
+    "class_name": "TestMultiFrameWrapper",
+    "method_name": null,
+    "line_number": 520,
+    "evidence": [
+      "Class name suggests Adapter: TestMultiFrameWrapper"
+    ],
+    "related_classes": [],
+    "file_path": "nibabel/nibabel/nicom/tests/test_dicomwrappers.py"
+  }
+]

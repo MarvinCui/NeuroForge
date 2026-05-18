@@ -1,0 +1,58 @@
+[
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "afni/src/crorden/dcm2niix_console/charls/decoderstrategy.h",
+    "class_name": "DecoderStrategy",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Class name suggests Strategy: DecoderStrategy"
+    ],
+    "related_classes": [],
+    "file_path": "afni/src/crorden/dcm2niix_console/charls/decoderstrategy.h"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "afni/src/crorden/dcm2niix_console/charls/encoderstrategy.h",
+    "class_name": "EncoderStrategy",
+    "method_name": null,
+    "line_number": 13,
+    "evidence": [
+      "Class name suggests Strategy: EncoderStrategy"
+    ],
+    "related_classes": [],
+    "file_path": "afni/src/crorden/dcm2niix_console/charls/encoderstrategy.h"
+  },
+  {
+    "pattern_type": "Factory",
+    "category": "Creational",
+    "confidence": 0.7,
+    "location": "afni/src/crorden/dcm2niix_console/charls/jlscodecfactory.h",
+    "class_name": "JlsCodecFactory",
+    "method_name": null,
+    "line_number": 14,
+    "evidence": [
+      "Class name contains \"Factory\""
+    ],
+    "related_classes": [],
+    "file_path": "afni/src/crorden/dcm2niix_console/charls/jlscodecfactory.h"
+  },
+  {
+    "pattern_type": "Adapter",
+    "category": "Structural",
+    "confidence": 0.7,
+    "location": "afni/src/crorden/dcm2niix_console/dcm2niix_fswrapper.h",
+    "class_name": "dcm2niix_fswrapper",
+    "method_name": null,
+    "line_number": 16,
+    "evidence": [
+      "Class name suggests Adapter: dcm2niix_fswrapper"
+    ],
+    "related_classes": [],
+    "file_path": "afni/src/crorden/dcm2niix_console/dcm2niix_fswrapper.h"
+  }
+]

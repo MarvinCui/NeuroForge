@@ -1,0 +1,2677 @@
+{
+  "nodes": [
+    {
+      "file": ".github/workflows/checksum.py",
+      "language": "Python"
+    },
+    {
+      "file": "building/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "building/buildRelease.py",
+      "language": "Python"
+    },
+    {
+      "file": "building/searchCopyrightYear.py",
+      "language": "Python"
+    },
+    {
+      "file": "building/semanticVersion.py",
+      "language": "Python"
+    },
+    {
+      "file": "building/updateBuilderDemos.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/alerts/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/alerts/_alerts.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/alerts/_errorHandler.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/alerts/alertsCatalogue/alertmsg.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/alerts/alertsCatalogue/generateAlertmsg.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/alerts/alerttools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/alerts/liaison.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/alerts/stdout.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/app/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/assets/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/assets/templates/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/changes/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/clock.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/colors.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/compatibility.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/constants.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/contrib/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/contrib/configobj/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/contrib/configobj/_version.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/contrib/configobj/validate.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/contrib/lazy_import.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/contrib/mseq.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/contrib/mseqSearch.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/contrib/psi.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/contrib/quest.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/contrib/tesselate.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/core.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/data/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/data/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/data/counterbalance.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/data/experiment.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/data/fit.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/data/routine.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/data/shelf.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/data/staircase.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/data/trial.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/data/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/builder/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/basic/hello_world.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/csvFromPsydat.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/JND_staircase_analysis.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/JND_staircase_exp.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/TrialHandler.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/TrialHandler2.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/autoDraw_autoLog.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/experimentHandler.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/fMRI_launchScan.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/gammaMotionAnalysis.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/gammaMotionNull.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/logFiles.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/piloting.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/experiment control/runtimeInfo.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/CRS_BitsBox.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/CRS_BitsPlusPlus.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/RiftHeadTrackingExample.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/RiftMinimal.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/VSHD_Distortion.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/camera.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/cedrusRB730.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/crsBitsAdvancedDemo.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/egi_netstation.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/hdf5_extract.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/ioLab_bbox.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/labjack_u3.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/monitorDemo.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/parallelPortOutput.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/qmixPump.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/hardware/testSoundLatency.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/input/GUI.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/input/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/input/customMouse.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/input/joystick_universal.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/input/keyNameFinder.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/input/mouse.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/delaytest.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/eyetracking/gcCursor/readTrialEventsByConditionVariables.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/eyetracking/gcCursor/readTrialEventsByMessages.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/eyetracking/gcCursor/run.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/eyetracking/simple.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/eyetracking/validation.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/iodatastore/saveEventReport.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/keyboard.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/keyboardreactiontime.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/launchHub.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/mouse.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/mouse_multi_window.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/serial/_parseserial.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/serial/customparser.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/serial/pstbox.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/wintab/_wintabgraphics.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/iohub/wintab/pen_demo.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/misc/encrypt_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/misc/makeMovie.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/misc/rigidBodyTransform.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/MovieStim.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/aperture.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/bufferImageStim.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/clockface.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/colorPalette.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/compare_text_timing.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/counterphase.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/customTextures.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/dot_gabors.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/dots.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/elementArrays.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/embeddedOpenGL.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/face_jpg.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/gabor.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/imagesAndPatches.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/kanizsa.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/maskReveal.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/plaid.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/ratingScale.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/rotatingFlashingWedge.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/screensAndWindows.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/secondOrderGratings.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/shapeContains.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/shapes.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/soundStimuli.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/starField.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/stim3d.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/textBoxStim/textbox_glyph_placement.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/textBoxStim/textbox_simple.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/textStimuli.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/textbox_editable.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/variousVisualStims.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/stimuli/visual_noise.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/sysInfo.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/timing/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/timing/callOnFlip.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/timing/clocksAndTimers.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/timing/millikeyKeyboardTimingTest.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/timing/timeByFrames.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/timing/timeByFramesEx.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/understanding psychopy/colors.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/coder/understanding psychopy/fontLayout.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/demo_migration.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/modernizeDemos.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/demos/test_demo_migration.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/devices/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/event.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/exceptions.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/_experiment.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/aperture/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/brush/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/button/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/buttonBox/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/camera/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/code/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/dots/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/eyetracker_marker/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/eyetracker_record/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/form/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/grating/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/image/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/joyButtons/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/joyButtons/virtualJoyButtons.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/joystick/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/joystick/virtualJoystick.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/keyboard/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/microphone/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/mouse/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/movie/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/panorama/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/parallelOut/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/polygon/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/progress/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/resourceManager/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/roi/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/routineSettings/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/serialOut/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/settings/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/settings/eyetracking.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/slider/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/sound/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/soundsensor/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/static/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/text/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/textbox/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/unknown/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/unknownPlugin/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/components/variable/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/devices.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/exports.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/flow.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/localization.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/loops.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/monitor.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/params.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/plugins.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/py2js.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/py2js_transpiler.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/routines/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/routines/_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/routines/audioValidator/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/routines/counterbalance/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/routines/eyetracker_calibrate/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/routines/eyetracker_validate/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/routines/pavlovia_survey/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/routines/unknown/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/routines/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/routines/visualValidator/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/experiment/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/filters.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/gamma.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/gui/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/gui/qtgui.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/gui/util.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/gui/wxgui.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/bbtk/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/brainproducts.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/button.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/buttonbox/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/camera/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/cedrus.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/crs/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/crs/bits.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/crs/colorcal.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/crs/optical.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/crs/shaders.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/emotiv.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/emulator.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/exceptions.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/eyetracker.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/forp.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/gammasci.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/iolab.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/joystick/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/joystick/_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/joystick/backend_glfw.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/joystick/backend_pyglet.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/joystick/mappings.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/keyboard.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/labhackers.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/labjacks.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/lightsensor.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/listener.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/manager.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/microphone/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/microphone/_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/microphone/microphone_psychtoolbox.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/microphone/microphone_soundevice.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/minolta.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/monitor.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/mouse/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/photometer/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/pr.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/qmix.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/serialdevice.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/soundsensor.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/spatial/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/speaker/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/speaker/_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/speaker/speaker_psychtoolbox.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/speaker/speaker_sounddevice.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/triggerbox/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/triggerbox/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/hardware/triggerbox/parallel.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/info.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/client/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/client/connect.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/client/eyetracker/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/client/eyetracker/validation/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/client/eyetracker/validation/posgrid.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/client/eyetracker/validation/procedure.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/client/eyetracker/validation/trigger.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/client/keyboard.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/client/wintab.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/constants.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/datastore/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/datastore/util.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/computer.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/deviceConfigValidation.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/display/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eventfilters.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/experiment/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/calibration/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/calibration/procedure.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/eye_events.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/filters/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/filters/parser.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/gazepoint/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/gazepoint/gp3/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/gazepoint/gp3/calibration.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/gazepoint/gp3/eyetracker.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/mouse/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/mouse/calibration.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/mouse/eyetracker.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/pupil_labs/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/pupil_labs/neon/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/pupil_labs/neon/eyetracker.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/pupil_labs/pupil_core/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/pupil_labs/pupil_core/bisector.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/pupil_labs/pupil_core/constants.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/pupil_labs/pupil_core/data_parse.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/pupil_labs/pupil_core/eyetracker.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/pupil_labs/pupil_core/pupil_remote.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/sr_research/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/sr_research/eyelink/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/sr_research/eyelink/calibration.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/sr_research/eyelink/eyetracker.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/tobii/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/tobii/calibration.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/tobii/eyetracker.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/eyetracker/hw/tobii/tobiiwrapper.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/keyboard/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/keyboard/darwin.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/keyboard/darwinkey.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/keyboard/linux2.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/keyboard/win32.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/mouse/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/mouse/darwin.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/mouse/linux2.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/mouse/win32.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/pyXHook.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/serial/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/wintab/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/wintab/win32.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/devices/xlib.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/errors.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/lazy_import.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/net.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/server.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/start_iohub_process.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/util/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/iohub/util/visualangle.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/layout.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/liaison.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/locale_setup.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/localization/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/localization/extract.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/localization/translation.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/logging.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/microphone.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/misc.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/monitors/MonitorCenter.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/monitors/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/monitors/calibData.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/monitors/calibTools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/monitors/getLumSeries.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/parallel/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/parallel/_dlportio.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/parallel/_inpout.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/parallel/_linux.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/piloting.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/platform_specific/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/platform_specific/darwin.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/platform_specific/linux.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/platform_specific/win32.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/plugins/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/plugins/util.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/preferences/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/preferences/devices.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/preferences/generateHints.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/preferences/generateSpec.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/preferences/hints.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/preferences/preferences.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/projects/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/projects/gitignore.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/projects/pavlovia.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/projects/sshkeys.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/scripts/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/scripts/psychopy-pkgutil.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/scripts/psyexpCompile.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/session.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/audioclip.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/audiodevice.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/backend_ptb.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/backend_pygame.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/backend_pyo.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/backend_pysound.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/backend_sounddevice.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/backends/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/exceptions.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/microphone.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/sound.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/sound/transcribe.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/js/correctCodeComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/js/correctImageComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/js/correctKeyboardComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/js/correctMouseComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/js/correctMovieComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/js/correctPolygonComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/js/correctSliderComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/js/correctSoundComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/js/correctTextComponent.js",
+      "language": "JavaScript"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctApertureComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctCodeComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctDotsComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctEnvGratingComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctFormComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctGratingComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctImageComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctJoyButtonsComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctJoystickComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctKeyboardComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctMicrophoneComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctMouseComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctMovieComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctNoiseStimComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctParallelOutComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctPatchComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctPolygonComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctQmixPumpComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctRatingScaleComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctSliderComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctSoundComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctStaticComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctTextComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctVariableComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctcedrusButtonBoxComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/correctScript/python/correctioLabsButtonBoxComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/data/test_basic_run.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/run.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_Installation.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_alerts/test_alerts.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_alerts/test_alerttools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_codecov.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_colors/test_Color.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_data/test_ExperimentHandler.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_data/test_MultiStairHandler.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_data/test_StairHandlers.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_data/test_TrialHandler.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_data/test_TrialHandler2.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_data/test_TrialHandlerExt.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_data/test_fitFunctions.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_data/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_data/test_xlsx.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_demos/test_builder_demos.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/needs_wx/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/needs_wx/genComponsTemplate.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/needs_wx/test_Experiment.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/needs_wx/test_components.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_component_compile_js.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_component_compile_python.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_ButtonBoxComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_CodeComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_GratingComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_ImageComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_KeyboardComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_MouseComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_PolygonComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_ResourceManagerComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_RoutineSettingsComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_SettingsComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_StaticComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_UnknownPluginComponent.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_all_components.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_components/test_base_components.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_experiment.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_loops.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_params.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_py2js.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_routines/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_routines/test_EyetrackerCalibrationRoutine.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_routines/test_PhotodiodeValidationRoutine.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_routines/test_all_routines.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_routines/test_base_routine.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_experiment/test_routines/test_standalone_routines.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_gui/test_DlgFromDictQt.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_gui/test_DlgFromDictWx.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_hardware/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_hardware/test_device_manager.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_hardware/test_emulator.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_hardware/test_gammasci.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_hardware/test_keyboard.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_hardware/test_keyboard_events.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_hardware/test_photodiode.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_hardware/test_ports.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_iohub/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_iohub/test_computer.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_iohub/test_event_get_and_clear.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_iohub/test_keyboard.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_iohub/test_launch.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_iohub/testutil.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_liaison/test_Liaison.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_misc/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_misc/memory_usage.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_misc/test_GammaFun.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_misc/test_clock.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_misc/test_color.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_misc/test_core.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_misc/test_event.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_misc/test_info.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_misc/test_layout.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_misc/test_locale.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_misc/test_web.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_monitors/test_monitors.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_plugins/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_plugins/test_plugin_stubs.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_preferences/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_preferences/test_prefs.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_session/test_Session.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_sound/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_sound/test_audioclip.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_sound/test_hamming.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_sound/test_sound.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_sound/test_sound_pygame.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_animationtools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_arraytools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_attributetools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_colorspacetools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_environmenttools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_fileerrortools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_filetools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_imagetools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_mathtools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_stringtools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_versionchooser.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_tools/test_viewtools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_validators/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_validators/test_voicekeyValidator.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/measure_parity.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_all_stimuli.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_basevisual.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_brush.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_button.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_circle.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_contains_overlaps.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_custommouse.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_dots.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_form.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_framepacking.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_gamma.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_glfw_backend.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_image.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_panorama.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_progress.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_projections.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_projections_interactive.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_roi.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_shape.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_slider.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_target.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_textbox.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_winFlipTiming.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_winScalePos.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/test_visual/test_window.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tests/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/animationtools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/apptools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/arraytools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/attributetools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/audiotools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/colorspacetools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/coordinatetools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/environmenttools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/fileerrortools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/filetools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/fontmanager.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/gltools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/imagetools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/linebreak.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/mathtools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/monitorunittools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/movietools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/pkgtools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/plottools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/rifttools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/servertools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/stereotools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/stimulustools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/stringtools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/systemtools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/typetools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/unittools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/versionchooser.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/viewtools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/tools/wizard.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/validation/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/validation/audio.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/validation/visual.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/aperture.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/backends/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/backends/_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/backends/gamma.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/backends/glfwbackend.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/backends/pygamebackend.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/backends/pygletbackend.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/basevisual.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/brush.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/bufferimage.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/button.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/circle.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/custommouse.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/dot.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/dropdown.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/elementarray.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/filters.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/form.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/globalVars.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/grating.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/helpers.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/image.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/line.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/movie.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/movie2.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/movie3.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/movies/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/movies/frame.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/movies/metadata.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/movies/players/_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/nnlvs.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/noise.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/panorama.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/patch.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/pie.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/polygon.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/progress.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/radial.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/ratingscale.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/rect.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/rift.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/roi.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/secondorder.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/shaders.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/shape.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/simpleimage.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/slider.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/stim3d.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/target.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/text.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/textbox/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/textbox/fontmanager.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/textbox/parsedtext.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/textbox/textgrid.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/textbox/textureatlas.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/textbox2/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/textbox2/textbox2.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/vlcmoviestim.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/window.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/windowframepack.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/visual/windowwarp.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/voicekey/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/voicekey/labjack_vks.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/voicekey/parallel_vks.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/voicekey/vk_tools.py",
+      "language": "Python"
+    },
+    {
+      "file": "psychopy/web.py",
+      "language": "Python"
+    }
+  ],
+  "edges": []
+}

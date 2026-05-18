@@ -1,0 +1,199 @@
+{
+  "total_files": 26,
+  "categories": {
+    "templates": [
+      ".github/ISSUE_TEMPLATE/documentation.md"
+    ],
+    "other": [
+      ".maint/CONTRIBUTORS.md",
+      ".maint/FORMER.md",
+      ".maint/MAINTAINERS.md",
+      ".maint/PIs.md",
+      "docs/api.rst",
+      "docs/benchmarks.rst",
+      "docs/changes.rst",
+      "docs/faq.rst",
+      "docs/index.rst",
+      "docs/installation.rst",
+      "docs/license.rst",
+      "docs/links.rst",
+      "docs/outputs.rst",
+      "docs/pull_request_template.md",
+      "docs/spaces.rst",
+      "docs/usage.rst",
+      "docs/workflows.rst",
+      "wrapper/README.rst"
+    ],
+    "overview": [
+      "CHANGES.rst",
+      "GOVERNANCE.md",
+      "README.rst",
+      "REFERENCES.md",
+      "long_description.rst"
+    ],
+    "community": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "contributing": [
+      "CONTRIBUTING.md"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/documentation.md",
+      "filename": "documentation.md",
+      "category": "templates",
+      "size_bytes": 368
+    },
+    {
+      "path": ".maint/CONTRIBUTORS.md",
+      "filename": "CONTRIBUTORS.md",
+      "category": "other",
+      "size_bytes": 13640
+    },
+    {
+      "path": ".maint/FORMER.md",
+      "filename": "FORMER.md",
+      "category": "other",
+      "size_bytes": 534
+    },
+    {
+      "path": ".maint/MAINTAINERS.md",
+      "filename": "MAINTAINERS.md",
+      "category": "other",
+      "size_bytes": 1168
+    },
+    {
+      "path": ".maint/PIs.md",
+      "filename": "PIs.md",
+      "category": "other",
+      "size_bytes": 1531
+    },
+    {
+      "path": "CHANGES.rst",
+      "filename": "CHANGES.rst",
+      "category": "overview",
+      "size_bytes": 124704
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "filename": "CODE_OF_CONDUCT.md",
+      "category": "community",
+      "size_bytes": 168
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "contributing",
+      "size_bytes": 165
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "filename": "GOVERNANCE.md",
+      "category": "overview",
+      "size_bytes": 212
+    },
+    {
+      "path": "README.rst",
+      "filename": "README.rst",
+      "category": "overview",
+      "size_bytes": 7863
+    },
+    {
+      "path": "REFERENCES.md",
+      "filename": "REFERENCES.md",
+      "category": "overview",
+      "size_bytes": 4166
+    },
+    {
+      "path": "docs/api.rst",
+      "filename": "api.rst",
+      "category": "other",
+      "size_bytes": 1383
+    },
+    {
+      "path": "docs/benchmarks.rst",
+      "filename": "benchmarks.rst",
+      "category": "other",
+      "size_bytes": 4529
+    },
+    {
+      "path": "docs/changes.rst",
+      "filename": "changes.rst",
+      "category": "other",
+      "size_bytes": 86
+    },
+    {
+      "path": "docs/faq.rst",
+      "filename": "faq.rst",
+      "category": "other",
+      "size_bytes": 19203
+    },
+    {
+      "path": "docs/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 419
+    },
+    {
+      "path": "docs/installation.rst",
+      "filename": "installation.rst",
+      "category": "other",
+      "size_bytes": 4459
+    },
+    {
+      "path": "docs/license.rst",
+      "filename": "license.rst",
+      "category": "other",
+      "size_bytes": 1677
+    },
+    {
+      "path": "docs/links.rst",
+      "filename": "links.rst",
+      "category": "other",
+      "size_bytes": 1796
+    },
+    {
+      "path": "docs/outputs.rst",
+      "filename": "outputs.rst",
+      "category": "other",
+      "size_bytes": 38355
+    },
+    {
+      "path": "docs/pull_request_template.md",
+      "filename": "pull_request_template.md",
+      "category": "other",
+      "size_bytes": 2221
+    },
+    {
+      "path": "docs/spaces.rst",
+      "filename": "spaces.rst",
+      "category": "other",
+      "size_bytes": 7617
+    },
+    {
+      "path": "docs/usage.rst",
+      "filename": "usage.rst",
+      "category": "other",
+      "size_bytes": 8946
+    },
+    {
+      "path": "docs/workflows.rst",
+      "filename": "workflows.rst",
+      "category": "other",
+      "size_bytes": 27156
+    },
+    {
+      "path": "long_description.rst",
+      "filename": "long_description.rst",
+      "category": "overview",
+      "size_bytes": 3727
+    },
+    {
+      "path": "wrapper/README.rst",
+      "filename": "README.rst",
+      "category": "other",
+      "size_bytes": 1114
+    }
+  ]
+}

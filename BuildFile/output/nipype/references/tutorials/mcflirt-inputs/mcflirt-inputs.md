@@ -1,0 +1,37 @@
+# How To: Mcflirt Inputs
+
+**Difficulty**: Beginner
+**Estimated Time**: 5 minutes
+
+## Overview
+
+Instantiate dict: test MCFLIRT inputs
+
+## Prerequisites
+
+**Required Modules:**
+- `preprocess`
+
+
+## Step-by-Step Guide
+
+### Step 1: Assign input_map = dict(...)
+
+```python
+input_map = dict(args=dict(argstr='%s'), bins=dict(argstr='-bins %d'), cost=dict(argstr='-cost %s'), dof=dict(argstr='-dof %d'), environ=dict(nohash=True, usedefault=True), in_file=dict(argstr='-in %s', extensions=None, mandatory=True, position=0), init=dict(argstr='-init %s', extensions=None), interpolation=dict(argstr='-%s_final'), mean_vol=dict(argstr='-meanvol'), out_file=dict(argstr='-out %s', extensions=None, genfile=True, hash_files=False), output_type=dict(), ref_file=dict(argstr='-reffile %s', extensions=None), ref_vol=dict(argstr='-refvol %d'), rotation=dict(argstr='-rotation %d'), save_mats=dict(argstr='-mats'), save_plots=dict(argstr='-plots'), save_rms=dict(argstr='-rmsabs -rmsrel'), scaling=dict(argstr='-scaling %.2f'), smooth=dict(argstr='-smooth %.2f'), stages=dict(argstr='-stages %d'), stats_imgs=dict(argstr='-stats'), use_contour=dict(argstr='-edge'), use_gradient=dict(argstr='-gdt'))
+```
+
+
+## Complete Example
+
+```python
+# Workflow
+input_map = dict(args=dict(argstr='%s'), bins=dict(argstr='-bins %d'), cost=dict(argstr='-cost %s'), dof=dict(argstr='-dof %d'), environ=dict(nohash=True, usedefault=True), in_file=dict(argstr='-in %s', extensions=None, mandatory=True, position=0), init=dict(argstr='-init %s', extensions=None), interpolation=dict(argstr='-%s_final'), mean_vol=dict(argstr='-meanvol'), out_file=dict(argstr='-out %s', extensions=None, genfile=True, hash_files=False), output_type=dict(), ref_file=dict(argstr='-reffile %s', extensions=None), ref_vol=dict(argstr='-refvol %d'), rotation=dict(argstr='-rotation %d'), save_mats=dict(argstr='-mats'), save_plots=dict(argstr='-plots'), save_rms=dict(argstr='-rmsabs -rmsrel'), scaling=dict(argstr='-scaling %.2f'), smooth=dict(argstr='-smooth %.2f'), stages=dict(argstr='-stages %d'), stats_imgs=dict(argstr='-stats'), use_contour=dict(argstr='-edge'), use_gradient=dict(argstr='-gdt'))
+```
+
+## Next Steps
+
+
+---
+
+*Source: test_auto_MCFLIRT.py:6 | Complexity: Beginner | Last updated: 2026-05-18*

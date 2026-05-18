@@ -1,0 +1,169 @@
+{
+  "total_files": 22,
+  "categories": {
+    "templates": [
+      ".github/ISSUE_TEMPLATE/bug_report.md",
+      ".github/ISSUE_TEMPLATE/feature_request.md"
+    ],
+    "other": [
+      ".github/pull_request_template.md",
+      ".maint/INSTRUCTIONS.md",
+      "docs/anat/base.rst",
+      "docs/api.rst",
+      "docs/changes.md",
+      "docs/comparisons.md",
+      "docs/contributors.rst",
+      "docs/help.rst",
+      "docs/index.rst",
+      "docs/installation.rst",
+      "docs/license.rst",
+      "docs/links.rst",
+      "docs/preprocessing.rst",
+      "docs/quickstart.rst",
+      "docs/reconstruction.rst",
+      "docs/usage.rst"
+    ],
+    "overview": [
+      "AGENTS.md",
+      "README.rst",
+      "long_description.rst"
+    ],
+    "contributing": [
+      "CONTRIBUTING.md"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "filename": "bug_report.md",
+      "category": "templates",
+      "size_bytes": 632
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "filename": "feature_request.md",
+      "category": "templates",
+      "size_bytes": 351
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "filename": "pull_request_template.md",
+      "category": "other",
+      "size_bytes": 1927
+    },
+    {
+      "path": ".maint/INSTRUCTIONS.md",
+      "filename": "INSTRUCTIONS.md",
+      "category": "other",
+      "size_bytes": 1652
+    },
+    {
+      "path": "AGENTS.md",
+      "filename": "AGENTS.md",
+      "category": "overview",
+      "size_bytes": 10531
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "filename": "CONTRIBUTING.md",
+      "category": "contributing",
+      "size_bytes": 315
+    },
+    {
+      "path": "README.rst",
+      "filename": "README.rst",
+      "category": "overview",
+      "size_bytes": 2947
+    },
+    {
+      "path": "docs/anat/base.rst",
+      "filename": "base.rst",
+      "category": "other",
+      "size_bytes": 187
+    },
+    {
+      "path": "docs/api.rst",
+      "filename": "api.rst",
+      "category": "other",
+      "size_bytes": 671
+    },
+    {
+      "path": "docs/changes.md",
+      "filename": "changes.md",
+      "category": "other",
+      "size_bytes": 33858
+    },
+    {
+      "path": "docs/comparisons.md",
+      "filename": "comparisons.md",
+      "category": "other",
+      "size_bytes": 5305
+    },
+    {
+      "path": "docs/contributors.rst",
+      "filename": "contributors.rst",
+      "category": "other",
+      "size_bytes": 6589
+    },
+    {
+      "path": "docs/help.rst",
+      "filename": "help.rst",
+      "category": "other",
+      "size_bytes": 595
+    },
+    {
+      "path": "docs/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 469
+    },
+    {
+      "path": "docs/installation.rst",
+      "filename": "installation.rst",
+      "category": "other",
+      "size_bytes": 5900
+    },
+    {
+      "path": "docs/license.rst",
+      "filename": "license.rst",
+      "category": "other",
+      "size_bytes": 362
+    },
+    {
+      "path": "docs/links.rst",
+      "filename": "links.rst",
+      "category": "other",
+      "size_bytes": 1164
+    },
+    {
+      "path": "docs/preprocessing.rst",
+      "filename": "preprocessing.rst",
+      "category": "other",
+      "size_bytes": 40469
+    },
+    {
+      "path": "docs/quickstart.rst",
+      "filename": "quickstart.rst",
+      "category": "other",
+      "size_bytes": 10662
+    },
+    {
+      "path": "docs/reconstruction.rst",
+      "filename": "reconstruction.rst",
+      "category": "other",
+      "size_bytes": 204
+    },
+    {
+      "path": "docs/usage.rst",
+      "filename": "usage.rst",
+      "category": "other",
+      "size_bytes": 7935
+    },
+    {
+      "path": "long_description.rst",
+      "filename": "long_description.rst",
+      "category": "overview",
+      "size_bytes": 602
+    }
+  ]
+}

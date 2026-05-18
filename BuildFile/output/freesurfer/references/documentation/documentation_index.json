@@ -1,0 +1,107 @@
+{
+  "total_files": 14,
+  "categories": {
+    "overview": [
+      "CoordinateSystems.md",
+      "DownloadAndInstall.md",
+      "FAQ.md",
+      "FileFormats.md",
+      "FreeSurferCommandsRegistration.md",
+      "FreeSurferMethodsCitation.md",
+      "FreeSurferSupport.md",
+      "FreeSurferWiki.md",
+      "Glossary.md",
+      "QuickInstall.md",
+      "ReconAllTable.md",
+      "ReconAllTableStableV6.0.md",
+      "Tutorials.md",
+      "index.md"
+    ]
+  },
+  "files": [
+    {
+      "path": "CoordinateSystems.md",
+      "filename": "CoordinateSystems.md",
+      "category": "overview",
+      "size_bytes": 22350
+    },
+    {
+      "path": "DownloadAndInstall.md",
+      "filename": "DownloadAndInstall.md",
+      "category": "overview",
+      "size_bytes": 9476
+    },
+    {
+      "path": "FAQ.md",
+      "filename": "FAQ.md",
+      "category": "overview",
+      "size_bytes": 63804
+    },
+    {
+      "path": "FileFormats.md",
+      "filename": "FileFormats.md",
+      "category": "overview",
+      "size_bytes": 6744
+    },
+    {
+      "path": "FreeSurferCommandsRegistration.md",
+      "filename": "FreeSurferCommandsRegistration.md",
+      "category": "overview",
+      "size_bytes": 9642
+    },
+    {
+      "path": "FreeSurferMethodsCitation.md",
+      "filename": "FreeSurferMethodsCitation.md",
+      "category": "overview",
+      "size_bytes": 15980
+    },
+    {
+      "path": "FreeSurferSupport.md",
+      "filename": "FreeSurferSupport.md",
+      "category": "overview",
+      "size_bytes": 7749
+    },
+    {
+      "path": "FreeSurferWiki.md",
+      "filename": "FreeSurferWiki.md",
+      "category": "overview",
+      "size_bytes": 15743
+    },
+    {
+      "path": "Glossary.md",
+      "filename": "Glossary.md",
+      "category": "overview",
+      "size_bytes": 17835
+    },
+    {
+      "path": "QuickInstall.md",
+      "filename": "QuickInstall.md",
+      "category": "overview",
+      "size_bytes": 3475
+    },
+    {
+      "path": "ReconAllTable.md",
+      "filename": "ReconAllTable.md",
+      "category": "overview",
+      "size_bytes": 5545
+    },
+    {
+      "path": "ReconAllTableStableV6.0.md",
+      "filename": "ReconAllTableStableV6.0.md",
+      "category": "overview",
+      "size_bytes": 90865
+    },
+    {
+      "path": "Tutorials.md",
+      "filename": "Tutorials.md",
+      "category": "overview",
+      "size_bytes": 17432
+    },
+    {
+      "path": "index.md",
+      "filename": "index.md",
+      "category": "overview",
+      "size_bytes": 15725
+    }
+  ]
+}

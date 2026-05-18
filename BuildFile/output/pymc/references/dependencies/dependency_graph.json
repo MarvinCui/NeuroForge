@@ -1,0 +1,1025 @@
+{
+  "nodes": [
+    {
+      "file": "benchmarks/benchmarks/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "benchmarks/benchmarks/benchmarks.py",
+      "language": "Python"
+    },
+    {
+      "file": "docs/source/conf.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/_deprecations.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/_version.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/backends/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/backends/arviz.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/backends/base.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/backends/mcbackend.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/backends/ndarray.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/backends/report.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/backends/zarr.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/blocking.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/data.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/dims/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/dims/distributions/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/dims/distributions/censored.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/dims/distributions/core.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/dims/distributions/scalar.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/dims/distributions/transforms.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/dims/distributions/vector.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/dims/math.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/dims/model.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/censored.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/continuous.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/custom.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/discrete.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/dist_math.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/distribution.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/mixture.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/moments/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/moments/means.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/multivariate.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/shape_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/simulator.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/timeseries.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/transforms.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/distributions/truncated.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/exceptions.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/func_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/gp/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/gp/cov.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/gp/gp.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/gp/hsgp_approx.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/gp/mean.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/gp/util.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/initial_point.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/abstract.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/arithmetic.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/basic.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/binary.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/censoring.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/checks.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/cumsum.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/linalg.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/mixture.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/order.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/rewriting.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/scan.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/switch.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/tensor.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/transform_value.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/transforms.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/logprob/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/math.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/model/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/model/core.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/model/fgraph.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/model/transform/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/model/transform/basic.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/model/transform/conditioning.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/model/transform/optimization.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/model_graph.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/ode/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/ode/ode.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/ode/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/plots/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/printing.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/progress_bar/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/progress_bar/marimo_progress.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/progress_bar/marimo_progress_css.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/progress_bar/progress.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/progress_bar/rich_progress.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/pytensorf.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/sampling/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/sampling/deterministic.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/sampling/forward.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/sampling/jax.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/sampling/mcmc.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/sampling/parallel.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/sampling/population.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/smc/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/smc/kernels.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/smc/parallel.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/smc/sampling.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/stats/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/stats/convergence.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/stats/log_density.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/arraystep.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/compound.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/hmc/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/hmc/base_hmc.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/hmc/hmc.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/hmc/integration.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/hmc/nuts.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/hmc/quadpotential.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/metropolis.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/slicer.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/state.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/step_methods/step_sizes.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/tuning/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/tuning/scaling.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/tuning/starting.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/util.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/variational/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/variational/approximations.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/variational/callbacks.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/variational/inference.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/variational/minibatch_rv.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/variational/operators.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/variational/opvi.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/variational/stein.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/variational/test_functions.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/variational/updates.py",
+      "language": "Python"
+    },
+    {
+      "file": "pymc/vartypes.py",
+      "language": "Python"
+    },
+    {
+      "file": "scripts/check_all_tests_are_covered.py",
+      "language": "Python"
+    },
+    {
+      "file": "scripts/generate_pip_deps_from_conda.py",
+      "language": "Python"
+    },
+    {
+      "file": "scripts/publish_release_notes_to_discourse.py",
+      "language": "Python"
+    },
+    {
+      "file": "scripts/run_mypy.py",
+      "language": "Python"
+    },
+    {
+      "file": "scripts/slowest_tests/extract-slow-tests.py",
+      "language": "Python"
+    },
+    {
+      "file": "scripts/test_publish_release_notes.py",
+      "language": "Python"
+    },
+    {
+      "file": "setup.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/backends/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/backends/fixtures.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/backends/test_arviz.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/backends/test_base.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/backends/test_mcbackend.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/backends/test_ndarray.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/backends/test_zarr.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/conftest.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/dims/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/dims/distributions/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/dims/distributions/test_censored.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/dims/distributions/test_core.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/dims/distributions/test_scalar.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/dims/distributions/test_vector.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/dims/test_model.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/dims/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/moments/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/moments/test_means.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_censored.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_continuous.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_custom.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_discrete.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_dist_math.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_distribution.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_mixture.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_multivariate.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_random_alternative_backends.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_shape_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_simulator.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_timeseries.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_transform.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/distributions/test_truncated.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/gp/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/gp/test_cov.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/gp/test_gp.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/gp/test_hsgp_approx.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/gp/test_mean.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/gp/test_util.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/helpers.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_abstract.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_arithmetic.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_basic.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_binary.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_censoring.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_checks.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_composite_logprob.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_cumsum.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_linalg.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_mixture.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_order.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_rewriting.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_scan.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_switch.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_tensor.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_transform_value.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_transforms.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/logprob/utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/model/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/model/test_core.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/model/test_fgraph.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/model/transform/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/model/transform/test_basic.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/model/transform/test_conditioning.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/model/transform/test_optimization.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/models.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/ode/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/ode/test_ode.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/ode/test_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/progress_bar/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/progress_bar/test_manager.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/progress_bar/test_marimo.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/sampler_fixtures.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/sampling/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/sampling/test_deterministic.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/sampling/test_forward.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/sampling/test_jax.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/sampling/test_mcmc.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/sampling/test_mcmc_external.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/sampling/test_parallel.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/sampling/test_population.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/smc/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/smc/test_smc.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/stats/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/stats/test_convergence.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/stats/test_log_density.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/step_methods/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/step_methods/hmc/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/step_methods/hmc/test_hmc.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/step_methods/hmc/test_nuts.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/step_methods/hmc/test_quadpotential.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/step_methods/test_compound.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/step_methods/test_metropolis.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/step_methods/test_slicer.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/step_methods/test_state.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_data.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_func_utils.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_initial_point.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_math.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_model_graph.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_printing.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_pytensorf.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_root_namespace.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_testing.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/test_util.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/tuning/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/tuning/test_scaling.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/tuning/test_starting.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/variational/__init__.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/variational/test_approximations.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/variational/test_callbacks.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/variational/test_inference.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/variational/test_minibatch_rv.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/variational/test_opvi.py",
+      "language": "Python"
+    },
+    {
+      "file": "tests/variational/test_updates.py",
+      "language": "Python"
+    }
+  ],
+  "edges": []
+}

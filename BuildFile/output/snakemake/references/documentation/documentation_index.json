@@ -1,0 +1,569 @@
+{
+  "total_files": 78,
+  "categories": {
+    "templates": [
+      ".github/ISSUE_TEMPLATE/bug_report.md",
+      ".github/ISSUE_TEMPLATE/feature_request.md"
+    ],
+    "other": [
+      ".github/pull_request_template.md",
+      "docs/executing/caching.rst",
+      "docs/executing/cli.rst",
+      "docs/executing/executors.rst",
+      "docs/executing/grouping.rst",
+      "docs/executing/interoperability.rst",
+      "docs/executing/monitoring.rst",
+      "docs/executing/provenance.rst",
+      "docs/getting_started/installation.rst",
+      "docs/getting_started/migration.rst",
+      "docs/index.rst",
+      "docs/project_info/authors.rst",
+      "docs/project_info/citations.rst",
+      "docs/project_info/codebase.rst",
+      "docs/project_info/contributing.rst",
+      "docs/project_info/faq.rst",
+      "docs/project_info/history.md",
+      "docs/project_info/license.rst",
+      "docs/project_info/more_resources.rst",
+      "docs/snakefiles/best_practices.rst",
+      "docs/snakefiles/configuration.rst",
+      "docs/snakefiles/deployment.rst",
+      "docs/snakefiles/foreign_wms.rst",
+      "docs/snakefiles/modularization.rst",
+      "docs/snakefiles/reporting.rst",
+      "docs/snakefiles/rules.rst",
+      "docs/snakefiles/storage.rst",
+      "docs/snakefiles/testing.rst",
+      "docs/snakefiles/utils.rst",
+      "docs/snakefiles/writing_snakefiles.rst",
+      "misc/nano/README.md",
+      "misc/vim/README.md",
+      "src/snakemake/common/tests/testcases/groups/caption.rst",
+      "src/snakemake/common/tests/testcases/simple/caption.rst",
+      "tests/README.md"
+    ],
+    "changelog": [
+      "CHANGELOG.md"
+    ],
+    "community": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "license": [
+      "LICENSE.md"
+    ],
+    "overview": [
+      "README.md"
+    ],
+    "api": [
+      "apidocs/_templates/module_template.rst",
+      "apidocs/api_reference/internal/modules.rst",
+      "apidocs/api_reference/internal/snakemake.assets.rst",
+      "apidocs/api_reference/internal/snakemake.caching.rst",
+      "apidocs/api_reference/internal/snakemake.common.rst",
+      "apidocs/api_reference/internal/snakemake.common.tests.rst",
+      "apidocs/api_reference/internal/snakemake.common.tests.testcases.groups.rst",
+      "apidocs/api_reference/internal/snakemake.common.tests.testcases.rst",
+      "apidocs/api_reference/internal/snakemake.common.tests.testcases.simple.rst",
+      "apidocs/api_reference/internal/snakemake.deployment.rst",
+      "apidocs/api_reference/internal/snakemake.executors.rst",
+      "apidocs/api_reference/internal/snakemake.ioutils.rst",
+      "apidocs/api_reference/internal/snakemake.linting.rst",
+      "apidocs/api_reference/internal/snakemake.remote.rst",
+      "apidocs/api_reference/internal/snakemake.report.html_reporter.data.rst",
+      "apidocs/api_reference/internal/snakemake.report.html_reporter.rst",
+      "apidocs/api_reference/internal/snakemake.report.html_reporter.template.components.rst",
+      "apidocs/api_reference/internal/snakemake.report.html_reporter.template.rst",
+      "apidocs/api_reference/internal/snakemake.report.rst",
+      "apidocs/api_reference/internal/snakemake.rst",
+      "apidocs/api_reference/internal/snakemake.script.rst",
+      "apidocs/api_reference/internal/snakemake.settings.rst",
+      "apidocs/api_reference/internal/snakemake.template_rendering.rst",
+      "apidocs/api_reference/internal/snakemake.unit_tests.rst",
+      "apidocs/api_reference/internal/snakemake.unit_tests.templates.rst",
+      "apidocs/api_reference/snakemake_api.rst",
+      "apidocs/api_reference/snakemake_utils.rst",
+      "apidocs/index.rst"
+    ],
+    "guides": [
+      "docs/tutorial/additional_features.rst",
+      "docs/tutorial/advanced.rst",
+      "docs/tutorial/basics.rst",
+      "docs/tutorial/interaction_visualization_reporting/tutorial.rst",
+      "docs/tutorial/interaction_visualization_reporting/workdir/workflow/report/cars.rst",
+      "docs/tutorial/interaction_visualization_reporting/workdir/workflow/report/horsepower_vs_mpg.rst",
+      "docs/tutorial/interaction_visualization_reporting/workdir/workflow/report/workflow.rst",
+      "docs/tutorial/setup.rst",
+      "docs/tutorial/tutorial.rst"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "filename": "bug_report.md",
+      "category": "templates",
+      "size_bytes": 797
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "filename": "feature_request.md",
+      "category": "templates",
+      "size_bytes": 604
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "filename": "pull_request_template.md",
+      "category": "other",
+      "size_bytes": 981
+    },
+    {
+      "path": "CHANGELOG.md",
+      "filename": "CHANGELOG.md",
+      "category": "changelog",
+      "size_bytes": 323109
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "filename": "CODE_OF_CONDUCT.md",
+      "category": "community",
+      "size_bytes": 5284
+    },
+    {
+      "path": "LICENSE.md",
+      "filename": "LICENSE.md",
+      "category": "license",
+      "size_bytes": 1067
+    },
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "category": "overview",
+      "size_bytes": 2610
+    },
+    {
+      "path": "apidocs/_templates/module_template.rst",
+      "filename": "module_template.rst",
+      "category": "api",
+      "size_bytes": 1159
+    },
+    {
+      "path": "apidocs/api_reference/internal/modules.rst",
+      "filename": "modules.rst",
+      "category": "api",
+      "size_bytes": 64
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.assets.rst",
+      "filename": "snakemake.assets.rst",
+      "category": "api",
+      "size_bytes": 171
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.caching.rst",
+      "filename": "snakemake.caching.rst",
+      "category": "api",
+      "size_bytes": 674
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.common.rst",
+      "filename": "snakemake.common.rst",
+      "category": "api",
+      "size_bytes": 1271
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.common.tests.rst",
+      "filename": "snakemake.common.tests.rst",
+      "category": "api",
+      "size_bytes": 281
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.common.tests.testcases.groups.rst",
+      "filename": "snakemake.common.tests.testcases.groups.rst",
+      "category": "api",
+      "size_bytes": 240
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.common.tests.testcases.rst",
+      "filename": "snakemake.common.tests.testcases.rst",
+      "category": "api",
+      "size_bytes": 361
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.common.tests.testcases.simple.rst",
+      "filename": "snakemake.common.tests.testcases.simple.rst",
+      "category": "api",
+      "size_bytes": 240
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.deployment.rst",
+      "filename": "snakemake.deployment.rst",
+      "category": "api",
+      "size_bytes": 933
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.executors.rst",
+      "filename": "snakemake.executors.rst",
+      "category": "api",
+      "size_bytes": 698
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.ioutils.rst",
+      "filename": "snakemake.ioutils.rst",
+      "category": "api",
+      "size_bytes": 1370
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.linting.rst",
+      "filename": "snakemake.linting.rst",
+      "category": "api",
+      "size_bytes": 686
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.remote.rst",
+      "filename": "snakemake.remote.rst",
+      "category": "api",
+      "size_bytes": 2665
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.report.html_reporter.data.rst",
+      "filename": "snakemake.report.html_reporter.data.rst",
+      "category": "api",
+      "size_bytes": 2260
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.report.html_reporter.rst",
+      "filename": "snakemake.report.html_reporter.rst",
+      "category": "api",
+      "size_bytes": 578
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.report.html_reporter.template.components.rst",
+      "filename": "snakemake.report.html_reporter.template.components.rst",
+      "category": "api",
+      "size_bytes": 275
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.report.html_reporter.template.rst",
+      "filename": "snakemake.report.html_reporter.template.rst",
+      "category": "api",
+      "size_bytes": 352
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.report.rst",
+      "filename": "snakemake.report.rst",
+      "category": "api",
+      "size_bytes": 626
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.rst",
+      "filename": "snakemake.rst",
+      "category": "api",
+      "size_bytes": 5038
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.script.rst",
+      "filename": "snakemake.script.rst",
+      "category": "api",
+      "size_bytes": 171
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.settings.rst",
+      "filename": "snakemake.settings.rst",
+      "category": "api",
+      "size_bytes": 522
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.template_rendering.rst",
+      "filename": "snakemake.template_rendering.rst",
+      "category": "api",
+      "size_bytes": 615
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.unit_tests.rst",
+      "filename": "snakemake.unit_tests.rst",
+      "category": "api",
+      "size_bytes": 275
+    },
+    {
+      "path": "apidocs/api_reference/internal/snakemake.unit_tests.templates.rst",
+      "filename": "snakemake.unit_tests.templates.rst",
+      "category": "api",
+      "size_bytes": 215
+    },
+    {
+      "path": "apidocs/api_reference/snakemake_api.rst",
+      "filename": "snakemake_api.rst",
+      "category": "api",
+      "size_bytes": 1522
+    },
+    {
+      "path": "apidocs/api_reference/snakemake_utils.rst",
+      "filename": "snakemake_utils.rst",
+      "category": "api",
+      "size_bytes": 111
+    },
+    {
+      "path": "apidocs/index.rst",
+      "filename": "index.rst",
+      "category": "api",
+      "size_bytes": 3119
+    },
+    {
+      "path": "docs/executing/caching.rst",
+      "filename": "caching.rst",
+      "category": "other",
+      "size_bytes": 4167
+    },
+    {
+      "path": "docs/executing/cli.rst",
+      "filename": "cli.rst",
+      "category": "other",
+      "size_bytes": 25551
+    },
+    {
+      "path": "docs/executing/executors.rst",
+      "filename": "executors.rst",
+      "category": "other",
+      "size_bytes": 2467
+    },
+    {
+      "path": "docs/executing/grouping.rst",
+      "filename": "grouping.rst",
+      "category": "other",
+      "size_bytes": 2789
+    },
+    {
+      "path": "docs/executing/interoperability.rst",
+      "filename": "interoperability.rst",
+      "category": "other",
+      "size_bytes": 1696
+    },
+    {
+      "path": "docs/executing/monitoring.rst",
+      "filename": "monitoring.rst",
+      "category": "other",
+      "size_bytes": 1306
+    },
+    {
+      "path": "docs/executing/provenance.rst",
+      "filename": "provenance.rst",
+      "category": "other",
+      "size_bytes": 2365
+    },
+    {
+      "path": "docs/getting_started/installation.rst",
+      "filename": "installation.rst",
+      "category": "other",
+      "size_bytes": 6852
+    },
+    {
+      "path": "docs/getting_started/migration.rst",
+      "filename": "migration.rst",
+      "category": "other",
+      "size_bytes": 27316
+    },
+    {
+      "path": "docs/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 9081
+    },
+    {
+      "path": "docs/project_info/authors.rst",
+      "filename": "authors.rst",
+      "category": "other",
+      "size_bytes": 882
+    },
+    {
+      "path": "docs/project_info/citations.rst",
+      "filename": "citations.rst",
+      "category": "other",
+      "size_bytes": 2512
+    },
+    {
+      "path": "docs/project_info/codebase.rst",
+      "filename": "codebase.rst",
+      "category": "other",
+      "size_bytes": 14485
+    },
+    {
+      "path": "docs/project_info/contributing.rst",
+      "filename": "contributing.rst",
+      "category": "other",
+      "size_bytes": 13829
+    },
+    {
+      "path": "docs/project_info/faq.rst",
+      "filename": "faq.rst",
+      "category": "other",
+      "size_bytes": 33942
+    },
+    {
+      "path": "docs/project_info/history.md",
+      "filename": "history.md",
+      "category": "other",
+      "size_bytes": 76
+    },
+    {
+      "path": "docs/project_info/license.rst",
+      "filename": "license.rst",
+      "category": "other",
+      "size_bytes": 153
+    },
+    {
+      "path": "docs/project_info/more_resources.rst",
+      "filename": "more_resources.rst",
+      "category": "other",
+      "size_bytes": 2775
+    },
+    {
+      "path": "docs/snakefiles/best_practices.rst",
+      "filename": "best_practices.rst",
+      "category": "other",
+      "size_bytes": 5197
+    },
+    {
+      "path": "docs/snakefiles/configuration.rst",
+      "filename": "configuration.rst",
+      "category": "other",
+      "size_bytes": 9877
+    },
+    {
+      "path": "docs/snakefiles/deployment.rst",
+      "filename": "deployment.rst",
+      "category": "other",
+      "size_bytes": 34820
+    },
+    {
+      "path": "docs/snakefiles/foreign_wms.rst",
+      "filename": "foreign_wms.rst",
+      "category": "other",
+      "size_bytes": 1616
+    },
+    {
+      "path": "docs/snakefiles/modularization.rst",
+      "filename": "modularization.rst",
+      "category": "other",
+      "size_bytes": 20114
+    },
+    {
+      "path": "docs/snakefiles/reporting.rst",
+      "filename": "reporting.rst",
+      "category": "other",
+      "size_bytes": 15167
+    },
+    {
+      "path": "docs/snakefiles/rules.rst",
+      "filename": "rules.rst",
+      "category": "other",
+      "size_bytes": 153166
+    },
+    {
+      "path": "docs/snakefiles/storage.rst",
+      "filename": "storage.rst",
+      "category": "other",
+      "size_bytes": 10547
+    },
+    {
+      "path": "docs/snakefiles/testing.rst",
+      "filename": "testing.rst",
+      "category": "other",
+      "size_bytes": 2631
+    },
+    {
+      "path": "docs/snakefiles/utils.rst",
+      "filename": "utils.rst",
+      "category": "other",
+      "size_bytes": 291
+    },
+    {
+      "path": "docs/snakefiles/writing_snakefiles.rst",
+      "filename": "writing_snakefiles.rst",
+      "category": "other",
+      "size_bytes": 3039
+    },
+    {
+      "path": "docs/tutorial/additional_features.rst",
+      "filename": "additional_features.rst",
+      "category": "guides",
+      "size_bytes": 10255
+    },
+    {
+      "path": "docs/tutorial/advanced.rst",
+      "filename": "advanced.rst",
+      "category": "guides",
+      "size_bytes": 16867
+    },
+    {
+      "path": "docs/tutorial/basics.rst",
+      "filename": "basics.rst",
+      "category": "guides",
+      "size_bytes": 25688
+    },
+    {
+      "path": "docs/tutorial/interaction_visualization_reporting/tutorial.rst",
+      "filename": "tutorial.rst",
+      "category": "guides",
+      "size_bytes": 19212
+    },
+    {
+      "path": "docs/tutorial/interaction_visualization_reporting/workdir/workflow/report/cars.rst",
+      "filename": "cars.rst",
+      "category": "guides",
+      "size_bytes": 88
+    },
+    {
+      "path": "docs/tutorial/interaction_visualization_reporting/workdir/workflow/report/horsepower_vs_mpg.rst",
+      "filename": "horsepower_vs_mpg.rst",
+      "category": "guides",
+      "size_bytes": 100
+    },
+    {
+      "path": "docs/tutorial/interaction_visualization_reporting/workdir/workflow/report/workflow.rst",
+      "filename": "workflow.rst",
+      "category": "guides",
+      "size_bytes": 131
+    },
+    {
+      "path": "docs/tutorial/setup.rst",
+      "filename": "setup.rst",
+      "category": "guides",
+      "size_bytes": 4348
+    },
+    {
+      "path": "docs/tutorial/tutorial.rst",
+      "filename": "tutorial.rst",
+      "category": "guides",
+      "size_bytes": 2579
+    },
+    {
+      "path": "misc/nano/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 736
+    },
+    {
+      "path": "misc/vim/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1254
+    },
+    {
+      "path": "src/snakemake/common/tests/testcases/groups/caption.rst",
+      "filename": "caption.rst",
+      "category": "other",
+      "size_bytes": 49
+    },
+    {
+      "path": "src/snakemake/common/tests/testcases/simple/caption.rst",
+      "filename": "caption.rst",
+      "category": "other",
+      "size_bytes": 49
+    },
+    {
+      "path": "tests/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 530
+    }
+  ]
+}

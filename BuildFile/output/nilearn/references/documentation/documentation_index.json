@@ -1,0 +1,1230 @@
+{
+  "total_files": 173,
+  "categories": {
+    "other": [
+      ".github/pull_request_template.md",
+      ".github/workflow_failure.md",
+      "doc/authors.rst",
+      "doc/bibliography.rst",
+      "doc/building_blocks/gpu_usage.rst",
+      "doc/building_blocks/index.rst",
+      "doc/building_blocks/manual_pipeline.rst",
+      "doc/building_blocks/neurovault.rst",
+      "doc/changes/0.1.0.rst",
+      "doc/changes/0.1.1.rst",
+      "doc/changes/0.1.2.rst",
+      "doc/changes/0.1.3.rst",
+      "doc/changes/0.1.4.rst",
+      "doc/changes/0.10.0.rst",
+      "doc/changes/0.10.1.rst",
+      "doc/changes/0.10.2.rst",
+      "doc/changes/0.10.3.rst",
+      "doc/changes/0.10.4.rst",
+      "doc/changes/0.11.0.rst",
+      "doc/changes/0.11.1.rst",
+      "doc/changes/0.12.0.rst",
+      "doc/changes/0.12.1.rst",
+      "doc/changes/0.13.0.rst",
+      "doc/changes/0.13.1.rst",
+      "doc/changes/0.2.0.rst",
+      "doc/changes/0.2.1.rst",
+      "doc/changes/0.2.2.rst",
+      "doc/changes/0.2.3.rst",
+      "doc/changes/0.2.4.rst",
+      "doc/changes/0.2.5.rst",
+      "doc/changes/0.2.6.rst",
+      "doc/changes/0.3.0.rst",
+      "doc/changes/0.3.1.rst",
+      "doc/changes/0.4.0.rst",
+      "doc/changes/0.4.1.rst",
+      "doc/changes/0.4.2.rst",
+      "doc/changes/0.5.0.rst",
+      "doc/changes/0.5.1.rst",
+      "doc/changes/0.5.2.rst",
+      "doc/changes/0.6.0.rst",
+      "doc/changes/0.6.1.rst",
+      "doc/changes/0.6.2.rst",
+      "doc/changes/0.7.0.rst",
+      "doc/changes/0.7.1.rst",
+      "doc/changes/0.8.0.rst",
+      "doc/changes/0.8.1.rst",
+      "doc/changes/0.9.0.rst",
+      "doc/changes/0.9.1.rst",
+      "doc/changes/0.9.2.rst",
+      "doc/changes/latest.rst",
+      "doc/changes/names.rst",
+      "doc/changes/whats_new.rst",
+      "doc/connectivity/connectome_extraction.rst",
+      "doc/connectivity/functional_connectomes.rst",
+      "doc/connectivity/index.rst",
+      "doc/connectivity/parcellating.rst",
+      "doc/connectivity/region_extraction.rst",
+      "doc/connectivity/resting_state_networks.rst",
+      "doc/decoding/decoding_intro.rst",
+      "doc/decoding/estimator_choice.rst",
+      "doc/decoding/frem.rst",
+      "doc/decoding/going_further.rst",
+      "doc/decoding/index.rst",
+      "doc/decoding/searchlight.rst",
+      "doc/decoding/space_net.rst",
+      "doc/developers/group_sparse_covariance.rst",
+      "doc/development.rst",
+      "doc/glm/first_level_model.rst",
+      "doc/glm/glm_intro.rst",
+      "doc/glm/index.rst",
+      "doc/glm/meaning_difference.rst",
+      "doc/glm/second_level_model.rst",
+      "doc/glossary.rst",
+      "doc/includes/big_toc_css.rst",
+      "doc/includes/bigger_toc_css.rst",
+      "doc/index.rst",
+      "doc/introduction.rst",
+      "doc/maintenance.rst",
+      "doc/manipulating_images/index.rst",
+      "doc/manipulating_images/input_output.rst",
+      "doc/manipulating_images/manipulating_images.rst",
+      "doc/manipulating_images/masker_objects.rst",
+      "doc/modules/connectome.rst",
+      "doc/modules/datasets.rst",
+      "doc/modules/decoding.rst",
+      "doc/modules/decomposition.rst",
+      "doc/modules/deterministic_atlases.md",
+      "doc/modules/exceptions.rst",
+      "doc/modules/generated_reports/glm_reports_examples.rst",
+      "doc/modules/generated_reports/masker_reports_examples.rst",
+      "doc/modules/glm.rst",
+      "doc/modules/image.rst",
+      "doc/modules/index.rst",
+      "doc/modules/interfaces.rst",
+      "doc/modules/maskers.rst",
+      "doc/modules/masking.rst",
+      "doc/modules/mass_univariate.rst",
+      "doc/modules/plotting.rst",
+      "doc/modules/probabilistic_atlases.md",
+      "doc/modules/regions.rst",
+      "doc/modules/reporting.rst",
+      "doc/modules/signal.rst",
+      "doc/modules/surface.rst",
+      "doc/modules/utils.rst",
+      "doc/plotting/index.rst",
+      "doc/quickstart.md",
+      "doc/tune_toc.rst",
+      "doc/user_guide.rst",
+      "doc/versions.rst",
+      "nilearn/_assets/README.md",
+      "nilearn/datasets/description/ABIDE_pcp.rst",
+      "nilearn/datasets/description/Megatrawls.rst",
+      "nilearn/datasets/description/aal.rst",
+      "nilearn/datasets/description/adhd.rst",
+      "nilearn/datasets/description/allen_rsn_2011.rst",
+      "nilearn/datasets/description/basc_multiscale_2015.rst",
+      "nilearn/datasets/description/bids_langloc.rst",
+      "nilearn/datasets/description/brainomics_localizer.rst",
+      "nilearn/datasets/description/craddock_2012.rst",
+      "nilearn/datasets/description/destrieux_surface.rst",
+      "nilearn/datasets/description/development_fmri.rst",
+      "nilearn/datasets/description/difumo_atlases.rst",
+      "nilearn/datasets/description/dosenbach_2010.rst",
+      "nilearn/datasets/description/fiac.rst",
+      "nilearn/datasets/description/fsaverage.rst",
+      "nilearn/datasets/description/fsaverage3.rst",
+      "nilearn/datasets/description/fsaverage4.rst",
+      "nilearn/datasets/description/fsaverage5.rst",
+      "nilearn/datasets/description/fsaverage6.rst",
+      "nilearn/datasets/description/fsaverage_content.rst",
+      "nilearn/datasets/description/harvard_oxford.rst",
+      "nilearn/datasets/description/haxby2001.rst",
+      "nilearn/datasets/description/icbm152_2009.rst",
+      "nilearn/datasets/description/juelich.rst",
+      "nilearn/datasets/description/language_localizer_demo.rst",
+      "nilearn/datasets/description/localizer_first_level.rst",
+      "nilearn/datasets/description/mixed_gambles.rst",
+      "nilearn/datasets/description/miyawaki2008.rst",
+      "nilearn/datasets/description/msdl_atlas.rst",
+      "nilearn/datasets/description/neurovault.rst",
+      "nilearn/datasets/description/nki_enhanced_surface.rst",
+      "nilearn/datasets/description/oasis1.rst",
+      "nilearn/datasets/description/pauli_2017.rst",
+      "nilearn/datasets/description/power_2011.rst",
+      "nilearn/datasets/description/schaefer_2018.rst",
+      "nilearn/datasets/description/seitzman_2018.rst",
+      "nilearn/datasets/description/smith_2009.rst",
+      "nilearn/datasets/description/spm_auditory.rst",
+      "nilearn/datasets/description/spm_multimodal.rst",
+      "nilearn/datasets/description/talairach_atlas.rst",
+      "nilearn/datasets/description/yeo_2011.rst",
+      "nilearn/glm/tests/baseline/README.md",
+      "nilearn/maskers/tests/baseline/README.md",
+      "nilearn/plotting/glass_brain_files/README.md",
+      "nilearn/plotting/tests/baseline/README.md",
+      "nilearn/surface/data/README.md"
+    ],
+    "overview": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "README.rst"
+    ],
+    "authors": [
+      "AUTHORS.rst"
+    ],
+    "contributing": [
+      "CONTRIBUTING.rst"
+    ],
+    "templates": [
+      "doc/templates/class.rst",
+      "doc/templates/function.rst"
+    ],
+    "examples": [
+      "examples/00_tutorials/README.rst",
+      "examples/01_plotting/README.rst",
+      "examples/02_decoding/README.rst",
+      "examples/03_connectivity/README.rst",
+      "examples/04_glm_first_level/README.rst",
+      "examples/05_glm_second_level/README.rst",
+      "examples/06_manipulating_images/README.rst",
+      "examples/07_advanced/README.rst",
+      "examples/html_repr_note.rst",
+      "examples/report_note.rst"
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/pull_request_template.md",
+      "filename": "pull_request_template.md",
+      "category": "other",
+      "size_bytes": 1641
+    },
+    {
+      "path": ".github/workflow_failure.md",
+      "filename": "workflow_failure.md",
+      "category": "other",
+      "size_bytes": 267
+    },
+    {
+      "path": "AGENTS.md",
+      "filename": "AGENTS.md",
+      "category": "overview",
+      "size_bytes": 6490
+    },
+    {
+      "path": "AUTHORS.rst",
+      "filename": "AUTHORS.rst",
+      "category": "authors",
+      "size_bytes": 13618
+    },
+    {
+      "path": "CLAUDE.md",
+      "filename": "CLAUDE.md",
+      "category": "overview",
+      "size_bytes": 11
+    },
+    {
+      "path": "CONTRIBUTING.rst",
+      "filename": "CONTRIBUTING.rst",
+      "category": "contributing",
+      "size_bytes": 43384
+    },
+    {
+      "path": "README.rst",
+      "filename": "README.rst",
+      "category": "overview",
+      "size_bytes": 4966
+    },
+    {
+      "path": "doc/authors.rst",
+      "filename": "authors.rst",
+      "category": "other",
+      "size_bytes": 28
+    },
+    {
+      "path": "doc/bibliography.rst",
+      "filename": "bibliography.rst",
+      "category": "other",
+      "size_bytes": 279
+    },
+    {
+      "path": "doc/building_blocks/gpu_usage.rst",
+      "filename": "gpu_usage.rst",
+      "category": "other",
+      "size_bytes": 4258
+    },
+    {
+      "path": "doc/building_blocks/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 555
+    },
+    {
+      "path": "doc/building_blocks/manual_pipeline.rst",
+      "filename": "manual_pipeline.rst",
+      "category": "other",
+      "size_bytes": 8398
+    },
+    {
+      "path": "doc/building_blocks/neurovault.rst",
+      "filename": "neurovault.rst",
+      "category": "other",
+      "size_bytes": 8296
+    },
+    {
+      "path": "doc/changes/0.1.0.rst",
+      "filename": "0.1.0.rst",
+      "category": "other",
+      "size_bytes": 867
+    },
+    {
+      "path": "doc/changes/0.1.1.rst",
+      "filename": "0.1.1.rst",
+      "category": "other",
+      "size_bytes": 488
+    },
+    {
+      "path": "doc/changes/0.1.2.rst",
+      "filename": "0.1.2.rst",
+      "category": "other",
+      "size_bytes": 233
+    },
+    {
+      "path": "doc/changes/0.1.3.rst",
+      "filename": "0.1.3.rst",
+      "category": "other",
+      "size_bytes": 1415
+    },
+    {
+      "path": "doc/changes/0.1.4.rst",
+      "filename": "0.1.4.rst",
+      "category": "other",
+      "size_bytes": 645
+    },
+    {
+      "path": "doc/changes/0.10.0.rst",
+      "filename": "0.10.0.rst",
+      "category": "other",
+      "size_bytes": 6216
+    },
+    {
+      "path": "doc/changes/0.10.1.rst",
+      "filename": "0.10.1.rst",
+      "category": "other",
+      "size_bytes": 6852
+    },
+    {
+      "path": "doc/changes/0.10.2.rst",
+      "filename": "0.10.2.rst",
+      "category": "other",
+      "size_bytes": 9510
+    },
+    {
+      "path": "doc/changes/0.10.3.rst",
+      "filename": "0.10.3.rst",
+      "category": "other",
+      "size_bytes": 9113
+    },
+    {
+      "path": "doc/changes/0.10.4.rst",
+      "filename": "0.10.4.rst",
+      "category": "other",
+      "size_bytes": 5005
+    },
+    {
+      "path": "doc/changes/0.11.0.rst",
+      "filename": "0.11.0.rst",
+      "category": "other",
+      "size_bytes": 13418
+    },
+    {
+      "path": "doc/changes/0.11.1.rst",
+      "filename": "0.11.1.rst",
+      "category": "other",
+      "size_bytes": 2706
+    },
+    {
+      "path": "doc/changes/0.12.0.rst",
+      "filename": "0.12.0.rst",
+      "category": "other",
+      "size_bytes": 11549
+    },
+    {
+      "path": "doc/changes/0.12.1.rst",
+      "filename": "0.12.1.rst",
+      "category": "other",
+      "size_bytes": 5291
+    },
+    {
+      "path": "doc/changes/0.13.0.rst",
+      "filename": "0.13.0.rst",
+      "category": "other",
+      "size_bytes": 16266
+    },
+    {
+      "path": "doc/changes/0.13.1.rst",
+      "filename": "0.13.1.rst",
+      "category": "other",
+      "size_bytes": 1532
+    },
+    {
+      "path": "doc/changes/0.2.0.rst",
+      "filename": "0.2.0.rst",
+      "category": "other",
+      "size_bytes": 3302
+    },
+    {
+      "path": "doc/changes/0.2.1.rst",
+      "filename": "0.2.1.rst",
+      "category": "other",
+      "size_bytes": 185
+    },
+    {
+      "path": "doc/changes/0.2.2.rst",
+      "filename": "0.2.2.rst",
+      "category": "other",
+      "size_bytes": 2371
+    },
+    {
+      "path": "doc/changes/0.2.3.rst",
+      "filename": "0.2.3.rst",
+      "category": "other",
+      "size_bytes": 818
+    },
+    {
+      "path": "doc/changes/0.2.4.rst",
+      "filename": "0.2.4.rst",
+      "category": "other",
+      "size_bytes": 1190
+    },
+    {
+      "path": "doc/changes/0.2.5.rst",
+      "filename": "0.2.5.rst",
+      "category": "other",
+      "size_bytes": 2952
+    },
+    {
+      "path": "doc/changes/0.2.6.rst",
+      "filename": "0.2.6.rst",
+      "category": "other",
+      "size_bytes": 1677
+    },
+    {
+      "path": "doc/changes/0.3.0.rst",
+      "filename": "0.3.0.rst",
+      "category": "other",
+      "size_bytes": 5295
+    },
+    {
+      "path": "doc/changes/0.3.1.rst",
+      "filename": "0.3.1.rst",
+      "category": "other",
+      "size_bytes": 2402
+    },
+    {
+      "path": "doc/changes/0.4.0.rst",
+      "filename": "0.4.0.rst",
+      "category": "other",
+      "size_bytes": 3866
+    },
+    {
+      "path": "doc/changes/0.4.1.rst",
+      "filename": "0.4.1.rst",
+      "category": "other",
+      "size_bytes": 2036
+    },
+    {
+      "path": "doc/changes/0.4.2.rst",
+      "filename": "0.4.2.rst",
+      "category": "other",
+      "size_bytes": 1134
+    },
+    {
+      "path": "doc/changes/0.5.0.rst",
+      "filename": "0.5.0.rst",
+      "category": "other",
+      "size_bytes": 12092
+    },
+    {
+      "path": "doc/changes/0.5.1.rst",
+      "filename": "0.5.1.rst",
+      "category": "other",
+      "size_bytes": 3642
+    },
+    {
+      "path": "doc/changes/0.5.2.rst",
+      "filename": "0.5.2.rst",
+      "category": "other",
+      "size_bytes": 551
+    },
+    {
+      "path": "doc/changes/0.6.0.rst",
+      "filename": "0.6.0.rst",
+      "category": "other",
+      "size_bytes": 16888
+    },
+    {
+      "path": "doc/changes/0.6.1.rst",
+      "filename": "0.6.1.rst",
+      "category": "other",
+      "size_bytes": 527
+    },
+    {
+      "path": "doc/changes/0.6.2.rst",
+      "filename": "0.6.2.rst",
+      "category": "other",
+      "size_bytes": 1096
+    },
+    {
+      "path": "doc/changes/0.7.0.rst",
+      "filename": "0.7.0.rst",
+      "category": "other",
+      "size_bytes": 6517
+    },
+    {
+      "path": "doc/changes/0.7.1.rst",
+      "filename": "0.7.1.rst",
+      "category": "other",
+      "size_bytes": 5531
+    },
+    {
+      "path": "doc/changes/0.8.0.rst",
+      "filename": "0.8.0.rst",
+      "category": "other",
+      "size_bytes": 8336
+    },
+    {
+      "path": "doc/changes/0.8.1.rst",
+      "filename": "0.8.1.rst",
+      "category": "other",
+      "size_bytes": 5658
+    },
+    {
+      "path": "doc/changes/0.9.0.rst",
+      "filename": "0.9.0.rst",
+      "category": "other",
+      "size_bytes": 14422
+    },
+    {
+      "path": "doc/changes/0.9.1.rst",
+      "filename": "0.9.1.rst",
+      "category": "other",
+      "size_bytes": 2753
+    },
+    {
+      "path": "doc/changes/0.9.2.rst",
+      "filename": "0.9.2.rst",
+      "category": "other",
+      "size_bytes": 8887
+    },
+    {
+      "path": "doc/changes/latest.rst",
+      "filename": "latest.rst",
+      "category": "other",
+      "size_bytes": 6830
+    },
+    {
+      "path": "doc/changes/names.rst",
+      "filename": "names.rst",
+      "category": "other",
+      "size_bytes": 9310
+    },
+    {
+      "path": "doc/changes/whats_new.rst",
+      "filename": "whats_new.rst",
+      "category": "other",
+      "size_bytes": 1544
+    },
+    {
+      "path": "doc/connectivity/connectome_extraction.rst",
+      "filename": "connectome_extraction.rst",
+      "category": "other",
+      "size_bytes": 10738
+    },
+    {
+      "path": "doc/connectivity/functional_connectomes.rst",
+      "filename": "functional_connectomes.rst",
+      "category": "other",
+      "size_bytes": 10164
+    },
+    {
+      "path": "doc/connectivity/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 585
+    },
+    {
+      "path": "doc/connectivity/parcellating.rst",
+      "filename": "parcellating.rst",
+      "category": "other",
+      "size_bytes": 5871
+    },
+    {
+      "path": "doc/connectivity/region_extraction.rst",
+      "filename": "region_extraction.rst",
+      "category": "other",
+      "size_bytes": 8930
+    },
+    {
+      "path": "doc/connectivity/resting_state_networks.rst",
+      "filename": "resting_state_networks.rst",
+      "category": "other",
+      "size_bytes": 6577
+    },
+    {
+      "path": "doc/decoding/decoding_intro.rst",
+      "filename": "decoding_intro.rst",
+      "category": "other",
+      "size_bytes": 15778
+    },
+    {
+      "path": "doc/decoding/estimator_choice.rst",
+      "filename": "estimator_choice.rst",
+      "category": "other",
+      "size_bytes": 12044
+    },
+    {
+      "path": "doc/decoding/frem.rst",
+      "filename": "frem.rst",
+      "category": "other",
+      "size_bytes": 3173
+    },
+    {
+      "path": "doc/decoding/going_further.rst",
+      "filename": "going_further.rst",
+      "category": "other",
+      "size_bytes": 7101
+    },
+    {
+      "path": "doc/decoding/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 649
+    },
+    {
+      "path": "doc/decoding/searchlight.rst",
+      "filename": "searchlight.rst",
+      "category": "other",
+      "size_bytes": 11615
+    },
+    {
+      "path": "doc/decoding/space_net.rst",
+      "filename": "space_net.rst",
+      "category": "other",
+      "size_bytes": 2821
+    },
+    {
+      "path": "doc/developers/group_sparse_covariance.rst",
+      "filename": "group_sparse_covariance.rst",
+      "category": "other",
+      "size_bytes": 21268
+    },
+    {
+      "path": "doc/development.rst",
+      "filename": "development.rst",
+      "category": "other",
+      "size_bytes": 99
+    },
+    {
+      "path": "doc/glm/first_level_model.rst",
+      "filename": "first_level_model.rst",
+      "category": "other",
+      "size_bytes": 9086
+    },
+    {
+      "path": "doc/glm/glm_intro.rst",
+      "filename": "glm_intro.rst",
+      "category": "other",
+      "size_bytes": 14154
+    },
+    {
+      "path": "doc/glm/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 532
+    },
+    {
+      "path": "doc/glm/meaning_difference.rst",
+      "filename": "meaning_difference.rst",
+      "category": "other",
+      "size_bytes": 5288
+    },
+    {
+      "path": "doc/glm/second_level_model.rst",
+      "filename": "second_level_model.rst",
+      "category": "other",
+      "size_bytes": 4146
+    },
+    {
+      "path": "doc/glossary.rst",
+      "filename": "glossary.rst",
+      "category": "other",
+      "size_bytes": 19262
+    },
+    {
+      "path": "doc/includes/big_toc_css.rst",
+      "filename": "big_toc_css.rst",
+      "category": "other",
+      "size_bytes": 712
+    },
+    {
+      "path": "doc/includes/bigger_toc_css.rst",
+      "filename": "bigger_toc_css.rst",
+      "category": "other",
+      "size_bytes": 1027
+    },
+    {
+      "path": "doc/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 8080
+    },
+    {
+      "path": "doc/introduction.rst",
+      "filename": "introduction.rst",
+      "category": "other",
+      "size_bytes": 11801
+    },
+    {
+      "path": "doc/maintenance.rst",
+      "filename": "maintenance.rst",
+      "category": "other",
+      "size_bytes": 20297
+    },
+    {
+      "path": "doc/manipulating_images/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 324
+    },
+    {
+      "path": "doc/manipulating_images/input_output.rst",
+      "filename": "input_output.rst",
+      "category": "other",
+      "size_bytes": 9622
+    },
+    {
+      "path": "doc/manipulating_images/manipulating_images.rst",
+      "filename": "manipulating_images.rst",
+      "category": "other",
+      "size_bytes": 10304
+    },
+    {
+      "path": "doc/manipulating_images/masker_objects.rst",
+      "filename": "masker_objects.rst",
+      "category": "other",
+      "size_bytes": 23095
+    },
+    {
+      "path": "doc/modules/connectome.rst",
+      "filename": "connectome.rst",
+      "category": "other",
+      "size_bytes": 681
+    },
+    {
+      "path": "doc/modules/datasets.rst",
+      "filename": "datasets.rst",
+      "category": "other",
+      "size_bytes": 4783
+    },
+    {
+      "path": "doc/modules/decoding.rst",
+      "filename": "decoding.rst",
+      "category": "other",
+      "size_bytes": 455
+    },
+    {
+      "path": "doc/modules/decomposition.rst",
+      "filename": "decomposition.rst",
+      "category": "other",
+      "size_bytes": 425
+    },
+    {
+      "path": "doc/modules/deterministic_atlases.md",
+      "filename": "deterministic_atlases.md",
+      "category": "other",
+      "size_bytes": 4179
+    },
+    {
+      "path": "doc/modules/exceptions.rst",
+      "filename": "exceptions.rst",
+      "category": "other",
+      "size_bytes": 610
+    },
+    {
+      "path": "doc/modules/generated_reports/glm_reports_examples.rst",
+      "filename": "glm_reports_examples.rst",
+      "category": "other",
+      "size_bytes": 1372
+    },
+    {
+      "path": "doc/modules/generated_reports/masker_reports_examples.rst",
+      "filename": "masker_reports_examples.rst",
+      "category": "other",
+      "size_bytes": 1935
+    },
+    {
+      "path": "doc/modules/glm.rst",
+      "filename": "glm.rst",
+      "category": "other",
+      "size_bytes": 2148
+    },
+    {
+      "path": "doc/modules/image.rst",
+      "filename": "image.rst",
+      "category": "other",
+      "size_bytes": 736
+    },
+    {
+      "path": "doc/modules/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 510
+    },
+    {
+      "path": "doc/modules/interfaces.rst",
+      "filename": "interfaces.rst",
+      "category": "other",
+      "size_bytes": 1190
+    },
+    {
+      "path": "doc/modules/maskers.rst",
+      "filename": "maskers.rst",
+      "category": "other",
+      "size_bytes": 817
+    },
+    {
+      "path": "doc/modules/masking.rst",
+      "filename": "masking.rst",
+      "category": "other",
+      "size_bytes": 582
+    },
+    {
+      "path": "doc/modules/mass_univariate.rst",
+      "filename": "mass_univariate.rst",
+      "category": "other",
+      "size_bytes": 389
+    },
+    {
+      "path": "doc/modules/plotting.rst",
+      "filename": "plotting.rst",
+      "category": "other",
+      "size_bytes": 2453
+    },
+    {
+      "path": "doc/modules/probabilistic_atlases.md",
+      "filename": "probabilistic_atlases.md",
+      "category": "other",
+      "size_bytes": 2892
+    },
+    {
+      "path": "doc/modules/regions.rst",
+      "filename": "regions.rst",
+      "category": "other",
+      "size_bytes": 706
+    },
+    {
+      "path": "doc/modules/reporting.rst",
+      "filename": "reporting.rst",
+      "category": "other",
+      "size_bytes": 557
+    },
+    {
+      "path": "doc/modules/signal.rst",
+      "filename": "signal.rst",
+      "category": "other",
+      "size_bytes": 407
+    },
+    {
+      "path": "doc/modules/surface.rst",
+      "filename": "surface.rst",
+      "category": "other",
+      "size_bytes": 649
+    },
+    {
+      "path": "doc/modules/utils.rst",
+      "filename": "utils.rst",
+      "category": "other",
+      "size_bytes": 377
+    },
+    {
+      "path": "doc/plotting/index.rst",
+      "filename": "index.rst",
+      "category": "other",
+      "size_bytes": 24620
+    },
+    {
+      "path": "doc/quickstart.md",
+      "filename": "quickstart.md",
+      "category": "other",
+      "size_bytes": 74
+    },
+    {
+      "path": "doc/templates/class.rst",
+      "filename": "class.rst",
+      "category": "templates",
+      "size_bytes": 471
+    },
+    {
+      "path": "doc/templates/function.rst",
+      "filename": "function.rst",
+      "category": "templates",
+      "size_bytes": 392
+    },
+    {
+      "path": "doc/tune_toc.rst",
+      "filename": "tune_toc.rst",
+      "category": "other",
+      "size_bytes": 3536
+    },
+    {
+      "path": "doc/user_guide.rst",
+      "filename": "user_guide.rst",
+      "category": "other",
+      "size_bytes": 728
+    },
+    {
+      "path": "doc/versions.rst",
+      "filename": "versions.rst",
+      "category": "other",
+      "size_bytes": 1309
+    },
+    {
+      "path": "examples/00_tutorials/README.rst",
+      "filename": "README.rst",
+      "category": "examples",
+      "size_bytes": 126
+    },
+    {
+      "path": "examples/01_plotting/README.rst",
+      "filename": "README.rst",
+      "category": "examples",
+      "size_bytes": 129
+    },
+    {
+      "path": "examples/02_decoding/README.rst",
+      "filename": "README.rst",
+      "category": "examples",
+      "size_bytes": 165
+    },
+    {
+      "path": "examples/03_connectivity/README.rst",
+      "filename": "README.rst",
+      "category": "examples",
+      "size_bytes": 177
+    },
+    {
+      "path": "examples/04_glm_first_level/README.rst",
+      "filename": "README.rst",
+      "category": "examples",
+      "size_bytes": 216
+    },
+    {
+      "path": "examples/05_glm_second_level/README.rst",
+      "filename": "README.rst",
+      "category": "examples",
+      "size_bytes": 219
+    },
+    {
+      "path": "examples/06_manipulating_images/README.rst",
+      "filename": "README.rst",
+      "category": "examples",
+      "size_bytes": 147
+    },
+    {
+      "path": "examples/07_advanced/README.rst",
+      "filename": "README.rst",
+      "category": "examples",
+      "size_bytes": 138
+    },
+    {
+      "path": "examples/html_repr_note.rst",
+      "filename": "html_repr_note.rst",
+      "category": "examples",
+      "size_bytes": 397
+    },
+    {
+      "path": "examples/report_note.rst",
+      "filename": "report_note.rst",
+      "category": "examples",
+      "size_bytes": 221
+    },
+    {
+      "path": "nilearn/_assets/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 1581
+    },
+    {
+      "path": "nilearn/datasets/description/ABIDE_pcp.rst",
+      "filename": "ABIDE_pcp.rst",
+      "category": "other",
+      "size_bytes": 1195
+    },
+    {
+      "path": "nilearn/datasets/description/Megatrawls.rst",
+      "filename": "Megatrawls.rst",
+      "category": "other",
+      "size_bytes": 3280
+    },
+    {
+      "path": "nilearn/datasets/description/aal.rst",
+      "filename": "aal.rst",
+      "category": "other",
+      "size_bytes": 2348
+    },
+    {
+      "path": "nilearn/datasets/description/adhd.rst",
+      "filename": "adhd.rst",
+      "category": "other",
+      "size_bytes": 1047
+    },
+    {
+      "path": "nilearn/datasets/description/allen_rsn_2011.rst",
+      "filename": "allen_rsn_2011.rst",
+      "category": "other",
+      "size_bytes": 894
+    },
+    {
+      "path": "nilearn/datasets/description/basc_multiscale_2015.rst",
+      "filename": "basc_multiscale_2015.rst",
+      "category": "other",
+      "size_bytes": 5485
+    },
+    {
+      "path": "nilearn/datasets/description/bids_langloc.rst",
+      "filename": "bids_langloc.rst",
+      "category": "other",
+      "size_bytes": 335
+    },
+    {
+      "path": "nilearn/datasets/description/brainomics_localizer.rst",
+      "filename": "brainomics_localizer.rst",
+      "category": "other",
+      "size_bytes": 1053
+    },
+    {
+      "path": "nilearn/datasets/description/craddock_2012.rst",
+      "filename": "craddock_2012.rst",
+      "category": "other",
+      "size_bytes": 1459
+    },
+    {
+      "path": "nilearn/datasets/description/destrieux_surface.rst",
+      "filename": "destrieux_surface.rst",
+      "category": "other",
+      "size_bytes": 694
+    },
+    {
+      "path": "nilearn/datasets/description/development_fmri.rst",
+      "filename": "development_fmri.rst",
+      "category": "other",
+      "size_bytes": 1277
+    },
+    {
+      "path": "nilearn/datasets/description/difumo_atlases.rst",
+      "filename": "difumo_atlases.rst",
+      "category": "other",
+      "size_bytes": 1664
+    },
+    {
+      "path": "nilearn/datasets/description/dosenbach_2010.rst",
+      "filename": "dosenbach_2010.rst",
+      "category": "other",
+      "size_bytes": 625
+    },
+    {
+      "path": "nilearn/datasets/description/fiac.rst",
+      "filename": "fiac.rst",
+      "category": "other",
+      "size_bytes": 1243
+    },
+    {
+      "path": "nilearn/datasets/description/fsaverage.rst",
+      "filename": "fsaverage.rst",
+      "category": "other",
+      "size_bytes": 335
+    },
+    {
+      "path": "nilearn/datasets/description/fsaverage3.rst",
+      "filename": "fsaverage3.rst",
+      "category": "other",
+      "size_bytes": 341
+    },
+    {
+      "path": "nilearn/datasets/description/fsaverage4.rst",
+      "filename": "fsaverage4.rst",
+      "category": "other",
+      "size_bytes": 340
+    },
+    {
+      "path": "nilearn/datasets/description/fsaverage5.rst",
+      "filename": "fsaverage5.rst",
+      "category": "other",
+      "size_bytes": 340
+    },
+    {
+      "path": "nilearn/datasets/description/fsaverage6.rst",
+      "filename": "fsaverage6.rst",
+      "category": "other",
+      "size_bytes": 340
+    },
+    {
+      "path": "nilearn/datasets/description/fsaverage_content.rst",
+      "filename": "fsaverage_content.rst",
+      "category": "other",
+      "size_bytes": 1397
+    },
+    {
+      "path": "nilearn/datasets/description/harvard_oxford.rst",
+      "filename": "harvard_oxford.rst",
+      "category": "other",
+      "size_bytes": 1212
+    },
+    {
+      "path": "nilearn/datasets/description/haxby2001.rst",
+      "filename": "haxby2001.rst",
+      "category": "other",
+      "size_bytes": 1388
+    },
+    {
+      "path": "nilearn/datasets/description/icbm152_2009.rst",
+      "filename": "icbm152_2009.rst",
+      "category": "other",
+      "size_bytes": 2407
+    },
+    {
+      "path": "nilearn/datasets/description/juelich.rst",
+      "filename": "juelich.rst",
+      "category": "other",
+      "size_bytes": 1235
+    },
+    {
+      "path": "nilearn/datasets/description/language_localizer_demo.rst",
+      "filename": "language_localizer_demo.rst",
+      "category": "other",
+      "size_bytes": 936
+    },
+    {
+      "path": "nilearn/datasets/description/localizer_first_level.rst",
+      "filename": "localizer_first_level.rst",
+      "category": "other",
+      "size_bytes": 836
+    },
+    {
+      "path": "nilearn/datasets/description/mixed_gambles.rst",
+      "filename": "mixed_gambles.rst",
+      "category": "other",
+      "size_bytes": 410
+    },
+    {
+      "path": "nilearn/datasets/description/miyawaki2008.rst",
+      "filename": "miyawaki2008.rst",
+      "category": "other",
+      "size_bytes": 1138
+    },
+    {
+      "path": "nilearn/datasets/description/msdl_atlas.rst",
+      "filename": "msdl_atlas.rst",
+      "category": "other",
+      "size_bytes": 926
+    },
+    {
+      "path": "nilearn/datasets/description/neurovault.rst",
+      "filename": "neurovault.rst",
+      "category": "other",
+      "size_bytes": 1144
+    },
+    {
+      "path": "nilearn/datasets/description/nki_enhanced_surface.rst",
+      "filename": "nki_enhanced_surface.rst",
+      "category": "other",
+      "size_bytes": 885
+    },
+    {
+      "path": "nilearn/datasets/description/oasis1.rst",
+      "filename": "oasis1.rst",
+      "category": "other",
+      "size_bytes": 2773
+    },
+    {
+      "path": "nilearn/datasets/description/pauli_2017.rst",
+      "filename": "pauli_2017.rst",
+      "category": "other",
+      "size_bytes": 792
+    },
+    {
+      "path": "nilearn/datasets/description/power_2011.rst",
+      "filename": "power_2011.rst",
+      "category": "other",
+      "size_bytes": 343
+    },
+    {
+      "path": "nilearn/datasets/description/schaefer_2018.rst",
+      "filename": "schaefer_2018.rst",
+      "category": "other",
+      "size_bytes": 864
+    },
+    {
+      "path": "nilearn/datasets/description/seitzman_2018.rst",
+      "filename": "seitzman_2018.rst",
+      "category": "other",
+      "size_bytes": 1294
+    },
+    {
+      "path": "nilearn/datasets/description/smith_2009.rst",
+      "filename": "smith_2009.rst",
+      "category": "other",
+      "size_bytes": 1236
+    },
+    {
+      "path": "nilearn/datasets/description/spm_auditory.rst",
+      "filename": "spm_auditory.rst",
+      "category": "other",
+      "size_bytes": 1635
+    },
+    {
+      "path": "nilearn/datasets/description/spm_multimodal.rst",
+      "filename": "spm_multimodal.rst",
+      "category": "other",
+      "size_bytes": 1206
+    },
+    {
+      "path": "nilearn/datasets/description/talairach_atlas.rst",
+      "filename": "talairach_atlas.rst",
+      "category": "other",
+      "size_bytes": 486
+    },
+    {
+      "path": "nilearn/datasets/description/yeo_2011.rst",
+      "filename": "yeo_2011.rst",
+      "category": "other",
+      "size_bytes": 1130
+    },
+    {
+      "path": "nilearn/glm/tests/baseline/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 203
+    },
+    {
+      "path": "nilearn/maskers/tests/baseline/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 203
+    },
+    {
+      "path": "nilearn/plotting/glass_brain_files/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 65
+    },
+    {
+      "path": "nilearn/plotting/tests/baseline/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 203
+    },
+    {
+      "path": "nilearn/surface/data/README.md",
+      "filename": "README.md",
+      "category": "other",
+      "size_bytes": 828
+    }
+  ]
+}

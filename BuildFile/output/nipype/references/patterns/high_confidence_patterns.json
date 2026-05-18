@@ -1,0 +1,254 @@
+[
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmN3InputSpec",
+    "method_name": null,
+    "line_number": 322,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmN3InputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmN3OutputSpec",
+    "method_name": null,
+    "line_number": 379,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmN3OutputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmN3",
+    "method_name": null,
+    "line_number": 384,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmN3"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmLesionToadsInputSpec",
+    "method_name": null,
+    "line_number": 434,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmLesionToadsInputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmLesionToadsOutputSpec",
+    "method_name": null,
+    "line_number": 585,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmLesionToadsOutputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmLesionToads",
+    "method_name": null,
+    "line_number": 597,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmLesionToads"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmImageCalculatorInputSpec",
+    "method_name": null,
+    "line_number": 821,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmImageCalculatorInputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmImageCalculatorOutputSpec",
+    "method_name": null,
+    "line_number": 854,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmImageCalculatorOutputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmImageCalculator",
+    "method_name": null,
+    "line_number": 858,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmImageCalculator"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmMipavReorientInputSpec",
+    "method_name": null,
+    "line_number": 968,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmMipavReorientInputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmMipavReorientOutputSpec",
+    "method_name": null,
+    "line_number": 1056,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmMipavReorientOutputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmMipavReorient",
+    "method_name": null,
+    "line_number": 1060,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmMipavReorient"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmSPECTRE2010InputSpec",
+    "method_name": null,
+    "line_number": 1070,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmSPECTRE2010InputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmSPECTRE2010OutputSpec",
+    "method_name": null,
+    "line_number": 1291,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmSPECTRE2010OutputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmSPECTRE2010",
+    "method_name": null,
+    "line_number": 1319,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmSPECTRE2010"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmThresholdToBinaryMaskInputSpec",
+    "method_name": null,
+    "line_number": 1490,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmThresholdToBinaryMaskInputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmThresholdToBinaryMaskOutputSpec",
+    "method_name": null,
+    "line_number": 1516,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmThresholdToBinaryMaskOutputSpec"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  },
+  {
+    "pattern_type": "Strategy",
+    "category": "Behavioral",
+    "confidence": 0.7,
+    "location": "nipype/nipype/interfaces/mipav/developer.py",
+    "class_name": "MedicAlgorithmThresholdToBinaryMask",
+    "method_name": null,
+    "line_number": 1520,
+    "evidence": [
+      "Class name suggests Strategy: MedicAlgorithmThresholdToBinaryMask"
+    ],
+    "related_classes": [],
+    "file_path": "nipype/nipype/interfaces/mipav/developer.py"
+  }
+]

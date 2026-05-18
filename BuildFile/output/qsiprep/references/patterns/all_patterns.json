@@ -1,0 +1,333 @@
+[
+  {
+    "file_path": "qsiprep/qsiprep/cli/parser.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "qsiprep/qsiprep/cli/parser.py",
+        "class_name": "DeprecatedAction",
+        "method_name": null,
+        "line_number": 53,
+        "evidence": [
+          "Class name suggests Command: DeprecatedAction"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 13,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "qsiprep/qsiprep/config.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "qsiprep/qsiprep/config.py",
+        "class_name": "_Config",
+        "method_name": "load",
+        "line_number": 223,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "qsiprep/qsiprep/config.py",
+        "class_name": "nipype",
+        "method_name": "get_plugin",
+        "line_number": 343,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "qsiprep/qsiprep/config.py",
+        "class_name": "execution",
+        "method_name": "init",
+        "line_number": 465,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "qsiprep/qsiprep/config.py",
+        "class_name": "loggers",
+        "method_name": "init",
+        "line_number": 639,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "qsiprep/qsiprep/config.py",
+        "class_name": "seeds",
+        "method_name": "init",
+        "line_number": 676,
+        "evidence": [
+          "Method uses decorators: ['classmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 7,
+    "total_functions": 11,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 5
+    }
+  },
+  {
+    "file_path": "qsiprep/qsiprep/interfaces/ants.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "qsiprep/qsiprep/interfaces/ants.py",
+        "class_name": "MultivariateTemplateConstruction2",
+        "method_name": "_num_threads_update",
+        "line_number": 188,
+        "evidence": [
+          "Observer method detected: _num_threads_update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 12,
+    "total_functions": 1,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1
+    }
+  },
+  {
+    "file_path": "qsiprep/qsiprep/interfaces/dsi_studio.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "qsiprep/qsiprep/interfaces/dsi_studio.py",
+        "class_name": "DSIStudioCommandLineInputSpec",
+        "method_name": null,
+        "line_number": 27,
+        "evidence": [
+          "Class name suggests Command: DSIStudioCommandLineInputSpec"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 20,
+    "total_functions": 3,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "qsiprep/qsiprep/interfaces/freesurfer.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "qsiprep/qsiprep/interfaces/freesurfer.py",
+        "class_name": "StructuralReference",
+        "method_name": "cmdline",
+        "line_number": 71,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "qsiprep/qsiprep/interfaces/freesurfer.py",
+        "class_name": "SynthStrip",
+        "method_name": "_num_threads_update",
+        "line_number": 180,
+        "evidence": [
+          "Observer method detected: _num_threads_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "qsiprep/qsiprep/interfaces/freesurfer.py",
+        "class_name": "SynthSeg",
+        "method_name": "_num_threads_update",
+        "line_number": 271,
+        "evidence": [
+          "Observer method detected: _num_threads_update"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 14,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Observer": 2
+    }
+  },
+  {
+    "file_path": "qsiprep/qsiprep/interfaces/tortoise.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Observer",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "qsiprep/qsiprep/interfaces/tortoise.py",
+        "class_name": "TORTOISECommandLine",
+        "method_name": "_num_threads_update",
+        "line_number": 75,
+        "evidence": [
+          "Observer method detected: _num_threads_update"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.65,
+        "location": "qsiprep/qsiprep/interfaces/tortoise.py",
+        "class_name": "TORTOISECommandLine",
+        "method_name": null,
+        "line_number": 55,
+        "evidence": [
+          "Class name suggests Command: TORTOISECommandLine"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 17,
+    "total_functions": 4,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Observer": 1,
+      "Command": 1
+    }
+  },
+  {
+    "file_path": "qsiprep/qsiprep/interfaces/utils.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "qsiprep/qsiprep/interfaces/utils.py",
+        "class_name": "ConcatAffines",
+        "method_name": "_get_names",
+        "line_number": 128,
+        "evidence": [
+          "Method uses decorators: ['staticmethod']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 8,
+    "total_functions": 2,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "qsiprep/qsiprep/utils/brainsuite_shore.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "qsiprep/qsiprep/utils/brainsuite_shore.py",
+        "class_name": "BrainSuiteShoreModel",
+        "method_name": "fit",
+        "line_number": 188,
+        "evidence": [
+          "Method uses decorators: ['multi_voxel_fit']"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "qsiprep/qsiprep/utils/brainsuite_shore.py",
+        "class_name": "BrainSuiteShoreFit",
+        "method_name": "shore_coeff",
+        "line_number": 466,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 9,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 2
+    }
+  },
+  {
+    "file_path": "qsiprep/qsiprep/utils/shm.py",
+    "language": "Python",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.3,
+        "location": "qsiprep/qsiprep/utils/shm.py",
+        "class_name": "SphHarmFit",
+        "method_name": "shape",
+        "line_number": 587,
+        "evidence": [
+          "Method uses decorators: ['property']"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 2,
+    "total_functions": 28,
+    "analysis_depth": "surface",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  }
+]
